@@ -1,22 +1,26 @@
 # tutorials
 
-###clients
-* Create a new client
 
 ###invoicing
-* Creating a new invoice
-* Editing an invoice
-* Deleting an invoice
-* Sending an invoice
+* Creating and sending your first invoice
+    * Invoicing conventions
+    * Invoice emails
+    * Knowing if you got paid
+    * Knowing if your client viewed your invoice
+    * Setting up to get paid online
+    * Customizing the invoice
+    * Understanding Credits
+    * Chasing payments
+    * Manually recording payments
+        - Splitting payments amongst invoices
+
 
 ###recurring billing
-* Creating a plan
-* Creating a subscription
-* Editing a subscription
+* Introduction to plans and subscriptions and why you need them
+    * Creating your first plan and subscription
+        - Understanding Subscriptions
+    * Subscription best practices
+    * Automated vs Manual Subscriptions
 
-###online payments
-* Setting Up Online Payments
 
-###reports
-* How to run Reports
 
