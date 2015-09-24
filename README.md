@@ -1,7 +1,7 @@
 # tutorials
 
 
-###invoicing
+###invoicing guide
 * Creating and sending your first invoice
     * Invoicing conventions
     * Invoice emails
@@ -15,7 +15,7 @@
         - Splitting payments amongst invoices
 
 
-###recurring billing
+###recurring billing guide
 * Introduction to plans and subscriptions and why you need them
     * Creating your first plan and subscription
         - Understanding Subscriptions
