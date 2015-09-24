@@ -5,6 +5,7 @@
 * Creating and sending your first invoice
     * Invoicing conventions
     * Invoice emails
+    * Invoice status
     * Searching for Invoices
     * Filtering Invoices
     * Knowing if you got paid
@@ -13,6 +14,7 @@
     * Customizing the invoice
     * Understanding Credits
     * Chasing payments
+    * Invoice portal - file attachments and comments
     * Manually recording payments
         - Splitting payments amongst invoices
 
