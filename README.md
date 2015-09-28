@@ -3,6 +3,7 @@
 <!-- Start creating guide and go over each and every feature
 -->
 * [Invoicing Guide](#invoice-guide)
+  + Test
 * [Recurring Billing Guide](#recurring-billing-guide)
 
 ###<a name="invoice-guide"></a> Invoicing Guide
