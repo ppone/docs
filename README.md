@@ -1,17 +1,22 @@
-# Tutorials
+# Guides
 
 <!-- Start creating guide and go over each and every feature
 -->
+* [Invoicing Guide](#invoice-guide)
+* [Recurring Guide](#recurring-billing-guide)
 
-###Invoicing Guide
+###<a name="invoice-guide"></a> Invoicing Guide
 
 ####Creating and sending your first invoice
-After you signed up Invoiced lets you create invoices in a simple manner.
-Simply click on the `+` symbol next to Invoices.  This will create an empty invoice where you can fill out the values.
+After you signed up, Invoiced lets you create invoices in a simple manner. From the Dashboard view simply click on the `+` symbol next to Invoices.  
 
 ![First Screenshot](imgs/screen1.png)
 
-First you want to enter in the client.  You can click this to do so. 
+This will create an empty invoice where you can fill out the values.
+
+![First Screenshot](imgs/screen2.png)
+
+The first field in the invoice that you should fill out is the `Bill To:` field.  This field will let you 
 
 Make sure you have the date set.
 
@@ -58,7 +63,7 @@ Sometime you may want to attach a document to your invoice.  Invoice lets you do
         - Splitting payments amongst invoices - Sometimes you would like to apply a payment to more than 1 invoice.  We let you do that.  
 
 
-###recurring billing guide
+###<a name="recurring-billing-guide"></a>Recurring Billing Guide
 * Introduction to plans and subscriptions and why you need them
     * Creating your first plan and subscription
         - Understanding Subscriptions
