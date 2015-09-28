@@ -26,11 +26,17 @@ In the context above lets add a client name **Ben Bitdiddle**.  We first search 
 
 Since Ben is not in the system we simply click on `Add Ben as a new client`.  The below modal should popup in the app. 
 
-![Client Field Modal](imgs/screen4.png)
-
 #####<a name="fill-in-client-information"></a>Filling in Client Information
 
-You will want to make sure you enter your client's full name and e-mail address correctly.  The email address for your is especially important as the system uses it for sending the invoice.
+![Client Field Modal](imgs/screen4.png)
+
+#####Description of Client Fields
+
+The `Name` field you want to make sure you enter your client's full name in correctly.  
+
+The `Client Number` is a auto-incremented field and you do not need to do anything to it unless you want a custom client numbering system.
+
+The `Email` field is an important field used by the system to send the invoice; please make sure it is entered correctly as well.
 
 
 Make sure you have the date set.
