@@ -6,6 +6,7 @@
    * [Creating and sending your first invoice](#create-send-invoice) 
       * [Filling in Client Information](#fill-in-client-information)
 * [Recurring Billing Guide](#recurring-billing-guide)
+* Advanced Customizations And Settings
 
 ###<a name="invoice-guide"></a> Invoicing Guide
 
