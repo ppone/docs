@@ -3,12 +3,12 @@
 <!-- Start creating guide and go over each and every feature
 -->
 * [Invoicing Guide](#invoice-guide)
-  + Test
+  * [Creating and sending your first invoice](#create-send-invoice)
 * [Recurring Billing Guide](#recurring-billing-guide)
 
 ###<a name="invoice-guide"></a> Invoicing Guide
 
-####Creating and sending your first invoice
+####<a name="create-send-invoice"></a>Creating and sending your first invoice
 After you signed up, Invoiced lets you create invoices in a simple manner. From the Dashboard view simply click on the `+` symbol next to Invoices.  
 
 ![Creating an invoice](imgs/screen1.png)
