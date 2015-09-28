@@ -3,7 +3,8 @@
 <!-- Start creating guide and go over each and every feature
 -->
 * [Invoicing Guide](#invoice-guide)
-  * [Creating and sending your first invoice](#create-send-invoice)
+   * [Creating and sending your first invoice](#create-send-invoice) 
+      * [Filling in Client Information](#fill-in-client-information)
 * [Recurring Billing Guide](#recurring-billing-guide)
 
 ###<a name="invoice-guide"></a> Invoicing Guide
@@ -21,9 +22,16 @@ The first field in the invoice that you should fill out is the `Bill To:` field.
 
 ![Client Field](imgs/screen3.png)
 
-In the context above lets add a client name Ben Bitdiddle.  We first search for Ben and if he cannot be found the system gives us an option to add him.
+In the context above lets add a client name **Ben Bitdiddle**.  We first search for Ben and if he cannot be found the system gives us an option to add him.
 
-Since Ben is not in the system we simply click on `Add Ben as a new client`  
+Since Ben is not in the system we simply click on `Add Ben as a new client`.  The below modal should popup in the app. 
+
+![Client Field Modal](imgs/screen4.png)
+
+#####<a name="fill-in-client-information"></a>Filling in Client Information
+
+You will want to make sure you enter your client's full name and e-mail address correctly.  The email address for your is especially important as the system uses it for sending the invoice.
+
 
 Make sure you have the date set.
 
