@@ -3,20 +3,26 @@
 <!-- Start creating guide and go over each and every feature
 -->
 * [Invoicing Guide](#invoice-guide)
-* [Recurring Guide](#recurring-billing-guide)
+* [Recurring Billing Guide](#recurring-billing-guide)
 
 ###<a name="invoice-guide"></a> Invoicing Guide
 
 ####Creating and sending your first invoice
 After you signed up, Invoiced lets you create invoices in a simple manner. From the Dashboard view simply click on the `+` symbol next to Invoices.  
 
-![First Screenshot](imgs/screen1.png)
+![Creating an invoice](imgs/screen1.png)
 
 This will create an empty invoice where you can fill out the values.
 
-![First Screenshot](imgs/screen2.png)
+![Empty Invoice](imgs/screen2.png)
 
-The first field in the invoice that you should fill out is the `Bill To:` field.  This field will let you 
+The first field in the invoice that you should fill out is the `Bill To:` field.  This field will let you assign a existing client or create a new client.
+
+![Client Field](imgs/screen3.png)
+
+In the context above lets add a client name Ben Bitdiddle.  We first search for Ben and if he cannot be found the system gives us an option to add him.
+
+Since Ben is not in the system we simply click on `Add Ben as a new client`  
 
 Make sure you have the date set.
 
