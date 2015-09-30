@@ -6,7 +6,8 @@
    * [Creating and sending your first invoice](#create-send-invoice) 
       * [Filling in Client Information](#fill-in-client-information)
 * [Recurring Billing Guide](#recurring-billing-guide)
-* Advanced Customizations And Settings
+* [Advanced Customizations And Settings](#advanced-customizations-settings)
+   * [Online Payments](#online-payments)
 
 ###<a name="invoice-guide"></a> Invoicing Guide
 
@@ -35,9 +36,38 @@ Since Ben is not in the system we simply click on `Add Ben as a new client`.  Th
 
 The `Name` field you want to make sure you enter your client's full name in correctly.  
 
-The `Client Number` is a auto-incremented field and you do not need to do anything to it unless you want a custom client numbering system.
+`Client Number` is a auto-incremented field and you do not need to do anything to it unless you want a custom client numbering system.
 
-The `Email` field is an important field used by the system to send the invoice; please make sure it is entered correctly as well.
+`Email` field is an important field used by the system to send the invoice; please make sure it is entered correctly as well.
+
+`Collection Mode` lets your specifiy whether Invoiced should automatically charge the client per Invoice/Subscription or have them pay manually.  Note: You will only see the collection mode option is you have online payments enabled.  
+
+<!-- add more to collection mode -->
+
+`Payment Terms` are the terms that specifiy when the payment on the invoice is due.  For `NET 7` means that payment should be due within 7 days of recepit. For `NET 14` means that payment should be due within 14 days of recepit. For `NET 30` means that payment should be due within 30 days of recepit.  You can define any custom term by directly inputing it into the input box.
+
+`Address` lets you enter the address of your client.
+
+Invoiced validates your clients address so you can know if the address you entered is valid or not.  Usually green check mark against Address 1, City, State, Zip, County will indicate if the address is valid.  
+
+The below is a valid address. 
+
+![Client Field Address Modal](imgs/screen5.png)
+
+The following 2 are both invalid addresses with a `?` or `x` next to address 1.  Any part of the address including Address 1/2, City, State, Zip, County could cause it to be invalid.
+
+![Client Field Invalid Address 1 Modal](imgs/address-invalid-1.png)
+
+![Client Field Invalid Address 2 Modal](imgs/address-invalid-2.png)
+
+
+`More options` lets you enter your client's phone number, website, and notes.
+
+
+
+
+
+
 
 
 Make sure you have the date set.
@@ -94,6 +124,8 @@ Sometime you may want to attach a document to your invoice.  Invoice lets you do
     * Canceling subscriptions
     * Automated vs Manual Subscriptions
         - Client Collection modes
+
+###a name="recurring-billing-guide"></a>Recurring Billing Guide
 
 
 
