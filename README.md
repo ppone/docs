@@ -32,7 +32,7 @@ Since Ben is not in the system we simply click on `Add Ben as a new client`.  Th
 
 ![Client Field Modal](imgs/screen4.png)
 
-######Description of Client Fields
+**Description of Client Fields**
 
 The `Name` field you want to make sure you enter your client's full name in correctly.  
 
