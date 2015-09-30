@@ -44,6 +44,8 @@ The `Name` field you want to make sure you enter your client's full name in corr
 
 `Automatic` lets you enter a payment source, generally your customer's credit card information.  
 
+**Adding a payment source**
+
 To enter a payment source simply check the `Add Card` and than add your client's relevant credit card information.
 
 ![Client Field Automatic Enablement](imgs/client-automatic-enablement.png)
