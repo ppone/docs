@@ -42,6 +42,16 @@ The `Name` field you want to make sure you enter your client's full name in corr
 
 `Collection Mode` lets your specifiy whether Invoiced should automatically charge the client per Invoice/Subscription or have them pay manually.  Note: You will only see the collection mode option is you have online payments enabled.  
 
+`Automatic` lets you enter a payment source, generally your customer's credit card information.  
+
+To enter a payment source simply check the `Add Card` and than add your client's relevant credit card information.
+
+![Client Field Automatic Enablement](imgs/client-automatic-enablement.png)
+
+With `Automatic` set you are now ready to automatically collect money when you invoice them or subscripe them to a subscription (recurring billing).
+
+`Manual` is the default behaviour and it now becomes up to your customer to pay you online.
+
 <!-- add more to collection mode -->
 
 `Payment Terms` are the terms that specifiy when the payment on the invoice is due.  For `NET 7` means that payment should be due within 7 days of recepit. For `NET 14` means that payment should be due within 14 days of recepit. For `NET 30` means that payment should be due within 30 days of recepit.  You can define any custom term by directly inputing it into the input box.
