@@ -146,7 +146,7 @@ You can change both the `Prefix`, `Next Number` in `Invoice Number` and `Client 
 
 These settings can be found in  *Settings->Business Profile under the section Automatic Numbering*.
 
-![Automatic Numbering Settings](imgs/client-automatic-enablement.png)
+![Automatic Numbering Settings](imgs/automatic-numbering.png)
 
 
 
