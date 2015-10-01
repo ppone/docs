@@ -7,6 +7,8 @@
       * [Filling in Client Information](#fill-in-client-information)
 * [Recurring Billing Guide](#recurring-billing-guide)
 * [Advanced Customizations And Settings](#advanced-customizations-settings)
+   * [Changing Invoice Numbers](#invoice-numbers)
+   * [Changing Look And Feel of Invoices](#invoice-template-customization)
    * [Online Payments](#online-payments)
 
 ###<a name="invoice-guide"></a> Invoicing Guide
@@ -40,7 +42,9 @@ The `Name` field you want to make sure you enter your client's full name in corr
 
 `Email` field is an important field used by the system to send the invoice; please make sure it is entered correctly as well.
 
-`Collection Mode` lets your specifiy whether Invoiced should automatically charge the client per Invoice/Subscription or have them pay manually.  Note: You will only see the collection mode option is you have online payments enabled.  
+`Collection Mode` lets you pick between `Automatic` and `Manual`.  Basically you are specifying whether to automatically collect payment or manually collect payment.  Note: You will only see the collection mode option is you have online payments enabled, else the system will default to `Manual`.  
+
+`Manual` is the default behaviour and it now becomes up to your customer to pay you online.
 
 `Automatic` lets you enter a payment source, generally your customer's credit card information.  
 
@@ -52,11 +56,7 @@ To enter a payment source simply check the `Add Card` and than add your client's
 
 With `Automatic` set you are now ready to automatically collect money when you invoice them or subscripe them to a subscription (recurring billing).
 
-`Manual` is the default behaviour and it now becomes up to your customer to pay you online.
-
-<!-- add more to collection mode -->
-
-`Payment Terms` are the terms that specifiy when the payment on the invoice is due.  For `NET 7` means that payment should be due within 7 days of recepit. For `NET 14` means that payment should be due within 14 days of recepit. For `NET 30` means that payment should be due within 30 days of recepit.  You can define any custom term by directly inputing it into the input box.
+`Payment Terms` are the terms that specifiy when the payment on the invoice is due.  `NET 7` means that payment should be due within 7 days of receipt. For `NET 14` means that payment should be due within 14 days of receipt. `NET 30` means that payment should be due within 30 days of receipt.  You can define any custom term by directly inputing it into the input box.
 
 `Address` lets you enter the address of your client.
 
@@ -75,11 +75,7 @@ The following 2 are both invalid addresses with a `?` or `x` next to address 1. 
 
 `More options` lets you enter your client's phone number, website, and notes.
 
-
-
-
-
-
+`Notes` lets you enter any additional information about your client
 
 
 Make sure you have the date set.
@@ -137,7 +133,23 @@ Sometime you may want to attach a document to your invoice.  Invoice lets you do
     * Automated vs Manual Subscriptions
         - Client Collection modes
 
-###a name="recurring-billing-guide"></a>Recurring Billing Guide
+###<a name="advanced-customizations-settings"></a>Advanced Customizations And Settings
+
+
+####<a name="invoice-numbers"></a>Changing Automatic Invoice and Client Numbers
+
+Invoiced automatically increments and assigns an invoice, as well as client numbers.  A `Invoice Number` (identifier for invoice) or `Client Number` (identifier for client) is comprised of a `Prefix` along with a numeric `Next Number`.  
+
+The system increments `Next Number`  to  `Next Number`+ 1 on every new invoice or client (note: `Invoice Number` and `Client Number` increment independently and do not share the `Next Number`, they both have their own copies).
+
+You can change both the `Prefix`, `Next Number` in `Invoice Number` and `Client Number`
+
+These settings can be found in  *Settings->Business Profile under the section Automatic Numbering*.
+
+![Automatic Numbering Settings](imgs/client-automatic-enablement.png)
+
+
+
 
 
 
