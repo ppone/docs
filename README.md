@@ -77,8 +77,13 @@ The following 2 are both invalid addresses with a `?` or `x` next to address 1. 
 
 `Notes` lets you enter any additional information about your client
 
+Continuing on with the invoice fields
 
-Make sure you have the date set.
+`Invoice Number` this field tells you the identifier for the invoice.  You can optionally edit it, however the system assigns automatically assigns a number for every new invoice.
+
+To edit the automatic generation of the `Invoice Number`, see [Changing Invoice Numbers](#invoice-numbers).
+
+![Invoice Numbers](imgs/invoice-number.png)
 
 Notes: Any notes that you have regarding your invoice
 
