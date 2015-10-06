@@ -215,9 +215,9 @@ These settings can be found in  **Settings->Business Profile under the section A
 
 ---
 ####<a name="invoice-chasing"></a>Invoice Chasing
-Invoiced can chase outstanding invoices by sending reminders to your clients automatically according to the schedule you specify. Chasing is enabled on a per-invoice basis.
+Invoiced can chase outstanding invoices by sending reminders to your clients automatically according to the schedule you specify. *Chasing is enabled on a per-invoice basis*.
 
-Note: chasing replaces the previous late payment reminders feature and is now opt-in.
+![Invoice Options](imgs/settings-chasing.png)
 
 **Chase Schedules**
 
