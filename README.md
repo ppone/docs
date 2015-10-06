@@ -13,11 +13,14 @@
         * [Notes](#invoice-field-notes)
         * [Terms](#invoice-field-terms)
         * [File Attachments](#invoice-field-file-attachments)
+      * [Invoice Options] (#invoice-options)
 * [Recurring Billing Guide](#recurring-billing-guide)
 * [Advanced Customizations And Settings](#advanced-customizations-settings)
    * [Changing Invoice Numbers](#invoice-numbers)
    * [Changing Look And Feel of Invoices](#invoice-template-customization)
    * [Online Payments](#online-payments)
+   * [Invoice Chasing](#invoice-chasing)
+   * 
 
 ###<a name="invoice-guide"></a> Invoicing Guide
 
@@ -131,7 +134,23 @@ To edit the automatic generation of the `Invoice Number`, see [Changing Invoice 
 
 ![Invoice Field Attachments](imgs/invoice-field-attachments-modal.png)
 
+---
+#####<a name="invoice-fields"></a>Invoice Options
 
+Invoice `Options` allows you to change invoice specific settings.  It is applicable only towards the invoice.  
+
+![Invoice Options](imgs/invoice-options.png)
+
+**Invoice Option Fields**
+
+`Title` lets you change the title of the invoice.
+
+`Currency` lets you change the currency the invoice is denoted in.
+
+`Chasing` enables invoice chasing.  To learn more about chasing please go here.
+
+`Allowed Payments` lets you disable any payments for this invoice only.  
+---
 
 * Invoicing conventions
 
