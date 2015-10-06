@@ -4,7 +4,11 @@
 -->
 * [Invoicing Guide](#invoice-guide)
    * [Creating and sending your first invoice](#create-send-invoice) 
-      * [Filling in Client Information](#fill-in-client-information)
+      * [Invoice Fields](#invoice-fields)
+        * [Bill To](#invoice-field-bill-to)
+          * [Filling in Client Information](#fill-in-client-information)
+        * [Invoice Number](#invoice-field-number)
+        * [Invoice Date](#invoice-field-date)
 * [Recurring Billing Guide](#recurring-billing-guide)
 * [Advanced Customizations And Settings](#advanced-customizations-settings)
    * [Changing Invoice Numbers](#invoice-numbers)
@@ -23,14 +27,16 @@ This will create an empty invoice where you can fill out the values.
 ![Empty Invoice](imgs/screen2.png)
 
 ---
-The first field in the invoice that you should fill out is the `Bill To:` field.  This field will let you assign a existing client or create a new client.
+#####<a name="invoice-fields"></a>Invoice Fields
+
+<a name="invoice-field-bill-to"></a>`Bill To:` field.  This field will let you assign a existing client or create a new client.
 
 ![Client Field](imgs/screen3.png)
 
 In the context above lets add a client name **Ben Bitdiddle**.  We first search for Ben and if he cannot be found the system gives us an option to add him.
 
 Since Ben is not in the system we simply click on `Add Ben as a new client`.  The below modal should popup in the app. 
-
+---
 #####<a name="fill-in-client-information"></a>Filling in Client Information
 
 ![Client Field Modal](imgs/screen4.png)
@@ -78,17 +84,18 @@ The following 2 are both invalid addresses with a `?` or `x` next to address 1. 
 
 `Notes` lets you enter any additional information about your client
 
+---
 ####Continuing on with the invoice fields
 
 ---
-`Invoice Number` this field tells you the identifier for the invoice.  You can optionally edit it, however the system assigns automatically assigns a number for every new invoice.
+<a name="invoice-field-number"></a>`Invoice Number` this field tells you the identifier for the invoice.  You can optionally edit it, however the system assigns automatically assigns a number for every new invoice.
 
 ![Invoice Numbers](imgs/invoice-field-number.png)
 
 To edit the automatic generation of the `Invoice Number`, see [Changing Invoice Numbers](#invoice-numbers).
 
 ---
-`Date` The date that the invoice is issued
+<a name="invoice-field-date"></a>`Date` The date that the invoice is issued
 
 ![Invoice Field Date](imgs/invoice-field-date.png)
 
