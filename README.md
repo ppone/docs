@@ -213,6 +213,41 @@ You can change both the `Prefix`, `Next Number` in `Invoice Number` and `Client 
 
 These settings can be found in  **Settings->Business Profile under the section Automatic Numbering**.
 
+####<a name="invoice-chasing"></a>Invoice Chasing
+Invoiced can chase outstanding invoices by sending reminders to your clients automatically according to the schedule you specify. Chasing is enabled on a per-invoice basis.
+
+Note: chasing replaces the previous late payment reminders feature and is now opt-in.
+
+**Chase Schedules**
+
+You must specify the schedule that you want your invoices to be chased with. We will stop chasing an invoice once the schedule is finished or when the invoice is paid or closed.
+
+Schedules are defined as a series of steps each specifying the number of days relative to the invoice due date when a reminder should be sent. Chase schedules can also have a repeater at the end that sends reminders every X days until the invoice is paid/closed.
+
+We only chase invoices that meet the following criteria:
+
+Allow Chasing in Settings > Chasing is on
+Chasing is enabled for the invoice
+The invoice has a due date
+ 
+Steps to set up invoice chasing:
+
+1. Sign in to the web app at invoiced.com.
+
+2. Go to the Settings section in the left sidebar of the app.
+
+3. Click on Chasing in the Invoicing section.
+
+4. Enable chasing by flipping the Allow Chasing toggle to on
+
+5. Set up your chasing schedule by adding steps for chasing invoices. You can remove existing steps or add new ones easily. We will automatically sort the schedule for you.
+
+6. Click Save. Chasing is now enabled for your account but you still need to enable chasing for individual invoices.
+
+7. Open the invoice you want to chase and click Enable where it says "Chase: No" under the Invoice Details section. Your invoice will now be chased according to the schedule you set up. The next chase date will be shown in the Invoice Details section.
+
+Note: if you want chasing enabled by default when drafting new invoices then you can create a Template, turn on chasing for that template, and make it the default.
+
 
 
 
