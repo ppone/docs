@@ -77,8 +77,9 @@ The following 2 are both invalid addresses with a `?` or `x` next to address 1. 
 
 `Notes` lets you enter any additional information about your client
 
-Continuing on with the invoice fields
+####Continuing on with the invoice fields
 
+---
 `Invoice Number` this field tells you the identifier for the invoice.  You can optionally edit it, however the system assigns automatically assigns a number for every new invoice.
 
 ![Invoice Numbers](imgs/invoice-field-number.png)
@@ -116,7 +117,7 @@ To edit the automatic generation of the `Invoice Number`, see [Changing Invoice 
 ![Invoice Field Attachments](imgs/invoice-field-attachments.png)
 
 ![Invoice Field Attachments](imgs/invoice-field-attachments-modal.png)
----
+
 
 
 * Invoicing conventions
