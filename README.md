@@ -22,6 +22,7 @@ This will create an empty invoice where you can fill out the values.
 
 ![Empty Invoice](imgs/screen2.png)
 
+---
 The first field in the invoice that you should fill out is the `Bill To:` field.  This field will let you assign a existing client or create a new client.
 
 ![Client Field](imgs/screen3.png)
