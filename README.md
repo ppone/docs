@@ -200,7 +200,7 @@ Sometime you may want to attach a document to your invoice.  Invoice lets you do
 
 ###<a name="advanced-customizations-settings"></a>Advanced Customizations And Settings
 
-
+---
 ####<a name="invoice-numbers"></a>Changing Automatic Invoice and Client Numbers
 
 Invoiced automatically increments and assigns an invoice, as well as client numbers.  A `Invoice Number` (identifier for invoice) or `Client Number` (identifier for client) is comprised of a `Prefix` along with a numeric `Next Number`.  
@@ -213,6 +213,7 @@ You can change both the `Prefix`, `Next Number` in `Invoice Number` and `Client 
 
 These settings can be found in  **Settings->Business Profile under the section Automatic Numbering**.
 
+---
 ####<a name="invoice-chasing"></a>Invoice Chasing
 Invoiced can chase outstanding invoices by sending reminders to your clients automatically according to the schedule you specify. Chasing is enabled on a per-invoice basis.
 
