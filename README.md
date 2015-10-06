@@ -147,7 +147,7 @@ Invoice `Options` allows you to change invoice specific settings.  It is applica
 
 `Currency` lets you change the currency the invoice is denoted in.
 
-`Chasing` enables invoice chasing.  To learn more about chasing please go here.
+`Chasing` enables invoice chasing for the invoice.  To learn more about chasing please and how to enable a schedule for it please go [here](#invoice-chasing).
 
 `Allowed Payments` lets you disable any payments for this invoice only.  
 ---
