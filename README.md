@@ -36,6 +36,7 @@ This will create an empty invoice where you can fill out the values.
 In the context above lets add a client name **Ben Bitdiddle**.  We first search for Ben and if he cannot be found the system gives us an option to add him.
 
 Since Ben is not in the system we simply click on `Add Ben as a new client`.  The below modal should popup in the app. 
+
 ---
 #####<a name="fill-in-client-information"></a>Filling in Client Information
 
