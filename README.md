@@ -81,16 +81,16 @@ Continuing on with the invoice fields
 
 `Invoice Number` this field tells you the identifier for the invoice.  You can optionally edit it, however the system assigns automatically assigns a number for every new invoice.
 
-![Invoice Numbers](imgs/invoice-number.png)
+![Invoice Numbers](imgs/invoice-field-number.png)
 
 To edit the automatic generation of the `Invoice Number`, see [Changing Invoice Numbers](#invoice-numbers).
----
 
+---
 `Date` The date that the invoice is issued
 
 ![Invoice Field Date](imgs/invoice-field-date.png)
----
 
+---
 `Line Items` these are at the heart of the invoice.  They specificy the product/service (`Item`), quantity (`Quantity`), rate (`Rate`), and calculated amount (`Amount`) you are invoicing for.  You can also specify the `Line Discount`, `Line Tax`, and Detailed Descriptoin for the line item.
 
 ![Invoice Field Line Items](imgs/invoice-field-line-items.png)
@@ -99,18 +99,18 @@ To edit the automatic generation of the `Invoice Number`, see [Changing Invoice 
 `Line Discount` lets you add a discount to the line
 
 `Line Tax` lets you add a tax to the line.
----
 
+---
 `Notes`: Any notes that you have regarding your invoice
 
 ![Invoice Field Notes](imgs/invoice-field-notes.png)
----
 
+---
 `Terms`: which are just ways to specify any terms that you have on your invoice.
 
 ![Invoice Field Terms](imgs/invoice-field-terms.png)
----
 
+---
 `Attachments`: allow you attach a file from you local computer, Dropbox, Box, Google Drive, Gmail, OneDrive, Amazon Cloud Drive, CloudApp, Link(URL)
 
 ![Invoice Field Attachments](imgs/invoice-field-attachments.png)
