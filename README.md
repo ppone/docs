@@ -4,7 +4,7 @@
 -->
 * [Invoicing Guide](#invoice-guide)
    * [Creating and sending your first invoice](#create-send-invoice) 
-      * [Invoice Fields](#invoice-fields)
+      * [Fields](#invoice-fields)
         * [Bill To](#invoice-field-bill-to)
           * [Filling in Client Information](#fill-in-client-information)
         * [Number](#invoice-field-number)
@@ -13,8 +13,17 @@
         * [Notes](#invoice-field-notes)
         * [Terms](#invoice-field-terms)
         * [File Attachments](#invoice-field-file-attachments)
-      * [Invoice Options] (#invoice-options)
+      * [Options] (#invoice-options)
+      * [View](#invoice-view)
+        * [Filtering](#invoice-view-filtering)
+        * [Legend](#invoice-view-legend)
+      * [Searching](#invoice-searching)
+      * [Importing](#invoice-importing)
 * [Recurring Billing Guide](#recurring-billing-guide)
+  * [Plans]
+    * [Subscriptions]
+  * [Views]
+  * [Advanced]
 * [Advanced Customizations And Settings](#advanced-customizations-settings)
    * [Changing Invoice Numbers](#invoice-numbers)
    * [Changing Look And Feel of Invoices](#invoice-template-customization)
