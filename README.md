@@ -7,8 +7,12 @@
       * [Invoice Fields](#invoice-fields)
         * [Bill To](#invoice-field-bill-to)
           * [Filling in Client Information](#fill-in-client-information)
-        * [Invoice Number](#invoice-field-number)
-        * [Invoice Date](#invoice-field-date)
+        * [Number](#invoice-field-number)
+        * [Date](#invoice-field-date)
+        * [Line Items](#invoice-field-line-items)
+        * [Notes](#invoice-notes)
+        * [Terms](#invoice-terms)
+        * [File Attachments](#invoice-file-attachments)
 * [Recurring Billing Guide](#recurring-billing-guide)
 * [Advanced Customizations And Settings](#advanced-customizations-settings)
    * [Changing Invoice Numbers](#invoice-numbers)
@@ -101,7 +105,7 @@ To edit the automatic generation of the `Invoice Number`, see [Changing Invoice 
 ![Invoice Field Date](imgs/invoice-field-date.png)
 
 ---
-`Line Items` these are at the heart of the invoice.  They specificy the product/service (`Item`), quantity (`Quantity`), rate (`Rate`), and calculated amount (`Amount`) you are invoicing for.  You can also specify the `Line Discount`, `Line Tax`, and Detailed Descriptoin for the line item.
+<a name="invoice-field-line-items"></a>`Line Items` these are at the heart of the invoice.  They specificy the product/service (`Item`), quantity (`Quantity`), rate (`Rate`), and calculated amount (`Amount`) you are invoicing for.  You can also specify the `Line Discount`, `Line Tax`, and Detailed Descriptoin for the line item.
 
 ![Invoice Field Line Items](imgs/invoice-field-line-items.png)
 
@@ -111,17 +115,17 @@ To edit the automatic generation of the `Invoice Number`, see [Changing Invoice 
 `Line Tax` lets you add a tax to the line.
 
 ---
-`Notes`: Any notes that you have regarding your invoice
+<a name="invoice-field-notes"></a>`Notes`: Any notes that you have regarding your invoice
 
 ![Invoice Field Notes](imgs/invoice-field-notes.png)
 
 ---
-`Terms`: which are just ways to specify any terms that you have on your invoice.
+<a name="invoice-field-terms"></a>`Terms`: which are just ways to specify any terms that you have on your invoice.
 
 ![Invoice Field Terms](imgs/invoice-field-terms.png)
 
 ---
-`Attachments`: allow you attach a file from you local computer, Dropbox, Box, Google Drive, Gmail, OneDrive, Amazon Cloud Drive, CloudApp, Link(URL)
+<a name="invoice-field-file-attachments"></a>`Attachments`: allow you attach a file from you local computer, Dropbox, Box, Google Drive, Gmail, OneDrive, Amazon Cloud Drive, CloudApp, Link(URL)
 
 ![Invoice Field Attachments](imgs/invoice-field-attachments.png)
 
