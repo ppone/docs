@@ -85,11 +85,33 @@ To edit the automatic generation of the `Invoice Number`, see [Changing Invoice 
 
 ![Invoice Numbers](imgs/invoice-number.png)
 
-Notes: Any notes that you have regarding your invoice
+`Date` The date that the invoice is issued
 
-Set your Terms: which are just ways to specify any terms that you have on your invoice.
+![Invoice Field Date](imgs/invoice-field-date.png)
 
-Line item tells which product or service you want to get paid.  You will definately want to enter that. You want to add the unit cost and quantity to it.
+`Line Items` these are at the heart of the invoice.  They specificy the product/service (`Item`), quantity (`Quantity`), rate (`Rate`), and calculated amount (`Amount`) you are invoicing for.  You can also specify the `Line Discount`, `Line Tax`, and Detailed Descriptoin for the line item.
+
+![Invoice Field Line Items](imgs/invoice-field-line-items.png)
+
+`Line Descripton` lets you specify in more detail the line
+`Line Discount` lets you add a discount to the line
+
+`Line Tax` lets you add a tax to the line.
+
+`Notes`: Any notes that you have regarding your invoice
+
+![Invoice Field Notes](imgs/invoice-field-notes.png)
+
+`Terms`: which are just ways to specify any terms that you have on your invoice.
+
+![Invoice Field Terms](imgs/invoice-field-terms.png)
+
+`Attachments`: allow you attach a file from you local computer, Dropbox, Box, Google Drive, Gmail, OneDrive, Amazon Cloud Drive, CloudApp, Link(URL)
+
+![Invoice Field Attachments](imgs/invoice-field-attachments.png)
+
+![Invoice Field Attachments](imgs/invoice-field-attachments-modal.png)
+
 
 
 * Invoicing conventions
@@ -145,13 +167,15 @@ Sometime you may want to attach a document to your invoice.  Invoice lets you do
 
 Invoiced automatically increments and assigns an invoice, as well as client numbers.  A `Invoice Number` (identifier for invoice) or `Client Number` (identifier for client) is comprised of a `Prefix` along with a numeric `Next Number`.  
 
+![Automatic Numbering Settings](imgs/automatic-numbering.png)
+
 The system increments `Next Number`  to  `Next Number`+ 1 on every new invoice or client (note: `Invoice Number` and `Client Number` increment independently and do not share the `Next Number`, they both have their own copies).
 
 You can change both the `Prefix`, `Next Number` in `Invoice Number` and `Client Number`
 
-These settings can be found in  *Settings->Business Profile under the section Automatic Numbering*.
+These settings can be found in  **Settings->Business Profile under the section Automatic Numbering**.
 
-![Automatic Numbering Settings](imgs/automatic-numbering.png)
+
 
 
 
