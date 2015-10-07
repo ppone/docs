@@ -59,7 +59,7 @@
    * [Changing Look And Feel of Invoices](#advancedinvoice-template-customization)
    * [Online Payments](#advanced-online-payments)
      *  [Stripe](advanced-online-payments-stripe)
-     *  
+     *  [Paypal](advanced-online-payments-paypal)
    * [Invoice Chasing](#advanced-invoice-chasing)
    * [Notifications](#advanced-invoice-notifications)
 
