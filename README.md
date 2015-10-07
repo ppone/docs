@@ -10,10 +10,18 @@
         * [Number](#invoice-field-number)
         * [Date](#invoice-field-date)
         * [Line Items](#invoice-field-line-items)
+          * [Fields](#invoice-field-line-items-field)
+            * [Item Name]
+            * [Quanity]
+            * [Rate]
+            * [Amount]
+          * [Stored Items](#invoice-field-line-items-stored-items)
+          * [Line Discount](#invoice-field-line-items-line-discount)
+          * [Line Tax](#invoice-field-line-items-line-tax)
         * [Notes](#invoice-field-notes)
         * [Terms](#invoice-field-terms)
         * [File Attachments](#invoice-field-file-attachments)
-    * [Options] (#invoice-options)
+    * [Options](#invoice-options)
     * [Notifications](#invoice-notifications)
     * [View](#invoice-view)
       * [Filtering](#invoice-view-filtering)
@@ -21,16 +29,30 @@
     * [Searching](#invoice-searching)
     * [Importing](#invoice-importing)
 * [Recurring Billing Guide](#recurring-billing-guide)
-  * [Plans]
-    * [Subscriptions]
-  * [Views]
-    *  [Filtering]
-  * [Advanced]
+  * [Plans](#recurring-billing-plan)
+    * [Fields](#recurring-billing-fields)
+      * [Title](#recurring-billing-field-title)
+      * [Amount](#recurring-billing-field-amount)
+      * [Recurs](#recurring-billing-field-recurs)
+      * [Description](#recurring-billing-field-description)
+    * [Subscriptions](#recurring-billing-field-subscriptions)
+      * [Fields](#recurring-billing-field-subscriptions-field)
+        * [Client](#recurring-billing-field-subscriptions-field-client)
+        * [Start Date](#recurring-billing-field-subscriptions-field-start-date)
+        * [Billing Cycle](#recurring-billing-field-subscriptions-field-start-date)
+        * [Quantity](#recurring-billing-field-subscriptions-field-quantity)
+  * [Views](#recurring-billing-views)
+    *  [Filtering](recurring-billing-views-filtering)
+  * [Advanced](recurring-billing-advanced)
+* [Dashboard](#dashboard-guide)
+* [Payments guide](#payments-guide)
 * [Advanced Customizations And Settings](#advanced-customizations-settings)
-   * [Changing Invoice Numbers](#invoice-numbers)
-   * [Changing Look And Feel of Invoices](#invoice-template-customization)
-   * [Online Payments](#online-payments)
-   * [Invoice Chasing](#invoice-chasing)
+   * [Changing Invoice Numbers](#advanced-invoice-numbers)
+   * [Changing Look And Feel of Invoices](#advancedinvoice-template-customization)
+   * [Online Payments](#advanced-online-payments)
+     *  [Stripe](advanced-online-payments-stripe)
+     *  
+   * [Invoice Chasing](#advanced-invoice-chasing)
    * 
 
 ###<a name="invoice-guide"></a> Invoicing Guide
