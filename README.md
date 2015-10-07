@@ -46,6 +46,14 @@
   * [Advanced](recurring-billing-advanced)
 * [Dashboard](#dashboard-guide)
 * [Payments guide](#payments-guide)
+  *[Fields](#payments-guide)
+    * [Received On](#payments-guide-field-received-on)
+    * [Method](#payments-guide-field-method)
+    * [Amount](#payments-guide-field-amount)
+      * [Split Payment](#payments-guide-field-amount-split-payment)
+    * [Invoice](#payments-guide-field-invoice)
+    * [Notes](#payments-guide-field-invoice)
+
 * [Advanced Customizations And Settings](#advanced-customizations-settings)
    * [Changing Invoice Numbers](#advanced-invoice-numbers)
    * [Changing Look And Feel of Invoices](#advancedinvoice-template-customization)
@@ -53,7 +61,7 @@
      *  [Stripe](advanced-online-payments-stripe)
      *  
    * [Invoice Chasing](#advanced-invoice-chasing)
-   * 
+   * [Notifications](#advanced-invoice-notifications)
 
 ###<a name="invoice-guide"></a> Invoicing Guide
 
