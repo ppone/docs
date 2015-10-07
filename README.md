@@ -13,16 +13,18 @@
         * [Notes](#invoice-field-notes)
         * [Terms](#invoice-field-terms)
         * [File Attachments](#invoice-field-file-attachments)
-      * [Options] (#invoice-options)
-      * [View](#invoice-view)
-        * [Filtering](#invoice-view-filtering)
-        * [Legend](#invoice-view-legend)
-      * [Searching](#invoice-searching)
-      * [Importing](#invoice-importing)
+    * [Options] (#invoice-options)
+    * [Notifications](#invoice-notifications)
+    * [View](#invoice-view)
+      * [Filtering](#invoice-view-filtering)
+      * [Legend](#invoice-view-legend)
+    * [Searching](#invoice-searching)
+    * [Importing](#invoice-importing)
 * [Recurring Billing Guide](#recurring-billing-guide)
   * [Plans]
     * [Subscriptions]
   * [Views]
+    *  [Filtering]
   * [Advanced]
 * [Advanced Customizations And Settings](#advanced-customizations-settings)
    * [Changing Invoice Numbers](#invoice-numbers)
