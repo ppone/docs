@@ -3,7 +3,7 @@
 <!-- Start creating guide and go over each and every feature
 -->
 * [Invoicing Guide](#invoice-guide)
-   * [Creating and sending your first invoice](#create-send-invoice) 
+   * [Creating your first invoice](#invoice-create) 
       * [Fields](#invoice-fields)
         * [Bill To](#invoice-field-bill-to)
           * [Filling in Client Information](#fill-in-client-information)
@@ -11,18 +11,27 @@
         * [Date](#invoice-field-date)
         * [Line Items](#invoice-field-line-items)
           * [Fields](#invoice-field-line-items-field)
-            * [Item Name]
-            * [Quanity]
-            * [Rate]
-            * [Amount]
+            * [Item Name](#invoice-field-line-items-field-item-name)
+            * [Quanity](#invoice-field-line-items-field-quantity)
+            * [Rate](#invoice-field-line-items-field-rate)
+            * [Amount](#invoice-field-line-items-field-amount)
           * [Stored Items](#invoice-field-line-items-stored-items)
           * [Line Discount](#invoice-field-line-items-line-discount)
           * [Line Tax](#invoice-field-line-items-line-tax)
         * [Notes](#invoice-field-notes)
         * [Terms](#invoice-field-terms)
         * [File Attachments](#invoice-field-file-attachments)
+    * [Sending your first invoice](#invoice-send)
+    * [Tracking your invoice](#invoice-tracking)
+    * [Adding payments to your invoice](#invoice-payments)
+    * [History](#invoice-history)
+    * [Comments](#invoice-comments)
     * [Options](#invoice-options)
     * [Notifications](#invoice-notifications)
+    * [Client View](#invoice-client-view)
+    * [Close Invoice](#invoice-close)
+    * [Duplicate Invoice](#invoice-duplicate)
+    * [Download as PDF](#invoice-download-pdf)
     * [View](#invoice-view)
       * [Filtering](#invoice-view-filtering)
       * [Legend](#invoice-view-legend)
@@ -62,6 +71,7 @@
      *  [Paypal](advanced-online-payments-paypal)
    * [Invoice Chasing](#advanced-invoice-chasing)
    * [Notifications](#advanced-invoice-notifications)
+   * [Payment Source](#advanced-payment-source)
 
 ###<a name="invoice-guide"></a> Invoicing Guide
 
