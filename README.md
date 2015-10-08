@@ -21,6 +21,8 @@
         * [Notes](#invoice-field-notes)
         * [Terms](#invoice-field-terms)
         * [File Attachments](#invoice-field-file-attachments)
+        * [Discounts](#invoice-field-discounts)
+        * [Taxes](#invoice-field-taxes)
     * [Sending your first invoice](#invoice-send)
     * [Tracking your invoice](#invoice-tracking)
     * [Adding payments to your invoice](#invoice-payments)
@@ -37,6 +39,7 @@
       * [Legend](#invoice-view-legend)
     * [Searching](#invoice-searching)
     * [Importing](#invoice-importing)
+    * [Usage](#invoice-usage)
 * [Recurring Billing Guide](#recurring-billing-guide)
   * [Plans](#recurring-billing-plan)
     * [Fields](#recurring-billing-fields)
@@ -237,6 +240,17 @@ Sometime you may want to attach a document to your invoice.  Invoice lets you do
 
     * Manually recording payments
         - Splitting payments amongst invoices - Sometimes you would like to apply a payment to more than 1 invoice.  We let you do that.  
+
+---
+####<a name="create-invoice-usage"></a>Invoice usage
+
+You can look at your invoice usage from anywhere in your application.  Simply glance invoice usage summary at the bottom left.
+
+![Invoice Usage Summary](imgs/invoice-usage-summary.png)
+
+To see a more detailed view simply click on the usage summary.  
+
+![Invoice Detail Summary](imgs/invoice-usage-detail.png)
 
 
 ###<a name="recurring-billing-guide"></a>Recurring Billing Guide
