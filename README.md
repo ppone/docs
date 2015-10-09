@@ -7,6 +7,7 @@
       * [Fields](#invoice-fields)
         * [Bill To](#invoice-field-bill-to)
           * [Filling in Client Information](#fill-in-client-information)
+          * [Client Information Example](#fill-in-client-information-example)
         * [Number](#invoice-field-number)
         * [Date](#invoice-field-date)
         * [Line Items](#invoice-field-line-items)
@@ -23,6 +24,7 @@
         * [File Attachments](#invoice-field-file-attachments)
         * [Discounts](#invoice-field-discounts)
         * [Taxes](#invoice-field-taxes)
+        * [Example](#invoice-create-example)
     * [Sending your first invoice](#invoice-send)
     * [Tracking your invoice](#invoice-tracking)
       * [Status](#invoice-status)
@@ -108,15 +110,9 @@ Since Ben is not in the system we simply click on `Add Ben as a new client`.  Th
 
 The `Name` field you want to make sure you enter your client's full name in correctly.  
 
-Here we enter in **Ben Bitdiddle**
-
 `Client Number` is a auto-incremented field and you do not need to do anything to it unless you want a custom client numbering system.  Go here to learn more about the customization of this field.
 
-We can leave this field alone has we do need a custom number for Ben.
-
 `Email` field is an important field used by the system to send the invoice; please make sure it is entered correctly as well.
-
-We just enter **ben.bitdiddle@fake-email.com**
 
 `Collection Mode` lets you pick between `Automatic` and `Manual`.  Basically you are specifying whether to automatically collect payment or manually collect payment.  Note: You will only see the collection mode option is you have online payments enabled, else the system will default to `Manual`.  
 
@@ -132,8 +128,6 @@ To enter a payment source simply check the `Add Card` and than add your client's
 
 ![Client Field Automatic Enablement](imgs/client-automatic-enablement.png)
 
-We can simply skip this at this stage since we are doing manual collection.  But in the future if `Ben` decides to give us his credit card for autopayment which add it as a payment source.
-
 With `Automatic` set you are now ready to automatically collect money when you invoice them or subscripe them to a subscription (recurring billing).
 
 `Payment Terms` are the terms that specifiy when the payment on the invoice is due.  `NET 7` means that payment should be due within 7 days of receipt. For `NET 14` means that payment should be due within 14 days of receipt. `NET 30` means that payment should be due within 30 days of receipt.  You can define any custom term by directly inputing it into the input box.
@@ -141,8 +135,6 @@ With `Automatic` set you are now ready to automatically collect money when you i
 We want our payment 7 days after `Ben` gets the invoice.  So let use `NET 7`
 
 `Address` lets you enter the address of your client.
-
-`Ben` Lives at `115 Computer Way, Austin, TX 78742`
 
 Invoiced validates your clients address so you can know if the address you entered is valid or not.  Usually green check mark against Address 1, City, State, Zip, County will indicate if the address is valid.  
 
@@ -157,9 +149,28 @@ The following 2 are both invalid addresses with a `?` or `x` next to address 1. 
 ![Client Field Invalid Address 2 Modal](imgs/address-invalid-2.png)
 
 
-`More options` lets you enter your client's phone number, website, and notes.
+`More options` lets you enter your client's `Phone`, `Other Phone`, `Website`, `Notes`
 
 `Notes` lets you enter any additional information about your client
+
+---
+#####<a name="fill-in-client-information"></a>Filling in Client Information
+Now that we have explained the various fields in the client information.  Let us fill out the information for our client `Ben Bitdiddle`
+
+We entered **Ben Bitdiddle** for the `name`.  
+
+`Client Number` we can leave alone for **Ben** as we do not need anything custom.
+
+`Email` we enter **ben.bitdiddle@fake-email.com**
+
+`Collection Mode` we can keep as `Manual` since we have not entered yet received permission or a credit card number from Ben.  This also means that we do not yet need to add a new payment source.
+
+`Payment Terms` we want to get paid 7 days after Ben received the invoice.  So we will enter `NET 7`
+
+`Address` we enter `1 Infinite Loop, Cupertino, CA 95014`
+
+Since Ben has given his phone number we enter 555-555-5555 for `Phone` and for Notes we enter `Likes to eat at Taco Deli`
+
 
 ---
 ####Continuing on with the invoice fields
