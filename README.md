@@ -16,8 +16,8 @@
             * [Rate](#invoice-field-line-items-field-rate)
             * [Amount](#invoice-field-line-items-field-amount)
           * [Stored Items](#invoice-field-line-items-stored-items)
-          * [Line Discount](#invoice-field-line-items-line-discount)
-          * [Line Tax](#invoice-field-line-items-line-tax)
+          * [Discount](#invoice-field-line-items-discount)
+          * [Tax](#invoice-field-line-items-tax)
         * [Notes](#invoice-field-notes)
         * [Terms](#invoice-field-terms)
         * [File Attachments](#invoice-field-file-attachments)
@@ -25,6 +25,7 @@
         * [Taxes](#invoice-field-taxes)
     * [Sending your first invoice](#invoice-send)
     * [Tracking your invoice](#invoice-tracking)
+      * [Status](#invoice-status)
     * [Adding payments to your invoice](#invoice-payments)
     * [History](#invoice-history)
     * [Comments](#invoice-comments)
@@ -94,7 +95,7 @@ This will create an empty invoice where you can fill out the values.
 
 ![Client Field](imgs/screen3.png)
 
-In the context above lets add a client name **Ben Bitdiddle**.  We first search for Ben and if he cannot be found the system gives us an option to add him.
+In the context above lets add a client nameed **Ben Bitdiddle**.  We first search for Ben and if he cannot be found the system gives us an option to add him.
 
 Since Ben is not in the system we simply click on `Add Ben as a new client`.  The below modal should popup in the app. 
 
@@ -107,9 +108,15 @@ Since Ben is not in the system we simply click on `Add Ben as a new client`.  Th
 
 The `Name` field you want to make sure you enter your client's full name in correctly.  
 
-`Client Number` is a auto-incremented field and you do not need to do anything to it unless you want a custom client numbering system.
+Here we enter in **Ben Bitdiddle**
+
+`Client Number` is a auto-incremented field and you do not need to do anything to it unless you want a custom client numbering system.  Go here to learn more about the customization of this field.
+
+We can leave this field alone has we do need a custom number for Ben.
 
 `Email` field is an important field used by the system to send the invoice; please make sure it is entered correctly as well.
+
+We just enter **ben.bitdiddle@fake-email.com**
 
 `Collection Mode` lets you pick between `Automatic` and `Manual`.  Basically you are specifying whether to automatically collect payment or manually collect payment.  Note: You will only see the collection mode option is you have online payments enabled, else the system will default to `Manual`.  
 
@@ -117,17 +124,25 @@ The `Name` field you want to make sure you enter your client's full name in corr
 
 `Automatic` lets you enter a payment source, generally your customer's credit card information.  
 
+Since `Ben` has not given us permission or a credit card we can only at this stage do a `Manual Collection`
+
 **Adding a payment source**
 
 To enter a payment source simply check the `Add Card` and than add your client's relevant credit card information.
 
 ![Client Field Automatic Enablement](imgs/client-automatic-enablement.png)
 
+We can simply skip this at this stage since we are doing manual collection.  But in the future if `Ben` decides to give us his credit card for autopayment which add it as a payment source.
+
 With `Automatic` set you are now ready to automatically collect money when you invoice them or subscripe them to a subscription (recurring billing).
 
 `Payment Terms` are the terms that specifiy when the payment on the invoice is due.  `NET 7` means that payment should be due within 7 days of receipt. For `NET 14` means that payment should be due within 14 days of receipt. `NET 30` means that payment should be due within 30 days of receipt.  You can define any custom term by directly inputing it into the input box.
 
+We want our payment 7 days after `Ben` gets the invoice.  So let use `NET 7`
+
 `Address` lets you enter the address of your client.
+
+`Ben` Lives at `115 Computer Way, Austin, TX 78742`
 
 Invoiced validates your clients address so you can know if the address you entered is valid or not.  Usually green check mark against Address 1, City, State, Zip, County will indicate if the address is valid.  
 
@@ -165,8 +180,9 @@ To edit the automatic generation of the `Invoice Number`, see [Changing Invoice 
 <a name="invoice-field-line-items"></a>`Line Items` these are at the heart of the invoice.  They specificy the product/service (`Item`), quantity (`Quantity`), rate (`Rate`), and calculated amount (`Amount`) you are invoicing for.  You can also specify the `Line Discount`, `Line Tax`, and Detailed Descriptoin for the line item.
 
 ![Invoice Field Line Items](imgs/invoice-field-line-items.png)
-
+<a name="invoice-field-line-items"></a>
 `Line Descripton` lets you specify in more detail the line
+
 `Line Discount` lets you add a discount to the line
 
 `Line Tax` lets you add a tax to the line.
@@ -187,6 +203,19 @@ To edit the automatic generation of the `Invoice Number`, see [Changing Invoice 
 ![Invoice Field Attachments](imgs/invoice-field-attachments.png)
 
 ![Invoice Field Attachments](imgs/invoice-field-attachments-modal.png)
+
+---
+####<a name="invoice-send"></a>Sending our first invoice
+
+Now that we have created our first invoice it is time to send it now to Ben.  We can also view the status of where it is here.  <!-- show invoice status here -->
+
+We setup Ben for manual collection, however it just as easy to edit his client profile and change his collection to automatic.
+
+With manual Ben will have the option of paying depending on the default accepted payments we setup.
+
+---
+####<a name="invoice-send"></a>Checking our invoice status
+At any point it is easy to check the status of our invoice to Ben, Invoiced makes that super easy for us to do.
 
 ---
 #####<a name="invoice-fields"></a>Invoice Options
@@ -313,6 +342,10 @@ Steps to set up invoice chasing:
 7. Open the invoice you want to chase and click Enable where it says "Chase: No" under the Invoice Details section. Your invoice will now be chased according to the schedule you set up. The next chase date will be shown in the Invoice Details section.
 
 Note: if you want chasing enabled by default when drafting new invoices then you can create a Template, turn on chasing for that template, and make it the default.
+
+---
+####<a name="invoice-notifications"></a>Notifications
+Invoice notification settings lets you change the e-mail notifications that you get.
 
 
 
