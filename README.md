@@ -6,8 +6,8 @@
    * [Creating your first invoice](#invoice-create) 
       * [Fields](#invoice-fields)
         * [Bill To](#invoice-field-bill-to)
-          * [Filling in Client Information](#fill-in-client-information)
-          * [Client Information Example](#fill-in-client-information-example)
+          * [Creating a New Client](#invoice-create-new-client)
+          * [Example: Filling in Client Information](#invoice-create-new-client-example)
         * [Number](#invoice-field-number)
         * [Date](#invoice-field-date)
         * [Line Items](#invoice-field-line-items)
@@ -32,6 +32,7 @@
     * [History](#invoice-history)
     * [Comments](#invoice-comments)
     * [Options](#invoice-options)
+    * [Batch Downloading](#invoice-batch-downloading)
     * [Notifications](#invoice-notifications)
     * [Client View](#invoice-client-view)
     * [Close Invoice](#invoice-close)
@@ -102,7 +103,7 @@ In the context above lets add a client nameed **Ben Bitdiddle**.  We first searc
 Since Ben is not in the system we simply click on `Add Ben as a new client`.  The below modal should popup in the app. 
 
 ---
-#####<a name="fill-in-client-information"></a>Filling in Client Information
+#####<a name="invoice-create-new-client"></a>Creating a new client
 
 ![Client Field Modal](imgs/screen4.png)
 
@@ -119,8 +120,6 @@ The `Name` field you want to make sure you enter your client's full name in corr
 `Manual` is the default behaviour and it now becomes up to your customer to pay you online.
 
 `Automatic` lets you enter a payment source, generally your customer's credit card information.  
-
-Since `Ben` has not given us permission or a credit card we can only at this stage do a `Manual Collection`
 
 **Adding a payment source**
 
@@ -148,29 +147,31 @@ The following 2 are both invalid addresses with a `?` or `x` next to address 1. 
 
 ![Client Field Invalid Address 2 Modal](imgs/address-invalid-2.png)
 
-
-`More options` lets you enter your client's `Phone`, `Other Phone`, `Website`, `Notes`
+`More options` lets you enter your client's `Phone`, `Other Phone`, `Website`, and `Notes`
 
 `Notes` lets you enter any additional information about your client
 
 ---
-#####<a name="fill-in-client-information"></a>Filling in Client Information
+#####<a name="invoice-create-new-client-example"></a>Example: Filling in Client Information
 Now that we have explained the various fields in the client information.  Let us fill out the information for our client `Ben Bitdiddle`
 
 We entered **Ben Bitdiddle** for the `name`.  
 
-`Client Number` we can leave alone for **Ben** as we do not need anything custom.
+`Client Number` we can leave alone since we do not need anything custom.
 
-`Email` we enter **ben.bitdiddle@fake-email.com**
+`Email` we enter **ben.bitdiddle.fake@gmail.com**
 
 `Collection Mode` we can keep as `Manual` since we have not entered yet received permission or a credit card number from Ben.  This also means that we do not yet need to add a new payment source.
 
 `Payment Terms` we want to get paid 7 days after Ben received the invoice.  So we will enter `NET 7`
 
-`Address` we enter `1 Infinite Loop, Cupertino, CA 95014`
+`Address` we enter `1 Infinite Loop, Cupertino, CA 95014`.  The system indicates tells us this address is correct.
 
-Since Ben has given his phone number we enter 555-555-5555 for `Phone` and for Notes we enter `Likes to eat at Taco Deli`
+Since Ben has given his phone number we enter `555-555-5555` for `Phone` 
 
+Notes we enter `Likes to eat at Taco Deli`, since Ben told us that is his favorite taco place.
+
+![Client Information Filled](imgs/invoice-new-client-example.png)
 
 ---
 ####Continuing on with the invoice fields
