@@ -24,23 +24,23 @@
         * [File Attachments](#invoice-field-file-attachments)
         * [Discounts](#invoice-field-discounts)
         * [Taxes](#invoice-field-taxes)
-        * [Example](#invoice-create-example)
-    * [Sending your first invoice](#invoice-send)
+        * [Example: Filling in Invoice Information](#invoice-create-example)
+    * [Sending your first invoice](#invoice-send) 
+    * [Batch Downloading](#invoice-batch-downloading)   
+    * [Notifications](#invoice-notifications)
     * [Tracking your invoice](#invoice-tracking)
       * [Status](#invoice-status)
+    * [View](#invoice-view)
+      * [Filtering](#invoice-view-filtering)
+      * [Legend](#invoice-view-legend)
+    * [Client View](#invoice-client-view)
     * [Adding payments to your invoice](#invoice-payments)
     * [History](#invoice-history)
     * [Comments](#invoice-comments)
     * [Options](#invoice-options)
-    * [Batch Downloading](#invoice-batch-downloading)
-    * [Notifications](#invoice-notifications)
-    * [Client View](#invoice-client-view)
     * [Close Invoice](#invoice-close)
     * [Duplicate Invoice](#invoice-duplicate)
     * [Download as PDF](#invoice-download-pdf)
-    * [View](#invoice-view)
-      * [Filtering](#invoice-view-filtering)
-      * [Legend](#invoice-view-legend)
     * [Searching](#invoice-searching)
     * [Importing](#invoice-importing)
     * [Usage](#invoice-usage)
@@ -217,6 +217,9 @@ To edit the automatic generation of the `Invoice Number`, see [Changing Invoice 
 ![Invoice Field Attachments](imgs/invoice-field-attachments-modal.png)
 
 ---
+#####<a name="invoice-create-new-client-example"></a>Example: Filling In Invoice Fields
+
+---
 ####<a name="invoice-send"></a>Sending our first invoice
 
 Now that we have created our first invoice it is time to send it now to Ben.  We can also view the status of where it is here.  <!-- show invoice status here -->
@@ -281,6 +284,48 @@ Sometime you may want to attach a document to your invoice.  Invoice lets you do
 
     * Manually recording payments
         - Splitting payments amongst invoices - Sometimes you would like to apply a payment to more than 1 invoice.  We let you do that.  
+
+---
+####<a name="#invoice-notifications"></a>Invoice Notifications
+These iPhone type notifications let you know how many invoices are overdue.
+
+
+---
+####<a name="#invoice-tracking"></a>Tracking Your Invoice
+Once your invoice has been created and issued you can track the status of the invoice.  This mainly lets your know whether your client has viewed your invoice or not.
+
+---
+####<a name="#invoice-tracking"></a>Invoice View
+This is the main view once your click on the invoices button from the side bar. It will show you all the invoices, and you can filter the invoices you want to see.
+
+---
+####<a name="#invoice-client-view"></a>Client View
+Client view shows you the online view that a client will see when they view your invoice.  
+
+####<a name="#invoice-history"></a>History
+History shows you your invoice history.
+
+
+####<a name="#invoice-comments"></a>Comments
+Allow you to communicate with the client through Invoiced.  This helps keep the conversation about the invoice between you and your client all in one place.
+
+
+
+####<a name="#invoice-comments"></a>Downloading The Invoice
+Sometimes you may want to download
+
+
+
+   
+    * [Adding payments to your invoice](#invoice-payments)
+    * [History](#invoice-history)
+    * [Comments](#invoice-comments)
+    * [Options](#invoice-options)
+    * [Close Invoice](#invoice-close)
+    * [Duplicate Invoice](#invoice-duplicate)
+    * [Download as PDF](#invoice-download-pdf)
+    * [Searching](#invoice-searching)
+    * [Importing](#invoice-importing)
 
 ---
 ####<a name="create-invoice-usage"></a>Invoice usage
