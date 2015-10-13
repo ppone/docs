@@ -47,6 +47,7 @@
     * [Usage](#invoice-usage)
     * [Credits](#invoice-credits)
     * [Conventions](#invoice-conventions)
+    * [Customizing the look](#invoice-themes)
 
 * [Recurring Billing Guide](#recurring-billing-guide)
   * [Plans](#recurring-billing-plan)
@@ -264,36 +265,6 @@ Invoice `Options` allows you to change invoice specific settings.  It is applica
 `Allowed Payments` lets you disable any payments for this invoice only.  
 ---
 
-
-
-* Invoice status
-Status tells what the status on your invoice is.  Sent, Viewed, Paid.   
-
-* Searching for Invoices - Invoiced Power Search
- Invoiced has a universal search bar that lets you search for anything whether it be payments, invoices, clients etc.  It it a powerful feature that lets you find things in an easy and convient manner.
-
-* Filtering Invoices 
- You can quickly and effectively search for the invoice by the invoice status.
-
-* Knowing if you got paid - It is pretty easy to check if you got paid on Invoiced.
-    
-    
-* Knowing if your client viewed your invoice.  Invoiced lets you view if your client has viewed your invoice.  
-    
-* Setting up to get paid online - You can accept all the credit cards supported
-
-* Customizing the invoice  - Invoiced allows you to customize the look and feel of your invoice.  For those power users who need the utmost customization we offer the ability 
-    
-* Understanding Credits - With Invoiced Credits you never have to worry about what to do if your customer over pays you.  Invoiced lets you handle over payments in which ever way that you want.
-    
-* Chasing payments - Invoiced lets you remind clients if their invoice is overdue. 
-
- * Invoice portal - file attachments and comments.  
-    Commenting are natural and progressive way to communicate with your clients without losing context.
-
-    * Manually recording payments
-        - Splitting payments amongst invoices - Sometimes you would like to apply a payment to more than 1 invoice.  We let you do that.  
-
 ---
 ####<a name="#invoice-notifications"></a>Invoice Notifications
 These iPhone type notifications let you know how many invoices are overdue.
@@ -345,6 +316,8 @@ Sometimes you may want to duplicate a invoice rather than entering the informati
 ####<a name="#invoice-searching"></a>Importing invoice
 Invoiced lets you import an invoice to save you time.
 
+---
+####<a name="#invoice-credits"></a>Credits With Invoiced Credits you never have to worry about what to do if your customer over pays you.  Invoiced lets you handle over payments in which ever way that you want.
 
 ---
 ####<a name="create-invoice-usage"></a>Invoice usage
