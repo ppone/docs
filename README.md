@@ -26,6 +26,7 @@
         * [Taxes](#invoice-field-taxes)
         * [Example: Filling in Invoice Information](#invoice-create-example)
     * [Sending your first invoice](#invoice-send) 
+    * [Adding Payments](#invoice-add-payments)
     * [Batch Downloading](#invoice-batch-downloading)   
     * [Notifications](#invoice-notifications)
     * [Tracking your invoice](#invoice-tracking)
@@ -44,6 +45,9 @@
     * [Searching](#invoice-searching)
     * [Importing](#invoice-importing)
     * [Usage](#invoice-usage)
+    * [Credits](#invoice-credits)
+    * [Conventions](#invoice-conventions)
+
 * [Recurring Billing Guide](#recurring-billing-guide)
   * [Plans](#recurring-billing-plan)
     * [Fields](#recurring-billing-fields)
@@ -70,6 +74,14 @@
     * [Invoice](#payments-guide-field-invoice)
     * [Notes](#payments-guide-field-invoice)
 
+* [Recurring Billing Guide](#invoice-recurring-billing)
+  * [Introduction](#invoice-recurring-introduction)
+    * [Creating your first plan](#invoice-recurring-plan)
+        * [Understanding Subscriptions](#invoice-recurring-understanding-subscriptions)
+    * [Collection Mode] (#-invoice-recurring-collection-mode)
+    * [Best Practices](#invoice-recurring-plan-best-practices)
+    * [Canceling subscriptions](#invoice-recurring-canceling-subp)
+
 * [Advanced Customizations And Settings](#advanced-customizations-settings)
    * [Changing Invoice Numbers](#advanced-invoice-numbers)
    * [Changing Look And Feel of Invoices](#advancedinvoice-template-customization)
@@ -79,6 +91,7 @@
    * [Invoice Chasing](#advanced-invoice-chasing)
    * [Notifications](#advanced-invoice-notifications)
    * [Payment Source](#advanced-payment-source)
+
 
 ###<a name="invoice-guide"></a> Invoicing Guide
 
@@ -122,7 +135,7 @@ The `Name` field you want to make sure you enter your client's full name in corr
 `Automatic` lets you enter a payment source, generally your customer's credit card information.  
 
 **Adding a payment source**
-
+  
 To enter a payment source simply check the `Add Card` and than add your client's relevant credit card information.
 
 ![Client Field Automatic Enablement](imgs/client-automatic-enablement.png)
@@ -210,7 +223,7 @@ To edit the automatic generation of the `Invoice Number`, see [Changing Invoice 
 ![Invoice Field Terms](imgs/invoice-field-terms.png)
 
 ---
-<a name="invoice-field-file-attachments"></a>`Attachments`: allow you attach a file from you local computer, Dropbox, Box, Google Drive, Gmail, OneDrive, Amazon Cloud Drive, CloudApp, Link(URL)
+<a name="invoice-field-file-attachments"></a>`Attachments`: allow you attach a file from you local computer, Dropbox, Box, Google Drive, Gmail, OneDrive, Amazon Cloud Drive, CloudApp, Link(URL).  Sometime you may want to attach a document to your invoice.  Invoice lets you do that in an easy manner.  Invoiced implements attaching a file in a powerful manner.  You can not only attach files directly from your computer but you can attach files from a mutitude of different cloud providers such as dropbox.
 
 ![Invoice Field Attachments](imgs/invoice-field-attachments.png)
 
@@ -221,6 +234,7 @@ To edit the automatic generation of the `Invoice Number`, see [Changing Invoice 
 
 ---
 ####<a name="invoice-send"></a>Sending our first invoice
+Emailing your invoices has never been simplier.  In fact emailing has been built in Invoiced since day one. 
 
 Now that we have created our first invoice it is time to send it now to Ben.  We can also view the status of where it is here.  <!-- show invoice status here -->
 
@@ -250,11 +264,7 @@ Invoice `Options` allows you to change invoice specific settings.  It is applica
 `Allowed Payments` lets you disable any payments for this invoice only.  
 ---
 
-* Invoicing conventions
 
-
-* Invoice emails 
-Emailing your invoices has never been simplier.  In fact emailing has been built in Invoiced since day one.
 
 * Invoice status
 Status tells what the status on your invoice is.  Sent, Viewed, Paid.   
@@ -266,20 +276,19 @@ Status tells what the status on your invoice is.  Sent, Viewed, Paid.
  You can quickly and effectively search for the invoice by the invoice status.
 
 * Knowing if you got paid - It is pretty easy to check if you got paid on Invoiced.
-
-* Attaching a File 
-Sometime you may want to attach a document to your invoice.  Invoice lets you do that in an easy manner.  Invoiced implements attaching a file in a powerful manner.  You can not only attach files directly from your computer but you can attach files from a mutitude of different cloud providers such as dropbox.
     
     
 * Knowing if your client viewed your invoice.  Invoiced lets you view if your client has viewed your invoice.  
     
-    * Setting up to get paid online - You can accept all the credit cards supported 
-    * Customizing the invoice  - Invoiced allows you to customize the look and feel of your invoice.  For those power users who need the utmost customization we offer the ability 
-    * Understanding Credits - With Invoiced Credits you never have to worry about what to do if your customer over pays you.  Invoiced lets you handle over payments in which ever way that you want.
-    * 
-    * Chasing payments - Invoiced lets you remind clients if their invoice is overdue. 
-    * Invoice portal - file attachments and comments.  Invoiced Portal lets your clients view past invoices.  Your customer can also communicate with your through comments.
+* Setting up to get paid online - You can accept all the credit cards supported
 
+* Customizing the invoice  - Invoiced allows you to customize the look and feel of your invoice.  For those power users who need the utmost customization we offer the ability 
+    
+* Understanding Credits - With Invoiced Credits you never have to worry about what to do if your customer over pays you.  Invoiced lets you handle over payments in which ever way that you want.
+    
+* Chasing payments - Invoiced lets you remind clients if their invoice is overdue. 
+
+ * Invoice portal - file attachments and comments.  
     Commenting are natural and progressive way to communicate with your clients without losing context.
 
     * Manually recording payments
@@ -298,34 +307,44 @@ Once your invoice has been created and issued you can track the status of the in
 ####<a name="#invoice-tracking"></a>Invoice View
 This is the main view once your click on the invoices button from the side bar. It will show you all the invoices, and you can filter the invoices you want to see.
 
+In the invoices view you can take one of 5 actions by simply hovering over the invoice.  
+
 ---
 ####<a name="#invoice-client-view"></a>Client View
-Client view shows you the online view that a client will see when they view your invoice.  
+Client view shows you the online view that a client will see when they view your invoice.  Client Portal lets your clients view past invoices.  Your customer can also communicate with your through comments.
 
+
+---
 ####<a name="#invoice-history"></a>History
 History shows you your invoice history.
+---
+####<a name="#invoice-batch-downloading"></a>Batch Downloading
+You can download all of your invoices in batches.
 
-
+---
 ####<a name="#invoice-comments"></a>Comments
 Allow you to communicate with the client through Invoiced.  This helps keep the conversation about the invoice between you and your client all in one place.
 
-
-
-####<a name="#invoice-comments"></a>Downloading The Invoice
+---
+####<a name="#invoice-download-pdf"></a>Downloading The Invoice
 Sometimes you may want to download
 
+---
+####<a name="#invoice-searching"></a>Searching the invoice
+Sometimes you may want to download
 
+---
+####<a name="#invoice-payments"></a>Adding Payment Source
+Adding payment source allows you add different type of payments like a credit card, bitcoin.
 
-   
-    * [Adding payments to your invoice](#invoice-payments)
-    * [History](#invoice-history)
-    * [Comments](#invoice-comments)
-    * [Options](#invoice-options)
-    * [Close Invoice](#invoice-close)
-    * [Duplicate Invoice](#invoice-duplicate)
-    * [Download as PDF](#invoice-download-pdf)
-    * [Searching](#invoice-searching)
-    * [Importing](#invoice-importing)
+---
+####<a name="#invoice-searching"></a>Duplicate the Invoice
+Sometimes you may want to duplicate a invoice rather than entering the information yourself. 
+
+---
+####<a name="#invoice-searching"></a>Importing invoice
+Invoiced lets you import an invoice to save you time.
+
 
 ---
 ####<a name="create-invoice-usage"></a>Invoice usage
@@ -339,15 +358,22 @@ To see a more detailed view simply click on the usage summary.
 ![Invoice Detail Summary](imgs/invoice-usage-detail.png)
 
 
-###<a name="recurring-billing-guide"></a>Recurring Billing Guide
-* Introduction to plans and subscriptions and why you need them
-    * Creating your first plan and subscription
-        - Understanding Subscriptions
-    * Collection Mode -> Automatic vs Manual - Which cards do you want 
-    * Subscription best practices
-    * Canceling subscriptions
-    * Automated vs Manual Subscriptions
-        - Client Collection modes
+### <a name="invoice-recurring-billing"></a>Recurring Billing Guide
+  * [Introduction](#invoice-recurring-introduction) 
+    Recurring Billing you invoice and/or automatically collect money from clients in a recurring fashion.  You can create a `plan` that specifices how much money to charge against a time period.
+
+    For example you can create a Monthly Cleaning Plan that invoices or automatically charges the client $100 every month.
+
+    You can also create a Quarter Cleaning Plan that might charge the client $450 every quarterly.
+
+    * [Creating your first plan](#invoice-recurring-plan)
+    
+      To create your first plan do the following <!--TODO -->
+        * [Understanding Subscriptions](#invoice-recurring-understanding-subscriptions).  Subscriptons tie a plan and client together to actually invoice/collect money from the client in a recurring fashion.  You can add as many subscriptions to a plan as you want.  
+    * [Collection Mode] (#-invoice-recurring-collection-mode) 
+     You must specify how to collect the subscription.  With manual the payment up to your client and automatic leaves it up your 
+    * [Best Practices](#invoice-recurring-plan-best-practices)
+    * [Canceling subscriptions](#invoice-recurring-canceling-subp)
 
 ###<a name="advanced-customizations-settings"></a>Advanced Customizations And Settings
 
