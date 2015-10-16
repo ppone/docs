@@ -272,11 +272,26 @@ These iPhone type notifications let you know how many invoices are overdue.
 
 ---
 ####<a name="#invoice-tracking"></a>Tracking Your Invoice
-Once your invoice has been created and issued you can track the status of the invoice.  This mainly lets your know whether your client has viewed your invoice or not.
+Once your invoice has been created and issued you can track the status of the invoice.  
+
+An invoice has 4 status `ISSUED`, `SENT`, `VIEWED`, `PAID`
+
+`ISSUED` - When the invoice has been issued, meaning it created in the system and not just drafted.
+
+`SENT` - When the invoice has been sent to client via Invoiced.
+
+`VIEWED` - When the client has clicked the link to view the Invoice
+
+`PAID` - When the Client has paid the invoice, through the client portal or have been automatically charged through a subscription, or we have added a manual payment.
+
+
+![Invoice Tracking](imgs/invoice-status.png)
 
 ---
-####<a name="#invoice-tracking"></a>Invoice View
+####<a name="#invoice-view"></a>Invoice View
 This is the main view once your click on the invoices button from the side bar. It will show you all the invoices, and you can filter the invoices you want to see.
+
+![Invoice View](imgs/invoice-view.png)
 
 In the invoices view you can take one of 5 actions by simply hovering over the invoice.  
 
