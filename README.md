@@ -13,41 +13,53 @@
         * [Line Items](#invoice-field-line-items)
           * [Fields](#invoice-field-line-items-field)
             * [Item Name](#invoice-field-line-items-field-item-name)
-            * [Quanity](#invoice-field-line-items-field-quantity)
+            * [Quantity](#invoice-field-line-items-field-quantity)
             * [Rate](#invoice-field-line-items-field-rate)
             * [Amount](#invoice-field-line-items-field-amount)
-          * [Stored Items](#invoice-field-line-items-stored-items)
+          * [Catalog Items](#invoice-field-line-items-stored-items)
           * [Discount](#invoice-field-line-items-discount)
           * [Tax](#invoice-field-line-items-tax)
         * [Notes](#invoice-field-notes)
         * [Terms](#invoice-field-terms)
         * [File Attachments](#invoice-field-file-attachments)
         * [Discounts](#invoice-field-discounts)
+        * [Options](#invoice-options)
+        * [Internationalization](#invoice-internationalizations)
+        * [Enabling BCC](#invoice-bcc)
         * [Taxes](#invoice-field-taxes)
+        * [Customizing the look](#invoice-themes)
+        * [Enabling Additional Fields](#invoice-enable-additional-fields)
         * [Example: Filling in Invoice Information](#invoice-create-example)
-    * [Sending your first invoice](#invoice-send) 
-    * [Adding Payments](#invoice-add-payments)
-    * [Batch Downloading](#invoice-batch-downloading)   
-    * [Notifications](#invoice-notifications)
+    * [Sending your first invoice](#invoice-send)
+      * [Failure Notification](#invoice-send-failure)
     * [Tracking your invoice](#invoice-tracking)
       * [Status](#invoice-status)
-    * [View](#invoice-view)
-      * [Filtering](#invoice-view-filtering)
-      * [Legend](#invoice-view-legend)
-    * [Client View](#invoice-client-view)
-    * [Adding payments to your invoice](#invoice-payments)
-    * [History](#invoice-history)
-    * [Comments](#invoice-comments)
-    * [Options](#invoice-options)
-    * [Close Invoice](#invoice-close)
-    * [Duplicate Invoice](#invoice-duplicate)
-    * [Download as PDF](#invoice-download-pdf)
-    * [Searching](#invoice-searching)
-    * [Importing](#invoice-importing)
-    * [Usage](#invoice-usage)
-    * [Credits](#invoice-credits)
-    * [Conventions](#invoice-conventions)
-    * [Customizing the look](#invoice-themes)
+      * [Dashboard](#invoice-dashboard)
+      * [History](#invoice-history)
+      * [Comments](#invoice-comments)
+    * [Getting Paid]
+    * [Adding Payments](#invoice-add-payments)
+      * [Split Payment] 
+      * [Expect Payment Date](#expect-payment-date)
+      * [Credits](#invoice-credits)
+      * [Importing Payments]
+    * [Going through your invoices](#invoice-overview)
+      * [Searching](#invoice-searching)
+       * [Notifications](#invoice-notifications)
+        * [Filtering](#invoice-view-filtering)
+        * [Legend](#invoice-view-legend)
+        * [Client View](#invoice-client-view)
+        * [Invoice Detail View](#invoice-detail-view)
+       * [Download as PDF](#invoice-download-pdf)
+   * [Creating more invoices](#invoice-create-more)
+      * [Duplicating Invoices](#invoice-duplicate)
+      * [Importing](#invoice-importing)
+   * [Exporting Your Data](#invoice-export)
+         * [Batch Downloading](#invoice-batch-downloading)   
+   * [Viewing Metrics On Your Invoices](#invoice-metrics)
+      * [Usage](#invoice-metrics-usage)
+      * [Reports](#invoice-metrics)
+   
 
 * [Recurring Billing Guide](#recurring-billing-guide)
   * [Plans](#recurring-billing-plan)
@@ -79,7 +91,7 @@
   * [Introduction](#invoice-recurring-introduction)
     * [Creating your first plan](#invoice-recurring-plan)
         * [Understanding Subscriptions](#invoice-recurring-understanding-subscriptions)
-    * [Collection Mode] (#-invoice-recurring-collection-mode)
+    * [Collection Mode](#invoice-recurring-collection-mode)
     * [Best Practices](#invoice-recurring-plan-best-practices)
     * [Canceling subscriptions](#invoice-recurring-canceling-subp)
 
@@ -112,7 +124,7 @@ This will create an empty invoice where you can fill out the values.
 
 ![Client Field](imgs/screen3.png)
 
-In the context above lets add a client nameed **Ben Bitdiddle**.  We first search for Ben and if he cannot be found the system gives us an option to add him.
+In the context above lets add a client named **Ben Bitdiddle**.  We first search for Ben and if he cannot be found the system gives us an option to add him.
 
 Since Ben is not in the system we simply click on `Add Ben as a new client`.  The below modal should popup in the app. 
 
@@ -293,7 +305,9 @@ This is the main view once your click on the invoices button from the side bar. 
 
 ![Invoice View](imgs/invoice-view.png)
 
-In the invoices view you can take one of 5 actions by simply hovering over the invoice.  
+In the invoices view you can take one of 5 actions by simply hovering over the invoice.
+
+![Invoice View](imgs/invoice-view-action.png)
 
 ---
 ####<a name="#invoice-client-view"></a>Client View
@@ -358,7 +372,7 @@ To see a more detailed view simply click on the usage summary.
     
       To create your first plan do the following <!--TODO -->
         * [Understanding Subscriptions](#invoice-recurring-understanding-subscriptions).  Subscriptons tie a plan and client together to actually invoice/collect money from the client in a recurring fashion.  You can add as many subscriptions to a plan as you want.  
-    * [Collection Mode] (#-invoice-recurring-collection-mode) 
+    * [Collection Mode](#-invoice-recurring-collection-mode) 
      You must specify how to collect the subscription.  With manual the payment up to your client and automatic leaves it up your 
     * [Best Practices](#invoice-recurring-plan-best-practices)
     * [Canceling subscriptions](#invoice-recurring-canceling-subp)
