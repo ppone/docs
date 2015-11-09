@@ -38,9 +38,9 @@ It is pretty important to set the chase schedule correctly.  The chase schedule 
 
 The chase schedule has 3 schedule templates you can choose from.
 
-1. Send a reminder X days after the due date
-2. Send a reminder X days before the due date
-3. Send a reminder X days repeating
+1. `Send a reminder X days after the due date`
+2. `Send a reminder X days before the due date`
+3. `Send a reminder X days repeating`
 
 Schedule 1 means your client will get a 1 time reminder x days after the due date.
 
@@ -50,7 +50,6 @@ We set our schedule to
 Send a reminder 5 days after the due date. 
 
 If our Invoice is due on September 10th.  Than our client will get a reminder 5 days after on September 15th.
-
 
 Schedule 2 means your client will get a 1 time reminder x days before the due date.
 
@@ -63,6 +62,27 @@ If our Invoice is due on September 10th.  Than our client will get a reminder 5 
 
 
 Schedule 3 means your client will get a continual reminder either x days after the due date if schedule 1 or 2 has not been sett.  If schedule 1 or 2 have been set, schedule 3 will repeat x days from the date that the client receives the reminder from schedule 1 or 2.
+
+Example:
+
+Let the invoice due date be September 10th.
+
+CASE A:
+
+We set our schedule to
+
+`Send a reminder 5 days before the due date.`
+
+And we also add in
+
+`Send a reminder 5 days repeating`
+
+What will happen is the first reminder will go 
+
+CASE B:
+
+
+
 
 Once the invoice is paid the reminders will automatically stop.  
 
