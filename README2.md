@@ -30,7 +30,7 @@ Invoice Chasing is typically enabled per invoice.  So you will have to explictly
 
 #####<a name="invoice-automatic-reminders-chasing"></a>Getting Started With Invoicing Chasing
 
-![Invoice Field Attachments](imgs/invoice-field-attachments-modal.png)
+![Invoice Field Attachments](imgs/chasing.gif)
 
 
 
