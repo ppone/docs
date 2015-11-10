@@ -4,9 +4,9 @@
 -->
 * [Invoicing Guide](#invoice-guide)
    * [Sending Automatic Reminders to your client](#invoice-automatic-reminders)
-      * [Turning on Invoice Chasing](#invoice-automatic-reminders)
-      * [Enabling Chase](#invoice-automatic-reminders)
-        * [Setting a schedule](#invoice-automatic-reminders)
+      * [Enabling Chasing](#invoice-chasing-enable)
+      * [Setting the Chasing Schedule](#invoice-chasing-schedule)
+      * [Editing The Chasing Email](#invoice-chasing-edit-email)
    * [Getting Paid Automatically Through Subscriptions](#invoice-paid-automatically)
       * [Subscriptions](#invoice-subscriptions) 
       * [Plans](#invoice-plans)
@@ -14,8 +14,6 @@
    * [Enabling Online Payments On Your Invoices](#invoice-enable-online)
       * [Accepting Credit Cards](#invoice-subscriptions) 
 
-
-   
 
 ###<a name="invoice-guide"></a> Invoicing Guide
 
@@ -27,7 +25,7 @@ Invoiced lets you send automatic reminders to your client.  This can help you cl
 We call this feature **Chasing**.  
 Invoice Chasing is typically enabled per invoice.  So you will have to explictly turn it on per invoice.  You will also have to enable it in the settings and set a reminding schedule first.
 
-#####<a name="invoice-automatic-reminders-chasing"></a>Getting Started With Invoice Chasing
+#####<a name="invoice-chasing-enable"></a>Enabling Chasing
 
 First you will need to enable chasing in the settings and set a schedule.
 
@@ -35,13 +33,13 @@ Go to Setttings->Chasing
 
 ![Invoice Settings Chasing](imgs/invoice-setting-chasing.png)
 
-Click on Enable Chasing to enable it.
+Click on Allow Chasing to enable it.
 
 ![Invoice Settings Chasing Enable](imgs/invoice-setting-chasing-enable.png)
 
 Now we are ready to set the chasing schedule
 
-#####<a name="invoice-automatic-reminders-setting-chasing-schedule"></a>Setting the chasing schedule
+#####<a name="invoice-chasing-schedule"></a>Setting the Chasing Schedule
 
 It is pretty important to set the chase schedule correctly.  The chase schedule determines when and how often your client receives the reminders.
 
@@ -49,7 +47,7 @@ Now to set the chasing schedule, let us add a step.
 
 ![Invoice Settings Chasing Enable](imgs/invoice-setting-chasing-add-step.png)
 
-The chase schedule has 3 schedule templates you can choose from.
+The chase schedule has 3 schedule steps you can choose from.
 
 1. `Send a reminder X days after the due date`
 
@@ -87,7 +85,7 @@ Example:
 
 `Let the invoice due date be September 10th`
 
-CASE A:
+**CASE A:**
 
 We set our schedule to
 
@@ -97,9 +95,9 @@ And we also add in
 
 `Send a reminder 5 days repeating`
 
-What will happen is the first reminder will go 
+What will happen is the first reminder will go September 5th, the next one will go on September 10th, 15th, etc, until the invoice is paid.
 
-CASE B:
+**CASE B:**
 
 We set our schedule just to 
 
@@ -114,9 +112,28 @@ Since our due date is September 10th, our reminder will be sent on September 15t
 **Best Practices**
 Although we allow you add as many schedule templates as you like, we generally recommend to keep the schedule simple (no more than 2 schedule templates).   Adding a combination of many schedule templates can make it hard for you to predict precisely every time your client gets a reminder. 
 
+---
+#####<a name="invoice-chasing-edit-email"></a>Editing The Chasing Emails
+Invoiced sends out a default chasing email depending on the context.  
 
-####<a name="invoice-automatic-reminders"></a>Sending Automatic Reminders For Sent Invoices
+There are 3 email templates that are sent depending on context `New Invoice Email`, `Invoice Reminder Email`, `Payment Reminder Email` .
 
+That means that if you have not sent the invoice to the client, it will send out the `New Invoice Email`, which is the standard email sent out.
+
+If you already have sent the invoice to client and the invoice is not over due, it will send out `Invoice Reminder Email`, whose purpose is to remind the client that the invoice will be due soon.
+
+If the invoice has been sent and is over due than the `Payment Reminder Email` is sent, it's purpose is to gently remind clients that they are late and payment is due as soon as possible.
+
+To edit these emails you can go to Settings->Emails.
+
+![Invoice Settings Email](imgs/invoice-setting-email.png)
+
+To edit or customize these email templates click on the customize button.
+
+![Invoice Settings Email Customize](imgs/invoice-setting-email.png)
+
+
+<!-- Maybe add more on customizing emails -->
 
 
 ####<a name="invoice-automatic-reminders"></a>Getting paid automatically through subscriptions
