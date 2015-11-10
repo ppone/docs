@@ -7,14 +7,13 @@
       * [Turning on Invoice Chasing](#invoice-automatic-reminders)
       * [Enabling Chase](#invoice-automatic-reminders)
         * [Setting a schedule](#invoice-automatic-reminders)]
-
+   * [Getting Paid Automatically Through Subscriptions](#invoice-paid-automatically)
+      * [Subscriptions](#invoice-subscriptions) 
+      * [Plans](#invoice-plans)
+      * [Collections Mode](#invoice-collections-mode)
    * [Enabling Online Payments On Your Invoices](#invoice-enable-online)
       * [Accepting Credit Cards](#invoice-subscriptions) 
 
-   * [Getting Paid Automatically Through Subscriptions](#invoice-paid-automatically)
-     * [Subscriptions](#invoice-subscriptions) 
-     * [Plans](#invoice-plans)
-     * [Collections Mode](#invoice-collections-mode)
 
    
 
@@ -25,7 +24,7 @@
 
 Invoiced lets you send automatic reminders to your client.  This can help you close the gap on the time you get paid, by reminding them that payment is due.
 
-We call this feature *chasing*.  
+We call this feature **Chasing**.  
 Invoice Chasing is typically enabled per invoice.  So you will have to explictly turn it on per invoice.  You will also have to enable it in the settings and set a reminding schedule first.
 
 #####<a name="invoice-automatic-reminders-chasing"></a>Getting Started With Invoicing Chasing
@@ -47,7 +46,7 @@ Schedule 1 means your client will get a 1 time reminder x days after the due dat
 Example:
 We set our schedule to
 
-Send a reminder 5 days after the due date. 
+`Send a reminder 5 days after the due date` 
 
 If our Invoice is due on September 10th.  Than our client will get a reminder 5 days after on September 15th.
 
@@ -56,16 +55,15 @@ Schedule 2 means your client will get a 1 time reminder x days before the due da
 Example:
 We set our schedule to
 
-Send a reminder 5 days before the due date. 
+`Send a reminder 5 days before the due date`
 
 If our Invoice is due on September 10th.  Than our client will get a reminder 5 days before on September 5th.
-
 
 Schedule 3 means your client will get a continual reminder either x days after the due date if schedule 1 or 2 has not been sett.  If schedule 1 or 2 have been set, schedule 3 will repeat x days from the date that the client receives the reminder from schedule 1 or 2.
 
 Example:
 
-Let the invoice due date be September 10th.
+`Let the invoice due date be September 10th`
 
 CASE A:
 
@@ -81,13 +79,18 @@ What will happen is the first reminder will go
 
 CASE B:
 
+We set our schedule just to 
 
+`Send a reminder 5 days repeating`
 
+What will happen is the reminder will start on the due date and keep repeating until the invoice.
 
-Once the invoice is paid the reminders will automatically stop.  
+Since our due date is September 10th, our reminder will be sent on September 15th, and it will keep repeating every 5 days until the invoice is paid.
+
+**Once the invoice is paid the reminders will automatically stop not matter what schedule or combination of schedule templates that we sue**
 
 **Best Practices**
-Although we allow you add as many steps as you like, we generally recommend to keep the schedule simple (no more than 2 steps).   Adding a combination of many step can make it hard for you to predict precisely every time your client gets a reminder. 
+Although we allow you add as many steps as you like, we generally recommend to keep the schedule simple (no more than 2 steps).   Adding a combination of many schedule templates can make it hard for you to predict precisely every time your client gets a reminder. 
 
 
 
