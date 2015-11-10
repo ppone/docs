@@ -126,11 +126,11 @@ If the invoice has been sent and is over due than the `Payment Reminder Email` i
 
 To edit these emails you can go to Settings->Emails.
 
-![Invoice Settings Email](imgs/invoice-setting-email.png)
+![Invoice Settings Email](imgs/invoice-setting-emails.png)
 
 To edit or customize these email templates click on the customize button.
 
-![Invoice Settings Email Customize](imgs/invoice-setting-email.png)
+![Invoice Settings Email Customize](imgs/invoice-setting-emails-customize.png)
 
 
 <!-- Maybe add more on customizing emails -->
