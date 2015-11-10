@@ -49,7 +49,7 @@ The chase schedule has 3 schedule templates you can choose from.
 
 1. `Send a reminder X days after the due date`
 
-![Invoice Settings Chasing Step 1]imgs/invoice-setting-chasing-step-1)
+![Invoice Settings Chasing Step 1](imgs/invoice-setting-chasing-step-1)
 
 2. `Send a reminder X days before the due date`
 
