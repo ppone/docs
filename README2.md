@@ -31,15 +31,33 @@ Invoice Chasing is typically enabled per invoice.  So you will have to explictly
 
 First you will need to enable chasing in the settings and set a schedule.
 
-![Invoice Field Attachments](imgs/chasing.gif)
+Go to Setttings->Chasing
+
+![Invoice Settings Chasing](imgs/invoice-setting-chasing)
+
+Click on Enable Chasing to enable it.
+
+![Invoice Settings Chasing Enable](imgs/invoice-setting-chasing-enable)
+
+Now we are ready to set the chasing schedule
+
+#####<a name="invoice-automatic-reminders-setting-chasing-schedule"></a>Setting the chasing schedule
 
 It is pretty important to set the chase schedule correctly.  The chase schedule determines when and how often your client receives the reminders.
 
 The chase schedule has 3 schedule templates you can choose from.
 
 1. `Send a reminder X days after the due date`
+
+![Invoice Settings Chasing Step 1]imgs/invoice-setting-chasing-step-1)
+
 2. `Send a reminder X days before the due date`
+
+![Invoice Settings Chasing Step 2](imgs/invoice-setting-chasing-step-2)
+
 3. `Send a reminder X days repeating`
+
+![Invoice Settings Chasing Step 3](imgs/invoice-setting-chasing-step-3)
 
 Schedule 1 means your client will get a 1 time reminder x days after the due date.
 
@@ -90,8 +108,7 @@ Since our due date is September 10th, our reminder will be sent on September 15t
 **Once the invoice is paid the reminders will automatically stop not matter what schedule or combination of schedule templates that we sue**
 
 **Best Practices**
-Although we allow you add as many steps as you like, we generally recommend to keep the schedule simple (no more than 2 steps).   Adding a combination of many schedule templates can make it hard for you to predict precisely every time your client gets a reminder. 
-
+Although we allow you add as many schedule templates as you like, we generally recommend to keep the schedule simple (no more than 2 schedule templates).   Adding a combination of many schedule templates can make it hard for you to predict precisely every time your client gets a reminder. 
 
 
 ####<a name="invoice-automatic-reminders"></a>Sending Automatic Reminders For Sent Invoices
