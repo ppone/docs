@@ -3,14 +3,15 @@
 <!-- Start creating guide and go over each and every feature
 -->
 * [Invoicing Guide](#invoice-guide)
-   * [Sending Automatic Reminders to your client](#invoice-automatic-reminders)
-      * [Enabling Chasing](#invoice-chasing-enable)
-      * [Setting the Chasing Schedule](#invoice-chasing-schedule)
-      * [Editing The Chasing Email](#invoice-chasing-edit-email)
    * [Getting Paid Automatically Through Subscriptions](#invoice-paid-automatically)
       * [Subscriptions](#invoice-subscriptions) 
       * [Plans](#invoice-plans)
       * [Collections Mode](#invoice-collections-mode)
+   * [Sending Automatic Reminders to your client](#invoice-automatic-reminders)
+      * [Enabling Chasing](#invoice-chasing-enable)
+      * [Setting the Chasing Schedule](#invoice-chasing-schedule)
+      * [Editing The Chasing Email](#invoice-chasing-edit-email)
+
    * [Enabling Online Payments On Your Invoices](#invoice-enable-online)
       * [Accepting Credit Cards](#invoice-subscriptions) 
 
