@@ -27,7 +27,7 @@ Invoiced lets you send automatic reminders to your client.  This can help you cl
 We call this feature **Chasing**.  
 Invoice Chasing is typically enabled per invoice.  So you will have to explictly turn it on per invoice.  You will also have to enable it in the settings and set a reminding schedule first.
 
-#####<a name="invoice-automatic-reminders-chasing"></a>Getting Started With Invoicing Chasing
+#####<a name="invoice-automatic-reminders-chasing"></a>Getting Started With Invoice Chasing
 
 First you will need to enable chasing in the settings and set a schedule.
 
@@ -44,6 +44,10 @@ Now we are ready to set the chasing schedule
 #####<a name="invoice-automatic-reminders-setting-chasing-schedule"></a>Setting the chasing schedule
 
 It is pretty important to set the chase schedule correctly.  The chase schedule determines when and how often your client receives the reminders.
+
+Now to set the chasing schedule, let us add a step.
+
+![Invoice Settings Chasing Enable](imgs/invoice-setting-chasing-add-step.png)
 
 The chase schedule has 3 schedule templates you can choose from.
 
