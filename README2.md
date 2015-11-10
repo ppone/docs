@@ -6,7 +6,7 @@
    * [Sending Automatic Reminders to your client](#invoice-automatic-reminders)
       * [Turning on Invoice Chasing](#invoice-automatic-reminders)
       * [Enabling Chase](#invoice-automatic-reminders)
-        * [Setting a schedule](#invoice-automatic-reminders)]
+        * [Setting a schedule](#invoice-automatic-reminders)
    * [Getting Paid Automatically Through Subscriptions](#invoice-paid-automatically)
       * [Subscriptions](#invoice-subscriptions) 
       * [Plans](#invoice-plans)
@@ -33,11 +33,11 @@ First you will need to enable chasing in the settings and set a schedule.
 
 Go to Setttings->Chasing
 
-![Invoice Settings Chasing](imgs/invoice-setting-chasing)
+![Invoice Settings Chasing](imgs/invoice-setting-chasing.png)
 
 Click on Enable Chasing to enable it.
 
-![Invoice Settings Chasing Enable](imgs/invoice-setting-chasing-enable)
+![Invoice Settings Chasing Enable](imgs/invoice-setting-chasing-enable.png)
 
 Now we are ready to set the chasing schedule
 
@@ -49,15 +49,15 @@ The chase schedule has 3 schedule templates you can choose from.
 
 1. `Send a reminder X days after the due date`
 
-![Invoice Settings Chasing Step 1](imgs/invoice-setting-chasing-step-1)
+![Invoice Settings Chasing Step 1](imgs/invoice-setting-chasing-step-1.png)
 
 2. `Send a reminder X days before the due date`
 
-![Invoice Settings Chasing Step 2](imgs/invoice-setting-chasing-step-2)
+![Invoice Settings Chasing Step 2](imgs/invoice-setting-chasing-step-2.png)
 
 3. `Send a reminder X days repeating`
 
-![Invoice Settings Chasing Step 3](imgs/invoice-setting-chasing-step-3)
+![Invoice Settings Chasing Step 3](imgs/invoice-setting-chasing-step-3.png)
 
 Schedule 1 means your client will get a 1 time reminder x days after the due date.
 
