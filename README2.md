@@ -45,7 +45,7 @@ Now a the subscription modal will appear.  Enter all the required fields.
 ![Invoice Subscription Modal](imgs/invoice-subscribe-modal.png)
 
 
-####<a name="invoice-create-plan"></a>What is a plan
+####<a name="invoice-what-is-a-plan"></a>What is a plan
 
 Plans are sort a template for creating a subscription.  You will find that the plan actually specifiy how often the client is invoiced or charged, how much they are invoiced for, the currency, descripton, terms, notes, allowed payments and whether the payment should be chased.
 
