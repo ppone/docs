@@ -19,6 +19,39 @@
 ###<a name="invoice-guide"></a> Invoicing Guide
 
 
+####<a name="invoice-automatic-reminders"></a>Getting paid automatically through subscriptions
+Invoiced offers business a way to automatically collect money through a feature called subscriptions.
+
+
+####<a name="invoice-automatic-reminders"></a>Subscriptions
+
+Subscriptions allow businesses to either automatically collect payment or automatically invoice the customer on a recurring basis.
+
+This is great if find yourself frequently invoicing your customer every month.  Using subscriptions allows you to automatically invoice & collect money from them, saving you and your customer valuable time and offering convience.
+
+
+####<a name="invoice-create-subscription"></a>Creating a Subscription
+
+To create subscription, click on Subscriptions from the dashboard.  
+
+![Invoice Subscribe](imgs/invoice-subscribe.png)
+
+From their click on `Add Subscription`
+
+![Invoice Subscription Add](imgs/invoice-subscribe-add.png)
+
+Now a the subscription modal will appear.  Enter all the required fields.
+
+![Invoice Subscription Modal](imgs/invoice-subscribe-modal.png)
+
+
+####<a name="invoice-create-plan"></a>What is a plan
+
+Plans are sort a template for creating a subscription.  You will find that the plan actually specifiy how often the client is invoiced or charged, how much they are invoiced for, the currency, descripton, terms, notes, allowed payments and whether the payment should be chased.
+
+The advantages of using a plan are that it can save you time from having to re-enter the information mentioned above.  
+
+
 ####<a name="invoice-automatic-reminders"></a>Sending Automatic Reminders For Sent Invoices
 
 Invoiced lets you send automatic reminders to your client.  This can help you close the gap on the time you get paid, by reminding them that payment is due.
@@ -137,15 +170,6 @@ To edit or customize these email templates click on the customize button.
 <!-- Maybe add more on customizing emails -->
 
 
-####<a name="invoice-automatic-reminders"></a>Getting paid automatically through subscriptions
-Invoiced offers business a way to automatically collect money through a feature called subscriptions.
-
-
-####<a name="invoice-automatic-reminders"></a>Subscriptions
-
-Subscriptions allow businesses to either automatically collect payment or automatically invoice the customer on a recurring basis.
-
-This is great if find yourself frequently invoicing your customer every month.  Using subscriptions allows you to automatically invoice & collect money from them, saving you and your customer valuable time and offering convience.
 
 
 
