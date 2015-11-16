@@ -109,18 +109,18 @@
 ####<a name="create-send-invoice"></a>Creating and sending your first invoice
 After you signed up, Invoiced lets you create invoices in a simple manner. From the Dashboard view simply click on the `+` symbol next to Invoices.  
 
-![Creating an invoice](imgs/screen1.png)
+![Creating an invoice](img/screen1.png)
 
 This will create an empty invoice where you can fill out the values.
 
-![Empty Invoice](imgs/screen2.png)
+![Empty Invoice](img/screen2.png)
 
 ---
 #####<a name="invoice-fields"></a>Invoice Fields
 
 <a name="invoice-field-bill-to"></a>`Bill To:` field.  This field will let you assign a existing client or create a new client.
 
-![Client Field](imgs/screen3.png)
+![Client Field](img/screen3.png)
 
 In the context above lets add a client named **Ben Bitdiddle**.  We first search for Ben and if he cannot be found the system gives us an option to add him.
 
@@ -129,7 +129,7 @@ Since Ben is not in the system we simply click on `Add Ben as a new client`.  Th
 ---
 #####<a name="invoice-create-new-client"></a>Creating a new client
 
-![Client Field Modal](imgs/screen4.png)
+![Client Field Modal](img/screen4.png)
 
 **Description of Client Fields**
 
@@ -149,7 +149,7 @@ The `Name` field you want to make sure you enter your client's full name in corr
   
 To enter a payment source simply check the `Add Card` and than add your client's relevant credit card information.
 
-![Client Field Automatic Enablement](imgs/client-automatic-enablement.png)
+![Client Field Automatic Enablement](img/client-automatic-enablement.png)
 
 With `Automatic` set you are now ready to automatically collect money when you invoice them or subscripe them to a subscription (recurring billing).
 
@@ -163,13 +163,13 @@ Invoiced validates your clients address so you can know if the address you enter
 
 The below is a valid address. 
 
-![Client Field Address Modal](imgs/screen5.png)
+![Client Field Address Modal](img/screen5.png)
 
 The following 2 are both invalid addresses with a `?` or `x` next to address 1.  Any part of the address including Address 1/2, City, State, Zip, County could cause it to be invalid.
 
-![Client Field Invalid Address 1 Modal](imgs/address-invalid-1.png)
+![Client Field Invalid Address 1 Modal](img/address-invalid-1.png)
 
-![Client Field Invalid Address 2 Modal](imgs/address-invalid-2.png)
+![Client Field Invalid Address 2 Modal](img/address-invalid-2.png)
 
 `More options` lets you enter your client's `Phone`, `Other Phone`, `Website`, and `Notes`
 
@@ -195,7 +195,7 @@ Since Ben has given his phone number we enter `555-555-5555` for `Phone`
 
 Notes we enter `Likes to eat at Taco Deli`, since Ben told us that is his favorite taco place.
 
-![Client Information Filled](imgs/invoice-new-client-example.png)
+![Client Information Filled](img/invoice-new-client-example.png)
 
 ---
 ####Continuing on with the invoice fields
@@ -203,19 +203,19 @@ Notes we enter `Likes to eat at Taco Deli`, since Ben told us that is his favori
 ---
 <a name="invoice-field-number"></a>`Invoice Number` this field tells you the identifier for the invoice.  You can optionally edit it, however the system assigns automatically assigns a number for every new invoice.
 
-![Invoice Numbers](imgs/invoice-field-number.png)
+![Invoice Numbers](img/invoice-field-number.png)
 
 To edit the automatic generation of the `Invoice Number`, see [Changing Invoice Numbers](#invoice-numbers).
 
 ---
 <a name="invoice-field-date"></a>`Date` The date that the invoice is issued
 
-![Invoice Field Date](imgs/invoice-field-date.png)
+![Invoice Field Date](img/invoice-field-date.png)
 
 ---
 <a name="invoice-field-line-items"></a>`Line Items` these are at the heart of the invoice.  They specificy the product/service (`Item`), quantity (`Quantity`), rate (`Rate`), and calculated amount (`Amount`) you are invoicing for.  You can also specify the `Line Discount`, `Line Tax`, and Detailed Descriptoin for the line item.
 
-![Invoice Field Line Items](imgs/invoice-field-line-items.png)
+![Invoice Field Line Items](img/invoice-field-line-items.png)
 <a name="invoice-field-line-items"></a>
 `Line Descripton` lets you specify in more detail the line
 
@@ -226,19 +226,19 @@ To edit the automatic generation of the `Invoice Number`, see [Changing Invoice 
 ---
 <a name="invoice-field-notes"></a>`Notes`: Any notes that you have regarding your invoice
 
-![Invoice Field Notes](imgs/invoice-field-notes.png)
+![Invoice Field Notes](img/invoice-field-notes.png)
 
 ---
 <a name="invoice-field-terms"></a>`Terms`: which are just ways to specify any terms that you have on your invoice.
 
-![Invoice Field Terms](imgs/invoice-field-terms.png)
+![Invoice Field Terms](img/invoice-field-terms.png)
 
 ---
 <a name="invoice-field-file-attachments"></a>`Attachments`: allow you attach a file from you local computer, Dropbox, Box, Google Drive, Gmail, OneDrive, Amazon Cloud Drive, CloudApp, Link(URL).  Sometime you may want to attach a document to your invoice.  Invoice lets you do that in an easy manner.  Invoiced implements attaching a file in a powerful manner.  You can not only attach files directly from your computer but you can attach files from a mutitude of different cloud providers such as dropbox.
 
-![Invoice Field Attachments](imgs/invoice-field-attachments.png)
+![Invoice Field Attachments](img/invoice-field-attachments.png)
 
-![Invoice Field Attachments](imgs/invoice-field-attachments-modal.png)
+![Invoice Field Attachments](img/invoice-field-attachments-modal.png)
 
 ---
 #####<a name="invoice-create-new-client-example"></a>Example: Filling In Invoice Fields
@@ -262,7 +262,7 @@ At any point it is easy to check the status of our invoice to Ben, Invoiced make
 
 Invoice `Options` allows you to change invoice specific settings.  It is applicable only towards the invoice.  
 
-![Invoice Options](imgs/invoice-options.png)
+![Invoice Options](img/invoice-options.png)
 
 **Invoice Option Fields**
 
@@ -295,17 +295,17 @@ An invoice has 4 status `ISSUED`, `SENT`, `VIEWED`, `PAID`
 `PAID` - When the Client has paid the invoice, through the client portal or have been automatically charged through a subscription, or we have added a manual payment.
 
 
-![Invoice Tracking](imgs/invoice-status.png)
+![Invoice Tracking](img/invoice-status.png)
 
 ---
 ####<a name="#invoice-view"></a>Invoice View
 This is the main view once your click on the invoices button from the side bar. It will show you all the invoices, and you can filter the invoices you want to see.
 
-![Invoice View](imgs/invoice-view.png)
+![Invoice View](img/invoice-view.png)
 
 In the invoices view you can take one of 5 actions by simply hovering over the invoice.
 
-![Invoice View](imgs/invoice-view-action.png)
+![Invoice View](img/invoice-view-action.png)
 
 ---
 ####<a name="#invoice-client-view"></a>Client View
@@ -351,11 +351,11 @@ Invoiced lets you import an invoice to save you time.
 
 You can look at your invoice usage from anywhere in your application.  Simply glance invoice usage summary at the bottom left.
 
-![Invoice Usage Summary](imgs/invoice-usage-summary.png)
+![Invoice Usage Summary](img/invoice-usage-summary.png)
 
 To see a more detailed view simply click on the usage summary.  
 
-![Invoice Detail Summary](imgs/invoice-usage-detail.png)
+![Invoice Detail Summary](img/invoice-usage-detail.png)
 
 
 ### <a name="invoice-recurring-billing"></a>Recurring Billing Guide
@@ -382,7 +382,7 @@ To see a more detailed view simply click on the usage summary.
 
 Invoiced automatically increments and assigns an invoice, as well as client numbers.  A `Invoice Number` (identifier for invoice) or `Client Number` (identifier for client) is comprised of a `Prefix` along with a numeric `Next Number`.  
 
-![Automatic Numbering Settings](imgs/automatic-numbering.png)
+![Automatic Numbering Settings](img/automatic-numbering.png)
 
 The system increments `Next Number`  to  `Next Number`+ 1 on every new invoice or client (note: `Invoice Number` and `Client Number` increment independently and do not share the `Next Number`, they both have their own copies).
 
@@ -394,7 +394,7 @@ These settings can be found in  **Settings->Business Profile under the section A
 ####<a name="invoice-chasing"></a>Invoice Chasing
 Invoiced can chase outstanding invoices by sending reminders to your clients automatically according to the schedule you specify. *Chasing is enabled on a per-invoice basis*.
 
-![Invoice Options](imgs/settings-chasing.png)
+![Invoice Options](img/settings-chasing.png)
 
 **Chase Schedules**
 

@@ -18,11 +18,11 @@ First you will need to enable chasing in the settings and set a schedule.
 
 Go to Settings->Chasing
 
-![Invoice Settings Chasing](imgs/invoice-setting-chasing.png)
+![Invoice Settings Chasing](img/invoice-setting-chasing.png)
 
 Click on Allow Chasing to enable it.
 
-![Invoice Settings Chasing Enable](imgs/invoice-setting-chasing-enable.png)
+![Invoice Settings Chasing Enable](img/invoice-setting-chasing-enable.png)
 
 Now we are ready to set the chasing schedule
 
@@ -33,21 +33,21 @@ It is pretty important to set the chase schedule correctly.  The chase schedule 
 
 Now to set the chasing schedule, let us add a step.
 
-![Invoice Settings Chasing Enable](imgs/invoice-setting-chasing-add-step.png)
+![Invoice Settings Chasing Enable](img/invoice-setting-chasing-add-step.png)
 
 The chase schedule has 3 schedule steps you can choose from.
 
 1. `Send a reminder X days after the due date`
 
-![Invoice Settings Chasing Step 1](imgs/invoice-setting-chasing-step-1.png)
+![Invoice Settings Chasing Step 1](img/invoice-setting-chasing-step-1.png)
 
 2. `Send a reminder X days before the due date`
 
-![Invoice Settings Chasing Step 2](imgs/invoice-setting-chasing-step-2.png)
+![Invoice Settings Chasing Step 2](img/invoice-setting-chasing-step-2.png)
 
 3. `Send a reminder X days repeating`
 
-![Invoice Settings Chasing Step 3](imgs/invoice-setting-chasing-step-3.png)
+![Invoice Settings Chasing Step 3](img/invoice-setting-chasing-step-3.png)
 
 Schedule 1 means your client will get a 1 time reminder x days after the due date.
 
@@ -114,9 +114,9 @@ If the invoice has been sent and is over due than the `Payment Reminder Email` i
 
 To edit these emails you can go to Settings->Emails.
 
-![Invoice Settings Email](imgs/invoice-setting-emails.png)
+![Invoice Settings Email](img/invoice-setting-emails.png)
 
 To edit or customize these email templates click on the customize button.
 
-![Invoice Settings Email Customize](imgs/invoice-setting-emails-customize.png)
+![Invoice Settings Email Customize](img/invoice-setting-emails-customize.png)
 
