@@ -9,7 +9,7 @@
 Invoiced lets you send automatic reminders to your client.  This can help you close the gap on the time you get paid, by reminding them that payment is due.
 
 We call this feature **Chasing**.  
-Invoice Chasing is typically enabled per invoice.  So you will have to explictly turn it on per invoice.  You will also have to enable it in the settings and set a reminding schedule first.
+Invoice Chasing is typically enabled per invoice.  So you will have to explicitly turn it on per invoice.  You will also have to enable it in the settings and set a reminding schedule first.
 
 ---
 ####Enabling Chasing
