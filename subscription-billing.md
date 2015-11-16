@@ -10,9 +10,9 @@ Invoiced offers business a way to automatically collect money through a feature 
 ---
 ####Subscriptions
 
-Subscriptions allow businesses to either automatically collect payment or automatically invoice the customer on a recurring basis.
+Subscriptions allow businesses to either automatically collect payment or automatically invoice the client on a recurring basis.
 
-This is great if find yourself frequently invoicing your customer every month.  Using subscriptions allows you to automatically invoice & collect money from them, saving you and your customer valuable time and offering convience.
+This is great if find yourself frequently invoicing your customer every month.  Using subscriptions allows you to automatically invoice & collect money from them, saving you and your client valuable time and offering convience.
 
 ---
 ####Creating a Subscription
@@ -28,6 +28,12 @@ From their click on `Add Subscription`
 Now a the subscription modal will appear.
 
 ![Invoice Subscription Modal](img/invoice-subscribe-modal.png)
+
+Every field with a `*`  is required to be filled out.
+
+We first start off with adding or choosing a client in the `Client` field.
+
+We than add or choose a plan in `Plan` field.  Plans are a important concept to understand and we will discuss them in the next section.
 
 ---
 ####What is a plan
@@ -56,7 +62,7 @@ Most of the fields are self-explanitory.
 `Recurs` field is where you specify how often and how many times the subscription will run for.  
 
 ---
-
+####Back To Subscriptions
 The subscription modal has few fields that you want to understand. 
 
 `Duration` has 2 options `Until Canceled` and `Fixed duration`
@@ -73,10 +79,13 @@ Additional items are line items, discounts, taxes that you add to subscription o
 
 `Addons`, `Discounts`, `Taxes` let you add specific line items, taxes, and discounts to your subscription.
 
-Example:
-
+**Example**: Suppose you have business called `ACME Landscaping Services` and you suppose you setup have a monthly landscaping plan that costs $200 a month.  
+Some of your clients might want additional services such has hedge trimming.  So you would add create a 'hedge trimming' addon for those clients that want that and want to subscribe.
 
 **Quantity**
 
-The total amount your client is charged on the subscription is the `plan amount * quantity`.  This is important to understand.
+`quantity` is an important field to understand.  The total amount your client is charged on the subscription is the `plan amount * quantity`. 
 
+**Example**
+
+If certain clients have 2 more homes that need landscaping, we can simply increase the quanity without having to subscribe that client to more subscriptions.  
