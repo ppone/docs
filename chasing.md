@@ -4,7 +4,7 @@
       * [Editing The Chasing Email](#invoice-chasing-edit-email)
 
 
-###<a name="invoice-automatic-reminders"></a>Sending Automatic Reminders For Sent Invoices With Chasing
+###Sending Automatic Reminders For Sent Invoices With Chasing
 
 Invoiced lets you send automatic reminders to your client.  This can help you close the gap on the time you get paid, by reminding them that payment is due.
 
@@ -12,7 +12,7 @@ We call this feature **Chasing**.
 Invoice Chasing is typically enabled per invoice.  So you will have to explictly turn it on per invoice.  You will also have to enable it in the settings and set a reminding schedule first.
 
 ---
-#####<a name="invoice-chasing-enable"></a>Enabling Chasing
+####Enabling Chasing
 
 First you will need to enable chasing in the settings and set a schedule.
 
@@ -27,7 +27,7 @@ Click on Allow Chasing to enable it.
 Now we are ready to set the chasing schedule
 
 ---
-#####<a name="invoice-chasing-schedule"></a>Setting the Chasing Schedule
+####Setting the Chasing Schedule
 
 It is pretty important to set the chase schedule correctly.  The chase schedule determines when and how often your client receives the reminders.
 
@@ -101,7 +101,7 @@ Since our due date is September 10th, our reminder will be sent on September 15t
 Although we allow you add as many schedule templates as you like, we generally recommend to keep the schedule simple (no more than 2 schedule templates).   Adding a combination of many schedule templates can make it hard for you to predict precisely every time your client gets a reminder. 
 
 ---
-#####<a name="invoice-chasing-edit-email"></a>Editing The Chasing Emails
+####Editing The Chasing Emails
 Invoiced sends out a default chasing email depending on the context.  
 
 There are 3 email templates that are sent depending on context `New Invoice Email`, `Invoice Reminder Email`, `Payment Reminder Email` .

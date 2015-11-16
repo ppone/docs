@@ -4,18 +4,18 @@
       * [Collections Mode](#invoice-collections-mode)
 
 
-###<a name="invoice-automatic-reminders"></a>Getting Paid Automatically Through Subscriptions
+###Getting Paid Automatically Through Subscriptions
 Invoiced offers business a way to automatically collect money through a feature called subscriptions.
 
 ---
-####<a name="invoice-automatic-reminders"></a>Subscriptions
+####Subscriptions
 
 Subscriptions allow businesses to either automatically collect payment or automatically invoice the customer on a recurring basis.
 
 This is great if find yourself frequently invoicing your customer every month.  Using subscriptions allows you to automatically invoice & collect money from them, saving you and your customer valuable time and offering convience.
 
 ---
-####<a name="invoice-create-subscription"></a>Creating a Subscription
+####Creating a Subscription
 
 To create subscription, click on Subscriptions from the dashboard.  
 
@@ -30,7 +30,7 @@ Now a the subscription modal will appear.
 ![Invoice Subscription Modal](imgs/invoice-subscribe-modal.png)
 
 ---
-####<a name="invoice-what-is-a-plan"></a>What is a plan
+####What is a plan
 
 Plans are sort a template for creating a subscription.  You will find that the plan actually specifiy how often the client is invoiced or charged, how much they are invoiced for, the currency, descripton, terms, notes, allowed payments and whether the payment should be chased.
 
@@ -67,8 +67,16 @@ The subscription modal has few fields that you want to understand.
 
 Choosing `Until Canceled` means it can gone on forever potentially until someone explicitly cancels it.
 
-Additional Items
+**Additional Items**
+
+Additional items are line items, discounts, taxes that you add to subscription on top what the plan charges for.  It gives you the flexibility and power to customize the subscription to your client.
 
 `Addons`, `Discounts`, `Taxes` let you add specific line items, taxes, and discounts to your subscription.
 
-This is useful if you are invoicing or charging for addional items in addition to what your plan amount is.  
+Example:
+
+
+**Quantity**
+
+The total amount your client is charged on the subscription is the `plan amount * quantity`.  This is important to understand.
+
