@@ -15,7 +15,7 @@ Subscriptions allow businesses to either automatically collect payment or automa
 This is great if find yourself frequently invoicing your customer every month.  Using subscriptions allows you to automatically invoice & collect money from them, saving you and your client valuable time and offering convience.
 
 ---
-####Creating a Subscription
+####**Creating a Subscription**
 
 To create subscription, click on Subscriptions from the dashboard.  
 
