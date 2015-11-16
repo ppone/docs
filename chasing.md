@@ -1,7 +1,10 @@
- * [Sending Automatic Reminders To Your Client With Chasing](#invoice-automatic-reminders)
-      * [Enabling Chasing](#invoice-chasing-enable)
-      * [Setting the Chasing Schedule](#invoice-chasing-schedule)
-      * [Editing The Chasing Email](#invoice-chasing-edit-email)
+
+#Chasing Guide
+
+* [Sending Automatic Reminders To Your Client With Chasing](#invoice-automatic-reminders)
+  * [Enabling Chasing](#invoice-chasing-enable)
+  * [Setting the Chasing Schedule](#invoice-chasing-schedule)
+  * [Editing The Chasing Email](#invoice-chasing-edit-email)
 
 
 ##Sending Automatic Reminders For Sent Invoices With Chasing

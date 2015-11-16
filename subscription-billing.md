@@ -1,3 +1,5 @@
+#Subscription Billing Guide
+
 * [Getting Paid Automatically Through Subscriptions](#invoice-paid-automatically)
   * [Subscriptions](#invoice-subscriptions) 
   * [Plans](#invoice-plans)
