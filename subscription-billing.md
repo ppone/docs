@@ -61,7 +61,19 @@ Most of the fields are self-explanatory.
 
 `Recurs` field is where you specify how often and how many times the subscription will run for.
 
-**Example:**  
+####**Example:** Suppose you have business called `ACME Landscaping Services` and want to setup a plan that invoices/charges the client $200 every month.
+
+Let us set `Name` to `ACME Landscaping Monthly Plan`,
+`Amount` to $200,
+and `Recurs` to 'every 1 month'.
+
+![Invoice Plan Modal Example 1](img/invoice-plan-modal-example-1.png)
+
+We may optionally want to add a `Description`, `Terms` and allow `Chasing` (read more about chasing here <!-- TODO fill out chasing link -->)
+
+![Invoice Plan Modal Example 2](img/invoice-plan-modal-example-2.png)
+
+After we filled out the plan modal we simply click on `Save`
 
 ###Back To Subscriptions
 
