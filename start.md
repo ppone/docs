@@ -1,5 +1,0 @@
-* [Invoiced Guide](#invoiced-guide)
-   * [Getting Paid Automatically Through Subscriptions](#invoice-paid-automatically)
-   * [Sending Automatic Reminders to your client](#invoice-automatic-reminders)
-   * [Enabling Online Payments On Your Invoices](#invoice-enable-online)
-      * [Accepting Credit Cards](#invoice-subscriptions) 
