@@ -4,18 +4,17 @@
       * [Collections Mode](#invoice-collections-mode)
 
 
-###Getting Paid Automatically Through Subscriptions
+##Getting Paid Automatically Through Subscriptions
+
 Invoiced offers business a way to automatically collect money through a feature called subscriptions.
 
----
-####Subscriptions
+###Subscriptions
 
 Subscriptions allow businesses to either automatically collect payment or automatically invoice the client on a recurring basis.
 
 This is great if find yourself frequently invoicing your customer every month.  Using subscriptions allows you to automatically invoice & collect money from them, saving you and your client valuable time and offering convenience.
 
----
-####**Creating a Subscription**
+###**Creating a Subscription**
 
 To create subscription, click on Subscriptions from the dashboard.  
 
@@ -35,8 +34,8 @@ We first start off with adding or choosing a client in the `Client` field.
 
 We than add or choose a plan in `Plan` field.  Plans are a important concept to understand and we will discuss them in the next section.
 
----
-####What is a plan
+
+###What is a plan
 
 Plans are sort a template for creating a subscription.  You will find that the plan actually specify how often the client is invoiced or charged, how much they are invoiced for, the currency, description, terms, notes, allowed payments and whether the payment should be chased.
 
@@ -46,7 +45,6 @@ From the Subscription Modal you can create a new plan.
 
 ![Invoice Subscription Modal](img/invoice-subscription-plan.png)
 
----
 We will go over most of fields in a plan
 
 ![Invoice Plan Modal](img/invoice-plan-modal.png)
@@ -63,8 +61,8 @@ Most of the fields are self-explanatory.
 
 **Example:**  
 
----
-####Back To Subscriptions
+###Back To Subscriptions
+
 The subscription modal has few fields that you want to understand. 
 
 `Duration` has 2 options `Until Canceled` and `Fixed duration`
