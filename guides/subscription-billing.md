@@ -80,30 +80,24 @@ After we filled out the plan modal we simply click on `Save`
 The subscription modal has few fields that you want to understand. 
 
 `Duration` has 2 options `Until Canceled` and `Fixed duration`
-
 `Until Canceled` means the subscription will be executed until it is explicitly canceled.  
-
 `Fixed duration` specify how long the subscription can go on for.
 
 Choosing `Until Canceled` means it can gone on forever potentially until you or the client explicitly cancels it.  The client will be able to cancel the subscription in the billing portal
 
-####Additional Items
+**Additional Items**
 
 Additional items are line items, discounts, taxes that you add to subscription on top what the plan charges for.  It gives you the flexibility and power to customize the subscription to your client.
 
 `Addons`, `Discounts`, `Taxes` let you add specific line items, taxes, and discounts to your subscription.
 
-####Example: 
+**Example**
 
 Suppose you have business called `ACME Landscaping Services` and you suppose you setup a monthly landscaping plan that costs $200 a month.  
 Some of your clients might want additional services such has hedge trimming.  So you would add create a 'hedge trimming' add-on for those clients that want that and want to subscribe.
 
-####Quantity
+**Quantity**
 
 `quantity` is an important field to understand.  The total amount your client is charged on the subscription is the `plan amount * quantity`. 
 
-####Example
-
-If certain clients have 2 more homes that need landscaping, we can simply increase the quantity without having to subscribe that client to more subscriptions.  
-
-###Refunding Subscription
+###Canceling Subscription
