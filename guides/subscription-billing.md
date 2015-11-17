@@ -93,7 +93,9 @@ Additional items are line items, discounts, taxes that you add to subscription o
 
 `Addons`, `Discounts`, `Taxes` let you add specific line items, taxes, and discounts to your subscription.
 
-####Example: Suppose you have business called `ACME Landscaping Services` and you suppose you setup a monthly landscaping plan that costs $200 a month.  
+####Example: 
+
+Suppose you have business called `ACME Landscaping Services` and you suppose you setup a monthly landscaping plan that costs $200 a month.  
 Some of your clients might want additional services such has hedge trimming.  So you would add create a 'hedge trimming' add-on for those clients that want that and want to subscribe.
 
 ####Quantity
