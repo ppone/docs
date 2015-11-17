@@ -3,8 +3,7 @@
 * [Getting Paid Automatically Through Subscriptions](#invoice-paid-automatically)
   * [Subscriptions](#invoice-subscriptions) 
   * [Plans](#invoice-plans)
-      * [Collections Mode](#invoice-collections-mode)
-
+    * [Collections Mode](#invoice-collections-mode)
 
 ##Getting Paid Automatically Through Subscriptions
 
@@ -17,7 +16,6 @@ Subscriptions allow businesses to either automatically collect payment or automa
 This is great if find yourself frequently invoicing your customer every month.  Using subscriptions allows you to automatically invoice & collect money from them, saving you and your client valuable time and offering convenience.
 
 ###Creating a Subscription
-
 
 To create subscriptions, click on Subscriptions from the dashboard.  
 
@@ -61,9 +59,11 @@ Most of the fields are self-explanatory.
 
 `Recurs` field is where you specify how often and how many times the subscription will run for.
 
-####Example: Suppose you have business called `ACME Landscaping Services` and want to setup a plan that invoices/charges the client $200 every month.
+####Example: 
 
-Let us set `Name` to `ACME Landscaping Monthly Plan`,
+Suppose you have business called `ACME Landscaping Services` and want to setup a plan that invoices/charges the client $200 every month.
+
+Let's set `Name` to `ACME Landscaping Monthly Plan`,
 `Amount` to $200,
 and `Recurs` to 'every 1 month'.
 
