@@ -61,7 +61,7 @@ Most of the fields are self-explanatory.
 
 `Recurs` field is where you specify how often and how many times the subscription will run for.
 
-####**Example:** Suppose you have business called `ACME Landscaping Services` and want to setup a plan that invoices/charges the client $200 every month.
+####Example: Suppose you have business called `ACME Landscaping Services` and want to setup a plan that invoices/charges the client $200 every month.
 
 Let us set `Name` to `ACME Landscaping Monthly Plan`,
 `Amount` to $200,
