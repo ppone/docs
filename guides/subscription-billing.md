@@ -18,7 +18,8 @@ This is great if find yourself frequently invoicing your customer every month.  
 
 ###Creating a Subscription
 
-To create subscription, click on Subscriptions from the dashboard.  
+
+To create subscriptions, click on Subscriptions from the dashboard.  
 
 ![Invoice Subscribe](../img/invoice-subscription.png)
 
