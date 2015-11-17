@@ -51,7 +51,7 @@ We will go over most of fields in a plan
 
 ![Invoice Plan Modal](img/invoice-plan-modal.png)
 
-If you click on `Options` you will get a even more customization options for the plan.
+If you click on `Options` you will gets a even more customization options for the plan.
 
 ![Invoice Subscription Modal Expanded](img/invoice-plan-modal-expanded.png)
 
@@ -85,7 +85,7 @@ The subscription modal has few fields that you want to understand.
 
 `Fixed duration` specify how long the subscription can go on for.
 
-Choosing `Until Canceled` means it can gone on forever potentially until someone explicitly cancels it.
+Choosing `Until Canceled` means it can gone on forever potentially until you or the client explicitly cancels it.  The client will be able to cancel the subscription in the billing portal
 
 **Additional Items**
 
@@ -93,7 +93,7 @@ Additional items are line items, discounts, taxes that you add to subscription o
 
 `Addons`, `Discounts`, `Taxes` let you add specific line items, taxes, and discounts to your subscription.
 
-**Example**: Suppose you have business called `ACME Landscaping Services` and you suppose you setup have a monthly landscaping plan that costs $200 a month.  
+**Example**: Suppose you have business called `ACME Landscaping Services` and you suppose you setup a monthly landscaping plan that costs $200 a month.  
 Some of your clients might want additional services such has hedge trimming.  So you would add create a 'hedge trimming' add-on for those clients that want that and want to subscribe.
 
 **Quantity**
