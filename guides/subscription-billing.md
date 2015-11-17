@@ -20,15 +20,15 @@ This is great if find yourself frequently invoicing your customer every month.  
 
 To create subscription, click on Subscriptions from the dashboard.  
 
-![Invoice Subscribe](img/invoice-subscription.png)
+![Invoice Subscribe](../img/invoice-subscription.png)
 
 From their click on `Add Subscription`
 
-![Invoice Subscription Add](img/invoice-subscription-create.png)
+![Invoice Subscription Add](../img/invoice-subscription-create.png)
 
 Now a the subscription modal will appear.
 
-![Invoice Subscription Modal](img/invoice-subscription-modal.png)
+![Invoice Subscription Modal](../img/invoice-subscription-modal.png)
 
 Every field with a `*`  is required to be filled out.
 
@@ -45,15 +45,15 @@ The advantages of using a plan are that it can save you time from having to re-e
 
 From the Subscription Modal you can create a new plan.
 
-![Invoice Subscription Modal](img/invoice-subscription-plan.png)
+![Invoice Subscription Modal](../img/invoice-subscription-plan.png)
 
 We will go over most of fields in a plan
 
-![Invoice Plan Modal](img/invoice-plan-modal.png)
+![Invoice Plan Modal](../img/invoice-plan-modal.png)
 
-If you click on `Options` you will get a even more customization options for the plan.
+If you click on `Options` you will gets a even more customization options for the plan.
 
-![Invoice Subscription Modal Expanded](img/invoice-plan-modal-expanded.png)
+![Invoice Subscription Modal Expanded](../img/invoice-plan-modal-expanded.png)
 
 You will want to add `Name`, `Amount`, `Recurs` at a minimum.  `ID` will be auto-generated based on `Name`.
 
@@ -67,11 +67,11 @@ Let us set `Name` to `ACME Landscaping Monthly Plan`,
 `Amount` to $200,
 and `Recurs` to 'every 1 month'.
 
-![Invoice Plan Modal Example 1](img/invoice-plan-modal-example-1.png)
+![Invoice Plan Modal Example 1](../img/invoice-plan-modal-example-1.png)
 
 We may optionally want to add a `Description`, `Terms` and allow `Chasing` (read more about chasing here <!-- TODO fill out chasing link -->)
 
-![Invoice Plan Modal Example 2](img/invoice-plan-modal-example-2.png)
+![Invoice Plan Modal Example 2](../img/invoice-plan-modal-example-2.png)
 
 After we filled out the plan modal we simply click on `Save`
 
@@ -85,7 +85,7 @@ The subscription modal has few fields that you want to understand.
 
 `Fixed duration` specify how long the subscription can go on for.
 
-Choosing `Until Canceled` means it can gone on forever potentially until someone explicitly cancels it.
+Choosing `Until Canceled` means it can gone on forever potentially until you or the client explicitly cancels it.  The client will be able to cancel the subscription in the billing portal
 
 **Additional Items**
 
@@ -93,7 +93,7 @@ Additional items are line items, discounts, taxes that you add to subscription o
 
 `Addons`, `Discounts`, `Taxes` let you add specific line items, taxes, and discounts to your subscription.
 
-**Example**: Suppose you have business called `ACME Landscaping Services` and you suppose you setup have a monthly landscaping plan that costs $200 a month.  
+**Example**: Suppose you have business called `ACME Landscaping Services` and you suppose you setup a monthly landscaping plan that costs $200 a month.  
 Some of your clients might want additional services such has hedge trimming.  So you would add create a 'hedge trimming' add-on for those clients that want that and want to subscribe.
 
 **Quantity**
