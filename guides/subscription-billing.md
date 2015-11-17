@@ -37,7 +37,6 @@ We first start off with adding or choosing a client in the `Client` field.
 
 We than add or choose a plan in `Plan` field.  Plans are a important concept to understand and we will discuss them in the next section.
 
-
 ###What is a plan
 
 Plans are sort a template for creating a subscription.  You will find that the plan actually specify how often the client is invoiced or charged, how much they are invoiced for, the currency, description, terms, notes, allowed payments and whether the payment should be chased.
@@ -88,19 +87,21 @@ The subscription modal has few fields that you want to understand.
 
 Choosing `Until Canceled` means it can gone on forever potentially until you or the client explicitly cancels it.  The client will be able to cancel the subscription in the billing portal
 
-####Additional Items
+#####Additional Items
 
 Additional items are line items, discounts, taxes that you add to subscription on top what the plan charges for.  It gives you the flexibility and power to customize the subscription to your client.
 
 `Addons`, `Discounts`, `Taxes` let you add specific line items, taxes, and discounts to your subscription.
 
-**Example**: Suppose you have business called `ACME Landscaping Services` and you suppose you setup a monthly landscaping plan that costs $200 a month.  
+#####Example: Suppose you have business called `ACME Landscaping Services` and you suppose you setup a monthly landscaping plan that costs $200 a month.  
 Some of your clients might want additional services such has hedge trimming.  So you would add create a 'hedge trimming' add-on for those clients that want that and want to subscribe.
 
-**Quantity**
+#####Quantity
 
 `quantity` is an important field to understand.  The total amount your client is charged on the subscription is the `plan amount * quantity`. 
 
-**Example**
+#####Example
 
 If certain clients have 2 more homes that need landscaping, we can simply increase the quantity without having to subscribe that client to more subscriptions.  
+
+###Refunding Subscription
