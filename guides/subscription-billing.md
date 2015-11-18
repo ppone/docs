@@ -53,7 +53,7 @@ When choosing `Manual`, you should set the `Payment Terms` as well.
 
 <!-- LINK TO BLOG POST ON OPTIMIZING PAYMENT TERMS -->
 
-![Client Set Collection Mode Automatic](../img/invoice-client-collection-mode-automatic.png)
+![Client Set Collection Mode Automatic](../img/invoice-client-collection-mode-manual.png)
 
 We than add or choose a plan in `Plan` field.  Plans are a important concept to understand and we will discuss them in the next section.
 
