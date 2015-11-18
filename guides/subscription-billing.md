@@ -1,19 +1,15 @@
 #Subscription Billing Guide
 
-* [Getting Paid Automatically Through Subscriptions](#getting-paid-automatically-through-subscriptions)
-  * [Subscriptions](#subscriptions) 
-  * [Plans](#what-is-a-plan)
-    * [Collections Mode](#collection-mode)
-
-##Getting Paid Automatically Through Subscriptions
-
 Invoiced offers business a way to automatically collect money through a feature called subscriptions.
-
-###Subscriptions
 
 Subscriptions allow businesses to either automatically collect payment or automatically invoice the client on a recurring basis.
 
 This is great if find yourself frequently invoicing your customer every month.  Using subscriptions allows you to automatically invoice & collect money from them, saving you and your client valuable time and offering convenience.
+
+* [Subscriptions](#subscriptions) 
+* [Plans](#what-is-a-plan)
+    * [Collections Mode](#collection-mode)
+
 
 ###Creating a Subscription
 

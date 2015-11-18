@@ -1,8 +1,5 @@
-#Online Payments Guide
-   * [Enabling Online Payments On Your Invoices](#invoice-enable-online)
-      * [Accepting Credit Cards](#invoice-subscriptions) 
+#On-line Payments Guide
 
-## On-line Payments
 Invoiced lets you accept on-line payments such as Credit Cards, Bitcoin, and PayPal.  On-line payments are essential if you want to get paid quicker.  They also are key to auto-charging your clients through subscriptions. 
 
 For Credit Cards and Bitcoin we use a payment processor called Stripe.  *Note: We may enable additional payment processors in the future*
