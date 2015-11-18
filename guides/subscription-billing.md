@@ -1,8 +1,8 @@
 #Subscription Billing Guide
 
-* [Getting Paid Automatically Through Subscriptions](#invoice-paid-automatically)
-  * [Subscriptions](#invoice-subscriptions) 
-  * [Plans](#invoice-plans)
+* [Getting Paid Automatically Through Subscriptions](#getting-paid-automatically-through-subscriptions)
+  * [Subscriptions](#subscriptions) 
+  * [Plans](#what-is-a-plan)
     * [Collections Mode](#invoice-collections-mode)
 
 ##Getting Paid Automatically Through Subscriptions
@@ -83,7 +83,7 @@ The subscription modal has few fields that you want to understand.
 `Until Canceled` means the subscription will be executed until it is explicitly canceled.  
 `Fixed duration` specify how long the subscription can go on for.
 
-Choosing `Until Canceled` means it can gone on forever potentially until you or the client explicitly cancels it.  The client will be able to cancel the subscription in the billing portal
+Choosing `Until Canceled` means it can gone on forever potentially until you or the client explicitly cancels it.  The client will also be able to cancel the subscription in the billing portal
 
 **Additional Items**
 
@@ -94,10 +94,15 @@ Additional items are line items, discounts, taxes that you add to subscription o
 **Example**
 
 Suppose you have business called `ACME Landscaping Services` and you suppose you setup a monthly landscaping plan that costs $200 a month.  
-Some of your clients might want additional services such has hedge trimming.  So you would add create a 'hedge trimming' add-on for those clients that want that and want to subscribe.
+
+Some of your clients might want additional services such has hedge trimming.  So you would add create a 'hedge trimming' add-on for those clients.
 
 **Quantity**
 
 `quantity` is an important field to understand.  The total amount your client is charged on the subscription is the `plan amount * quantity`. 
 
 ###Canceling Subscription
+
+Cancel a subscription is pretty easy.  Simple go into the subscription and click on `More` than `Cancel Subscription`
+
+![Invoice Plan Modal Example 2](../img/invoice-subscription-cancel.png)
