@@ -33,6 +33,28 @@ Every field with a `*`  is required to be filled out.
 
 We first start off with adding or choosing a client in the `Client` field.
 
+When populating the client field we must understand the collection mode for the client.
+
+###Collection Mode
+
+Collection is set per client.  Collection mode specifics whether the client is auto-charged (meaning they are charged automatically by Invoiced) or not. If the client is not auto-charged than the client is simply sent a invoice automatically and **the onus is on the client to pay**. 
+
+The collection modes are called `Automatic` and `Manual`. *Note: You must have online payments (TODO: LINK HERE) in order to able to see and use `Automatic` mode*  The collection mode is set in the client profile.  When you are adding or editing a client.
+
+![Client Set Collection Mode](../img/invoice-client-set-collection-mode.png) 
+
+When choosing `Automatic`, you must check mark `Add Card`.  Checking this box, allows you to add your client's credit card *Note: You must have online payments enabled* .  The auto-charge will not work if this is not done. 
+
+![Client Set Collection Mode Automatic](../img/invoice-client-collection-mode-automatic.png)
+
+When choosing `Manual`, you should set the `Payment Terms` as well.  
+
+`Payment Terms` are the terms that specify when the payment on the invoice is due.  `NET 7` means that payment should be due within 7 days of receipt. For `NET 14` means that payment should be due within 14 days of receipt. `NET 30` means that payment should be due within 30 days of receipt.  You can define any custom term by directly inputing it into the input box.
+
+<!-- LINK TO BLOG POST ON OPTIMIZING PAYMENT TERMS -->
+
+![Client Set Collection Mode Automatic](../img/invoice-client-collection-mode-automatic.png)
+
 We than add or choose a plan in `Plan` field.  Plans are a important concept to understand and we will discuss them in the next section.
 
 ###What is a plan
@@ -79,9 +101,7 @@ After we filled out the plan modal we simply click on `Save`
 
 The subscription modal has few fields that you want to understand. 
 
-`Duration` has 2 options `Until Canceled` and `Fixed duration`
-`Until Canceled` means the subscription will be executed until it is explicitly canceled.  
-`Fixed duration` specify how long the subscription can go on for.
+`Duration` has 2 options `Until Canceled` and `Fixed duration`.  `Until Canceled` means the subscription will be executed until it is explicitly canceled.  `Fixed duration` specify how long the subscription can go on for.
 
 Choosing `Until Canceled` means it can gone on forever potentially until you or the client explicitly cancels it.  The client will also be able to cancel the subscription in the billing portal
 
