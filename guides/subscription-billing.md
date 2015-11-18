@@ -3,7 +3,7 @@
 * [Getting Paid Automatically Through Subscriptions](#getting-paid-automatically-through-subscriptions)
   * [Subscriptions](#subscriptions) 
   * [Plans](#what-is-a-plan)
-    * [Collections Mode](#invoice-collections-mode)
+    * [Collections Mode](#collection-mode)
 
 ##Getting Paid Automatically Through Subscriptions
 
