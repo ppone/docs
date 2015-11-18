@@ -2,8 +2,6 @@
    * [Enabling Online Payments On Your Invoices](#invoice-enable-online)
       * [Accepting Credit Cards](#invoice-subscriptions) 
 
-
-
 ## On-line Payments
 Invoiced lets you accept on-line payments such as Credit Cards, Bitcoin, and PayPal.  On-line payments are essential if you want to get paid quicker.  They also are key to auto-charging your clients through subscriptions. 
 
@@ -19,11 +17,13 @@ Go to Settings -> Payments
 ![On-line Payments](../img/invoice-online-payments.png)
 
 **Enabling Credit Cards**
+
 Click on `Credit Card` and than click on `Connect With Stripe` and than you should be re-directed to Stripe's page to complete registration.  Complete your registration with Stripe and you will be automatically redirected to Invoiced.
 
 ![Credit Card Enabled](../img/invoice-enable-credit-card.png)
 
 **Enabling Bitcoin**
+
 Click on `BitCoin`.  You will see than see instructions on how to enable bitcoin.  *Note: Not all Stripe accounts will qualify for Bitcoin*
 
 It is a 3 step process.
@@ -37,6 +37,7 @@ If you are redirected to a Stripe page for registration, you will be re-directed
 ![Credit Card Enabled](../img/invoice-enable-bitcoin.png)
 
 **Enabling PayPal**
+
 Click on `PayPal` and enter in your PayPal e-mail address or click on learn more to register for one at PayPal and than enter in the PayPal address.  Than click Save.
 
 ![Credit Card Enabled](../img/invoice-enable-paypal.png)
