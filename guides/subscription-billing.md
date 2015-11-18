@@ -39,9 +39,19 @@ When populating the client field we must understand the collection mode for the 
 
 Collection is set per client.  Collection mode specifics whether the client is auto-charged (meaning they are charged automatically by Invoiced) or not. If the client is not auto-charged than the client is simply sent a invoice automatically and **the onus is on the client to pay**. 
 
-The collection modes are called `Automatic` and `Manual`. *Note: You must have online payments (TODO: LINK HERE) in order to able to see and use `Automatic` mode*  The collection mode is set in the client profile.  When you are adding or editing a client.
+The collection modes are called `Automatic` and `Manual`. The collection mode is set in the client profile.  When you are adding or editing a client.
 
-![Client Set Collection Mode](../img/invoice-client-set-collection-mode.png) 
+*Note: You must have on-line payments (TODO: LINK HERE) in order to able to see and use `Automatic` mode* 
+
+Without On-line Payments Enabled
+
+![Client Collection Mode On-line Mode Disabled](../img/invoice-client-collection-mode-automatic-disabled.png) 
+
+With On-line Payments Enabled
+
+![Client Collection Mode On-line Mode Enabled](../img/invoice-client-set-collection-mode.png) 
+
+**Automatic vs Manual**
 
 When choosing `Automatic`, you must check mark `Add Card`.  Checking this box, allows you to add your client's credit card *Note: You must have online payments enabled* .  The auto-charge will not work if this is not done. 
 
