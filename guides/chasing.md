@@ -34,7 +34,7 @@ The chase schedule has 3 schedule steps you can choose from.
 
 ![Invoice Settings Chasing Step 1](../img/invoice-setting-chasing-step-1.png)
 
-2. S*end a reminder X days before the due date*
+2. *Send a reminder X days before the due date*
 
 ![Invoice Settings Chasing Step 2](../img/invoice-setting-chasing-step-2.png)
 
@@ -72,7 +72,7 @@ Let the invoice due date be September 10th
 
 We set our schedule to
 
-*Send a reminder 5 days before the due date.**
+*Send a reminder 5 days before the due date*
 
 And we also add in
 

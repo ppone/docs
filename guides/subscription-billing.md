@@ -10,7 +10,7 @@ To create subscriptions, click on Subscriptions from the dashboard.
 
 ![Invoice Subscribe](../img/invoice-subscription.png)
 
-From their click on *Add Subscription*
+From their click on **Add Subscription**
 
 ![Invoice Subscription Add](../img/invoice-subscription-create.png)
 
@@ -30,7 +30,7 @@ Collection is set per client.  Collection mode specifics whether the client is a
 
 The collection modes are called *Automatic* and *Manual*. The collection mode is set in the client profile.  When you are adding or editing a client.
 
-Note: You must have online payments in order to able to see and use *Automatic* mode.  Learn more in about online payments in our **[Online Payments Guide](/docs/guides/payments)**.  
+Note: You must have online payments in order to able to see and use *Automatic* mode.  Learn more in about online payments in our [Online Payments Guide](/docs/guides/payments).  
 
 Without Online Payments Enabled
 
@@ -42,15 +42,15 @@ With Online Payments Enabled
 
 ###Automatic vs Manual
 
-When choosing *Automatic*, you must check mark *Add Card*.  Checking this box, allows you to add your client's credit card.  Note: You must have online payments enabled.  The auto-charge will not work if this is not done. 
+When choosing **Automatic**, you must check mark **Add Card**.  Checking this box, allows you to add your client's credit card.  Note: You must have online payments enabled.  The auto-charge will not work if this is not done. 
 
 ![Client Set Collection Mode Automatic](../img/invoice-client-collection-mode-automatic.png)
 
-When choosing *Manual*, you should set the *Payment Terms* as well.  
+When choosing **Manual**, you should set the *Payment Terms* as well.  
 
 *Payment Terms* are the terms that specify when the payment on the invoice is due.  *NET 7* means that payment should be due within 7 days of receipt. For *NET 14* means that payment should be due within 14 days of receipt. *NET 30* means that payment should be due within 30 days of receipt.  
 
-You can define any custom term by directly inputing it into the input box.  To learn more about optimizing payment terms and getting paid faster go **[here](http://blog.invoiced.com/how-to-get-paid-faster-on-your-invoice-part-i/)**.
+You can define any custom term by directly inputing it into the input box.  To learn more about optimizing payment terms and getting paid faster go [here](http://blog.invoiced.com/how-to-get-paid-faster-on-your-invoice-part-i/).
 
 ![Client Set Collection Mode Manual](../img/invoice-client-collection-mode-manual.png)
 
@@ -70,7 +70,7 @@ We will go over most of fields in a plan
 
 ![Invoice Plan Modal](../img/invoice-plan-modal.png)
 
-If you click on *Options* you will gets a even more customization options for the plan.
+If you click on **Options** you will gets a even more customization options for the plan.
 
 ![Invoice Subscription Modal Expanded](../img/invoice-plan-modal-expanded.png)
 
@@ -95,7 +95,7 @@ Read more about *Chasing* in the [Chasing Guide](/docs/guides/chasing)
 
 ![Invoice Plan Modal Example 2](../img/invoice-plan-modal-example-2.png)
 
-After we filled out the plan modal we simply click on *Save*
+After we filled out the plan modal we simply click on **Save**
 
 ##Back To Subscriptions
 
