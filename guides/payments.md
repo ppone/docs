@@ -51,7 +51,7 @@ Invoiced lets you give instructions to your clients about the different offline 
 
 When the client clicks on **View Invoice > Pay Invoice** they will be presented about the various payment options you accept and how to pay them. They can also notify you when they expect you to get the payment.
 
-You can see this workflow in our **[Getting Started Guide](/docs/getting-started#getting-paid)**.
+You can see this workflow in our **[Getting Started Guide](/docs#getting-paid)**.
 
 To set this up go to **Settings > Payments**
 
