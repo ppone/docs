@@ -32,7 +32,7 @@ Collection is set per client.  Collection mode specifics whether the client is a
 
 The collection modes are called `Automatic` and `Manual`. The collection mode is set in the client profile.  When you are adding or editing a client.
 
-*Note: You must have on-line payments (TODO: LINK HERE) in order to able to see and use `Automatic` mode* 
+*Note: You must have online payments in order to able to see and use `Automatic` mode.  Learn more in about online payments in our [Online Payments Guide](/docs/guides/payments)* 
 
 Without On-line Payments Enabled
 
@@ -60,9 +60,9 @@ We than add or choose a plan in `Plan` field.  Plans are a important concept to 
 
 ###What is a plan
 
-Plans are sort a template for creating a subscription.  You will find that the plan actually specify how often the client is invoiced or charged, how much they are invoiced for, the currency, description, terms, notes, allowed payments and whether the payment should be chased.
+Plans are sort a template for creating a subscription.  They specify how often the client is invoiced or charged, how much they are invoiced for, the currency, description, terms, notes, allowed payments and whether the payment should be chased.
 
-The advantages of using a plan are that it can save you time from having to re-enter the information mentioned above.  
+The advantages of using a plan are that it can save you time from having to re-enter the information mentioned above for every client.  
 
 From the Subscription Modal you can create a new plan.
 
@@ -92,7 +92,8 @@ and `Recurs` to 'every 1 month'.
 
 ![Invoice Plan Modal Example 1](../img/invoice-plan-modal-example-1.png)
 
-We may optionally want to add a `Description`, `Terms` and allow `Chasing` (read more about chasing here <!-- TODO fill out chasing link -->)
+We may optionally want to add a `Description`, `Terms` and allow `Chasing`.
+Read more about `Chasing` in the [Chasing Guide](/docs/guides/chasing)
 
 ![Invoice Plan Modal Example 2](../img/invoice-plan-modal-example-2.png)
 
@@ -112,7 +113,7 @@ Additional items are line items, discounts, taxes that you add to subscription o
 
 `Addons`, `Discounts`, `Taxes` let you add specific line items, taxes, and discounts to your subscription.
 
-**Example**
+**Additional Items Example**
 
 Suppose you have business called `ACME Landscaping Services` and you suppose you setup a monthly landscaping plan that costs $200 a month.  
 
@@ -121,6 +122,10 @@ Some of your clients might want additional services such has hedge trimming.  So
 **Quantity**
 
 `quantity` is an important field to understand.  The total amount your client is charged on the subscription is the `plan amount * quantity`. 
+
+**Quantity Example**
+
+Suppose our business called `ACME Landscaping Services` has a client with 2 homes that will get the same services.  We can subscribe them to our $200 a month plan and increase the `quantity` to 2; this saves us the trouble of having to create 2 separate subscriptions for them.
 
 ###Canceling Subscription
 
