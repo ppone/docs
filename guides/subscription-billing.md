@@ -32,7 +32,7 @@ Collection is set per client.  Collection mode specifics whether the client is a
 
 The collection modes are called `Automatic` and `Manual`. The collection mode is set in the client profile.  When you are adding or editing a client.
 
-*Note: You must have online payments in order to able to see and use `Automatic` mode.  Learn more in about online payments in our [Online Payments Guide](/docs/guides/payments)* 
+*Note: You must have online payments in order to able to see and use `Automatic` mode.  Learn more in about online payments in our [Online Payments Guide](/docs/guides/online-payments)* 
 
 Without On-line Payments Enabled
 
@@ -50,9 +50,7 @@ When choosing `Automatic`, you must check mark `Add Card`.  Checking this box, a
 
 When choosing `Manual`, you should set the `Payment Terms` as well.  
 
-`Payment Terms` are the terms that specify when the payment on the invoice is due.  `NET 7` means that payment should be due within 7 days of receipt. For `NET 14` means that payment should be due within 14 days of receipt. `NET 30` means that payment should be due within 30 days of receipt.  You can define any custom term by directly inputing it into the input box.
-
-<!-- LINK TO BLOG POST ON OPTIMIZING PAYMENT TERMS -->
+`Payment Terms` are the terms that specify when the payment on the invoice is due.  `NET 7` means that payment should be due within 7 days of receipt. For `NET 14` means that payment should be due within 14 days of receipt. `NET 30` means that payment should be due within 30 days of receipt.  You can define any custom term by directly inputing it into the input box.  To learn more about optimizing payment terms and getting paid faster go [here](http://blog.invoiced.com/how-to-get-paid-faster-on-your-invoice-part-i/) 
 
 ![Client Set Collection Mode Automatic](../img/invoice-client-collection-mode-manual.png)
 
