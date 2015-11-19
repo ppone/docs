@@ -105,7 +105,7 @@ The subscription modal has few fields that you want to understand.
 
 Choosing *Until Canceled* means it can gone on forever potentially until you or the client explicitly cancels it.  The client will also be able to cancel the subscription in the billing portal
 
-####Additional Items**
+####Additional Items
 
 Additional items are line items, discounts, taxes that you add to subscription on top what the plan charges for.  It gives you the flexibility and power to customize the subscription to your client.
 
