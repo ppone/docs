@@ -86,9 +86,7 @@ We set our schedule just to
 
 *Send a reminder 5 days repeating*
 
-What will happen is the reminder will start on the due date and keep repeating until the invoice.
-
-Since our due date is September 10th, our reminder will be sent on September 15th, and it will keep repeating every 5 days until the invoice is paid.
+What will happen is the reminder will start on the due date and keep repeating.Since our due date is September 10th, our reminder will be sent on September 15th, and it will keep repeating every 5 days until the invoice is paid.
 
 Once the invoice is paid the reminders will automatically stop not matter what schedule or combination of schedule templates that we use.
 
