@@ -1,6 +1,6 @@
 # Invoiced Documentation
 
-Welcome to Billing 101. We're going to walk you through using Invoiced to get paid. If you look into the left sidebar you will see that our documentation is broken up into sub-topics.
+Welcome to Billing 101. We're going to walk you through using Invoiced to get paid. If you look at the left sidebar you will see that our documentation is broken up into sub-topics.
 
 ## Getting Started
 
