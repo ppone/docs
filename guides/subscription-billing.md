@@ -32,13 +32,13 @@ The collection modes are called `Automatic` and `Manual`. The collection mode is
 
 *Note: You must have online payments in order to able to see and use `Automatic` mode.  Learn more in about online payments in our [Online Payments Guide](/docs/guides/online-payments)* 
 
-Without On-line Payments Enabled
+Without Online Payments Enabled
 
-![Client Collection Mode On-line Mode Disabled](../img/invoice-client-collection-mode-automatic-disabled.png) 
+![Client Collection Mode Online Mode Disabled](../img/invoice-client-collection-mode-automatic-disabled.png) 
 
-With On-line Payments Enabled
+With Online Payments Enabled
 
-![Client Collection Mode On-line Mode Enabled](../img/invoice-client-set-collection-mode.png) 
+![Client Collection Mode Online Mode Enabled](../img/invoice-client-set-collection-mode.png) 
 
 **Automatic vs Manual**
 
@@ -50,7 +50,7 @@ When choosing `Manual`, you should set the `Payment Terms` as well.
 
 `Payment Terms` are the terms that specify when the payment on the invoice is due.  `NET 7` means that payment should be due within 7 days of receipt. For `NET 14` means that payment should be due within 14 days of receipt. `NET 30` means that payment should be due within 30 days of receipt.  You can define any custom term by directly inputing it into the input box.  To learn more about optimizing payment terms and getting paid faster go [here](http://blog.invoiced.com/how-to-get-paid-faster-on-your-invoice-part-i/) 
 
-![Client Set Collection Mode Automatic](../img/invoice-client-collection-mode-manual.png)
+![Client Set Collection Mode Manual](../img/invoice-client-collection-mode-manual.png)
 
 We than add or choose a plan in `Plan` field.  Plans are a important concept to understand and we will discuss them in the next section.
 
