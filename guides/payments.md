@@ -5,6 +5,7 @@ Payments are at the core of Invoiced, and our system is setup to let you manuall
 Online payments let your customers directly pay the invoice through our system.  Offline payments are payments from any payment source that you manually record and tie into a invoice.
 
 ##Online Payments
+
 Online payments are essential if you want to get paid quicker.  They also are key to auto-charging your clients through subscriptions. Generally our system lets you accept credit cards, bitcoin, and PayPal.
 
 For Credit Cards and Bitcoin we use a payment processor called Stripe.  Note: We may enable additional payment processors in the future.
