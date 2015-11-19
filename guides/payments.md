@@ -27,7 +27,7 @@ Click on **Credit Card > Connect With Stripe** and than you should be re-directe
 
 ####Enabling Bitcoin
 
-Click on `BitCoin`.  You will see than see instructions on how to enable bitcoin.  Note: Not all Stripe accounts will qualify for Bitcoin.
+Click on *Bitcoin*.  You will see than see instructions on how to enable bitcoin.  Note: Not all Stripe accounts will qualify for Bitcoin.
 
 It is a 3 step process.
 
