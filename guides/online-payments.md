@@ -48,7 +48,7 @@ To get a quick glance at all the invoices, subscriptions, and payments a client 
 
 Simply click on a payment you want to refund.  Once the payment details show up, click on the `Refund` button.
 
-![Credit Card Enabled](../img/invoice-payment-paypal.png)
+![Credit Card Enabled](../img/invoice-payment-refund.png)
 
 
 
