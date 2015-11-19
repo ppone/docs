@@ -11,7 +11,7 @@ For Credit Cards and Bitcoin we use a payment processor called Stripe.  Note: We
 
 After setting up Stripe and PayPal you may want to note how long it typically takes to receive payments.  You can find that information for **[Stripe](https://stripe.com/help/transfers)** and **[PayPal](https://www.paypal.com/webapps/mpp/paypal-payments-standard)**
 
-###Setting up Online Payments
+####Setting up Online Payments
 
 Invoiced makes setting up Stripe and PayPal dead simple.  Here is how you can set them up.
 
