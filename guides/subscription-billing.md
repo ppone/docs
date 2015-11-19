@@ -4,7 +4,7 @@ Subscriptions allow businesses to either automatically collect payment or automa
 
 This is great if find yourself frequently invoicing your customer every month.  Using subscriptions allows you to automatically invoice & collect money from them, saving you and your client valuable time and offering convenience.
 
-###Creating a Subscription
+##Creating a Subscription
 
 To create subscriptions, click on Subscriptions from the dashboard.  
 
@@ -24,7 +24,7 @@ We first start off with adding or choosing a client in the *Client* field.
 
 When populating the client field we must understand the collection mode for the client.
 
-###Collection Mode
+##Collection Mode
 
 Collection is set per client.  Collection mode specifics whether the client is auto-charged (meaning they are charged automatically by Invoiced) or not. If the client is not auto-charged than the client is simply sent a invoice automatically and the onus is on the client to pay. 
 
@@ -40,7 +40,7 @@ With Online Payments Enabled
 
 ![Client Collection Mode Online Mode Enabled](../img/invoice-client-set-collection-mode.png) 
 
-####Automatic vs Manual
+###Automatic vs Manual
 
 When choosing *Automatic*, you must check mark *Add Card*.  Checking this box, allows you to add your client's credit card.  Note: You must have online payments enabled.  The auto-charge will not work if this is not done. 
 
@@ -56,7 +56,7 @@ You can define any custom term by directly inputing it into the input box.  To l
 
 We than add or choose a plan in *Plan* field.  Plans are a important concept to understand and we will discuss them in the next section.
 
-###What is a plan
+##What is a plan
 
 Plans are sort a template for creating a subscription.  They specify how often the client is invoiced or charged, how much they are invoiced for, the currency, description, terms, notes, allowed payments and whether the payment should be chased.
 
@@ -80,7 +80,7 @@ Most of the fields are self-explanatory.
 
 *Recurs* field is where you specify how often and how many times the subscription will run for.
 
-####Example 
+###Example 
 
 Suppose you have business called ACME Landscaping Services and want to setup a plan that invoices/charges the client $200 every month.
 
@@ -97,7 +97,7 @@ Read more about *Chasing* in the [Chasing Guide](/docs/guides/chasing)
 
 After we filled out the plan modal we simply click on *Save*
 
-###Back To Subscriptions
+##Back To Subscriptions
 
 The subscription modal has few fields that you want to understand. 
 
@@ -105,27 +105,27 @@ The subscription modal has few fields that you want to understand.
 
 Choosing *Until Canceled* means it can gone on forever potentially until you or the client explicitly cancels it.  The client will also be able to cancel the subscription in the billing portal
 
-####Additional Items
+###Additional Items
 
 Additional items are line items, discounts, taxes that you add to subscription on top what the plan charges for.  It gives you the flexibility and power to customize the subscription to your client.
 
 *Addons*, *Discounts*, *Taxes* let you add specific line items, taxes, and discounts to your subscription.
 
-####Additional Items Example
+###Additional Items Example
 
 Suppose you have business called ACME Landscaping Services and you suppose you setup a monthly landscaping plan that costs $200 a month.  
 
 Some of your clients might want additional services such has hedge trimming.  So you would add create a 'hedge trimming' add-on for those clients.
 
-####Quantity
+###Quantity
 
 *quantity* is an important field to understand.  The total amount your client is charged on the subscription is the `plan amount * quantity`. 
 
-####Quantity Example
+###Quantity Example
 
 Suppose our business called ACME Landscaping Services has a client with 2 homes that will get the same services.  We can subscribe them to our $200 a month plan and increase the *quantity* to 2; this saves us the trouble of having to create 2 separate subscriptions for them.
 
-###Canceling Subscription
+##Canceling Subscription
 
 Cancel a subscription is pretty easy.  Simple go into the subscription and click on **More > Cancel Subscription**. 
 
