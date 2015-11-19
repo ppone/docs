@@ -12,13 +12,51 @@ Once you have your client library ready to go the next step is to get an API key
 
 Next, we are going to walk through a common invoicing workflow.
 
+### Choose your language
+
+<div class="language-selector">
+	<a href="#" class="btn btn-link" data-lang="bash">Shell</a>
+	<a href="#" class="btn btn-link" data-lang="ruby">Ruby</a>
+	<a href="#" class="btn btn-link" data-lang="php">PHP</a>
+</div>
+
 ### Creating a Customer
 
 Customers are at the core of everything on Invoiced. Customers represent a billable entity from your perspective, whether this is a person, organization, or account. You must create a customer first before you can invoice or accept payments.
 
 Every customer supports one of 2 collection modes, `auto` or `manual`. Auto collection mode will charge your customer's connected payment source each billing cycle. Manual collection mode (the default) will issue an invoice that your customer can pay using one of the payment methods you accept.
 
-	code todo
+```bash
+curl "https://api.invoiced.com/customers" \
+  -u {API_KEY}: \
+  -d name="Acme" \
+  -d email="billing@acmecorp.com" \
+  -d collection_mode="manual" \
+  -d payment_terms="NET 30"
+```
+
+```ruby
+require "invoiced"
+invoiced = Invoiced::Client.new("{YOUR_API_KEY}")
+
+customer = invoiced.Customer.create(
+  :name => "Acme",
+  :email => "billing@acmecorp.com",
+  :collection_mode => "manual",
+  :payment_terms => "NET 30"
+)
+```
+
+```php
+$invoiced = new Invoiced\Client("{YOUR_API_KEY}");
+
+$customer = $invoiced->Customer->create([
+  'name' => "Acme",
+  'email' => "billing@acmecorp.com",
+  'collection_mode' => "manual",
+  'payment_terms' => "NET 30"
+]);
+```
 
 Often it is helpful to save the customer `id` as a property in your own database. The customer ID can be used later to look up the customer's account, invoices, and other billing data.
 
@@ -26,7 +64,65 @@ Often it is helpful to save the customer `id` as a property in your own database
 
 Invoices are another core resource on Invoiced. As you would expect, an invoice represents an amount owed to you by a customer.
 
-	code todo
+```bash
+curl "https://api.invoiced.com/invoices" \
+  -u {API_KEY}: \
+  -d customer={CUSTOMER_ID} \
+  -d items[0][name]="Copy paper, Case" \
+  -d items[0][quantity]=3 \
+  -d items[0][unit_cost]=45 \
+  -d items[1][name]="Delivery" \
+  -d items[1][quantity]=1 \
+  -d items[1][unit_cost]=10 \
+  -d taxes[0][amount]=3.85
+```
+
+```ruby
+invoiced.Invoice.create(
+  :customer => customer.id,
+  :items => [
+    {
+      :name => "Copy paper, Case",
+      :quantity => 3,
+      :unit_cost => 45
+    },
+    {
+      :name => "Delivery",
+      :quantity => 1,
+      :unit_cost => 10
+    }
+  ],
+  :taxes => [
+    {
+      :amount => 3.85
+    }
+  ]
+)
+
+```
+
+```php
+$invoice = $invoiced->Invoice->create([
+  'customer' => $customer->id,
+  'items' => [
+    [
+      'name' => "Copy paper, Case",
+      'quantity' => 3,
+      'unit_cost' => 45
+    ],
+    [
+      'name' => "Delivery",
+      'quantity' => 1,
+      'unit_cost' => 10
+    ]
+  ],
+  'taxes' => [
+    [
+      'amount' => 3.85
+    ]
+  ]
+]);
+```
 
 The invoice will use the collection mode and payment terms from the customer's profile.
 
@@ -34,15 +130,76 @@ The invoice will use the collection mode and payment terms from the customer's p
 
 Now that you have created the invoice you might want to send it to the customer. That's fairly easy to do through the API.
 
-	code todo
+```bash
+curl "https://api.invoiced.com/invoices/{INVOICE_ID}/emails" \
+  -u {API_KEY}: \
+  -X POST
+```
+
+```ruby
+invoice.send
+```
+
+```php
+$invoice->send();
+```
 
 The customer will be sent the invoice with a **View Invoice** button using the default email template. You can customize these templates through the dashboard in **Settings** > **Emails**.
 
 #### Catalog Items
 
-Our Catalog feature allows you to build a simpler, more robust integration by centralizing pricing information for the products and services that you sell. You can add catalog items through the dashboard in **Settings** > **Catalog** or the API. Then you can bill for catalog items by simply referencing its ID like so:
+Our Catalog feature allows you to build a simpler, more robust integration by centralizing pricing information for the products and services that you sell. You must first add catalog items through the dashboard in **Settings** > **Catalog** or through the catalog items API. Then you can bill for catalog items by simply referencing them by ID:
 
-	code todo
+```bash
+curl "https://api.invoiced.com/invoices" \
+  -u {API_KEY}: \
+  -d customer={CUSTOMER_ID} \
+  -d items[0][catalog_item]="copy_paper_20lb" \
+  -d items[0][quantity]=3 \
+  -d items[1][catalog_item]="delivery" \
+  -d taxes[0][amount]=3.85
+```
+
+```ruby
+invoiced.Invoice.create(
+  :customer => customer.id,
+  :items => [
+    {
+      :catalog_item => "copy_paper_20lb",
+      :quantity => 3
+    },
+    {
+      :catalog_item => "delivery"
+    }
+  ],
+  :taxes => [
+    {
+      :amount => 3.85
+    }
+  ]
+)
+
+```
+
+```php
+$invoice = $invoiced->Invoice->create([
+  'customer' => $customer->id,
+  'items' => [
+    [
+      'catalog_item' => 'copy_paper_20lb',
+      'quantity' => 3
+    ],
+    [
+      'catalog_item' => "delivery"
+    ]
+  ],
+  'taxes' => [
+    [
+      'amount' => 3.85
+    ]
+  ]
+]);
+```
 
 Note that we did not have to include the `unit_cost` on the item as it was filled in automatically (although you can override per line item by including it). Another benefit of catalog items is that it helps tie together line items together in reports.
 
@@ -51,9 +208,34 @@ Note that we did not have to include the `unit_cost` on the item as it was fille
 
 On Invoiced payments are represent with the **Transaction** resource. A transaction models the exchange of value between you and a customer, including payments, refunds, and credits. Whenever customers pay online through the billing portal we automatically create a transaction for the payment. However, if you accept payments outside of Invoiced, always true if you are accepting checks or wire transfers, then you have to record the payment yourself through the dashboard or API.
 
-	code todo
+```bash
+curl "https://api.invoiced.com/transactions" \
+  -u {API_KEY}: \
+  -d invoice={INVOICE_ID} \
+  -d method="check" \
+  -d gateway_id="1450" \
+  -d amount=148.85
+```
 
-This will record a payment for the invoice we created earlier and mark it as paid. And that's it for a basic accounts receivable workflow.
+```ruby
+invoiced.Transaction.create(
+  :invoice => invoice.id,
+  :method => "check",
+  :gateway_id => "1450",
+  :amount => 148.85
+)
+```
+
+```php
+$invoiced->Transaction->create([
+  'invoice' => $invoice->id,
+  'method' => "check",
+  'gateway_id' => "1450",
+  'amount' => 148.85
+]);
+```
+
+This will record a payment for the invoice we created earlier and mark it as paid. Since this is an offline payment the `gateway_id` property can be used to reference a check #. And that's it for a basic accounts receivable workflow.
 
 ### What's next?
 
