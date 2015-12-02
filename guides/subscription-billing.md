@@ -130,3 +130,24 @@ Suppose our business called ACME Landscaping Services has a client with 2 homes 
 Cancel a subscription is pretty easy.  Simple go into the subscription and click on **More > Cancel Subscription**. 
 
 ![Invoice Plan Modal Example 2](../img/invoice-subscription-cancel.png)
+
+##FAQs
+
+####What automated emails does Invoiced send for subscriptions? 
+
+#####Sign up confirmation
+
+Confirmation that a customer has finished signing up for automatic billing
+
+#####New Invoice
+
+Sends any invoices generated from a subscription to your customer
+
+#####Cancellation
+
+Notification when a subscription is canceled
+
+####When do subscription invoices go out?
+
+Subscriptions are usually renewed within a minute of the next renewal date.
+
