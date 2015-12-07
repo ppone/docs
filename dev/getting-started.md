@@ -6,7 +6,7 @@ The API was modeled after <a href="https://en.wikipedia.org/wiki/Representationa
 
 ## Getting Started
 
-The first step is to determine how you want to connect to the API. We offer client libraries in several languages, including <a href="https://github.com/Invoiced/invoiced-ruby">Ruby</a>, <a href="https://github.com/Invoiced/invoiced-php">PHP</a>, and <a href="https://github.com/Invoiced/invoiced-go">Go</a>. If we don't have a client library for your language then we would be happy to build one. Otherwise you can manually build the HTTP requests, which is not too difficult.
+The first step is to determine how you want to connect to the API. We offer client libraries in several languages, including <a href="https://github.com/Invoiced/invoiced-ruby">Ruby</a>, <a href="https://github.com/Invoiced/invoiced-php">PHP</a>, <a href="https://github.com/Invoiced/invoiced-python">Python</a>, and <a href="https://github.com/Invoiced/invoiced-go">Go</a>. If we don't have a client library for your language then we would be happy to build one. Otherwise you can manually build the HTTP requests, which is not too difficult.
 
 Once you have your client library ready to go the next step is to get an API key. The API uses [Basic Authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) to authenticate requests. All API requests require a valid API key. You can grab an API key by signing in to the dashboard, and then going to **Settings** > **API Keys**. Please remember to keep this API key safe. In the wrong hands it could give unwanted access to your Invoiced account.
 
@@ -18,6 +18,7 @@ Next, we are going to walk through a common invoicing workflow.
 	<a href="#" class="btn btn-link" data-lang="bash">Shell</a>
 	<a href="#" class="btn btn-link" data-lang="ruby">Ruby</a>
 	<a href="#" class="btn btn-link" data-lang="php">PHP</a>
+  <a href="#" class="btn btn-link" data-lang="python">Python</a>
 </div>
 
 ### Creating a Customer
@@ -58,6 +59,18 @@ $customer = $invoiced->Customer->create([
 ]);
 ```
 
+```python
+import invoiced
+client = invoiced.Client("{YOUR_API_KEY}")
+
+customer = client.Customer.create(
+  name="Acme",
+  email="billing@acmecorp.com",
+  collection_mode="manual",
+  payment_terms="NET 30"
+)
+```
+
 Often it is helpful to save the customer `id` as a property in your own database. The customer ID can be used later to look up the customer's account, invoices, and other billing data.
 
 ### Creating an Invoice
@@ -78,7 +91,7 @@ curl "https://api.invoiced.com/invoices" \
 ```
 
 ```ruby
-invoiced.Invoice.create(
+invoice = invoiced.Invoice.create(
   :customer => customer.id,
   :items => [
     {
@@ -98,7 +111,6 @@ invoiced.Invoice.create(
     }
   ]
 )
-
 ```
 
 ```php
@@ -124,6 +136,29 @@ $invoice = $invoiced->Invoice->create([
 ]);
 ```
 
+```python
+invoice = client.Invoice.create(
+  customer=customer.id,
+  items=[
+    {
+      'name': "Copy paper, Case",
+      'quantity': 3,
+      'unit_cost': 45
+    },
+    {
+      'name': "Delivery",
+      'quantity': 1,
+      'unit_cost': 10
+    }
+  ],
+  taxes=[
+    {
+      'amount': 3.85
+    }
+  ]
+)
+```
+
 The invoice will use the collection mode and payment terms from the customer's profile.
 
 #### Sending Invoices
@@ -142,6 +177,10 @@ invoice.send
 
 ```php
 $invoice->send();
+```
+
+```python
+invoice.send
 ```
 
 The customer will be sent the invoice with a **View Invoice** button using the default email template. You can customize these templates through the dashboard in **Settings** > **Emails**.
@@ -201,6 +240,26 @@ $invoice = $invoiced->Invoice->create([
 ]);
 ```
 
+```python
+invoice = client.Invoice.create(
+  customer=customer.id,
+  items=[
+    {
+      'catalog_item': "copy_paper_20lb",
+      'quantity': 3
+    },
+    {
+      'catalog_item': "delivery"
+    }
+  ],
+  taxes=[
+    {
+      'amount': 3.85
+    }
+  ]
+)
+```
+
 Note that we did not have to include the `unit_cost` on the item as it was filled in automatically (although you can override per line item by including it). Another benefit of catalog items is that it helps tie together line items together in reports.
 
 
@@ -233,6 +292,15 @@ $invoiced->Transaction->create([
   'gateway_id' => "1450",
   'amount' => 148.85
 ]);
+```
+
+```python
+client.Transaction->create(
+  invoice=invoice.id,
+  method="check",
+  gateway_id="1450",
+  amount=148.85
+)
 ```
 
 This will record a payment for the invoice we created earlier and mark it as paid. Since this is an offline payment the `gateway_id` property can be used to reference a check #. And that's it for a basic accounts receivable workflow.
