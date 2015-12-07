@@ -98,7 +98,7 @@ A hash containing a summary of a specific rate (discount, tax, or shipping) appl
 
 #### Transaction
 
-A hash containing `time`, `amount`, `amount_refunded`, `method`, and `check_no`.
+A hash containing `date`, `amount`, `amount_refunded`, `method`, and `check_no`.
 
 #### Statement
 
