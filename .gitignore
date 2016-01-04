@@ -1,6 +1,3 @@
-### Sensitive Files
-id_rsa_deploy
-
 ### Junk Files
 /temp
 ._.DS_Store
