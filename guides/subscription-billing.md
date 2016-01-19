@@ -127,7 +127,7 @@ Suppose our business called ACME Landscaping Services has a client with 2 homes 
 
 ##Canceling Subscription
 
-Cancel a subscription is pretty easy.  Simple go into the subscription and click on **More > Cancel Subscription**. 
+Cancel a subscription is pretty easy.  Simple go into the subscription and click on **More** > **Cancel Subscription**. 
 
 ![Invoice Plan Modal Example 2](../img/invoice-subscription-cancel.png)
 

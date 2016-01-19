@@ -10,7 +10,7 @@ Invoiced Chasing is typically enabled per invoice or subscription.  So you will 
 
 First you will need to enable chasing in the settings and set a schedule.
 
-Go to **Settings > Chasing**
+Go to **Settings** > **Chasing**
 
 ![Invoice Settings Chasing](../img/invoice-setting-chasing.png)
 
@@ -106,7 +106,7 @@ If you already have sent the invoice to client and the invoice is not over due, 
 
 If the invoice has been sent and is over due than the *Payment Reminder Email* is sent, it's purpose is to gently remind clients that they are late and payment is due as soon as possible.
 
-To edit these emails you can go to **Settings > Emails**.
+To edit these emails you can go to **Settings** > **Emails**.
 
 ![Invoice Settings Email](../img/invoice-setting-emails.png)
 

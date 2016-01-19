@@ -16,13 +16,13 @@ After setting up Stripe and PayPal you may want to note how long it typically ta
 
 Invoiced makes setting up Stripe and PayPal dead simple.  Here is how you can set them up.
 
-Go to **Settings > Payments**
+Go to **Settings** > **Payments**
 
 ![On-line Payments](../img/invoice-online-payments.png)
 
 ###Enabling Credit Cards
 
-Click on **Credit Card > Connect With Stripe** and than you should be re-directed to Stripe's page to complete registration.  Complete your registration with Stripe and you will be automatically redirected to Invoiced.
+Click on **Credit Card** > **Connect With Stripe** and than you should be re-directed to Stripe's page to complete registration.  Complete your registration with Stripe and you will be automatically redirected to Invoiced.
 
 ![Credit Card Enabled](../img/invoice-enable-credit-card.png)
 
@@ -50,11 +50,11 @@ Click on **PayPal** and enter in your PayPal email address or click on learn mor
 
 Invoiced lets you give instructions to your clients about the different offline payments methods you accept and how to pay them.  This is done in a nice workflow.  
 
-When the client clicks on **View Invoice > Pay Invoice** they will be presented about the various payment options you accept and how to pay them. They can also notify you when they expect you to get the payment.
+When the client clicks on **View Invoice** > **Pay Invoice** they will be presented about the various payment options you accept and how to pay them. They can also notify you when they expect you to get the payment.
 
 You can see this workflow in our [Getting Started Guide](/docs#getting-paid).
 
-To set this up go to **Settings > Payments**
+To set this up go to **Settings** > **Payments**
 
 **![Enable Offline Payments](../img/invoice-online-payments.png)**
 
