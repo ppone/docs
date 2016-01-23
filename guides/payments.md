@@ -1,16 +1,18 @@
 #Payments Guide
 
-Payments are at the core of Invoiced. You can get paid online and track offline payments, any method, anywhere.
+Payments are at the core of Invoiced. Invoiced handles your online payments as well as giving you tools to track offline payments.
 
 Online payments let your customers directly pay invoices through Invoiced. If a customer pays online we will automatically record the payment. We currently support credit/debit cards, [ACH](https://en.wikipedia.org/wiki/Automated_Clearing_House), [bitcoin](https://en.wikipedia.org/wiki/Bitcoin), and PayPal.
 
-Offline payments represent transactions that happen outside of Invoiced, like a wire transfer. You can track offline payments regardless of the payment instrument used. Unlike online payments, offline payments must be recorded in the dashboard once received.
+Offline payments represent transactions that happen outside of Invoiced, like a wire transfer for example. You can track offline payments regardless of the payment instrument used. 
+
+Unlike online payments, offline payments must be recorded in the dashboard once received.
 
 ## Online Payments
 
-Online payments are essential if you want to get paid quicker. They also are key to auto-charging your clients through subscriptions.
+Online payments are essential if you want to get paid quicker. They also are key to auto-charging your clients with subscriptions.
 
-You can accept credit/debit card, ACH, and bitcoin payments through [Stripe](https://stripe.com), the payment processor we have partnered with. Our set up process will help you easily sign up for a merchant account. You can also accept [PayPal](https://paypal.com) payments with an account capable of receiving payments.
+You can accept credit/debit card, ACH, and bitcoin payments through [Stripe](https://stripe.com), the payment processor we have partnered with. Our set up process will help you easily sign up for a merchant account. You can also accept [PayPal](https://paypal.com) payments.
 
 *If you need to accept payments through a different payment processor then please get in touch.*
 
@@ -24,11 +26,11 @@ Go to **Settings** > **Payments**
 
 ### Accepting Credit Card Payments
 
-Accepting credit cards is currently the quickest way to get paid online. Unfortunately it is also one of the more expensive payment methods for merchants due to a variety of reasons. In most locations Stripe charges *2.9% + .30* per transaction, although this may vary.
+Accepting credit cards is currently the quickest way to get paid online. Unfortunately it is also one of the more expensive payment methods for merchants due to a variety of reasons. In most locations Stripe currently charges *2.9% + .30* per transaction, although this may vary by your country.
 
 Once you are ready to start accepting credit card payments simply click on **Credit Card** > **Connect With Stripe**.
 
-If you don't have a Stripe account yet, don't worry. The connect button will walk you through creating an account. It's a single form that takes minutes. Once completed you can start accepting payments right away.
+If you don't have a Stripe account yet, don't worry. The connect button will walk you through creating an account. It's a single form that takes minutes to complete. Once completed you can start accepting payments right away.
 
 ![Credit Card Enabled](../img/invoice-enable-credit-card.png)
 

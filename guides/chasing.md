@@ -18,7 +18,7 @@ Click on Allow Chasing to enable it.
 
 ![Invoice Settings Chasing Enable](../img/invoice-setting-chasing-enable.png)
 
-Now we are ready to set the chasing schedule
+Now we are ready to set the chasing schedule.
 
 ##Setting the Chasing Schedule
 
@@ -66,15 +66,15 @@ Schedule 3 means your client will get a continual reminder either x days after t
 
 ###Example 3
 
-Let the invoice due date be September 10th
+Let the invoice due date be September 10th.
 
 ####CASE A
 
-We set our schedule to
+We set our schedule to.
 
 *Send a reminder 5 days before the due date*
 
-And we also add in
+And we also add in.
 
 *Send a reminder 5 days repeating*
 
@@ -82,7 +82,7 @@ What will happen is the first reminder will go September 5th, the next one will 
 
 ####CASE B
 
-We set our schedule just to 
+We set our schedule just to.
 
 *Send a reminder 5 days repeating*
 
@@ -102,7 +102,7 @@ There are 3 email templates that are sent depending on context *New Invoice Emai
 
 That means that if you have not sent the invoice to the client, it will send out the *New Invoice Email*, which is the standard email sent out.
 
-If you already have sent the invoice to client and the invoice is not over due, it will send out *Invoice Reminder Email*, whose purpose is to remind the client that the invoice will be due soon.
+If you already have sent the invoice to client and the invoice is not over due, it will send out the *Invoice Reminder Email*, whose purpose is to remind the client that the invoice will be due soon.
 
 If the invoice has been sent and is over due than the *Payment Reminder Email* is sent, it's purpose is to gently remind clients that they are late and payment is due as soon as possible.
 
