@@ -66,7 +66,7 @@ A new dialog will be opened for you to set up your customer. You can fill in any
 
 ![Auto Collections](../img/new-customer-auto-collections-add-later.png)
 
-If you had the customer's card in front of you then it would be possible to enter now, but let's assume you don't. By selecting **Add later** for the payment source Invoiced is going to help you send a subscription signup request to your customer. When subscribing your customer will be able to securely connect a payment source.
+If you had the customer's card in front of you then it would be possible to enter now, but let's assume you don't. By selecting **Add later** for the payment source Invoiced is going to help you send a subscription onboarding request to your customer. When subscribing your customer will be able to securely connect a payment source.
 
 Now you can go ahead and click **Create** to finish creating your customer.
 
@@ -84,15 +84,15 @@ All that is left is to customize how long the subscription should run and select
 
 In our example we selected an **iPad License** addon and set the quantity to 4. At the bottom of the screen you can see the computed recurring total.
 
-Once everything looks correct click **Next** to create the subscription. Since our customer does not have a connected payment source a new dialog will open to send a secure signup request.
+Once everything looks correct click **Next** to create the subscription. Since our customer does not have a connected payment source a new dialog will open to send a secure onboarding request.
 
-![Subscription Signup Request Email](../img/subscription-signup-request-email.png)
+![Subscription Onboarding Request Email](../img/subscription-signup-request-email.png)
 
 You can customize the message and recipients. Once ready to send the request just click **Send**.
 
 ### Customer Signup Flow
 
-Now that the signup request has been sent, your part is done. It's now up to your customer to open the request, subscribe, and enter in their payment information.
+Now that the onboarding request has been sent, your part is done. It's now up to your customer to open the request, subscribe, and enter in their payment information.
 
 ![Subscription Request Email](../img/customer-subscription-request-email.png)
 
