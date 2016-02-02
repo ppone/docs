@@ -1,153 +1,151 @@
-#Subscription Billing Guide
+# Subscription Billing Guide
 
-Subscriptions allow businesses to either automatically collect payment or automatically invoice the client on a recurring basis.
+Subscriptions allow businesses to automate billing customers on a recurring basis.
 
-This is great if you find yourself frequently invoicing your customer every month.  Using subscriptions allows you to automatically invoice and collect money from them, saving you and your client valuable time while offering convenience.
+With subscription billing on Invoiced we can charge customers automatically each billing cycle or issue an invoice that can be paid with any of the payment methods you accept.
 
-##Creating a Subscription
+If you find yourself sending the same invoices every month then subscription billing is probably for you. Not only will subscription billing save you time, but your customer likely will appreciate the predictability and convenience of subscriptions.
 
-To create subscriptions, click on Subscriptions from the dashboard.  
+## Introduction
 
-![Invoice Subscribe](../img/invoice-subscription.png)
+We've designed our subscription billing system to offer power and flexibility, while remaining simple to understand and use. There are a few key concepts you might want to become familiar with before starting.
 
-From their click on **Add Subscription**
+### Subscriptions
 
-![Invoice Subscription Add](../img/invoice-subscription-create.png)
+A subscription bills a customer for a fixed amount on regular intervals, according to the plan the customer is subscribed to. Subscription pricing is flexible on Invoiced with quantities, addons, discounts, and taxes supported. We also support customizable billing intervals and fixed-duration subscriptions.
 
-Now a subscription modal will appear.
+### Collection Mode
 
-![Invoice Subscription Modal](../img/invoice-subscription-modal.png)
+Collection modes are a major concept within Invoiced. We support two collection modes: **Automatic** and **Manual**. The collection mode is set per customer meaning that any invoices that you issue against that account will inherit the customer's collection mode.
 
-Every field with a red * is required to be filled out.
+#### Automatic Collection Mode
 
-We first start off with adding or choosing a client in the *Client* field.
+With automatic collection mode we are going to charge your customer's payment source for any invoice issued against their account, including subscription invoices. We currently support credit cards and bank accounts as payment sources.
 
-When populating the client field we must understand the collection mode for the client.
+*Note: You must have [online payments](/docs/guides/payments) enabled to use automatic collections.*
 
-##Collection Mode
+#### Manual Collection Mode
 
-Collection is set per client.  Collection mode specifics whether the client is auto-charged or not. If the client is not auto-charged than the client is simply sent a invoice automatically and the onus is on the client to pay. 
+Manual collection mode on the other hand lets you invoice customers normally. When enabled each invoice gets paid using any of the payment methods you accept. In the case of subscription invoices we are going to send an invoice to your customer each billing cycle. Again, this can be paid with any of the payment methods you accept.
 
-The collection modes are called *Automatic* and *Manual*. The collection mode is set in the client profile.  When you are adding or editing a client.
+With manual collection mode you can also set the default payment terms for invoices. Payment terms succinctly tell the customer when an invoice is due. For example, NET 7 means that payment is due within 7 days of the invoice whereas NET 30 means payment is due in 30 days. You can read more about the different kinds of payment terms in this [blog post](http://blog.invoiced.com/how-to-get-paid-faster-on-your-invoice-part-i/).
 
-Note: You must have online payments in order to able to see and use *Automatic* mode.  Learn more in about online payments in our [Online Payments Guide](/docs/guides/payments).  
+### Plans
 
-Without Online Payments Enabled
+A plan describes how much and how frequently you want to bill your customer. An example plan might be one for website hosting that is $100 per month. Plans are reusable templates for building subscriptions. You can setup and manage your plans in **Settings** > **Plans**.
 
-![Client Collection Mode Online Mode Disabled](../img/invoice-client-collection-mode-automatic-disabled.png) 
+### Subscription Addons
 
-With Online Payments Enabled
+Subscription addons are meant to give you pricing flexibility on top of the base plan amount. Addons save you from creating a large number of plans for every possible combination of products/services that a customer could subscribe to. An addon is simply the application of a catalog item to a subscription. You can setup and manage catalog items in **Settings** > **Catalog**.
 
-![Client Collection Mode Online Mode Enabled](../img/invoice-client-set-collection-mode.png) 
+### Subscription Invoices
 
-###Automatic vs Manual
+A subscription will generate an invoice each billing cycle for the amount owed in that billing cycle. A  containing line items for the plan and any addons.
 
-When choosing **Automatic**, you must check mark **Add Card**.  Checking this box, allows you to add your client's credit card.  Note: You must have online payments enabled.  The auto-charge will not work if this is not done. 
+### Prorations
 
-![Client Set Collection Mode Automatic](../img/invoice-client-collection-mode-automatic.png)
+Invoiced supports prorations on subscriptions when changing a plan, quantity, or addons mid- billing cycle. If you choose to prorate a subscription change then we will generate a separate invoice immediately for the prorated amount.
 
-When choosing **Manual**, you should set the *Payment Terms* as well.  
+## Creating a Subscription
 
-*Payment Terms* are the terms that specify when the payment on the invoice is due.  *NET 7* means that payment should be due within 7 days of receipt.  *NET 14* means that payment should be due within 14 days of receipt. *NET 30* means that payment should be due within 30 days of receipt.  
+We are going to walk you through the entire process of creating a subscription that charges your customer's credit card each billing cycle.
 
-You can define a custom term by directly inputing it into the input box.  To learn more about optimizing payment terms and getting paid faster go [here](http://blog.invoiced.com/how-to-get-paid-faster-on-your-invoice-part-i/).
+The first step is to sign in to the dashboard, go to the **Subscriptions** page, and click **Add Subscription**.
 
-![Client Set Collection Mode Manual](../img/invoice-client-collection-mode-manual.png)
+![Empty Subscriptions Page](../img/invoice-subscription-create.png)
 
-We than add or choose a plan in *Plan* field.  Plans are a important concept to understand and we will discuss them in the next section.
+Next a dialog for creating your subscription will appear.
 
-##What is a plan
+![New Subscription Step 1](../img/new-subscription-step1.png)
 
-Plans are a template for creating a subscription.  They specify how often the client is invoiced or charged, how much they are invoiced for, the currency, description, terms, notes, allowed payments, and whether the payment should be chased.
+We first need to select or create a customer. Let's assume you have not added your customer to Invoiced yet. Just type in your customer's name and click *Add Ben Bitdiddle as a new customer*.
 
-The advantages of using a plan are that it can save you time from having to re-enter the information mentioned above for every client.  
+![New Customer Name](../img/new-customer-name.png)
 
-From the Subscription Modal you can create a new plan.
+A new dialog will be opened for you to set up your customer. You can fill in any contact information for the customer now, but it's not required. Next we want to set the customer's collection mode to **Automatic** in order to have their credit card automatically charged each billing cycle.
 
-![Invoice Subscription Modal](../img/invoice-subscription-plan.png)
+![Auto Collections](../img/new-customer-auto-collections-add-later.png)
 
-We will go over most of the fields in a plan.
+If you had the customer's card in front of you then it would be possible to enter now, but let's assume you don't. By selecting **Add later** for the payment source Invoiced is going to help you send a subscription signup request to your customer. When subscribing your customer will be able to securely connect a payment source.
 
-![Invoice Plan Modal](../img/invoice-plan-modal.png)
+Now you can go ahead and click **Create** to finish creating your customer.
 
-If you click on **Options** you will get more customization options for the plan.
+![New Subscription With Customer](../img/new-subscription-customer-selected.png)
 
-![Invoice Subscription Modal Expanded](../img/invoice-plan-modal-expanded.png)
+Next we need to select a plan. If you don't have a recurring plan you can select then let's create one.
 
-You will want to add *Name*, *Amount*, *Recurs* at a minimum.  *ID* will be auto-generated based on *Name*.
+![New Recurring Plan](../img/new-plan.png)
 
-Most of the fields are self-explanatory.  
+Let's say we want to create a **Basic** plan for **$39/month**. The **ID** field is a unique identifier used to reference the plan through the API. The ID is automatically generated for you, but you are free to rename this to match your own internal SKU or naming scheme. Once finished you can click **Save**.
 
-*Recurs* field is where you specify how often and how many times the subscription will run for.
+![New Subscription Completed](../img/new-subscription-filled-out.png)
 
-###Example 
+All that is left is to customize how long the subscription should run and select any addons. If the **Duration** setting is set to **Fixed Duration** then you can specify the number of billing cycles to run the subscription. Otherwise the subscription will be renew until canceled by you or the customer.
 
-Suppose you have business called ACME Landscaping Services and want to setup a plan that invoices/charges the client $200 every month.
+In our example we selected an **iPad License** addon and set the quantity to 4. At the bottom of the screen you can see the computed recurring total.
 
-Let's set *Name* to ACME Landscaping Monthly Plan,
-*Amount* to $200,
-and *Recurs* to 'every 1 month'.
+Once everything looks correct click **Next** to create the subscription. Since our customer does not have a connected payment source a new dialog will open to send a secure signup request.
 
-![Invoice Plan Modal Example 1](../img/invoice-plan-modal-example-1.png)
+![Subscription Signup Request Email](../img/subscription-signup-request-email.png)
 
-We may optionally want to add a *Description*, *Terms* and allow *Chasing*.
-Read more about *Chasing* in the [Chasing Guide](/docs/guides/chasing).
+You can customize the message and recipients. Once ready to send the request just click **Send**.
 
-![Invoice Plan Modal Example 2](../img/invoice-plan-modal-example-2.png)
+### Customer Signup Flow
 
-After we filled out the plan modal we simply click on **Save**.
+Now that the signup request has been sent, your part is done. It's now up to your customer to open the request, subscribe, and enter in their payment information.
 
-##Back To Subscriptions
+![Subscription Request Email](../img/customer-subscription-request-email.png)
 
-The subscription modal has few fields that you want to understand. 
+Your customer will click the **View Subscription** button.
 
-*Duration* has 2 options *Until Canceled* and *Fixed duration*.  *Until Canceled* means the subscription will be executed until it is explicitly canceled.  *Fixed duration* specify how long the subscription can go on for.
+![Subscribe Form](../img/customer-subscribe-form.png)
 
-Choosing *Until Canceled* means it can gone on forever until you or the client explicitly cancels it.  The client will also be able to cancel the subscription in the billing portal.
+Next, they will be shown a summary of the subscription. They will then click **Sign Up**.
 
-###Additional Items
+![Add Payment Source](../img/customer-add-payment-source.png)
 
-Additional items are line items, discounts, taxes that you add to the subscription on top what the plan charges for.  It gives you the flexibility and power to customize the subscription to your client.
+Now they are prompted to connect a payment source. In this example let's assume we are connecting a credit card.
 
-*Addons*, *Discounts*, *Taxes* let you add specific line items, taxes, and discounts to your subscription.
+![Add Credit Card](../img/customer-add-credit-card.png)
 
-###Additional Items Example
+Woo! Once a credit card has been connected the customer is now subscribed to the plan. The first invoice will be issued shortly and collected on within an hour.
 
-Suppose you have business called ACME Landscaping Services and suppose you setup a monthly landscaping plan that costs $200 a month.  
+![Customer Subscribed](../img/customer-subscribed.png)
 
-Some of your clients might want additional services such has hedge trimming.  So you would add create a 'hedge trimming' add-on for those clients.
+In the dashboard you will see that the subscription is active. The first invoice has already been generated and paid automatically without any extra effort on your part.
 
-###Quantity
+![Generated Subscription invoice](../img/generated-subscription-invoice.png)
 
-*quantity* is an important field to understand.  The total amount your client is charged on the subscription is the `plan amount * quantity`. 
+## Editing a Subscription
 
-###Quantity Example
+What happens when your customer falls in love with your service and wants to purchase more? This common scenario is easily handled with Invoied. We will even (optionally) calculate the prorated amount when switching a plan, quantity, or addons in the middle of the billing cycle.
 
-Suppose our business called ACME Landscaping Services has a client with 2 homes that will get the same services.  We can subscribe them to our $200 a month plan and increase the *quantity* to 2, this saves us the trouble of having to create 2 separate subscriptions for them.
+You can edit a subscription by opening the subscription in the dashboard and clicking the **Edit** button in the top right corner.
 
-##Canceling Subscription
+![Edit Subscription with Prorations](../img/edit-subscription.png)
 
-Cancel a subscription is pretty easy.  Simple go into the subscription and click on **More** > **Cancel Subscription**. 
+## Canceling Subscription
 
-![Invoice Plan Modal Example 2](../img/invoice-subscription-cancel.png)
+Cancel a subscription is pretty easy. Simple open the subscription in the dashbaord and click on **More** > **Cancel Subscription**. 
 
-##FAQs
+![Canceling a Subscription](../img/invoice-subscription-cancel.png)
 
-####What automated emails does Invoiced send for subscriptions? 
+## FAQs
 
-#####Sign up confirmation
+### What automated emails does Invoiced send for subscriptions? 
 
-Confirmation that a customer has finished signing up for automatic billing.
+- **Sign up confirmation**
+  
+  Confirmation that a customer has finished signing up for automatic billing.
 
-#####New Invoice
+- **New invoice**
+  
+  Sends any invoices generated from a subscription to your customer.
 
-Sends any invoices generated from a subscription to your customer.
+- **Cancellation**
 
-#####Cancellation
+  Notification when a subscription is canceled.
 
-Notification when a subscription is canceled.
-
-####When do subscription invoices go out?
+### When do subscription invoices go out?
 
 Subscriptions are usually renewed within a minute of the next renewal date.
-
