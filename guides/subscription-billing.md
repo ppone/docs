@@ -40,7 +40,7 @@ Subscription addons are meant to give you pricing flexibility on top of the base
 
 ### Subscription Invoices
 
-A subscription will generate an invoice each billing cycle for the amount owed in that billing cycle. A  containing line items for the plan and any addons.
+A subscription will generate an invoice each billing cycle for the amount owed in that billing cycle. The invoice contains line items for the plan and any addons.
 
 ### Prorations
 
