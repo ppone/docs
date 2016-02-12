@@ -11,6 +11,8 @@ The billing portal is provided by Invoiced with no coding or extra setup require
 - update payment and billing information
 - view and approve estimates
 
+![Billing Portal My Account](../img/billing-portal-my-account.png)
+
 ## Usage
 
 Your billing portal is hosted at *yourusername*.invoiced.com where *yourusername* matches your Invoiced username in **Settings** > **Business Profile**. Any customer facing activity happens on this domain, like viewing invoices or paying. Customers can also access the billing portal by going directly to this URL.
@@ -21,7 +23,7 @@ Customers must be signed in to access the billing portal. We've made signing in 
 
 1. **Opening invoices, subscriptions, or estimates from emails**
     
-    We temporarily sign in any clients when they open an invoice, subscription, or estimate from an Invoiced email. On invoices and estimates there will be a **Your Account** button at the top of the page. Also after paying or subscribing there is a **Go to my account** button.
+    We temporarily sign in any clients when they open an invoice, subscription, or estimate from an Invoiced email. On invoices and estimates there will be a **My Account** button at the top of the page. Also after paying or subscribing there is a **Go to my account** button.
 
 2. **Passwordless sign in**
 
