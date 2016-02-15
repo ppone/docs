@@ -31,8 +31,8 @@ Customers must be signed in to access the billing portal. We've made signing in 
 
    The email address provided must match a main email address or attached contact for a customer profile in your Invoiced account. We will only send a sign in link to email addresses matching this criteria.
 
-3. **Single Sign On**
+3. **Single Sign-On**
 
-	Our Single Sign On (SSO) feature allows you to securely generate URLs to sign customers into the billing portal. This allows you to transparently sign users into the billing portal from your app or website without requiring an additional login step. We only recommend generating a sign in link for users that you have already authenticated through your own login system.
+	Our Single Sign-On (SSO) feature allows you to securely generate URLs to sign customers into the billing portal. This allows you to transparently sign users into the billing portal from your app or website without requiring an additional login step. We only recommend generating a sign in link for users that you have already authenticated through your own login system.
 
 	SSO links can be generate through the API or through the dashboard by opening a customer profile and clicking **More** > **Generate Sign In Link**.
