@@ -17,6 +17,8 @@ Example uses of webhooks:
 
 It's simple to get started with webhooks. In the dashboard you can go to **Settings** > **Developers** > **Webhooks** to add your endpoint. All you need is a URL (i.e. `https://example.com/invoiced/webhook`) that you want to receive webhooks at.
 
+<strong>Testing webhooks?</strong> If you are just testing webhooks and do not want to set up an endpoint within your service yet, then you could use a service like [RequestBin](http://requestb.in/) to quickly generate a test endpoint that lets you inspect the webhook messages we send.
+
 ### Receiving a webhook
 
 Once your webhook endpoint has been set up then any supported events that occur will trigger an HTTP POST call to your endpoint. The request body will be a JSON-encoded string of the event. The event object will also contain the original object that triggered the event, such as an invoice or a transaction. You can see the Event object structure in the [API reference](/docs/api#event-object).
