@@ -32,8 +32,6 @@ These variables can be used in the Mustache templates.
 
 `transaction` - A hash representing the transaction. See [Transaction](#transaction).
 
-`invoice` - A hash representing the transaction's invoice (if any). See [Invoice](#invoice).
-
 ### Statements
 
 `company` - A hash representing the business. See [Company](#company).
@@ -98,7 +96,7 @@ A hash containing a summary of a specific rate (discount, tax, or shipping) appl
 
 #### Transaction
 
-A hash containing `date`, `amount`, `amount_refunded`, `method`, and `check_no`.
+A hash containing `date`, `amount`, `invoices`, `amount_refunded`, `amount_credited`, `method`, and `check_no`.
 
 #### Statement
 
