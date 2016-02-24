@@ -32,6 +32,7 @@ curl "https://api.invoiced.com/customers" \
   -u {API_KEY}: \
   -d name="Acme" \
   -d email="billing@acmecorp.com" \
+  -d external_id="1234" \
   -d collection_mode="manual" \
   -d payment_terms="NET 30"
 ```
@@ -43,6 +44,7 @@ invoiced = Invoiced::Client.new("{YOUR_API_KEY}")
 customer = invoiced.Customer.create(
   :name => "Acme",
   :email => "billing@acmecorp.com",
+  :external_id => "1234",
   :collection_mode => "manual",
   :payment_terms => "NET 30"
 )
@@ -54,6 +56,7 @@ $invoiced = new Invoiced\Client("{YOUR_API_KEY}");
 $customer = $invoiced->Customer->create([
   'name' => "Acme",
   'email' => "billing@acmecorp.com",
+  'external_id' => "1234",
   'collection_mode' => "manual",
   'payment_terms' => "NET 30"
 ]);
@@ -66,12 +69,15 @@ client = invoiced.Client("{YOUR_API_KEY}")
 customer = client.Customer.create(
   name="Acme",
   email="billing@acmecorp.com",
+  external_id="1234",
   collection_mode="manual",
   payment_terms="NET 30"
 )
 ```
 
-Often it is helpful to save the customer `id` as a property in your own database. The customer ID can be used later to look up the customer's account, invoices, and other billing data.
+The `external_id` property helps you tie the customer on Invoiced to the ID already used within your system. It is not required as we would generate a value for you if it was not supplied.
+
+We highly recommend saving the customer `id` value in your own database (the Invoiced ID, not the external one). This ID is required to retrieve the customer's account, invoices, and other billing data.
 
 ### Creating an Invoice
 
