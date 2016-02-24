@@ -77,7 +77,7 @@ customer = client.Customer.create(
 
 The `external_id` property helps you tie the customer on Invoiced to the ID already used within your system. It is not required as we would generate a value for you if it was not supplied.
 
-We highly recommend saving the customer `id` value in your own database (the Invoiced ID, not the external one). This ID is required to retrieve the customer's account, invoices, and other billing data.
+We highly recommend saving the customer's Invoiced `id` in your own database. This ID is required to retrieve the customer's account, create invoices, and perform any other customer-centric tasks.
 
 ### Creating an Invoice
 
