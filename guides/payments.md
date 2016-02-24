@@ -131,3 +131,15 @@ To get a quick glance at all the invoices, subscriptions, and payments a client 
 Simply click on a payment you want to refund. Once the payment details show up, click on the **Refund** button.
 
 **![Refund Invoice Payments](../img/invoice-payment-refund.png)**
+
+## Overpayments
+
+Whenever customers pay electronically Invoiced will always ensure the payment is for the correct amount. However, if you accept offline payments, like checks or wire transfers, it is possible that customers will overpay. We've tried to make handling overpayments as easy as possible.
+
+If your customer pays too much there are two ways it can be handled:
+
+1. Credit the customer's balance for use on future invoices
+
+2. Issue a refund for the amount overpaid
+
+When you record a payment through the dashboard and there is money left over after applying the amount to any outstanding invoices then we will give you a choice to **credit** or **refund** the overpayment amount. If you choose to refund the amount then we will record a refund on Invoiced, but actually sending those funds back to your customer will be left up to you since the original payment was not electronic.
