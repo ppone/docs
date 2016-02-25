@@ -1,6 +1,6 @@
 # Developing on Invoiced
 
-At the heart of Invoiced is a powerful billing API. It allows you to build integrations with accountiing systems, CRMs, ordering systems, business intelligence, and any other backoffice systems used to run your business.
+At the heart of Invoiced is a powerful billing API. It allows you to build integrations with accounting systems, CRMs, ordering systems, business intelligence, and any other backoffice systems used to run your business.
 
 The API was modeled after <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">REST</a>. All communication happens over HTTPS with `https://api.invoiced.com`.
 
