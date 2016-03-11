@@ -66,7 +66,7 @@ Subsequent payments will not require the customer to go through the verification
 
 Bitcoin is a decentralized virtual currency that lets you accept payments from anyone, anywhere. Our bitcoin integration automatically converts bitcoin payments into USD, making it super easy to start accepting bitcoin.
 
-One of the advantages of bitcoin is that payments can be made by anyone holding bitcoins, and not just those with access to a credit card. The transaction fees are also quite a bit lower. Stripe currently charges *0.5%* per successful transaction.
+One of the advantages of bitcoin is that payments can be made by anyone holding bitcoins, and not just those with access to a credit card. The transaction fees are also quite a bit lower. Stripe currently charges *0.8%* up to a maximum of *$5* per successful transaction.
 
 *We should note that although bitcoin shows a lot of promise, it is still in its infancy and has a ways to go before it reaches mass consumer adoption. It might not make sense to accept bitcoin right now unless there is demand from your customer base to pay with bitcoin.*
 
