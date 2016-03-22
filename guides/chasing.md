@@ -63,15 +63,7 @@ The email template used for chasing reminders depends on the invoice's status.
 3. **Late Payment Reminder Email**
    This email template is always used when the invoice is past due.
 
-These emails can be customized in **Settings** > **Emails**.
-
-![Invoice Settings Email](../img/invoice-setting-emails.png)
-
-Just click on **Customize** next to the template you want to edit.
-
-![Invoice Settings Email Customize](../img/invoice-setting-emails-customize.png)
-
-You can now modify the email template and click **Save** once finished.
+You can learn more about customizing email templates in the [Emails Guide](emails#customizing-email-templates).
 
 ## Examples
 
