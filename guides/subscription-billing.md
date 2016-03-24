@@ -44,7 +44,9 @@ A subscription will generate an invoice each billing cycle for the amount owed i
 
 ### Prorations
 
-Invoiced supports prorations on subscriptions when changing a plan, quantity, or addons mid- billing cycle. If you choose to prorate a subscription change then we will generate a separate invoice immediately for the prorated amount.
+Invoiced supports prorations on subscriptions when changing a plan, quantity, or addons mid- billing cycle. If you choose to prorate a subscription change then we will produce a credit immediately (when downgrading) or add the prorated amount due to the next subscription invoice (when upgrading).
+
+When switching to a plan with a different billing cycle, like switching from a monthly plan to an annual plan for example, then a new billing cycle will be started. This means an invoice will be generated on the spot for a full billing cycle on the plan. Prorating when the billing cycle is changing otherwise behaves like a mid-cycle proration. We will generate a credit or add the prorated amount due to the newly generated invoice based on the unused time left on the old plan.
 
 ## Creating a Subscription
 
