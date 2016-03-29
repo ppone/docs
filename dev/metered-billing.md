@@ -40,7 +40,7 @@ curl "https://api.invoiced.com/customers" \
   -u {API_KEY}: \
   -d name="Acme" \
   -d email="billing@acmecorp.com" \
-  -d external_id="1234" \
+  -d number="1234" \
   -d collection_mode="manual" \
   -d payment_terms="NET 7"
 ```
@@ -52,7 +52,7 @@ invoiced = Invoiced::Client.new("{YOUR_API_KEY}")
 customer = invoiced.Customer.create(
   :name => "Acme",
   :email => "billing@acmecorp.com",
-  :external_id => "1234",
+  :number => "1234",
   :collection_mode => "manual",
   :payment_terms => "NET 7"
 )
@@ -64,7 +64,7 @@ $invoiced = new Invoiced\Client("{YOUR_API_KEY}");
 $customer = $invoiced->Customer->create([
   'name' => "Acme",
   'email' => "billing@acmecorp.com",
-  'external_id' => "1234",
+  'number' => "1234",
   'collection_mode' => "manual",
   'payment_terms' => "NET 7"
 ]);
@@ -77,7 +77,7 @@ client = invoiced.Client("{YOUR_API_KEY}")
 customer = client.Customer.create(
   name="Acme",
   email="billing@acmecorp.com",
-  external_id="1234",
+  number="1234",
   collection_mode="manual",
   payment_terms="NET 7"
 )
