@@ -48,7 +48,7 @@ This is what your client would see after clicking the view invoice button:
 
 ![Invoice Client View](/docs/img/client-invoice-view.png)
 
-Here the client can leave a comment, download the invoice, and of course, pay it. In order to pay they would simply click the **Pay Invoice** button at the bottom of the screen. They will be taken to the payment page to select a payment method.
+Here the client can leave a comment, download the invoice, and of course, pay it. In order to pay they would simply click the **Pay** button at the bottom of the screen. They will be taken to the payment page to select a payment method.
 
 ![Pay Invoice Page](/docs/img/pay-invoice-page.png)
 
