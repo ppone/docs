@@ -62,9 +62,17 @@ The **Payments Received** report lists all of the payments that have been receiv
 
 The **Taxes Collected** report shows a breakdown of the total for each tax that was collected during a specified time period. Only invoices that have been paid in full will show up on this report. Taxes will be grouped by tax rate.
 
-Youhere are two different times when Invoiced can consider a tax collected: **Invoice Date** or **Payment Date**. The choice is yours to make that might depend on how you report taxes or the rules in your tax jurisdiction.
+Here are two different times when Invoiced can consider a tax collected: **Invoice Date** or **Payment Date**. The choice is yours to make that might depend on how you report taxes or the rules in your tax jurisdiction.
 
 ![Taxes Collected Report](../img/report-taxes-collected.png)
+
+## Sales by Item
+
+The **Sales by Item** report gives you a breakdown of your sales, including what was sold and how much. With this report we will analyze all of the line items billed within the given time period. The report will include how much was sold broken down by type and by catalog item.
+
+*Please note that any line items that do not have a catalog item associated will be grouped together.*
+
+![Sales by Item Report](../img/report-sales-by-item.png)
 
 <hr/>
 
