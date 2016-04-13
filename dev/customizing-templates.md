@@ -2,15 +2,15 @@
 
 Invoiced ships with default templates for invoices, statements, and receipts, however, it's possible these templates do not match your business or branding needs. In this guide we will show you how to change the layout and appearance of the default templates.
 
-The underlying templates are HTML and CSS. Both the layout and styling can be customized. The first step is to head over to **Settings** > **Themes**. Then click **Customize**, click on the **Appearance** tab, and then turn on the switch next to **Use Custom Appearance**.
+The underlying templates are HTML and CSS. Both the layout and styling can be customized. The first step is to head over to **Settings** > **Appearance** > **Layout**. Then turn on the switch next to **Use Custom Layout**.
 
-![Customizable Invoice Templates](../img/customizable-invoice-templates.jpg)
+![Customizable Invoice Templates](../img/customizable-invoice-templates.png)
 
-[Mustache](https://mustache.github.io/mustache.5.html) is the templating language used to power templates on Invoiced, including the HTML for custom themes.
+[Mustache](https://mustache.github.io/mustache.5.html) is the templating language used to power templates on Invoiced, including the HTML for custom templates.
 
 ### Testing
 
-We recommend using the [Try Mustache](http://trymustache.com/) tool to verify your Mustache HTML for correct syntax. After saving any changes you can download a PDF preview by clicking the **Preview** button next to your theme on the Appearance page. You can also see the generated HTML on a live invoice that has the theme applied by opening the client view and appending `/html` to the URL, i.e. `https://dundermifflin.invoiced.com/invoices/IZmXbVOPyvfD3GPBmyd6FwXX/html`.
+We recommend using the [Try Mustache](http://trymustache.com/) tool to verify your Mustache HTML for correct syntax. After saving any changes you can download a PDF preview by clicking the **Preview** button near the top right of the page. You can also see the generated HTML on a live invoice that has your customizations applied by opening the client view and appending `/html` to the URL, i.e. `https://dundermifflin.invoiced.com/invoices/IZmXbVOPyvfD3GPBmyd6FwXX/html`.
 
 ## Variable Reference
 
