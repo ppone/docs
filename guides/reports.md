@@ -2,7 +2,7 @@
 
 Invoiced includes robust reporting out of the box to give you insight into your accounts receivable. You can generate up-to-date reports for all things revenue with accuracy down to the cent.
 
-We currently support two file formats for each report: **PDF** or **CSV** (comma-separated values). Some reports are currently limited to 1,000 records as the file size makes for a long download. We plan to remove this limitation in the future.
+We currently target two file formats with reporting: **PDF** or **CSV** (comma-separated values).
 
 ## Customer Summary
 
