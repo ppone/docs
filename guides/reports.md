@@ -52,11 +52,11 @@ The **Payments Received** report lists all of the payments that have been receiv
 
 ![Payments Received Report](../img/report-payments-received.png)
 
-## Taxes Collected
+## Tax Summary
 
-The **Taxes Collected** report shows a breakdown of the total for each tax that was collected during a specified time period. Only invoices that have been paid in full will show up on this report. Taxes will be grouped by tax rate.
+The **Tax Summary** report shows a breakdown of tax billed or tax collected during a specified time period. Taxes will be grouped by tax rate on this report.
 
-Here are two different times when Invoiced can consider a tax collected: **Invoice Date** or **Payment Date**. The choice is yours to make that might depend on how you report taxes or the rules in your tax jurisdiction.
+With the **Tax Date** option you can tell Invoiced when to recognize tax. You can choose between when it was billed (**Invoice Date**) or when it was collected (**Payment Date**). The method you choose might depend on how you account for taxes or the rules in your tax jurisdiction.
 
 ![Taxes Collected Report](../img/report-taxes-collected.png)
 
