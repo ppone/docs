@@ -4,12 +4,6 @@ Invoiced includes robust reporting out of the box to give you insight into your 
 
 We currently target two file formats with reporting: **PDF** or **CSV** (comma-separated values).
 
-## Customer Summary
-
-The **Customer Summary** report includes an overview of the customers in your Invoiced account along with contact information.
-
-![Customer Summary Report](../img/report-customer-summary.png)
-
 ## A/R Overview
 
 The **A/R Overview** report gives you an overview of your Accounts Receivable activity over a time range. The report shows the aggregate amount invoiced, received, still outstanding, and considered bad debt during the time period you selected. The report does not include detail on any of these activities. Instead, you can use one of the reports below to dig into the numbers.
