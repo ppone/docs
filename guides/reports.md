@@ -46,9 +46,9 @@ The **Bad Debt** report lists all of the invoices classified as bad debt within 
 
 ![Bad Debt Report](../img/report-bad-debt.png)
 
-## Payments Received
+## Payment Summary
 
-The **Payments Received** report lists all of the payments that have been received in a time period. Included on the report are details about each transaction, including the amount received, any processing fees, and the payment method.
+The **Payment Summary** report analyzes the payments that were received in a time period. In addition to aggregate payment amounts, you will also be able to see payment activity broken down by month and by payment method.
 
 ![Payments Received Report](../img/report-payments-received.png)
 
