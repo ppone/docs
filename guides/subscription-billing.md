@@ -28,7 +28,7 @@ With automatic collection mode we are going to charge your customer's payment so
 
 Manual collection mode on the other hand lets you invoice customers normally. When enabled each invoice gets paid using any of the payment methods you accept. In the case of subscription invoices we are going to send an invoice to your customer each billing cycle. Again, this can be paid with any of the payment methods you accept.
 
-With manual collection mode you can also set the default payment terms for invoices. Payment terms succinctly tell the customer when an invoice is due. For example, NET 7 means that payment is due within 7 days of the invoice whereas NET 30 means payment is due in 30 days. You can read more about the different kinds of payment terms in this [blog post](http://blog.invoiced.com/how-to-get-paid-faster-on-your-invoice-part-i/).
+With manual collection mode you can also set the default payment terms for invoices. Payment terms succinctly tell the customer when an invoice is due. For example, NET 7 means that payment is due within 7 days of the invoice whereas NET 30 means payment is due in 30 days. You can read more about the different kinds of payment terms in this [blog post](https://invoiced.com/blog/how-to-get-paid-faster-on-your-invoice-part-i).
 
 ### Plans
 
