@@ -48,7 +48,7 @@ If the invoice has already been created then you can simply click **Enable** und
 
 #### Enable Chasing by Default
 
-If you want chasing enabled by default when drafting new invoices then you can create a template in **Settings** > **Templates**. Enable chasing on for that template, save it, and then make it the default template. Any new invoices you draft will have chasing on by default.
+If you want chasing enabled by default when drafting new invoices then you enable the **Chasing** setting in **Settings** > **General** > **Defaults**.
 
 #### Customizing the Chasing Email Templates
 

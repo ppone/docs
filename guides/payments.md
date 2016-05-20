@@ -168,7 +168,7 @@ Steps to use credits:
 
 ### Automatically apply credits to new invoices
 
-The **Apply Credits to New Invoices** setting will automatically apply any available credits when a new invoice is raised against your customer's account. This setting is on by default, but can be changed in **Settings** > **Payments**.
+The **Apply Credits to New Invoices** setting will automatically apply any available credits when a new invoice is raised against your customer's account. This setting is on by default, but can be changed in **Settings** > **Geneal**.
 
 * * *
 
