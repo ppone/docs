@@ -18,43 +18,51 @@ These variables can be used in the Mustache templates.
 
 ### Invoices
 
-`company` - A hash representing the business. See [Company](#company).
+- `company` - A hash representing the business. See [Company Object](#company-object).
 
-`customer` - A hash representing the customer. See [Customer](#customer).
+- `customer` - A hash representing the customer. See [Customer Object](#customer-object).
 
-`invoice` - A hash representing the invoice. See [Invoice](#invoice).
+- `invoice` - A hash representing the invoice. See [Invoice Object](#invoice-object).
 
 ### Receipts
 
-`company` - A hash representing the business. See [Company](#company).
+- `company` - A hash representing the business. See [Company Object](#company-object).
 
-`customer` - A hash representing the customer. See [Customer](#customer).
+- `customer` - A hash representing the customer. See [Customer Object](#customer-object).
 
-`transaction` - A hash representing the transaction. See [Transaction](#transaction).
+- `transaction` - A hash representing the transaction. See [Transaction Object](#transaction-object).
 
 ### Statements
 
-`company` - A hash representing the business. See [Company](#company).
+- `company` - A hash representing the business. See [Company Object](#company-object).
 
-`customer` - A hash representing the customer. See [Customer](#customer).
+- `customer` - A hash representing the customer. See [Customer Object](#customer-object).
 
-`statement` - A hash representing the statement. See [Statement](#statement).
+- `statement` - A hash representing the statement. See [Statement Object](#statement-object).
 
-### Objects
+***
 
-#### Company
+## Objects
 
-A hash containing `name`, `address`, `email`, `logo`, and `url`.
+### Company Object
 
-#### Customer
+A hash containing these properties:
+
+- `name`
+- `address`
+- `email`
+- `logo`
+- `url`
+
+### Customer Object
 
 A hash containing the same properties as the [Customer object](/docs/api/#customer-object) in the API.
 
-#### Invoice
+### Invoice Object
 
-A hash containing the following properties:
+A hash containing these properties:
 
-`status` - One of `draft`, `not_sent`, `sent`, `viewed`, `past_due`, `paid`, `overpaid`, `bad_debt`
+`status` - Could be `draft`, `not_sent`, `sent`, `viewed`, `past_due`, `paid`, `bad_debt`
 
 `url` - Client view URL
 
@@ -70,11 +78,11 @@ A hash containing the following properties:
 
 `purchase_order`
 
-`items` - An array of line items. See [Line Item](#line-item).
+`items` - An array of line items. See [Line Item Object](#line-item-object).
 
 `subtotal`
 
-`rates` - An ordered array of any discounts, taxes, and shipping applied to the invoice. See [Rate](#rate).
+`rates` - An ordered array of any discounts, taxes, and shipping applied to the invoice. See [Rate Object](#rate-object).
 
 `total`
 
@@ -86,18 +94,54 @@ A hash containing the following properties:
 
 `notes` - Invoice notes
 
-#### Line Item
+### Line Item Object
 
-A hash containing `name`, `unit_cost`, `amount`, `description`, and `rates` (summary of any line item discounts/taxes, string).
+A hash containing these properties:
+- `name`
+- `unit_cost`
+- `amount`
+- `description`
+- `rates` - summary of any line item discounts/taxes (string)
 
-#### Rate
+### Rate Object
 
 A hash containing a summary of a specific rate (discount, tax, or shipping) applied to an invoice. Contains the properties `name` and `total`.
 
-#### Transaction
+### Transaction Object
 
-A hash containing `date`, `amount`, `invoices`, `amount_refunded`, `amount_credited`, `method`, and `check_no`.
+A hash containing these properties:
+- `date`
+- `amount`
+- `invoices`
+- `amount_refunded`
+- `amount_credited`
+- `method`
+- `check_no`
 
-#### Statement
+### Statement Object
 
-A hash containing `start`, `end`, `previousBalance`, `totalInvoiced`, `totalPaid`, `totalOverpaid`, `totalAdjustments`, `balance`, and `activity`. Furthermore, the `activity` property is an array of hashes each with the properties `date`, `number`, `invoiced`, `paid`.
+A hash containing these properties:
+- `start`
+- `end`
+- `previousBalance`
+- `totalInvoiced`
+- `totalPaid`
+- `totalOverpaid`
+- `totalAdjustments`
+- `balance`
+- `accountDetail` - array of hashes with each these properties:
+   - `date`
+   - `number`
+   - `invoiced`
+   - `paid`
+- `hasCredits`
+- `previousCreditBalance`
+- `totalCreditsIssued`
+- `totalCreditsSpent`
+- `creditDetail`
+- `creditBalance` - array of hashes with each these properties:
+   - `date`
+   - `description`
+   - `issued`
+   - `charged`
+   - `balance`
