@@ -19,25 +19,19 @@ These variables can be used in the Mustache templates.
 ### Invoices
 
 - `company` - A hash representing the business. See [Company Object](#company-object).
-
 - `customer` - A hash representing the customer. See [Customer Object](#customer-object).
-
 - `invoice` - A hash representing the invoice. See [Invoice Object](#invoice-object).
 
 ### Receipts
 
 - `company` - A hash representing the business. See [Company Object](#company-object).
-
 - `customer` - A hash representing the customer. See [Customer Object](#customer-object).
-
 - `transaction` - A hash representing the transaction. See [Transaction Object](#transaction-object).
 
 ### Statements
 
 - `company` - A hash representing the business. See [Company Object](#company-object).
-
 - `customer` - A hash representing the customer. See [Customer Object](#customer-object).
-
 - `statement` - A hash representing the statement. See [Statement Object](#statement-object).
 
 ***
@@ -62,37 +56,22 @@ A hash containing the same properties as the [Customer object](/docs/api/#custom
 
 A hash containing these properties:
 
-`status` - Could be `draft`, `not_sent`, `sent`, `viewed`, `past_due`, `paid`, `bad_debt`
-
-`url` - Client view URL
-
-`payment_url` - URL for the payment page in the billing portal
-
-`number`
-
-`date`
-
-`due_date`
-
-`payment_terms`
-
-`purchase_order`
-
-`items` - An array of line items. See [Line Item Object](#line-item-object).
-
-`subtotal`
-
-`rates` - An ordered array of any discounts, taxes, and shipping applied to the invoice. See [Rate Object](#rate-object).
-
-`total`
-
-`amount_paid`
-
-`balance`
-
-`terms` - Terms and conditions
-
-`notes` - Invoice notes
+- `status` - Could be `draft`, `not_sent`, `sent`, `viewed`, `past_due`, `paid`, `bad_debt`
+- `url` - Client view URL
+- `payment_url` - URL for the payment page in the billing portal
+- `number`
+- `date`
+- `due_date`
+- `payment_terms`
+- `purchase_order`
+- `items` - An array of line items. See [Line Item Object](#line-item-object).
+- `subtotal`
+- `rates` - An ordered array of any discounts, taxes, and shipping applied to the invoice. See [Rate Object](#rate-object).
+- `total`
+- `amount_paid`
+- `balance`
+- `terms` - Terms and conditions
+- `notes` - Invoice notes
 
 ### Line Item Object
 
