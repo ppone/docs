@@ -64,6 +64,6 @@ You can now monitor the progress of your sync, once your sync has started.
 
 ###Xero Troubleshooting
 
-- If the sync fails first try to reconnect the Xero organization and try again.  If it still fails please contact support@invoiced.com for further assistance. 
+- If the sync fails first try to reconnect the Xero organization and try again.  If it still fails please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance. 
 
 
