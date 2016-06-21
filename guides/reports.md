@@ -52,6 +52,12 @@ The **Payment Summary** report analyzes the payments that were received in a tim
 
 ![Payments Received Report](../img/report-payments-received.png)
 
+## Credit Summary
+
+The **Credit Summary** report helps you understand the credit balances of your customers. You can filter this report by date range to see the amount of credits issued, spent, and remaining for any time period.
+
+![Credit Summary Report](../img/report-credit-summary.png)
+
 ## Tax Summary
 
 The **Tax Summary** report shows a breakdown of tax billed or tax collected during a specified time period. Taxes will be grouped by tax rate on this report.
