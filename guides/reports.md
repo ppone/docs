@@ -58,6 +58,12 @@ The **Credit Summary** report helps you understand the credit balances of your c
 
 ![Credit Summary Report](../img/report-credit-summary.png)
 
+## Expiring Cards
+
+The **Expiring Cards** report shows customers with cards that are at risk of expiring in the near future, or cards that have already expired.
+
+![Expiring Cards Report](../img/report-expiring-cards.png)
+
 ## Tax Summary
 
 The **Tax Summary** report shows a breakdown of tax billed or tax collected during a specified time period. Taxes will be grouped by tax rate on this report.
