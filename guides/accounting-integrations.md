@@ -8,7 +8,7 @@ The Xero integration lets you sync data by pushing invoices from Invoiced into X
 
 ###Usage
 
-To get started using Xero simply go into **Settings** > **Chasing**.  
+To get started using Xero simply go into **Settings** > **Xero**.  
 
 ![Xero Settings](../img/xero-screen-1.png)
 
