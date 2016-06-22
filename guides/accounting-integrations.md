@@ -12,7 +12,7 @@ To get started using Xero simply go into **Settings** > **Xero**.
 
 ![Xero Settings](../img/xero-screen-1.png)
 
-Than click on Connect To Xero
+Then click on Connect To Xero
 
 ![Xero Connect](../img/xero-screen-2.png)
 
