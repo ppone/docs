@@ -64,6 +64,34 @@ You can now monitor the progress of your sync, once your sync has started.
 
 ###Xero Troubleshooting
 
-- If the sync fails first try to reconnect the Xero organization and try again.  If it still fails please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance. 
+- If the sync fails first try to reconnect the Xero organization and try again.  If it still fails please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
 
+
+##Quickbooks Online
+
+The QuickBooks Online integration lets you sync data by pushing invoices from Invoiced into Quickbooks Online (QBO).  Invoiced will also create the accompanying customers, payments, line items, tax, and discount associated with the invoice in QBO.
+
+There is also another sync which lets you download customers from QBO into Invoiced.
+
+###Usage
+
+Simply go to Settings > Integrations/QuickBooks
+
+![Invoiced QuickBooks Settings](../img/settings-panel-integrations-quickbooks.png)
+
+Then click on Quickbooks and connect your Quickbooks Online account.
+
+![Connect QuickBooks Online to Invoiced](../img/quickbooks-online-connect.png)
+
+To sync your Invoices to QBO simply select "Invoices from Invoiced to QuickBooks" and click Start.
+
+![Start Invoiced invoices sync to QBO](../img/quickbooks-online-invoices-sync.png)
+
+To sync your QBO Customers to Invoiced simply select "Customers from QuickBooks to Invoiced" and click start.
+
+![Start QBO customers sync to Invoiced](../img/quickbooks-online-customer-sync.png)
+
+To see if your sync is finished simply refresh the web page.
+
+![Finished QBO Sync](../img/quickbooks-online-sync-finished.png)
 
