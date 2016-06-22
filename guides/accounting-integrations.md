@@ -75,7 +75,7 @@ There is also another sync which lets you download customers from QBO into Invoi
 
 ###Usage
 
-Simply go to Settings > Integrations/QuickBooks
+Simply go to **Settings** > **Integrations/QuickBooks**
 
 ![Invoiced QuickBooks Settings](../img/settings-panel-integrations-quickbooks.png)
 
@@ -91,7 +91,11 @@ To sync your QBO Customers to Invoiced simply select "Customers from QuickBooks 
 
 ![Start QBO customers sync to Invoiced](../img/quickbooks-online-customer-sync.png)
 
-To see if your sync is finished simply refresh the web page.
+You will now see the sync status on the page.
 
-![Finished QBO Sync](../img/quickbooks-online-sync-finished.png)
+![Finished QBO Sync](../img/quickbooks-online-sync-status.png)
+
+###Quickbooks Online Troubleshooting
+
+- If the sync fails first try to Reconnect Quickbooks Account and try again.  If it still fails please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
 
