@@ -8,29 +8,31 @@ The Xero integration lets you sync data by pushing invoices from Invoiced into X
 
 ###Usage
 
-To get started using Xero simply go into **Settings** > **Xero**.  
+In order to begin syncing with Xero first go to **Settings** > **Accounting Sync**.  
 
-![Xero Settings](../img/xero-screen-1.png)
+![Settings Page](../img/all-settings-accounting-sync.png)
 
-Then click on Connect To Xero
+Then click on **Connect to Xero**.
 
-![Xero Connect](../img/xero-screen-2.png)
+![Xero Connect](../img/accounting-sync-settings.png)
 
-You will get redirected to Xero for authentication. Simply input your Xero Email address and Password.
+You will get redirected to Xero for authentication. Input your Xero email address and password.
 
 ![Xero Authorize](../img/xero-screen-3.png)
 
-Next you will be prompted to authorize your Xero Organization to Invoiced.  Simply click on Authorize.
+Next you will be prompted to authorize your Xero organization to Invoiced.  Click on **Authorize**.
 
 ![Xero Settings](../img/xero-screen-4.png)
 
-You will be redirected back to Invoiced where you can now start syncing your data with Xero.
+You will be redirected back to Invoiced. You can now start syncing your data with Xero by clicking **Synchronize**.
 
-![Xero Settings](../img/xero-screen-5.png)
+![Xero Connected](../img/accounting-sync-xero-connected.png)
 
-You can now monitor the progress of your sync, once your sync has started. 
+No further action is required. You will be able to monitor the progress of your sync once it has started and view the results of past syncs.
 
-![Xero Settings](../img/xero-screen-6.png)
+![Xero Invoice Sync](../img/xero-invoice-sync.png)
+
+Any time you want to sync your data with Xero just return to the **Accounting Sync** page and click **Synchronize**.
 
 ###Xero Syncing Nuances 
 
@@ -75,27 +77,24 @@ There is also another sync which lets you download customers from QBO into Invoi
 
 ###Usage
 
-Simply go to **Settings** > **Integrations/QuickBooks**
+In order to begin syncing with QuickBooks Online first go to **Settings** > **Accounting Sync**.  
 
-![Invoiced QuickBooks Settings](../img/settings-panel-integrations-quickbooks.png)
+![Settings Page](../img/all-settings-accounting-sync.png)
 
-Then click on Quickbooks and connect your Quickbooks Online account.
+Then click on **Connect to QuickBooks**.
 
-![Connect QuickBooks Online to Invoiced](../img/quickbooks-online-connect.png)
+![QuickBooks Online Connect](../img/accounting-sync-settings.png)
 
-To sync your Invoices to QBO simply select "Invoices from Invoiced to QuickBooks" and click Start.
+Next you will be prompted to authorize your QuickBooks company to Invoiced. Once you do this you will be redirected back to Invoiced. You can now start syncing your data with QuickBooks Online by clicking **Synchronize**.
 
-![Start Invoiced invoices sync to QBO](../img/quickbooks-online-invoices-sync.png)
+![QuickBooks Online Connected](../img/accounting-sync-quickbooks-online-connected.png)
 
-To sync your QBO Customers to Invoiced simply select "Customers from QuickBooks to Invoiced" and click start.
+No further action is required. You will be able to monitor the progress of your sync once it has started and view the results of past syncs.
 
-![Start QBO customers sync to Invoiced](../img/quickbooks-online-customer-sync.png)
+![QuickBooks Online Invoice Sync](../img/quickbooks-online-invoice-sync.png)
 
-You will now see the sync status on the page.
-
-![Finished QBO Sync](../img/quickbooks-online-sync-status.png)
+Any time you want to sync your data with Xero just return to the **Accounting Sync** page and click **Synchronize**.
 
 ###Quickbooks Online Troubleshooting
 
-- If the sync fails first try to Reconnect Quickbooks Account and try again.  If it still fails please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
-
+- If the sync fails first try to reconnect your Quickbooks Online account and try again.  If it still fails please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
