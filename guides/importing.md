@@ -57,7 +57,7 @@ Steps to import Invoices:
 
 #### Tips
 
-- The *Customer* field is the only required field.
+- The only required field is *Account #* or *Customer*.
 - Each line represents an invoice AND a corresponding line item.
 If an invoice has multiple line items then you would have multiple lines for the same invoice. Only the first line needs to include the invoice's information. Subsequent lines must have the same invoice #, however only need to have the line item fields filled in (*Item*, *Description*, *Quantity*, *Unit Cost*, *Tax*, and *Discounts*).
 - You can supply an invoice # or leave it blank. If left blank we will generate one for you.
@@ -83,7 +83,7 @@ Steps to import Payments:
 
 #### Tips
 
-- The required fields are one of *Amount* and one of *Invoice #* or *Invoice ID* or *Customer*.
+- The required fields are *Amount* and one of *Invoice #*, *Invoice ID*, or *Customer*.
 - The payment method can be one of `credit_card`, `ach`, `bitcoin`, `paypal`, `check`, `wire_transfer`, `cash`, `other`
 - When the payment method is `check` you can pass in a check # with the *Gateway ID* field
 - The *Gateway* field should only be used when tracking electionic payments
