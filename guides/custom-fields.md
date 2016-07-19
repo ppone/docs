@@ -66,3 +66,7 @@ Any of the invoice reports can be grouped by custom field values using the **Gro
 The resulting report will look like this:
 
 ![Custom Field Report Group By](../img/custom-field-grouped-report-sales.png)
+
+### Importing
+
+Custom field values can be set when [importing](/docs/guides/importing) customers and invoices.
