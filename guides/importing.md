@@ -13,6 +13,7 @@ A few notes:
 - All dates must be entered using this format: `Aug-06-2015`
 - Any unused, optional fields can be removed or left blank
 - If there's a failure in your import we will show you each line that failed with the reason on the import page.
+- All importers support setting metadata on imported objects for any columns with a title following the pattern: `metadata.key` where `key` is the name of the metadata property. For example, you could add a `sales-rep` metadata value by adding a `metadata.sales-rep` column.
 
 ### Customers
 
@@ -33,7 +34,7 @@ Steps to import Customers:
 #### Tips
 
 - The only required field is the customer's name.
-- Customers are identified by their name. If a customer with the same name has already been saved to Invoiced then a new client will not be created.
+- Customers are identified by their account number first, and if that's not given then customers are identified by their name. If a customer with the same account number (or name if account # was not given) has already been created in Invoiced then a new customer will not be created.
 - You can supply a customer # or if left empty we will generate one for you.
 - The *Type* field can only be one of `person`, `company`, or blank.
 - The *Collection Mode* field can only be one of `manual`, `auto`, or blank.
@@ -60,7 +61,7 @@ Steps to import Invoices:
 - Each line represents an invoice AND a corresponding line item.
 If an invoice has multiple line items then you would have multiple lines for the same invoice. Only the first line needs to include the invoice's information. Subsequent lines must have the same invoice #, however only need to have the line item fields filled in (*Item*, *Description*, *Quantity*, *Unit Cost*, *Tax*, and *Discounts*).
 - You can supply an invoice # or leave it blank. If left blank we will generate one for you.
-- Customers are identified by their name. If that name matches an existing customer we will use that. Otherwise, a new customer profile will be created. You can optionally provide an address if you plan on creating a new customer profile.
+- Customers are identified by their account number, or name if the account number is not given. If that account number or name matches an existing customer then we will use that. Otherwise, a new customer profile will be created. You can optionally provide an address if you intend to create a new customer profile.
 - The *Currency* field should use an [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217) currency code. Otherwise, we will use your default currency.
 - The *Type* field can be one of `product`, `service`, `expense`, `hours`, `days`, or blank
 
