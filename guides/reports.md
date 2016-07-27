@@ -80,6 +80,12 @@ The **Sales by Item** report gives you a breakdown of your sales, including what
 
 ![Sales by Item Report](../img/report-sales-by-item.png)
 
+## Subscription Activity
+
+The **Subscription Activity** report gives you a shows how many subscriptions have been added and canceled over a given time period.
+
+![Subscription Activity Report](../img/report-subscription-activity.png)
+
 <hr/>
 
 ### Need more?
