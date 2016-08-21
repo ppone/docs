@@ -128,7 +128,7 @@ You can edit a subscription by opening the subscription in the dashboard and cli
 
 ## Canceling Subscription
 
-Cancel a subscription is pretty easy. Simple open the subscription in the dashbaord and click on **More** > **Cancel Subscription**. 
+Cancel a subscription is pretty easy. Simple open the subscription in the dashboard and click on **More** > **Cancel Subscription**. 
 
 ![Canceling a Subscription](../img/invoice-subscription-cancel.png)
 

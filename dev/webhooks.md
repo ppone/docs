@@ -1,4 +1,4 @@
-# Webhooks <small>beta</small>
+# Webhooks
 
 Webhooks are HTTP callbacks that notify your systems when important events happen within your Invoiced account.
 
