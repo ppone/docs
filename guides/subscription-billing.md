@@ -60,7 +60,7 @@ We first need to select or create a customer. Let's assume you have not added yo
 
 A new dialog will be opened for you to set up your customer. You can fill in any contact information for the customer now, but it's not required. Next we want to enable **AutoPay** to automatically charge the customer's credit card each billing cycle.
 
-![Subscription AutoPay](../img/new-customer-auto-collections-add-later.png)
+![Subscription AutoPay](../img/new-customer-autopay-add-later.png)
 
 If you had the customer's card in front of you then it would be possible to enter now, but let's assume you don't. By selecting **Add later** for the payment source Invoiced is going to help you send a subscription onboarding request to your customer. When subscribing your customer will be able to securely connect a payment source.
 
