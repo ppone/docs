@@ -38,7 +38,7 @@ There are multiple ways to connect a payment source to a customer's account.
 
 ### Failed Payments
 
-AutoPay was designed to gracefully handle failed payments. We will automatically retry failed payments according to your retry schedule. If the payment succeeds at any point then the retry schedule will stop. Your customer will also be sent a [Failed AutoPay Attempt](emails) email. The email will include an **Update Payment Source** button in case the customer's payment information is out of date.
+AutoPay was designed to gracefully handle failed payments. We will automatically retry failed payments according to your retry schedule. If the payment succeeds at any point then the retry schedule will stop. Your customer will also be sent a [Failed AutoPay Attempt](emails#payments) email. The email will include an **Update Payment Source** button in case the customer's payment information is out of date.
 
 Failed payments will be retried according to the following schedule:
 
