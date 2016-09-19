@@ -14,22 +14,6 @@ We've designed our subscription billing system to offer power and flexibility, w
 
 A subscription bills a customer for a fixed amount on regular intervals, according to the plan the customer is subscribed to. Subscription pricing is flexible on Invoiced with quantities, addons, discounts, and taxes supported. We also support customizable billing intervals and fixed-duration subscriptions.
 
-### Collection Mode
-
-Collection modes are a major concept within Invoiced. We support two collection modes: **Automatic** and **Manual**. The collection mode is set per customer meaning that any invoices that you issue against that account will inherit the customer's collection mode.
-
-#### Automatic Collection Mode
-
-With automatic collection mode we are going to charge your customer's payment source for any invoice issued against their account, including subscription invoices. We currently support credit cards and bank accounts as payment sources.
-
-*Note: You must have [online payments](/docs/guides/payments) enabled to use automatic collections.*
-
-#### Manual Collection Mode
-
-Manual collection mode on the other hand lets you invoice customers normally. When enabled each invoice gets paid using any of the payment methods you accept. In the case of subscription invoices we are going to send an invoice to your customer each billing cycle. Again, this can be paid with any of the payment methods you accept.
-
-With manual collection mode you can also set the default payment terms for invoices. Payment terms succinctly tell the customer when an invoice is due. For example, NET 7 means that payment is due within 7 days of the invoice whereas NET 30 means payment is due in 30 days. You can read more about the different kinds of payment terms in this [blog post](https://invoiced.com/blog/how-to-get-paid-faster-on-your-invoice-part-i).
-
 ### Plans
 
 A plan describes how much and how frequently you want to bill your customer. An example plan might be one for website hosting that is $100 per month. Plans are reusable templates for building subscriptions. You can setup and manage your plans in **Settings** > **Plans**.
@@ -41,6 +25,16 @@ Subscription addons are meant to give you pricing flexibility on top of the base
 ### Subscription Invoices
 
 A subscription will generate an invoice each billing cycle for the amount owed in that billing cycle. The invoice contains line items for the plan and any addons.
+
+#### AutoPay
+
+Since subscriptions just generate invoices that means [AutoPay](autopay) customers are fully supported with subscription billing. AutoPay will automatically charge your customer's payment source for any invoices issued against their account, including subscription invoices.
+
+When AutoPay is not enabled then the customer will receive an invoice each billing period that they can pay using any of the payment methods you accept. You can also specify the payment terms that should be used for each account.
+
+#### Payment Terms
+
+Payment terms succinctly tell the customer when an invoice is due. For example, NET 7 means that payment is due within 7 days of the invoice whereas NET 30 means payment is due in 30 days. You can read more about the different kinds of payment terms in this [blog post](https://invoiced.com/blog/how-to-get-paid-faster-on-your-invoice-part-i).
 
 ### Prorations
 
@@ -64,9 +58,9 @@ We first need to select or create a customer. Let's assume you have not added yo
 
 ![New Customer Name](../img/new-customer-name.png)
 
-A new dialog will be opened for you to set up your customer. You can fill in any contact information for the customer now, but it's not required. Next we want to set the customer's collection mode to **Automatic** in order to have their credit card automatically charged each billing cycle.
+A new dialog will be opened for you to set up your customer. You can fill in any contact information for the customer now, but it's not required. Next we want to enable **AutoPay** to automatically charge the customer's credit card each billing cycle.
 
-![Auto Collections](../img/new-customer-auto-collections-add-later.png)
+![Subscription AutoPay](../img/new-customer-auto-collections-add-later.png)
 
 If you had the customer's card in front of you then it would be possible to enter now, but let's assume you don't. By selecting **Add later** for the payment source Invoiced is going to help you send a subscription onboarding request to your customer. When subscribing your customer will be able to securely connect a payment source.
 

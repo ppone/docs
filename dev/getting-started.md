@@ -25,7 +25,7 @@ Next, we are going to walk through a common invoicing workflow.
 
 Customers are at the core of everything on Invoiced. Customers represent a billable entity from your perspective, whether this is a person, organization, or account. You must create a customer first before you can invoice or accept payments.
 
-Every customer supports one of 2 collection modes, `auto` or `manual`. Auto collection mode will charge your customer's connected payment source each billing cycle. Manual collection mode (the default) will issue an invoice that your customer can pay using one of the payment methods you accept.
+Every customer supports one of 2 collection modes, `auto` or `manual`. Using auto collection mode will enable [AutoPay](autopay) and charge your customer's connected payment source each billing cycle. Manual collection mode (the default) will instead issue an invoice that your customer can pay using any of the payment methods you accept.
 
 ```bash
 curl "https://api.invoiced.com/customers" \

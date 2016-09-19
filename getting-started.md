@@ -20,9 +20,9 @@ Now you are inside of the invoice editor. Let's select the customer that we are 
 
 ![Creating First Customer](/docs/img/create-first-customer.png)
 
-How do you expect to get paid from this customer? We support two collection modes: automatic or manual. *Manual collection mode* will invoice your customer according to the payment terms you select. The customer can pay any invoices with the payment methods you accept. Conversely, *automatic collection mode* will perform a charge automatically when an invoice is issued.
+How do you expect to get paid from this customer? When **AutoPay** is disabled (the default) your customer will be able to pay invoices using any of the payment methods you accept, according to the payment terms you specify. If you enable [AutoPay](autopay) then your customer's payment source will be charged for any invoices issued against their account.
 
-For this example we're going to select *manual collection mode* and *Net 7* payment terms. This means that payment is due within 7 days. Once you have entered in your customer's information then you can click **Create**.
+For this example we're going to leave AutoPay disabled and use *Net 7* payment terms. This means that payment is due within 7 days. Once you have entered in your customer's information then you can click **Create**.
 
 Selecting the customer will fill in the payment terms and due date on the invoice. All that remains is to add the line items.
 
