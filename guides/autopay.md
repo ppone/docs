@@ -26,7 +26,7 @@ There are multiple ways to connect a payment source to a customer's account.
 
 3. Sending an AutoPay invoice to your customer
 
-   When sending AutoPay invoices where your customer does not have a payment source connected yet then we will let your customer pay the invoice online. Invoiced will then save the payment source used for future AutoPay invoices.
+   This approach involves sending an AutoPay invoice to a customer that does not have a connected payment source. Your customer will be able to pay the invoice online like normal, but we will also save the payment source used to pay for future AutoPay invoices.
 
 4. [Subscription onboarding requests](subscription-billing#customer-signup-flow)
 
