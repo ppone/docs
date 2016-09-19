@@ -48,7 +48,7 @@ In order to customize any of the email templates you need to go to **Settings** 
 
 **Payment Receipt** Used for payment receipts. Includes a PDF attachment with the receipt.
 
-**Automatic Payment Failed** - Sent when a payment attempt on an automatically collected invoice fails. Includes an **Update Payment Info** button.
+**Failed AutoPay Attempt** - Sent when a payment attempt on an AutoPay invoice fails. Includes an **Update Payment Info** button.
 
 ### Subscriptions
 
