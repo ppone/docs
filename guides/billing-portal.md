@@ -37,6 +37,6 @@ Customers must be signed in to access the billing portal. We've made signing in 
 
     We temporarily sign in any customers when they sign up from a sign up page. On the thank you page there is a **Go to My Account** button.
 
-4. **Manage Subscription Links**
+4. **Manage Subscription links**
 
    We temporarily sign in customers when they click on the **Manage Subscription** button on subscription email notices. This allows customers to easily update payment information.
