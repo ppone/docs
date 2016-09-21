@@ -2,7 +2,7 @@
 
 Your billing portal is a self-serve website where your customers go to handle all things billing from your business.
 
-The billing portal is provided by Invoiced with no coding or extra setup required. Customers can access the billing portal anytime, anywhere. With your billing portal clients can do all of the following by themselves:
+The billing portal is provided by Invoiced with no coding or extra setup required. Customers can access the billing portal anytime, anywhere. With your billing portal customers can do all of the following by themselves:
 
 - view and pay invoices
 - download receipts for past payments
@@ -23,7 +23,7 @@ Customers must be signed in to access the billing portal. We've made signing in 
 
 1. **Passwordless sign in**
 
-   Clients can also visit your billing portal (*yourusername*.invoiced.com) directly and request a sign in link by simply entering in their email address. We will then immediately send them an email with a **Sign In** button.
+   Customers can also visit your billing portal (*yourusername*.invoiced.com) directly and request a sign in link by simply entering in their email address. We will then immediately send them an email with a **Sign In** button.
 
    The email address provided must match a main email address or attached contact for a customer profile in your Invoiced account. We will only send a sign in link to email addresses matching this criteria.
 
@@ -35,4 +35,8 @@ Customers must be signed in to access the billing portal. We've made signing in 
 
 3. **Sign up pages**
 
-    We temporarily sign in any clients when they sign up from a sign up page. On the thank you page there is a **Go to My Account** button.
+    We temporarily sign in any customers when they sign up from a sign up page. On the thank you page there is a **Go to My Account** button.
+
+4. **Manage Subscription Links**
+
+   We temporarily sign in customers when they click on the **Manage Subscription** button on subscription email notices. This allows customers to easily update payment information.
