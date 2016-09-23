@@ -50,7 +50,7 @@ The **Bad Debt** report lists all of the invoices classified as bad debt within 
 
 The **Payment Summary** report analyzes the payments that were received in a time period. In addition to aggregate payment amounts, you will also be able to see payment activity broken down by month and by payment method.
 
-![Payments Received Report](../img/report-payments-received.png)
+![Payment Summary Report](../img/report-payment-summary.png)
 
 ## Credit Summary
 
@@ -70,7 +70,7 @@ The **Tax Summary** report shows a breakdown of tax billed or tax collected duri
 
 With the **Tax Date** option you can tell Invoiced when to recognize tax. You can choose between when it was billed (**Invoice Date**) or when it was collected (**Payment Date**). The method you choose might depend on how you account for taxes or the rules in your tax jurisdiction.
 
-![Taxes Collected Report](../img/report-taxes-collected.png)
+![Tax Summary Report](../img/report-tax-summary.png)
 
 ## Sales by Item
 
