@@ -12,7 +12,7 @@ Unlike online payments, offline payments must be recorded in the dashboard once 
 
 Online payments are essential if you want to get paid quicker. They also are key to auto-charging your clients with subscriptions.
 
-You can accept credit/debit card, ACH, and bitcoin payments through [Stripe](https://stripe.com), the payment processor we have partnered with. Our set up process will help you easily sign up for a merchant account. You can also accept [PayPal](https://paypal.com) payments.
+You can accept credit/debit card, and ACH payments through [Stripe](https://stripe.com), the payment processor we have partnered with. Our set up process will help you easily sign up for a merchant account. You can also accept [PayPal](https://paypal.com) payments.
 
 *If you need to accept payments through a different payment processor then please get in touch.*
 
@@ -62,39 +62,37 @@ Once a bank account has been verified then your customer can now pay invoices fr
 
 Subsequent payments will not require the customer to go through the verification process again but we will ask the customer to confirm their bank account number, for their protection.
 
+### Accepting PayPal Payments
+
+Click on **PayPal** and enter in your PayPal email address or click on learn more to register for one at PayPal and than enter in the PayPal address. Finally, click Save.
+
+![PayPal Enabled](../img/invoice-enable-paypal.png)
+
+#### Client Workflow for PayPal Payments
+
+On the payment page we will generate a **Pay with PayPal** button that takes your customer to PayPal's checkout process. There they will be able to pay using a PayPal account or as a guest.
+
 ### Accepting Bitcoin Payments
 
-Bitcoin is a decentralized virtual currency that lets you accept payments from anyone, anywhere. Our bitcoin integration automatically converts bitcoin payments into USD, making it super easy to start accepting bitcoin.
-
-One of the advantages of bitcoin is that payments can be made by anyone holding bitcoins, and not just those with access to a credit card. The transaction fees are also quite a bit lower. Stripe currently charges *0.8%* up to a maximum of *$5* per successful transaction.
+[Bitcoin](https://bitcoin.org) is a decentralized virtual currency that lets you accept payments from anyone, anywhere. One of the advantages of bitcoin is that payments can be made by anyone holding bitcoins, and not just those with access to a credit card.
 
 *We should note that although bitcoin shows a lot of promise, it is still in its infancy and has a ways to go before it reaches mass consumer adoption. It might not make sense to accept bitcoin right now unless there is demand from your customer base to pay with bitcoin.*
 
 Setting up bitcoin payments is simple:
 
-1. Click on **Connect With Stripe**
-2. Accept the Stripe Bitcoin Terms of Service
-3. Click on **Enable Bitcoin Payments**
+1. Click on **Bitcoin**
+2. Enter in your bitcoin wallet address
+3. Click Save to enable bitcoin
 
-If you don't have a Stripe account yet, don't worry. The connect button will walk you through creating an account. It's a single form that takes minutes. Once completed you can start accepting payments right away.
-
-**![Bitcoin Enabled](../img/invoice-enable-bitcoin.png)**
+![Bitcoin Enabled](../img/invoice-enable-bitcoin.png)
 
 #### Client Workflow for Bitcoin Payments
 
-If a client chooses to pay with bitcoin then the amount of BTC owed will be calculated according to the current exchange rate. The amount will be valid for approximately 10 minutes. The payment screen will show a unique wallet address to send the BTC. Once the transaction has been verified then the customer will receive a receipt.
+Bitcoin only works on invoices denominated in the BTC currency. When your client receives a BTC invoice the payment page will only have *Bitcoin* as a payment option. On the payment form they will see your wallet address, a link to pay, and a rendered QR code.
 
-If the wrong amount of BTC was received or it was received outside of the conversion rate window then the customer will be refunded.
+![Bitcoin payments](../img/bitcoin-payment-form.png)
 
-### Accepting PayPal Payments
-
-Click on **PayPal** and enter in your PayPal email address or click on learn more to register for one at PayPal and than enter in the PayPal address. Than click Save.
-
-**![PayPal Enabled](../img/invoice-enable-paypal.png)**
-
-#### Client Workflow for PayPal Payments
-
-On the payment page we will generate a **Pay with PayPal** button that takes your customer to PayPal's checkout process. There they will be able to pay using a PayPal account or as a guest.
+Once you receive a bitcoin payment from your client don't forget to record it through the dashboard. Currently we are unable to automatically reconcile incoming bitcoin payments.
 
 ### Withdrawing Your Money
 
@@ -110,7 +108,7 @@ Invoiced lets you give instructions to your clients about the different offline 
 
 To set this up go to **Settings** > **Payments**
 
-**![Enable Offline Payments](../img/invoice-online-payments.png)**
+![Enable Offline Payments](../img/invoice-online-payments.png)
 
 Then enable which offline payments you accept, and provide instructions for them.
 
@@ -132,7 +130,7 @@ To get a quick glance at all the invoices, subscriptions, and payments a client 
 
 Simply click on a payment you want to refund. Once the payment details show up, click on the **Refund** button.
 
-**![Refund Invoice Payments](../img/invoice-payment-refund.png)**
+![Refund Invoice Payments](../img/invoice-payment-refund.png)
 
 * * *
 
