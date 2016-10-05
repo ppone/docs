@@ -106,7 +106,9 @@ Invoices will also have an **Update Payment Source** button. Certain payment gat
 
 ### When is payment for AutoPay invoices collected?
 
-Generally within 1-2 hours after an invoice is issued. Nobody likes being charged for the wrong amount. This delay gives you time to recover from any potential mistakes.
+Payment will be collected no earlier than 1 hour after the invoice is issued. Generally you can payment to be collected in 1-2 hours. The 1 hour minimum delay gives you time to recover from any potential mistakes.
+
+However, if the invoice date is in the future then payment will not be collected until that date.
 
 ### Can I trigger payment for AutoPay invoices sooner?
 
