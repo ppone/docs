@@ -20,6 +20,10 @@ Sending invoices have a **View Invoice** button that links to the client view. A
 
 *Note: we have taken precautions to prevent false alerts should you open the client view of your own invoice.*
 
+### Email Whitelabeling
+
+Invoied allows you to completely whitelabel your billing emails when you elect to have emails sent through your own email infrastructure. All you need to send customer emails from your own servers are SMTP credentials. Keep reading to learn how to set up email whitelabeling.
+
 ### Gmail Actions
 
 We also have a partnership with Gmail that will give special treatment to the invoices you send to Gmail users. Your clients will see a **View Invoice** next to the subject line that takes them straight to the client view without ever needing to open the email. We've seen an uptick in views and paid invoices with this integration.
@@ -63,6 +67,48 @@ In order to customize any of the email templates you need to go to **Settings** 
 ### Customers
 
 **Statement** - Used to send customer statements. Includes a PDF attachment of the statement.
+
+## Email Delivery
+
+Out of the box Invoiced will send emails to your customers using our carefully tuned email infrastructure. Emails will appear as if they came directly from your business. Customers should not see the Invoiced brand anywhere, and any replies will go to your email address. Any emails sent through our servers will be from **no-reply@invoiced.com**.
+
+Sending via Invoiced's email servers works just fine for most businesses, and it requires zero set up. However, some businesses might run into deliverability issues when sending to customers with strict spam filters. Generally this is an issue when sending to large corporations. If you run into deliverability issues then you can ask your customer to whitelist **no-reply@invoiced.com**, although this is less than ideal.
+
+An even better solution would be to let us send emails through your own email account or server. By providing us with [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) credentials we can send through any server you specify. Invoiced will then send any customer emails through that SMTP interface using your email address as the sender instead of no-reply@invoiced.com. This will improve email delivery for your customers, and as a side benefit, make it possible for you to directly monitor all of the emails sent to customers through Invoiced.
+
+### Setting up custom SMTP
+
+1. Go to **Settings** > **Email** in the Invoiced dashboard. Click **Change** next to the email settings.
+
+2. Select the send email **via custom SMTP gateway** option.
+
+   ![Custom SMTP Setup](../img/setup-custom-smtp.png)
+
+3. Enter in your SMTP credentials and click **Test Connection** to verify they are correct.
+
+   ![Custom SMTP Setup Step 2](../img/setup-custom-smtp-2.png)
+
+4. Click **Save** to save these changes.
+
+Emails will now be sent through the SMTP gateway you entered. You can test this out by sending an invoice to yourself and checking if the sender address matches your company address.
+
+Since emails will be sent with your business email address as the sender please make sure that your SMTP gateway is properly configured for this. Your SMTP gateway must also support TLS or SSL encryption in order to be used with Invoiced.
+
+If we are unable to connect to the gateway for any reason when sending email then we will failover to our email servers.
+
+#### G Suite / Gmail Users
+
+You can send through a Google email account using [SMTP](https://support.google.com/a/answer/176600?hl=en), however, there are a few extra considerations needed:
+
+1. You must first enable sign in for less secure apps [here](https://www.google.com/settings/security/lesssecureapps). You can learn more about this in [Google's docs](https://support.google.com/accounts/answer/6010255).
+
+2. Your username will be your full email address, i.e. **bob@gmail.com**, and the password will be the same as the one used to sign in.
+
+3. When entering in the SMTP credentials, before you click **Test Connection**, you might need to visit [this page](https://accounts.google.com/DisplayUnlockCaptcha). If you still run into issues then this [Google article](https://support.google.com/accounts/answer/6009563) might help.
+
+4. Please be aware of the [sending limits](https://support.google.com/a/answer/166852) when sending through Google.
+
+You can verify the SMTP gateway is working by checking your **Sent Mail** folder. You should see emails sent through Invoiced in there.
 
 ## Invoice PDF attachments
 
