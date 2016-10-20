@@ -102,7 +102,7 @@ You can send through a Google email account using [SMTP](https://support.google.
 
 1. You must first enable sign in for less secure apps [here](https://www.google.com/settings/security/lesssecureapps). You can learn more about this in [Google's docs](https://support.google.com/accounts/answer/6010255).
 
-2. Your username will be your full email address, i.e. **bob@gmail.com**, and the password will be the same as the one used to sign in.
+2. Your username will be your full email address, i.e. **bob@gmail.com**, and the password will be the same as the one used to sign in. If you have 2-step verification enabled then you can [generate an app-specific password](https://support.google.com/mail/answer/185833?hl=en) for Invoiced instead of using your primary password.
 
 3. When entering in the SMTP credentials, before you click **Test Connection**, you might need to visit [this page](https://accounts.google.com/DisplayUnlockCaptcha). If you still run into issues then this [Google article](https://support.google.com/accounts/answer/6009563) might help.
 
