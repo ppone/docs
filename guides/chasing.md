@@ -8,15 +8,14 @@ Chasing can help you close the gap on getting paid by reminding customers to pay
 
 You must specify the schedule that you want your invoices to be chased with. We will stop chasing an invoice once the schedule is finished or when the invoice is paid or closed.
 
-Schedules are defined as a series of steps each specifying the number of days relative to the invoice due date when a reminder should be sent. Chase schedules can also have a repeater at the end that sends reminders every N days until the invoice is paid or closed.
+Chase schedules are defined as a series of steps each specifying when an invoice reminder should be sent. Your chasing schedule can be built from the following types of steps:
 
-Your chasing schedule can be built from the following types of steps:
+1. **When issued** - sends an invoice on the issue date
+2. **Before the due date** - sends a reminder N days *before* the due date
+3. **After the due date** - sends a reminder N days *after* the due date
+4. **Repeater** - sends a reminder *every N days after* the due date until the invoice is paid or closed.
 
-1. **Before the due date** - sends a reminder N days *before* the due date
-2. **After the due date** - sends a reminder N days *after* the due date
-3. **Repeater** - sends a reminder *every N days after* the due date until the invoice is paid or closed.
-
-We will then only chase invoices that have a due date and chasing enabled on the invoice. Once the schedule has been completed or the invoice is paid or closed then chasing will stop.
+We will then only chase invoices that have chasing enabled on the invoice. Once the schedule has been completed or the invoice is paid or closed then chasing will stop.
 
 ## Getting Started
 
@@ -42,7 +41,7 @@ When finished click **Save**. Chasing is now enabled for your account. All that'
 
 When drafting an invoice you can turn on chasing by clicking **Options** at the top of the screen and enabling the **Chasing** setting.
 
-If the invoice has already been created then you can simply click **Enable** under the *Invoice Details* section (next to where it says `Chase: No`). Your invoice will now be chased according to the schedule you set up. The next chase date will be shown in the *Invoice Details* section.
+If the invoice has already been created then you can simply click **Enable** under the *Invoice Details* section (next to where it says **Chase: No**). Your invoice will now be chased according to the schedule you set up. The next chase date will be shown in the *Invoice Details* section.
 
 ### Further Customization
 
@@ -87,3 +86,11 @@ Given the following schedule:
 2. Send a reminder **5** days **repeating**
 
 Like the previous example our invoice is due on *September 10th*. As with the previous example they will receive a reminder the week before. They will receive another reminder on the due date, *September 10th*, if the invoice is still not paid. By *September 15th* if they still have not paid then they will receive a late payment reminder, and again every 5 days until the invoice is paid or closed.
+
+### Automatically send all newly issued invoices
+
+Given the following schedule:
+
+1. **When issued**
+
+Any invoice that is issued in the system will be sent automatically (approximately 1-2 hours after the issue date). If an invoice is issued with a date of *September 10th* then it will be sent on that day.
