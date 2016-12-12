@@ -56,8 +56,6 @@ In order to customize any of the email templates you need to go to **Settings** 
 
 ### Subscriptions
 
-**Onboarding Request** - Sent to request that a customer sign up for a subscription. When auto collections is enabled asks for a payment source also. Includes a **Sign Up** button.
-
 **Sign Up Confirmation** - Sent to confirm a customer has been signed up to a subscription. Includes a **Manage Subscription** button. *Turned off by default.*
 
 **Renews Soon** - Sent to notify a customer their subscription renews soon. You specify how many days in advance of a subscription renewal to send these notices. Includes a **Manage Subscription** button. *Turned off by default.*

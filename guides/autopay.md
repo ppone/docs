@@ -28,11 +28,7 @@ There are multiple ways to connect a payment source to a customer's account.
 
    This approach involves sending an AutoPay invoice to a customer that does not have a connected payment source. Your customer will be able to pay the invoice online like normal, but we will also save the payment source used to pay for future AutoPay invoices.
 
-4. [Subscription onboarding requests](subscription-billing#customer-signup-flow)
-
-   If you've created a subscription for a customer with AutoPay enabled but no payment source then we will let you send an onboarding request to politely ask your customer to connect a payment source.
-
-5. Adding a credit card through the dashboard
+4. Adding a credit card through the dashboard
    
    This is useful if you have a customer in person or are accepting orders over the phone. Since bank accounts must be verified first we do not support adding bank accounts through the dashboard.
 
