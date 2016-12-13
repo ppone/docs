@@ -22,7 +22,7 @@ Invoiced makes setting up Stripe and PayPal dead simple. Here is how you can set
 
 Go to **Settings** > **Payments**
 
-![Online Payments](../img/invoice-online-payments.png)
+[![Online Payments](../img/invoice-online-payments.png)](../img/invoice-online-payments.png)
 
 ### Accepting Credit Card Payments
 
@@ -32,7 +32,7 @@ Once you are ready to start accepting credit card payments simply click on **Cre
 
 If you don't have a Stripe account yet, don't worry. The connect button will walk you through creating an account. It's a single form that takes minutes to complete. Once completed you can start accepting payments right away.
 
-![Credit Card Enabled](../img/invoice-enable-credit-card.png)
+[![Credit Card Enabled](../img/invoice-enable-credit-card.png)](../img/invoice-enable-credit-card.png)
 
 #### Client Workflow for Credit Card Payments
 
@@ -66,7 +66,7 @@ Subsequent payments will not require the customer to go through the verification
 
 Click on **PayPal** and enter in your PayPal email address or click on learn more to register for one at PayPal and than enter in the PayPal address. Finally, click Save.
 
-![PayPal Enabled](../img/invoice-enable-paypal.png)
+[![PayPal Enabled](../img/invoice-enable-paypal.png)](../img/invoice-enable-paypal.png)
 
 #### Client Workflow for PayPal Payments
 
@@ -84,13 +84,13 @@ Setting up bitcoin payments is simple:
 2. Enter in your bitcoin wallet address
 3. Click Save to enable bitcoin
 
-![Bitcoin Enabled](../img/invoice-enable-bitcoin.png)
+[![Bitcoin Enabled](../img/invoice-enable-bitcoin.png)](../img/invoice-enable-bitcoin.png)
 
 #### Client Workflow for Bitcoin Payments
 
 Bitcoin only works on invoices denominated in the BTC currency. When your client receives a BTC invoice the payment page will only have *Bitcoin* as a payment option. On the payment form they will see your wallet address, a link to pay, and a rendered QR code.
 
-![Bitcoin payments](../img/bitcoin-payment-form.png)
+[![Bitcoin payments](../img/bitcoin-payment-form.png)](../img/bitcoin-payment-form.png)
 
 Once you receive a bitcoin payment from your client don't forget to record it through the dashboard. Currently we are unable to automatically reconcile incoming bitcoin payments.
 
@@ -108,11 +108,11 @@ Invoiced lets you give instructions to your clients about the different offline 
 
 To set this up go to **Settings** > **Payments**
 
-![Enable Offline Payments](../img/invoice-online-payments.png)
+[![Enable Offline Payments](../img/invoice-online-payments.png)](../img/invoice-online-payments.png)
 
 Then enable which offline payments you accept, and provide instructions for them.
 
-![Enable Offline Payments Instructions](../img/invoice-offline-payment-enable.png)
+[![Enable Offline Payments Instructions](../img/invoice-offline-payment-enable.png)](../img/invoice-offline-payment-enable.png)
 
 ### Client Workflow for Offline Payments
 
@@ -130,7 +130,7 @@ To get a quick glance at all the invoices, subscriptions, and payments a client 
 
 Simply click on a payment you want to refund. Once the payment details show up, click on the **Refund** button.
 
-![Refund Invoice Payments](../img/invoice-payment-refund.png)
+[![Refund Invoice Payments](../img/invoice-payment-refund.png)](../img/invoice-payment-refund.png)
 
 * * *
 

@@ -28,31 +28,31 @@ Prerequisites:
 
 1. Open the invoice that has the outstanding balance. We are going to add a payment plan to pay off this balance.
 
-   ![Click to add a payment plan](../img/payment-plan-add-payment-plan-menu.png)
+   [![Click to add a payment plan](../img/payment-plan-add-payment-plan-menu.png)](../img/payment-plan-add-payment-plan-menu.png)
 
 2. Click **More** > **Add Payment Plan**. A new dialog will appear.
 
-   ![Create a new payment plan](../img/payment-plan-new.png)
+   [![Create a new payment plan](../img/payment-plan-new.png)](../img/payment-plan-new.png)
 
 3. Setting up a payment plan is simply building the installment schedule. Each step in the installment schedule represents the date and amount to be paid. Invoiced has a nifty payment plan calculator that handles most common scheduling scenarios. Just input your constraints and it will calculate the installment schedule for you.
 
-   ![Payment plan calculator](../img/payment-plan-calculator.png)
+   [![Payment plan calculator](../img/payment-plan-calculator.png)](../img/payment-plan-calculator.png)
 
-   ![Build payment plan](../img/payment-plan-calculated-installments.png)
+   [![Build payment plan](../img/payment-plan-calculated-installments.png)](../img/payment-plan-calculated-installments.png)
 
    If your payment plan is not uniform, or needs further customization then you can switch the schedule to **Custom**. This will give you fine-grained control over the installment schedule.
 
-   ![Build a custom payment plan](../img/payment-plan-custom.png)
+   [![Build a custom payment plan](../img/payment-plan-custom.png)](../img/payment-plan-custom.png)
 
 4. Once you are finished adding your installments then you can save the payment plan. Please make sure to double-check that the installments have the correct dates and amounts before clicking **Save**. It's not possible to edit a payment plan once created. Instead you would have to cancel the payment plan and start over.
 
    If your customer already has a payment source connected then there's nothing left to do. AutoPay will be enabled on the invoice and payment will be collected according to your newly created schedule.
 
-   ![Payment plan started](../img/payment-plan-enabled.png)
+   [![Payment plan started](../img/payment-plan-enabled.png)](../img/payment-plan-enabled.png)
 
    If your customer does not have a connected payment source yet then please read the next section to learn how to finish enrolling the customer in the payment plan.
 
-   ![Payment plan pending approval](../img/payment-plan-pending-approval.png)
+   [![Payment plan pending approval](../img/payment-plan-pending-approval.png)](../img/payment-plan-pending-approval.png)
 
 ### Signing up customers
 
@@ -60,23 +60,23 @@ Customers that do not already have a connected payment source must approve the p
 
 1. Send the invoice with the payment plan to your customer.
 
-   ![Send payment plan to your customer](../img/payment-plan-send.png)
+   [![Send payment plan to your customer](../img/payment-plan-send.png)](../img/payment-plan-send.png)
 
 2. Your customer will then open the email from you and click **View Invoice**.
 
-   ![Payment plan email](../img/payment-plan-email.png)
+   [![Payment plan email](../img/payment-plan-email.png)](../img/payment-plan-email.png)
 
 3. Your customer will then click **Pay**.
 
-   ![Payment plan client view](../img/payment-plan-invoice-client-view.png)
+   [![Payment plan client view](../img/payment-plan-invoice-client-view.png)](../img/payment-plan-invoice-client-view.png)
 
 4. Instead of the normal payment screen the customer will see the payment plan. After reviewing the payment plan they will click **Approve**.
 
-   ![Payment plan approval](../img/payment-plan-approve.png)
+   [![Payment plan approval](../img/payment-plan-approve.png)](../img/payment-plan-approve.png)
 
 5. Finally, they will need to connect a payment source to pay for the payment plan.
 
-   ![Payment plan connect payment source](../img/payment-plan-connect-payment-source.png)
+   [![Payment plan connect payment source](../img/payment-plan-connect-payment-source.png)](../img/payment-plan-connect-payment-source.png)
 
    AutoPay for the invoice will be enabled now that your customer has approved the payment plan and connected a payment source. Invoiced will then automatically collect the correct amount from your customer as each installment becomes due.
 

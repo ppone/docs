@@ -10,7 +10,7 @@ The billing portal is provided by Invoiced with no coding or extra setup require
 - update payment information
 - view and approve estimates
 
-![Billing Portal My Account](../img/billing-portal-my-account.png)
+[![Billing Portal My Account](../img/billing-portal-my-account.png)](../img/billing-portal-my-account.png)
 
 ## Usage
 

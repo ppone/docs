@@ -54,13 +54,13 @@ Let's walk through a basic scenario where we set up AutoPay for a customer by se
 
    Go to **Settings** > **Payments** to enable **Credit Card** or **ACH** payments.
 
-   ![Enabling credit card payments](../img/invoice-enable-credit-card.png)
+   [![Enabling credit card payments](../img/invoice-enable-credit-card.png)](../img/invoice-enable-credit-card.png)
 
 2. Turn on AutoPay for your customer
 
    Now we are going to create a new customer account. If you are creating a new customer then turn on the **AutoPay** switch.
 
-   ![Creating an AutoPay customer](../img/new-autopay-customer.png)
+   [![Creating an AutoPay customer](../img/new-autopay-customer.png)](../img/new-autopay-customer.png)
 
    We are going to leave **Add Later** selected for the payment source because we are going to collect their payment information by sending an invoice. We are going to add the customer's payment source by sending an invoice.
 
@@ -70,31 +70,31 @@ Let's walk through a basic scenario where we set up AutoPay for a customer by se
 
    Let's create and issue an invoice against the customer's account.
    
-   ![Creating an AutoPay invoice](../img/new-autopay-invoice.png)
+   [![Creating an AutoPay invoice](../img/new-autopay-invoice.png)](../img/new-autopay-invoice.png)
 
    Next send the invoice to your customer.
 
-   ![Sending an AutoPay invoice](../img/send-autopay-invoice.png)
+   [![Sending an AutoPay invoice](../img/send-autopay-invoice.png)](../img/send-autopay-invoice.png)
 
 4. Customer pays to connect a payment source
 
    The customer will be able to view the invoice like usual. They will then click **Pay**.
 
-   ![Viewing an AutoPay invoice](../img/view-autopay-invoice.png)
+   [![Viewing an AutoPay invoice](../img/view-autopay-invoice.png)](../img/view-autopay-invoice.png)
 
    When they click **Pay** the customer will be able to select one of the payment methods you have enabled that supports AutoPay.
 
-   ![Selecting an AutoPay payment method](../img/autopay-payment-choice.png)
+   [![Selecting an AutoPay payment method](../img/autopay-payment-choice.png)](../img/autopay-payment-choice.png)
 
    Then while paying the invoice we will securely collect your customer's payment source for use on future AutoPay invoices.
 
-   ![Paying an AutoPay invoice](../img/autopay-payment-screen.png)
+   [![Paying an AutoPay invoice](../img/autopay-payment-screen.png)](../img/autopay-payment-screen.png)
 
 ### Updating payment sources
 
 Once a customer's added a payment source they can update it at any time through the billing portal by clicking **Change** in the *Payment Source* section.
 
-![Updating a payment source](../img/update-payment-source.png)
+[![Updating a payment source](../img/update-payment-source.png)](../img/update-payment-source.png)
 
 Invoices will also have an **Update Payment Source** button. Certain payment gateways like Stripe will [automatically update customer payment information](https://stripe.com/blog/smarter-saved-cards) if they are issued a new credit card.
 

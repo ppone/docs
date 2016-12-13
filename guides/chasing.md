@@ -23,15 +23,15 @@ First you will need to enable chasing for your account in the settings and set u
 
 Go to **Settings** > **Chasing**.
 
-![Invoice Settings Chasing](../img/invoice-setting-chasing.png)
+[![Invoice Settings Chasing](../img/invoice-setting-chasing.png)](../img/invoice-setting-chasing.png)
 
 Flip the **Allow Chasing** toggle.
 
-![Invoice Settings Chasing Enable](../img/invoice-setting-chasing-enable.png)
+[![Invoice Settings Chasing Enable](../img/invoice-setting-chasing-enable.png)](../img/invoice-setting-chasing-enable.png)
 
 Now we are ready to set the chasing schedule in order to instruct Invoiced exactly when to send reminders. Click on **+ Step** to add your first and subsequent steps to the chasing schedule.
 
-![Invoice Settings Chasing Enable](../img/invoice-setting-chasing-add-step.png)
+[![Invoice Settings Chasing Enable](../img/invoice-setting-chasing-add-step.png)](../img/invoice-setting-chasing-add-step.png)
 
 You can remove existing steps or add new ones easily. We will automatically sort the schedule for you.
 

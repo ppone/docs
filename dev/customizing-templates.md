@@ -4,7 +4,7 @@ Invoiced ships with default templates for invoices, statements, and receipts, ho
 
 The underlying templates are HTML and CSS. Both the layout and styling can be customized. The first step is to head over to **Settings** > **Appearance** > **Layout**. Then turn on the switch next to **Use Custom Layout**.
 
-![Customizable Invoice Templates](../img/customizable-invoice-templates.png)
+[![Customizable Invoice Templates](../img/customizable-invoice-templates.png)](../img/customizable-invoice-templates.png)
 
 [Mustache](https://mustache.github.io/mustache.5.html) is the templating language used to power templates on Invoiced, including the HTML for custom templates.
 

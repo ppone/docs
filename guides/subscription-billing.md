@@ -94,33 +94,33 @@ If you are using AutoPay then we recommend using sign up pages to subscribe new 
 
 1. First sign in to the Invoiced dashboard and go to the **Subscriptions** page. Then click **Add Subscription**.
 
-   ![Empty Subscriptions Page](../img/subscriptions-page.png)
+   [![Empty Subscriptions Page](../img/subscriptions-page.png)](../img/subscriptions-page.png)
 
 2. A new subscription dialog will appear. Let's start by selecting our customer. If the customer does not exist yet then you would click **Add Ben Bitdiddle as a new customer**.
 
-   ![New Subscription Step 1](../img/new-subscription-step1.png)
+   [![New Subscription Step 1](../img/new-subscription-step1.png)](../img/new-subscription-step1.png)
 
 3. This will open a new customer dialog. You can fill in any contact information for the customer now. We are also going to enter **NET 14** for the payment terms.
 
-   ![New Customer](../img/subscription-new-customer.png)
+   [![New Customer](../img/subscription-new-customer.png)](../img/subscription-new-customer.png)
 
 4. Now you can go ahead and click **Create** to finish creating your customer.
 
-   ![New Subscription with Customer](../img/new-subscription-with-customer.png)
+   [![New Subscription with Customer](../img/new-subscription-with-customer.png)](../img/new-subscription-with-customer.png)
 
 5. Next we need to select a plan. If you don't have a recurring plan yet then let's create one. Click on **+ New Plan**.
 
-   ![New Recurring Plan](../img/new-plan.png)
+   [![New Recurring Plan](../img/new-plan.png)](../img/new-plan.png)
 
    Let's say we want to create a plan called **Basic** for **$39/month**. The **ID** field is a unique identifier used to reference your plan through the API. The ID is automatically generated for you, but you are free to rename this to match your own internal SKU or naming scheme.
 
 6. Once finished you can click **Save** to create the plan.
 
-   ![New Subscription with Customer and Plan](../img/new-subscription-with-plan.png)
+   [![New Subscription with Customer and Plan](../img/new-subscription-with-plan.png)](../img/new-subscription-with-plan.png)
 
 7. All that is left is to customize how long the subscription should run and select any addons. Click the **Options** button to reveal these options.
 
-   ![New Subscription Options](../img/new-subscription-options.png)
+   [![New Subscription Options](../img/new-subscription-options.png)](../img/new-subscription-options.png)
 
    We want to start the subscription now. If you want to start the subscription at a later date or offer a free trial period then you can uncheck the **Starting now** option to select a start date.
 
@@ -134,13 +134,13 @@ If you are using AutoPay then we recommend using sign up pages to subscribe new 
 
 8. At the bottom of the screen you can see the calculated recurring total. If you click the **Preview** button you can even see a preview of the upcoming billing cycles.
 
-   ![New Subscription Preview](../img/new-subscription-preview.png)
+   [![New Subscription Preview](../img/new-subscription-preview.png)](../img/new-subscription-preview.png)
 
    Once the subscription looks right you can now click **Create**.
 
    You will now see that your newly created subscription is active. The invoice for the first billing cycle has already been generated.
 
-   ![Newly created subscription and generated invoice](../img/subscription-summary.png)
+   [![Newly created subscription and generated invoice](../img/subscription-summary.png)](../img/subscription-summary.png)
 
 ### Editing a Subscription
 
@@ -148,7 +148,7 @@ What happens when your customer falls in love with your service and wants to pur
 
 You can edit a subscription by opening the subscription in the dashboard and clicking the **Edit** button in the top right corner.
 
-![Edit Subscription with Prorations](../img/edit-subscription.png)
+[![Edit Subscription with Prorations](../img/edit-subscription.png)](../img/edit-subscription.png)
 
 ### Changing the Renewal Date
 
@@ -156,11 +156,11 @@ Once your subscription is running you might want to change when it renews next. 
 
 With the subscription in the dashboard you can click **More** > **Change Renewal Date** to change when the subscription will renew next.
 
-![Change Subscription Renewal Date Step 1](../img/change-renewal-date-step1.png)
+[![Change Subscription Renewal Date Step 1](../img/change-renewal-date-step1.png)](../img/change-renewal-date-step1.png)
 
 The renewal date cannot be set in the past. Changing the renewal date will not produce any prorations.
 
-![Change Subscription Renewal Date Step 2](../img/change-renewal-date-step2.png)
+[![Change Subscription Renewal Date Step 2](../img/change-renewal-date-step2.png)](../img/change-renewal-date-step2.png)
 
 You can also change the billing period offset as well by clicking **More** > **Change Billing Period Offset**. This will adjust the current billing period right away, however, it will not change when the next bill is generated or produce any prorations.
 
@@ -168,11 +168,11 @@ You can also change the billing period offset as well by clicking **More** > **C
 
 Canceling a subscription is simple. With the subscription open in the dashboard you can click **More** > **Cancel Subscription**.
 
-![Canceling a Subscription Step 1](../img/cancel-subscription-step1.png)
+[![Canceling a Subscription Step 1](../img/cancel-subscription-step1.png)](../img/cancel-subscription-step1.png)
 
 You can choose whether you want the subscription to be canceled immediately or at the end of the billing period.
 
-![Canceling a Subscription Step 2](../img/cancel-subscription-step2.png)
+[![Canceling a Subscription Step 2](../img/cancel-subscription-step2.png)](../img/cancel-subscription-step2.png)
 
 ## FAQs
 

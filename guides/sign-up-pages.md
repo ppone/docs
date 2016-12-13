@@ -18,7 +18,7 @@ Sign up pages also have these optional capabilities:
 - Customizable header text
 - Terms of Service agreement
 
-![Sign Up Page](../img/sign-up-page.png)
+[![Sign Up Page](../img/sign-up-page.png)](../img/sign-up-page.png)
 
 ## Usage
 
@@ -31,23 +31,23 @@ Prerequisites:
 
 1. Go to **Settings** > **Sign Up Pages**.
 
-   ![Sign Up Page Settings](../img/sign-up-pages-settings.png)
+   [![Sign Up Page Settings](../img/sign-up-pages-settings.png)](../img/sign-up-pages-settings.png)
 
 2. Click **New Sign Up Page**.
 
-   ![Creating a new Sign Up Page](../img/sign-up-pages-empty.png)
+   [![Creating a new Sign Up Page](../img/sign-up-pages-empty.png)](../img/sign-up-pages-empty.png)
 
 3. Give your page a name and select all of the plans that should be available to customers signing up from this page. There are other options available, like asking for a billing or shipping address.
 
-   ![Building a Sign Up Page](../img/sign-up-pages-new.png)
+   [![Building a Sign Up Page](../img/sign-up-pages-new.png)](../img/sign-up-pages-new.png)
 
 4. Click **Save**.
 
-   ![Created Sign Up Page](../img/sign-up-pages-created.png)
+   [![Created Sign Up Page](../img/sign-up-pages-created.png)](../img/sign-up-pages-created.png)
 
 5. Now that your page is created it will be hosted at a unique URL within your billing portal. You can click the **View** button next to your new page to open the URL in a new tab.
 
-   ![Sign Up Page](../img/sign-up-page.png)
+   [![Sign Up Page](../img/sign-up-page.png)](../img/sign-up-page.png)
 
 ### Signing up customers
 

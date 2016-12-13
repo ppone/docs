@@ -10,27 +10,27 @@ The Xero integration lets you sync data by pushing invoices from Invoiced into X
 
 In order to begin syncing with Xero first go to **Settings** > **Accounting Sync**.  
 
-![Settings Page](../img/all-settings-accounting-sync.png)
+[![Settings Page](../img/all-settings-accounting-sync.png)](../img/all-settings-accounting-sync.png)
 
 Then click on **Connect to Xero**.
 
-![Xero Connect](../img/accounting-sync-settings.png)
+[![Xero Connect](../img/accounting-sync-settings.png)](../img/accounting-sync-settings.png)
 
 You will get redirected to Xero for authentication. Input your Xero email address and password.
 
-![Xero Authorize](../img/xero-screen-3.png)
+[![Xero Authorize](../img/xero-screen-3.png)](../img/xero-screen-3.png)
 
 Next you will be prompted to authorize your Xero organization to Invoiced.  Click on **Authorize**.
 
-![Xero Settings](../img/xero-screen-4.png)
+[![Xero Settings](../img/xero-screen-4.png)](../img/xero-screen-4.png)
 
 You will be redirected back to Invoiced. You can now start syncing your data with Xero by clicking **Synchronize**.
 
-![Xero Connected](../img/accounting-sync-xero-connected.png)
+[![Xero Connected](../img/accounting-sync-xero-connected.png)](../img/accounting-sync-xero-connected.png)
 
 No further action is required. You will be able to monitor the progress of your sync once it has started and view the results of past syncs.
 
-![Xero Invoice Sync](../img/xero-invoice-sync.png)
+[![Xero Invoice Sync](../img/xero-invoice-sync.png)](../img/xero-invoice-sync.png)
 
 Any time you want to sync your data with Xero just return to the **Accounting Sync** page and click **Synchronize**.
 
@@ -79,19 +79,19 @@ There is also another sync which lets you download customers from QBO into Invoi
 
 In order to begin syncing with QuickBooks Online first go to **Settings** > **Accounting Sync**.  
 
-![Settings Page](../img/all-settings-accounting-sync.png)
+[![Settings Page](../img/all-settings-accounting-sync.png)](../img/all-settings-accounting-sync.png)
 
 Then click on **Connect to QuickBooks**.
 
-![QuickBooks Online Connect](../img/accounting-sync-settings.png)
+[![QuickBooks Online Connect](../img/accounting-sync-settings.png)](../img/accounting-sync-settings.png)
 
 Next you will be prompted to authorize your QuickBooks company to Invoiced. Once you do this you will be redirected back to Invoiced. You can now start syncing your data with QuickBooks Online by clicking **Synchronize**.
 
-![QuickBooks Online Connected](../img/accounting-sync-quickbooks-online-connected.png)
+[![QuickBooks Online Connected](../img/accounting-sync-quickbooks-online-connected.png)](../img/accounting-sync-quickbooks-online-connected.png)
 
 No further action is required. You will be able to monitor the progress of your sync once it has started and view the results of past syncs.
 
-![QuickBooks Online Invoice Sync](../img/quickbooks-online-invoice-sync.png)
+[![QuickBooks Online Invoice Sync](../img/quickbooks-online-invoice-sync.png)](../img/quickbooks-online-invoice-sync.png)
 
 Any time you want to sync your data with Xero just return to the **Accounting Sync** page and click **Synchronize**.
 
