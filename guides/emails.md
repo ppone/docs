@@ -22,7 +22,7 @@ Sending invoices have a **View Invoice** button that links to the client view. A
 
 ### Email Whitelabeling
 
-Invoied allows you to completely whitelabel your billing emails when you elect to have emails sent through your own email infrastructure. All you need to send customer emails from your own servers are SMTP credentials. Keep reading to learn how to set up email whitelabeling.
+Invoiced allows you to completely whitelabel your billing emails when you elect to have emails sent through your own email infrastructure. All you need to send customer emails from your own servers are SMTP credentials. Keep reading to learn how to set up email whitelabeling.
 
 ### Gmail Actions
 
