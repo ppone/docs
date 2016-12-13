@@ -80,6 +80,12 @@ The **Sales by Item** report gives you a breakdown of your sales, including what
 
 ![Sales by Item Report](../img/report-sales-by-item.png)
 
+## Subscription Metrics
+
+The **Subscription Metrics** report gives you high-level metrics on your subscription billing, including MRR and ARPU.
+
+![Subscription Metrics Report](../img/report-subscription-metrics.png)
+
 ## Subscription Activity
 
 The **Subscription Activity** report gives you a shows how many subscriptions have been added and canceled over a given time period.

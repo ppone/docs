@@ -7,7 +7,7 @@ The billing portal is provided by Invoiced with no coding or extra setup require
 - view and pay invoices
 - download receipts for past payments
 - manage subscriptions
-- update payment and billing information
+- update payment information
 - view and approve estimates
 
 ![Billing Portal My Account](../img/billing-portal-my-account.png)
