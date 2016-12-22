@@ -12,11 +12,9 @@ Setting up offline payments is easy! Follow these steps to display your custom p
 
 2. Click **Offline Payments** and then enable each of the offline payments you accept, as well as enter any payment instructions.
 
-   [![Enable Offline Payments](../img/invoice-online-payments.png)](../img/invoice-online-payments.png)
-
    [![Enable Offline Payments Instructions](../img/invoice-offline-payment-enable.png)](../img/invoice-offline-payment-enable.png)
 
-3. Click save to enable offline payments.
+3. Click **Save** to enable offline payments.
 
 ## Client Workflow
 
