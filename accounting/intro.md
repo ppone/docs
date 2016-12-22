@@ -5,5 +5,5 @@ Learn how to integrate Invoiced with your accounting system using our accounting
 We support the following accounting systems out of the box:
 
 - QuickBooks Desktop
-- [QuickBooks Online](quickbooks-online)
-- [Xero](xero)
+- [QuickBooks Online](/docs/accounting/quickbooks-online)
+- [Xero](/docs/accounting/xero)

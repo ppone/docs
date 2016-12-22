@@ -72,4 +72,4 @@ Voilà, the invoice is now marked as paid.
 
 ### What's next?
 
-This tutorial has shown you what a simple invoicing workflow looks like with Invoiced. We recommend checking out our other guides to learn how to solve more complex billing workflows and set up automation for tedious billing tasks. There are guides for [subscription billing](/docs/guides/subscription-billing), [chasing](/docs/guides/chasing), [payments](/docs/guides/payments), and more.
+This tutorial has shown you what a simple invoicing workflow looks like with Invoiced. We recommend checking out our other guides to learn how to solve more complex billing workflows and set up automation for tedious billing tasks. There are guides for [subscription billing](/docs/guides/subscription-billing), [chasing](/docs/guides/chasing), [payments](/docs/payments), and more.
