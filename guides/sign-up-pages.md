@@ -2,12 +2,12 @@
 
 Easily build hosted pages for onboarding new customers into subscription billing. Building a sign up page is super quick and requires no coding.
 
-A sign up page will create a new customer on Invoiced, securely collect payment information, and subscribe the customer to the plan they select. At a minimum sign up pages can:
+A sign up page will create a new customer on Invoiced, securely collect payment information, and subscribe the customer to the plan they select. All sign up pages will do the following when submitted:
 
-- Create a new customer profile
-- Subscribe the customer to a plan they select
-- Securely vault a credit card or ACH payment source
-- Enrolling the customer in [AutoPay](autopay)
+1. Create a new customer profile
+2. Subscribe the customer to a plan they select
+3. Save the given credit card or bank account as the customer's payment source
+4. Enroll the customer in [AutoPay](autopay)
 
 Sign up pages also have these optional capabilities:
 
@@ -24,8 +24,7 @@ Sign up pages also have these optional capabilities:
 
 Prerequisites:
 
-1. You must have credit card and/or ACH payments enabled.
-2. You must already have set up at least one recurring plan that you want to subscribe customers to in **Settings** > **Plans**.
+1. You must have [credit card](/docs/payments/card) and/or [ACH](/docs/payments/ach) payments enabled.
 
 ### Building a sign up page
 
