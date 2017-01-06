@@ -23,7 +23,7 @@ Steps to import Customers:
 
 2. Click the **Import** link to the right of the page
 
-3. Build your import spreadsheet, select all the contents, and paste it into the textbox. [Download](https://dashboard.invoiced.com/files/customers-import-template.csv) a sample customers import template to get started.
+3. Build your import spreadsheet, select all the contents, and paste it into the textbox. [Download](https://dashboard.invoiced.com/files/customers-import-template.xlsx) a sample customers import template to get started.
 
 4. Click **Go to Next Step**
 
@@ -47,7 +47,7 @@ Steps to import Invoices:
 
 2. Click the **Import** link to the right of the page
 
-3. Build your import spreadsheet, select all the contents, and paste it into the textbox. [Download](https://dashboard.invoiced.com/files/invoices-import-template.csv) a sample invoices import template to get started.
+3. Build your import spreadsheet, select all the contents, and paste it into the textbox. [Download](https://dashboard.invoiced.com/files/invoices-import-template.xlsx) a sample invoices import template to get started.
 
 4. Click **Go to Next Step**
 
@@ -73,7 +73,7 @@ Steps to import Payments:
 
 2. Click the **Import** link to the right of the page
 
-3. Build your import spreadsheet, select all the contents, and paste it into the textbox. [Download](https://dashboard.invoiced.com/files/payments-import-template.csv) a sample payments import template to get started.
+3. Build your import spreadsheet, select all the contents, and paste it into the textbox. [Download](https://dashboard.invoiced.com/files/payments-import-template.xlsx) a sample payments import template to get started.
 
 4. Click **Go to Next Step**
 
@@ -94,7 +94,7 @@ Steps to import Payments:
 
 2. Click **Import**
 
-3. Build your import spreadsheet, select all the contents, and paste it into the textbox. [Download](https://dashboard.invoiced.com/files/catalog_items-import-template.csv) a sample catalog items import template to get started.
+3. Build your import spreadsheet, select all the contents, and paste it into the textbox. [Download](https://dashboard.invoiced.com/files/catalog-items-import-template.xlsx) a sample catalog items import template to get started.
 
 4. Click **Go to Next Step**
 
