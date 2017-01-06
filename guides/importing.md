@@ -35,7 +35,7 @@ Steps to import Customers:
 
 - The only required field is the customer's name.
 - Customers are identified by their account number first, and if that's not given then customers are identified by their name. If a customer with the same account number (or name if account # was not given) has already been created in Invoiced then a new customer will not be created.
-- You can supply a customer # or if left empty we will generate one for you.
+- You can supply an account # or if left empty we will generate one for you.
 - The *Type* field can only be one of `person`, `company`, or blank.
 - The *Collection Mode* field can only be one of `manual`, `auto`, or blank.
 
@@ -57,13 +57,13 @@ Steps to import Invoices:
 
 #### Tips
 
-- The only required field is *Account #* or *Customer*.
+- The only required field is one of *Customer Name*, *Customer ID*, or *Account #*.
 - Each line represents an invoice AND a corresponding line item.
 If an invoice has multiple line items then you would have multiple lines for the same invoice. Only the first line needs to include the invoice's information. Subsequent lines must have the same invoice #, however only need to have the line item fields filled in (*Item*, *Description*, *Quantity*, *Unit Cost*, *Tax*, and *Discounts*).
 - You can supply an invoice # or leave it blank. If left blank we will generate one for you.
-- Customers are identified by their account number, or name if the account number is not given. If that account number or name matches an existing customer then we will use that. Otherwise, a new customer profile will be created. You can optionally provide an address if you intend to create a new customer profile.
+- Customers are identified by their account number first, and if that's not given then customers are identified by their name. If a customer with the same account number (or name if account # was not given) has already been created in Invoiced then the existing customer will be used. Otherwise, we will create a new customer.
 - The *Currency* field should use an [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217) currency code. Otherwise, we will use your default currency.
-- The *Type* field can be one of `product`, `service`, `expense`, `hours`, `days`, or blank
+- The *Type* field can be one of `product`, `service`, `expense`, `hours`, `days`, `month`, `year`, `shipping`, or blank
 
 ### Payments
 
@@ -83,9 +83,9 @@ Steps to import Payments:
 
 #### Tips
 
-- The required fields are *Amount* and one of *Invoice #*, *Invoice ID*, or *Customer*.
+- The required fields are *Amount* and one of *Invoice #*, *Invoice ID*, *Customer Name*, *Customer ID*, or *Account #*.
 - The payment method can be one of `credit_card`, `ach`, `bitcoin`, `paypal`, `check`, `wire_transfer`, `cash`, `other`
-- When the payment method is `check` you can pass in a check # with the *Gateway ID* field
+- When the payment method is `check` you can pass in a check # with the *Transaction ID* field
 - The *Gateway* field should only be used when tracking electionic payments
 
 ### Catalog Items
