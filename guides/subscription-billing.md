@@ -78,7 +78,19 @@ Prorations are calculated any time a subscription is changed, unless disabled. A
 
 When switching to a plan with a different billing cycle, for example switching from monthly to annual billing, then a new billing cycle will be started at the time of proration. This means an invoice will be generated for the next billing cycle on the plan.
 
-Prorations are calculated based on the number of seconds left in the billing cycle.
+#### Proration Calculation
+
+Prorations are calculated based on the number of seconds left in the billing cycle. More specifically, here is how we calculate prorations. The `% time remaining` is calculated with:
+
+`seconds left in period / total seconds in period`
+
+Then a proration credit line item is computed using this formula:
+
+`% time remaining * subscription price before change`
+
+And a proration charge line item is computed using this formula:
+
+`% time remaining * subscription price after change`
 
 ### Sign Up Pages
 
