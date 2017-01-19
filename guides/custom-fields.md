@@ -7,6 +7,7 @@ Custom fields have many uses. Here's just a few scenarios where custom fields ca
 - Keeping track of the sales representative for customer accounts
 - Segmenting receivables by department
 - Adding purchase order numbers to invoices
+- Internal tracking purposes
 
 ## Usage
 
@@ -37,13 +38,13 @@ Or when adding a new customer account:
 
 [![Custom Field New Customer Account](../img/custom-field-new-customer-account.png)](../img/custom-field-new-customer-account.png)
 
-And that's all it takes to setup and deploy custom fields. Any non-empty custom field will be displayed on the invoice presented to your customer. If the custom field is empty on the invoice then it will inherit its value from the customer account (when that has been set).
+And that's all it takes to setup and deploy custom fields. Any non-empty, customer-visible custom field will be displayed on the invoice presented to your customer. If the custom field is empty on the invoice then it will inherit its value from the customer account (when that has been set).
 
 [![Custom Field Invoice](../img/custom-field-invoice.png)](../img/custom-field-invoice.png)
 
 ### Filtering
 
-When browsing customers and invoices inside of the dashboard you can filter the results by custom field values. This setting is available within the **Filter** menu. Any results return will exactly match the filter you have built.
+When browsing customers, invoices, estimates, subscriptions, and payments inside of the dashboard you can filter the results by custom field values. This setting is available within the **Filter** menu. Any results return will exactly match the filter you have built.
 
 [![Custom Field Report Filtering](../img/custom-field-filter-sales.png)](../img/custom-field-filter-sales.png)
 
