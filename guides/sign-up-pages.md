@@ -14,6 +14,7 @@ Sign up pages also have these optional capabilities:
 - Collecting billing and/or shipping addresses
 - Coupon codes
 - Free trial periods
+- [Calendar billing](subscription-billing#calendar-billing)
 - [Custom thank you pages](#custom-thank-you-pages)
 - Customizable header text
 - Terms of Service agreement

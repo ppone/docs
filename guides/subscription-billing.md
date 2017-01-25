@@ -16,7 +16,9 @@ A plan describes how much and how frequently you want to bill your customer. An 
 
 ### Subscriptions
 
-A subscription bills a customer for a fixed amount on regular intervals, according to the plan the customer is subscribed to. Subscription pricing is flexible on Invoiced with quantities, addons, discounts, and taxes supported. We also support customizable billing intervals and fixed-duration subscriptions.
+A subscription bills a customer for a fixed amount on regular intervals, according to the plan the customer is subscribed to. Subscription pricing is flexible on Invoiced with quantities, addons, discounts, and taxes supported. We also support many options to customize the subscription billing intervals.
+
+Although we use sane defaults, we also support many advanced subscription billing features that you might want to become familiar with.
 
 #### Trial Period
 
@@ -24,7 +26,19 @@ Subscriptions support a free trial period at the beginning of the subscription w
 
 #### Renewal Date
 
-The renewal date is the date when the next bill for the subscription is going to be generated. Practically speaking, when a subscription renews that means the next invoice in the cycle is built and issued.
+The renewal date is the date when the next bill for the subscription is going to be generated. Practically speaking, when a subscription renews that means the next invoice in the cycle is built and issued. Renewal dates are controlled by you and depend on whether anniversary or calendar billing is used.
+
+#### Anniversary Billing
+
+**Anniversary Billing** renews subscriptions on the anniversary of the start date.
+
+For example, if your customer purchased a monthly subscription on the 9th then they would be billed each month on the 9th. Subscriptions use anniversary billing by default.
+
+#### Calendar Billing
+
+**Calendar Billing** renews subscriptions on a specific day of the month you choose, instead of the start date. On the first invoice we even prorate partial months.
+
+For example, let's consider a scenario where your customer purchased a monthly subscription on the 9th with calendar billing set to the 1st of the month. The first bill would be prorated for the time remaining until the next 1st of the month. Future bills will be generated on the 1st of the month for the full amount.
 
 #### Billing Period
 
@@ -138,11 +152,13 @@ If you are using AutoPay then we recommend using sign up pages to subscribe new 
 
    We are going to leave the **Duration** as *Until canceled*. The subscription will renew until canceled by you or the customer.
 
-   The **Quantity** can be left as **1**, unless the customer is purchasing multiple quantities of the base price.
+   The **Quantity** can be left as *1*, unless the customer is purchasing multiple quantities of the base price.
 
-   Let's try adding an addon by clicking **+ Addon**. In our example we are selecting an **iPad License** addon and setting the quantity to **4**.
+   Let's try adding an addon by clicking **+ Addon**. In our example we are selecting an *iPad License* addon and setting the quantity to `4`.
 
-   We can leave the **Billing Period Offset** at **0** unless we wanted to shift the billing period.
+   For the **Renew On** setting we are going to leave it as *Start date anniversary*. This will renew the subscription each billing cycle on the same day of the month as the start date, which is today in this example. If you selected *Day of month* instead then this would bill your customer on a specific day of the month you choose, like the first of the month. The first bill would be prorated for the time remaining until the next billing cycle. Future renewals will be on the date you've specified.
+
+   We can leave the **Billing Period Offset** at `0 days` unless we wanted to shift the billing period.
 
 8. At the bottom of the screen you can see the calculated recurring total. If you click the **Preview** button you can even see a preview of the upcoming billing cycles.
 
