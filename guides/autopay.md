@@ -109,3 +109,17 @@ However, if the invoice date is in the future then payment will not be collected
 ### Can I trigger payment for AutoPay invoices sooner?
 
 Absolutely. If you open the invoice in the dashboard you can trigger payment sooner by clicking **Pay now** on the invoice. This will initiate a collection attempt immediately.
+
+### What automated emails does Invoiced send for AutoPay? 
+
+Invoiced can send these emails with AutoPay:
+
+- **Payment Receipt**
+  
+  Confirmation of payment that includes a PDF of the receipt.
+
+- **Failed AutoPay Attempt**
+
+   Notifies customer when an AutoPay payment attempt fails. Includes a button for the customer to update their payment information.
+
+You can learn more about these emails in the [Emails Guide](emails#payments).
