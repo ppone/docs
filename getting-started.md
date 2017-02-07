@@ -6,7 +6,7 @@ Welcome to Billing 101. We're going to walk you through using Invoiced to get pa
 
 In this tutorial we are going to show you how to issue your first invoice.
 
-If you have not already then you need to [sign up](/signup) for an Invoiced account. We offer a 30-day free trial with no credit card or obligations required. During the onboarding process we will ask you a few questions about your business like what payment methods you want to accept. After you have set up your business then you will be signed into the dashboard.
+If you have not already then you need to [sign up](/signup) for an Invoiced account. We offer a 14-day free trial with no credit card or obligations required. During the onboarding process we will ask you a few questions about your business like what payment methods you want to accept. After you have set up your business then you will be signed into the dashboard.
 
 The dashboard is where you can access all of your customer and billing data. Since it is a web application the only system requirement is a modern web browser. As a bonus the dashboard is responsive which means it can be used on any device, including desktops, tablets, and smartphones. This means you can run your business from anywhere (with Internet).
 
