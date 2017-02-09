@@ -66,7 +66,7 @@ A hash containing these properties:
 - `purchase_order`
 - `items` - An array of line items. See [Line Item Object](#line-item-object).
 - `subtotal`
-- `rates` - An ordered array of any discounts, taxes, and shipping applied to the invoice. See [Rate Object](#rate-object).
+- `rates` - An ordered array of any discounts and taxes applied to the invoice. See [Rate Object](#rate-object).
 - `total`
 - `amount_paid`
 - `balance`
@@ -84,7 +84,7 @@ A hash containing these properties:
 
 ### Rate Object
 
-A hash containing a summary of a specific rate (discount, tax, or shipping) applied to an invoice. Contains the properties `name` and `total`.
+A hash containing a summary of a specific rate (discount or tax) applied to an invoice. Contains the properties `name` and `total`.
 
 ### Transaction Object
 
