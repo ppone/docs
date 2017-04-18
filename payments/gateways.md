@@ -3,7 +3,7 @@
 Invoiced includes support for top payment gateways out of the box.
 
 We support these payment gateways:
-- Authorize.Net
+- Authorize.Net ([documentation](/docs/integrations/authorizenet))
 - BluePay ([documentation](/docs/integrations/bluepay))
 - Braintree
 - Payeezy
