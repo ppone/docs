@@ -13,7 +13,7 @@ The Stripe payment gateway on Invoiced supports the following features:
 
 ## Setup
 
-Connecting Stripe is a straight-forward process. Follow these steps to start accepting payments through Stripe in minutes. These steps assume you already have a Stripe account. If not, then you can sign up for one at [stripe.com](https://stripe.com).
+Connecting Stripe is a straightforward process. Follow these steps to start accepting payments through Stripe in minutes. These steps assume you already have a Stripe account. If not, then you can sign up for one at [stripe.com](https://stripe.com).
 
 1. From the Invoiced dashboard go to **Settings** > **Payments**.
 
