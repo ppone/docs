@@ -31,7 +31,7 @@ Connecting Payeezy is a straightforward process. Follow these steps to start acc
 
    [![Payeezy Settings Page](../img/payeezy-connect.png)](../img/payeezy-connect.png)
 
-5. Enter in your Payeezy **Account ID** and **API Secret** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
+5. Enter in your Payeezy **Merchant ID**, **Merchant Token**, **API Key**, and **API Secret** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
 
    [![Payeezy Payments Enabled](../img/payeezy-enabled.png)](../img/payeezy-enabled.png)
 
