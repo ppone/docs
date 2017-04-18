@@ -8,19 +8,21 @@ Setting up PayPal payments is easy! Follow these steps to start accepting PayPal
 
 1. From the Invoiced dashboard go to **Settings** > **Payments**.
 
-   [![Online Payments](../img/invoice-online-payments.png)](../img/invoice-online-payments.png)
+   [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
 
 2. Click **PayPal** and enter in your PayPal email address. You can click on learn more to register for a PayPal account.
 
-   [![PayPal Enabled](../img/invoice-enable-paypal.png)](../img/invoice-enable-paypal.png)
+   [![PayPal Setup](../img/paypal-setup.png)](../img/paypal-setup.png)
 
-3. Click **Save** to enable PayPal.
+3. Enter in your PayPal email address and click **Enable**.
 
 ## Client Workflow
 
 On the payment page we will generate a **Pay with PayPal** button that takes your customer to PayPal's checkout process. There they will be able to pay using a PayPal account or submit a payment as a guest.
 
 We will reconcile payments and refunds submitted through PayPal using the PayPal's [IPN](https://www.paypal.com/us/cgi-bin/webscr?cmd=p/acc/ipn-info-outside) feature.
+
+[![Pay Invoice with PayPal](/docs/img/pay-invoice-paypal.png)](/docs/img/pay-invoice-paypal.png)
 
 ## Withdrawing Money
 

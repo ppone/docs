@@ -10,13 +10,13 @@ Setting up bitcoin payments is easy! Follow these steps to start accepting bitco
 
 1. From the Invoiced dashboard go to **Settings** > **Payments**.
 
-   [![Online Payments](../img/invoice-online-payments.png)](../img/invoice-online-payments.png)
+   [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
 
-2. Click **Bitcoin** and enter in your bitcoin wallet address.
+2. Click **Setup** on the *Bitcoin* payment method.
 
-   [![Bitcoin Enabled](../img/invoice-enable-bitcoin.png)](../img/invoice-enable-bitcoin.png)
+   [![Bitcoin Setup](../img/bitcoin-setup.png)](../img/bitcoin-setup.png)
 
-3. Click **Save** to enable bitcoin.
+3. Enter in your Bitcoin wallet address and click **Enable**.
 
 ## Client Workflow
 

@@ -8,19 +8,23 @@ Setting up offline payments is easy! Follow these steps to display your custom p
 
 1. From the Invoiced dashboard go to **Settings** > **Payments**.
 
-   [![Online Payments](../img/invoice-online-payments.png)](../img/invoice-online-payments.png)
+   [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
 
-2. Click **Offline Payments** and then enable each of the offline payments you accept, as well as enter any payment instructions.
+2. Click **Setup** on the *Offline Payments* payment method.
 
-   [![Enable Offline Payments Instructions](../img/invoice-offline-payment-enable.png)](../img/invoice-offline-payment-enable.png)
+  [![Offline Payments Setup](../img/offline-payments-setup.png)](../img/offline-payments-setup.png)
 
-3. Click **Save** to enable offline payments.
+3. Click on the toggle for each payment method you want to accept, like Check or Wire Transfer. Then enter in your payment instructions for that payment method.
+
+  [![Offline Payment Instructions](../img/offline-payments-setup-2.png)](../img/offline-payments-setup-2.png)
+
+4. Click **Save** to enable offline payments.
 
 ## Client Workflow
 
 When your client selects any of your offline payment methods we will show them your custom payment instructions. They can even notify you when the check is in the mail.
 
-[![Check Invoice Payment](/docs/img/check-invoice-payment.png)](/docs/img/check-invoice-payment.png)
+[![Bitcoin payments](../img/pay-invoice-offline.png)](../img/pay-invoice-offline.png)
 
 ## Overpayments
 
