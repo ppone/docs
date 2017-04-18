@@ -8,7 +8,7 @@ We support these payment gateways:
 - Braintree ([documentation](/docs/integrations/braintree))
 - Payeezy ([documentation](/docs/integrations/payeezy))
 - Stripe ([documentation](/docs/integrations/stripe))
-- USAePay
+- USAePay ([documentation](/docs/integrations/usaepay))
 - Worldpay ([documentation](/docs/integrations/worldpay))
 
 ## Need a payment processor?
