@@ -6,7 +6,7 @@ The tradeoff with ACH payments is that payments do not happen instantly like wit
 
 ## Prerequisites
 
-You must have an account with a payment processor that supports one of these [payment gateways](https://invoiced.com/gateways) and ACH payments. If you do not see your gateway listed then please contact us at [support@invoiced.com](mailto:support@invoiced.com) to discuss getting it added.
+You must have an account with a payment processor that supports one of these [payment gateways](gateways) and ACH payments. If you do not see your gateway listed then please contact us at [support@invoiced.com](mailto:support@invoiced.com) to discuss getting it added.
 
 ## Setup
 

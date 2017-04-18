@@ -4,7 +4,7 @@ Accepting credit and debit cards is currently the quickest and easiest way to ge
 
 ## Prerequisites
 
-You must have an account with a payment processor that supports one of these [payment gateways](https://invoiced.com/gateways). If you do not see your gateway listed then please contact us at [support@invoiced.com](mailto:support@invoiced.com) to discuss getting it added.
+You must have an account with a payment processor that supports one of these [payment gateways](gateways). If you do not see your gateway listed then please contact us at [support@invoiced.com](mailto:support@invoiced.com) to discuss getting it added.
 
 ## Setup
 
