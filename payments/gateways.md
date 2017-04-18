@@ -6,7 +6,7 @@ We support these payment gateways:
 - Authorize.Net ([documentation](/docs/integrations/authorizenet))
 - BluePay ([documentation](/docs/integrations/bluepay))
 - Braintree
-- Payeezy
+- Payeezy ([documentation](/docs/integrations/payeezy))
 - Stripe ([documentation](/docs/integrations/stripe))
 - USAePay
 - Worldpay ([documentation](/docs/integrations/worldpay))
