@@ -6,8 +6,8 @@ This document details how to connect the [BluePay](https://bluepay.com) payment 
 
 The BluePay payment gateway on Invoiced supports the following features:
 
-- [Credit card payments](card)
-- [ACH payments](ach) (U.S. only)
+- [Credit card payments](/docs/payments/card)
+- [ACH payments](/docs/payments/ach) (U.S. only)
 - Vaulting payment information (credit card and ACH)
 - [AutoPay](/docs/guides/autopay)
 
