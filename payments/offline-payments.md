@@ -24,7 +24,7 @@ Setting up offline payments is easy! Follow these steps to display your custom p
 
 When your client selects any of your offline payment methods we will show them your custom payment instructions. They can even notify you when the check is in the mail.
 
-[![Bitcoin payments](../img/pay-invoice-offline.png)](../img/pay-invoice-offline.png)
+[![Pay invoice with check](../img/pay-invoice-offline.png)](../img/pay-invoice-offline.png)
 
 ## Overpayments
 

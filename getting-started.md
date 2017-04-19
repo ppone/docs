@@ -62,7 +62,7 @@ Once your customer pays online then we will record the payment automatically in 
 
 If your client chooses to pay using an offline payment method, like a check, then we will display your payment instructions to them on the payment page. They can even let you know once the check is in the mail.
 
-[![Check Invoice Payment](/docs/img/check-invoice-payment.png)](/docs/img/check-invoice-payment.png)
+[![Pay invoice with check](/docs/img/pay-invoice-offline.png)](/docs/img/pay-invoice-offline.png)
 
 Once you receive the payment you will need to record the payment through the dashboard in order to mark the invoice as paid. You can do this by going to the **Payments** section, clicking **Record Payment**, fill in the form, and finally click **Save**.
 
