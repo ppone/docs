@@ -33,7 +33,7 @@ We are going to walk you through a basic metered billing workflow using the Invo
 
 ### Create a customer
 
-In order to bill our customer, we must first create an account for them on Invoiced. For this example we are going to invoice our customer with **NET 7** payment terms each billing cycle. You could just as easily use automatic collections, which will charge your customer's payment source automatically when invoices are issued on the account.
+In order to bill our customer, we must first create an account for them on Invoiced. For this example we are going to invoice our customer with **NET 7** payment terms each billing cycle. You could just as easily use AutoPay, which will charge your customer's payment source automatically when invoices are issued on the account.
 
 ```bash
 curl "https://api.invoiced.com/customers" \
@@ -41,7 +41,6 @@ curl "https://api.invoiced.com/customers" \
   -d name="Acme" \
   -d email="billing@acmecorp.com" \
   -d number="1234" \
-  -d collection_mode="manual" \
   -d payment_terms="NET 7"
 ```
 
@@ -53,7 +52,6 @@ customer = invoiced.Customer.create(
   :name => "Acme",
   :email => "billing@acmecorp.com",
   :number => "1234",
-  :collection_mode => "manual",
   :payment_terms => "NET 7"
 )
 ```
@@ -65,7 +63,6 @@ $customer = $invoiced->Customer->create([
   'name' => "Acme",
   'email' => "billing@acmecorp.com",
   'number' => "1234",
-  'collection_mode' => "manual",
   'payment_terms' => "NET 7"
 ]);
 ```
@@ -78,7 +75,6 @@ customer = client.Customer.create(
   name="Acme",
   email="billing@acmecorp.com",
   number="1234",
-  collection_mode="manual",
   payment_terms="NET 7"
 )
 ```

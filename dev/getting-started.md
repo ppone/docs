@@ -25,7 +25,7 @@ Next, we are going to walk through a common invoicing workflow.
 
 Customers are at the core of everything on Invoiced. Customers represent a billable entity from your perspective, whether this is a person, organization, or account. You must create a customer first before you can invoice or accept payments.
 
-Every customer supports one of 2 collection modes, `auto` or `manual`. Using auto collection mode will enable [AutoPay](autopay) and charge your customer's connected payment source each billing cycle. Manual collection mode (the default) will instead issue an invoice that your customer can pay using any of the payment methods you accept.
+Every customer has an AutoPay [AutoPay](autopay) option. When enabled this will charge your customer's connected payment source each billing cycle. When AutoPay is off (the default) we will instead issue an invoice that your customer can pay using any of the payment methods you accept.
 
 ```bash
 curl "https://api.invoiced.com/customers" \
@@ -33,7 +33,6 @@ curl "https://api.invoiced.com/customers" \
   -d name="Acme" \
   -d email="billing@acmecorp.com" \
   -d number="1234" \
-  -d collection_mode="manual" \
   -d payment_terms="NET 30"
 ```
 
@@ -45,7 +44,6 @@ customer = invoiced.Customer.create(
   :name => "Acme",
   :email => "billing@acmecorp.com",
   :number => "1234",
-  :collection_mode => "manual",
   :payment_terms => "NET 30"
 )
 ```
@@ -57,7 +55,6 @@ $customer = $invoiced->Customer->create([
   'name' => "Acme",
   'email' => "billing@acmecorp.com",
   'number' => "1234",
-  'collection_mode' => "manual",
   'payment_terms' => "NET 30"
 ]);
 ```
@@ -70,7 +67,6 @@ customer = client.Customer.create(
   name="Acme",
   email="billing@acmecorp.com",
   number="1234",
-  collection_mode="manual",
   payment_terms="NET 30"
 )
 ```
@@ -165,7 +161,7 @@ invoice = client.Invoice.create(
 )
 ```
 
-The invoice will use the collection mode and payment terms from the customer's profile.
+The invoice will inherit the AutoPay and payment term settings from the customer's profile.
 
 #### Sending Invoices
 
