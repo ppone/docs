@@ -1,10 +1,10 @@
-# Authorize.Net Integration
+# NMI Integration
 
-This document details how to connect the [Authorize.Net](https://authorize.net) payment gateway to accept payments and how our integration works.
+This document details how to connect the [NMI](https://nmi.com) (aka Network Merchants, LLC) payment gateway to accept payments and how our integration works.
 
 ## Capabilities
 
-The Authorize.Net payment gateway on Invoiced supports the following features:
+The NMI payment gateway on Invoiced supports the following features:
 
 - [Credit card payments](/docs/payments/card)
 - [ACH payments](/docs/payments/ach) (U.S. only)
@@ -13,7 +13,7 @@ The Authorize.Net payment gateway on Invoiced supports the following features:
 
 ## Setup
 
-Connecting Authorize.Net is a straightforward process. Follow these steps to start accepting payments through Authorize.Net in minutes. These steps assume you already have a Authorize.Net account.
+Connecting NMI is a straightforward process. Follow these steps to start accepting payments through NMI in minutes. These steps assume you already have a NMI account.
 
 1. From the Invoiced dashboard go to **Settings** > **Payments**.
 
@@ -23,17 +23,17 @@ Connecting Authorize.Net is a straightforward process. Follow these steps to sta
 
    [![Credit Card Payments Setup](../img/credit-card-payment-setup.png)](../img/credit-card-payment-setup.png)
 
-3. Select **Authorize.Net** as the payment gateway.
+3. Select **NMI** as the payment gateway.
 
-   [![Authorize.Net Payments Setup](../img/authorizenet-setup.png)](../img/authorizenet-setup.png)
+   [![NMI Payments Setup](../img/nmi-setup.png)](../img/nmi-setup.png)
 
-4. Click **Connect your Authorize.Net account**.
+4. Click **Connect your NMI account**.
 
-   [![Authorize.Net Settings Page](../img/authorizenet-connect.png)](../img/authorizenet-connect.png)
+   [![NMI Settings Page](../img/nmi-connect.png)](../img/nmi-connect.png)
 
-5. Enter in your Authorize.Net **Login ID**, **Transaction Key**, and **Secret Key** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
+5. Enter in your NMI **Login ID**, **Transaction Key**, and **Secret Key** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
 
-   [![Authorize.Net Payments Enabled](../img/authorizenet-enabled.png)](../img/authorizenet-enabled.png)
+   [![NMI Payments Enabled](../img/nmi-enabled.png)](../img/nmi-enabled.png)
 
 ## Client Workflow
 
@@ -51,4 +51,4 @@ Customers can pay with ACH just as easily as with credit cards. The key differen
 
 ## Support
 
-Need help with your Authorize.Net account? You can get help through the [Authorize.Net support center](http://www.authorize.net/support/) or by calling 1-877-447-3938.
+Need help with your NMI account? You can get help through the [NMI support page](https://www.nmi.com/contact-us/) or by contacting your account representative.
