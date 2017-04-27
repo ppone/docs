@@ -31,7 +31,7 @@ Connecting NMI is a straightforward process. Follow these steps to start accepti
 
    [![NMI Settings Page](../img/nmi-connect.png)](../img/nmi-connect.png)
 
-5. Enter in your NMI **Login ID**, **Transaction Key**, and **Secret Key** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
+5. Enter in your NMI **Username** / **Password** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
 
    [![NMI Payments Enabled](../img/nmi-enabled.png)](../img/nmi-enabled.png)
 

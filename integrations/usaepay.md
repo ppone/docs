@@ -31,7 +31,7 @@ Connecting USAePay is a straightforward process. Follow these steps to start acc
 
    [![USAePay Settings Page](../img/usaepay-connect.png)](../img/usaepay-connect.png)
 
-5. Enter in your USAePay **Account ID** and **API Secret** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
+5. Enter in your USAePay **Merchant Key** and **Merchant PIN** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
 
    [![USAePay Payments Enabled](../img/usaepay-enabled.png)](../img/usaepay-enabled.png)
 
