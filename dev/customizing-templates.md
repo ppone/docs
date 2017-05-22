@@ -10,7 +10,7 @@ The underlying templates are HTML and CSS. Both the layout and styling can be cu
 
 ### Testing
 
-We recommend using the [Try Mustache](http://trymustache.com/) tool to verify your Mustache HTML for correct syntax. After saving any changes you can download a PDF preview by clicking the **Preview** button near the top right of the page. You can also see the generated HTML on a live invoice that has your customizations applied by opening the client view and appending `/html` to the URL, i.e. `https://dundermifflin.invoiced.com/invoices/IZmXbVOPyvfD3GPBmyd6FwXX/html`.
+After saving any changes you can download a PDF preview by clicking the **Preview** button near the top right of the page. You can also see the generated HTML on a live invoice that has your customizations applied by opening the client view and appending `/html` to the URL, i.e. `https://dundermifflin.invoiced.com/invoices/IZmXbVOPyvfD3GPBmyd6FwXX/html`.
 
 ## Variable Reference
 
