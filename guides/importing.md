@@ -37,7 +37,6 @@ Steps to import Customers:
 - Customers are identified by their account number first, and if that's not given then customers are identified by their name. If a customer with the same account number (or name if account # was not given) has already been created in Invoiced then a new customer will not be created.
 - You can supply an account # or if left empty we will generate one for you.
 - The *Type* field can only be one of `person`, `company`, or blank.
-- The *Collection Mode* field can only be one of `manual`, `auto`, or blank.
 
 ### Invoices
 
