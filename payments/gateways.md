@@ -3,9 +3,13 @@
 Invoiced includes support for top payment gateways out of the box.
 
 We support these payment gateways:
+- AffiniPay ([documentation](/docs/integrations/affinipay))
 - Authorize.Net ([documentation](/docs/integrations/authorizenet))
 - BluePay ([documentation](/docs/integrations/bluepay))
 - Braintree ([documentation](/docs/integrations/braintree))
+- Chase Paymentech Orbital ([documentation](/docs/integrations/chase-paymentech))
+- Merchant e-Solutions ([documentation](/docs/integrations/merchant-e-solutions))
+- NMI ([documentation](/docs/integrations/nmi))
 - Payeezy ([documentation](/docs/integrations/payeezy))
 - Stripe ([documentation](/docs/integrations/stripe))
 - USAePay ([documentation](/docs/integrations/usaepay))
