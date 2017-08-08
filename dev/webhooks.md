@@ -2,7 +2,7 @@
 
 Webhooks are HTTP callbacks that notify your systems when important events happen within your Invoiced account.
 
-Invoiced creates events whenever something notable happens on your account, such as an invoice being created or a payment being received. Webhooks allow your integration to be notified asynchronously when an event occurs. The notification is an HTTP POST call that we make to the webhook URL(s) that you set up. You can find a full list of supported events in the [API reference](/docs/api#event-types).
+Invoiced creates events whenever something notable happens on your account, such as an invoice being created or a payment being received. Webhooks allow your integration to be notified asynchronously when an event occurs. The notification is an HTTP POST call that we make to the webhook URL(s) that you set up. You can find a full list of [supported events](/docs/api#event-types) in the API reference.
 
 Example uses of webhooks:
 
@@ -22,6 +22,10 @@ It's simple to get started with webhooks. In the dashboard you can go to **Setti
 ### Receiving a webhook
 
 Once your webhook endpoint has been set up then any supported events that occur will trigger an HTTP POST call to your endpoint. The request body will be a JSON-encoded string of the event. The event object will also contain the original object that triggered the event, such as an invoice or a transaction. You can see the Event object structure in the [API reference](/docs/api#event-object).
+
+### Validating a webhook
+
+When you receive a webhook there will be an event ID in the request. We recommend [retrieving the event](/docs/api/#retrieve-an-event) through the Invoiced API using the given event ID in order to validate that the incoming webhook is legitimate.
 
 ### Responding to a webhook
 
