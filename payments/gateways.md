@@ -8,6 +8,7 @@ We support these payment gateways:
 - BluePay ([documentation](/docs/integrations/bluepay))
 - Braintree ([documentation](/docs/integrations/braintree))
 - Chase Paymentech Orbital ([documentation](/docs/integrations/chase-paymentech))
+- Intuit QuickBooks Payments ([documentation](/docs/integrations/intuit-payments))
 - Merchant e-Solutions ([documentation](/docs/integrations/merchant-e-solutions))
 - NMI ([documentation](/docs/integrations/nmi))
 - Payeezy ([documentation](/docs/integrations/payeezy))
