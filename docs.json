@@ -73,6 +73,10 @@
       "name": "Payments",
       "docs": [
         {
+          "id": "intro",
+          "name": "Introduction"
+        },
+        {
           "id": "card",
           "name": "Credit Card"
         },
@@ -106,6 +110,10 @@
       "id": "accounting",
       "name": "Accounting Sync",
       "docs": [
+        {
+          "id": "intro",
+          "name": "Introduction"
+        },
         {
           "id": "quickbooks-online",
           "name": "QuickBooks Online"
