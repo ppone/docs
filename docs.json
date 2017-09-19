@@ -1,0 +1,230 @@
+{
+  "categories": [
+    {
+      "id": "guides",
+      "name": "Guides",
+      "docs": [
+        {
+          "id": "getting-started",
+          "name": "Getting Started"
+        },
+        {
+          "id": "subscription-billing",
+          "name": "Subscription Billing"
+        },
+        {
+          "id": "autopay",
+          "name": "AutoPay"
+        },
+        {
+          "id": "payment-plans",
+          "name": "Payment Plans"
+        },
+        {
+          "id": "emails",
+          "name": "Emails"
+        },
+        {
+          "id": "chasing",
+          "name": "Chasing"
+        },
+        {
+          "id": "billing-portal",
+          "name": "Billing Portal"
+        },
+        {
+          "id": "reports",
+          "name": "Reports"
+        },
+        {
+          "id": "importing",
+          "name": "Importing",
+          "table_of_contents": [
+            {
+              "id": "customers",
+              "name": "Customers"
+            },
+            {
+              "id": "invoices",
+              "name": "Invoices"
+            },
+            {
+              "id": "payments",
+              "name": "Payments"
+            },
+            {
+              "id": "catalog-items",
+              "name": "Catalog Items"
+            }
+          ]
+        },
+        {
+          "id": "custom-fields",
+          "name": "Custom Fields"
+        },
+        {
+          "id": "sign-up-pages",
+          "name": "Sign Up Pages"
+        }
+      ]
+    },
+    {
+      "id": "payments",
+      "name": "Payments",
+      "docs": [
+        {
+          "id": "card",
+          "name": "Credit Card"
+        },
+        {
+          "id": "ach",
+          "name": "ACH"
+        },
+        {
+          "id": "paypal",
+          "name": "PayPal"
+        },
+        {
+          "id": "bitcoin",
+          "name": "Bitcoin"
+        },
+        {
+          "id": "offline-payments",
+          "name": "Offline Payments"
+        },
+        {
+          "id": "credits",
+          "name": "Credits"
+        },
+        {
+          "id": "gateways",
+          "name": "Payment Gateways"
+        }
+      ]
+    },
+    {
+      "id": "accounting",
+      "name": "Accounting Sync",
+      "docs": [
+        {
+          "id": "quickbooks-online",
+          "name": "QuickBooks Online"
+        },
+        {
+          "id": "xero",
+          "name": "Xero",
+          "table_of_contents": [
+            {
+              "id": "getting-started",
+              "name": "Getting Started"
+            },
+            {
+              "id": "faq",
+              "name": "FAQ"
+            },
+            {
+              "id": "xero-troubleshooting",
+              "name": "Troubleshooting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "integrations",
+      "name": "Integrations",
+      "docs": [
+        {
+          "id": "affinipay",
+          "name": "AffiniPay"
+        },
+        {
+          "id": "authorizenet",
+          "name": "Authorize.Net"
+        },
+        {
+          "id": "bluepay",
+          "name": "BluePay"
+        },
+        {
+          "id": "braintree",
+          "name": "Braintree"
+        },
+        {
+          "id": "chase-paymentech",
+          "name": "Chase Paymentech"
+        },
+        {
+          "id": "intuit-payments",
+          "name": "Intuit Payments"
+        },
+        {
+          "id": "merchant-e-solutions",
+          "name": "Merchant e-Solutions"
+        },
+        {
+          "id": "nmi",
+          "name": "NMI"
+        },
+        {
+          "id": "payeezy",
+          "name": "Payeezy"
+        },
+        {
+          "id": "slack",
+          "name": "Slack"
+        },
+        {
+          "id": "stripe",
+          "name": "Stripe"
+        },
+        {
+          "id": "usaepay",
+          "name": "USAePay"
+        },
+        {
+          "id": "worldpay",
+          "name": "Worldpay"
+        },
+        {
+          "id": "zapier",
+          "name": "Zapier"
+        }
+      ]
+    },
+    {
+      "id": "dev",
+      "name": "Developing",
+      "docs": [
+        {
+          "id": "getting-started",
+          "name": "Getting Started"
+        },
+        {
+          "id": "testing",
+          "name": "Testing"
+        },
+        {
+          "id": "metered-billing",
+          "name": "Metered Billing"
+        },
+        {
+          "id": "webhooks",
+          "name": "Webhooks"
+        },
+        {
+          "id": "single-sign-on",
+          "name": "Single Sign-On"
+        },
+        {
+          "id": "customizing-templates",
+          "name": "Customizing Templates"
+        },
+        {
+          "id": "file-attachments",
+          "name": "File Attachments"
+        }
+      ]
+    }
+  ]
+}
