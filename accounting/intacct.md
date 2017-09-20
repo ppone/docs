@@ -122,13 +122,23 @@ You can import outstanding invoices from Intacct as a one-time import. If you ar
 
 1. Go to the **Invoices** tab in the Invoiced dashboard. Click on the **Import** button in the top-right.
 
+   [![Invoices Page](../img/invoices-header.png)](../img/invoices-header.png)
+
 2. Select **Intacct**.
+
+   [![Invoice Importer](../img/invoice-importer.png)](../img/invoice-importer.png)
 
 3. Click **Start**.
 
+   [![Start Intacct Invoice Import](../img/intacct-invoice-importer.png)](../img/intacct-invoice-importer.png)
+
 4. The importer will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
 
+   [![Intacct Invoice Import Started](../img/intacct-invoice-importer-pending.png)](../img/intacct-invoice-importer-pending.png)
+
 5. Once the import is finished you will see the newly imported invoices on the **Invoices** page.
+
+   [![Intacct Invoice Import Finished](../img/intacct-invoice-importer-finished.png)](../img/intacct-invoice-importer-finished.png)
 
 ### Manual Customer Imports
 
@@ -136,10 +146,20 @@ You can import customers from Intacct into Invoiced as a one-time import. This w
 
 1. Go to the **Customers** tab in the Invoiced dashboard. Click on the **Import** button in the top-right.
 
+   [![Customers Page](../img/customers-header.png)](../img/customers-header.png)
+
 2. Select **Intacct**.
+
+   [![Customer Importer](../img/customer-importer.png)](../img/customer-importer.png)
 
 3. Click **Start**.
 
+   [![Start Intacct Customer Import](../img/intacct-customer-importer.png)](../img/intacct-customer-importer.png)
+
 4. The importer will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
 
-5. Once the import is finished you will see the newly imported invoices on the **Invoices** page.
+   [![Intacct Customer Import Started](../img/intacct-customer-importer-pending.png)](../img/intacct-customer-importer-pending.png)
+
+5. Once the import is finished you will see the newly imported invoices on the **Customers** page.
+
+   [![Intacct Customer Import Finished](../img/intacct-customer-importer-finished.png)](../img/intacct-customer-importer-finished.png)
