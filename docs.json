@@ -123,6 +123,16 @@
           "name": "QuickBooks Online"
         },
         {
+          "id": "intacct",
+          "name": "Sage Intacct",
+          "table_of_contents": [
+            {
+              "id": "setup",
+              "name": "Setup"
+            }
+          ]
+        },
+        {
           "id": "xero",
           "name": "Xero",
           "table_of_contents": [
