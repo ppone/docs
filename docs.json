@@ -127,8 +127,16 @@
           "name": "Sage Intacct",
           "table_of_contents": [
             {
+              "id": "overview",
+              "name": "Overview"
+            },
+            {
               "id": "setup",
               "name": "Setup"
+            },
+            {
+              "id": "usage",
+              "name": "Usage"
             }
           ]
         },

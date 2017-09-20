@@ -2,9 +2,22 @@
 
 Invoiced integrates with Sage Intacct out of the box, a best-in-class cloud ERP. This document outlines how to setup and use the Intacct integration.
 
+## Overview
+
+The Intacct integration ships with the following capabilities:
+
+- Importing outstanding invoices from Intacct
+- Importing customers from Intacct
+- Writing invoices originating from Invoiced to Intacct
+- Reconciling payments on Intacct received through Invoiced
+
 ## Setup
 
-Please follow these steps to set up the Intacct integration.
+In order to set up the Intacct integration you first need these pieces of information:
+- Intacct Company ID
+- Web services user
+
+Below we will show you how to connect Intacct with Invoiced, step-by-step.
 
 ### Finding Your Intacct Company ID
 
@@ -74,3 +87,59 @@ Now you can configure the accounting sync in order to tell Invoiced how to map t
 3. Enter in the undeposited funds account label from your G/L on Intacct. This is where payments received through Invoiced will be mapped.
 
 4. You can optionally enter in a location ID and/or department ID if you are operating a multi-entity Intacct company.
+
+## Usage
+
+In this section you will learn how to use the Intacct integration.
+
+### Accounting Sync
+
+The accounting sync feature is the cornerstone of the Intacct integration. It keeps your books on Intacct up to date with incoming invoices and payments from Invoiced.
+
+#### Enabling Auto-Sync
+
+Auto-sync will run accounting syncs automatically for you on an ongoing basis. Once auto-sync is enabled, accounting syncs will happen approximately once per hour. Here's how you can enable auto-sync.
+
+1. Go to **Settings** > **Accounting Sync**.
+
+2. Click **Enable Auto-Sync** next to the Intacct integration.
+
+3. You can periodically check back here to see activity in the *Recent Syncs* table.
+
+#### Running an Accounting Sync
+
+You can run an accounting sync by following these steps. If you want control over when your books are synced then you can manually trigger accounting syncs.
+
+1. Go to **Settings** > **Accounting Sync**.
+
+2. Click **Sync Now** any time you want to run an accounting sync.
+
+3. When the job is finished you will see it in the *Recent Syncs* table.
+
+### Manual Invoice Imports
+
+You can import outstanding invoices from Intacct as a one-time import. If you are using accounting sync then you probably would not need to run an invoice import.
+
+1. Go to the **Invoices** tab in the Invoiced dashboard. Click on the **Import** button in the top-right.
+
+2. Select **Intacct**.
+
+3. Click **Start**.
+
+4. The importer will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
+
+5. Once the import is finished you will see the newly imported invoices on the **Invoices** page.
+
+### Manual Customer Imports
+
+You can import customers from Intacct into Invoiced as a one-time import. This will import your entire A/R customer list. You generally wouldn't need to run manual imports if you are using accounting sync. For example, you might run this if you are setting up your Invoiced account for the first time.
+
+1. Go to the **Customers** tab in the Invoiced dashboard. Click on the **Import** button in the top-right.
+
+2. Select **Intacct**.
+
+3. Click **Start**.
+
+4. The importer will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
+
+5. Once the import is finished you will see the newly imported invoices on the **Invoices** page.

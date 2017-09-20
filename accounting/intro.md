@@ -6,4 +6,5 @@ We support the following accounting systems out of the box:
 
 - QuickBooks Desktop
 - [QuickBooks Online](/docs/accounting/quickbooks-online)
+- [Sage Intacct](/docs/accounting/intacct)
 - [Xero](/docs/accounting/xero)
