@@ -65,6 +65,10 @@
         {
           "id": "sign-up-pages",
           "name": "Sign Up Pages"
+        },
+        {
+          "id": "estimates",
+          "name": "Estimates"
         }
       ]
     },
