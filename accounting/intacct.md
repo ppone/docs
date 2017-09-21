@@ -87,7 +87,6 @@ Now you can configure the accounting sync in order to tell Invoiced how to map t
 3. Enter in the undeposited funds account label from your G/L on Intacct. This is where payments received through Invoiced will be mapped.
 
 4. You can optionally enter in a location ID and/or department ID if you are operating a multi-entity Intacct company.
-
 5. Click **Save**.
 
 ## Usage
@@ -116,7 +115,7 @@ If you want control over when your books are synced then you can manually trigge
 
 ### Manual Invoice Imports
 
-You can import outstanding invoices from Intacct as a one-time import. If you are using accounting sync then you probably would not need to run an invoice import.
+You can import outstanding invoices from Intacct as a one-time import. If you are using accounting sync then that will continually bring in outstanding invoices and a manual import is not needed.
 
 Instructions:
 
@@ -142,7 +141,7 @@ Instructions:
 
 ### Manual Customer Imports
 
-You can import customers from Intacct into Invoiced as a one-time import. This will import your entire A/R customer list. You generally wouldn't need to run manual imports if you are using accounting sync. For example, you might run this if you are setting up your Invoiced account for the first time.
+You can import customers from Intacct into Invoiced as a one-time import. Why might you use this? The accounting sync will only import customers that have invoices, whereas a manual import will bring in your entire A/R customer list.
 
 Instructions:
 
