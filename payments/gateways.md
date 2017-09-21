@@ -1,20 +1,21 @@
 # Payment Gateways
 
-Invoiced includes support for top payment gateways out of the box.
+Invoiced supports the most popular payment gateways out of the box.
 
-We support these payment gateways:
-- AffiniPay ([documentation](/docs/integrations/affinipay))
-- Authorize.Net ([documentation](/docs/integrations/authorizenet))
-- BluePay ([documentation](/docs/integrations/bluepay))
-- Braintree ([documentation](/docs/integrations/braintree))
-- Chase Paymentech Orbital ([documentation](/docs/integrations/chase-paymentech))
-- Intuit QuickBooks Payments ([documentation](/docs/integrations/intuit-payments))
-- Merchant e-Solutions ([documentation](/docs/integrations/merchant-e-solutions))
-- NMI ([documentation](/docs/integrations/nmi))
-- Payeezy ([documentation](/docs/integrations/payeezy))
-- Stripe ([documentation](/docs/integrations/stripe))
-- USAePay ([documentation](/docs/integrations/usaepay))
-- Worldpay ([documentation](/docs/integrations/worldpay))
+We support these payment gateways: (click any gateway for documentation)
+
+- [AffiniPay](/docs/integrations/affinipay)
+- [Authorize.Net](/docs/integrations/authorizenet)
+- [BluePay](/docs/integrations/bluepay)
+- [Braintree](/docs/integrations/braintree)
+- [Chase Paymentech Orbital](/docs/integrations/chase-paymentech)
+- [Intuit QuickBooks Payments](/docs/integrations/intuit-payments)
+- [Merchant e-Solutions](/docs/integrations/merchant-e-solutions)
+- [NMI](/docs/integrations/nmi)
+- [Payeezy](/docs/integrations/payeezy)
+- [Stripe](/docs/integrations/stripe)
+- [USAePay](/docs/integrations/usaepay)
+- [Worldpay](/docs/integrations/worldpay)
 
 ## Need a payment processor?
 
