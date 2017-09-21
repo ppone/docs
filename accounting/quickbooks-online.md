@@ -1,10 +1,19 @@
-#Quickbooks Online
+# Quickbooks Online
 
-The QuickBooks Online integration lets you sync data by pushing invoices from Invoiced into Quickbooks Online (QBO).  Invoiced will also create the accompanying customers, payments, line items, tax, and discount associated with the invoice in QBO.
+Invoiced integrates with QuickBooks Online out of the box to extend the billing capabilities of QuickBooks. This document describes how to set up the integration and how it works in detail.
 
-There is also another sync which lets you download customers from QBO into Invoiced.
+## Overview
 
-##Usage
+The QuickBooks Online integration ships with the following capabilities:
+
+- Importing outstanding invoices from QuickBooks Online
+- Importing contacts from QuickBooks Online
+- Writing invoices generated on Invoiced to QuickBooks Online
+- Reconciling payments received on Invoiced to QuickBooks Online
+
+[![QuickBooks Online Data Flow](../img/qbo-object-mapping.png)](../img/qbo-object-mapping.png)
+
+## Setup
 
 In order to begin syncing with QuickBooks Online first go to **Settings** > **Accounting Sync**.  
 
@@ -14,7 +23,11 @@ Then click on **Connect to QuickBooks**.
 
 [![QuickBooks Online Connect](../img/accounting-sync-settings.png)](../img/accounting-sync-settings.png)
 
-Next you will be prompted to authorize your QuickBooks company to Invoiced. Once you do this you will be redirected back to Invoiced. You can now start syncing your data with QuickBooks Online by clicking **Synchronize**.
+Next you will be prompted to authorize your QuickBooks company to Invoiced. Once you do this you will be redirected back to Invoiced.
+
+## Usage
+
+You can now start syncing your data with QuickBooks Online by clicking **Synchronize**.
 
 [![QuickBooks Online Connected](../img/accounting-sync-quickbooks-online-connected.png)](../img/accounting-sync-quickbooks-online-connected.png)
 
@@ -45,8 +58,8 @@ Any time you want to sync your data with Xero just return to the **Accounting Sy
 
 - Only invoices updated in Invoiced since the last time you ran the sync will be synced.
 
-- If you need to re-sync all of your invoices please contact support@invoiced.com
+- If a line item has a catalog item then the item created on QuickBooks will have its SKU set to the catalog item ID.
 
-##Quickbooks Online Troubleshooting
+## Troubleshooting
 
-- If the sync fails first try to reconnect your Quickbooks Online account and try again.  If it still fails please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
+If the sync fails first try to reconnect your Quickbooks Online account and try again.  If it still fails please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
