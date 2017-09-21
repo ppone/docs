@@ -149,6 +149,10 @@
               "name": "Getting Started"
             },
             {
+              "id": "usage",
+              "name": "Usage"
+            },
+            {
               "id": "faq",
               "name": "FAQ"
             },

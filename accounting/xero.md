@@ -30,13 +30,85 @@ Invoiced by default creates a default bank, sales, expense account and tax rate.
 
 [![Xero Sync Settings](../img/accounting-sync-xero-settings.png)](../img/accounting-sync-xero-settings.png)
 
-You can either enable Auto-Sync, which will automatically run a sync every hour by clicking on **Enable Auto-Sync**, or run a one time sync by clicking on **Sync Now**.
+## Usage
 
-[![Xero Connected](../img/accounting-sync-xero-connected-org.png)](../img/accounting-sync-xero-connected-org.png)
+In this section you will learn how to use the Xero integration.
 
-No further action is required. You will be able to monitor the progress of your sync once it has started and view the results of past syncs.
+### Enabling Auto-Sync
 
-[![Xero Invoice Sync](../img/xero-invoice-sync.png)](../img/xero-invoice-sync.png)
+Auto-sync will run accounting syncs automatically for you on an ongoing basis. Once auto-sync is enabled, accounting syncs will happen approximately once per hour. Here's how you can enable auto-sync:
+
+1. Go to **Settings** > **Accounting Sync**.
+
+   [![Xero Connected](../img/accounting-sync-xero-connected-org.png)](../img/accounting-sync-xero-connected-org.png)
+
+2. Click **Enable Auto-Sync** next to the Xero integration. You can periodically check back here to see activity in the *Recent Syncs* table.
+
+   [![Xero Invoice Sync](../img/xero-invoice-sync.png)](../img/xero-invoice-sync.png)
+
+### Running Syncs Manually
+
+If you want control over when your books are synced then you can manually trigger accounting syncs. You can run an accounting sync by following these steps:
+
+1. Go to **Settings** > **Accounting Sync**.
+
+   [![Xero Connected](../img/accounting-sync-xero-connected-org.png)](../img/accounting-sync-xero-connected-org.png)
+
+2. Click **Sync Now** underneath *Xero* any time you want to run an accounting sync. When the job is finished you will see it in the *Recent Syncs* table.
+
+   [![Xero Invoice Sync](../img/xero-invoice-sync.png)](../img/xero-invoice-sync.png)
+
+### Manual Invoice Imports
+
+You can import outstanding invoices from Xero as a one-time import. If you are using accounting sync then you probably would not need to run an invoice import.
+
+Instructions:
+
+1. Go to the **Invoices** tab in the Invoiced dashboard. Click on the **Import** button in the top-right.
+
+   [![Invoices Page](../img/invoices-header.png)](../img/invoices-header.png)
+
+2. Select **Xero**.
+
+   [![Invoice Importer](../img/invoice-importer.png)](../img/invoice-importer.png)
+
+3. Click **Start**.
+
+   [![Start Xero Invoice Import](../img/xero-invoice-importer.png)](../img/xero-invoice-importer.png)
+
+4. The importer will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
+
+   [![Xero Invoice Import Started](../img/xero-invoice-importer-pending.png)](../img/xero-invoice-importer-pending.png)
+
+5. Once the import is finished you will see the newly imported invoices on the **Invoices** page.
+
+   [![Xero Invoice Import Finished](../img/xero-invoice-importer-finished.png)](../img/xero-invoice-importer-finished.png)
+
+### Manual Customer Imports
+
+You can import customers from Xero into Invoiced as a one-time import. This will import your entire A/R customer list. You generally wouldn't need to run manual imports if you are using accounting sync. For example, you might run this if you are setting up your Invoiced account for the first time.
+
+Instructions:
+
+1. Go to the **Customers** tab in the Invoiced dashboard. Click on the **Import** button in the top-right.
+
+   [![Customers Page](../img/customers-header.png)](../img/customers-header.png)
+
+2. Select **Xero**.
+
+   [![Customer Importer](../img/customer-importer.png)](../img/customer-importer.png)
+
+3. Click **Start**.
+
+   [![Start Xero Customer Import](../img/xero-customer-importer.png)](../img/xero-customer-importer.png)
+
+4. The importer will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
+
+   [![Xero Customer Import Started](../img/xero-customer-importer-pending.png)](../img/xero-customer-importer-pending.png)
+
+5. Once the import is finished you will see the newly imported invoices on the **Customers** page.
+
+   [![Xero Customer Import Finished](../img/xero-customer-importer-finished.png)](../img/xero-customer-importer-finished.png)
 
 ##FAQ
 ###How long will my Xero organization be connected for?
