@@ -135,6 +135,10 @@
               "name": "Usage"
             },
             {
+              "id": "edge-cases",
+              "name": "Edge Cases"
+            },
+            {
               "id": "troubleshooting",
               "name": "Troubleshooting"
             }
