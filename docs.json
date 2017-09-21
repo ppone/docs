@@ -149,19 +149,19 @@
               "name": "Overview"
             },
             {
-              "id": "getting-started",
-              "name": "Getting Started"
+              "id": "setup",
+              "name": "Setup"
             },
             {
               "id": "usage",
               "name": "Usage"
             },
             {
-              "id": "faq",
+              "id": "faqs",
               "name": "FAQs"
             },
             {
-              "id": "xero-troubleshooting",
+              "id": "troubleshooting",
               "name": "Troubleshooting"
             }
           ]
