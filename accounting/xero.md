@@ -11,7 +11,7 @@ The Xero integration ships with the following capabilities:
 - Writing invoices generated on Invoiced to Xero
 - Reconciling payments received on Invoiced to Xero
 
-[![Xero Data Flow](../img/xero-object-mapping.png)](../img/accounting-sync-xero-data-flow.png)
+[![Xero Data Flow](../img/xero-object-mapping.png)](../img/xero-object-mapping.png)
 
 ## Setup
 

@@ -11,6 +11,8 @@ The Intacct integration ships with the following capabilities:
 - Writing invoices generated on Invoiced to Intacct
 - Reconciling payments received on Invoiced to Intacct
 
+[![Intacct Data Flow](../img/intacct-object-mapping.png)](../img/intacct-object-mapping.png)
+
 ## Setup
 
 In order to set up the Intacct integration you first need these pieces of information:
@@ -99,9 +101,11 @@ Auto-sync will run accounting syncs automatically for you on an ongoing basis. O
 
 1. Go to **Settings** > **Accounting Sync**.
 
-2. Click **Enable Auto-Sync** next to the Intacct integration.
+   [![Intacct Accounting Sync](../img/intacct-accounting-sync-connected.png)](../img/intacct-accounting-sync-connected.png)
 
-3. You can periodically check back here to see activity in the *Recent Syncs* table.
+2. Click **Enable Auto-Sync** next to the Intacct integration. You can periodically check back here to see activity in the *Recent Syncs* table.
+
+   [![Intacct Accounting Sync](../img/intacct-accounting-sync.png)](../img/intacct-accounting-sync.png)
 
 ### Running Syncs Manually
 
@@ -109,9 +113,11 @@ If you want control over when your books are synced then you can manually trigge
 
 1. Go to **Settings** > **Accounting Sync**.
 
-2. Click **Sync Now** underneath *Intacct* any time you want to run an accounting sync.
+   [![Intacct Accounting Sync](../img/intacct-accounting-sync-connected.png)](../img/intacct-accounting-sync-connected.png)
 
-3. When the job is finished you will see it in the *Recent Syncs* table.
+2. Click **Sync Now** underneath *Intacct* any time you want to run an accounting sync. When the job is finished you will see it in the *Recent Syncs* table.
+
+   [![Intacct Accounting Sync](../img/intacct-accounting-sync.png)](../img/intacct-accounting-sync.png)
 
 ### Manual Invoice Imports
 
