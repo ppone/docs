@@ -145,6 +145,10 @@
           "name": "Xero",
           "table_of_contents": [
             {
+              "id": "overview",
+              "name": "Overview"
+            },
+            {
               "id": "getting-started",
               "name": "Getting Started"
             },
@@ -154,7 +158,7 @@
             },
             {
               "id": "faq",
-              "name": "FAQ"
+              "name": "FAQs"
             },
             {
               "id": "xero-troubleshooting",

@@ -1,34 +1,39 @@
 # Xero
 
-The Xero integration lets you sync data by pushing invoices from Invoiced into Xero.  The integration will also push the corresponding contacts and payments from Invoiced into Xero.
+Invoiced integrates with the Xero accounting system out of the box to supercharge the billing capabilities of Xero. This document describes how to set up the integration and how it works in detail.
 
-[![Xero Data Flow](../img/accounting-sync-xero-data-flow.png)](../img/accounting-sync-xero-data-flow.png)
+## Overview
 
-## Getting Started
+The Xero integration ships with the following capabilities:
 
-In order to begin syncing with Xero first go to **Settings** > **Accounting Sync**.  
+- Importing outstanding invoices from Xero
+- Importing contacts from Xero
+- Writing invoices generated on Invoiced to Xero
+- Reconciling payments received on Invoiced to Xero
 
-[![Settings Page](../img/all-settings-accounting-sync.png)](../img/all-settings-accounting-sync.png)
+[![Xero Data Flow](../img/xero-object-mapping.png)](../img/accounting-sync-xero-data-flow.png)
 
-Then click on **Connect to Xero**.
+## Setup
 
-[![Xero Connect](../img/accounting-sync-xero.png)](../img/accounting-sync-settings.png)
+1. In order to begin syncing with Xero first go to **Settings** > **Integrations**.  
 
-You will get redirected to Xero for authentication. Input your Xero email address and password.
+   [![Integration Settings](../img/integration-settings.png)](../img/integration-settings.png)
 
-[![Xero Authorize](../img/xero-screen-3.png)](../img/xero-screen-3.png)
+2. Click on **Connect to Xero**. You will be redirected to Xero. You will need to sign in to Xero, if you are not already signed in.
 
-Next you will be prompted to authorize your Xero organization to Invoiced.  Click on **Authorize**.
+   [![Xero Authorize](../img/xero-screen-3.png)](../img/xero-screen-3.png)
 
-[![Xero Settings](../img/xero-screen-4.png)](../img/xero-screen-4.png)
+4. Next you will be prompted to authorize Invoiced access to your Xero organization.  Click on **Authorize**.
 
-You will be redirected back to Invoiced.    
+   [![Xero Settings](../img/xero-screen-4.png)](../img/xero-screen-4.png)
 
-[![Xero Connected](../img/accounting-sync-xero-connected-org.png)](../img/accounting-sync-xero-connected-org.png)
+5. You will be redirected back to Invoiced. Xero is now connected!
 
-Invoiced by default creates a default bank, sales, expense account and tax rate.  However you can choose a existing account or tax rate instead through the **Settings**.
+   [![Xero Connected to Invoiced](../img/xero-connected.png)](../img/xero-connected.png)
 
-[![Xero Sync Settings](../img/accounting-sync-xero-settings.png)](../img/accounting-sync-xero-settings.png)
+6. Next you should click **Configure** in order to configure the integration. Invoiced by default creates several default accounts in your G/L ([learn more](#what-accounts-does-invoiced-create-in-my-chart-of-accounts)). You can change the account mapping as you see fit.
+
+   [![Xero Settings](../img/xero-settings.png)](../img/xero-settings.png)
 
 ## Usage
 
@@ -110,7 +115,8 @@ Instructions:
 
    [![Xero Customer Import Finished](../img/xero-customer-importer-finished.png)](../img/xero-customer-importer-finished.png)
 
-## FAQ
+## FAQs
+
 ### How long will my Xero organization be connected for?
 
 Your Xero organization will be connected until you click disconnect. If you ever find your account prematurely disconnected then you can reconnect any time in **Settings** > **Integrations**.
