@@ -176,3 +176,15 @@ Instructions:
 When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** > **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
 
 Below we have documented commonly encountered errors and recommended resolutions. If you are still unable to get your books synced then please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
+
+### 401 Error
+
+> non-200 status code: 401
+
+We could not connect to Intacct using the credentials you provided. Please make sure the Intacct company ID, username, and password are correct.
+
+### Numbering collision
+
+> A transaction with the number 'XXX' already exists.
+
+If you see this error message then there is already a different invoice with the same number on Intacct. It is recommended that you choose a unique invoice # for the invoice that is being synced.

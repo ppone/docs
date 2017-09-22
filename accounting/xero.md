@@ -173,3 +173,15 @@ Taxes synced to Xero are exclusive by default. If you want to change this to inc
 When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** > **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
 
 Below we have documented commonly encountered errors and recommended resolutions. If you are still unable to get your books synced then please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
+
+### Unauthorized
+
+> Unauthorized - Invalid authorization credentials.
+
+If you see this error message then our access token to your Xero account has expired. You need to go to **Settings** > **Integrations** in order to reconnect Xero.
+
+### Organisation is not subscribed to currency
+
+> Organisation is not subscribed to currency XXX
+
+Invoiced supports 150+ currencies out of the box with no extra configuration needed. If you are seeing this error message then you need to tell Xero about each currency you operate with in Settings > General Settings > Currencies.

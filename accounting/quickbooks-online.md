@@ -104,3 +104,15 @@ Another solution is to change the date range that Invoiced will sync to QuickBoo
 > Business Validation Error: You can only add or edit one name at a time. Please try again.
 
 Often this error means that an accounting sync was running while someone was working in the books. This can be fixed by signing out of the QuickBooks Online interface and re-trying the sync.
+
+### QuickBooks Online could not authenticate
+
+> QuickBooks Online could not authenticate.
+
+If you see this error message then our access token to your QuickBooks account has expired. You need to go to **Settings** > **Integrations** in order to reconnect QuickBooks.
+
+### Subscription period has ended
+
+> Subscription period has ended or canceled or there was a billing problem : You can't add data to QuickBooks Online Plus because your trial or subscription period ended, you cancelled your subscription, or there was a billing problem. To update your subscription, click the gear icon and view your account information.
+
+Your QuickBooks subscription has expired. Please sign into QuickBooks in order to address the issue.
