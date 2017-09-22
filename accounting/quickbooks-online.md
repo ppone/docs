@@ -31,8 +31,6 @@ The QuickBooks Online integration ships with the following capabilities:
 
    [![QuickBooks Online Connected to Invoiced](../img/qbo-connected.png)](../img/qbo-connected.png)
 
-5. Next you should click **Configure** in order to configure the integration.
-
 ### Configuring the Accounting Sync
 
 Now you can configure the accounting sync in order to tell Invoiced how to map the data into your general ledger.

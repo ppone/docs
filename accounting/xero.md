@@ -31,8 +31,6 @@ The Xero integration ships with the following capabilities:
 
    [![Xero Connected to Invoiced](../img/xero-connected.png)](../img/xero-connected.png)
 
-5. Next you should click **Configure** in order to configure the integration. Invoiced by default creates several default accounts in your G/L ([learn more](#what-accounts-does-invoiced-create-in-my-chart-of-accounts)). You can change the account mapping as you see fit.
-
 ### Configuring the Accounting Sync
 
 Now you can configure the accounting sync in order to tell Invoiced how to map the data into your general ledger.
