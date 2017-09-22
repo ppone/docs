@@ -170,3 +170,9 @@ Instructions:
 5. Once the import is finished you will see the newly imported invoices on the **Customers** page.
 
    [![Intacct Customer Import Finished](../img/intacct-customer-importer-finished.png)](../img/intacct-customer-importer-finished.png)
+
+## Troubleshooting
+
+When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** > **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
+
+Below we have documented commonly encountered errors and recommended resolutions. If you are still unable to get your books synced then please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.

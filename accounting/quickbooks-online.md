@@ -7,7 +7,7 @@ Invoiced integrates with QuickBooks Online out of the box to extend the billing 
 The QuickBooks Online integration ships with the following capabilities:
 
 - Importing outstanding invoices from QuickBooks Online
-- Importing contacts from QuickBooks Online
+- Importing contacts from QuickBo   oks Online
 - Writing invoices generated on Invoiced to QuickBooks Online
 - Reconciling payments received on Invoiced to QuickBooks Online
 

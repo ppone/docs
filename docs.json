@@ -159,6 +159,10 @@
             {
               "id": "usage",
               "name": "Usage"
+            },
+            {
+              "id": "troubleshooting",
+              "name": "Troubleshooting"
             }
           ]
         },
