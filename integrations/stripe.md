@@ -13,6 +13,7 @@ The Stripe payment gateway on Invoiced supports the following features:
 - Apple Pay (one-off payments only)
 - 3-D Secure (one-off payments only)
 - SEPA debits
+- Importing customers and payment info from Stripe
 
 ## Setup
 
@@ -91,6 +92,28 @@ Stripe sweeps successful payments to your bank account automatically on a daily 
 ACH payments are not instant like credit card payments. An ACH payment will be marked as pending until the transaction has cleared. An ACH payment is not considered paid until the transaction has cleared.
 
 ACH payments take up to 5 business days to receive acknowledgment of their success or failure. Because of this, ACH payments take up to 7 business days to be reflected in your available Stripe balance. You can learn more from [Stripe's ACH docs](https://stripe.com/docs/ach).
+
+## Importing Customers from Stripe
+
+In this section we will show you how to import customers and payment information from Stripe into Invoiced. The process is very straightforward and does not require that you handle or send us any sensitive payment information.
+
+1. Go to the **Customers** page and click on the **Import** button in the top-right.
+
+   [![Customer Importer](../img/customer-importer.png)](../img/customer-importer.png)
+
+2. Click on **Stripe**.
+
+   [![Stripe Customer Importer](../img/stripe-customer-importer.png)](../img/stripe-customer-importer.png)
+
+3. Click **Start** to begin the import.
+
+   [![Stripe Customer Importer Pending](../img/stripe-customer-importer-pending.png)](../img/stripe-customer-importer-pending.png)
+
+4. The import will begin. You can go elsewhere while you wait. If there is a large # of customers being imported then this could take several minutes.
+
+5. Invoiced will send you an email when the import is done. When the import is finished all of your imported customers should be visible in the **Customers** page.
+
+   [![Stripe Customer Finished](../img/stripe-customer-importer-finished.png)](../img/stripe-customer-importer-finished.png)
 
 ## Support
 
