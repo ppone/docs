@@ -33,7 +33,27 @@ The Xero integration ships with the following capabilities:
 
 5. Next you should click **Configure** in order to configure the integration. Invoiced by default creates several default accounts in your G/L ([learn more](#what-accounts-does-invoiced-create-in-my-chart-of-accounts)). You can change the account mapping as you see fit.
 
+### Configuring the Accounting Sync
+
+Now you can configure the accounting sync in order to tell Invoiced how to map the data into your general ledger.
+
+1. Click on **Configure** on the Xero integration from the integrations page.
+
    [![Xero Settings](../img/xero-settings.png)](../img/xero-settings.png)
+
+2. Change the account mapping and other settings.
+
+3. Click **Save**.
+
+#### Account Mapping
+
+Invoiced will create the following accounts in your G/L unless you specify an account for us to use:
+
+- "Invoiced Sales Account" - sales account used for invoices and line items 
+- "Invoiced Bank Account" - bank account used for payments received on Invoiced
+- "Invoiced Sales Tax Account" - sales account used for taxes received on Invoiced
+
+The integration will also create a tax rate called "Imported Invoiced Tax Rate" unless you specify a tax rate.
 
 ## Usage
 
@@ -135,12 +155,7 @@ Payment processing fees are not synced with Xero.
 
 ### What accounts does Invoiced create in my chart of accounts?
 
-If you do not specify otherwise in the integration settings, Invoiced will create these accounts in Xero:
-- Invoiced Sales Account - sales account used for invoices and line items 
-- Invoiced Bank Account - bank account used for payments received on Invoiced
-- Invoiced Sales Tax Account - sales account used for taxes received on Invoiced
-
-The integration will also create a tax rate called "Imported Invoiced Tax Rate" unless you specify a tax rate.
+You can see the [accounts we create here](#account-mapping).
 
 ### How are taxes carried over?
 

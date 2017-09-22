@@ -31,9 +31,27 @@ The QuickBooks Online integration ships with the following capabilities:
 
    [![QuickBooks Online Connected to Invoiced](../img/qbo-connected.png)](../img/qbo-connected.png)
 
-5. Next you should click **Configure** in order to configure the integration. Invoiced by default creates several default accounts in your G/L. You can change the account mapping as you see fit.
+5. Next you should click **Configure** in order to configure the integration.
+
+### Configuring the Accounting Sync
+
+Now you can configure the accounting sync in order to tell Invoiced how to map the data into your general ledger.
+
+1. Click on **Configure** on the QuickBooks Online integration from the integrations page.
 
    [![QuickBooks Online Settings](../img/qbo-settings.png)](../img/qbo-settings.png)
+
+2. Change the account mapping and other settings.
+
+3. Click **Save**.
+
+#### Account Mapping
+
+Invoiced will create the following accounts in your G/L if you do not specify an account:
+
+- "Invoiced Account" - income account for invoices and line items
+- "Invoiced Discount" - income account for discounts
+- "Imported Invoiced Tax Code" - tax code for taxes received on Invoiced
 
 ## Usage
 
@@ -63,6 +81,58 @@ If you want control over when your books are synced then you can manually trigge
 
    [![QuickBooks Online Invoice Sync](../img/quickbooks-online-invoice-sync.png)](../img/quickbooks-online-invoice-sync.png)
 
+### Manual Invoice Imports
+
+You can import outstanding invoices from QuickBooks Online as a one-time import. If you are using accounting sync then that will continually bring in outstanding invoices and a manual import is not needed.
+
+Instructions:
+
+1. Go to the **Invoices** tab in the Invoiced dashboard. Click on the **Import** button in the top-right.
+
+   [![Invoices Page](../img/invoices-header.png)](../img/invoices-header.png)
+
+2. Select **QuickBooks**.
+
+   [![Invoice Importer](../img/invoice-importer.png)](../img/invoice-importer.png)
+
+3. Click **Start**.
+
+   [![Start QuickBooks Invoice Import](../img/qbo-invoice-importer.png)](../img/qbo-invoice-importer.png)
+
+4. The importer will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
+
+   [![QuickBooks Invoice Import Started](../img/qbo-invoice-importer-pending.png)](../img/qbo-invoice-importer-pending.png)
+
+5. Once the import is finished you will see the newly imported invoices on the **Invoices** page.
+
+   [![QuickBooks Invoice Import Finished](../img/qbo-invoice-importer-finished.png)](../img/qbo-invoice-importer-finished.png)
+
+### Manual Customer Imports
+
+You can import customers from QuickBooks into Invoiced as a one-time import. Why might you use this? The accounting sync will only import customers that have invoices, whereas a manual import will bring in your entire A/R customer list.
+
+Instructions:
+
+1. Go to the **Customers** tab in the Invoiced dashboard. Click on the **Import** button in the top-right.
+
+   [![Customers Page](../img/customers-header.png)](../img/customers-header.png)
+
+2. Select **QuickBooks**.
+
+   [![Customer Importer](../img/customer-importer.png)](../img/customer-importer.png)
+
+3. Click **Start**.
+
+   [![Start QuickBooks Customer Import](../img/qbo-customer-importer.png)](../img/qbo-customer-importer.png)
+
+4. The importer will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
+
+   [![QuickBooks Customer Import Started](../img/qbo-customer-importer-pending.png)](../img/qbo-customer-importer-pending.png)
+
+5. Once the import is finished you will see the newly imported invoices on the **Customers** page.
+
+   [![QuickBooks Customer Import Finished](../img/qbo-customer-importer-finished.png)](../img/qbo-customer-importer-finished.png)
+
 ## Edge Cases
 
 Here we have documented all of the limitations, nuances, and edge cases to be aware of when using the QuickBooks Online integration.
@@ -70,8 +140,6 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 - Customers on Invoiced are mapped to customers on QuickBooks by the name. Please keep in mind that QuickBooks does not allow multiple customers with the same name, but Invoiced does allow duplicates.
 
 - Customer names are truncated to 100 characters due to a character limitation in QuickBooks.
-
-- Unless you change this in the settings, the sync will create a default account, discount account, and tax code.
 
 - Only non-draft invoices on Invoiced that have been updated since the last sync will be synced. On your first sync this means that all non-draft invoices will be synced.
 

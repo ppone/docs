@@ -89,6 +89,7 @@ Now you can configure the accounting sync in order to tell Invoiced how to map t
 3. Enter in the undeposited funds account label from your G/L on Intacct. This is where payments received through Invoiced will be mapped.
 
 4. You can optionally enter in a location ID and/or department ID if you are operating a multi-entity Intacct company.
+
 5. Click **Save**.
 
 ## Usage
@@ -170,6 +171,16 @@ Instructions:
 5. Once the import is finished you will see the newly imported invoices on the **Customers** page.
 
    [![Intacct Customer Import Finished](../img/intacct-customer-importer-finished.png)](../img/intacct-customer-importer-finished.png)
+
+## Edge Cases
+
+Here we have documented all of the limitations, nuances, and edge cases to be aware of when using the Intacct integration.
+
+- Customers on Invoiced are mapped to customers on Intacct by the customer name.
+
+- Only non-draft invoices on Invoiced that have been updated since the last sync will be synced. On your first sync this means that all non-draft invoices will be synced.
+
+- Any changes to invoices imported from Intacct that are later modified on Invoiced will not be synced to Intacct. However, any payments received for imported invoices will be synced.
 
 ## Troubleshooting
 
