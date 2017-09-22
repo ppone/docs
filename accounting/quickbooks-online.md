@@ -1,4 +1,4 @@
-# Quickbooks Online
+# QuickBooks Online
 
 Invoiced integrates with QuickBooks Online out of the box to extend the billing capabilities of QuickBooks. This document describes how to set up the integration and how it works in detail.
 
@@ -71,17 +71,17 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 - Customer names are truncated to 100 characters due to a character limitation in QuickBooks.
 
-- Unless you change this in the settings, QBO sync will create a default account, discount account, and tax code.
+- Unless you change this in the settings, the sync will create a default account, discount account, and tax code.
 
-- Only non-draft invoices from Invoiced will be synced. Also, only invoices updated since the last sync will be synced. On your first sync this means that all non-draft invoices will be synced.
+- Only non-draft invoices on Invoiced that have been updated since the last sync will be synced. On your first sync this means that all non-draft invoices will be synced.
 
-- QBO sync will create items in QBO unless the item is blank and then it will the default Invoiced item.
+- The sync will create an item in QuickBooks for each line item. If the line item name is blank then a generic Invoiced item will be used.
 
 - Line item descriptions over 4,000 characters are truncated due to a character limit in QuickBooks.
 
-- The invoice sync does correctly handle bad debt invoices, which are invoices in Invoiced that are closed and do not have a payment against them.
+- The invoice sync will correctly reconcile bad debt, which are invoices in Invoiced that are closed and do not have a payment against them.
 
-- Invoices imported from QuickBooks that were later modified on Invoiced will not be synced to QuickBooks, however, any payments received for that invoice on Invoiced will be synced.
+- Any changes to invoices imported from QuickBooks that are later modified on Invoiced will not be synced to QuickBooks. However, any payments received for imported invoices will be synced.
 
 - If a line item on Invoiced has a catalog item attached, then the item created on QuickBooks will have its SKU set to the catalog item ID.
 
@@ -98,3 +98,9 @@ Below we have documented commonly encountered errors and recommended resolutions
 When you see this error message then it means that Invoiced is trying to sync an invoice or payment during a time period that you have already closed. One way you can fix this is by re-opening your books for that time period and running the sync once more. When the sync finishes you can close the books again.
 
 Another solution is to change the date range that Invoiced will sync to QuickBooks. You can tell Invoiced to not sync any invoices before the time period when you closed the books. The sync date range can be set up in the QuickBooks settings at **Settings** > **Integrations** > **Configure** (in the *QuickBooks Online* section).
+
+### You can only add or edit one name at a time
+
+> Business Validation Error: You can only add or edit one name at a time. Please try again.
+
+Often this error means that an accounting sync was running while someone was working in the books. This can be fixed by signing out of the QuickBooks Online interface and re-trying the sync.
