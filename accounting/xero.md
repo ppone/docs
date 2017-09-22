@@ -21,17 +21,17 @@ The Xero integration ships with the following capabilities:
 
 2. Click on **Connect to Xero**. You will be redirected to Xero. You will need to sign in to Xero, if you are not already signed in.
 
-   [![Xero Authorize](../img/xero-screen-3.png)](../img/xero-screen-3.png)
+   [![Xero Login](../img/xero-screen-3.png)](../img/xero-screen-3.png)
 
-4. Next you will be prompted to authorize Invoiced access to your Xero organization.  Click on **Authorize**.
+3. Next you will be prompted to authorize Invoiced access to your Xero organization.  Click on **Authorize**.
 
-   [![Xero Settings](../img/xero-screen-4.png)](../img/xero-screen-4.png)
+   [![Xero Authorize](../img/xero-screen-4.png)](../img/xero-screen-4.png)
 
-5. You will be redirected back to Invoiced. Xero is now connected!
+4. You will be redirected back to Invoiced. Xero is now connected!
 
    [![Xero Connected to Invoiced](../img/xero-connected.png)](../img/xero-connected.png)
 
-6. Next you should click **Configure** in order to configure the integration. Invoiced by default creates several default accounts in your G/L ([learn more](#what-accounts-does-invoiced-create-in-my-chart-of-accounts)). You can change the account mapping as you see fit.
+5. Next you should click **Configure** in order to configure the integration. Invoiced by default creates several default accounts in your G/L ([learn more](#what-accounts-does-invoiced-create-in-my-chart-of-accounts)). You can change the account mapping as you see fit.
 
    [![Xero Settings](../img/xero-settings.png)](../img/xero-settings.png)
 

@@ -15,27 +15,53 @@ The QuickBooks Online integration ships with the following capabilities:
 
 ## Setup
 
-In order to begin syncing with QuickBooks Online first go to **Settings** > **Accounting Sync**.  
+1. In order to begin syncing with QuickBooks Online first go to **Settings** > **Integrations**.  
 
-[![Settings Page](../img/all-settings-accounting-sync.png)](../img/all-settings-accounting-sync.png)
+   [![Integration Settings](../img/integration-settings.png)](../img/integration-settings.png)
 
-Then click on **Connect to QuickBooks**.
+2. Click on **Connect to QuickBooks**. You will be redirected to QuickBooks. You will need to sign in to QuickBooks, if you are not already signed in.
 
-[![QuickBooks Online Connect](../img/accounting-sync-settings.png)](../img/accounting-sync-settings.png)
+   [![QuickBooks Online Login](../img/qbo-login.png)](../img/qbo-login.png)
 
-Next you will be prompted to authorize your QuickBooks company to Invoiced. Once you do this you will be redirected back to Invoiced.
+3. Next you will be prompted to authorize Invoiced access to your QuickBooks Online organization.  Click on **Authorize**.
+
+   [![QuickBooks Online Authorize](../img/qbo-connect-authorize.png)](../img/qbo-connect-authorize.png)
+
+4. You will be redirected back to Invoiced. QuickBooks Online is now connected!
+
+   [![QuickBooks Online Connected to Invoiced](../img/qbo-connected.png)](../img/qbo-connected.png)
+
+5. Next you should click **Configure** in order to configure the integration. Invoiced by default creates several default accounts in your G/L. You can change the account mapping as you see fit.
+
+   [![QuickBooks Online Settings](../img/qbo-settings.png)](../img/qbo-settings.png)
 
 ## Usage
 
-You can now start syncing your data with QuickBooks Online by clicking **Synchronize**.
+In this section you will learn how to use the QuickBooks Online integration.
 
-[![QuickBooks Online Connected](../img/accounting-sync-quickbooks-online-connected.png)](../img/accounting-sync-quickbooks-online-connected.png)
+### Enabling Auto-Sync
 
-No further action is required. You will be able to monitor the progress of your sync once it has started and view the results of past syncs.
+Auto-sync will run accounting syncs automatically for you on an ongoing basis. Once auto-sync is enabled, accounting syncs will happen approximately once per hour. Here's how you can enable auto-sync:
 
-[![QuickBooks Online Invoice Sync](../img/quickbooks-online-invoice-sync.png)](../img/quickbooks-online-invoice-sync.png)
+1. Go to **Settings** > **Accounting Sync**.
 
-Any time you want to sync your data with Xero just return to the **Accounting Sync** page and click **Synchronize**.
+   [![QuickBooks Online Connected](../img/accounting-sync-qbo-connected.png)](../img/qbo-connected.png)
+
+2. Click **Enable Auto-Sync** next to the *QuickBooks Online* integration. You can periodically check back here to see activity in the *Recent Syncs* table.
+
+   [![QuickBooks Online Invoice Sync](../img/quickbooks-online-invoice-sync.png)](../img/quickbooks-online-invoice-sync.png)
+
+### Running Syncs Manually
+
+If you want control over when your books are synced then you can manually trigger accounting syncs. You can run an accounting sync by following these steps:
+
+1. Go to **Settings** > **Accounting Sync**.
+
+   [![QuickBooks Online Connected](../img/accounting-sync-qbo-connected.png)](../img/qbo-connected.png)
+
+2. Click **Sync Now** underneath *QuickBooks Online* any time you want to run an accounting sync. When the job is finished you will see it in the *Recent Syncs* table.
+
+   [![QuickBooks Online Invoice Sync](../img/quickbooks-online-invoice-sync.png)](../img/quickbooks-online-invoice-sync.png)
 
 ## Edge Cases
 
@@ -61,4 +87,14 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 ## Troubleshooting
 
-If the sync fails first try to reconnect your Quickbooks Online account and try again.  If it still fails please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
+When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** > **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
+
+Below we have documented commonly encountered errors and recommended resolutions. If you are still unable to get your books synced then please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
+
+### Account period has closed
+
+> The account period has closed and the account books cannot be updated through through the QBO Services API. Please use the QBO website to make these changes.
+
+When you see this error message then it means that Invoiced is trying to sync an invoice or payment during a time period that you have already closed. One way you can fix this is by re-opening your books for that time period and running the sync once more. When the sync finishes you can close the books again.
+
+Another solution is to change the date range that Invoiced will sync to QuickBooks. You can tell Invoiced to not sync any invoices before the time period when you closed the books. The sync date range can be set up in the QuickBooks settings at **Settings** > **Integrations** > **Configure** (in the *QuickBooks Online* section).
