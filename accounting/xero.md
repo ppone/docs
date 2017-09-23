@@ -181,6 +181,10 @@ Since Xero requires a due date on all invoices, if an invoice is missing a due d
 
 Taxes synced to Xero are exclusive by default. If you want to change this to inclusive then please contact [support@invoiced.com](mailto:support@invoiced.com).
 
+### Are tracking categories supported?
+
+No, tracking categories are not currently supported.
+
 ## Troubleshooting
 
 When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** > **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
