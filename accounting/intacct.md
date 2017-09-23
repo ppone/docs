@@ -21,19 +21,11 @@ In order to set up the Intacct integration you first need these pieces of inform
 
 Below we will show you how to connect Intacct with Invoiced, step-by-step.
 
-### Finding Your Intacct Company ID
-
-Your Intacct company ID is required in order to connect the integration. You can obtain your company ID from Intacct with these steps:
-
-1. Within the Intacct application, hover over the **Company** tab and click **Company Info**.
-
-2. You should see an *ID* field. This is the company ID that you will use in the connection steps below.
-
 ### Setting Up a Web Services User
 
 The next step is to set up a web services user for Invoiced on Intacct. It is recommended that you use a dedicated web services user for Invoiced in order to ensure it has the correct permissions. We also recommend against using a non-web services user because any password changes would break the integration.
 
-1. You need to ensure that your company has web services enabled in **Company** > **Subscriptions** in the Intacct application.
+1. You need to ensure that your company has web services enabled on Intacct in **Company** > **Subscriptions**.
 
 2. Within the Intacct application, hover over the **Company** tab and click the **+** button next to *Users*.
 
@@ -58,7 +50,7 @@ The next step is to set up a web services user for Invoiced on Intacct. It is re
 
    [![Intacct Permissions Setup](../img/intacct-web-services-user-permissions.png)](../img/intacct-web-services-user-permissions.png)
 
-6. Click **Save** on the subscriptions page. You should have received an email with the username and password information.
+6. Click **Save** on the subscriptions page. You should have received an email with the company ID, username, and password information.
 
 ### Connecting Intacct on Invoiced
 
@@ -187,6 +179,14 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** > **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
 
 Below we have documented commonly encountered errors and recommended resolutions. If you are still unable to get your books synced then please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
+
+### Finding Your Intacct Company ID
+
+Your Intacct company ID is required in order to connect the integration. You can obtain your company ID from Intacct with these steps:
+
+1. Within the Intacct application, hover over the **Company** tab and click **Company Info**.
+
+2. You should see an *ID* field. This is the company ID that you will use in the connection steps below.
 
 ### 401 Error
 
