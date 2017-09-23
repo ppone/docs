@@ -199,3 +199,15 @@ We could not connect to Intacct using the credentials you provided. Please make 
 > A transaction with the number 'XXX' already exists.
 
 If you see this error message then there is already a different invoice with the same number on Intacct. It is recommended that you choose a unique invoice # for the invoice that is being synced.
+
+### Please provide a payment batch key
+
+> Please provide a payment batch key.
+
+Change the Payments Summary frequency to either Daily or Monthly. To do so, complete the following steps in Intacct:
+
+1. Hover over the Accounts Receivable tab
+2. Click Configure Accounts Receivable
+3. Scroll down to Summary Frequency in the Accounting Settings section
+4. Change the Payments field to either Daily or Monthly and Save the changes
+5. Retry the sync
