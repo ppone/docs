@@ -42,7 +42,7 @@ The next step is to set up a web services user for Invoiced on Intacct. It is re
    
    [![Intacct Web Services User Setup](../img/intacct-web-services-user.png)](../img/intacct-web-services-user.png)
 
-4. Next you need to configure permissions for the Invoiced user. On the subscriptions page check the **Accounts Receivable** module.
+4. Next you need to configure permissions for the Invoiced user. On the subscriptions page check the **Accounts Receivable** and **General Ledger** modules.
 
    [![Intacct Subscriptions Setup](../img/intacct-web-services-user-subscriptions.png)](../img/intacct-web-services-user-subscriptions.png)
 
@@ -50,7 +50,9 @@ The next step is to set up a web services user for Invoiced on Intacct. It is re
 
    [![Intacct Permissions Setup](../img/intacct-web-services-user-permissions.png)](../img/intacct-web-services-user-permissions.png)
 
-6. Click **Save** on the subscriptions page. You should have received an email with the company ID, username, and password information.
+6. Click on the **Permissions** button next to the General Ledger module. Select the **Read only** radio in the top right. Click **Save**.
+
+7. Click **Save** on the subscriptions page. You should have received an email with the company ID, username, and password information.
 
 ### Connecting Intacct on Invoiced
 
