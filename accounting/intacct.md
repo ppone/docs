@@ -76,9 +76,9 @@ Now you can configure the accounting sync in order to tell Invoiced how to map t
 
    [![Intacct Integration Settings](../img/intacct-integration-settings.png)](../img/intacct-integration-settings.png)
 
-2. Enter in the item account label from your G/L on Intacct. This is the default account where new line items are mapped.
+2. Select the item account from your G/L on Intacct. This is the default account where new line items are mapped.
 
-3. Enter in the undeposited funds account label from your G/L on Intacct. This is where payments received through Invoiced will be mapped.
+3. Select the undeposited funds account label from your G/L on Intacct. This is where payments received through Invoiced will be mapped.
 
 4. You can optionally enter in a location ID and/or department ID if you are operating a multi-entity Intacct company.
 
