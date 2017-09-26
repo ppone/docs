@@ -7,7 +7,7 @@ Invoiced integrates with QuickBooks Online out of the box to extend the billing 
 The QuickBooks Online integration ships with the following capabilities:
 
 - Importing outstanding invoices from QuickBooks Online
-- Importing contacts from QuickBo   oks Online
+- Importing contacts from QuickBooks Online
 - Writing invoices generated on Invoiced to QuickBooks Online
 - Reconciling payments received on Invoiced to QuickBooks Online
 
@@ -150,6 +150,8 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 - Any changes to invoices imported from QuickBooks that are later modified on Invoiced will not be synced to QuickBooks. However, any payments received for imported invoices will be synced.
 
 - If a line item on Invoiced has a catalog item attached, then the item created on QuickBooks will have its SKU set to the catalog item ID.
+
+- If a synced payment is refunded on Invoiced, the refund amount will be deducted from the original payment on QuickBooks.
 
 ## Troubleshooting
 
