@@ -12,6 +12,10 @@ The underlying templates are HTML and CSS. Both the layout and styling can be cu
 
 After saving any changes you can download a PDF preview by clicking the **Preview** button near the top right of the page. You can also see the generated HTML on a live invoice that has your customizations applied by opening the client view and appending `/html` to the URL, i.e. `https://dundermifflin.invoiced.com/invoices/IZmXbVOPyvfD3GPBmyd6FwXX/html`.
 
+## Resetting a Template
+
+If you want to reset any of the specific templates to the default then simply delete all of the text for that template and click **Save**. This will revert that template back to the default value.
+
 ## Variable Reference
 
 These variables can be used in the Mustache templates.
