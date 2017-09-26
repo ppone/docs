@@ -56,22 +56,26 @@ A hash containing the same properties as the [Customer object](/docs/api/#custom
 
 A hash containing these properties:
 
-- `status` - Could be `draft`, `not_sent`, `sent`, `viewed`, `past_due`, `paid`, `bad_debt`
+- `status` - Could be `draft`, `not_sent`, `sent`, `viewed`, `past_due`, `pending`, `paid`, `bad_debt`
 - `url` - Client view URL
 - `payment_url` - URL for the payment page in the billing portal
 - `number`
 - `date`
 - `due_date`
+- `autopay`
 - `payment_terms`
 - `purchase_order`
 - `items` - An array of line items. See [Line Item Object](#line-item-object).
+- `show_subtotal` - True when there are one or more discounts or taxes applied to the invoice.
 - `subtotal`
-- `rates` - An ordered array of any discounts and taxes applied to the invoice. See [Rate Object](#rate-object).
+- `rates` - An array of discounts and taxes applied to the invoice. See [Rate Object](#rate-object).
 - `total`
 - `amount_paid`
 - `balance`
 - `terms` - Terms and conditions
 - `notes` - Invoice notes
+- `customFields` - An array of custom fields. See [Custom Field Object](#custom-field-object)
+- `metadata` - object containing any key-value metadata
 
 ### Line Item Object
 
@@ -80,11 +84,21 @@ A hash containing these properties:
 - `unit_cost`
 - `amount`
 - `description`
+- `billing_period`
 - `rates` - summary of any line item discounts/taxes (string)
+- `metadata` - object containing any key-value metadata
 
 ### Rate Object
 
-A hash containing a summary of a specific rate (discount or tax) applied to an invoice. Contains the properties `name` and `total`.
+Summary of a discount or tax applied to an invoice. A hash containing these properties:
+- `name`
+- `total`
+
+### Custom Field Object
+
+A hash containing these properties:
+- `name`
+- `value`
 
 ### Transaction Object
 
@@ -92,10 +106,13 @@ A hash containing these properties:
 - `date`
 - `amount`
 - `invoices`
+- `credit_notes`
 - `amount_refunded`
 - `amount_credited`
 - `method`
+- `payment_source`
 - `check_no`
+- `metadata` - object containing any key-value metadata
 
 ### Statement Object
 
