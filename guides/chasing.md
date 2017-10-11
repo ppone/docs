@@ -64,6 +64,36 @@ The email template used for chasing reminders depends on the invoice's status.
 
 You can learn more about customizing email templates in the [Emails Guide](emails#customizing-email-templates).
 
+## Manually Scheduling Invoices
+
+In addition to the global chasing schedule, you can also schedule arbitrary follow ups on a specific invoice. You might use this if you want to follow up on a specific invoice far into the future. Simply schedule the follow up and Invoiced will do it for you when it's time!
+
+Scheduling invoices to be sent into the future only requires that chasing is enabled globally. It does not require you to set up a chasing schedule. Follow these steps in order to schedule a follow up for an invoice:
+
+1. Ensure that **Allow Chasing** is enabled in **Settings** > **Chasing**. You only need to enable this once for your account.
+
+   [![Chasing is enabled globally](../img/scheduling-invoices-1.png)](../img/scheduling-invoices-1.png)
+
+2. Open the invoice that you want Invoiced to follow up on.
+
+   [![Invoice you want to schedule](../img/scheduling-invoices-2.png)](../img/scheduling-invoices-2.png)
+
+3. Click **More** > **Enable Chasing**.
+
+   [![Enable invoice chasing](../img/scheduling-invoices-3.png)](../img/scheduling-invoices-3.png)
+
+4. In the *Invoice Details* section you should see that chasing is enabled. If you have a chasing schedule then *Next Follow Up* might be set to a date already. If not, then it will say *Not scheduled*.
+
+   [![No follow ups scheduled](../img/scheduling-invoices-4.png)](../img/scheduling-invoices-4.png)
+
+5. Click on **Schedule** below *Next Follow Up* (or **Modify** if there is already a scheduled follow up).
+
+   [![Scheduling an automatic follow up](../img/scheduling-invoices-5.png)](../img/scheduling-invoices-5.png)
+
+6. Enter in the date you want Invoiced to follow up on the invoice and click **Save**. Your follow up is scheduled. Invoiced will follow up on the date you've selected and no further action is needed.
+
+   [![Invoice follow up is now scheduled](../img/scheduling-invoices-6.png)](../img/scheduling-invoices-6.png)
+
 ## Examples
 
 Here are a few examples how Invoiced will behave given a chasing schedule.
