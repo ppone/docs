@@ -54,7 +54,7 @@ Let's walk through a basic scenario where we set up AutoPay for a customer by se
 
    Go to **Settings** > **Payments** to enable **Credit Card** or **ACH** payments.
 
-   [![Enabling credit card payments](../img/invoice-enable-credit-card.png)](../img/invoice-enable-credit-card.png)
+   [![Enabling credit card or ACH payments](../img/payment-settings.png)](../img/payment-settings.png)
 
 2. Turn on AutoPay for your customer
 
