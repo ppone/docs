@@ -2,7 +2,7 @@
 
 Zapier allows you to easily build and automate workflows between Invoiced and more than 700 other cloud apps (at the time of this writing).
 
-You can install the [Invoiced Zapier integration here](https://zapier.com/developer/invite/52976/ecc903523c3cf36a8288febfcc73ec7e/).
+You can install the [Invoiced Zapier integration here](https://zapier.com/zapbook/invoiced).
 
 [![Zapier Integration](../img/zapier-integration.png)](../img/zapier-integration.png)
 
