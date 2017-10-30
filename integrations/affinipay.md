@@ -35,15 +35,19 @@ Connecting AffiniPay is a straightforward process. Follow these steps to start a
 
    [![LawPay Payments Setup](../img/lawpay-setup.png)](../img/lawpay-setup.png)
 
-4. Click **Connect your LawPay account**. You will be taken to a screen to sign into your LawPay account.
+4. Click **Connect your LawPay account**. You will be taken to a screen to sign into your LawPay account, if you are not already signed in. Enter in your LawPay username and password and click **Sign In**.
 
-   [![LawPay Settings Page](../img/lawpay-connect.png)](../img/lawpay-connect.png)
+   [![LawPay Login Page](../img/lawpay-connect.png)](../img/lawpay-connect.png)
 
-5. Enter in your LawPay username and password and click **Sign In**.
+5. You then need to authorize the Invoiced application by clicking  **Authorize**.
+
+   [![LawPay Authorize Page](../img/lawpay-authorize.png)](../img/lawpay-authorize.png)
+
+6. Your LawPay account is now connected and the payment method is enabled.
 
    [![LawPay Payments Enabled](../img/lawpay-enabled.png)](../img/lawpay-enabled.png)
 
-6. Your LawPay account is now connected and the payment method is enabled. You might need to change the default AffiniPay account that will be used to receive payments. We will select the operating account by default, however, you may wish to receive payments in a different account.
+7. You might need to change the default AffiniPay account that will be used to receive payments. We will select the operating account by default, however, you may wish to receive payments in a different account.
 
    [![LawPay Change Default Account](../img/lawpay-change-default-account.png)](../img/lawpay-change-default-account.png)
 
