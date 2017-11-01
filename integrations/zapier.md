@@ -28,3 +28,7 @@ You can perform the following actions on Invoiced from Zapier:
 You can search for the following records on Invoiced in your Zapier workflows:
 
 - Find or Create Customer
+
+## Zap Templates
+
+<script src="https://zapier.com/zapbook/embed/widget.js?services=invoiced&container=true&limit=10"></script>
