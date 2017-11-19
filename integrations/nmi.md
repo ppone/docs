@@ -27,7 +27,7 @@ Connecting NMI is a straightforward process. Follow these steps to start accepti
 
    [![NMI Payments Setup](../img/nmi-setup.png)](../img/nmi-setup.png)
 
-4. Click **Connect your NMI account**.
+4. Click **Connect to NMI**.
 
    [![NMI Settings Page](../img/nmi-connect.png)](../img/nmi-connect.png)
 

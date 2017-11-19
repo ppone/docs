@@ -26,7 +26,7 @@ Connecting Merchant e-Solutions is a straightforward process. Follow these steps
 
    [![Merchant e-Solutions Payments Setup](../img/merchant-e-solutions-setup.png)](../img/merchant-e-solutions-setup.png)
 
-4. Click **Connect your Merchant e-Solutions account**.
+4. Click **Connect to Merchant e-Solutions**.
 
    [![Merchant e-Solutions Settings Page](../img/merchant-e-solutions-connect.png)](../img/merchant-e-solutions-connect.png)
 

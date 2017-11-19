@@ -27,7 +27,7 @@ Connecting BluePay is a straightforward process. Follow these steps to start acc
 
    [![BluePay Payments Setup](../img/bluepay-setup.png)](../img/bluepay-setup.png)
 
-4. Click **Connect your BluePay account**.
+4. Click **Connect to BluePay**.
 
    [![BluePay Settings Page](../img/bluepay-connect.png)](../img/bluepay-connect.png)
 

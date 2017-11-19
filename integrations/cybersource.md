@@ -1,10 +1,10 @@
-# Worldpay Integration
+# CyberSource Integration
 
-This document details how to connect the [Worldpay](https://worldpay.com) payment gateway to accept payments and how our integration works.
+This document details how to connect the [CyberSource](https://cybersource.com) payment gateway to accept payments and how our integration works.
 
 ## Capabilities
 
-The Worldpay payment gateway on Invoiced supports the following features:
+The CyberSource payment gateway on Invoiced supports the following features:
 
 - [Credit card payments](/docs/payments/card)
 - [ACH payments](/docs/payments/ach) (U.S. only)
@@ -13,7 +13,7 @@ The Worldpay payment gateway on Invoiced supports the following features:
 
 ## Setup
 
-Connecting Worldpay is a straightforward process. Follow these steps to start accepting payments through Worldpay in minutes. These steps assume you already have a Worldpay account.
+Connecting CyberSource is a straightforward process. Follow these steps to start accepting payments through CyberSource in minutes. These steps assume you already have a CyberSource account.
 
 1. From the Invoiced dashboard go to **Settings** > **Payments**.
 
@@ -23,17 +23,17 @@ Connecting Worldpay is a straightforward process. Follow these steps to start ac
 
    [![Credit Card Payments Setup](../img/credit-card-payment-setup.png)](../img/credit-card-payment-setup.png)
 
-3. Select **Worldpay** as the payment gateway.
+3. Select **CyberSource** as the payment gateway.
 
-   [![Worldpay Payments Setup](../img/worldpay-setup.png)](../img/worldpay-setup.png)
+   [![CyberSource Payments Setup](../img/cybersource-setup.png)](../img/cybersource-setup.png)
 
-4. Click **Connect to Worldpay**.
+4. Click **Connect to CyberSource**.
 
-   [![Worldpay Settings Page](../img/worldpay-connect.png)](../img/worldpay-connect.png)
+   [![CyberSource Settings Page](../img/cybersource-connect.png)](../img/cybersource-connect.png)
 
-5. Enter in your Worldpay **Account ID**, **Sub ID**, and **Merchant PIN** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
+5. Enter in your CyberSource **Merchant ID** and **Transaction Key** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
 
-   [![Worldpay Payments Enabled](../img/worldpay-enabled.png)](../img/worldpay-enabled.png)
+   [![CyberSource Payments Enabled](../img/cybersource-enabled.png)](../img/cybersource-enabled.png)
 
 ## Client Workflow
 
@@ -51,4 +51,4 @@ Customers can pay with ACH just as easily as with credit cards. The key differen
 
 ## Support
 
-When you signed up for Worldpay you should have received an onboarding packet. This will contain the contact information for getting swift help from Worldpay.
+Need help with your CyberSource account? You can get help by contacting your CyberSource account representative.

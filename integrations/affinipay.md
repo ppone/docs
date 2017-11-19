@@ -35,7 +35,7 @@ Connecting AffiniPay is a straightforward process. Follow these steps to start a
 
    [![LawPay Payments Setup](../img/lawpay-setup.png)](../img/lawpay-setup.png)
 
-4. Click **Connect your LawPay account**. You will be taken to a screen to sign into your LawPay account, if you are not already signed in. Enter in your LawPay username and password and click **Sign In**.
+4. Click **Connect to LawPay**. You will be taken to a screen to sign into your LawPay account, if you are not already signed in. Enter in your LawPay username and password and click **Sign In**.
 
    [![LawPay Login Page](../img/lawpay-connect.png)](../img/lawpay-connect.png)
 

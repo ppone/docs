@@ -1,10 +1,10 @@
-# Worldpay Integration
+# Elavon Integration
 
-This document details how to connect the [Worldpay](https://worldpay.com) payment gateway to accept payments and how our integration works.
+This document details how to connect the [Elavon Converge](https://elavon.com) payment gateway to accept payments and how our integration works.
 
 ## Capabilities
 
-The Worldpay payment gateway on Invoiced supports the following features:
+The Elavon Converge payment gateway on Invoiced supports the following features:
 
 - [Credit card payments](/docs/payments/card)
 - [ACH payments](/docs/payments/ach) (U.S. only)
@@ -13,7 +13,7 @@ The Worldpay payment gateway on Invoiced supports the following features:
 
 ## Setup
 
-Connecting Worldpay is a straightforward process. Follow these steps to start accepting payments through Worldpay in minutes. These steps assume you already have a Worldpay account.
+Connecting Elavon is a straightforward process. Follow these steps to start accepting payments through Elavon in minutes. As a prerequisite, it is recommended that you create a separate API user on Elavon for Invoiced rather than using your admin account These steps assume you already have a Elavon account.
 
 1. From the Invoiced dashboard go to **Settings** > **Payments**.
 
@@ -23,17 +23,17 @@ Connecting Worldpay is a straightforward process. Follow these steps to start ac
 
    [![Credit Card Payments Setup](../img/credit-card-payment-setup.png)](../img/credit-card-payment-setup.png)
 
-3. Select **Worldpay** as the payment gateway.
+3. Select **Elavon** as the payment gateway.
 
-   [![Worldpay Payments Setup](../img/worldpay-setup.png)](../img/worldpay-setup.png)
+   [![Elavon Payments Setup](../img/elavon-setup.png)](../img/elavon-setup.png)
 
-4. Click **Connect to Worldpay**.
+4. Click **Connect to Elavon**.
 
-   [![Worldpay Settings Page](../img/worldpay-connect.png)](../img/worldpay-connect.png)
+   [![Elavon Settings Page](../img/elavon-connect.png)](../img/elavon-connect.png)
 
-5. Enter in your Worldpay **Account ID**, **Sub ID**, and **Merchant PIN** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
+5. Enter in your Elavon **Merchant ID**, **User ID**, and **PIN** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
 
-   [![Worldpay Payments Enabled](../img/worldpay-enabled.png)](../img/worldpay-enabled.png)
+   [![Elavon Payments Enabled](../img/elavon-enabled.png)](../img/elavon-enabled.png)
 
 ## Client Workflow
 
@@ -51,4 +51,4 @@ Customers can pay with ACH just as easily as with credit cards. The key differen
 
 ## Support
 
-When you signed up for Worldpay you should have received an onboarding packet. This will contain the contact information for getting swift help from Worldpay.
+Need help with your Elavon account? You can get help by contacting your Elavon account representative.

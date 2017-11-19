@@ -223,12 +223,24 @@
           "name": "Chase Paymentech"
         },
         {
+          "id": "cybersource",
+          "name": "CyberSource"
+        },
+        {
+          "id": "elavon",
+          "name": "Elavon"
+        },
+        {
           "id": "intuit-payments",
           "name": "Intuit Payments"
         },
         {
           "id": "merchant-e-solutions",
           "name": "Merchant e-Solutions"
+        },
+        {
+          "id": "moneris",
+          "name": "Moneris"
         },
         {
           "id": "nmi",

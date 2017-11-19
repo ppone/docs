@@ -31,7 +31,7 @@ Connecting Chase Paymentech Orbital is a straightforward process. Follow these s
 
    [![Chase Paymentech Orbital Payments Setup](../img/chase-paymentech-setup.png)](../img/chase-paymentech-setup.png)
 
-4. Click **Connect your Chase Paymentech Orbital account**.
+4. Click **Connect to Chase Paymentech Orbital**.
 
    [![Chase Paymentech Orbital Settings Page](../img/chase-paymentech-connect.png)](../img/chase-paymentech-connect.png)
 

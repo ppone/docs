@@ -27,7 +27,7 @@ Connecting USAePay is a straightforward process. Follow these steps to start acc
 
    [![USAePay Payments Setup](../img/usaepay-setup.png)](../img/usaepay-setup.png)
 
-4. Click **Connect your USAePay account**.
+4. Click **Connect to USAePay**.
 
    [![USAePay Settings Page](../img/usaepay-connect.png)](../img/usaepay-connect.png)
 

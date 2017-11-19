@@ -27,7 +27,7 @@ Connecting Authorize.Net is a straightforward process. Follow these steps to sta
 
    [![Authorize.Net Payments Setup](../img/authorizenet-setup.png)](../img/authorizenet-setup.png)
 
-4. Click **Connect your Authorize.Net account**.
+4. Click **Connect to Authorize.Net**.
 
    [![Authorize.Net Settings Page](../img/authorizenet-connect.png)](../img/authorizenet-connect.png)
 

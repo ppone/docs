@@ -26,7 +26,7 @@ Connecting Payeezy is a straightforward process. Follow these steps to start acc
 
    [![Payeezy Payments Setup](../img/payeezy-setup.png)](../img/payeezy-setup.png)
 
-4. Click **Connect your Payeezy account**.
+4. Click **Connect to Payeezy**.
 
    [![Payeezy Settings Page](../img/payeezy-connect.png)](../img/payeezy-connect.png)
 

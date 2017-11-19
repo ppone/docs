@@ -26,7 +26,7 @@ Connecting Braintree is a straightforward process. Follow these steps to start a
 
    [![Braintree Payments Setup](../img/braintree-setup.png)](../img/braintree-setup.png)
 
-4. Click **Connect your Braintree account**.
+4. Click **Connect to Braintree**.
 
    [![Braintree Settings Page](../img/braintree-connect.png)](../img/braintree-connect.png)
 
