@@ -51,6 +51,18 @@ Connecting AffiniPay is a straightforward process. Follow these steps to start a
 
    [![LawPay Change Default Account](../img/lawpay-change-default-account.png)](../img/lawpay-change-default-account.png)
 
+## Using Multiple Accounts (Trust or Operating)
+
+We support working with multiple merchant accounts on LawPay for the purpose of trust accounting. The default is for invoice payments to go to your operating account, however, you can also choose on the invoice level whether received payments should go in your trust or operating account. Please follow the instructions below to use this feature:
+
+1. Go to the new invoice screen.
+
+2. Click **Options** in the top right. You should see a *Merchant Account* option if you have multiple LawPay accounts. Select the account where payment should go for this invoice.
+
+   [![LawPay Trust Accounting](../img/lawpay-trust-accounting.png)](../img/lawpay-trust-accounting.png)
+
+4. Finish creating your invoice as normal.
+
 ## Client Workflow
 
 ### Credit Cards
