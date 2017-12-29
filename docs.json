@@ -251,10 +251,6 @@
           "name": "Payeezy"
         },
         {
-          "id": "salesforce",
-          "name": "Salesforce"
-        },
-        {
           "id": "slack",
           "name": "Slack"
         },
