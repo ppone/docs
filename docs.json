@@ -93,10 +93,6 @@
           "name": "PayPal"
         },
         {
-          "id": "bitcoin",
-          "name": "Bitcoin"
-        },
-        {
           "id": "offline-payments",
           "name": "Offline Payments"
         },

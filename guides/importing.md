@@ -83,7 +83,7 @@ Steps to import Payments:
 #### Tips
 
 - The required fields are *Amount* and one of *Invoice #*, *Invoice ID*, *Customer Name*, *Customer ID*, or *Account #*.
-- The payment method can be one of `credit_card`, `ach`, `bitcoin`, `paypal`, `check`, `wire_transfer`, `cash`, `other`
+- The payment method can be one of `credit_card`, `ach`, `paypal`, `check`, `wire_transfer`, `cash`, `other`
 - When the payment method is `check` you can pass in a check # with the *Transaction ID* field
 - The *Gateway* field should only be used when tracking electionic payments
 
