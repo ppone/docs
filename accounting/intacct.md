@@ -176,6 +176,8 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 - Any changes to invoices imported from Intacct that are later modified on Invoiced will not be synced to Intacct. However, any payments received for imported invoices will be synced.
 
+- Line items on invoices imported from Intacct will always have a quantity of `1`.
+
 ## Troubleshooting
 
 When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** > **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
