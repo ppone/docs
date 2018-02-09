@@ -59,7 +59,7 @@ In this section you will learn how to use the QuickBooks Online integration.
 
 Auto-sync will run accounting syncs automatically for you on an ongoing basis. Once auto-sync is enabled, accounting syncs will happen approximately once per hour. Here's how you can enable auto-sync:
 
-1. Go to **Settings** > **Accounting Sync**.
+1. Go to **Settings** > **Accounting Sync**. Select **QuickBooks Online** as your accounting system, if not already selected.
 
    [![QuickBooks Online Connected](../img/accounting-sync-qbo-connected.png)](../img/qbo-connected.png)
 
@@ -71,7 +71,7 @@ Auto-sync will run accounting syncs automatically for you on an ongoing basis. O
 
 If you want control over when your books are synced then you can manually trigger accounting syncs. You can run an accounting sync by following these steps:
 
-1. Go to **Settings** > **Accounting Sync**.
+1. Go to **Settings** > **Accounting Sync**. Select **QuickBooks Online** as your accounting system, if not already selected.
 
    [![QuickBooks Online Connected](../img/accounting-sync-qbo-connected.png)](../img/qbo-connected.png)
 
