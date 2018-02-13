@@ -57,6 +57,8 @@ When a customer decides to pay with ACH they must first connect a bank account a
 
 [![Stripe ACH Verification](../img/stripe-add-bank-account.png)](../img/stripe-add-bank-account.png)
 
+**NOTE: Your Stripe account might have a dollar limit for individual ACH transactions, i.e. customers cannot submit payments greater than $2,000. We recommend checking with Stripe support to confirm if there are any ACH limits for your account and if it needs to be raised to accommodate the size of your transactions. This should be done before you allow customers to pay with ACH.**
+
 #### Instant Verification
 
 We support instant verification for select banks, like Chase and Wells Fargo. Instant verification works by asking your customer to securely sign into their online banking account to prove access. Once they sign in they will be able to select the account they want to pay with, all without ever having to enter a bank account and routing number.
