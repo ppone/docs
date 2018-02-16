@@ -44,6 +44,8 @@ The QuickBooks Desktop integration works with these versions of QuickBooks (Wind
 
 6. Download the `invoice.qwc` and `payment.qwc` files and open the each file in QuickBooks Web Connector.
 
+  [![QuickBooks Desktop Enable Sync](../img/qb-desktop-enable-sync.png)](../img/qb-desktop-enable-sync.png)
+
 7. Enter in the generated password for each sync you enable. Make sure you do this before closing the configuration screen on Invoiced because the password is irretrievable once you click **Done**.
 
 ## Usage
@@ -58,9 +60,11 @@ These are the steps to run an invoice sync. This will pull in any outstanding in
 
 2. Close any open windows on QuickBooks associated with the documents that will be synced.
 
-3. Check the invoice sync and click **Update Selected**.
+3. Check *Invoice Sync* and click **Update Selected**.
 
 4. When the sync has completed you should see your invoices on Invoiced.
+
+   [![QuickBooks Desktop Successful Invoice Sync](../img/qb-desktop-successful-invoice-sync.png)](../img/qb-desktop-successful-invoice-sync.png)
 
 ### Syncing payments
 
@@ -70,13 +74,17 @@ These are the steps to run an invoice sync. This will push any payments received
 
 2. Close any open windows on QuickBooks associated with the documents that will be synced.
 
-3. Check the payment sync and click **Update Selected**.
+3. Check *Payment Sync* and click **Update Selected**.
 
 4. When the sync has completed you should see your payments on QuickBooks.
 
+   [![QuickBooks Desktop Successful Payment Sync](../img/qb-desktop-successful-payment-sync.png)](../img/qb-desktop-successful-payment-sync.png)
+
 ### Turning on automatic syncing
 
-You can tell QuickBooks Web Connector to run syncs automatically by turning on the **Auto-Run** setting and specifying how often you want the sync to run in the **Every_Min** box. 
+You can tell QuickBooks Web Connector to run syncs automatically by turning on the **Auto-Run** setting and specifying how often you want the sync to run in the **Every_Min** box.
+
+   [![QuickBooks Desktop Auto Run](../img/qb-desktop-enable-auto-run.png)](../img/qb-desktop-enable-auto-run.png) 
 
 ## Edge Cases
 
@@ -97,3 +105,15 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** > **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
 
 Below we have documented commonly encountered errors and recommended resolutions. If you are still unable to get your books synced then please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
+
+### Sync is not working
+
+Please make sure you are connected to the internet in order to connect to Invoiced.
+
+### Mismatched password
+
+Every time you download a .qwc file please make sure you are using the associated password. Each time you generate a configuration this will generate a fresh password.
+
+### Updating the .qwc file
+
+If you are installing a new .qwc file, please make sure that you clear out the old sync first if you are replacing an existing sync.
