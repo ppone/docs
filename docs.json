@@ -29,6 +29,10 @@
           "name": "Taxes"
         },
         {
+          "id": "credit",
+          "name": "Credit Notes"
+        },
+        {
           "id": "emails",
           "name": "Emails"
         },
