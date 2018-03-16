@@ -116,7 +116,7 @@ If you want control over when your books are synced then you can manually trigge
 
 ### Manual Invoice Imports
 
-You can import outstanding invoices from Intacct as a one-time import. If you are using accounting sync then that will continually bring in outstanding invoices and a manual import is not needed.
+You can import outstanding invoices from Intacct using the invoice importer. With the Intacct invoice importer you have the option to pull in invoices from the **Accounts Receivable** or **Order Entry** module, depending on where you create your invoices. If you are using the Order Entry module then it is recommended to import invoices from there as the invoices will have more detail, such as the line item quantity.
 
 Instructions:
 
@@ -128,9 +128,9 @@ Instructions:
 
    [![Invoice Importer](../img/invoice-importer.png)](../img/invoice-importer.png)
 
-3. Click **Start**.
+3. Configure the importer, such as selecting the module to import from and the sales document type. When ready to import, click **Start**.
 
-   [![Start Intacct Invoice Import](../img/intacct-invoice-importer.png)](../img/intacct-invoice-importer.png)
+   [![Start Intacct Invoice Import](../img/intacct-invoice-importer-options.png)](../img/intacct-invoice-importer-options.png)
 
 4. The importer will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
 
@@ -176,7 +176,11 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 - Any changes to invoices imported from Intacct that are later modified on Invoiced will not be synced to Intacct. However, any payments received for imported invoices will be synced.
 
-- Line items on invoices imported from Intacct will always have a quantity of `1`.
+- Line items on A/R invoices imported from Intacct will always have a quantity of `1`. Line items imported from the Order Entry module will have the correct quantity.
+
+- Editing invoices imported from the Intacct Order Entry module, after they have been imported, can cause sync errors and might need to be reconciled by hand. 
+
+- When importing bill to contacts instead of customers, the customer on Invoiced will use the information from the bill to contact instead of the Intacct customer. This means the name and details will match the bill to contact, and will result in multiple Invoiced customers for a single Intacct customer. The customer number on Invoiced will be auto-generated and will not match the one on Intacct because there are multiple Invoiced customers that could have the same account number.
 
 ## Troubleshooting
 
