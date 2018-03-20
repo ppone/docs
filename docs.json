@@ -13,14 +13,6 @@
           "name": "Subscription Billing"
         },
         {
-          "id": "autopay",
-          "name": "AutoPay"
-        },
-        {
-          "id": "payment-plans",
-          "name": "Payment Plans"
-        },
-        {
           "id": "coupons",
           "name": "Coupons"
         },
@@ -103,6 +95,14 @@
         {
           "id": "paypal",
           "name": "PayPal"
+        },
+        {
+          "id": "autopay",
+          "name": "AutoPay"
+        },
+        {
+          "id": "payment-plans",
+          "name": "Payment Plans"
         },
         {
           "id": "offline-payments",
