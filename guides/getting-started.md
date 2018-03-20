@@ -58,18 +58,6 @@ For example, this is what it would look like if your customer decided to pay wit
 
 Once your customer pays online then we will record the payment automatically in the dashboard and give them a receipt.
 
-#### Receiving offline payments like checks and wire transfers
-
-If your client chooses to pay using an offline payment method, like a check, then we will display your payment instructions to them on the payment page. They can even let you know once the check is in the mail.
-
-[![Pay invoice with check](/docs/img/pay-invoice-offline.png)](/docs/img/pay-invoice-offline.png)
-
-Once you receive the payment you will need to record the payment through the dashboard in order to mark the invoice as paid. You can do this by going to the **Payments** section, clicking **Record Payment**, fill in the form, and finally click **Save**.
-
-[![Record Invoice Payment](/docs/img/record-invoice-payment.png)](/docs/img/record-invoice-payment.png)
-
-Voilà, the invoice is now marked as paid.
-
 ### What's next?
 
 This tutorial has shown you what a simple invoicing workflow looks like with Invoiced. We recommend checking out our other guides to learn how to solve more complex billing workflows and set up automation for tedious billing tasks. There are guides for [subscription billing](/docs/guides/subscription-billing), [chasing](/docs/guides/chasing), [payments](/docs/payments), and more.

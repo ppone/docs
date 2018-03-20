@@ -1,4 +1,4 @@
-# Credit Applications
+# Credit Balances
 
 Invoiced includes a robust credit system. In a nutshell, the credits feature on Invoiced allows credits to be issued to customers that can be used to pay outstanding invoices.
 

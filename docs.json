@@ -106,11 +106,11 @@
         },
         {
           "id": "offline-payments",
-          "name": "Offline Payments"
+          "name": "Cash Application"
         },
         {
           "id": "credits",
-          "name": "Credit Applications"
+          "name": "Credit Balances"
         },
         {
           "id": "gateways",

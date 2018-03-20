@@ -1,6 +1,6 @@
-# Offline Payments
+# Cash Application
 
-Invoiced lets you give instructions to your clients for the offline payments methods you accept. Customers can then notify you when the check is in the mail.
+Invoiced lets you display instructions to your clients on your invoices for offline payment methods you accept, like check and wire transfer. Customers can even notify you through the customer portal when the check is in the mail. When a payment is received outside of Invoiced, we give you tools to apply those incoming payments to outstanding invoices.
 
 ## Setup
 
@@ -26,7 +26,17 @@ When your client selects any of your offline payment methods we will show them y
 
 [![Pay invoice with check](../img/pay-invoice-offline.png)](../img/pay-invoice-offline.png)
 
-## Overpayments
+## Recording Offline Payments
+
+Once you receive the payment you will need to record the payment through the dashboard in order to mark the invoice as paid. You can do this by going to the **Payments** section, clicking **Record Payment**, fill in the form, and finally click **Create**.
+
+The form will recognize what invoices are outstanding for the customer and even allow you to intelligently apply the payment across multiple invoices.
+
+[![Record Invoice Payment](/docs/img/record-invoice-payment.png)](/docs/img/record-invoice-payment.png)
+
+Voilà, the invoice is now marked as paid.
+
+## Handling Overpayments
 
 Whenever customers pay electronically Invoiced will always ensure the payment is for the correct amount. However, if you accept offline payments, like checks or wire transfers, it is possible that customers will overpay. We've tried to make handling overpayments as easy as possible.
 
@@ -38,4 +48,4 @@ If your customer pays too much there are two ways it can be handled:
 
 When you record a payment through the dashboard and there is money left over after applying the amount to any outstanding invoices then we will give you a choice to credit or refund the overpayment amount.
 
-Should you choose to refund the overpayment then we will record a refund on Invoiced, however, actually sending those funds back to your customer will be left up to you since the original payment was not electronic.
+Should you choose to refund the overpayment then we will record a refund on Invoiced, however, actually sending those funds back to your customer will be left up to you since the original payment was not processed through Invoiced.
