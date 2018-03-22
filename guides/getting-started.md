@@ -58,6 +58,8 @@ For example, this is what it would look like if your customer decided to pay wit
 
 Once your customer pays online then we will record the payment automatically in the dashboard and give them a receipt.
 
+[![Pay Invoice with Credit Card](/docs/img/invoice-paid-in-full.png)](/docs/img/invoice-paid-in-full.png)
+
 ### What's next?
 
 This tutorial has shown you what a simple invoicing workflow looks like with Invoiced. We recommend checking out our other guides to learn how to solve more complex billing workflows and set up automation for tedious billing tasks. There are guides for [subscription billing](/docs/guides/subscription-billing), [chasing](/docs/guides/chasing), [payments](/docs/payments), and more.
