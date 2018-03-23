@@ -73,6 +73,13 @@ You can choose to add any of these options to customize the signup process.
 
    [![Sign Up Page](../img/sign-up-page.png)](../img/sign-up-page.png)
 
+### Adding Add-ons to Signup Pages
+You can provide an add on option for the customer to choose from on the Signup page. An add-on can be a one time charge or an additional subscription option. The subscription option must match the original subscription plan interval selected. 
+
+   [![Add Ons](../img/addons.png)](../img/addons.png)
+
+You can allow the customer to specify a quantity of the add on and also note if it is a required option. 
+
 ### Signing up customers
 
 All the customer needs to get started is to visit the URL of your sign up page. Sign up pages are hosted on a public but obscured URL within your billing portal.

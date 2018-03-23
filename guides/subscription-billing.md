@@ -175,7 +175,7 @@ What happens when your customer falls in love with your service and wants to pur
 You can edit a subscription by opening the subscription in the dashboard and clicking the *Edit* button in the top right corner.
 
 
-[![Edit Subscription with Prorations](../img/edit-subscription.png)](../img/edit-subscription.png)
+[![Edit Subscription with Prorations](../img/edit-a-subscription.png)](../img/edit-a-subscription.png)
 
 This allows you to change the quantity, add additional add-on items, add a discount, or an additional subscription. 
 
@@ -198,11 +198,14 @@ You can also change the billing period offset as well by clicking **More** > **C
 
 Canceling a subscription is simple. With the subscription open in the dashboard you can click **More** > **Cancel Subscription**.
 
-[![Canceling a Subscription Step 1](../img/cancel-subscription-step1.png)](../img/cancel-subscription-step1.png)
+[![Canceling a Subscription Step 1](../img/cancel-the-subscription.png)](../img/cancel-the-subscription.png)
 
 You can choose whether you want the subscription to be canceled immediately or at the end of the billing period.
 
-[![Canceling a Subscription Step 2](../img/cancel-subscription-step2.png)](../img/cancel-subscription-step2.png)
+[![Canceling a Subscription Step 2](../img/canceling-the-subscription.png)](../img/canceling-the-subscription.png)
+
+When a customer cancels a subscription in the billing portal, the subscription will end at the end of the billing cycle. This also means that the cancellation will not trigger a credit to the customers account. This is because the subscription is pre-paid at the beginning of the billing cycle. 
+
 
 ## FAQs
 
