@@ -8,7 +8,7 @@ The Merchant e-Solutions payment gateway on Invoiced supports the following feat
 
 - [Credit card payments](/docs/payments/card)
 - Vaulting payment information
-- [AutoPay](/docs/guides/autopay)
+- [AutoPay](/docs/payments/autopay)
 
 ## Setup
 

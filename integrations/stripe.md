@@ -9,7 +9,7 @@ The Stripe payment gateway on Invoiced supports the following features:
 - [Credit card payments](/docs/payments/card)
 - [ACH payments](/docs/payments/ach) (U.S. only)
 - Vaulting payment information (credit card, ACH, and SEPA)
-- [AutoPay](/docs/guides/autopay)
+- [AutoPay](/docs/payments/autopay)
 - Apple Pay (one-off payments only)
 - 3-D Secure (one-off payments only)
 - SEPA debits

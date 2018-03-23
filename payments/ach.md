@@ -30,4 +30,4 @@ Customers can select the **ACH** payment method from payment forms. Most payment
 
 ## AutoPay
 
-ACH payments work with [AutoPay](/docs/guides/autopay) when your customer saves a bank account payment source.
+ACH payments work with [AutoPay](/docs/payments/autopay) when your customer saves a bank account payment source.

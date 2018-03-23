@@ -16,11 +16,11 @@ Creating an invoice is a fairly simple process. After all, it's the main thing t
 
 [![Drafting First Invoice](/docs/img/drafting-first-invoice.png)](/docs/img/drafting-first-invoice.png)
 
-Now you are inside of the invoice editor. Let's select the customer that we are invoicing. Click the dropdown where it says *Find or create client* and start typing your customer's name. Since that customer does not exist yet you need to click *Add Joe Customer as a new client*. A new dialog will appear where you can enter your customer's information.
+Now you are inside of the invoice editor. Let's select the customer that we are invoicing. Click the dropdown where it says *Find or create client* and start typing your customer's name. Since that customer does not exist yet you need to click *Add My First Customer as a new client*. A new dialog will appear where you can enter your customer's information.
 
 [![Creating First Customer](/docs/img/create-first-customer.png)](/docs/img/create-first-customer.png)
 
-How do you expect to get paid from this customer? When **AutoPay** is disabled (the default) your customer will be able to pay invoices using any of the payment methods you accept, according to the payment terms you specify. If you enable [AutoPay](autopay) then your customer's payment source will be charged for any invoices issued against their account.
+How do you expect to get paid from this customer? When **AutoPay** is disabled (the default) your customer will be able to pay invoices using any of the payment methods you accept, according to the payment terms you specify. If you enable [AutoPay](/docs/payments/autopay) then your customer's payment source will be charged for any invoices issued against their account.
 
 For this example we're going to leave AutoPay disabled and use *Net 7* payment terms. This means that payment is due within 7 days. Once you have entered in your customer's information then you can click **Create**.
 

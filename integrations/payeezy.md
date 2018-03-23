@@ -8,7 +8,7 @@ The Payeezy payment gateway on Invoiced supports the following features:
 
 - [Credit card payments](/docs/payments/card)
 - Vaulting payment information (credit card only)
-- [AutoPay](/docs/guides/autopay) (credit card only)
+- [AutoPay](/docs/payments/autopay) (credit card only)
 
 ## Setup
 

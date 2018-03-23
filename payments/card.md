@@ -28,4 +28,4 @@ Paying with credit or debit card is fairly straightforward for customers. When a
 
 ## AutoPay
 
-Credit card payments work with [AutoPay](/docs/guides/autopay) when your customer saves their card as a payment source.
+Credit card payments work with [AutoPay](/docs/payments/autopay) when your customer saves their card as a payment source.
