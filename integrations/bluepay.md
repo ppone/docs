@@ -9,7 +9,7 @@ The BluePay payment gateway on Invoiced supports the following features:
 - [Credit card payments](/docs/payments/card)
 - [ACH payments](/docs/payments/ach) (U.S. only)
 - Vaulting payment information (credit card and ACH)
-- [AutoPay](/docs/guides/autopay)
+- [AutoPay](/docs/payments/autopay)
 
 ## Setup
 

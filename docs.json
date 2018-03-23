@@ -13,14 +13,6 @@
           "name": "Subscription Billing"
         },
         {
-          "id": "autopay",
-          "name": "AutoPay"
-        },
-        {
-          "id": "payment-plans",
-          "name": "Payment Plans"
-        },
-        {
           "id": "coupons",
           "name": "Coupons"
         },
@@ -29,7 +21,7 @@
           "name": "Taxes"
         },
         {
-          "id": "credit",
+          "id": "credit-notes",
           "name": "Credit Notes"
         },
         {
@@ -105,12 +97,20 @@
           "name": "PayPal"
         },
         {
+          "id": "autopay",
+          "name": "AutoPay"
+        },
+        {
+          "id": "payment-plans",
+          "name": "Payment Plans"
+        },
+        {
           "id": "offline-payments",
-          "name": "Offline Payments"
+          "name": "Cash Application"
         },
         {
           "id": "credits",
-          "name": "Credits"
+          "name": "Credit Balances"
         },
         {
           "id": "gateways",

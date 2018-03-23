@@ -9,7 +9,7 @@ The Moneris payment gateway on Invoiced supports the following features:
 - [Credit card payments](/docs/payments/card)
 - [ACH payments](/docs/payments/ach)
 - Vaulting payment information (credit card and ACH)
-- [AutoPay](/docs/guides/autopay)
+- [AutoPay](/docs/payments/autopay)
 
 ## Setup
 

@@ -16,11 +16,11 @@ AutoPay allows you to securely collect and charge payment sources for customers.
 
 There are multiple ways to connect a payment source to a customer's account.
 
-1. [Sign Up Pages](sign-up-pages)
+1. [Sign Up Pages](/docs/guides/sign-up-pages)
 
    New customers that sign up for a subscription through sign up pages will have AutoPay enabled and a connected payment source.
 
-2. [Billing Portal](billing-portal)
+2. [Billing Portal](/docs/guides/billing-portal)
 
    Existing customers can sign into your billing portal and click **Add Payment Source**.
 
@@ -34,7 +34,7 @@ There are multiple ways to connect a payment source to a customer's account.
 
 ### Failed Payments
 
-AutoPay was designed to gracefully handle failed payments. We will automatically retry failed payments according to your retry schedule. If the payment succeeds at any point then the retry schedule will stop. Your customer will also be sent a [Failed AutoPay Attempt](emails#payments) email. The email will include an **Update Payment Source** button in case the customer's payment information is out of date.
+AutoPay was designed to gracefully handle failed payments. We will automatically retry failed payments according to your retry schedule. If the payment succeeds at any point then the retry schedule will stop. Your customer will also be sent a [Failed AutoPay Attempt](/docs/guides/emails#payments) email. The email will include an **Update Payment Source** button in case the customer's payment information is out of date.
 
 Failed payments will be retried according to the following schedule:
 
@@ -122,4 +122,4 @@ Invoiced can send these emails with AutoPay:
 
    Notifies customer when an AutoPay payment attempt fails. Includes a button for the customer to update their payment information.
 
-You can learn more about these emails in the [Emails Guide](emails#payments).
+You can learn more about these emails in the [Emails Guide](/docs/guides/emails#payments).
