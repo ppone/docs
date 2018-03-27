@@ -7,7 +7,7 @@ A sign up page will create a new customer on Invoiced, securely collect payment 
 1. Create a new customer profile
 2. Subscribe the customer to a plan they select
 3. Save the given credit card or bank account as the customer's payment source
-4. Enroll the customer in [AutoPay](/docs/payments/autopay)
+4. Enroll the customer in [AutoPay](autopay)
 
 Sign up pages also have these optional capabilities:
 
@@ -40,6 +40,10 @@ Prerequisites:
 3. Give your page a name and select all of the plans that should be available to customers signing up from this page. There are other options available, like asking for a billing or shipping address.
 
    [![Building a Sign Up Page](../img/sign-up-pages-new.png)](../img/sign-up-pages-new.png)
+
+ Note: You can now enable AutoPay only directly on the signup page. Simply select the AutoPay only option on the creation of the signup page. 
+
+    [![Building a Sign Up Page](../img/Auto-pay.png)](../img/Auto-pay.png)
 
   Invoiced also provides other useful options when setting up Signup pages for your customers:
 
@@ -111,3 +115,4 @@ Upon sign up your customer will be redirected to your thank you page using a GET
 As an example, if your thank you URL is `https://dundermifflin.com/thanks` then after sign up your customer will be redirected to:
 
 `https://dundermifflin.com/thanks?invoiced_subscription_id=1234&invoiced_customer_id=6789`
+
