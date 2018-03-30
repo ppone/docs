@@ -12,6 +12,7 @@ Chase schedules are defined as a series of steps each specifying when an invoice
 
 1. **When issued** - sends an invoice on the issue date
 2. **Before the due date** - sends a reminder N days *before* the due date
+3. **On the due date** - sends a reminder on the due date
 3. **After the due date** - sends a reminder N days *after* the due date
 4. **Repeater** - sends a reminder *every N days after* the due date until the invoice is paid or closed.
 
@@ -23,7 +24,7 @@ First you will need to enable chasing for your account in the settings and set u
 
 Go to **Settings** > **Chasing**.
 
-[![Invoice Settings Chasing](../img/invoice-setting-chasing.png)](../img/invoice-setting-chasing.png)
+[![Invoice Settings Chasing](../img/chasing-tab.png)](../img/chasing-tab.png)
 
 Flip the **Allow Chasing** toggle.
 
@@ -31,11 +32,32 @@ Flip the **Allow Chasing** toggle.
 
 Now we are ready to set the chasing schedule in order to instruct Invoiced exactly when to send reminders. Click on **+ Step** to add your first and subsequent steps to the chasing schedule.
 
-[![Invoice Settings Chasing Enable](../img/invoice-setting-chasing-add-step.png)](../img/invoice-setting-chasing-add-step.png)
+[![Invoice Settings Chasing Enable](../img/add-chasing-schedule.png)](../img/add-chasing-schedule.png)
 
 You can remove existing steps or add new ones easily. We will automatically sort the schedule for you.
 
 When finished click **Save**. Chasing is now enabled for your account. All that's left is to enable chasing on the invoices you want chased.
+
+### Additional Chasing Support
+
+When creating a chasing schedule, you can also select a method to initiate a response based on chasing objective. These methods include: 
+
+**Send a Reminder** - Sends a reminder to the customer based on chasing objective
+
+**Flag the Invoice** - Flags invoice in Invoiced to be filtered in reporting as well as flagged on invoice for the customer. 
+
+Invoices flagged will be considered an invoice that "Needs Attention". Invoices that need attention will be marked on the invoices outstanding page with an attention icon. 
+
+[![Invoice Settings Chasing Enable](../img/needs-attention.png)](../img/needs-attention.png)
+
+You can also filter your invoices by invoices that need attention with the needs attention filter.
+
+[![Invoice Attention Filter](../img/attention-filter.png)](../img/attention-filter.png)
+
+When accessing the invoice, the action item will be placed on the invoice and can be marked as "resolved" to remove the action item.
+
+[![Resolve Attention](../img/mark-as-resolved.png)](../img/mark-as-resolved.png)
+
 
 ### Chasing Invoices
 
