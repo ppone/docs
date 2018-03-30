@@ -141,7 +141,7 @@ This will allow you to enter the customers contact information, select AutoPay (
 
 Once the customer is saved, it is time to create a plan. Click +New Plan to create a new plan. 
 
-   [![New Plan](../img/New-plsn.png)](../img/New-plsn.png)
+   [![New Plan](../img/new-plans.png)](../img/new-plans.png)
 
 Let's say we want to create a plan called *Basic* for *$39/month*. The *ID* field is a unique identifier used to reference your plan through the API. The ID is automatically generated for you, but you are free to rename this to match your own internal SKU or naming scheme. Click save when completed. 
 

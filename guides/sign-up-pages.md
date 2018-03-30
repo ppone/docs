@@ -43,9 +43,10 @@ Prerequisites:
 
  Note: You can now enable AutoPay only directly on the signup page. Simply select the AutoPay only option on the creation of the signup page. 
 
-    [![Building a Sign Up Page](../img/Auto-pay.png)](../img/Auto-pay.png)
+    [![Building a Sign Up Page](../img/auto-pays.png)](../img/auto-pays.png)
 
-  Invoiced also provides other useful options when setting up Signup pages for your customers:
+
+Invoiced also provides other useful options when setting up Signup pages for your customers:
 
 *Allow Customers to specify a quantity - *This setting allows you to control if the customer can use the signup page and subscribe to more than one 
 

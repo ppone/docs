@@ -4,7 +4,7 @@ We understand that GST & VAT can be complex, that is why Invoiced created the ta
 
 To access the Tax Rates and Rules, navigate to **Settings → Taxes**
 
- [![Click to add a Tax Rate](../img/Tax-Rate.png)](../img/Tax-Rate.png)
+ [![Click to add a Tax Rate](../img/tax-rates.png)](../img/tax-rates.png)
 
  To access the Tax Rates and Rules, navigate to **Settings → Taxes**
 
