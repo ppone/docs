@@ -117,8 +117,8 @@
           "name": "Payment Gateways"
         },
         {
-          "id": "sepa-payment",
-          "name": "SEPA Payments"
+          "id": "sepa",
+          "name": "SEPA"
         }
       ]
     },
