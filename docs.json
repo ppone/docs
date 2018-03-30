@@ -116,6 +116,9 @@
           "id": "gateways",
           "name": "Payment Gateways"
         }
+        {
+          "id": "sepa-payment",
+          "name": "SEPA Payments"
       ]
     },
     {
