@@ -39,3 +39,11 @@ Customers must be signed in to access the billing portal. We've made signing in 
 4. **Manage Subscription links**
 
    We temporarily sign in customers when they click on the **Manage Subscription** button on subscription email notices. This allows customers to easily update payment information.
+
+##Leave a Comment on Invoices
+
+Customers can provide feedback on their invoices in the billing portal by adding a comment to the invoices. This allows customers to ask questions regarding the information on the invoice as well as resolve any billing issues that might arise. Invoiced will also flag the customers invoice if a comment is left and alert the users on the Account profile. This gives the business an easy way to filter out invoices that need attention. Once a response is left on the comment, the invoice can be marked as resolved to remove from the needs attention filter. 
+
+[![Adding a Comment](../img/comments-attention.png)](../img/comments-attention.png)
+
+
