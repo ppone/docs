@@ -110,6 +110,10 @@ However, if the invoice date is in the future then payment will not be collected
 
 Absolutely. If you open the invoice in the dashboard you can trigger payment sooner by clicking **Collect now** on the invoice. This will initiate a collection attempt immediately.
 
+### Can I turn AutoPay off for one invoice?
+
+Yes. When creating an invoice for a customer that has AutoPay enabled, the AutoPay feature can be turned off for this invoice at the top fo the invoice creation page. The system will alert you that the invoice will be automatically charged on issuing. You can press the Turn AutoPay off, which will turn the AutoPay feature off for that particular Invoice. 
+
 ### What automated emails does Invoiced send for AutoPay? 
 
 Invoiced can send these emails with AutoPay:
