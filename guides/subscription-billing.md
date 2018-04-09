@@ -33,7 +33,7 @@ For example, if your customer purchased a monthly subscription on the 9th then t
 
 #### Calendar Billing
 
-Another option to Anniversary Billing is *Calendar Billing, *which renews subscriptions on a specific day of the month chosen, instead of the start date. Calendar billing also has the ability, on the first invoice, to prorate partial months.
+Another option to Anniversary Billing is *Calendar Billing, *which renews subscriptions on a specific day of the month chosen, instead of the start date. Calendar billing also has the ability, on the first invoice, to prorate partial months*.
 
 For example, let's consider a scenario where your customer purchased a monthly subscription on the 9th with calendar billing set to the 1st of the month. The first bill would be prorated for the time remaining until the next 1st of the month. Future bills will be generated on the 1st of the month for the full amount.
 
@@ -147,7 +147,7 @@ Let's say we want to create a plan called *Basic* for *$39/month*. The *ID* fiel
 
    [![New Recurring Plan](../img/create-new-plan.png)](../img/create-new-plan.png)
 
-The last step is to customize the duration of the subscription and if you wish to have any add-ons. To reveal these options, click the *Options *drop down. 
+The last step is to customize the duration of the subscription and if you wish to have any add-ons. To reveal these options, click the *Options *drop down*. 
 
    [![New Recurring Plan Options](../img/options.png)](../img/options.png)
 
@@ -206,6 +206,53 @@ You can choose whether you want the subscription to be canceled immediately or a
 
 When a customer cancels a subscription in the billing portal, the subscription will end at the end of the billing cycle. This also means that the cancellation will not trigger a credit to the customers account. This is because the subscription is pre-paid at the beginning of the billing cycle. 
 
+## Contract Billing
+
+With subscriptions, an automatic billing schedule is based on an infinite number of billing charges. With contract billing, a finite duration of payments for the consumers contract can be created that does not automatically renew, making it beneficial to your enterprise. The interval at which the customer is billed is often more frequent than the length of the contract. Traditional subscription billing allows you to set a subscription billing cycle with no end date, or a billing plan with an ending of X months. Contract billing allows you to set a contract term length. Even if canceled, the contract will continue to bill until the end of the contract term. 
+
+### Usage 
+
+An example of Contract Billing can be an annual contract that is billed monthly and the contract does not renew automatically. When the contract does not renew automatically, the user will have to manually update the contract during the renewal process to determine if the customer intends to renew their contract. This process also allows for renewal increases and what the duration of the renewal might be. 
+
+Please note the renewal length and initial term length are not intrinsically the same. A customer could have a contract that has an initial term of three years and has the option to renew on a yearly basis **after** the inital term. 
+
+If auto-renewal is enabled, there is no need for internal intervention of the contract. With auto-renewal disabled, each time there is a contract renewal, it is important to distinguish if the subscription is being renewed, what the length of the next term will be, and if there will be any pricing or line item changes. 
+
+### Setup
+
+To set-up a contract, simply navigate to:
+
+Subscriptions > Add Subscription 
+
+Like the process of creating a traditional subscription, find the customer you wish to add the subscription to then select the subscription plan. To add contract billing terms, expand the *Options* section. 
+
+Select how long the initial term of the contract will be.
+
+[![Creating a Contract](../img/creating-a-contract.gif)](../img/creating-a-contract.gif)
+
+Next, select whether the contract will :
+
+*Renew Automatically*: It will continue to renew automatically until canceled based on the renewal terms.
+
+*Require Approval to Renew*: It will require the approval from the customer to renew the contract. This allows internal users to change the terms, pricing, and plan items.
+
+*Stop Billing*: This will cancel the contract
+
+Once you select the process of the contract ending, continue the traditional set up of a subscription billing cycle. 
+
+###Approval of Contract Renewal
+
+When a contract is up for renewal, the renewal process is done by the internal Invoiced user, not the customer. It is up to the business and the customer to work on the renewal terms of the contract. 
+
+[![Approving a Contract Renewal](../img/pending-approval.png)](../img/pending-approval.png)
+
+You can filter your subscriptions by upcoming renewal in your Subscriptions section under the filter : Pending Renewal. 
+
+[![Approving a Contract Renewal Reporting](../img/pending-approval-report.png)](../img/pending-approval-report.png)
+
+### Canceling Contract Billing
+ 
+Canceling contract billing is slightly different than canceling a traditional subscription. The customer can still access the cancelation process in the billing portal, however, the option to cancel at the end of the billing cycle should not be available until the length of the contract has completed. In many cases, this option could be a couple of cycles out from the end of the contract billing term. 
 
 ## FAQs
 

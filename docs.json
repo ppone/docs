@@ -10,7 +10,13 @@
         },
         {
           "id": "subscription-billing",
-          "name": "Subscription Billing"
+          "name": "Subscription Billing",
+          :"table_of_contents": [
+            {
+              "id":"contract-billing",
+              "name":"Contract Billing"
+            }
+          ]
         },
         {
           "id": "coupons",
