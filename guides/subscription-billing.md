@@ -244,11 +244,11 @@ Once you select the process of the contract ending, continue the traditional set
 
 When a contract is up for renewal, the renewal process is done by the internal Invoiced user, not the customer. It is up to the business and the customer to work on the renewal terms of the contract. 
 
-[![Approving a Contract Renewal](../img/pending-approval.png)](../img/pending-approval.png)
+[![Approving a Contract Renewal](../img/contract-pending-approval.png)](../img/contract-pending-approval.png)
 
 You can filter your subscriptions by upcoming renewal in your Subscriptions section under the filter : Pending Renewal. 
 
-[![Approving a Contract Renewal Reporting](../img/pending-approval-report.png)](../img/pending-approval-report.png)
+[![Approving a Contract Renewal Reporting](../img/contracts-pending-approval-report.png)](../img/contracts-pending-approval-report.png)
 
 ### Canceling Contract Billing
  
