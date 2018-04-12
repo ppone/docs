@@ -220,3 +220,7 @@ Change the Payments Summary frequency to either Daily or Monthly. To do so, comp
 3. Scroll down to Summary Frequency in the Accounting Settings section
 4. Change the Payments field to either Daily or Monthly and Save the changes
 5. Retry the sync
+
+### DL02000001 error
+
+When an import fails with a `DL02000001` error code then that means the importer was trying to retrieve a field that did not exist on an Intacct object. This could happen if you have modified an object definition to remove or modify a standard field that our importer requests, or if you have configured the importer to pull in a custom field that does not exist on Intacct.
