@@ -11,8 +11,8 @@ Unlike online payments, offline payments must be recorded on Invoiced once recei
 Available payment methods:
 - [Credit Card](/docs/payments/card)
 - [ACH](/docs/payments/ach)
+- [SEPA debits](/docs/payments/sepa)
 - [PayPal](/docs/payments/paypal)
-- [SEPA debits](/docs/integrations/stripe)
 - [Offline Payments](/docs/payments/offline-payments)
 - [Credit Balances](/docs/payments/credits)
 - [Payment Plans](/docs/payments/payment-plans)

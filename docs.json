@@ -99,6 +99,10 @@
           "name": "ACH"
         },
         {
+          "id": "sepa",
+          "name": "SEPA"
+        },
+        {
           "id": "paypal",
           "name": "PayPal"
         },
@@ -121,10 +125,6 @@
         {
           "id": "gateways",
           "name": "Payment Gateways"
-        },
-        {
-          "id": "sepa",
-          "name": "SEPA"
         }
       ]
     },
