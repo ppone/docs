@@ -11,7 +11,7 @@
         {
           "id": "subscription-billing",
           "name": "Subscription Billing",
-          :"table_of_contents": [
+          "table_of_contents": [
             {
               "id":"contract-billing",
               "name":"Contract Billing"
