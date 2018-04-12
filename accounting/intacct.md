@@ -10,6 +10,7 @@ The Intacct integration ships with the following capabilities:
 - Importing customers from Intacct
 - Writing invoices generated on Invoiced to Intacct
 - Reconciling payments received on Invoiced to Intacct
+- Syncing payments recorded on Intacct to Invoiced
 
 [![Intacct Data Flow](../img/intacct-object-mapping.png)](../img/intacct-object-mapping.png)
 
@@ -174,7 +175,7 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 - Only non-draft invoices on Invoiced that have been updated since the last sync will be synced. On your first sync this means that all non-draft invoices will be synced.
 
-- Any changes to invoices imported from Intacct that are later modified on Invoiced will not be synced to Intacct. However, any payments received for imported invoices will be synced.
+- Any changes to invoices imported from Intacct that are later modified on Invoiced will not be synced to Intacct. Payments processed through Invoiced for imported invoices will still be synced.
 
 - Line items on A/R invoices imported from Intacct will always have a quantity of `1`. Line items imported from the Order Entry module will have the correct quantity.
 

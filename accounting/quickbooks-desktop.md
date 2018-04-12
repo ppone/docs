@@ -9,6 +9,7 @@ The QuickBooks Desktop integration ships with the following capabilities:
 - Importing outstanding invoices from QuickBooks Desktop
 - Importing customers from QuickBooks Desktop (when billed)
 - Reconciling payments received on Invoiced to QuickBooks Desktop
+- Syncing payments recorded on QuickBooks Desktop to Invoiced
 
 [![QuickBooks Desktop Data Flow](../img/qbd-object-mapping.png)](../img/qbd-object-mapping.png)
 
@@ -96,7 +97,7 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 - Modifications to invoices on Invoiced after they are synced will do nothing to the corresponding invoice in QuickBooks.
 
-- Only charges that originated from Invoiced are sent to QuickBooks. Offline payments recorded on Invoiced are not synced to QuickBooks.
+- Only payments processed through Invoiced are sent to QuickBooks. Offline payments recorded on Invoiced are not synced to QuickBooks. Any payments applied to invoices on QuickBooks are synced to Invoiced.
 
 - Refunds are not currently synced. Any refunds initiated through Invoiced must be reconciled by hand.
 

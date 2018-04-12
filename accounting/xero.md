@@ -10,6 +10,7 @@ The Xero integration ships with the following capabilities:
 - Importing contacts from Xero
 - Writing invoices generated on Invoiced to Xero
 - Reconciling payments received on Invoiced to Xero
+- Syncing payments recorded on Xero to Invoiced
 
 [![Xero Data Flow](../img/xero-object-mapping.png)](../img/xero-object-mapping.png)
 
@@ -61,7 +62,7 @@ In this section you will learn how to use the Xero integration.
 
 Auto-sync will run accounting syncs automatically for you on an ongoing basis. Once auto-sync is enabled, accounting syncs will happen approximately once per hour. Here's how you can enable auto-sync:
 
-1. Go to **Settings** > **Accounting Sync**. Select **QuickBooks Online** as your accounting system, if not already selected.
+1. Go to **Settings** > **Accounting Sync**. Select **Xero** as your accounting system, if not already selected.
 
    [![Xero Connected](../img/accounting-sync-xero-connected-org.png)](../img/accounting-sync-xero-connected-org.png)
 
@@ -73,7 +74,7 @@ Auto-sync will run accounting syncs automatically for you on an ongoing basis. O
 
 If you want control over when your books are synced then you can manually trigger accounting syncs. You can run an accounting sync by following these steps:
 
-1. Go to **Settings** > **Accounting Sync**. Select **QuickBooks Online** as your accounting system, if not already selected.
+1. Go to **Settings** > **Accounting Sync**. Select **Xero** as your accounting system, if not already selected.
 
    [![Xero Connected](../img/accounting-sync-xero-connected-org.png)](../img/accounting-sync-xero-connected-org.png)
 
@@ -146,6 +147,10 @@ Go to **Settings** > **Integrations** and click on **Configure** below *Xero*. T
 ### Which Xero organization is connected?
 
 You will find the organization name below the Xero Settings.
+
+### How are payments recorded on Xero handled?
+
+Payments applied to invoices on Xero will be synced to Invoiced instantly. You must have auto-sync enabled for 2-way payment sync to work.
 
 ### How do payment processing fees appear in Xero?
 
