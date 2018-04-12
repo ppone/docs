@@ -195,7 +195,7 @@ Your Intacct company ID is required in order to connect the integration. You can
 
 1. Within the Intacct application, hover over the **Company** tab and click **Company Info**.
 
-2. You should see an *ID* field. This is the company ID that you will use in the connection steps below.
+2. You should see an *ID* field. This is the company ID that you will use in the connection steps.
 
 ### 401 Error
 

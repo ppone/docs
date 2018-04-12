@@ -137,6 +137,32 @@
           "name": "Introduction"
         },
         {
+          "id": "netsuite",
+          "name": "NetSuite",
+          "table_of_contents": [
+            {
+              "id": "overview",
+              "name": "Overview"
+            },
+            {
+              "id": "setup",
+              "name": "Setup"
+            },
+            {
+              "id": "usage",
+              "name": "Usage"
+            },
+            {
+              "id": "edge-cases",
+              "name": "Edge Cases"
+            },
+            {
+              "id": "troubleshooting",
+              "name": "Troubleshooting"
+            }
+          ]
+        },
+        {
           "id": "quickbooks-desktop",
           "name": "QuickBooks Desktop",
           "table_of_contents": [
