@@ -10,6 +10,7 @@ The Intacct integration ships with the following capabilities:
 - Importing customers from Intacct
 - Writing invoices generated on Invoiced to Intacct
 - Reconciling payments received on Invoiced to Intacct
+- Syncing payments recorded on Intacct to Invoiced
 
 [![Intacct Data Flow](../img/intacct-object-mapping.png)](../img/intacct-object-mapping.png)
 
@@ -174,7 +175,7 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 - Only non-draft invoices on Invoiced that have been updated since the last sync will be synced. On your first sync this means that all non-draft invoices will be synced.
 
-- Any changes to invoices imported from Intacct that are later modified on Invoiced will not be synced to Intacct. However, any payments received for imported invoices will be synced.
+- Any changes to invoices imported from Intacct that are later modified on Invoiced will not be synced to Intacct. Payments processed through Invoiced for imported invoices will still be synced.
 
 - Line items on A/R invoices imported from Intacct will always have a quantity of `1`. Line items imported from the Order Entry module will have the correct quantity.
 
@@ -194,7 +195,7 @@ Your Intacct company ID is required in order to connect the integration. You can
 
 1. Within the Intacct application, hover over the **Company** tab and click **Company Info**.
 
-2. You should see an *ID* field. This is the company ID that you will use in the connection steps below.
+2. You should see an *ID* field. This is the company ID that you will use in the connection steps.
 
 ### 401 Error
 
@@ -219,3 +220,7 @@ Change the Payments Summary frequency to either Daily or Monthly. To do so, comp
 3. Scroll down to Summary Frequency in the Accounting Settings section
 4. Change the Payments field to either Daily or Monthly and Save the changes
 5. Retry the sync
+
+### DL02000001 error
+
+When an import fails with a `DL02000001` error code then that means the importer was trying to retrieve a field that did not exist on an Intacct object. This could happen if you have modified an object definition to remove or modify a standard field that our importer requests, or if you have configured the importer to pull in a custom field that does not exist on Intacct.

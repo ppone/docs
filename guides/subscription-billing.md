@@ -22,13 +22,13 @@ Although we use traditional defaults, we also support many advanced subscription
 
 Subscriptions support a free trial period at the beginning of the subscription where the customer is not charged. For example, a subscription might have a 30-day trial period where the customer is given service for free until the first bill is issued. After the trial period, the customers subscription will begin to bill. 
 
-#### Renewal Date
+#### Billing Date
 
-The renewal date is the date when the next bill for the subscription is going to be generated. Essentially when a subscription renews, the next invoice in the cycle is formed and issued. Renewal dates are controlled by you and dependent on whether anniversary or calendar billing is used.
+The billing date is the date when the next bill for the subscription is going to be generated. Essentially when a subscription renews, the next invoice in the cycle is formed and issued. Billing dates are controlled by you and dependent on whether anniversary or calendar billing is used.
 
 #### Anniversary Billing
 
-As stated in the renewal date section, *Anniversary Billing* renews a subscription on the anniversary of the start date.
+As stated in the billing date section, *Anniversary Billing* renews a subscription on the anniversary of the start date.
 For example, if your customer purchased a monthly subscription on the 9th then they would be billed each month on the 9th. In Invoiced, subscriptions use anniversary billing by default.
 
 #### Calendar Billing
@@ -40,14 +40,14 @@ For example, let's consider a scenario where your customer purchased a monthly s
 
 #### Billing Period
 
-Each subscription keeps track of the current billing period. The billing period represents the time frame that the subscription will cover. The length of the billing period always matches the plan interval. By default, the billing period will be the interval following the renewal date. If a monthly subscription renewed on December 1 then the current billing period would be December 1 - December 31.
+Each subscription keeps track of the current billing period. The billing period represents the time frame that the subscription will cover. The length of the billing period always matches the plan interval. By default, the billing period will be the interval following the billing date. If a monthly subscription renewed on December 1 then the current billing period would be December 1 - December 31.
 
 #### Billing Period Offset
 
-The billing period offset allows you to offset the billing period X number of days from the renewal date. Billing period offsets are great in enterprise billing scenarios where the customer is billed before the service period.
-For example, consider a subscription with a billing period offset of 14 days and a renewal date of November 17. This would produce a billing cycle of December 1 - December 31. The result is that the customer will be billed on November 17 for the billing period of December 1 - December 31.
+The billing period offset allows you to offset the billing period X number of days from the billing date. Billing period offsets are great in enterprise billing scenarios where the customer is billed before the service period.
+For example, consider a subscription with a billing period offset of 14 days and a billing date of November 17. This would produce a billing cycle of December 1 - December 31. The result is that the customer will be billed on November 17 for the billing period of December 1 - December 31.
 
-*NOTE: Changing the billing period offset will not change when the subscription renews. Instead change the renewal date for this.*
+*NOTE: Changing the billing period offset will not change when the subscription renews. Instead change the billing date for this.*
 
 #### Duration
 
@@ -180,17 +180,17 @@ You can edit a subscription by opening the subscription in the dashboard and cli
 This allows you to change the quantity, add additional add-on items, add a discount, or an additional subscription. 
 
 
-### Changing the Renewal Date
+### Changing the Billing Date
 
 Once your subscription is running you might want to change when it renews next. The reason might be that the customer wants the subscription to renew on a certain day of the month, maybe the wrong start date was chosen, or else you want to issue invoices sooner.
 
-With the subscription in the dashboard you can click **More** > **Change Renewal Date** to change when the subscription will renew next.
+With the subscription in the dashboard you can click **More** > **Change Billing Date** to change when the subscription will renew next.
 
-[![Change Subscription Renewal Date Step 1](../img/change-renewal-date-step1.png)](../img/change-renewal-date-step1.png)
+[![Change Subscription Billing Date Step 1](../img/change-billing-date-step1.png)](../img/change-billing-date-step1.png)
 
-The renewal date cannot be set in the past. Changing the renewal date will not produce any prorations.
+The billing date cannot be set in the past. Changing the billing date will not produce any prorations.
 
-[![Change Subscription Renewal Date Step 2](../img/change-renewal-date-step2.png)](../img/change-renewal-date-step2.png)
+[![Change Subscription Billing Date Step 2](../img/change-billing-date-step2.png)](../img/change-billing-date-step2.png)
 
 You can also change the billing period offset as well by clicking **More** > **Change Billing Period Offset**. This will adjust the current billing period right away, however, it will not change when the next bill is generated or produce any prorations.
 
@@ -244,11 +244,11 @@ Once you select the process of the contract ending, continue the traditional set
 
 When a contract is up for renewal, the renewal process is done by the internal Invoiced user, not the customer. It is up to the business and the customer to work on the renewal terms of the contract. 
 
-[![Approving a Contract Renewal](../img/pending-approval.png)](../img/pending-approval.png)
+[![Approving a Contract Renewal](../img/contract-pending-approval.png)](../img/contract-pending-approval.png)
 
 You can filter your subscriptions by upcoming renewal in your Subscriptions section under the filter : Pending Renewal. 
 
-[![Approving a Contract Renewal Reporting](../img/pending-approval-report.png)](../img/pending-approval-report.png)
+[![Approving a Contract Renewal Reporting](../img/contracts-pending-approval-report.png)](../img/contracts-pending-approval-report.png)
 
 ### Canceling Contract Billing
  
@@ -280,4 +280,4 @@ You can learn more about these emails in the [Emails Guide](emails#subscriptions
 
 ### When do subscription invoices go out?
 
-Subscriptions are usually renewed very close to the renewal timestamp (within a minute). Subscriptions will never renew early but please keep in mind that they might be renewed late. If a subscription does happen to be renewed later than scheduled then our system will not punish the customer for non-payment, as should yours.
+Subscriptions are usually renewed very close to the billing timestamp (within a minute). Subscriptions will never renew early but please keep in mind that they might be renewed late. If a subscription does happen to be renewed later than scheduled then our system will not punish the customer for non-payment, as should yours.

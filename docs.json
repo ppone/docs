@@ -11,7 +11,7 @@
         {
           "id": "subscription-billing",
           "name": "Subscription Billing",
-          :"table_of_contents": [
+          "table_of_contents": [
             {
               "id":"contract-billing",
               "name":"Contract Billing"
@@ -99,6 +99,10 @@
           "name": "ACH"
         },
         {
+          "id": "sepa",
+          "name": "SEPA"
+        },
+        {
           "id": "paypal",
           "name": "PayPal"
         },
@@ -121,10 +125,6 @@
         {
           "id": "gateways",
           "name": "Payment Gateways"
-        },
-        {
-          "id": "sepa",
-          "name": "SEPA"
         }
       ]
     },
@@ -135,6 +135,32 @@
         {
           "id": "intro",
           "name": "Introduction"
+        },
+        {
+          "id": "netsuite",
+          "name": "NetSuite",
+          "table_of_contents": [
+            {
+              "id": "overview",
+              "name": "Overview"
+            },
+            {
+              "id": "setup",
+              "name": "Setup"
+            },
+            {
+              "id": "usage",
+              "name": "Usage"
+            },
+            {
+              "id": "edge-cases",
+              "name": "Edge Cases"
+            },
+            {
+              "id": "troubleshooting",
+              "name": "Troubleshooting"
+            }
+          ]
         },
         {
           "id": "quickbooks-desktop",

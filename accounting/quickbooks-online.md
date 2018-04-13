@@ -10,6 +10,7 @@ The QuickBooks Online integration ships with the following capabilities:
 - Importing contacts from QuickBooks Online
 - Writing invoices generated on Invoiced to QuickBooks Online
 - Reconciling payments received on Invoiced to QuickBooks Online
+- Syncing payments recorded on QuickBooks Online to Invoiced
 
 [![QuickBooks Online Data Flow](../img/qbo-object-mapping.png)](../img/qbo-object-mapping.png)
 
@@ -152,6 +153,8 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 - If a line item on Invoiced has a catalog item attached, then the item created on QuickBooks will have its SKU set to the catalog item ID.
 
 - If a synced payment is refunded on Invoiced, the refund amount will be deducted from the original payment on QuickBooks.
+
+- Payments applied to invoices on QuickBooks will be synced to Invoiced instantly. You must have auto-sync enabled for 2-way payment sync to work.
 
 ## Troubleshooting
 
