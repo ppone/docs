@@ -10,6 +10,12 @@ The **A/R Overview** report gives you an overview of your Accounts Receivable ac
 
 [![A/R Overview Report](../img/report-a-r-overview.png)](../img/report-a-r-overview.png)
 
+## Reconciliation
+
+The **Reconciliation** report gives you a concise report to help you quickly reconcile a previous accounting period with Invoiced. The report shows the aggregate amount invoiced, payments collected, bad debt recorded, refunds, adjustments, and credit activity.
+
+[![Reconciliation Report](../img/report-reconciliation.png)](../img/report-reconciliation.png)
+
 ## Invoice Summary
 
 The **Invoice Summary** report lists all of the invoices in the time period you select. Only high-level information about invoices is included, like the date, total, and balance. On this report invoices are grouped by month.
