@@ -12,7 +12,8 @@ Files can be attached to invoices through the dashboard or programmatically thro
 	<a href="#" class="btn btn-link" data-lang="bash">Shell</a>
 	<a href="#" class="btn btn-link" data-lang="ruby">Ruby</a>
 	<a href="#" class="btn btn-link" data-lang="php">PHP</a>
-  <a href="#" class="btn btn-link" data-lang="python">Python</a>
+    <a href="#" class="btn btn-link" data-lang="python">Python</a>
+    <a href="#" class="btn btn-link" data-lang="java">Java</a>
 </div>
 
 ### Prerequisites
@@ -67,6 +68,20 @@ file = client.File.create(
 )
 ```
 
+```java
+import com.invoiced.entity.Connection;
+import com.invoiced.entity.File;
+
+Connection invoiced = new Connection("{YOUR_API_KEY}", false);
+
+File file = invoiced.newFile();
+file.url = "https://invoiced.com/img/logo-invoice.png";
+file.size = 6936;
+file.name = "logo-invoice.png";
+file.type = "image/png";
+file.create();
+```
+
 ### Attach to an invoice
 
 Once you have created your file you can now attach it to an invoice. This is done by passing in an array of file IDs through the `attachments` parameter when creating or editing an invoice.
@@ -101,6 +116,19 @@ invoice = client.Invoice.create(
 )
 ```
 
+```java
+import com.invoiced.entity.Attachment;
+import com.invoiced.entity.Invoice;
+
+Invoice invoice = invoiced.newInvoice();
+// invoice parameters...
+Attachment[] attachments = new Attachment[1];
+attachments[0] = new Attachment();
+attachments[0].file = file.id;
+invoice.attachments = attachments;
+invoice.create();
+```
+
 And the file is now attached! It will be available in the client view and dashboard as a downloadable attachment.
 
 ### Retrieving attachments for an invoice
@@ -122,6 +150,12 @@ list($attachments, $metadata) = $invoice->attachments();
 
 ```python
 attachments, metadata = invoice.attachments()
+```
+
+```java
+import com.invoiced.entity.Attachment;
+
+Attachment[] attachments = invoice.listAttachments();
 ```
 
 The call will produce a response like this:
@@ -195,5 +229,26 @@ The call will produce a response like this:
     },
     "created_at": 1464625855
   }
+]
+```
+
+```java
+[
+  com.invoiced.entity.Attachment@1759eafd JSON: {
+    "id": 13,
+    "object": "attachment",
+    "file": {
+      "id": 13,
+      "object": "file",
+      "name": "logo-invoice.png",
+      "size": 6936,
+      "type": "image/png",
+      "url": "https://invoiced.com/img/logo-invoice.png",
+      "created_at": 1464625854
+    },
+    "created_at": 1464625855
+  },
+  com.invoiced.entity.Attachment@1759eafd JSON: {...},
+  com.invoiced.entity.Attachment@1759eafd JSON: {...}
 ]
 ```
