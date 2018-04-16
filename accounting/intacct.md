@@ -179,7 +179,7 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 - Line items on A/R invoices imported from Intacct will always have a quantity of `1`. Line items imported from the Order Entry module will have the correct quantity.
 
-- Editing invoices imported from the Intacct Order Entry module, after they have been imported, can cause sync errors and might need to be reconciled by hand. 
+- Editing invoices imported from the Intacct Order Entry module, after they have been imported, can cause sync errors and might need to be reconciled by hand.
 
 - When importing bill to contacts instead of customers, the customer on Invoiced will use the information from the bill to contact instead of the Intacct customer. This means the name and details will match the bill to contact, and will result in multiple Invoiced customers for a single Intacct customer. The customer number on Invoiced will be auto-generated and will not match the one on Intacct because there are multiple Invoiced customers that could have the same account number.
 
@@ -224,3 +224,9 @@ Change the Payments Summary frequency to either Daily or Monthly. To do so, comp
 ### DL02000001 error
 
 When an import fails with a `DL02000001` error code then that means the importer was trying to retrieve a field that did not exist on an Intacct object. This could happen if you have modified an object definition to remove or modify a standard field that our importer requests, or if you have configured the importer to pull in a custom field that does not exist on Intacct.
+
+### Imported Intacct invoice no longer exists
+
+> Intacct invoice with recordno = XXX, does not exist even though it was imported
+
+When you see this error message then that means the original A/R invoice that was imported to Invoiced has been deleted on Intacct. In order to continue syncing payments please make sure not to remove imported invoices on Intacct. If the invoice no longer exists on Intacct then you can skip the invoice in future syncs and reconcile any payments received for the invoice by hand.
