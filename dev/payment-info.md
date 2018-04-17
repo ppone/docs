@@ -1,10 +1,12 @@
-# Payment Information
+# Collecting Payment Information
 
-In this document we are going to show you how to collect, store, and use payment information on Invoiced.
+In this document we are going to show you how to collect, store, and use payment information on Invoiced through your own website or application.
 
 ## Introduction
 
-When implementing Invoiced into your app or website it is common to want control over the billing and payment UIs in order to fit in with your branding and provide customers with a seamless experience. Invoiced allows you to collect and vault payment information using your own forms. On the backend you can securely pass the tokenized payment information to our API in order to save the payment information for future billing or payments.
+When implementing Invoiced into your app or website you often want control over the billing and payment UIs in order to provide customers with a seamless experience. Invoiced allows you to collect and vault payment information using your own forms while still relying on Invoiced to manage payments. As a result of letting Invoiced handle payment information you can also enjoy simplified PCI compliance.
+
+The way that it works is that within your customer's web browser you can tokenize your customer's payment information that can later be passed to our API in order to save the payment information for future billing or payments.
 
 The key to a secure implementation is to use either the Invoiced tokenization scheme or your payment gateway's tokenization scheme (if there is one). Tokenization gives you a randomly generated token ID that you can pass to your servers that references the payment information collected. The benefit of this approach is to prevent you from directly handling sensitive payment information.
 
@@ -24,12 +26,12 @@ It's important to consider that payment info tokens will only work with your Inv
 
 ### Prerequisites
 
-1. You have built your own form to capture payment information
+1. You have built your own form to capture payment information.
 2. Include the `invoiced.js` library on your payment page:
    ```
    <script src="https://js.invoiced.com/v1/"></script>
    ````
-3. Obtained your publishable key from **Settings** > **Developers**.
+3. Obtain your publishable key from **Settings** > **Developers**.
 
 ## Storing credit card information
 
@@ -37,10 +39,10 @@ It's important to consider that payment info tokens will only work with your Inv
 
 ```
 <script type="text/javascript">
-    Invoiced.setPublishableKey("invoiced_publishable_key");
+    Invoiced.setPublishableKey("{YOUR_PUBLISHABLE_KEY}");
 
     // This information should be collected by your form...
-    var number = '4242424o242424242';
+    var number = '4242424242424242';
     var cvc = '123';
     var expMonth = '12';
     var expYear = '2021';
@@ -68,10 +70,13 @@ It's important to consider that payment info tokens will only work with your Inv
 
 ### 2. Add card to the customer
 
+If this is a new customer then you can pass in the Invoiced token like below:
+
 ```bash
 curl "https://api.invoiced.com/customers" \
   -u {API_KEY}: \
   -d name="Acme" \
+  -d payment_source[method]=credit_card \
   -d payment_source[invoiced_token]={CAPTURED_TOKEN}
 ```
 
@@ -82,6 +87,7 @@ invoiced = Invoiced::Client.new("{YOUR_API_KEY}")
 customer = invoiced.Customer.create(
   :name => "Acme",
   :payment_source => {
+    :method => "credit_card",
     :invoiced_token => token
   }
 )
@@ -93,6 +99,7 @@ $invoiced = new Invoiced\Client("{YOUR_API_KEY}");
 $customer = $invoiced->Customer->create([
   'name' => "Acme",
   'payment_source' => [
+    'method' => "credit_card",
     'invoiced_token' => $token
   ]
 ]);
@@ -105,6 +112,7 @@ client = invoiced.Client("{YOUR_API_KEY}")
 customer = client.Customer.create(
   name="Acme",
   payment_source={
+    'method': "credit_card",
     'invoiced_token': token
   }
 )
@@ -122,6 +130,44 @@ customer.payment_source = token;
 customer.create();
 ```
 
+Or if this is an existing customer then you can make a similar call to update the customer (assuming you have already [retrieved the customer](https://invoiced.com/docs/api/#retrieve-a-customer)):
+
+```bash
+curl "https://api.invoiced.com/customers/CUSTOMER_ID" \
+  -u {API_KEY}: \
+  -d payment_source[method]=credit_card \
+  -d payment_source[invoiced_token]={CAPTURED_TOKEN}
+```
+
+```ruby
+customer.payment_source = {
+  :method => "credit_card",
+  :invoiced_token => token
+}
+customer.save
+```
+
+```php
+$customer->payment_source = [
+  'method' => "credit_card",
+  'invoiced_token' => $token
+];
+$customer->save();
+```
+
+```python
+customer.payment_source = {
+  'method': "credit_card",
+  'invoiced_token': token
+}
+customer.save()
+```
+
+```java
+customer.payment_source = token;
+customer.save();
+```
+
 ## Storing bank account information
 
 You can also capture bank account information for ACH debits.
@@ -130,7 +176,7 @@ You can also capture bank account information for ACH debits.
 
 ```
 <script type="text/javascript">
-    Invoiced.setPublishableKey("invoiced_publishable_key");
+    Invoiced.setPublishableKey("{YOUR_PUBLISHABLE_KEY}");
 
     // This information should be collected by your form...
     var name = 'Jim Halpert';
@@ -153,10 +199,13 @@ You can also capture bank account information for ACH debits.
 
 ### 2. Add bank account to the customer
 
+If this is a new customer then you can pass in the Invoiced token like below:
+
 ```bash
 curl "https://api.invoiced.com/customers" \
   -u {API_KEY}: \
   -d name="Acme" \
+  -d payment_source[method]=ach \
   -d payment_source[invoiced_token]={CAPTURED_TOKEN}
 ```
 
@@ -167,6 +216,7 @@ invoiced = Invoiced::Client.new("{YOUR_API_KEY}")
 customer = invoiced.Customer.create(
   :name => "Acme",
   :payment_source => {
+    :method => "ach",
     :invoiced_token => token
   }
 )
@@ -178,6 +228,7 @@ $invoiced = new Invoiced\Client("{YOUR_API_KEY}");
 $customer = $invoiced->Customer->create([
   'name' => "Acme",
   'payment_source' => [
+    'method' => "ach",
     'invoiced_token' => $token
   ]
 ]);
@@ -190,6 +241,7 @@ client = invoiced.Client("{YOUR_API_KEY}")
 customer = client.Customer.create(
   name="Acme",
   payment_source={
+    'method': 'ach',
     'invoiced_token': token
   }
 )
@@ -207,6 +259,44 @@ customer.payment_source = token;
 customer.create();
 ```
 
+Or if this is an existing customer then you can make a similar call to update the customer (assuming you have already [retrieved the customer](https://invoiced.com/docs/api/#retrieve-a-customer)):
+
+```bash
+curl "https://api.invoiced.com/customers/CUSTOMER_ID" \
+  -u {API_KEY}: \
+  -d payment_source[method]=ach \
+  -d payment_source[invoiced_token]={CAPTURED_TOKEN}
+```
+
+```ruby
+customer.payment_source = {
+  :method => "ach",
+  :invoiced_token => token
+}
+customer.save
+```
+
+```php
+$customer->payment_source = [
+  'method' => "ach",
+  'invoiced_token' => $token
+];
+$customer->save();
+```
+
+```python
+customer.payment_source = {
+  'method': "ach",
+  'invoiced_token': token
+}
+customer.save()
+```
+
+```java
+customer.payment_source = token;
+customer.save();
+```
+
 ## Gateway tokenization
 
 Some payment gateways support their own payment information tokenization scheme, often coupled with their own UI components for capturing payment information. One such example is the Stripe gateway.
@@ -219,10 +309,13 @@ This step will depend on your payment gateway. For example, here is [Stripe's do
 
 ### 2. Add gateway token to the customer
 
+If this is a new customer then you can pass in the Invoiced token like below:
+
 ```bash
 curl "https://api.invoiced.com/customers" \
   -u {API_KEY}: \
   -d name="Acme" \
+  -d payment_source[method]=credit_card \
   -d payment_source[gateway_token]={CAPTURED_TOKEN}
 ```
 
@@ -233,6 +326,7 @@ invoiced = Invoiced::Client.new("{YOUR_API_KEY}")
 customer = invoiced.Customer.create(
   :name => "Acme",
   :payment_source => {
+    :method => "credit_card",
     :gateway_token => token
   }
 )
@@ -244,6 +338,7 @@ $invoiced = new Invoiced\Client("{YOUR_API_KEY}");
 $customer = $invoiced->Customer->create([
   'name' => "Acme",
   'payment_source' => [
+    'method' => "credit_card",
     'gateway_token' => $token
   ]
 ]);
@@ -256,6 +351,7 @@ client = invoiced.Client("{YOUR_API_KEY}")
 customer = client.Customer.create(
   name="Acme",
   payment_source={
+    'method': "credit_card",
     'gateway_token': token
   }
 )
@@ -271,4 +367,42 @@ Customer customer = invoiced.newCustomer();
 customer.name = "Acme";
 customer.payment_source = token;
 customer.create();
+```
+
+Or if this is an existing customer then you can make a similar call to update the customer (assuming you have already [retrieved the customer](https://invoiced.com/docs/api/#retrieve-a-customer)):
+
+```bash
+curl "https://api.invoiced.com/customers/CUSTOMER_ID" \
+  -u {API_KEY}: \
+  -d payment_source[method]=credit_card \
+  -d payment_source[gateway_token]={CAPTURED_TOKEN}
+```
+
+```ruby
+customer.payment_source = {
+  :method => "credit_card",
+  :gateway_token => token
+}
+customer.save
+```
+
+```php
+$customer->payment_source = [
+  'method' => "credit_card",
+  'gateway_token' => $token
+];
+$customer->save();
+```
+
+```python
+customer.payment_source = {
+  'method': "credit_card",
+  'gateway_token': token
+}
+customer.save()
+```
+
+```java
+customer.payment_source = token;
+customer.save();
 ```
