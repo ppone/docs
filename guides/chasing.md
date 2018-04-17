@@ -36,7 +36,11 @@ Now we are ready to set the chasing schedule in order to instruct Invoiced exact
 
 You can remove existing steps or add new ones easily. We will automatically sort the schedule for you.
 
+[![Adding Chasing Steps](../img/chasing-schedue-editor.png)](../img/chasing-schedue-editor.png)
+
 When finished click **Save**. Chasing is now enabled for your account. All that's left is to enable chasing on the invoices you want chased.
+
+[![Completed Chasing Schedule](../img/finished-chasing-schedule.png)](../img/finished-chasing-schedule.png)
 
 ### Additional Chasing Support
 
