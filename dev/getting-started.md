@@ -6,7 +6,7 @@ The API was modeled after <a href="https://en.wikipedia.org/wiki/Representationa
 
 ## Getting Started
 
-The first step is to determine how you want to connect to the API. We offer client libraries in several languages, including <a href="https://github.com/Invoiced/invoiced-ruby">Ruby</a>, <a href="https://github.com/Invoiced/invoiced-php">PHP</a>, <a href="https://github.com/Invoiced/invoiced-python">Python</a>, and <a href="https://github.com/Invoiced/invoiced-go">Go</a>. If we don't have a client library for your language then we would be happy to build one. Otherwise you can manually build the HTTP requests, which is not too difficult.
+The first step is to determine how you want to connect to the API. We offer client libraries in several languages, including <a href="https://github.com/Invoiced/invoiced-ruby">Ruby</a>, <a href="https://github.com/Invoiced/invoiced-php">PHP</a>, <a href="https://github.com/Invoiced/invoiced-python">Python</a>, <a href="https://github.com/Invoiced/invoiced-java">Java</a>, and <a href="https://github.com/Invoiced/invoiced-go">Go</a>. If we don't have a client library for your language then we would be happy to build one. Otherwise you can manually build the HTTP requests, which is not too difficult.
 
 Once you have your client library ready to go the next step is to get an API key. The API uses [Basic Authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) to authenticate requests. All API requests require a valid API key. You can grab an API key by signing in to the dashboard, and then going to **Settings** > **Developers** > **API Keys**. Please remember to keep this API key safe. In the wrong hands it could give unwanted access to your Invoiced account.
 
@@ -18,7 +18,8 @@ Next, we are going to walk through a common invoicing workflow.
 	<a href="#" class="btn btn-link" data-lang="bash">Shell</a>
 	<a href="#" class="btn btn-link" data-lang="ruby">Ruby</a>
 	<a href="#" class="btn btn-link" data-lang="php">PHP</a>
-  <a href="#" class="btn btn-link" data-lang="python">Python</a>
+    <a href="#" class="btn btn-link" data-lang="python">Python</a>
+	<a href="#" class="btn btn-link" data-lang="java">Java</a>
 </div>
 
 ### Creating a Customer
@@ -71,9 +72,22 @@ customer = client.Customer.create(
 )
 ```
 
+```java
+import com.invoiced.entity.Connection;
+import com.invoiced.entity.Customer;
+
+Connection invoiced = new Connection("{YOUR_API_KEY}", false);
+
+Customer customer = invoiced.newCustomer();
+customer.name = "Acme";
+customer.email = "billing@acmecorp.com";
+customer.paymentTerms = "NET 30";
+customer.create();
+```
+
 The `number` property helps you tie the customer on Invoiced to the ID already used within your system. It is not required as we would generate a value for you if it was not supplied.
 
-We highly recommend saving the customer's Invoiced `id` in your own database. This ID is required to retrieve the customer's account, create invoices, and perform any other customer-centric tasks.
+We highly recommend saving the customer's Invoiced ID (`id` property) in your own database. This ID is required to retrieve the customer's account, create invoices, and perform any other customer-centric tasks.
 
 ### Creating an Invoice
 
@@ -161,6 +175,31 @@ invoice = client.Invoice.create(
 )
 ```
 
+```java
+import com.invoiced.entity.Invoice;
+import com.invoiced.entity.LineItem;
+import com.invoiced.entity.Tax;
+
+Invoice invoice = invoiced.newInvoice();
+invoice.customer = customer.id;
+invoice.paymentTerms = "NET 14";
+LineItem[] items = new LineItem[2];
+items[0] = new LineItem();
+items[0].name = "Copy paper, Case";
+items[0].quantity = 3D;
+items[0].unitCost = 45D;
+items[1] = new LineItem();
+items[1].name = "Delivery";
+items[1].quantity = 1D;
+items[1].unitCost = 10D;
+invoice.items = items;
+Tax[] taxes = new Tax[1];
+taxes[0] = new Tax();
+taxes[0].amount = 3.85D;
+invoice.taxes = taxes;
+invoice.create();
+```
+
 The invoice will inherit the AutoPay and payment term settings from the customer's profile.
 
 #### Sending Invoices
@@ -183,6 +222,14 @@ $invoice->send();
 
 ```python
 invoice.send
+```
+
+```java
+import com.invoiced.entity.Email;
+import com.invoiced.entity.EmailRequest;
+
+EmailRequest emailRequest = new EmailRequest();
+Email[] emails = invoice.send(emailRequest);
 ```
 
 The customer will be sent the invoice with a **View Invoice** button using the default email template. You can customize these templates through the dashboard in **Settings** > **Emails**.
@@ -262,6 +309,28 @@ invoice = client.Invoice.create(
 )
 ```
 
+```java
+import com.invoiced.entity.Invoice;
+import com.invoiced.entity.LineItem;
+import com.invoiced.entity.Tax;
+
+Invoice invoice = invoiced.newInvoice();
+invoice.customer = customer.id;
+invoice.paymentTerms = "NET 14";
+LineItem[] items = new LineItem[2];
+items[0] = new LineItem();
+items[0].catalogItem = "copy_paper_20lb";
+items[0].quantity = 3D;
+items[1] = new LineItem();
+items[1].catalogItem = "delivery";
+invoice.items = items;
+Tax[] taxes = new Tax[1];
+taxes[0] = new Tax();
+taxes[0].amount = 3.85D;
+invoice.taxes = taxes;
+invoice.create();
+```
+
 Note that we did not have to include the `unit_cost` on the item as it was filled in automatically (although you can override per line item by including it). Another benefit of catalog items is that it helps tie together line items together in reports.
 
 
@@ -303,6 +372,17 @@ client.Transaction->create(
   gateway_id="1450",
   amount=148.85
 )
+```
+
+```java
+import com.invoiced.entity.Transaction;
+
+Transaction transaction = invoiced.newTransaction();
+transaction.invoice = invoice.id;
+transaction.method = "check";
+transaction.gatewayId = "1450";
+transaction.amount = 148.85;
+transaction.create();
 ```
 
 This will record a payment for the invoice we created earlier and mark it as paid. Since this is an offline payment the `gateway_id` property can be used to reference a check #. And that's it for a basic accounts receivable workflow.

@@ -355,6 +355,28 @@
           "name": "Testing"
         },
         {
+          "id": "subscription-billing",
+          "name": "Subscription Billing",
+          "table_of_contents": [
+            {
+              "id": "quickstart-guide",
+              "name": "Setup"
+            },
+            {
+              "id": "subscriptions-with-addons",
+              "name": "Addons"
+            },
+            {
+              "id": "upgrades-and-downgrades",
+              "name": "Upgrades & Downgrades"
+            },
+            {
+              "id": "cancellations",
+              "name": "Cancellations"
+            }
+          ]
+        },
+        {
           "id": "metered-billing",
           "name": "Metered Billing"
         },

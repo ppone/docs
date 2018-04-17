@@ -28,12 +28,13 @@ We are going to walk you through a basic metered billing workflow using the Invo
 	<a href="#" class="btn btn-link" data-lang="bash">Shell</a>
 	<a href="#" class="btn btn-link" data-lang="ruby">Ruby</a>
 	<a href="#" class="btn btn-link" data-lang="php">PHP</a>
-  <a href="#" class="btn btn-link" data-lang="python">Python</a>
+    <a href="#" class="btn btn-link" data-lang="python">Python</a>
+	<a href="#" class="btn btn-link" data-lang="java">Java</a>
 </div>
 
 ### Create a customer
 
-In order to bill our customer, we must first create an account for them on Invoiced. For this example we are going to invoice our customer with **NET 7** payment terms each billing cycle. You could just as easily use AutoPay, which will charge your customer's payment source automatically when invoices are issued on the account.
+In order to bill our customer, we must first create an account for them on Invoiced. For this example we are going to invoice our customer with **NET 7** payment terms each billing cycle. You could just as easily use [AutoPay](/docs/payments/autopay), which will charge your customer's payment source automatically when invoices are issued on the account.
 
 ```bash
 curl "https://api.invoiced.com/customers" \
@@ -79,6 +80,19 @@ customer = client.Customer.create(
 )
 ```
 
+```java
+import com.invoiced.entity.Connection;
+import com.invoiced.entity.Customer;
+
+Connection invoiced = new Connection("{YOUR_API_KEY}", false);
+
+Customer customer = invoiced.newCustomer();
+customer.name = "Acme";
+customer.email = "billing@acmecorp.com";
+customer.paymentTerms = "NET 7";
+customer.create();
+```
+
 ### Subscribe the customer to a plan
 
 In this example we are going to bill for charges that happen during our customer's billing cycle, in addition to the base subscription price. The plan we are using was created through the dashboard in **Settings** > **Plans** with the ID `starter`.
@@ -109,6 +123,15 @@ client.Subscription.create(
 	customer=customer.id,
 	plan="starter"
 )
+```
+
+```java
+import com.invoiced.entity.Subscription;
+
+Subscription subscription = invoiced.newSubscription();
+subscription.customer = customer.id;
+subscription.plan = "starter";
+subscription.create();
 ```
 
 ### Add metered charges
@@ -145,6 +168,15 @@ customer.line_items().create(
 )
 ```
 
+```java
+import com.invoiced.entity.PendingLineItem;
+
+PendingLineItem pendingCharge = customer.newPendingLineItem();
+pendingCharge.catalogItem = "delivery";
+pendingCharge.quantity = 5;
+pendingCharge.create();
+```
+
 And that's it! You can add further pending line items to the customer, or even edit an existing pending line item. Next time the subscription renews, your pending line items will be added to the invoice.
 
 ### Trigger invoice for metered charges (optional)
@@ -167,6 +199,12 @@ $customer->invoice();
 
 ```python
 customer.invoice()
+```
+
+```java
+import com.invoiced.entity.Invoice;
+
+Invoice invoice = customer.invoice();
 ```
 
 A new invoice using your customer's pending line items will be generated on the spot. If the customer does not have any pending line items then an error will be returned.
