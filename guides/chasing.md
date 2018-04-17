@@ -24,11 +24,11 @@ First you will need to enable chasing for your account in the settings and set u
 
 Go to **Settings** > **Chasing**.
 
-[![Invoice Settings Chasing](../img/chasing-tab.png)](../img/chasing-tab.png)
+[![Invoice Settings Chasing](../img/chasing-new.png)](../img/chasing-new.png)
 
 Flip the **Allow Chasing** toggle.
 
-[![Invoice Settings Chasing Enable](../img/invoice-setting-chasing-enable.png)](../img/invoice-setting-chasing-enable.png)
+[![Invoice Settings Chasing Enable](../img/allow-chasing-new.png)](../img/allow-chasing-new.png)
 
 Now we are ready to set the chasing schedule in order to instruct Invoiced exactly when to send reminders. Click on **+ Step** to add your first and subsequent steps to the chasing schedule.
 
@@ -94,7 +94,7 @@ Scheduling invoices to be sent into the future only requires that chasing is ena
 
 1. Ensure that **Allow Chasing** is enabled in **Settings** > **Chasing**. You only need to enable this once for your account.
 
-   [![Chasing is enabled globally](../img/scheduling-invoices-1.png)](../img/scheduling-invoices-1.png)
+   [![Chasing is enabled globally](../img/turn-chasing-on.png)](../img/turn-chasing-on.png)
 
 2. Open the invoice that you want Invoiced to follow up on.
 
