@@ -65,7 +65,7 @@ The next step is to set up a web services user for Invoiced on Intacct. It is re
 
    [![Connect Intacct](../img/connect-intacct.png)](../img/connect-intacct.png)
 
-3. Enter in the Intacct company ID, username, and password for your Invoiced web services user created earlier.
+3. Enter in the Intacct company ID, username, and password for your Invoiced web services user created earlier. If you are using a shared multi-entity account then you can also enter in the entity location ID you would like the connection to use.
 
 4. Click **Save**. Intacct is now connected! Next you will likely want to configure the integration before using it.
 
@@ -83,7 +83,7 @@ Now you can configure the accounting sync in order to tell Invoiced how to map t
 
 3. Select the undeposited funds account label from your G/L on Intacct. This is where payments received through Invoiced will be mapped.
 
-4. You can optionally enter in a location ID and/or department ID if you are operating a multi-entity Intacct company.
+4. You can optionally enter in location ID and/or department ID dimensions if you want to tag the line items on Intacct that are created by the Invoiced sync with these dimensions. If you are importing invoices from Intacct then the dimension settings are irrelevant.
 
 5. Click **Save**.
 
