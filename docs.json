@@ -355,6 +355,28 @@
           "name": "Testing"
         },
         {
+          "id": "payment-info",
+          "name": "Payment Information",
+          "table_of_contents": [
+            {
+              "id": "introduction",
+              "name": "Introduction"
+            },
+            {
+              "id": "storing-credit-card-information",
+              "name": "Credit Cards"
+            },
+            {
+              "id": "storing-bank-account-information",
+              "name": "Bank Accounts"
+            },
+            {
+              "id": "gateway-tokenization",
+              "name": "Gateway Tokenization"
+            }
+          ]
+        },
+        {
           "id": "subscription-billing",
           "name": "Subscription Billing",
           "table_of_contents": [
