@@ -65,7 +65,7 @@ The next step is to set up a web services user for Invoiced on Intacct. It is re
 
    [![Connect Intacct](../img/connect-intacct.png)](../img/connect-intacct.png)
 
-3. Enter in the Intacct company ID, username, and password for your Invoiced web services user created earlier. If you are using a shared multi-entity account then you can also enter in the entity location ID you would like the connection to use.
+3. Enter in the Intacct company ID, username, and password for your Invoiced web services user created earlier. If you are using a shared multi-entity account then you can also enter in the entity ID you would like the connection to use.
 
 4. Click **Save**. Intacct is now connected! Next you will likely want to configure the integration before using it.
 
