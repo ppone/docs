@@ -16,19 +16,34 @@ Creating an invoice is a fairly simple process. After all, it's the main thing t
 
 [![Drafting First Invoice](/docs/img/drafting-first-invoice.png)](/docs/img/drafting-first-invoice.png)
 
-Now you are inside of the invoice editor. Let's select the customer that we are invoicing. Click the dropdown where it says *Find or create client* and start typing your customer's name. Since that customer does not exist yet you need to click *Add My First Customer as a new client*. A new dialog will appear where you can enter your customer's information.
+Now you are inside of the invoice editor. Let's select the customer that we are invoicing. Click the dropdown where it says Find or create client and start typing your customer's name. If you have not created customers yet, the customer will not exist yet, so you will need to click Add My First Customer as a new client. A new dialog will appear where you can enter your customer's information.
 
-[![Creating First Customer](/docs/img/create-first-customer.png)](/docs/img/create-first-customer.png)
+**New Customer Information:**
 
-How do you expect to get paid from this customer? When **AutoPay** is disabled (the default) your customer will be able to pay invoices using any of the payment methods you accept, according to the payment terms you specify. If you enable [AutoPay](/docs/payments/autopay) then your customer's payment source will be charged for any invoices issued against their account.
+**Name:** Enter the name of your customer
 
-For this example we're going to leave AutoPay disabled and use *Net 7* payment terms. This means that payment is due within 7 days. Once you have entered in your customer's information then you can click **Create**.
+**Account:** This is the account number you would like associated with your customer. It will be generated if no information is given. 
 
-Selecting the customer will fill in the payment terms and due date on the invoice. All that remains is to add the line items.
+**Email:** Enter the customer’s email for communication. 
 
-[![Finished First Invoice](/docs/img/finished-first-invoice.png)](/docs/img/finished-first-invoice.png)
+How do you expect to get paid from this customer? When AutoPay is disabled (the default) your customer will be able to pay invoices using any of the payment methods you accept, according to the payment terms you specify. If you enable [AutoPay](/docs/payments/autopay) then your customer's payment source will be charged for any invoices issued against their account.
+
+For this example we're going to leave AutoPay disabled and use Net 7 payment terms. This means that payment is due within 7 days. Once you have entered in your customer's information then you can click Create. 
+ 
+There are other options you can add on this page, however, they are not necessary to complete the creation of a customer. Options include:
+
+**Address:** Enter the customer's billing address. 
+**Taxable:** Would you like this customer to be taxed?
+**Phone Number:** Enter the customer’s phone number.
+**Notes:** Would you like any notes associated with the customer?
+**Allowed Payments:** You can select which payment options this customer can have access to.
+
+[![Creating a Customer](/docs/img/create-a-customer.gif)](/docs/img/create-a-customer.gif)
 
 After building your line items you are ready to go. If you are not ready to go live with this invoice then you can save it as a draft. An invoice is not treated as outstanding until it has been issued. By clicking **Save and Issue** the invoice will be posted to the customer's account and is now considered due.
+
+[![Creating an Invoice](/docs/img/create-an-invoice.gif)](/docs/img/create-an-invoice.gif)
+
 
 ### Sending the invoice
 
@@ -37,6 +52,12 @@ Upon issuing the invoice we will ask if you want to send it. If you choose not t
 [![Sending First Invoice](/docs/img/sending-first-invoice.png)](/docs/img/sending-first-invoice.png)
 
 The message will be populated with the default email template (hint: you can change the defaults in **Settings** > **Emails**). Whenever you click **Send** your customer will receive an email with your branding, your message, and a **View Invoice** button.
+
+If you wish to have the email sent on Issuing, you will need to set up a chasing rule under:
+
+Settings > [Chasing](/docs/payments/chasing)
+
+Here, you will set a rule to send an email on issue.
 
 ### Getting paid
 
