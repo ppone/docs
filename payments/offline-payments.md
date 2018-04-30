@@ -28,13 +28,21 @@ When your client selects any of your offline payment methods we will show them y
 
 ## Recording Offline Payments
 
-Once you receive the payment you will need to record the payment through the dashboard in order to mark the invoice as paid. You can do this by going to the **Payments** section, clicking **Record Payment**, fill in the form, and finally click **Create**.
+Once you receive the payment you will need to record the payment through the dashboard in order to mark the invoice as paid. You can do this by accessing the Invoice and proceeding to the **Payments** section, clicking **Receive Payment**, fill in the form, and finally click Create. 
 
-The form will recognize what invoices are outstanding for the customer and even allow you to intelligently apply the payment across multiple invoices.
+[![Record Invoice Payment](/docs/img/receiving-payment.gif)](/docs/img/receiving-payment.gif)
 
-[![Record Invoice Payment](/docs/img/record-invoice-payment.png)](/docs/img/record-invoice-payment.png)
+When you apply a payment to an outstanding invoice. You will see a couple of different options on the **Receive Payment** Screen:
+
+**Cash Receipt:** The record when a cash payment has been allocated for the sale of a product. This can be cash, check, wire transfer, etc. 
+**Charge:** Credit Card & ACH transactions. 
 
 Voilà, the invoice is now marked as paid.
+
+**Want to pay multiple invoices for a customer?** Access the customer’s profile and press the addition icon in the top right corner of the page. Choose Receive Payment. Here, you will select the payment type, and the amount you wish to apply. Then, you will be able to select the outstanding invoices for the customer. 
+
+[![Record Multiple Invoice Payments](/docs/img/receive-multiple.gif)](/docs/img/receive-multiple.gif)
+
 
 ## Handling Overpayments
 
