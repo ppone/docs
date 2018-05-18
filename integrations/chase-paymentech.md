@@ -7,13 +7,15 @@ This document details how to connect the [Chase Paymentech](https://www.chasepay
 The Chase Paymentech Orbital payment gateway on Invoiced supports the following features:
 
 - [Credit card payments](/docs/payments/card)
-- [ACH payments](/docs/payments/ach) (U.S. only)
+- [ACH payments](/docs/payments/ach) (U.S. only, Stratus only)
 - Vaulting payment information (credit card and ACH)
 - [AutoPay](/docs/payments/autopay)
 
 ## Prerequisite
 
-The Chase Paymentech integration uses the Orbital gateway with the Stratus Platform (BIN 000001). You need to make sure your gateway account is set up to process transactions for the right host platform.
+The Chase Paymentech integration uses the Orbital gateway. It supports two different platforms: Stratus (BIN 000001) and PNS / Tandem (BIN 000002). The Stratus platform supports more features than Tandem, like ACH debits. You need to make sure you know the correct host platform your gateway account is set up on before configuring Invoiced.
+
+Generally if your merchant ID is 6 digits you will be on the Stratus platform. If your merchant ID is 12 digits then you are likely on the PNS / Tandem platform.
 
 ## Setup
 
