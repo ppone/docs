@@ -37,7 +37,7 @@ Connecting Chase Paymentech Orbital is a straightforward process. Follow these s
 
    [![Chase Paymentech Orbital Settings Page](../img/chase-paymentech-connect.png)](../img/chase-paymentech-connect.png)
 
-5. Enter in your Chase Paymentech Orbital **Account ID** and **API Secret** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
+5. Enter in your Chase Paymentech Orbital **Merchant ID**, **Username**, **Password**, **Platform**, and **Terminal ID** (Tandem only). Next click **Save** and finally click **Enable**. The payment method you selected should be enabled.
 
    [![Chase Paymentech Orbital Payments Enabled](../img/chase-paymentech-enabled.png)](../img/chase-paymentech-enabled.png)
 
