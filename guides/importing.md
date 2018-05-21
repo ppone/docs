@@ -107,6 +107,65 @@ Steps to import Payments:
 - The *ID* field must be at least 2 characters long and can only be alphanumeric, dashes, or underscores
 - The *Type* field can be one of `product`, `service`, `expense`, `hours`, `days`, `month`, `year`, `shipping`, or blank
 
+### Plans
+
+1. Go to **Settings** > **Plans**
+
+2. Click **Import**
+
+3. Build your import spreadsheet, select all the contents, and paste it into the textbox. [Download](https://dashboard.invoiced.com/files/plans-import-template.xlsx) a sample plans import template to get started.
+
+4. Click **Go to Next Step**
+
+5. Match each column to a field in Invoiced. You can tell us to skip a column too if needed.
+
+6. Click **Start Import**. That's it. We will notify you when the import finishes.
+
+#### Tips
+
+- The required fields are *ID*, *Name*, *Interval*, *Interval Count*, and *Amount*
+- The *ID* field must be at least 2 characters long and can only be alphanumeric, dashes, or underscores
+- The *Interval* field can be one of `day`, `week`, `month`, `year`
+- The *Interval Count* field must be 1 or greater, i.e. interval count of 3 with an interval of `month` is billed qaurterly.
+
+### Coupons
+
+1. Go to **Settings** > **Coupons**
+
+2. Click **Import**
+
+3. Build your import spreadsheet, select all the contents, and paste it into the textbox. [Download](https://dashboard.invoiced.com/files/coupons-import-template.xlsx) a sample coupons import template to get started.
+
+4. Click **Go to Next Step**
+
+5. Match each column to a field in Invoiced. You can tell us to skip a column too if needed.
+
+6. Click **Start Import**. That's it. We will notify you when the import finishes.
+
+#### Tips
+
+- The required fields are *ID*, *Name*, and *Value*
+- The *ID* field must be at least 2 characters long and can only be alphanumeric, dashes, or underscores
+
+### Tax Rates
+
+1. Go to **Settings** > **Tax Rates**
+
+2. Click **Import**
+
+3. Build your import spreadsheet, select all the contents, and paste it into the textbox. [Download](https://dashboard.invoiced.com/files/tax-rates-import-template.xlsx) a sample tax rates import template to get started.
+
+4. Click **Go to Next Step**
+
+5. Match each column to a field in Invoiced. You can tell us to skip a column too if needed.
+
+6. Click **Start Import**. That's it. We will notify you when the import finishes.
+
+#### Tips
+
+- The required fields are *ID*, *Name*, and *Value*
+- The *ID* field must be at least 2 characters long and can only be alphanumeric, dashes, or underscores
+
 ### Rolling back imports
 
 Did your import not turn out the way you expected? Not a problem! You can rollback any import with the click of a button provided it happened within the last 3 days. Simply open the import in the dashboard and click the red **Rollback Import** button.

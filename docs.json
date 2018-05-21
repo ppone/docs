@@ -65,6 +65,18 @@
             {
               "id": "catalog-items",
               "name": "Catalog Items"
+            },
+            {
+              "id": "plans",
+              "name": "Plans"
+            },
+            {
+              "id": "coupons",
+              "name": "Coupons"
+            },
+            {
+              "id": "tax-rates",
+              "name": "Tax Rates"
             }
           ]
         },
