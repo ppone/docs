@@ -10,13 +10,13 @@ Setting up offline payments is easy! Follow these steps to display your custom p
 
    [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
 
-2. Click **Setup** on the *Offline Payments* payment method.
+2. Click **Setup** on the *Payment Instructions* payment method.
 
-  [![Offline Payments Setup](../img/offline-payments-setup.png)](../img/offline-payments-setup.png)
+  [![Payment Instructions Setup](../img/offline-payments-setup.png)](../img/offline-payments-setup.png)
 
 3. Click on the toggle for each payment method you want to accept, like Check or Wire Transfer. Then enter in your payment instructions for that payment method.
 
-  [![Offline Payment Instructions](../img/offline-payments-setup-2.png)](../img/offline-payments-setup-2.png)
+  [![Check Payment Instructions](../img/offline-payments-setup-2.png)](../img/offline-payments-setup-2.png)
 
 4. Click **Save** to enable offline payments.
 
