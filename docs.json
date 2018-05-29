@@ -313,6 +313,10 @@
           "name": "Elavon"
         },
         {
+          "id": "gocardless",
+          "name": "GoCardless"
+        },
+        {
           "id": "intuit-payments",
           "name": "Intuit Payments"
         },
