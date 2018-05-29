@@ -23,6 +23,20 @@
           "name": "Coupons"
         },
         {
+          "id": "payment-incentives",
+          "name": "Payment Incentives",
+          "table_of_contents": [
+            {
+              "id": "early-payment-discounts",
+              "name": "Early Payment Discounts"
+            },
+            {
+              "id": "late-fees",
+              "name": "Late Fees"
+            }
+          ]
+        },
+        {
           "id": "taxes",
           "name": "Taxes"
         },
