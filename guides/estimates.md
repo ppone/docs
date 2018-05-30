@@ -21,7 +21,7 @@ The estimates addon is disabled by default. Follow these steps to enable estimat
 
 1. Go to **Settings** > **General** in the Invoiced dashboard. Towards the bottom of the page you will find an *Estimates Addon* toggle.
 
-   [![Enabling Estimates Addon](../img/enable-estimates.png)](../img/enable-estimates.png)
+   [![Enabling Estimates Addon](../img/addon-settings.png)](../img/addon-settings.png)
 
 2. Click on the toggle next to *Estimates Addon*.
 
