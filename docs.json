@@ -23,6 +23,20 @@
           "name": "Coupons"
         },
         {
+          "id": "payment-incentives",
+          "name": "Payment Incentives",
+          "table_of_contents": [
+            {
+              "id": "early-payment-discounts",
+              "name": "Early Payment Discounts"
+            },
+            {
+              "id": "late-fees",
+              "name": "Late Fees"
+            }
+          ]
+        },
+        {
           "id": "taxes",
           "name": "Taxes"
         },
@@ -65,6 +79,18 @@
             {
               "id": "catalog-items",
               "name": "Catalog Items"
+            },
+            {
+              "id": "plans",
+              "name": "Plans"
+            },
+            {
+              "id": "coupons",
+              "name": "Coupons"
+            },
+            {
+              "id": "tax-rates",
+              "name": "Tax Rates"
             }
           ]
         },
@@ -299,6 +325,10 @@
         {
           "id": "elavon",
           "name": "Elavon"
+        },
+        {
+          "id": "gocardless",
+          "name": "GoCardless"
         },
         {
           "id": "intuit-payments",
