@@ -9,56 +9,8 @@
           "name": "Getting Started"
         },
         {
-          "id": "subscription-billing",
-          "name": "Subscription Billing",
-          "table_of_contents": [
-            {
-              "id":"contract-billing",
-              "name":"Contract Billing"
-            }
-          ]
-        },
-        {
-          "id": "coupons",
-          "name": "Coupons"
-        },
-        {
-          "id": "payment-incentives",
-          "name": "Payment Incentives",
-          "table_of_contents": [
-            {
-              "id": "early-payment-discounts",
-              "name": "Early Payment Discounts"
-            },
-            {
-              "id": "late-fees",
-              "name": "Late Fees"
-            }
-          ]
-        },
-        {
-          "id": "taxes",
-          "name": "Taxes"
-        },
-        {
-          "id": "credit-notes",
-          "name": "Credit Notes"
-        },
-        {
-          "id": "emails",
-          "name": "Emails"
-        },
-        {
-          "id": "chasing",
-          "name": "Chasing"
-        },
-        {
           "id": "billing-portal",
           "name": "Billing Portal"
-        },
-        {
-          "id": "reports",
-          "name": "Reports"
         },
         {
           "id": "importing",
@@ -95,12 +47,60 @@
           ]
         },
         {
-          "id": "custom-fields",
-          "name": "Custom Fields"
+          "id": "coupons",
+          "name": "Coupons"
+        },
+        {
+          "id": "payment-incentives",
+          "name": "Payment Incentives",
+          "table_of_contents": [
+            {
+              "id": "early-payment-discounts",
+              "name": "Early Payment Discounts"
+            },
+            {
+              "id": "late-fees",
+              "name": "Late Fees"
+            }
+          ]
+        },
+        {
+          "id": "credit-notes",
+          "name": "Credit Notes"
+        },
+        {
+          "id": "chasing",
+          "name": "Chasing"
+        },
+        {
+          "id": "subscription-billing",
+          "name": "Subscription Billing",
+          "table_of_contents": [
+            {
+              "id":"contract-billing",
+              "name":"Contract Billing"
+            }
+          ]
         },
         {
           "id": "sign-up-pages",
           "name": "Sign Up Pages"
+        },
+        {
+          "id": "taxes",
+          "name": "Taxes"
+        },
+        {
+          "id": "emails",
+          "name": "Emails"
+        },
+        {
+          "id": "reports",
+          "name": "Reports"
+        },
+        {
+          "id": "custom-fields",
+          "name": "Custom Fields"
         },
         {
           "id": "estimates",
