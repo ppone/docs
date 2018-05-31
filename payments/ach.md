@@ -28,6 +28,13 @@ Customers can select the **ACH** payment method from payment forms. Most payment
 
 [![Pay Invoice with ACH](/docs/img/pay-invoice-ach.png)](/docs/img/pay-invoice-ach.png)
 
+## Virtual Terminal
+
+Like customers, internal Invoiced users have the ability to apply a payment to an account with an ACH payment method on an invoice. Whether a customer has saved an ACH payment method on file or has provided the user with the information, easily access the virtual terminal for payments by navigating to the invoice and selecting receive payment -> charge. From there, you can select the saved ACH payment method or enter a new ACH method.
+
+[![Pay Invoice with ACH](/docs/img/ach-terminal-payment.gif)](/ach-terminal-payment.gif)
+
+
 ## AutoPay
 
 ACH payments work with [AutoPay](/docs/payments/autopay) when your customer saves a bank account payment source.

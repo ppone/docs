@@ -82,7 +82,7 @@ If you want control over when your books are synced then you can manually trigge
 
 ### Manual Invoice Imports
 
-You can import outstanding invoices from QuickBooks Online as a one-time import. If you are using accounting sync then that will continually bring in outstanding invoices and a manual import is not needed.
+You can import outstanding invoices from QuickBooks Online using the Invoice Importer located in the top right corner of the Invoice detail page. If you are using the accounting sync, then the auto-sync will continually pass payment information as well as invoices created in Invoiced. You will need to import invoices created in Quickbooks Online manually. 
 
 Instructions:
 
