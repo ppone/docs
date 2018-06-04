@@ -445,6 +445,11 @@
           "name": "Customizing Templates"
         },
         {
+          "id": "customizing-templates-legacy",
+          "name": "Customizing Templates",
+          "hidden": true
+        },
+        {
           "id": "file-attachments",
           "name": "File Attachments"
         }
