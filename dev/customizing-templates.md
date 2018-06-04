@@ -6,6 +6,8 @@ The underlying templates are HTML and CSS. Both the layout and styling can be cu
 
 [![Customizable Invoice Templates](../img/pdf-template-editor.png)](../img/pdf-template-editor.png)
 
+<p class="alert alert-info">This document describes v2 of our templating system. If you are using the legacy Mustache templating then you can find the <a href="/docs/dev/customizing-templates-legacy">docs here</a>. Please contact support@invoiced.com if you would like to be moved to the new templating system.</p>
+
 ## Syntax
 
 [Twig](https://twig.symfony.com/doc/2.x/) is the templating language used to render HTML templates on Invoiced. Below are the tags, filters, and functions available to your templates.
