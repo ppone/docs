@@ -315,10 +315,6 @@
           "name": "Braintree"
         },
         {
-          "id": "chase-paymentech",
-          "name": "Chase Paymentech"
-        },
-        {
           "id": "cybersource",
           "name": "CyberSource"
         },
@@ -443,6 +439,11 @@
         {
           "id": "customizing-templates",
           "name": "Customizing Templates"
+        },
+        {
+          "id": "customizing-templates-legacy",
+          "name": "Customizing Templates",
+          "hidden": true
         },
         {
           "id": "file-attachments",
