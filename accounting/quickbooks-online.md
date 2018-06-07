@@ -156,6 +156,12 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 - Payments applied to invoices on QuickBooks will be synced to Invoiced instantly. You must have auto-sync enabled for 2-way payment sync to work.
 
+- Adding a credit note to the invoice on Invoiced that marks the invoice as paid will not sync the payment to Quickbooks Online.
+
+- Adding a credit note to the invoice on Invoiced to partially pay the invoice will show in Quickbooks as undesposited funds.
+
+- Credit balances from Invoiced do not sync to Quickbooks Online.
+
 ## Troubleshooting
 
 When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** > **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.

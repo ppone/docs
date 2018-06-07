@@ -193,6 +193,14 @@ No, tracking categories are not currently supported.
 
 If a synced payment is refunded on Invoiced, the refund amount will be deducted from the original payment on Xero.
 
+## How are credits handled?
+
+- When a credit is applied in Invoiced to an invoice to pay entirely, the credit will not sync to Xero.
+
+- When a partial credit is applied to an invoice in Xero, the partial credit will sync to the invoice on Invoiced.
+
+- When a partial credit is applied to an invoice in Invoiced, and is synced to Xero, the credit will show as cash.
+
 ## Troubleshooting
 
 When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** > **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.

@@ -183,6 +183,12 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 - When importing bill to contacts instead of customers, the customer on Invoiced will use the information from the bill to contact instead of the Intacct customer. This means the name and details will match the bill to contact, and will result in multiple Invoiced customers for a single Intacct customer. The customer number on Invoiced will be auto-generated and will not match the one on Intacct because there are multiple Invoiced customers that could have the same account number.
 
+- If a credit is applied to an invoice in Invoiced to pay the entire invoice, the credit information will not be synced to Intacct.
+
+- Applying a credit note to an invoice in Intacct to pay the entire invoice will not sync the credit payment to Invoiced.
+
+- Applying a partial credit to an invoice in Intacct will sync as a partial payment to the invoice on Invoiced as other. Applying a partial credit in Intacct will sync to the invoice in Invoiced as a partial credit applied.
+
 ## Troubleshooting
 
 When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** > **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
