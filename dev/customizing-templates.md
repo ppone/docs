@@ -29,6 +29,7 @@ Here is an example:
 Available tags: (click to learn more)
 - [`if`](https://twig.symfony.com/doc/2.x/tags/if.html)
 - [`for`](https://twig.symfony.com/doc/2.x/tags/for.html)
+- [`set`](https://twig.symfony.com/doc/2.x/tags/set.html)
 
 ### Filters
 
