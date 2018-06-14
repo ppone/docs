@@ -117,7 +117,7 @@ If you want control over when your books are synced then you can manually trigge
 
 ### Manual Invoice Imports
 
-You can import outstanding invoices from Intacct using the invoice importer. With the Intacct invoice importer you have the option to pull in invoices from the **Accounts Receivable** or **Order Entry** module, depending on where you create your invoices. If you are using the Order Entry module then it is recommended to import invoices from there as the invoices will have more detail, such as the line item quantity.
+You can import outstanding invoices from the Intacct Order Entry module using our Intacct invoice importer.
 
 Instructions:
 
@@ -129,7 +129,7 @@ Instructions:
 
    [![Invoice Importer](../img/invoice-importer.png)](../img/invoice-importer.png)
 
-3. Configure the importer, such as selecting the module to import from and the sales document type. When ready to import, click **Start**.
+3. Select the sales document type you would like to import, and when ready, click **Start**.
 
    [![Start Intacct Invoice Import](../img/intacct-invoice-importer-options.png)](../img/intacct-invoice-importer-options.png)
 
@@ -176,8 +176,6 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 - Only non-draft invoices on Invoiced that have been updated since the last sync will be synced. On your first sync this means that all non-draft invoices will be synced.
 
 - Any changes to invoices imported from Intacct that are later modified on Invoiced will not be synced to Intacct. Payments processed through Invoiced for imported invoices will still be synced.
-
-- Line items on A/R invoices imported from Intacct will always have a quantity of `1`. Line items imported from the Order Entry module will have the correct quantity.
 
 - Editing invoices imported from the Intacct Order Entry module, after they have been imported, can cause sync errors and might need to be reconciled by hand.
 
