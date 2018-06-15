@@ -1,10 +1,12 @@
 # Payments
 
-Payments are at the core of Invoiced. Invoiced handles your online payments as well as giving you tools to track offline payments.
+Payments are at the core of Invoiced. You can process payments within Invoiced as well as keep track of payments that happen outside of Invoiced, like receiving a check.
 
-Online payments let your customers directly pay invoices through Invoiced. If a customer pays online we will automatically record the payment. We currently support credit/debit cards, [ACH](https://en.wikipedia.org/wiki/Automated_Clearing_House), SEPA debits, and PayPal.
+Typically your customers directly pay invoices through the customer portal when they click a "Pay Now" button on an invoice. If a customer pays online we will automatically record the payment. We currently support credit/debit cards, [ACH](https://en.wikipedia.org/wiki/Automated_Clearing_House), SEPA debits, and PayPal as online payment methods.
 
-Offline payments represent transactions that happen outside of Invoiced, like a wire transfer for example. You can track offline payments regardless of the payment instrument used.
+Cash receipts on the other hand represent transactions that happen outside of Invoiced, like a wire transfer for example. You can track cash receipts on Invoiced regardless of the payment instrument used.
+
+Another way that customers can pay is with their credit balance, which keeps track of credits the customer might have earned or collected over time.
 
 Unlike online payments, offline payments must be recorded on Invoiced once received. Our cash application tool will help you apply the payment to outstanding invoices for the customer.
 
@@ -13,7 +15,7 @@ Available payment methods:
 - [ACH](/docs/payments/ach)
 - [SEPA debits](/docs/payments/sepa)
 - [PayPal](/docs/payments/paypal)
-- [Offline Payments](/docs/payments/offline-payments)
+- [Cash Receipts](/docs/payments/offline-payments)
 - [Credit Balances](/docs/payments/credits)
 - [Payment Plans](/docs/payments/payment-plans)
 - [AutoPay](/docs/payments/autopay)

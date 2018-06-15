@@ -82,7 +82,7 @@ If you want control over when your books are synced then you can manually trigge
 
 ### Manual Invoice Imports
 
-You can import outstanding invoices from QuickBooks Online as a one-time import. If you are using accounting sync then that will continually bring in outstanding invoices and a manual import is not needed.
+You can import outstanding invoices from QuickBooks Online using the Invoice Importer located in the top right corner of the Invoice detail page. If you are using the accounting sync, then the auto-sync will continually pass payment information as well as invoices created in Invoiced. You will need to import invoices created in Quickbooks Online manually. 
 
 Instructions:
 
@@ -155,6 +155,12 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 - If a synced payment is refunded on Invoiced, the refund amount will be deducted from the original payment on QuickBooks.
 
 - Payments applied to invoices on QuickBooks will be synced to Invoiced instantly. You must have auto-sync enabled for 2-way payment sync to work.
+
+- Adding a credit note to the invoice on Invoiced that marks the invoice as paid will not sync the payment to Quickbooks Online.
+
+- Adding a credit note to the invoice on Invoiced to partially pay the invoice will show in Quickbooks as undesposited funds.
+
+- Credit balances from Invoiced do not sync to Quickbooks Online.
 
 ## Troubleshooting
 

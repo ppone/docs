@@ -51,10 +51,6 @@
           "name": "Billing Portal"
         },
         {
-          "id": "reports",
-          "name": "Reports"
-        },
-        {
           "id": "importing",
           "name": "Importing",
           "table_of_contents": [
@@ -73,16 +69,76 @@
             {
               "id": "catalog-items",
               "name": "Catalog Items"
+            },
+            {
+              "id": "plans",
+              "name": "Plans"
+            },
+            {
+              "id": "coupons",
+              "name": "Coupons"
+            },
+            {
+              "id": "tax-rates",
+              "name": "Tax Rates"
             }
           ]
         },
         {
-          "id": "custom-fields",
-          "name": "Custom Fields"
+          "id": "coupons",
+          "name": "Coupons"
+        },
+        {
+          "id": "payment-incentives",
+          "name": "Payment Incentives",
+          "table_of_contents": [
+            {
+              "id": "early-payment-discounts",
+              "name": "Early Payment Discounts"
+            },
+            {
+              "id": "late-fees",
+              "name": "Late Fees"
+            }
+          ]
+        },
+        {
+          "id": "credit-notes",
+          "name": "Credit Notes"
+        },
+        {
+          "id": "chasing",
+          "name": "Chasing"
+        },
+        {
+          "id": "subscription-billing",
+          "name": "Subscription Billing",
+          "table_of_contents": [
+            {
+              "id":"contract-billing",
+              "name":"Contract Billing"
+            }
+          ]
         },
         {
           "id": "sign-up-pages",
           "name": "Sign Up Pages"
+        },
+        {
+          "id": "taxes",
+          "name": "Taxes"
+        },
+        {
+          "id": "emails",
+          "name": "Emails"
+        },
+        {
+          "id": "reports",
+          "name": "Reports"
+        },
+        {
+          "id": "custom-fields",
+          "name": "Custom Fields"
         },
         {
           "id": "estimates",
@@ -297,16 +353,16 @@
           "name": "Braintree"
         },
         {
-          "id": "chase-paymentech",
-          "name": "Chase Paymentech"
-        },
-        {
           "id": "cybersource",
           "name": "CyberSource"
         },
         {
           "id": "elavon",
           "name": "Elavon"
+        },
+        {
+          "id": "gocardless",
+          "name": "GoCardless"
         },
         {
           "id": "intuit-payments",
@@ -421,6 +477,11 @@
         {
           "id": "customizing-templates",
           "name": "Customizing Templates"
+        },
+        {
+          "id": "customizing-templates-legacy",
+          "name": "Customizing Templates",
+          "hidden": true
         },
         {
           "id": "file-attachments",

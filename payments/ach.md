@@ -34,6 +34,10 @@ Like customers, internal Invoiced users have the ability to apply a payment to a
 
 [![Pay Invoice with ACH](/docs/img/ach-terminal-payment.gif)](/ach-terminal-payment.gif)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 897bcbfbd2bf70f80aa8beb1f7127460c32a6a51
 ## AutoPay
 
 ACH payments work with [AutoPay](/docs/payments/autopay) when your customer saves a bank account payment source.

@@ -117,7 +117,7 @@ If you want control over when your books are synced then you can manually trigge
 
 ### Manual Invoice Imports
 
-You can import outstanding invoices from Intacct using the invoice importer. With the Intacct invoice importer you have the option to pull in invoices from the **Accounts Receivable** or **Order Entry** module, depending on where you create your invoices. If you are using the Order Entry module then it is recommended to import invoices from there as the invoices will have more detail, such as the line item quantity.
+You can import outstanding invoices from the Intacct Order Entry module using our Intacct invoice importer.
 
 Instructions:
 
@@ -129,7 +129,7 @@ Instructions:
 
    [![Invoice Importer](../img/invoice-importer.png)](../img/invoice-importer.png)
 
-3. Configure the importer, such as selecting the module to import from and the sales document type. When ready to import, click **Start**.
+3. Select the sales document type you would like to import, and when ready, click **Start**.
 
    [![Start Intacct Invoice Import](../img/intacct-invoice-importer-options.png)](../img/intacct-invoice-importer-options.png)
 
@@ -177,11 +177,15 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 - Any changes to invoices imported from Intacct that are later modified on Invoiced will not be synced to Intacct. Payments processed through Invoiced for imported invoices will still be synced.
 
-- Line items on A/R invoices imported from Intacct will always have a quantity of `1`. Line items imported from the Order Entry module will have the correct quantity.
-
 - Editing invoices imported from the Intacct Order Entry module, after they have been imported, can cause sync errors and might need to be reconciled by hand.
 
 - When importing bill to contacts instead of customers, the customer on Invoiced will use the information from the bill to contact instead of the Intacct customer. This means the name and details will match the bill to contact, and will result in multiple Invoiced customers for a single Intacct customer. The customer number on Invoiced will be auto-generated and will not match the one on Intacct because there are multiple Invoiced customers that could have the same account number.
+
+- If a credit is applied to an invoice in Invoiced to pay the entire invoice, the credit information will not be synced to Intacct.
+
+- Applying a credit note to an invoice in Intacct to pay the entire invoice will not sync the credit payment to Invoiced.
+
+- Applying a partial credit to an invoice in Intacct will sync as a partial payment to the invoice on Invoiced as other. Applying a partial credit in Intacct will sync to the invoice in Invoiced as a partial credit applied.
 
 ## Troubleshooting
 

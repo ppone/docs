@@ -122,6 +122,18 @@ Wanting to discount some of the subscription payments but not all? You now have 
 
 ## Usage
 
+## Enabling Subscription Billing
+
+The subscription billing addon is disabled by default. Follow these steps to enable subscription billing:
+
+1. Go to **Settings** > **General** in the Invoiced dashboard. Towards the bottom of the page you will find a *Subscriptions Addon* toggle.
+
+   [![Enabling Subscriptions Addon](../img/addon-settings.png)](../img/addon-settings.png)
+
+2. Click on the toggle next to *Subscriptions Addon*.
+
+   [![Subscriptions Addon Enabled](../img/subscriptions-enabled.png)](../img/subscriptions-enabled.png)
+
 ### Creating a Subscription
 
 The following example is based off of a subscription invoice with a NET 14 terms. In this scenario, AutoPay will be disabled. If you wish to use AutoPay, we recommend using the signup pages to subscribe a new customer and capture the payment information on signup. 
