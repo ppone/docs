@@ -5,8 +5,16 @@
       "name": "Guides",
       "docs": [
         {
-          "id": "getting-started",
+          "id": "getting_started",
           "name": "Getting Started"
+        },
+        {
+          "id": "customers",
+          "name": "Customers"
+        },
+        {
+          "id": "create_an_invoice",
+          "name": "Creating an Invoice"
         },
         {
           "id": "subscription-billing",
