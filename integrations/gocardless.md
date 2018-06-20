@@ -1,6 +1,6 @@
 # GoCardless Integration
 
-This document details how to connect [GoCardless](https://gocardless.com) to Invoiced for accepting diret debit payments and how our integration works.
+This document details how to connect [GoCardless](https://gocardless.com) to Invoiced for accepting direct debit payments and how our integration works.
 
 ## Capabilities
 
