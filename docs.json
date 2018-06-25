@@ -17,36 +17,6 @@
           "name": "Creating an Invoice"
         },
         {
-          "id": "subscription-billing",
-          "name": "Subscription Billing",
-          "table_of_contents": [
-            {
-              "id":"contract-billing",
-              "name":"Contract Billing"
-            }
-          ]
-        },
-        {
-          "id": "coupons",
-          "name": "Coupons"
-        },
-        {
-          "id": "taxes",
-          "name": "Taxes"
-        },
-        {
-          "id": "credit-notes",
-          "name": "Credit Notes"
-        },
-        {
-          "id": "emails",
-          "name": "Emails"
-        },
-        {
-          "id": "chasing",
-          "name": "Chasing"
-        },
-        {
           "id": "billing-portal",
           "name": "Billing Portal"
         },

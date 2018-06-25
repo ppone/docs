@@ -6,7 +6,7 @@ Customers > New Customer
 
 You will be prompted to add a name, account number (this will generate if left blank), and an email address. On the New customer set up, you can also add a payment source, billing address, specify allowed payment sources, and allow Chasing on the customers profile. If you do not know this information, you can leave these items blank. 
 
-[![Creating a Customer](../img/creating-a-customer.gif)](../img/creating-a-customer.gif)
+[![Creating a Customer](../img/create-a-customer.gif)](../img/create-a-customer.gif)
 
 Once a customer is created, you can apply invoices, pending line items, and subscriptions to the customers account.
 

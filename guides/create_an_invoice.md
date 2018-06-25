@@ -2,7 +2,7 @@
 
 Creating an invoice is a fairly simple process. After all, it's the main thing that Invoiced was designed to do. If it is your first time logging into your Invoiced account, we are happy to announce you are one step closer to creating your first Invoice. Once you log into your account for the first time, your dashboard won't contain any details regarding your account overview until you have created your first invoice. Not to worry. Simply click on Create First Invoice to get started. 
 
-[![Creating an Invoice](../img/create_first_invoice.png)](../img/create_first_invoice.png)
+[![Creating an Invoice](../img/create-first-invoice.png)](../img/create-first-invoice.png)
 
 You can also click on the *Invoices* section in the left sidebar to be taken to the invoices page. Then click the big *New Invoice* button at the top of the page to create a new invoice. 
 
@@ -16,7 +16,7 @@ In the right corner of the invoice, you will find a section to select a date of 
 
 When selecting or creating the customer the invoice will go to, it will prompt you to select a payment term or if the customer will be on autopay. The payment term for the customer or the autopay information will show under the Date field. If you wish to change this to a specific date to bill the customer, delete the payment term in the payment term selection and a due date box will appear. Here is where you can select a due date. 
 
-[![Selecting Payment Terms](../img/select-billing-date.gif)](../img/select-billing-date.gif)
+[![Selecting Payment Terms](../img/selecting-billing-date.gif)](../img/selecting-billing-date.gif)
 
 ## Applying Items to the Invoice
 
