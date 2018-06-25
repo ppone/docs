@@ -67,25 +67,11 @@ The next step is to set up a web services user for Invoiced on Intacct. It is re
 
 3. Enter in the Intacct company ID, username, and password for your Invoiced web services user created earlier. If you are using a shared multi-entity account then you can also enter in the entity ID you would like the connection to use.
 
-4. Click **Save**. Intacct is now connected! Next you will likely want to configure the integration before using it.
-
-   [![Intacct Connected](../img/intacct-connected.png)](../img/intacct-connected.png)
-
-### Configuring the Accounting Sync
-
-Now you can configure the accounting sync in order to tell Invoiced how to map the data into your general ledger.
-
-1. Click on **Configure** on the Intacct integration from the integrations page.
+4. Click **Save**. Intacct is now connected! Next you will want to configure the integration before using it.
 
    [![Intacct Integration Settings](../img/intacct-integration-settings.png)](../img/intacct-integration-settings.png)
 
-2. Select the item account from your G/L on Intacct. This is the default account where new line items are mapped.
-
-3. Select the undeposited funds account label from your G/L on Intacct. This is where payments received through Invoiced will be mapped.
-
-4. You can optionally enter in location ID and/or department ID dimensions if you want to tag the line items on Intacct that are created by the Invoiced sync with these dimensions. If you are importing invoices from Intacct then the dimension settings are irrelevant.
-
-5. Click **Save**.
+5. You can customize the integration, including the account mapping into your general ledger and enabling automatic reconciliation. You can optionally enter in location ID and/or department ID dimensions if you want to tag the line items on Intacct that are created by the Invoiced sync with these dimensions. If you are importing invoices from Intacct then the dimension settings are irrelevant. Click **Save** to finish setting up the Intacct integration.
 
 ## Usage
 
@@ -95,19 +81,23 @@ In this section you will learn how to use the Intacct integration.
 
 Auto-sync will run accounting syncs automatically for you on an ongoing basis. Once auto-sync is enabled, accounting syncs will happen approximately once per hour. Here's how you can enable auto-sync:
 
-1. Go to **Settings** > **Accounting Sync**. Select **Intacct** as your accounting system, if not already selected.
+1. Go to **Settings** > **Accounting Sync**. Click **Configure** on the Intacct integration.
 
    [![Intacct Accounting Sync](../img/intacct-accounting-sync-connected.png)](../img/intacct-accounting-sync-connected.png)
 
-2. Click **Enable Auto-Sync** next to the Intacct integration. You can periodically check back here to see activity in the *Recent Syncs* table.
+2. Enable the *Reconcile to Intacct* option.
 
-   [![Intacct Accounting Sync](../img/intacct-accounting-sync.png)](../img/intacct-accounting-sync.png)
+   [![Intacct Integration Settings Enable Auto-Sync](../img/intacct-integration-settings.png)](../img/intacct-integration-settings.png)
+
+3. Click **Save**. You can periodically check back here to see when the next sync run is scheduled or see past activity in the *Recent Syncs* table.
+
+   [![Intacct Auto-Sync Enabled](../img/intacct-auto-sync-enabled.png)](../img/intacct-auto-sync-enabled.png)
 
 ### Running Syncs Manually
 
 If you want control over when your books are synced then you can manually trigger accounting syncs. You can run an accounting sync by following these steps:
 
-1. Go to **Settings** > **Accounting Sync**. Select **Intacct** as your accounting system, if not already selected.
+1. Go to **Settings** > **Accounting Sync**.
 
    [![Intacct Accounting Sync](../img/intacct-accounting-sync-connected.png)](../img/intacct-accounting-sync-connected.png)
 

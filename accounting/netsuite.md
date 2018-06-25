@@ -40,7 +40,7 @@ Coming Soon!
 
 3. Enter in the NetSuite account ID, consumer secret, consumer key, token, and token secret for the Invoiced integration created earlier.
 
-4. Click **Save**. NetSuite is now connected! Next you will likely want to configure the integration before using it.
+4. Click **Save**. NetSuite is now connected! Next you will want to configure the integration before using it.
 
    [![NetSuite Integration Settings](../img/netsuite-integration-settings.png)](../img/netsuite-integration-settings.png)
 
