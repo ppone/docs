@@ -43,7 +43,7 @@ The next step is to set up a web services user for Invoiced on Intacct. It is re
    
    [![Intacct Web Services User Setup](../img/intacct-web-services-user.png)](../img/intacct-web-services-user.png)
 
-4. Next you need to configure permissions for the Invoiced user. On the subscriptions page check the **Accounts Receivable** and **General Ledger** modules.
+4. Next you need to configure permissions for the Invoiced user. On the subscriptions page check the **Accounts Receivable**, **General Ledger**, and **Order Entry** modules.
 
    [![Intacct Subscriptions Setup](../img/intacct-web-services-user-subscriptions.png)](../img/intacct-web-services-user-subscriptions.png)
 
@@ -53,7 +53,9 @@ The next step is to set up a web services user for Invoiced on Intacct. It is re
 
 6. Click on the **Permissions** button next to the General Ledger module. Select the **Read only** radio in the top right. Click **Save**.
 
-7. Click **Save** on the subscriptions page. You should have received an email with the company ID, username, and password information.
+7. Click on the **Permissions** button next to the Order Entry module. Select the **Read only** radio in the top right. Click **Save**.
+
+8. Click **Save** on the subscriptions page. You should have received an email with the company ID, username, and password information.
 
 ### Connecting Intacct on Invoiced
 
@@ -87,7 +89,7 @@ Auto-sync will run accounting syncs automatically for you on an ongoing basis. O
 
 2. Enable the *Reconcile to Intacct* option.
 
-   [![Intacct Integration Settings Enable Auto-Sync](../img/intacct-integration-settings.png)](../img/intacct-integration-settings.png)
+   [![Intacct Integration Settings Enable Auto-Sync](../img/intacct-integration-settings-enable-auto-sync.png)](../img/intacct-integration-settings-enable-auto-sync.png)
 
 3. Click **Save**. You can periodically check back here to see when the next sync run is scheduled or see past activity in the *Recent Syncs* table.
 

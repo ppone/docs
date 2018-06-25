@@ -60,7 +60,7 @@ Auto-sync will run accounting syncs automatically for you on an ongoing basis. O
 
 2. Enable the *Reconcile to NetSuite* option.
 
-   [![NetSuite Integration Settings](../img/netsuite-integration-settings.png)](../img/netsuite-integration-settings.png)
+   [![NetSuite Integration Settings](../img/netsuite-integration-settings-enable-auto-sync.png)](../img/netsuite-integration-settings-enable-auto-sync.png)
 
 3. Click **Save**. You can periodically check back here to see when the next sync run is scheduled or see past activity in the *Recent Syncs* table.
 
@@ -80,7 +80,7 @@ If you want control over when your books are synced then you can manually trigge
 
 ### Manual Invoice Imports
 
-You can import outstanding invoices from NetSuite using the invoice importer. With the NetSuite invoice importer you have the option to pull in invoices from the **Accounts Receivable** or **Order Entry** module, depending on where you create your invoices. If you are using the Order Entry module then it is recommended to import invoices from there as the invoices will have more detail, such as the line item quantity.
+You can import outstanding invoices from NetSuite using the invoice importer.
 
 Instructions:
 
