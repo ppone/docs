@@ -58,9 +58,13 @@ Here's how you can enable auto-sync:
 
    [![Xero Connected](../img/xero-connected.png)](../img/xero-connected.png)
 
-2. Click **Enable Auto-Sync** next to the Xero integration. You can periodically check back here to see activity in the *Recent Syncs* table.
+2. Enable the *Reconcile to Xero* option.
 
    [![Xero Settings Enable Auto-Sync](../img/xero-settings-enable-auto-sync.png)](../img/xero-settings-enable-auto-sync.png)
+
+3. Click **Save**. You can periodically check back here to see when the next sync run is scheduled or see past activity in the *Recent Syncs* table.
+
+   [![Xero Auto-Sync Enabled](../img/xero-auto-sync-enabled.png)](../img/xero-auto-sync-enabled.png)
 
 ### Running Syncs Manually
 
