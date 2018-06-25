@@ -42,21 +42,9 @@ Coming Soon!
 
 4. Click **Save**. NetSuite is now connected! Next you will likely want to configure the integration before using it.
 
-   [![NetSuite Connected](../img/netsuite-connected.png)](../img/netsuite-connected.png)
-
-### Configuring the Accounting Sync
-
-Now you can configure the accounting sync in order to tell Invoiced how to map the data into your general ledger.
-
-1. Click on **Configure** on the NetSuite integration from the integrations page.
-
    [![NetSuite Integration Settings](../img/netsuite-integration-settings.png)](../img/netsuite-integration-settings.png)
 
-2. Select the item account from your G/L on NetSuite. This is the default account where new line items are mapped.
-
-3. Select the undeposited funds account label from your G/L on NetSuite. This is where payments received through Invoiced will be mapped.
-
-4. Click **Save**.
+5. You can customize the integration, including enabling automatic reconciliation. Click **Save** to finish setting up the NetSuite integration.
 
 ## Usage
 
@@ -66,19 +54,23 @@ In this section you will learn how to use the NetSuite integration.
 
 Auto-sync will run accounting syncs automatically for you on an ongoing basis. Once auto-sync is enabled, accounting syncs will happen approximately once per hour. Here's how you can enable auto-sync:
 
-1. Go to **Settings** > **Accounting Sync**. Select **NetSuite** as your accounting system, if not already selected.
+1. Go to **Settings** > **Accounting Sync**. Click **Configure** on the NetSuite integration.
 
    [![NetSuite Accounting Sync](../img/netsuite-accounting-sync-connected.png)](../img/netsuite-accounting-sync-connected.png)
 
-2. Click **Enable Auto-Sync** next to the NetSuite integration. You can periodically check back here to see activity in the *Recent Syncs* table.
+2. Enable the *Reconcile to NetSuite* option.
 
-   [![NetSuite Accounting Sync](../img/netsuite-accounting-sync.png)](../img/netsuite-accounting-sync.png)
+   [![NetSuite Integration Settings](../img/netsuite-integration-settings.png)](../img/netsuite-integration-settings.png)
+
+3. Click **Save**. You can periodically check back here to see when the next sync run is scheduled or see past activity in the *Recent Syncs* table.
+
+   [![NetSuite Auto-Sync Enabled](../img/netsuite-auto-sync-enabled.png)](../img/netsuite-auto-sync-enabled.png)
 
 ### Running Syncs Manually
 
 If you want control over when your books are synced then you can manually trigger accounting syncs. You can run an accounting sync by following these steps:
 
-1. Go to **Settings** > **Accounting Sync**. Select **NetSuite** as your accounting system, if not already selected.
+1. Go to **Settings** > **Accounting Sync**.
 
    [![NetSuite Accounting Sync](../img/netsuite-accounting-sync-connected.png)](../img/netsuite-accounting-sync-connected.png)
 
