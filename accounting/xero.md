@@ -28,21 +28,11 @@ The Xero integration ships with the following capabilities:
 
    [![Xero Authorize](../img/xero-screen-4.png)](../img/xero-screen-4.png)
 
-4. You will be redirected back to Invoiced. Xero is now connected!
-
-   [![Xero Connected to Invoiced](../img/xero-connected.png)](../img/xero-connected.png)
-
-### Configuring the Accounting Sync
-
-Now you can configure the accounting sync in order to tell Invoiced how to map the data into your general ledger.
-
-1. Click on **Configure** on the Xero integration from the integrations page.
+4. You will be redirected back to Invoiced. Xero is now connected! Now you can configure the accounting sync in order to tell Invoiced how to map the data into your general ledger.
 
    [![Xero Settings](../img/xero-settings.png)](../img/xero-settings.png)
 
-2. Change the account mapping and other settings.
-
-3. Click **Save**.
+5. Change the account mapping and other settings. Click **Save**.
 
 #### Account Mapping
 
@@ -60,23 +50,29 @@ In this section you will learn how to use the Xero integration.
 
 ### Enabling Auto-Sync
 
-Auto-sync will run accounting syncs automatically for you on an ongoing basis. Once auto-sync is enabled, accounting syncs will happen approximately once per hour. Here's how you can enable auto-sync:
+Auto-sync will run accounting syncs automatically for you on an ongoing basis. Once auto-sync is enabled, accounting syncs will happen approximately once per hour. If you enable invoice and payment importing, those will happen in near real-time as those invoices and payments are created on Xero.
 
-1. Go to **Settings** > **Accounting Sync**. Select **Xero** as your accounting system, if not already selected.
+Here's how you can enable auto-sync:
 
-   [![Xero Connected](../img/accounting-sync-xero-connected-org.png)](../img/accounting-sync-xero-connected-org.png)
+1. Go to **Settings** > **Accounting Sync**. Click **Configure** on the Xero integration.
 
-2. Click **Enable Auto-Sync** next to the Xero integration. You can periodically check back here to see activity in the *Recent Syncs* table.
+   [![Xero Connected](../img/xero-connected.png)](../img/xero-connected.png)
 
-   [![Xero Invoice Sync](../img/xero-invoice-sync.png)](../img/xero-invoice-sync.png)
+2. Enable the *Reconcile to Xero* option.
+
+   [![Xero Settings Enable Auto-Sync](../img/xero-settings-enable-auto-sync.png)](../img/xero-settings-enable-auto-sync.png)
+
+3. Click **Save**. You can periodically check back here to see when the next sync run is scheduled or see past activity in the *Recent Syncs* table.
+
+   [![Xero Auto-Sync Enabled](../img/xero-auto-sync-enabled.png)](../img/xero-auto-sync-enabled.png)
 
 ### Running Syncs Manually
 
 If you want control over when your books are synced then you can manually trigger accounting syncs. You can run an accounting sync by following these steps:
 
-1. Go to **Settings** > **Accounting Sync**. Select **Xero** as your accounting system, if not already selected.
+1. Go to **Settings** > **Accounting Sync**.
 
-   [![Xero Connected](../img/accounting-sync-xero-connected-org.png)](../img/accounting-sync-xero-connected-org.png)
+   [![Xero Connected](../img/xero-connected.png)](../img/xero-connected.png)
 
 2. Click **Sync Now** underneath *Xero* any time you want to run an accounting sync. When the job is finished you will see it in the *Recent Syncs* table.
 

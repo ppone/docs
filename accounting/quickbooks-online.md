@@ -54,11 +54,11 @@ Here's how you can enable auto-sync:
 
 1. Go to **Settings** > **Accounting Sync**. Click **Configure** on the QuickBooks Online integration.
 
-   [![QuickBooks Online Connected](../img/accounting-sync-qbo-connected.png)](../img/qbo-connected.png)
+   [![QuickBooks Online Connected](../img/qbo-connected.png)](../img/qbo-connected.png)
 
 2. Enable the *Reconcile to QuickBooks* option.
 
-   [![QuickBooks Online Invoice Sync](../img/quickbooks-online-invoice-sync.png)](../img/quickbooks-online-invoice-sync.png)
+   [![QuickBooks Online Enable Auto-Sync](../img/qbo-integration-settings-enable-auto-sync.png)](../img/qbo-integration-settings-enable-auto-sync.png)
 
 3. Click **Save**. You can periodically check back here to see when the next sync run is scheduled or see past activity in the *Recent Syncs* table.
 
@@ -70,7 +70,7 @@ If you want control over when your books are synced then you can manually trigge
 
 1. Go to **Settings** > **Accounting Sync**.
 
-   [![QuickBooks Online Connected](../img/accounting-sync-qbo-connected.png)](../img/qbo-connected.png)
+   [![QuickBooks Online Connected](../img/qbo-connected.png)](../img/qbo-connected.png)
 
 2. Click **Sync Now** underneath *QuickBooks Online* any time you want to run an accounting sync. When the job is finished you will see it in the *Recent Syncs* table.
 
