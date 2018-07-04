@@ -6,11 +6,11 @@ If you look at the left sidebar, you will see a list of our Support documentatio
 
 The Support documentation is broken down into sub-topics. Sub topics include:
 
-   * Step by Step guides on different key features in Invoiced
-   * Payments : Learn how to get paid!
-   * Accounting Syncs : Working with an Accounting Software, we've got you covered.
-   * Integrations : Want to know what payment gateways we work with? Check out the integrations section.
-   * Developing: API and Web-hook gurus look no further. You will find all the information you need to create a seamless API call and web-hook to Invoiced.
+- User Guides: Step by step guides on different key features in Invoiced.
+- Payments: Learn how to get paid!
+- Accounting: Working with an accounting software, we've got you covered.
+- Integrations: Want to know what external systems and payment gateways we work with?
+- Developing: API gurus look no further. You will find all the information you need to make seamless API calls to Invoiced.
 
 ## Getting Started
 
