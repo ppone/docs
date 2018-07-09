@@ -343,10 +343,6 @@
           "name": "NMI"
         },
         {
-          "id": "payeezy",
-          "name": "Payeezy"
-        },
-        {
           "id": "slack",
           "name": "Slack"
         },
