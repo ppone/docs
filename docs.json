@@ -327,20 +327,12 @@
           "name": "CyberSource"
         },
         {
-          "id": "elavon",
-          "name": "Elavon"
-        },
-        {
           "id": "gocardless",
           "name": "GoCardless"
         },
         {
           "id": "intuit-payments",
           "name": "Intuit Payments"
-        },
-        {
-          "id": "merchant-e-solutions",
-          "name": "Merchant e-Solutions"
         },
         {
           "id": "moneris",
