@@ -63,7 +63,7 @@ Upon issuing the invoice we will ask if you want to send it. If you choose not t
 
 Invoiced has a great feature if you wish to have the email sent at the time the invoice is created. You can set up a Chasing rule to send on issuing, which will send the invoice automatically, and no manual production of the invoice will need to be done. 
 
-You can learn more about the chasing process here:  Settings > Chasing (https://invoiced.com/docs/payments/chasing)
+You can learn more about the [chasing process here](https://invoiced.com/docs/payments/chasing).
 
 
 ## Getting paid 
@@ -87,7 +87,7 @@ Once your customer pays online, the payment will be recorded automatically in th
 
 What's next? 
 
-This tutorial has shown you what a simple invoicing workflow looks like with Invoiced. We recommend checking out our other guides to learn how to solve more complex billing workflows and set up automation for tedious billing tasks. There are guides for subscription billing (https://invoiced.com/docs/guides/subscription-billing), chasing (https://invoiced.com/docs/guides/chasing), payments (https://invoiced.com/docs/payments), and more.
+This tutorial has shown you what a simple invoicing workflow looks like with Invoiced. We recommend checking out our other guides to learn how to solve more complex billing workflows and set up automation for tedious billing tasks. There are guides for [subscription billing](https://invoiced.com/docs/guides/subscription-billing), [chasing](https://invoiced.com/docs/guides/chasing), [payments](https://invoiced.com/docs/payments), and more.
 
 
 

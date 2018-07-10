@@ -22,11 +22,7 @@ We will then only chase invoices that have chasing enabled on the invoice. Once 
 
 First you will need to enable chasing for your account in the settings and set up a schedule.
 
-Go to **Settings** > **Chasing**.
-
-[![Invoice Settings Chasing](../img/chasing-new.png)](../img/chasing-new.png)
-
-Flip the **Allow Chasing** toggle.
+Go to **Settings** > **Chasing**. Flip the **Allow Chasing** toggle.
 
 [![Invoice Settings Chasing Enable](../img/allow-chasing-new.png)](../img/allow-chasing-new.png)
 

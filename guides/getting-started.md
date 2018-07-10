@@ -14,6 +14,6 @@ The Support documentation is broken down into sub-topics. Sub topics include:
 
 ## Getting Started
 
-First, lets start with an account! If you have not done so already, you need to sign up (https://invoiced.com/signup) for an Invoiced account. We offer a free trial with no credit card or obligations required. During the on-boarding process(this is when you are signing up for the account) we will ask you a few questions about your business. Some of the questions may include: the name of your company, currency, and what payment methods you want to accept. After you have set up your business, your Invoiced dashboard will be presented. 
+First, lets start with an account! If you have not done so already, you need to [sign up](https://invoiced.com/signup) for an Invoiced account. We offer a free trial with no credit card or obligations required. During the on-boarding process(this is when you are signing up for the account) we will ask you a few questions about your business. Some of the questions may include: the name of your company, currency, and what payment methods you want to accept. After you have set up your business, your Invoiced dashboard will be presented. 
 
 The dashboard is where you can access all of your customer and billing data. Because Invoiced is web based,  the only system requirement is a modern web browser. As a bonus the dashboard is responsive! Which means it can be used on any device, including: desktops, tablets, and smartphones. This means you can run your business from anywhere (with Internet).
