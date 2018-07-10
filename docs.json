@@ -125,12 +125,12 @@
           "name": "Introduction"
         },
         {
-          "id": "card",
-          "name": "Credit Card"
-        },
-        {
           "id": "ach",
           "name": "ACH"
+        },
+        {
+          "id": "card",
+          "name": "Credit Card"
         },
         {
           "id": "paypal",
