@@ -26,10 +26,6 @@ Paying with credit or debit card is fairly straightforward for customers. When a
 
 [![Pay Invoice with Credit Card](/docs/img/pay-invoice-credit-card.png)](/docs/img/pay-invoice-credit-card.png)
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 897bcbfbd2bf70f80aa8beb1f7127460c32a6a51
 ## Virtual Terminal
 
 Like customers, internal Invoiced users have the ability to apply a payment to an account with a credit card payment on an invoice. Whether a customer has saved a credit card payment method on file or has provided the user with the information, easily access the virtual terminal for payments by navigating to the invoice and selecting receive payment -> charge. From there, you can select the saved credit card or enter a new card for use.
