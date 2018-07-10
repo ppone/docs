@@ -2,7 +2,7 @@
 
 Payments are at the core of Invoiced. You can process payments within Invoiced as well as keep track of payments that happen outside of Invoiced, like receiving a check.
 
-Typically your customers directly pay invoices through the customer portal when they click a "Pay Now" button on an invoice. If a customer pays online we will automatically record the payment. We currently support credit/debit cards, [ACH](https://en.wikipedia.org/wiki/Automated_Clearing_House), SEPA debits, and PayPal as online payment methods.
+Typically your customers directly pay invoices through the customer portal when they click a "Pay Now" button on an invoice. If a customer pays online we will automatically record the payment. We currently support credit/debit cards, [ACH](https://en.wikipedia.org/wiki/Automated_Clearing_House), direct debits, and PayPal as online payment methods.
 
 Cash receipts on the other hand represent transactions that happen outside of Invoiced, like a wire transfer for example. You can track cash receipts on Invoiced regardless of the payment instrument used.
 
@@ -13,7 +13,6 @@ Unlike online payments, offline payments must be recorded on Invoiced once recei
 Available payment methods:
 - [Credit Card](/docs/payments/card)
 - [ACH](/docs/payments/ach)
-- [SEPA debits](/docs/payments/sepa)
 - [PayPal](/docs/payments/paypal)
 - [Cash Receipts](/docs/payments/offline-payments)
 - [Credit Balances](/docs/payments/credits)

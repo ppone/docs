@@ -133,10 +133,6 @@
           "name": "ACH"
         },
         {
-          "id": "sepa",
-          "name": "SEPA"
-        },
-        {
           "id": "paypal",
           "name": "PayPal"
         },
