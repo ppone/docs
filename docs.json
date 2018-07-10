@@ -129,6 +129,10 @@
           "name": "ACH"
         },
         {
+          "id": "direct-debit",
+          "name": "Direct Debit"
+        },
+        {
           "id": "card",
           "name": "Credit Card"
         },

@@ -8,7 +8,7 @@ AutoPay allows you to securely collect and charge payment info for customers. In
 
 1. Subscribe to an Invoiced [plan that supports AutoPay](https://invoiced.com/pricing). There are no limits to the number of AutoPay customers or invoices you can create.
 
-2. Have at least one payment method enabled that supports AutoPay. Currently AutoPay works with **credit card** and **ACH** payments.
+2. Have at least one payment method enabled that supports AutoPay. Currently AutoPay works with **ACH**, **direct debit**, and **credit card** payments.
 
 3. Payment information on file for each AutoPay customer. When connecting bank accounts the customer must verify the account before it can be charged.
 
@@ -56,9 +56,9 @@ Let's walk through a basic scenario where we set up AutoPay for a customer by se
 
 1. Enable a payment method that supports AutoPay
 
-   Go to **Settings** > **Payments** to enable **Credit Card** or **ACH** payments.
+   Go to **Settings** > **Payments** to enable **ACH**, **Direct Debit**, or **Credit Card** payments.
 
-   [![Enabling credit card or ACH payments](../img/payment-settings.png)](../img/payment-settings.png)
+   [![Enabling ACH, direct debit, or credit card payments](../img/payment-settings.png)](../img/payment-settings.png)
 
 2. Turn on AutoPay for your customer
 

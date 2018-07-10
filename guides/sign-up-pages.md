@@ -25,7 +25,7 @@ Sign up pages also have these optional capabilities:
 
 Prerequisites:
 
-1. You must have [credit card](/docs/payments/card) and/or [ACH](/docs/payments/ach) payments enabled.
+1. You must have [credit card](/docs/payments/card), [ACH](/docs/payments/ach) and/or [direct debit](/docs/payments/direct-debit) payments enabled.
 
 ### Building a sign up page
 

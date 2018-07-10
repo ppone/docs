@@ -12,6 +12,7 @@ Unlike online payments, offline payments must be recorded on Invoiced once recei
 
 Available payment methods:
 - [ACH](/docs/payments/ach)
+- [Direct Debit](/docs/payments/direct-debit)
 - [Credit Card](/docs/payments/card)
 - [PayPal](/docs/payments/paypal)
 - [AutoPay](/docs/payments/autopay)
