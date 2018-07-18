@@ -114,6 +114,34 @@ You can send through a Google email account using [SMTP](https://support.google.
 
 You can verify the SMTP gateway is working by checking your **Sent Mail** folder. You should see emails sent through Invoiced in there.
 
+## Automatically sending new invoices
+
+Invoiced can automatically send out new invoices for you. It's as easy as flipping a switch!
+
+Here is how you set it up:
+
+1. Go to **Settings** > **Emails**.
+
+2. Click **Customize** on the *New Invoice Email*.
+
+3. Turn on the **Send automatically when a new invoice is issued** setting.
+
+4. Click **Save**.
+
+Now any new invoice will be sent automatically that meets these criteria:
+
+1. Customer has an email address on file.
+2. The invoice is not closed, paid, or in draft mode.
+3. The invoice does not have AutoPay enabled, or if it does, the customer does not have payment information on file.
+4. The invoice has an issue date of today or earlier.
+5. The invoice has not been sent or marked sent.
+
+Please note there is a 5 minute delay between when an invoice is issued and when the system sends it out. This delay is intentional to give you padding in case a correction needs to be made. If you send out the invoice or mark it as sent before the system has sent it out then your customer will not receive the automated email.
+
+This feature can also be nifty for scheduling invoices. If an invoice is dated in the future then it will not be sent until the issue date.
+
+Also please keep in mind that the system will send out an individual email for each outstanding invoice. If your customer has multiple, newly issued invoices at the same time then they would receive an email for each invoice. 
+
 ## PDF attachments
 
 The default behavior for sending invoices, credit notes, receipts, and statements will attach a PDF of the invoice, in addition to including a **View Invoice** button (using invoices as an example).
