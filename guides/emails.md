@@ -40,19 +40,25 @@ In order to customize any of the email templates you need to go to **Settings** 
 
 ### Invoices
 
-**New Invoice** - Used when an outstanding invoice is sent to a customer for the first time, or when a manually collected invoice is generated from a subscription. Includes a **View Invoice** button.
+**New Invoice** - Used when an outstanding invoice is sent to a customer for the first time, or when a manually collected invoice is generated from a subscription. Includes a **View Invoice** button and a PDF attachment of the invoice.
 
-**Invoice Reminder** - Used for outstanding invoices that have already been sent but are not past due yet. Includes a **View Invoice** button.
+**Invoice Reminder** - Used for outstanding invoices that have already been sent but are not past due yet. Includes a **View Invoice** button and a PDF attachment of the invoice.
 
-**Late Payment Reminder** - Used for past due invoices. Includes a **View Invoice** button.
+**Late Payment Reminder** - Used for past due invoices. Includes a **View Invoice** button and a PDF attachment of the invoice.
 
-**Thank You** - Used for invoices that have been paid in full. Includes a PDF attachment of the invoice.
+**Thank You** - Used for invoices that have been paid in full. Includes a PDF attachment of the invoice. *Turned off by default.*
+
+**Credit Note** - Used for credit notes that have been issued. Includes a **View Credit Note** button and a PDF attachment of the credit note.
 
 ### Payments
 
-**Payment Receipt** - Used for payment receipts. Includes a PDF attachment with the receipt.
+**Payment Receipt** - Used for payment receipts. Includes a PDF attachment with the receipt and the invoices associated with that payment on separate pages.
 
 **Failed AutoPay Attempt** - Sent when a payment attempt on an AutoPay invoice fails. Includes an **Update Payment Info** button.
+
+### Customers
+
+**Statement** - Used to send customer statements. Includes a **View Statement** button and a PDF attachment of the statement.
 
 ### Subscriptions
 
@@ -62,9 +68,9 @@ In order to customize any of the email templates you need to go to **Settings** 
 
 **Cancellation** - Sent to confirm a customer's subscription has been canceled. *Turned off by default.*
 
-### Customers
+### Estimates
 
-**Statement** - Used to send customer statements. Includes a PDF attachment of the statement.
+**Estimate** - Used to send estimates. Includes a **View Statement** button.
 
 ## Email Delivery
 
@@ -108,14 +114,12 @@ You can send through a Google email account using [SMTP](https://support.google.
 
 You can verify the SMTP gateway is working by checking your **Sent Mail** folder. You should see emails sent through Invoiced in there.
 
-## Invoice PDF attachments
+## PDF attachments
 
-The default behavior for Invoiced is to include a **View Invoice** button that links to the client view in the billing portal. Only the **Thank You** email will include a PDF attachment of the document. When your customer clicks the View Invoice they will be taken to an interactive document online that supports view tracking, file attachments, commenting, payments, and also has a download button for the document.
+The default behavior for sending invoices, credit notes, receipts, and statements will attach a PDF of the invoice, in addition to including a **View Invoice** button (using invoices as an example).
 
-While we *strongly recommend* using the client view because of its many advantages, we understand there are situations where you may want to send a PDF instead, such as when you are sending invoices into automated systems. You can elect to send PDFs instead of a client view link. Here's how you do it:
+If you wish to change this behavior, you may do so by following these instructions:
 
 1. Click **Customize** on the email template you want to have a PDF attachments in **Settings** > **Emails**.
 
-2. Turn on the **Attach PDF instead of client view button** option.
-
-3. (optional) If you want to send a view button *and* a PDF attachment then you need to also add a `{{{view_invoice_button}}}` line to the message body.
+2. You can enable or disable the **Attach PDF** option.
