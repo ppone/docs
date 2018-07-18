@@ -31,7 +31,7 @@ Connecting Authorize.Net is a straightforward process. Follow these steps to sta
 
    [![Authorize.Net Settings Page](../img/authorizenet-connect.png)](../img/authorizenet-connect.png)
 
-5. Enter in your Authorize.Net **API Login ID** and **Transaction Key**. You can find your API credentials from the Authorize.Net Merchant Interface by following [these instructions](https://support.authorize.net/authkb/index?page=content&id=A576).
+5. Enter in your Authorize.Net **API Login ID** and **Transaction Key**. You can find your API credentials from the Authorize.Net Merchant Interface by following [these instructions](https://support.authorize.net/s/article/How-do-I-obtain-my-API-Login-ID-and-Transaction-Key).
 
 6. Click **Save**. Then click **Enable** and the payment method you selected should be enabled.
 
