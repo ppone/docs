@@ -131,10 +131,11 @@ Here is how you set it up:
 Now any new invoice will be sent automatically that meets these criteria:
 
 1. Customer has an email address on file.
-2. The invoice is not closed, paid, or in draft mode.
-3. The invoice does not have AutoPay enabled, or if it does, the customer does not have payment information on file.
-4. The invoice has an issue date of today or earlier.
+2. The invoice has an issue date of today or earlier.
+3. The invoice is not closed, paid, pending payment, or in draft mode.
+4. The invoice does not have AutoPay enabled, or if it does, the customer does not have payment information on file.
 5. The invoice has not been sent or marked sent.
+6. The invoice does not have a payment plan attached.
 
 Please note there is a 5 minute delay between when an invoice is issued and when the system sends it out. This delay is intentional to give you padding in case a correction needs to be made. If you send out the invoice or mark it as sent before the system has sent it out then your customer will not receive the automated email.
 
