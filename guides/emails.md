@@ -48,6 +48,8 @@ In order to customize any of the email templates you need to go to **Settings** 
 
 **Thank You** - Used for invoices that have been paid in full. Includes a PDF attachment of the invoice. *Turned off by default.*
 
+**Payment Plan Onboarding** - Sent when there is a customer has a new payment plan that they need to approve. *Turned off by default.*
+
 **Credit Note** - Used for credit notes that have been issued. Includes a **View Credit Note** button and a PDF attachment of the credit note.
 
 ### Payments
@@ -122,7 +124,7 @@ Here is how you set it up:
 
 1. Go to **Settings** > **Emails**.
 
-2. Click **Customize** on the *New Invoice Email*.
+2. Click **Customize** on the *New Invoice Email*. You can also enable this on the *Payment Plan Onboarding Email* or *Credit Note Email* to automatically send out payment plans and credit notes.
 
 3. Turn on the **Send automatically when a new invoice is issued** setting.
 
