@@ -6,10 +6,6 @@ Email is a core component to any online billing system. Here you can learn more 
 
 We have built many features around sending and email to make billing less stressful.
 
-### Auditing
-
-We log and track every message sent to customers from Invoiced. When it comes to billing, it's super important to be able to look up past communications with your customer. Within the dashboard you can see precisely what messages were sent to customers, when, and by whom. We track opens, clicks, and views (for invoices).
-
 ### View Tracking
 
 Anyone that has billed customers before has probably heard the "I never received it" excuse, at least once. Sometimes it is true that the client never received the invoice. We built view tracking to to solve this problem.
@@ -19,6 +15,10 @@ All invoices have what is known as the **Client View**. The client view renders 
 Sending invoices have a **View Invoice** button that links to the client view. As soon as your client clicks the view button we log it and notify you.
 
 *Note: we have taken precautions to prevent false alerts should you open the client view of your own invoice.*
+
+### Auditing
+
+We log and track every message sent to customers from Invoiced. When it comes to billing, it's super important to be able to look up past communications with your customer. Within the dashboard you can see precisely what messages were sent to customers, when, and by whom. We track opens, clicks, and views (for invoices).
 
 ### Email Whitelabeling
 
@@ -118,13 +118,13 @@ You can verify the SMTP gateway is working by checking your **Sent Mail** folder
 
 ## Automatically sending new invoices
 
-Invoiced can automatically send out new invoices for you. It's as easy as flipping a switch!
+Invoiced can automatically send out new invoices for you. It's as easy as flipping a switch! This works for invoices, estimates, payment plans, and credit notes.
 
 Here is how you set it up:
 
 1. Go to **Settings** > **Emails**.
 
-2. Click **Customize** on the *New Invoice Email*. You can also enable this on the *Payment Plan Onboarding Email* or *Credit Note Email* to automatically send out payment plans and credit notes.
+2. Click **Customize** on the *New Invoice Email*. You can also enable this on the *Payment Plan Onboarding Email*, *Estimate Email*, or *Credit Note Email* to automatically send out payment plans, estimates and credit notes.
 
 3. Turn on the **Send automatically when a new invoice is issued** setting.
 
