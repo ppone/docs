@@ -87,7 +87,7 @@ Subsequent payments will not require the customer to go through the verification
 
 You just received your first payment through Stripe. Congrats! Now what?
 
-Stripe sweeps successful payments to your bank account automatically on a daily basis. Once you have received your first payment with Stripe the first payout generally takes 7 business days. After that your payouts will happen on a 2-day or 7-day rolling basis depending on your account. You can learn more in [Stripe's payout docs](https://stripe.com/help/payouts).
+Stripe sweeps successful payments to your bank account automatically on a daily basis. Once you have received your first payment with Stripe the first payout generally takes 7 business days. After that your payouts will happen on a 2-day or 7-day rolling basis depending on your account. You can learn more in [Stripe's payout docs](https://support.stripe.com/topics/payouts).
 
 ### ACH Payment Settlement
 
@@ -119,4 +119,4 @@ In this section we will show you how to import customers and payment information
 
 ## Support
 
-Need help with your Stripe account? You can get help from [Stripe's support website](https://support.stripe.com) or [contact Stripe directly](https://support.stripe.com/email).
+Need help with your Stripe account? You can get help from [Stripe's support website](https://support.stripe.com) or [contact Stripe directly](https://support.stripe.com/contact).
