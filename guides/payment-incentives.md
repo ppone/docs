@@ -30,13 +30,13 @@ Once you enter in the expiration date your discount will look like this:
 
 ## Late Fees
 
-Late fees can be used to provide an incentive for customers to not pay you late, less they incur a penalty. Generally late fees are not used for the revenue they produce, but as a situation your customer would want to avoid. In some cases late fees might be useful as a bargaining chip because they 
+Late fees can be used to provide an incentive for customers to not pay you late, less they incur a penalty. Generally late fees are not used for the revenue they produce, but as a situation your customer would want to avoid. In some cases late fees might be useful as a bargaining chip with a past due customer. In exchange for an immediate payment you might agree to waive the late fee.
 
 You can configure Invoiced to assess late fees on your invoices for you automatically.
 
 ### Setting up late fees
 
-These instructions can be followed to setup late fees on Invoiced for all of your invoices with chasing enabled:
+These instructions can be followed to setup late fees on Invoiced for all of your past due invoices:
 
 1. Go to **Settings** > **General**.
 
@@ -52,6 +52,6 @@ These instructions can be followed to setup late fees on Invoiced for all of you
 
 ### Using late fees
 
-Late fees will be assessed on your past due invoices automatically as they age. Any assessed late fees will be added as a separate line item with a type equal to `late_fee`. Only customers with chasing enabled will have late fees assessed. If you do not want to assess late fees for a customer then you need to disable chasing for that customer or invoice.
+Late fees will be assessed on your past due invoices automatically as they age beyond the past due grace period. Any assessed late fees will be added as a separate line item with a type equal to `late_fee`. If you wish to remove the late fee for a particular invoice then you can edit the invoice and remove the line item.
 
 [![Invoice with a late fee](../img/invoice-with-late-fee.png)](../img/invoice-with-late-fee.png)
