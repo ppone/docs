@@ -42,13 +42,6 @@ For example, let's consider a scenario where your customer purchased a monthly s
 
 Each subscription keeps track of the current billing period. The billing period represents the time frame that the subscription will cover. The length of the billing period always matches the plan interval. By default, the billing period will be the interval following the billing date. If a monthly subscription renewed on December 1 then the current billing period would be December 1 - December 31.
 
-#### Billing Period Offset
-
-The billing period offset allows you to offset the billing period X number of days from the billing date. Billing period offsets are great in enterprise billing scenarios where the customer is billed before the service period.
-For example, consider a subscription with a billing period offset of 14 days and a billing date of November 17. This would produce a billing cycle of December 1 - December 31. The result is that the customer will be billed on November 17 for the billing period of December 1 - December 31.
-
-*NOTE: Changing the billing period offset will not change when the subscription renews. Instead change the billing date for this.*
-
 #### Duration
 
 Subscriptions can be *infinite* or *fixed* duration. An infinite subscription (the default) runs forever until the customer cancels. A finite subscription will run for a fixed number of billing cycles.
@@ -169,7 +162,6 @@ In this example, we want to start the subscription now. If you wish to start the
    [![New Subscription with Add ons](../img/add-on.png)](../img/add-on.png)
 
 For the *Renew On* setting we are going to leave it as Start date anniversary. This will renew the subscription each billing cycle on the same day of the month as the start date, which is today in this example. If you selected Day of month instead then this would bill your customer on a specific day of the month you choose, like the first of the month. The first bill would be prorated for the time remaining until the next billing cycle. Future renewals will be on the date you've specified.
-We can leave the *Billing Period Offset* at 0 days unless we wanted to shift the billing period.
 
 At the bottom of the screen you can see the calculated recurring total. If you click the *Preview* button you can even see a preview of the upcoming billing cycles. Once the subscription looks right you can now click *Create*.
 
@@ -203,8 +195,6 @@ With the subscription in the dashboard you can click **More** > **Change Billing
 The billing date cannot be set in the past. Changing the billing date will not produce any prorations.
 
 [![Change Subscription Billing Date Step 2](../img/change-billing-date-step2.png)](../img/change-billing-date-step2.png)
-
-You can also change the billing period offset as well by clicking **More** > **Change Billing Period Offset**. This will adjust the current billing period right away, however, it will not change when the next bill is generated or produce any prorations.
 
 ### Canceling a Subscription
 
