@@ -4,7 +4,7 @@ Our Twilio integration enables you to send invoices and statements to customers 
 
 ## Setup
 
-This assumes you have already signed up for a Twilio account. If not, you may [sign up here](https://www.twilio.com/).
+We are going to walk you through setting up the Twilio integration. This assumes you have already signed up for a Twilio account. If not, you may [sign up here](https://www.twilio.com/).
 
 1. Get your Twilio SID and Auth Token from the Twilio dashboard. 
 
