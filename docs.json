@@ -113,6 +113,10 @@
         {
           "id": "estimates",
           "name": "Estimates"
+        },
+        {
+          "id": "credit-holds",
+          "name": "Credit Holds"
         }
       ]
     },
