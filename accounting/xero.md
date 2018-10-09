@@ -42,7 +42,9 @@ Invoiced will create the following accounts in your G/L unless you specify an ac
 - "Invoiced Bank Account" - bank account used for payments received on Invoiced
 - "Invoiced Sales Tax Account" - sales account used for taxes received on Invoiced
 
-The integration will also create a tax rate called "Imported Invoiced Tax Rate" unless you specify a tax rate.
+#### Tax Rate Mapping
+
+If you have not specified a tax rate in the integration settings, sync runs will attempt to match existing tax rates in Xero based on the name of the tax rate in Invoiced. If a tax rate with a matching name does not exist in Xero then the integration will create and use a tax rate called "Imported Invoiced Tax Rate".
 
 ## Usage
 
