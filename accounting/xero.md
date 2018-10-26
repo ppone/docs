@@ -38,8 +38,8 @@ The Xero integration ships with the following capabilities:
 
 Invoiced will create the following accounts in your G/L unless you specify an account for us to use:
 
-- "Invoiced Sales Account" - sales account used for invoices and line items 
 - "Invoiced Bank Account" - bank account used for payments received on Invoiced
+- "Invoiced Sales Account" - sales account used for line items
 - "Invoiced Sales Tax Account" - sales account used for taxes received on Invoiced
 
 #### Tax Rate Mapping
