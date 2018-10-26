@@ -38,7 +38,7 @@ The QuickBooks Online integration ships with the following capabilities:
 
 Invoiced will create the following accounts in your G/L if you do not specify an account:
 
-- "Invoiced Account" - income account for invoices and line items
+- "Invoiced Account" - income account for new Products/Services created on QuickBooks from Invoiced line items
 - "Invoiced Discount" - income account for discounts
 - "Imported Invoiced Tax Code" - tax code for taxes received on Invoiced
 
