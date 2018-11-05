@@ -28,7 +28,7 @@ The next step is to set up a web services user for Invoiced on Intacct. It is re
 
 1. You need to ensure that your company has web services enabled on Intacct in **Company** > **Subscriptions**.
 
-2. Within the Intacct application, hover over the **Company** tab and click the **+** button next to *Users*.
+2. Within the Intacct application, hover over the **Company** tab and click the **+** button next to *Web Services Users*.
 
 3. You will want to set up a user similar to the screenshot below with the following settings:
 
@@ -56,6 +56,16 @@ The next step is to set up a web services user for Invoiced on Intacct. It is re
 7. Click on the **Permissions** button next to the Order Entry module. Select the **Read only** radio in the top right. Click **Save**.
 
 8. Click **Save** on the subscriptions page. You should have received an email with the company ID, username, and password information.
+
+### Adding a Web Services authorization
+
+1. Go to the **Company Info** page. Click **Edit**.
+
+2. In the Web Services authorizations section, click the + icon above the top-right corner of the table.
+
+3. Enter in *invoiced* as the **Sender ID**. Click **Save**.
+
+   [![Intacct Web Services Authorization](../img/intacct-web-services-authorization.png)](../img/intacct-web-services-authorization.png)
 
 ### Connecting Intacct on Invoiced
 
