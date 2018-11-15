@@ -339,6 +339,10 @@
           "name": "Intuit Payments"
         },
         {
+          "id": "lob",
+          "name": "Lob"
+        },
+        {
           "id": "nmi",
           "name": "NMI"
         },

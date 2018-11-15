@@ -79,4 +79,4 @@ Text messages have a few limitations in place to help you stay compliant with re
 - You can only send text messages between 8am and 9pm in your local time zone.
 - If customers reply *STOP* or *UNSUBSCRIBE* then you will not be able to send them a message ([more details here](https://support.twilio.com/hc/en-us/articles/223134027-Twilio-support-for-opt-out-keywords-SMS-STOP-filtering-)).
 - You can only send a text message to the same phone number once per day, in order to prevent you from accidentally spamming your customers.
-- Twilio is not a free service (although it is very affordable). Any text messages you send will incure a charge. See [Twilio's pricing](https://www.twilio.com/sms/pricing).-
+- Twilio is not a free service (although it is very affordable). Any text messages you send will incur a charge. See [Twilio's pricing](https://www.twilio.com/sms/pricing).-
