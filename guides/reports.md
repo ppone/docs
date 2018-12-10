@@ -52,6 +52,10 @@ Invoices by default are grouped into the following aging categories:
 - 30-60 days old
 - 60+ days old
 
+If you would like to change the age ranges please contact [support@invoiced.com](mailto:support@invoiced.com).
+
+[![A/R Aging Report](../img/report-invoice-aging.png)](../img/report-invoice-aging.png)
+
 ## Invoice Summary
 
 The **Invoice Summary** report lists all of the invoices in the time period you select. Only high-level information about invoices is included, like the date, total, and balance. On this report invoices are grouped by month.
@@ -59,10 +63,6 @@ The **Invoice Summary** report lists all of the invoices in the time period you 
 The *Outstanding* amount shows you the amount that is outstanding for the matched invoices, at the current point in time. The outstanding number does and not reflect the balance at the end of the report date range. The **Reconciliation** report will let you see you historical A/R balances.
 
 [![Invoice Summary Report](../img/report-invoice-summary.png)](../img/report-invoice-summary.png)
-
-If you would like to change the age ranges please contact [support@invoiced.com](mailto:support@invoiced.com).
-
-[![A/R Aging Report](../img/report-invoice-aging.png)](../img/report-invoice-aging.png)
 
 ## Bad Debt
 
