@@ -14,7 +14,7 @@ A plan describes how much and how frequently your customer will be billed. An ex
 
 ### Subscriptions
 
-A subscription bills a customer for a fixed amount on a systematic basis, according to the plan the customer is subscribed to. Subscription pricing is flexible on Invoiced and allows for quantities, add-ons, discounts, and taxes to be combined. Subscriptions also support many options to customize the billing intervals.
+A subscription bills a customer for a fixed amount on a systematic basis, according to the plan the customer is subscribed to. Subscription pricing is flexible on Invoiced and allows for quantities, addons, discounts, and taxes to be combined. Subscriptions also support many options to customize the billing intervals.
 
 Although we use traditional defaults, we also support many advanced subscription billing features that you might want to become familiar with. The advanced features include: 
 
@@ -52,14 +52,14 @@ The subscription quantity acts as a multiplier to the base plan price. If your s
 
 ### Subscription Addons
 
-Subscription addons are meant to give you pricing flexibility on top of the base plan amount. Add-ons save you from creating a large number of plans for every possible combination of products/services that a customer could subscribe to. An addon is simply the application of a catalog item to a subscription. 
+Subscription addons are meant to give you pricing flexibility on top of the base plan amount. Addons save you from creating a large number of plans for every possible combination of products/services that a customer could subscribe to. An addon is simply the application of a catalog item to a subscription. 
 
 You can setup and manage catalog items in *Settings* > *Catalog*.
 
 
 ### Subscription Invoices
 
-A subscription will generate an invoice each billing cycle for the amount owed in that billing cycle. The invoice contains line items for the plan and any add-ons.
+A subscription will generate an invoice each billing cycle for the amount owed in that billing cycle. The invoice contains line items for the plan and any addons.
 
 #### AutoPay
 
@@ -82,7 +82,7 @@ If there are any unbilled one-time charges (setup fees or usage charges) that we
 
 ### Prorations
 
-Invoiced supports prorations on subscriptions when changing a plan, quantity, or add-ons mid- billing cycle. When a customer downgrades, they will receive a credit, and when they upgrade will be charged.
+Invoiced supports prorations on subscriptions when changing a plan, quantity, or addons mid- billing cycle. When a customer downgrades, they will receive a credit, and when they upgrade will be charged.
 
 Prorations are calculated any time a subscription is changed, unless disabled. A proration will generate a credit for the time remaining on the current billing cycle before the subscription update and a charge for the time remaining with the subscription update. If the proration is negative (downgrade) then we will issue the customer a credit. If positive (upgrade) then will add the amount to the next subscription invoice.
 
@@ -152,7 +152,7 @@ Let's say we want to create a plan called *Basic* for *$39/month*. The *ID* fiel
 
    [![New Recurring Plan](../img/create-new-plan.png)](../img/create-new-plan.png)
 
-The last step is to customize the duration of the subscription and if you wish to have any add-ons. To reveal these options, click the *Options *drop down*. 
+The last step is to customize the duration of the subscription and if you wish to have any addons. To reveal these options, click the *Options *drop down*. 
 
    [![New Recurring Plan Options](../img/options.png)](../img/options.png)
 
@@ -181,7 +181,7 @@ You can edit a subscription by opening the subscription in the dashboard and cli
 
 [![Edit Subscription with Prorations](../img/edit-a-subscription.png)](../img/edit-a-subscription.png)
 
-This allows you to change the quantity, add additional add-on items, add a discount, or an additional subscription. 
+This allows you to change the quantity, add additional addon items, add a discount, or an additional subscription. 
 
 
 ### Changing the Billing Date

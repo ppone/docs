@@ -41,34 +41,34 @@ Prerequisites:
 
    [![Building a Sign Up Page](../img/sign-up-pages-new.png)](../img/sign-up-pages-new.png)
 
- Note: You can now enable AutoPay only directly on the signup page. Simply select the AutoPay only option on the creation of the signup page. 
+ Note: You can now enable AutoPay only directly on the sign up page. Simply select the AutoPay only option on the creation of the sign up page. 
 
     [![Building a Sign Up Page](../img/auto-pays.png)](../img/auto-pays.png)
 
 
-Invoiced also provides other useful options when setting up Signup pages for your customers:
+Invoiced also provides other useful options when setting up sign up pages for your customers:
 
-*Allow Customers to specify a quantity - *This setting allows you to control if the customer can use the signup page and subscribe to more than one 
+*Allow Customers to specify a quantity - *This setting allows you to control if the customer can use the sign up page and subscribe to more than one 
 
 *Include a Free Trial - *This setting allows you to apply a free trial period to the beginning of the subscription. Simply enter the number of days you wish to add to the trial period. 
 
 *Renew Subscriptions on Specific Day of the Month- *This allows you to select a specific day of the month for the subscription to be billed on. 
 
-*Allow Customers to Use Coupon Codes- *This setting allows the customer to enter a coupon code at the time of signup.
+*Allow Customers to Use Coupon Codes- *This setting allows the customer to enter a coupon code at the time of sign up.
 
 
 *Additional Options:*
 
-*Display Custom Text at Top of Page*- Do you have specific instructions you need to detail on the signup page? This section allows you to add text to the top of the page you would like your customers to see.
+*Display custom text at top of page*- Do you have specific instructions you need to detail on the sign up page? This section allows you to add text to the top of the page you would like your customers to see.
 
-*Require Signups to Accept my Terms of Service - *You can now require customers to accept your terms of service by entering in a terms of service url. 
+*Require sign ups to accept my Terms of Service - *You can now require customers to accept your terms of service by entering in a terms of service url. 
 
-*Send New Signups to my Thank you Page- *This setting allows you to send your customers to a custom thank you page after the customer completes the purchase. Simply enter in a url to the thank you page you would like the customer to be directed to. 
+*Send new sign ups to my thank you page- *This setting allows you to send your customers to a custom thank you page after the customer completes the purchase. Simply enter in a url to the thank you page you would like the customer to be directed to. 
 
-*Allow Signups to purchase additional subscriptions - *This setting allows the customer to purchase other subscriptions you may offer. 
+*Allow sign ups to purchase additional subscriptions - *This setting allows the customer to purchase other subscriptions you may offer. 
 
 
-You can choose to add any of these options to customize the signup process.
+You can choose to add any of these options to customize the sign up process.
 
 4. Click **Save**.
 
@@ -78,8 +78,8 @@ You can choose to add any of these options to customize the signup process.
 
    [![Sign Up Page](../img/sign-up-page.png)](../img/sign-up-page.png)
 
-### Adding Add-ons to Signup Pages
-You can provide an add on option for the customer to choose from on the Signup page. An add-on can be a one time charge or an additional subscription option. The subscription option must match the original subscription plan interval selected. 
+### Selling addons on sign up pages
+You can provide an add on option for the customer to choose from on the sign up page. An addon can be a one time charge or an additional subscription option. The subscription option must match the original subscription plan interval selected. 
 
    [![Add Ons](../img/addons.png)](../img/addons.png)
 
@@ -92,14 +92,14 @@ All the customer needs to get started is to visit the URL of your sign up page. 
 There are many ways that you can direct customers to your sign up page. You can link to it from your website or app, send it to customers directly over email or text message, or seamlessly redirect customers as part of your existing checkout flow.
 
 
-*Want to assign a Signup Page to a specific Customer? *
-You can assign a customer a signup page. This works well for scenarios like re-seller billing. Every time you would like to subscribe a new customer, you can go to a custom signup page, or click the subscribe button in the customer portal. This allows the business to offer custom pricing to each re-seller as well. 
+*Want to assign a sign up page to a specific customer? *
+You can assign a customer a sign up page. This works well for scenarios like re-seller billing. Every time you would like to subscribe a new customer, you can go to a custom sign up page, or click the subscribe button in the customer portal. This allows the business to offer custom pricing to each re-seller as well. 
 
  To access this feature:
 
-  Customer -> More -> Assign Signup Page
+  **Customer** > **More** > **Assign Sign Up Page**
 
-   [![Signup Page by Customer](../img/signup-page-by-customer.png)](../img/signup-page-by-customer.png)
+   [![Sign Up Page by Customer](../img/signup-page-by-customer.png)](../img/signup-page-by-customer.png)
 
 
 ### Custom thank you pages
