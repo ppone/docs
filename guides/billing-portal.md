@@ -19,7 +19,7 @@ When customers access an invoice via the View Invoice link received in the invoi
 
 ## Usage 
 
-Your billing portal is hosted at yourusername.invoiced.com where yourusername matches your Invoiced username in *Settings* > *Business Profile*. Any customer facing activity happens on this domain, like viewing invoices or paying. Customers can also access the billing portal by going directly to this URL.
+Your billing portal is hosted at yourusername.invoiced.com where yourusername matches your Invoiced username in **Settings** > **Business Profile**. Any customer facing activity happens on this domain, like viewing invoices or paying. Customers can also access the billing portal by going directly to this URL.
 
 
 

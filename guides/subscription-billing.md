@@ -10,7 +10,7 @@ Invoiced has designed a subscription billing system to offer power and flexibili
 
 ### Plans
 
-A plan describes how much and how frequently your customer will be billed. An example plan might be one for website hosting that is $100 per month. Plans are reusable templates for building subscriptions. You can setup and manage your plans in *Settings* > *Plans*.
+A plan describes how much and how frequently your customer will be billed. An example plan might be one for website hosting that is $100 per month. Plans are reusable templates for building subscriptions. You can setup and manage your plans in **Settings** > **Plans**.
 
 ### Subscriptions
 
@@ -52,9 +52,9 @@ The subscription quantity acts as a multiplier to the base plan price. If your s
 
 ### Subscription Addons
 
-Subscription addons are meant to give you pricing flexibility on top of the base plan amount. Addons save you from creating a large number of plans for every possible combination of products/services that a customer could subscribe to. An addon is simply the application of a catalog item to a subscription. 
+Subscription addons are meant to give you pricing flexibility on top of the base plan amount. Addons save you from creating a large number of plans for every possible combination of products/services that a customer could subscribe to. An addon is an additional plan added onto a subscription, in addition to the primary plan. Each addon is billed as a separate line item on the generated invoices. 
 
-You can setup and manage catalog items in *Settings* > *Catalog*.
+You can setup and manage your plans in **Settings** > **Plans**.
 
 
 ### Subscription Invoices
@@ -181,7 +181,7 @@ You can edit a subscription by opening the subscription in the dashboard and cli
 
 [![Edit Subscription with Prorations](../img/edit-a-subscription.png)](../img/edit-a-subscription.png)
 
-This allows you to change the quantity, add additional addon items, add a discount, or an additional subscription. 
+This allows you to change the quantity, add subscription addons, discounts, and taxes.
 
 
 ### Changing the Billing Date
