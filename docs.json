@@ -111,6 +111,20 @@
           "name": "Custom Fields"
         },
         {
+          "id": "account-statements",
+          "name": "Account Statements",
+          "table_of_contents": [
+            {
+              "id":"balance-forward",
+              "name":"Balance Forward"
+            },
+            {
+              "id":"open-item",
+              "name":"Open Item"
+            }
+          ]
+        },
+        {
           "id": "estimates",
           "name": "Estimates"
         },
