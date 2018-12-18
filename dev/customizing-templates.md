@@ -235,8 +235,9 @@ The `transaction` object has these variables:
 
 #### Statement Object
 
-The `statement ` object has these variables:
+If it is a Balance Forward statement then the `statement ` object has these variables:
 
+- `type` - set to `balance_forward`
 - `start`
 - `end`
 - `previousBalance`
@@ -251,21 +252,38 @@ The `statement ` object has these variables:
    - `number`
    - `invoiced`
    - `paid`
+   - `balance`
 - `hasCredits`
 - `previousCreditBalance`
 - `totalCreditsIssued`
 - `totalCreditsSpent`
-- `creditDetail` - arrayarray of objects each with these properties: of objects with each these properties:
+- `creditDetail` - array of objects each with these properties: of objects with each these properties:
    - `date`
    - `description`
    - `issued`
    - `charged`
-   - `balance`
+   - `creditBalance`
 - `unifiedDetail` - array of objects each with these properties:
    - `date`
    - `description`
    - `issued`
    - `charged`
+   - `balance`
+   - `creditBalance`
+- `aging`
+
+If it is an Open Item statement then the `statement ` object has these variables:
+
+- `type` - set to `open_item`
+- `end`
+- `totalInvoiced`
+- `totalPaid`
+- `balance`
+- `accountDetail` - array of objects each with these properties:
+   - `date`
+   - `number`
+   - `dueDate`
+   - `total`
    - `balance`
 - `aging`
 
