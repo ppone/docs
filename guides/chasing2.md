@@ -33,35 +33,37 @@ The first step to using chasing is to setup a cadence. You can build as many cad
 
 1. Go to **Settings** > **Chasing** in the Invoiced application. Click **New Cadence.**
 
-   -screenshot-
+   [![Chasing Settings](../img/chasing-cadence-settings.png)](../img/chasing-cadence-settings.png)
 
 2. In the first step you will give your cadence an easily identifiable name, configure when chasing activities should occur, and optionally set a threshold if you do not want smaller balances to be chased (i.e. < $100).
 
-   -screenshot-
+   [![Cadence Setup Step 1](../img/chasing-cadence-step-1.png)](../img/chasing-cadence-step-1.png)
 
 3. The second step is the most important part. This is where you build the schedule of chasing activities. Each step represents a single action that will happen. You specify the account age or past due age when that step should run. Depending on the action selected there will be different settings. For example, in the email step you can select which email template to use.
 
-   -screenshot-
+   [![Cadence Setup Step 2](../img/chasing-cadence-step-2.png)](../img/chasing-cadence-step-2.png)
 
 4. In the final step you can have chasing cadences automatically assigned to customers based on certain conditions, like payment terms or customer language. If you do not setup any assignment rules then the cadence must individually be assigned to customers.
 
-   -screenshot-
+   [![Cadence Setup Step 3](../img/chasing-cadence-step-3.png)](../img/chasing-cadence-step-3.png)
 
 5. Once you are ready click the **Save** button to create the cadence. You can come back and edit the cadence any time, however, once assigned to customers you cannot change the schedule.
 
-   -screenshot-
+   [![New Chasing Cadence](../img/chasing-cadence-saved.png)](../img/chasing-cadence-saved.png)
 
 ### Enrolling customers
 
 Now that you have one or more cadences, you can start assigning them to customers.
 
-Assigning cadences from the customer page:
+Assigning cadences from the customer page by clicking **Enable Chasing**:
 
--screenshot-
+[![Assigning Customer Cadence](../img/chasing-not-enabled.png)](../img/chasing-not-enabled.png)
 
-Bulk assigning cadences to customers:
+[![Assigning Customer Cadence Step 2](../img/chasing-assign-cadence.png)](../img/chasing-assign-cadence.png)
 
--screenshot-
+You can also bulk assign cadences to customers in **Settings** > **Chasing** > **Actions** > **Enroll Customers**:
+
+[![Enrolling Customers](../img/chasing-mass-assignment.png)](../img/chasing-mass-assignment.png)
 
 ## Usage
 
@@ -105,8 +107,8 @@ An escalation will flag an account for review. This can go on the team-wide to d
 
 You can see chasing progress across your entire customer list at a glance.
 
--screenshot-
+[![Customer List](../img/chasing-customer-list.png)](../img/chasing-customer-list.png)
 
 If you want to see the specifics of an individual account then you can go to the **Collections** tab of that customer's account.
 
--screenshot-
+[![Collections Page](../img/customer-collection-history.png)](../img/customer-collection-history.png)
