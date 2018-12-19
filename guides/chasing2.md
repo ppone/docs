@@ -65,7 +65,7 @@ Bulk assigning cadences to customers:
 
 ## Usage
 
-### Types of Actions
+### Chasing Activities
 
 Below we describe each of the chasing actions supported, including emails, letters, text messages, phone calls, and escalations.
 
@@ -100,3 +100,13 @@ The phone call action will add an item to your to do list. You or another team m
 #### Escalations
 
 An escalation will flag an account for review. This can go on the team-wide to do list, or can escalate an account to a specific person and get added to their to do list.
+
+### Monitoring chasing progress
+
+You can see chasing progress across your entire customer list at a glance.
+
+-screenshot-
+
+If you want to see the specifics of an individual account then you can go to the **Collections** tab of that customer's account.
+
+-screenshot-
