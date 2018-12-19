@@ -81,6 +81,25 @@
           "name": "Chasing"
         },
         {
+          "id": "chasing2",
+          "name": "Chasing",
+          "hidden": true,
+          "table_of_contents": [
+            {
+              "id":"how-it-works",
+              "name":"How It Works"
+            },
+            {
+              "id":"setup",
+              "name":"Setup"
+            },
+            {
+              "id":"usage",
+              "name":"Usage"
+            }
+          ]
+        },
+        {
           "id": "subscription-billing",
           "name": "Subscription Billing",
           "table_of_contents": [
