@@ -6,22 +6,36 @@ Smart Chasing helps you close the gap on getting paid by codifying your invoice 
 
 With chasing you setup your cadences once, and then enroll customers in the appropriate cadence. A cadence contains the steps you'd like to take when working a customer account towards paid. Cadences describe how and when to follow up with your customers. Each communication is personalized to the account to maximize its effectiveness.
 
-Chasing cadences support the following activities:
+Chasing cadences support the following activities: ([learn more](#chasing-activities))
 - Sending an email
 - Mailing a physical letter
 - Sending a text message
 - Calling the customer
 - Escalating the account internally
 
-A cadence consists of a series of steps to be taken according to the account's age (how many days the customer has owed you money). If at any point the customer pays the balance then the cadence stops.
+A cadence consists of a series of steps to be taken according to the account's age (how many days the customer has owed you money). If at any point the customer pays the balance in full then the cadence stops.
 
 Here is an example cadence:
 
 [![Example Chasing Cadence](../img/chasing-cadence-example.png)](../img/chasing-cadence-example.png)
 
-According to the example above, a customer with a newly issued invoice would receive a letter and an email from Invoiced. Most actions are completely automated, with the exception of phone calls and escalations, which must be handled by a team member (more details below). 
+According to the example above, a customer with a newly issued invoice would receive a letter and an email from Invoiced. As the account ages the other actions would take place. Most actions are completely automated, with the exception of phone calls and escalations, which must be handled by a team member. 
 
-One other neat aspect of chasing is that you get to choose when schedules run. For example, you could choose to execute any scheduled activities at 7am every day. Or maybe you want to restrict this to specific days of the weeks or month. Chasing gives you the fine-grained control to make sure you are reaching your customers at optimal times.
+### Timing
+
+One nifty aspect of chasing is that you get to choose when cadences run. For example, you could choose to execute any scheduled activities at 7am every day. Or maybe you want to restrict this to specific days of the weeks or month. Chasing gives you the fine-grained control to make sure you are reaching your customers at optimal times.
+
+Each cadence has its own timing settings that run at the time that you have specified. Any times given are based on your company time zone in **Settings** > **Business Profile**.
+
+### Balance and Age Mechanics
+
+Chasing attempts to collect the customer's entire account balance, with some exclusions noted below. This means that if a customer has multiple invoices outstanding they are only receiving a single communication at a time from the system about their outstanding balance.
+
+The customer account balance figure includes:
+- All outstanding invoices that do not have AutoPay enabled or a payment plan attached
+- All currently due installments (if on a payment plan)
+
+The customer account age is the oldest open invoice or installment. The past due age is the oldest invoice or installment due date. If no due dates were used within a customer account then any steps based on past due age will never execute.
 
 ## Setup
 
@@ -43,7 +57,7 @@ The first step to using chasing is to setup a cadence. You can build as many cad
 
    [![Cadence Setup Step 2](../img/chasing-cadence-step-2.png)](../img/chasing-cadence-step-2.png)
 
-4. In the final step you can have chasing cadences automatically assigned to customers based on certain conditions, like payment terms or customer language. If you do not setup any assignment rules then the cadence must individually be assigned to customers.
+4. In the final step you can have chasing cadences automatically assigned to customers based on certain conditions, like payment terms or customer language. If you do not setup any assignment rules then the cadence must be assigned to customers.
 
    [![Cadence Setup Step 3](../img/chasing-cadence-step-3.png)](../img/chasing-cadence-step-3.png)
 
@@ -51,27 +65,35 @@ The first step to using chasing is to setup a cadence. You can build as many cad
 
    [![New Chasing Cadence](../img/chasing-cadence-saved.png)](../img/chasing-cadence-saved.png)
 
+## Usage
+
 ### Enrolling customers
 
 Now that you have one or more cadences, you can start assigning them to customers.
 
-Assigning cadences from the customer page by clicking **Enable Chasing**:
+You can assign cadences individually in the *Collections* tab on the customer page by clicking **Enable Chasing**:
 
-[![Assigning Customer Cadence](../img/chasing-not-enabled.png)](../img/chasing-not-enabled.png)
-
-[![Assigning Customer Cadence Step 2](../img/chasing-assign-cadence.png)](../img/chasing-assign-cadence.png)
+[![Assigning Customer Cadence](../img/chasing-assign-cadence.png)](../img/chasing-assign-cadence.png)
 
 You can also bulk assign cadences to customers in **Settings** > **Chasing** > **Actions** > **Enroll Customers**:
 
 [![Enrolling Customers](../img/chasing-mass-assignment.png)](../img/chasing-mass-assignment.png)
 
-## Usage
+### Monitoring chasing progress
 
-### Chasing Activities
+You can see chasing progress across your entire customer list at a glance.
+
+[![Customer List](../img/chasing-customer-list.png)](../img/chasing-customer-list.png)
+
+If you want to see the specifics of an individual account then you can go to the **Collections** tab of that customer's account.
+
+[![Collections Page](../img/customer-collection-history.png)](../img/customer-collection-history.png)
+
+## Chasing Activities
 
 Below we describe each of the chasing actions supported, including emails, letters, text messages, phone calls, and escalations.
 
-#### Send an email
+### Send an email
 
 The email action allows you to send an email to customers. The email will have a "Pay Now" button directing the customer to the customer portal. You can optionally have all of the outstanding invoices attached to the email as a single PDF attachment.
 
@@ -87,28 +109,18 @@ These variables are available for use in your email templates:
 - `{{invoice_due_dates}}`
 - `{{{customer_portal_button}}}`
 
-#### Send a letter
+### Send a letter
 
 The letter action will mail an Open Item statement to your customer via our [Lob integration](/docs/integrations/lob). In order to use this feature you must have a Lob account connected.
 
-#### Send a text message
+### Send a text message
 
 The text message action will send a text message to the customer's text-message enabled phone number on file (must be added as a contact to the customer). In order to use this feature you must have a [Twilio account connected](/docs/integrations/twilio).
 
-#### Phone calls
+### Phone calls
 
 The phone call action will add an item to your to do list. You or another team member will be responsible for making the call. Our system makes it easy to keep track of any collection calls and record notes.
 
-#### Escalations
+### Escalations
 
 An escalation will flag an account for review. This can go on the team-wide to do list, or can escalate an account to a specific person and get added to their to do list.
-
-### Monitoring chasing progress
-
-You can see chasing progress across your entire customer list at a glance.
-
-[![Customer List](../img/chasing-customer-list.png)](../img/chasing-customer-list.png)
-
-If you want to see the specifics of an individual account then you can go to the **Collections** tab of that customer's account.
-
-[![Collections Page](../img/customer-collection-history.png)](../img/customer-collection-history.png)
