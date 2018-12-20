@@ -1,148 +1,114 @@
-# Chasing Guide
+# Chasing
 
-Invoiced lets you send automatic reminders to your client for outstanding invoices according to the schedule you specify. We call this feature **chasing**.
+Smart Chasing helps you close the gap on getting paid by codifying your invoice distribution and follow ups. Once setup, Invoiced will ensure that collection activities always happen on time.
 
-Chasing can help you close the gap on getting paid by reminding customers to pay. In order to start chasing invoices you must set up a schedule and then turn enable chasing for the invoices you want to chase.
+## How It Works
 
-## Chase Schedules
+With chasing you setup your cadences once, and then enroll customers in the appropriate cadence. A cadence contains the steps you'd like to take when working a customer account towards paid. Cadences describe how and when to follow up with your customers. Each communication is personalized to the account to maximize its effectiveness.
 
-You must specify the schedule that you want your invoices to be chased with. We will stop chasing an invoice once the schedule is finished or when the invoice is paid or closed.
+Chasing cadences support the following activities:
+- Sending an email
+- Mailing a physical letter
+- Sending a text message
+- Calling the customer
+- Escalating the account internally
 
-Chase schedules are defined as a series of steps each specifying when an invoice reminder should be sent. Your chasing schedule can be built from the following types of steps:
+A cadence consists of a series of steps to be taken according to the account's age (how many days the customer has owed you money). If at any point the customer pays the balance then the cadence stops.
 
-1. **When issued** - sends an invoice on the issue date
-2. **Before the due date** - sends a reminder N days *before* the due date
-3. **On the due date** - sends a reminder on the due date
-3. **After the due date** - sends a reminder N days *after* the due date
-4. **Repeater** - sends a reminder *every N days after* the due date until the invoice is paid or closed.
+Here is an example cadence:
 
-We will then only chase invoices that have chasing enabled on the invoice. Once the schedule has been completed or the invoice is paid or closed then chasing will stop.
+[![Example Chasing Cadence](../img/chasing-cadence-example.png)](../img/chasing-cadence-example.png)
 
-## Getting Started
+According to the example above, a customer with a newly issued invoice would receive a letter and an email from Invoiced. Most actions are completely automated, with the exception of phone calls and escalations, which must be handled by a team member (more details below). 
 
-First you will need to enable chasing for your account in the settings and set up a schedule.
+One other neat aspect of chasing is that you get to choose when schedules run. For example, you could choose to execute any scheduled activities at 7am every day. Or maybe you want to restrict this to specific days of the weeks or month. Chasing gives you the fine-grained control to make sure you are reaching your customers at optimal times.
 
-Go to **Settings** > **Chasing**. Flip the **Allow Chasing** toggle.
+## Setup
 
-[![Invoice Settings Chasing Enable](../img/allow-chasing-new.png)](../img/allow-chasing-new.png)
+<p class="alert alert-info">This document describes the latest version, Smart Chasing. If you are using the legacy chasing feature then you can find the <a href="/docs/guides/chasing-legacy">docs here</a>. Please contact support@invoiced.com if you would like to be upgraded to Smart Chasing.</p>
 
-Now we are ready to set the chasing schedule in order to instruct Invoiced exactly when to send reminders. Click on **+ Step** to add your first and subsequent steps to the chasing schedule.
+### Building cadences
 
-[![Invoice Settings Chasing Enable](../img/add-chasing-schedule.png)](../img/add-chasing-schedule.png)
+The first step to using chasing is to setup a cadence. You can build as many cadences as you'd like and assign them to customers based on how you would like them to be followed up.
 
-You can remove existing steps or add new ones easily. We will automatically sort the schedule for you.
+1. Go to **Settings** > **Chasing** in the Invoiced application. Click **New Cadence.**
 
-[![Adding Chasing Steps](../img/chasing-schedue-editor.png)](../img/chasing-schedue-editor.png)
+   [![Chasing Settings](../img/chasing-cadence-settings.png)](../img/chasing-cadence-settings.png)
 
-When finished click **Save**. Chasing is now enabled for your account. All that's left is to enable chasing on the invoices you want chased.
+2. In the first step you will give your cadence an easily identifiable name, configure when chasing activities should occur, and optionally set a threshold if you do not want smaller balances to be chased (i.e. < $100).
 
-[![Completed Chasing Schedule](../img/finished-chasing-schedule.png)](../img/finished-chasing-schedule.png)
+   [![Cadence Setup Step 1](../img/chasing-cadence-step-1.png)](../img/chasing-cadence-step-1.png)
 
-### Additional Chasing Support
+3. The second step is the most important part. This is where you build the schedule of chasing activities. Each step represents a single action that will happen. You specify the account age or past due age when that step should run. Depending on the action selected there will be different settings. For example, in the email step you can select which email template to use.
 
-When creating a chasing schedule, you can also select a method to initiate a response based on chasing objective. These methods include: 
+   [![Cadence Setup Step 2](../img/chasing-cadence-step-2.png)](../img/chasing-cadence-step-2.png)
 
-**Send a Reminder** - Sends a reminder to the customer based on chasing objective
+4. In the final step you can have chasing cadences automatically assigned to customers based on certain conditions, like payment terms or customer language. If you do not setup any assignment rules then the cadence must individually be assigned to customers.
 
-**Flag the Invoice** - Flags invoice in Invoiced to be filtered in reporting as well as flagged on invoice for the customer. 
+   [![Cadence Setup Step 3](../img/chasing-cadence-step-3.png)](../img/chasing-cadence-step-3.png)
 
-Invoices flagged will be considered an invoice that "Needs Attention". Invoices that need attention will be marked on the invoices outstanding page with an attention icon. 
+5. Once you are ready click the **Save** button to create the cadence. You can come back and edit the cadence any time, however, once assigned to customers you cannot change the schedule.
 
-[![Invoice Settings Chasing Enable](../img/needs-attention.png)](../img/needs-attention.png)
+   [![New Chasing Cadence](../img/chasing-cadence-saved.png)](../img/chasing-cadence-saved.png)
 
-You can also filter your invoices by invoices that need attention with the needs attention filter.
+### Enrolling customers
 
-[![Invoice Attention Filter](../img/attention-filter.png)](../img/attention-filter.png)
+Now that you have one or more cadences, you can start assigning them to customers.
 
-When accessing the invoice, the action item will be placed on the invoice and can be marked as "resolved" to remove the action item.
+Assigning cadences from the customer page by clicking **Enable Chasing**:
 
-[![Resolve Attention](../img/mark-as-resolved.png)](../img/mark-as-resolved.png)
+[![Assigning Customer Cadence](../img/chasing-not-enabled.png)](../img/chasing-not-enabled.png)
 
+[![Assigning Customer Cadence Step 2](../img/chasing-assign-cadence.png)](../img/chasing-assign-cadence.png)
 
-### Chasing Invoices
+You can also bulk assign cadences to customers in **Settings** > **Chasing** > **Actions** > **Enroll Customers**:
 
-When drafting an invoice you can turn on chasing by clicking **Options** at the top of the screen and enabling the **Chasing** setting.
+[![Enrolling Customers](../img/chasing-mass-assignment.png)](../img/chasing-mass-assignment.png)
 
-If the invoice has already been created then you can simply click **Enable** under the *Invoice Details* section (next to where it says **Chase: No**). Your invoice will now be chased according to the schedule you set up. The next chase date will be shown in the *Invoice Details* section.
+## Usage
 
-### Further Customization
+### Chasing Activities
 
-#### Enable Chasing by Default
+Below we describe each of the chasing actions supported, including emails, letters, text messages, phone calls, and escalations.
 
-If you want chasing enabled by default when drafting new invoices then you enable the **Chasing** setting in **Settings** > **General** > **Defaults**.
+#### Send an email
 
-#### Customizing the Chasing Email Templates
+The email action allows you to send an email to customers. The email will have a "Pay Now" button directing the customer to the customer portal. You can optionally have all of the outstanding invoices attached to the email as a single PDF attachment.
 
-The email template used for chasing reminders depends on the invoice's status.
+These variables are available for use in your email templates:
+- `{{customer_name}}`
+- `{{customer_contact_name}}`
+- `{{customer_number}}`
+- `{{customer_address}}`
+- `{{customer_payment_terms}}`
+- `{{account_balance}}`
+- `{{invoice_numbers}}`
+- `{{invoice_dates}}`
+- `{{invoice_due_dates}}`
+- `{{{customer_portal_button}}}`
 
-1. **New Invoice Email**
-   This email template is used when the invoice has not been sent yet.
+#### Send a letter
 
-2. **Invoice Reminder Email**
-   This email template is used when the invoice has already been sent but is not due yet.
+The letter action will mail an Open Item statement to your customer via our [Lob integration](/docs/integrations/lob). In order to use this feature you must have a Lob account connected.
 
-3. **Late Payment Reminder Email**
-   This email template is always used when the invoice is past due.
+#### Send a text message
 
-You can learn more about customizing email templates in the [Emails Guide](emails#customizing-email-templates).
+The text message action will send a text message to the customer's text-message enabled phone number on file (must be added as a contact to the customer). In order to use this feature you must have a [Twilio account connected](/docs/integrations/twilio).
 
-## Manually Scheduling Invoices
+#### Phone calls
 
-In addition to the global chasing schedule, you can also schedule arbitrary follow ups on a specific invoice. You might use this if you want to follow up on a specific invoice far into the future. Simply schedule the follow up and Invoiced will do it for you when it's time!
+The phone call action will add an item to your to do list. You or another team member will be responsible for making the call. Our system makes it easy to keep track of any collection calls and record notes.
 
-Scheduling invoices to be sent into the future only requires that chasing is enabled globally. It does not require you to set up a chasing schedule. Follow these steps in order to schedule a follow up for an invoice:
+#### Escalations
 
-1. Ensure that **Allow Chasing** is enabled in **Settings** > **Chasing**. You only need to enable this once for your account.
+An escalation will flag an account for review. This can go on the team-wide to do list, or can escalate an account to a specific person and get added to their to do list.
 
-   [![Chasing is enabled globally](../img/turn-chasing-on.png)](../img/turn-chasing-on.png)
+### Monitoring chasing progress
 
-2. Open the invoice that you want Invoiced to follow up on.
+You can see chasing progress across your entire customer list at a glance.
 
-   [![Invoice you want to schedule](../img/scheduling-invoices-2.png)](../img/scheduling-invoices-2.png)
+[![Customer List](../img/chasing-customer-list.png)](../img/chasing-customer-list.png)
 
-3. Click **More** > **Enable Chasing**.
+If you want to see the specifics of an individual account then you can go to the **Collections** tab of that customer's account.
 
-   [![Enable invoice chasing](../img/scheduling-invoices-3.png)](../img/scheduling-invoices-3.png)
-
-4. In the *Invoice Details* section you should see that chasing is enabled. If you have a chasing schedule then *Next Follow Up* might be set to a date already. If not, then it will say *Not scheduled*.
-
-   [![No follow ups scheduled](../img/scheduling-invoices-4.png)](../img/scheduling-invoices-4.png)
-
-5. Click on **Schedule** below *Next Follow Up* (or **Modify** if there is already a scheduled follow up).
-
-   [![Scheduling an automatic follow up](../img/scheduling-invoices-5.png)](../img/scheduling-invoices-5.png)
-
-6. Enter in the date you want Invoiced to follow up on the invoice and click **Save**. Your follow up is scheduled. Invoiced will follow up on the date you've selected and no further action is needed.
-
-   [![Invoice follow up is now scheduled](../img/scheduling-invoices-6.png)](../img/scheduling-invoices-6.png)
-
-## Examples
-
-Here are a few examples how Invoiced will behave given a chasing schedule.
-
-### Schedule with one-time reminders
-
-Given the following schedule:
-
-1. Send a reminder **7** days **before** the due date
-2. Send a reminder **5** days **after** the due date
-
-Let's say our invoice is due on *September 10th*. Or client will receive a reminder the week before it is due, on *September 3rd*. If it still is not paid then on *September 15th* they will receive a late payment reminder.
-
-### Schedule with repeating reminders
-
-Given the following schedule:
-
-1. Send a reminder **7** days **before** the due date
-1. Send a reminder **0** days **after** the due date
-2. Send a reminder **5** days **repeating**
-
-Like the previous example our invoice is due on *September 10th*. As with the previous example they will receive a reminder the week before. They will receive another reminder on the due date, *September 10th*, if the invoice is still not paid. By *September 15th* if they still have not paid then they will receive a late payment reminder, and again every 5 days until the invoice is paid or closed.
-
-### Automatically send all newly issued invoices
-
-Given the following schedule:
-
-1. **When issued**
-
-Any invoice that is issued in the system will be sent automatically (approximately 1-2 hours after the issue date). If an invoice is issued with a date of *September 10th* then it will be sent on that day.
+[![Collections Page](../img/customer-collection-history.png)](../img/customer-collection-history.png)

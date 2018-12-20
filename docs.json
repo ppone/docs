@@ -77,13 +77,13 @@
           "name": "Credit Notes"
         },
         {
-          "id": "chasing",
-          "name": "Chasing"
+          "id": "chasing-legacy",
+          "name": "Chasing (Legacy)",
+          "hidden": true
         },
         {
-          "id": "chasing2",
+          "id": "chasing",
           "name": "Chasing",
-          "hidden": true,
           "table_of_contents": [
             {
               "id":"how-it-works",
