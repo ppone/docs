@@ -1,6 +1,6 @@
 # Chasing
 
-SmartChasing helps you close the gap on getting paid by codifying your invoice distribution and follow ups. Once setup, Invoiced will ensure that collection activities always happen on time.
+Smart Chasing helps you close the gap on getting paid by codifying your invoice distribution and follow ups. Once setup, Invoiced will ensure that collection activities always happen on time.
 
 ## How It Works
 
@@ -25,7 +25,7 @@ One other neat aspect of chasing is that you get to choose when schedules run. F
 
 ## Setup
 
-<p class="alert alert-info">This document describes the latest version, SmartChasing. If you are using the legacy chasing feature then you can find the <a href="/docs/guides/chasing-legacy">docs here</a>. Please contact support@invoiced.com if you would like to be upgraded to SmartChasing.</p>
+<p class="alert alert-info">This document describes the latest version, Smart Chasing. If you are using the legacy chasing feature then you can find the <a href="/docs/guides/chasing-legacy">docs here</a>. Please contact support@invoiced.com if you would like to be upgraded to Smart Chasing.</p>
 
 ### Building cadences
 
