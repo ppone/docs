@@ -83,7 +83,7 @@
         },
         {
           "id": "chasing",
-          "name": "Chasing",
+          "name": "Smart Chasing",
           "table_of_contents": [
             {
               "id":"how-it-works",

@@ -1,4 +1,4 @@
-# Chasing
+# Smart Chasing
 
 Smart Chasing helps you close the gap on getting paid by codifying your invoice distribution and follow ups. Once setup, Invoiced will ensure that collection activities always happen on time.
 
