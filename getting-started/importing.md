@@ -1,4 +1,4 @@
-# Importing
+# Importing Data
 
 It's easy to import customers, invoices, payments, and catalog items into Invoiced. This guide shows you how to import data into Invoiced using our importer.
 

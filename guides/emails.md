@@ -10,7 +10,7 @@ We have built many features around sending and email to make billing less stress
 
 Anyone that has billed customers before has probably heard the "I never received it" excuse, at least once. Sometimes it is true that the client never received the invoice. We built view tracking to to solve this problem.
 
-All invoices have what is known as the **Client View**. The client view renders the full document in the recipient's web browser and supports several features, like online payments, PDF downloads, commenting, file attachments, and more. The client view is hosted on your [billing portal](billing-portal).
+All invoices have what is known as the **Client View**. The client view renders the full document in the recipient's web browser and supports several features, like online payments, PDF downloads, commenting, file attachments, and more. The client view is hosted on your [customer portal](billing-portal).
 
 Sending invoices have a **View Invoice** button that links to the client view. As soon as your client clicks the view button we log it and notify you.
 

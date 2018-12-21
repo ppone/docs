@@ -64,7 +64,7 @@ A hash containing these properties:
 
 - `status` - Could be `draft`, `not_sent`, `sent`, `viewed`, `past_due`, `pending`, `paid`, `bad_debt`
 - `url` - Client view URL
-- `payment_url` - URL for the payment page in the billing portal
+- `payment_url` - URL for the payment page in the customer portal
 - `number`
 - `date`
 - `due_date`

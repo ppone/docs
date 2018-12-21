@@ -336,7 +336,7 @@ Note that we did not have to include the `unit_cost` on the item as it was fille
 
 ### Recording a Payment
 
-On Invoiced payments are represent with the **Transaction** resource. A transaction models the exchange of value between you and a customer, including payments, refunds, and credits. Whenever customers pay online through the billing portal we automatically create a transaction for the payment. However, if you accept payments outside of Invoiced, always true if you are accepting checks or wire transfers, then you have to record the payment yourself through the dashboard or API.
+On Invoiced payments are represent with the **Transaction** resource. A transaction models the exchange of value between you and a customer, including payments, refunds, and credits. Whenever customers pay online through the customer portal we automatically create a transaction for the payment. However, if you accept payments outside of Invoiced, always true if you are accepting checks or wire transfers, then you have to record the payment yourself through the dashboard or API.
 
 ```bash
 curl "https://api.invoiced.com/transactions" \

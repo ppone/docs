@@ -1,8 +1,8 @@
 # Single Sign-On
 
-With Single Sign-On (SSO) customers can seamlessly sign into your billing portal from your app or website.
+With Single Sign-On (SSO) customers can seamlessly sign into your customer portal from your app or website.
 
-Our SSO feature lets you securely generate URLs to sign customers into your [billing portal](/docs/guides/billing-portal). This is perfect for redirecting users already authenticated within your app or service into your billing portal without the need for them to sign in once more.
+Our SSO feature lets you securely generate URLs to sign customers into your [customer portal](/docs/guides/billing-portal). This is perfect for redirecting users already authenticated within your app or service into your customer portal without the need for them to sign in once more.
 
 ## Generating SSO URLs
 

@@ -20,9 +20,9 @@ There are multiple ways to securely add payment information to a customer's acco
 
    New customers that sign up for a subscription through sign up pages will have AutoPay enabled and a stored payment method.
 
-2. [Billing Portal](/docs/guides/billing-portal)
+2. [Customer Portal](/docs/guides/billing-portal)
 
-   Existing customers can sign into your billing portal and click **Add Payment Method**.
+   Existing customers can sign into your customer portal and click **Add Payment Method**.
 
 3. Sending an AutoPay invoice to your customer
 
@@ -96,7 +96,7 @@ Let's walk through a basic scenario where we set up AutoPay for a customer by se
 
 ### Updating payment information
 
-Once a customer's added payment information they can update it at any time through the billing portal by clicking **Change** in the *Payment Method* section.
+Once a customer's added payment information they can update it at any time through the customer portal by clicking **Change** in the *Payment Method* section.
 
 [![Updating payment information](../img/update-payment-source.png)](../img/update-payment-source.png)
 

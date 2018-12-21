@@ -74,7 +74,7 @@ You can choose to add any of these options to customize the sign up process.
 
    [![Created Sign Up Page](../img/sign-up-pages-created.png)](../img/sign-up-pages-created.png)
 
-5. Now that your page is created it will be hosted at a unique URL within your billing portal. You can click the **View** button next to your new page to open the URL in a new tab.
+5. Now that your page is created it will be hosted at a unique URL within your customer portal. You can click the **View** button next to your new page to open the URL in a new tab.
 
    [![Sign Up Page](../img/sign-up-page.png)](../img/sign-up-page.png)
 
@@ -87,7 +87,7 @@ You can allow the customer to specify a quantity of the add on and also note if 
 
 ### Signing up customers
 
-All the customer needs to get started is to visit the URL of your sign up page. Sign up pages are hosted on a public but obscured URL within your billing portal.
+All the customer needs to get started is to visit the URL of your sign up page. Sign up pages are hosted on a public but obscured URL within your customer portal.
 
 There are many ways that you can direct customers to your sign up page. You can link to it from your website or app, send it to customers directly over email or text message, or seamlessly redirect customers as part of your existing checkout flow.
 

@@ -1,28 +1,20 @@
 {
   "categories": [
     {
-      "id": "guides",
-      "name": "Guides",
+      "id": "getting-started",
+      "name": "Start Here",
       "docs": [
         {
-          "id": "getting-started",
-          "name": "Getting Started"
+          "id": "intro",
+          "name": "Welcome!"
         },
         {
-          "id": "customers",
-          "name": "Customers"
-        },
-        {
-          "id": "create-an-invoice",
-          "name": "Creating an Invoice"
-        },
-        {
-          "id": "billing-portal",
-          "name": "Billing Portal"
+          "id": "invoices",
+          "name": "Create an Invoice"
         },
         {
           "id": "importing",
-          "name": "Importing",
+          "name": "Importing Data",
           "table_of_contents": [
             {
               "id": "customers",
@@ -53,10 +45,58 @@
               "name": "Tax Rates"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "guides",
+      "name": "Guides",
+      "docs": [
+        {
+          "id": "account-statements",
+          "name": "Account Statements",
+          "table_of_contents": [
+            {
+              "id":"balance-forward",
+              "name":"Balance Forward"
+            },
+            {
+              "id":"open-item",
+              "name":"Open Item"
+            }
+          ]
         },
         {
           "id": "coupons",
           "name": "Coupons"
+        },
+        {
+          "id": "credit-holds",
+          "name": "Credit Holds"
+        },
+        {
+          "id": "credit-notes",
+          "name": "Credit Notes"
+        },
+        {
+          "id": "custom-fields",
+          "name": "Custom Fields"
+        },
+        {
+          "id": "billing-portal",
+          "name": "Customer Portal"
+        },
+        {
+          "id": "customers",
+          "name": "Customers"
+        },
+        {
+          "id": "emails",
+          "name": "Emails"
+        },
+        {
+          "id": "estimates",
+          "name": "Estimates"
         },
         {
           "id": "payment-incentives",
@@ -73,8 +113,12 @@
           ]
         },
         {
-          "id": "credit-notes",
-          "name": "Credit Notes"
+          "id": "reports",
+          "name": "Reports"
+        },
+        {
+          "id": "sign-up-pages",
+          "name": "Sign Up Pages"
         },
         {
           "id": "chasing-legacy",
@@ -114,46 +158,8 @@
           ]
         },
         {
-          "id": "sign-up-pages",
-          "name": "Sign Up Pages"
-        },
-        {
           "id": "taxes",
           "name": "Taxes"
-        },
-        {
-          "id": "emails",
-          "name": "Emails"
-        },
-        {
-          "id": "reports",
-          "name": "Reports"
-        },
-        {
-          "id": "custom-fields",
-          "name": "Custom Fields"
-        },
-        {
-          "id": "account-statements",
-          "name": "Account Statements",
-          "table_of_contents": [
-            {
-              "id":"balance-forward",
-              "name":"Balance Forward"
-            },
-            {
-              "id":"open-item",
-              "name":"Open Item"
-            }
-          ]
-        },
-        {
-          "id": "estimates",
-          "name": "Estimates"
-        },
-        {
-          "id": "credit-holds",
-          "name": "Credit Holds"
         }
       ]
     },
@@ -422,6 +428,23 @@
           "name": "Testing"
         },
         {
+          "id": "customizing-templates",
+          "name": "Customizing Templates"
+        },
+        {
+          "id": "customizing-templates-legacy",
+          "name": "Customizing Templates",
+          "hidden": true
+        },
+        {
+          "id": "file-attachments",
+          "name": "File Attachments"
+        },
+        {
+          "id": "metered-billing",
+          "name": "Metered Billing"
+        },
+        {
           "id": "payment-info",
           "name": "Payment Information",
           "table_of_contents": [
@@ -442,6 +465,10 @@
               "name": "Gateway Tokenization"
             }
           ]
+        },
+        {
+          "id": "single-sign-on",
+          "name": "Single Sign-On"
         },
         {
           "id": "subscription-billing",
@@ -466,29 +493,8 @@
           ]
         },
         {
-          "id": "metered-billing",
-          "name": "Metered Billing"
-        },
-        {
           "id": "webhooks",
           "name": "Webhooks"
-        },
-        {
-          "id": "single-sign-on",
-          "name": "Single Sign-On"
-        },
-        {
-          "id": "customizing-templates",
-          "name": "Customizing Templates"
-        },
-        {
-          "id": "customizing-templates-legacy",
-          "name": "Customizing Templates",
-          "hidden": true
-        },
-        {
-          "id": "file-attachments",
-          "name": "File Attachments"
         }
       ]
     }

@@ -1,4 +1,4 @@
-# Creating your First Invoice
+# Creating Your First Invoice
 
 Creating an invoice is a fairly simple process. After all, it's the main thing that Invoiced was designed to do. If it is your first time logging into your Invoiced account, we are happy to announce you are one step closer to creating your first Invoice. Once you log into your account for the first time, your dashboard won't contain any details regarding your account overview until you have created your first invoice. Not to worry. Simply click on Create First Invoice to get started. 
 
@@ -68,7 +68,7 @@ You can learn more about the [chasing process here](https://invoiced.com/docs/pa
 
 ## Getting paid 
 
-When your customer clicks the *View Invoice* button in the invoice email, they will be taken to the invoice in the billing portal. The billing portal is where customer's can view and pay invoices, in addition to having access to their past billing history. Another nifty feature is that once your customer views an invoice we will send you a notification to let you know they have seen it. Note: Notifications can be turned on and off in your Settings → Notifications section. 
+When your customer clicks the *View Invoice* button in the invoice email, they will be taken to the invoice in the customer portal. The customer portal is where customer's can view and pay invoices, in addition to having access to their past billing history. Another nifty feature is that once your customer views an invoice we will send you a notification to let you know they have seen it. Note: Notifications can be turned on and off in your Settings → Notifications section. 
 
 [![Get Paid](../img/viewing-invoice.png)](../img/viewing-invoice.png)
 

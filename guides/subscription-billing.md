@@ -206,7 +206,7 @@ You can choose whether you want the subscription to be canceled immediately or a
 
 [![Canceling a Subscription Step 2](../img/canceling-the-subscription.png)](../img/canceling-the-subscription.png)
 
-When a customer cancels a subscription in the billing portal, the subscription will end at the end of the billing cycle. This also means that the cancellation will not trigger a credit to the customers account. This is because the subscription is pre-paid at the beginning of the billing cycle. 
+When a customer cancels a subscription in the customer portal, the subscription will end at the end of the billing cycle. This also means that the cancellation will not trigger a credit to the customers account. This is because the subscription is pre-paid at the beginning of the billing cycle. 
 
 ## Contract Billing
 
@@ -254,7 +254,7 @@ You can filter your subscriptions by upcoming renewal in your Subscriptions sect
 
 ### Canceling Contract Billing
  
-Canceling contract billing is slightly different than canceling a traditional subscription. The customer can still access the cancelation process in the billing portal, however, the option to cancel at the end of the billing cycle should not be available until the length of the contract has completed. In many cases, this option could be a couple of cycles out from the end of the contract billing term. 
+Canceling contract billing is slightly different than canceling a traditional subscription. The customer can still access the cancellation process in the customer portal, however, the option to cancel at the end of the billing cycle should not be available until the length of the contract has completed. In many cases, this option could be a couple of cycles out from the end of the contract billing term. 
 
 ## FAQs
 
