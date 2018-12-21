@@ -59,7 +59,7 @@ IBAN                     | Description
 
 #### Other gateways
 
-If you are connecting to a payment gateway other than test in the sandbox then the sandbox will connect to your payment gateway in test mode. This means that you can use test payment sources from your payment gateway instead of live ones. For example, if you connected Stripe as your payment gateway then you can use these [test accounts](https://stripe.com/docs/testing). In test mode, payments will behave identically to live mode without performing any real charges.
+If you are connecting to a payment gateway other than test in the sandbox then the sandbox will connect to your payment gateway in test mode. This means that you can use test payment information from your payment gateway instead of live ones. For example, if you connected Stripe as your payment gateway then you can use these [test accounts](https://stripe.com/docs/testing). In test mode, payments will behave identically to live mode without performing any real charges.
 
 ### Data Storage and Rate Limiting
 

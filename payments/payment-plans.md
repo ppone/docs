@@ -58,16 +58,16 @@ If your payment plan is not uniform, or needs further customization then you can
 
    [![Build a custom payment plan](../img/payment-plan-custom.png)](../img/payment-plan-custom.png)
 
-   If your customer already has a payment source connected then there's nothing left to do. AutoPay will be enabled on the invoice and payment will be collected according to your newly created schedule.
+   If your customer already has payment information on file then there's nothing left to do. AutoPay will be enabled on the invoice and payment will be collected according to your newly created schedule.
 
    [![Payment plan started](../img/payment-plan-enabled.png)](../img/payment-plan-enabled.png)
 
 
-If your customer does not have a connected payment source yet, please read the next section to learn how to finish enrolling the customer in the payment plan.
+If your customer does not have payment information on file yet, please read the next section to learn how to finish enrolling the customer in the payment plan.
 
 ##Signing up customers
 
-Customers that do not have a connected payment source must approve the payment plan and connect a payment source before installments can be collected. They can do this by viewing the invoice online.
+Customers that do not have payment information on file must approve the payment plan and enter in their payment information before installments can be collected. They can do this by viewing the invoice online.
 
    [![Payment plan pending approval](../img/confirming-payment-plan.png)](../img/confirming-payment-plan.png)
 
@@ -80,15 +80,11 @@ Customers that do not have a connected payment source must approve the payment p
 
 4. Instead of the normal payment screen the customer will see the payment plan. After reviewing the payment plan they will click *Approve*.
 
-
-
    [![Payment plan email](../img/payment-plan-approval.png)](../img/payment-plan-approval.png)
 
-5. Finally, they will need to connect a payment source to pay for the payment plan.
+5. Finally, they will need to add payment information to pay for the payment plan.
 
-
-*Please Note*: AutoPay for the invoice will be enabled now that your customer has approved the payment plan and connected a payment source. Invoiced will then automatically collect the correct amount from your customer as each installment becomes due.
-
+*Please Note*: AutoPay for the invoice will be enabled now that your customer has approved the payment plan and payment information on file. Invoiced will then automatically collect the correct amount from your customer as each installment becomes due.
 
 ## FAQ
 

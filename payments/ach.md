@@ -36,4 +36,4 @@ Like customers, internal Invoiced users have the ability to apply a payment to a
 
 ## AutoPay
 
-ACH payments work with [AutoPay](/docs/payments/autopay) when your customer saves a bank account payment source.
+ACH payments work with [AutoPay](/docs/payments/autopay) when your customer has a saved bank account on file.

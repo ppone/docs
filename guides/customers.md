@@ -4,19 +4,19 @@ Invoiced makes it easy to add and update customers. While a customer can be adde
 
 Customers > New Customer
 
-You will be prompted to add a name, account number (this will generate if left blank), and an email address. On the New customer set up, you can also add a payment source, billing address, specify allowed payment sources, and allow Chasing on the customers profile. If you do not know this information, you can leave these items blank. 
+You will be prompted to add a name, account number (this will generate if left blank), and an email address. On the New customer set up, you can also add a payment method, billing address, specify allowed payment methods, and allow chasing on the customers profile. If you do not know this information, you can leave these items blank. 
 
 [![Creating a Customer](../img/create-a-customer.gif)](../img/create-a-customer.gif)
 
 Once a customer is created, you can apply invoices, pending line items, and subscriptions to the customers account.
 
-## Adding a Payment Source
+## Adding a Payment Method
 
-Customer records also allows you to add a payment source directly on the customer's account. Simply access the customer by finding the customer in Invoiced. 
+Customer records also allows you to store a payment method on the customer's account. Simply access the customer by finding the customer in Invoiced. 
 
-Under the *Add Payment Source* section, you can add a payment source to use for the customer. 
+Under the *Payment Method* section, you can add a payment method to use for the customer. 
 
-[![Add a Payment source](../img/add-payment-source.png)](../img/add-payment-source.png)
+[![Add a Payment Method](../img/add-payment-source.png)](../img/add-payment-source.png)
 
 ## Additional Contacts
 

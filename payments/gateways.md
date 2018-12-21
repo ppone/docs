@@ -30,7 +30,7 @@ Switching payment gateways can be challenging, especially when there is payment 
 
 When you switch payment gateways in **Settings** > **Payments**, any new payment information added through Invoiced and any one-off charges will immediately use the new gateway you have selected as the default. When vaulting payment information, Invoiced will always store customer payment information on your payment gateway account. When switching payment gateways, due to PCI compliance reasons, the payment information is not portable between payment gateways.
 
-In order to continue billing and charging your customers without interruption we will continue to use the old payment gateway for any payment information that was stored there prior to the transition. When your customer enters in new payment information then it will be stored on the new payment gateway. You can see which payment gateway a card or bank account is stored on by going to the customer summary page on Invoiced and clicking on the payment source.
+In order to continue billing and charging your customers without interruption we will continue to use the old payment gateway for any payment information that was stored there prior to the transition. When your customer enters in new payment information then it will be stored on the new payment gateway. You can see which payment gateway a card or bank account is stored on by going to the customer summary page on Invoiced and clicking on the payment method.
 
 [![Stored Card on File](../img/stored-card.png)](../img/stored-card.png)
 
