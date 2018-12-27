@@ -19,4 +19,4 @@ First, lets start with an account! If you have not done so already, you need to 
 
 The dashboard is where you can access all of your customer and billing data. Because Invoiced is web based,  the only system requirement is a modern web browser. As a bonus the dashboard is responsive! Which means it can be used on any device, including: desktops, tablets, and smartphones. This means you can run your business from anywhere (with Internet access).
 
-[![Invoiced Dashboard](../img/invoiced-devices.png)](../img/invoiced-devices.png)
+[![Invoiced Dashboard](/docs/img/invoiced-devices.png)](/docs/img/invoiced-devices.png)
