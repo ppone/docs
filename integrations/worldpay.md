@@ -51,4 +51,4 @@ Customers can pay with ACH just as easily as with credit cards. The key differen
 
 ## Support
 
-When you signed up for Worldpay you should have received an onboarding packet. This will contain the contact information for getting swift help from Worldpay.
+If you have any questions regarding your Worldpay merchant account you can call support at 1-800-846-4472.
