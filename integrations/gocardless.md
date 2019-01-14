@@ -10,6 +10,7 @@ The GoCardless integration on Invoiced supports the following features:
 - SEPA debits (EU)
 - BECS debits (Australia and New Zealand)
 - Autogiro debits (Sweden)
+- PAD (Canada)
 - Vaulting payment information
 - [AutoPay](/docs/payments/autopay)
 

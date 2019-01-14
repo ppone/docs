@@ -6,6 +6,7 @@
 - SEPA debits (EU)
 - BECS debits (Australia)
 - Autogiro debits (Sweden)
+- PAD (Canada)
 - ACH (US)
 
 Please note, if you are looking for the U.S. equivalent of direct debit then please take a look at our [ACH documentation](/docs/payments/ach).
