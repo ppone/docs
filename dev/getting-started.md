@@ -234,9 +234,9 @@ Email[] emails = invoice.send(emailRequest);
 
 The customer will be sent the invoice with a **View Invoice** button using the default email template. You can customize these templates through the dashboard in **Settings** > **Emails**.
 
-#### Catalog Items
+#### Items
 
-Our Catalog feature allows you to build a simpler, more robust integration by centralizing pricing information for the products and services that you sell. You must first add catalog items through the dashboard in **Settings** > **Catalog** or through the catalog items API. Then you can bill for catalog items by simply referencing them by ID:
+Our Items feature allows you to build a simpler, more robust integration by centralizing pricing information for the products and services that you sell. You must first add items through the dashboard in **Settings** > **Items** or through the Items API. Then you can bill for items by simply referencing them by ID:
 
 ```bash
 curl "https://api.invoiced.com/invoices" \
@@ -331,7 +331,7 @@ invoice.taxes = taxes;
 invoice.create();
 ```
 
-Note that we did not have to include the `unit_cost` on the item as it was filled in automatically (although you can override per line item by including it). Another benefit of catalog items is that it helps tie together line items together in reports.
+Note that we did not have to include the `unit_cost` on the item as it was filled in automatically (although you can override per line item by including it). Another benefit of items is that it ties line items together in reports.
 
 
 ### Recording a Payment

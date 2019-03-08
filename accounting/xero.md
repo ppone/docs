@@ -165,9 +165,9 @@ The integration adds all the taxes on the invoice from Invoiced and adds a tax l
 
 If you have changed your Xero organization then you will need to reconnect your xero account by clicking on **Reconnect** in the Xero integration settings.
 
-### Are catalog items synced from Invoiced to Xero?
+### Are items synced from Invoiced to Xero?
 
-Currently catalog items from Invoiced are not imported into Xero.
+Currently items from Invoiced are not imported into Xero.
 
 ### Which invoices from Invoiced are synced to Xero?
 

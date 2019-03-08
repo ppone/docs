@@ -138,7 +138,7 @@ subscription.create();
 
 Let's pretend during the billing cycle our customer used engineering hours that we want to bill for. Instead of issuing a separate invoice we can just add it to their next subscription invoice.
 
-We are going to use an item from our catalog that was set up in **Settings** > **Catalog** with the ID `engineer_hours`. The catalog item already has the price set, however, you can also bill for line items not in your catalog, just like with invoices. The [Line Item Object](/docs/api/#line-item-object) shows all of the attributes that we support for creating line items.
+We are going to use an item that was set up in **Settings** > **Items** with the ID `engineer_hours`. The item already has the price set, however, you can also bill for one-off line items, just like with invoices. The [Line Item Object](/docs/api/#line-item-object) shows all of the attributes that we support for creating line items.
 
 ```bash
 curl "https://api.invoiced.com/customers/{CUSTOMER_ID}/line_items" \

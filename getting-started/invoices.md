@@ -20,9 +20,9 @@ When selecting or creating the customer the invoice will go to, it will prompt y
 
 ## Applying Items to the Invoice
 
-Items refer to what you are invoicing the customer for. This can include services, products, time, shipping, etc. Items can be created on the fly, within the invoice, or, they can be created and stored in the Catalog. Catalog items are stored in your Settings → Catalog section. Please refer to the Catalog tutorial for more information. Items can also have descriptions that will describe the reason or the product information they are being charged for. This is not a mandatory field.
+Items refer to what you are invoicing the customer for. This can include services, products, time, shipping, etc. Items can be created on the fly, within the invoice, or, they can be created and stored in the items list. Items are configured in **Settings** > **Items**. Please refer to the Catalog tutorial for more information. Items can also have descriptions that will describe the reason or the product information they are being charged for. This is not a mandatory field.
 
-Once you have selected or created the items the customer will be billed for, you can now select the quantity they will be billed for as well as rate of the item. ** Note: If a catalog item is created and generated, the rate will be generated also. You will just need to specify the quantity.** 
+Once you have selected or created the items the customer will be billed for, you can now select the quantity they will be billed for as well as rate of the item. ** Note: If an item is created and generated, the rate will be generated also. You will just need to specify the quantity.** 
 
 [![Creating Items](../img/adding-catalog-item.gif)](../img/adding-catalog-item.gif)
 
@@ -31,12 +31,12 @@ Once you have selected or created the items the customer will be billed for, you
 You are now 75% of the way completed with creating an invoice! If you wish to apply tax or a discount to the invoice, here is where you will do so. 
 
 *Discounts* 
-Discounts can be created before creating the invoice in your Settings → Coupons section. Please refer to the Discounts tutorial on how to create these. If you have not yet set up the discounts to be used, you can apply a manual discount on the invoice. To apply a discount manually to the invoice, simply click on the +Discount field. This section will present you with a box to apply a custom discount, select from existing discounts, or create a new discount code. Once you have selected and applied the discount, it will generate the discount on the invoice for you to review. 
+Discounts can be created before creating the invoice in your **Settings** > **Coupons** section. Please refer to the Discounts tutorial on how to create these. If you have not yet set up the discounts to be used, you can apply a manual discount on the invoice. To apply a discount manually to the invoice, simply click on the +Discount field. This section will present you with a box to apply a custom discount, select from existing discounts, or create a new discount code. Once you have selected and applied the discount, it will generate the discount on the invoice for you to review. 
 
 [![Adding a Discount](../img/adding-discount.gif)](../img/adding-discount.gif)
 
 *Taxes*
-Taxes can be created before creating an invoice in your Settings → Taxes section. Please refer to the Taxes tutorial on how to create and apply Tax Rates and Tax Rules to invoices. If you have not set up a tax rate or rule, you can apply a manual tax percent to the invoice. To apply taxes manually to an invoice, simply click the +Taxes field. This section will present you with a box to apply a custom tax rate, select from existing created taxes, or create a new Tax rate to be added to your Tax rate catalog. Once you have selected and applied the tax rate, it will generate the tax information for you to review.
+Taxes can be created before creating an invoice in your **Settings** > **Taxes** section. Please refer to the Taxes tutorial on how to create and apply Tax Rates and Tax Rules to invoices. If you have not set up a tax rate or rule, you can apply a manual tax percent to the invoice. To apply taxes manually to an invoice, simply click the +Taxes field. This section will present you with a box to apply a custom tax rate, select from existing created taxes, or create a new Tax rate to be added to your Tax rate list. Once you have selected and applied the tax rate, it will generate the tax information for you to review.
 
 [![Adding Taxation](../img/adding-tax.gif)](../img/adding-tax.gif)
 
@@ -55,7 +55,7 @@ After building your line items, selecting your discount and tax information, and
 
 ## Sending the invoice 
 
-Upon issuing the invoice we will ask if you want to send it. If you choose not to send it now you will have the option to send it later or else mark the invoice as sent if you sent the invoice using some other medium. To send the invoice now, simply click Send Invoice. This function will present the user with a pop-up to review the email that will be sent to the customer. The information generated is created in the email template section of your Invoiced account. This can be found in Settings → Emails. After reviewing the email information, you can now send the invoice. Once the invoice is sent, the customer will receive an email with your branding, information, and invoice information. 
+Upon issuing the invoice we will ask if you want to send it. If you choose not to send it now you will have the option to send it later or else mark the invoice as sent if you sent the invoice using some other medium. To send the invoice now, simply click Send Invoice. This function will present the user with a pop-up to review the email that will be sent to the customer. The information generated is created in the email template section of your Invoiced account. This can be found in **Settings** > **Emails**. After reviewing the email information, you can now send the invoice. Once the invoice is sent, the customer will receive an email with your branding, information, and invoice information. 
 
 [![Send an Invoice](../img/send-new-invoice.png)](../img/send-new-invoice.png)
 
@@ -68,7 +68,7 @@ You can learn more about the [chasing process here](https://invoiced.com/docs/pa
 
 ## Getting paid 
 
-When your customer clicks the *View Invoice* button in the invoice email, they will be taken to the invoice in the customer portal. The customer portal is where customer's can view and pay invoices, in addition to having access to their past billing history. Another nifty feature is that once your customer views an invoice we will send you a notification to let you know they have seen it. Note: Notifications can be turned on and off in your Settings → Notifications section. 
+When your customer clicks the *View Invoice* button in the invoice email, they will be taken to the invoice in the customer portal. The customer portal is where customer's can view and pay invoices, in addition to having access to their past billing history. Another nifty feature is that once your customer views an invoice we will send you a notification to let you know they have seen it. Note: Notifications can be turned on and off in your **Settings** > **Notifications** section. 
 
 [![Get Paid](../img/viewing-invoice.png)](../img/viewing-invoice.png)
 
@@ -77,7 +77,7 @@ Here, the customer can leave a comment (Have Questions?) , download the invoice,
 [![Choose a Payment Option](../img/pay-invoice-page.png)](../img/pay-invoice-page.png)
 
 
-Payment methods available for the customer to use are generated by what is available and set in your Settings→ Payment section. You can also specify, by customer, what a customer can use in order to pay an invoice. This can be specified under the customers account profile information in Invoiced. 
+Payment methods available for the customer to use are generated by what is available and set in your **Settings** > **Payments** section. You can also specify, by customer, what a customer can use in order to pay an invoice. This can be specified under the customers account profile information in Invoiced. 
 
 To learn more about Payments, please refer to the Payment documentation. 
 

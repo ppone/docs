@@ -1,6 +1,6 @@
 # Importing Data
 
-It's easy to import customers, invoices, payments, and catalog items into Invoiced. This guide shows you how to import data into Invoiced using our importer.
+It's easy to import customers, invoices, payments, and items into Invoiced. This guide shows you how to import data into Invoiced using our importer.
 
 ## Usage
 
@@ -87,13 +87,13 @@ Steps to import Payments:
 - When the payment method is `check` you can pass in a check # with the *Transaction ID* field
 - The *Gateway* field should only be used when tracking electionic payments
 
-### Catalog Items
+### Items
 
-1. Go to **Settings** > **Catalog**
+1. Go to **Settings** > **Items**
 
 2. Click **Import**
 
-3. Build your import spreadsheet, select all the contents, and paste it into the textbox. [Download](https://dashboard.invoiced.com/files/catalog-items-import-template.xlsx) a sample catalog items import template to get started.
+3. Build your import spreadsheet, select all the contents, and paste it into the textbox. [Download](https://dashboard.invoiced.com/files/catalog-items-import-template.xlsx) a sample items import template to get started.
 
 4. Click **Go to Next Step**
 

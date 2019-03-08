@@ -104,9 +104,9 @@ With the **Tax Date** option you can tell Invoiced when to recognize tax. You ca
 
 ## Sales by Item
 
-The **Sales by Item** report gives you a breakdown of your sales, including what was sold and how much. With this report we will analyze all of the line items billed within the given time period. The report will include how much was sold broken down by type and by catalog item.
+The **Sales by Item** report gives you a breakdown of your sales, including what was sold and how much. With this report we will analyze all of the line items billed within the given time period. The report will include how much was sold broken down by type and by item.
 
-*Please note that any line items that do not have a catalog item associated will be grouped together.*
+*Please note that any line items that do not have an item associated will be grouped together.*
 
 [![Sales by Item Report](../img/report-sales-by-item.png)](../img/report-sales-by-item.png)
 

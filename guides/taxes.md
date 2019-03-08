@@ -2,11 +2,11 @@
 
 We understand that GST & VAT can be complex, that is why Invoiced created the tax calculation tool. The Tax Rates and Tax Rules settings allow users to manage a customers rate at time of payment that can be applied to any subtotal of an invoice. Invoiced supports both percentages and flat rate tax amounts to be compliant on country tax guidelines. With an easy to use tool, rates and rules can be created within minutes to get your business up and running faster. Lets get started.
 
-To access the Tax Rates and Rules, navigate to **Settings → Taxes**
+To access the Tax Rates and Rules, navigate to **Settings** > **Taxes**
 
  [![Click to add a Tax Rate](../img/tax-rates.png)](../img/tax-rates.png)
 
- To access the Tax Rates and Rules, navigate to **Settings → Taxes**
+ To access the Tax Rates and Rules, navigate to **Settings** > **Taxes**
 
 Invoiced will allow the user to create both Tax Rates and Tax Rules.
 
