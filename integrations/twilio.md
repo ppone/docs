@@ -34,7 +34,7 @@ You can send both account statements and individual invoices through a text mess
 
 1. Open up the invoice in the Invoiced application.
 
-2. Click **More** > **Send Invoice**.
+2. Click **Actions** > **Send Invoice**.
 
    [![Send Document](../img/send-document-choice-text-message.png)](../img/send-document-choice-text-message.png)
 
@@ -54,7 +54,7 @@ You can send both account statements and individual invoices through a text mess
 
 1. Open up the customer's account in the Invoiced application.
 
-2. Click **More** > **Generate Statement**.
+2. Click **Actions** > **Generate Statement**.
 
 3. Enter in the parameters for the statement and click **Send**.
 

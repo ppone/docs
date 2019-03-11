@@ -97,7 +97,7 @@ You can assign a customer a sign up page. This works well for scenarios like re-
 
  To access this feature:
 
-  **Customer** > **More** > **Assign Sign Up Page**
+  **Customer** > **Actions** > **Assign Sign Up Page**
 
    [![Sign Up Page by Customer](../img/signup-page-by-customer.png)](../img/signup-page-by-customer.png)
 

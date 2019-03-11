@@ -90,7 +90,7 @@ When switching to a plan with a different billing cycle, for example, switching 
 
 #### Proration Calculation
 
-Prorations are calculated based on the number of seconds left in the billing cycle. More specifically, here is how we calculate prorations. 
+Prorations are calculated based on the number of seconds left in the billing cycle. Here is the formula we use to calculate prorations. 
 
 The `% time remaining` is calculated with:
 
@@ -188,7 +188,7 @@ This allows you to change the quantity, add subscription addons, discounts, and 
 
 Once your subscription is running you might want to change when it renews next. The reason might be that the customer wants the subscription to renew on a certain day of the month, maybe the wrong start date was chosen, or else you want to issue invoices sooner.
 
-With the subscription in the dashboard you can click **More** > **Change Billing Date** to change when the subscription will renew next.
+With the subscription in the dashboard you can click **Actions** > **Change Billing Date** to change when the subscription will renew next.
 
 [![Change Subscription Billing Date Step 1](../img/change-billing-date-step1.png)](../img/change-billing-date-step1.png)
 
@@ -198,7 +198,7 @@ The billing date cannot be set in the past. Changing the billing date will not p
 
 ### Canceling a Subscription
 
-Canceling a subscription is simple. With the subscription open in the dashboard you can click **More** > **Cancel Subscription**.
+Canceling a subscription is simple. With the subscription open in the dashboard you can click **Actions** > **Cancel Subscription**.
 
 [![Canceling a Subscription Step 1](../img/cancel-the-subscription.png)](../img/cancel-the-subscription.png)
 

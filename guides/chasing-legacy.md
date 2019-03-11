@@ -102,7 +102,7 @@ Scheduling invoices to be sent into the future only requires that chasing is ena
 
    [![Invoice you want to schedule](../img/scheduling-invoices-2.png)](../img/scheduling-invoices-2.png)
 
-3. Click **More** > **Enable Chasing**.
+3. Click **Actions** > **Enable Chasing**.
 
    [![Enable invoice chasing](../img/scheduling-invoices-3.png)](../img/scheduling-invoices-3.png)
 

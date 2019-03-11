@@ -14,7 +14,7 @@ Once you have set your application of credits setting, you are ready to begin us
 
 In some cases, the customer no longer wants the item or service ordered and you are needing to apply a credit or refund the customer. To apply a credit to the customers invoice for the amount they paid:
 
-Access the customers paid invoice that needs to be credited and select More in the top right corner of the Invoice page. 
+Access the customers paid invoice that needs to be credited and select *Actions* in the top right corner of the Invoice page. 
 
 [![Issuing a credit note](../img/more.png)](../img/more.png)
 
