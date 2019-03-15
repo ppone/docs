@@ -48,3 +48,13 @@ Invoiced will also flag the customers invoice if a comment is left and alert the
 
 [![Flagging Invoices](../img/flag-an-invoice.gif)](../img/flag-an-invoice.gif)
 
+## Google Analytics Tracking
+
+You can include the Google Analytics tracking script on all customer portal and sign up pages. This enables you to track usage and adoption of the customer portal.
+
+Setting up Google Analytics:
+1. Go to **Settings** > **Customer Portal** in the Invoiced application.
+2. Enter in your Google Analytics tracking ID (i.e. UA-XXXX-Y)
+3. Click **Save**.
+
+Going forward you will start to see activity in Google Analytics for customer portal traffic.

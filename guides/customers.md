@@ -23,4 +23,3 @@ Under the *Payment Method* section, you can add a payment method to use for the 
 Want to add more contacts to a customers account to receive invoice notifications? Simply access the customer account that needs additional contacts added and press the "Add" button. Add the contact and check the box for *copy on account communications*. 
 
 [![Add a Contact](../img/add-contacts.png)](../img/add-contacts.png)
-
