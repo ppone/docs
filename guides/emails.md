@@ -56,6 +56,8 @@ In order to customize any of the email templates go to **Settings** > **Emails**
 
 **Payment Receipt** - Used for payment receipts. Includes a PDF attachment with the receipt and the invoices associated with that payment on separate pages.
 
+**Refund** - Send when a charge-type payment is refunded. Includes a PDF attachment with the receipt and the invoices associated with that refund on separate pages.
+
 **Failed AutoPay Attempt** - Sent when a payment attempt on an AutoPay invoice fails. Includes an **Update Payment Info** button.
 
 ### Customers
