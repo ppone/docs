@@ -186,6 +186,7 @@ The `invoice` object has these variables:
 - `payment_terms`
 - `payment_url`
 - `rates` - An array of discounts and taxes applied to the invoice. See [Rate Object](#rate-object).
+- `ship_to`
 - `status`
 - `subtotal`
 - `terms`
@@ -300,6 +301,7 @@ The `estimate` object has these variables:
 - `number`
 - `payment_terms`
 - `rates` - An array of discounts and taxes applied to the invoice. See [Rate Object](#rate-object).
+- `ship_to`
 - `status`
 - `subtotal`
 - `terms`
