@@ -54,4 +54,6 @@ These instructions can be followed to setup late fees on Invoiced for all of you
 
 Late fees will be assessed on your past due invoices automatically as they age beyond the past due grace period. Any assessed late fees will be added as a separate line item with a type equal to `late_fee`. If you wish to remove the late fee for a particular invoice then you can edit the invoice and remove the line item.
 
+If you have a recurring percentage late fee, the calculation used is compounding. A flat amount late fee will be non-compounding because it is not a percentage. 
+
 [![Invoice with a late fee](../img/invoice-with-late-fee.png)](../img/invoice-with-late-fee.png)
