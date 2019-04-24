@@ -29,6 +29,16 @@ Webhooks are delivered with an `X-Invoiced-Signature` header that contains an HM
 
 The webhook secret can be obtained in **Settings** > **Developers** > **Webhooks**. On each incoming request you can then generate the HMAC digest of the request body using the webhook secret and compare that to the signature sent from Invoiced. While it is not required that you validate webhooks are properly signed we strongly recommended it.
 
+#### IP Addresses
+
+Below is a list of IP addresses that webhooks will come from. This can be useful if you need to whitelist the IP addresses that you will receive webhooks from in your firewall rules.
+
+- `52.9.36.210`
+- `13.56.137.61`
+- `13.59.179.192`
+- `3.19.95.157`
+- `3.19.101.198`
+
 ### Responding to a webhook
 
 We consider a webhook attempt successful when you return a `2xx` HTTP status code within *30 seconds*. Any other status codes will be considered a failure. A response body is not required, and if you do send one it will be ignored.

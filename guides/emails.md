@@ -118,6 +118,16 @@ You can send through a Google email account using [SMTP](https://support.google.
 
 You can verify the SMTP gateway is working by checking your **Sent Mail** folder. You should see emails sent through Invoiced in there.
 
+#### IP Addresses
+
+Below is a list of IP addresses that outgoing emails will come from. This can be useful if you need to whitelist the IP addresses that you will receive outgoing emails from in your firewall rules.
+
+- `52.9.36.210`
+- `13.56.137.61`
+- `13.59.179.192`
+- `3.19.95.157`
+- `3.19.101.198`
+
 ## Automatically sending new invoices
 
 Invoiced can automatically send out new invoices for you. It's as easy as flipping a switch! This works for invoices, estimates, payment plans, and credit notes.
