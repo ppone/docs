@@ -12,8 +12,10 @@ You can be notified on Zapier when the following events happen on Invoiced:
 
 - New Customer
 - New Invoice
-- New Subscription
 - Invoice Paid in Full
+- New Estimate
+- New Credit Note
+- New Subscription
 - Subscription Canceled
 
 ## Actions
@@ -22,6 +24,10 @@ You can perform the following actions on Invoiced from Zapier:
 
 - Create Customer
 - Create Invoice
+- Create Estimate
+- Create Credit Note
+- Create Pending Line Item
+- Create Subscription
 
 ## Searches
 
