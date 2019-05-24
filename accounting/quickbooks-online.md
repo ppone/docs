@@ -158,6 +158,10 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 - Credit balances from Invoiced do not sync to Quickbooks Online.
 
+- Invoices created in Invoiced will not update in Quickbooks Online if the invoice has date that is in a accounting period closed range. No error will be thrown. 
+
+- Payments created in Invoiced will not update in Quickbooks Online if the payment has date that is in a accounting period closed range. No error will be thrown. 
+
 ## Troubleshooting
 
 When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** > **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
