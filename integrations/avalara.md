@@ -50,9 +50,10 @@ Creating a credit note will produce a return invoice on Avalara. The amounts on 
 
 Estimates will create tax as a sales order on Avalara in order to provide you and your customer with an accurate sales tax estimate. However, the sales tax on the estimate will not be filed on a tax return unless that estimate is converted into an invoice.
 
-## Edge Cases
+## Limitations
 
-Below are a items to be aware of when using the Avalara integration.
+Below are limitations and edge cases to be aware of when using the Avalara integration.
 
 - Draft invoices will have sales tax calculated just like an issued invoice. This means that sales tax from a draft invoice would show up on a tax return.
 - If you are importing invoices from an accounting system then sales tax will not be calculated on those imported invoices. This is also the case if you pass in `calculate_taxes=false` through the API when creating invoices.
+- Ad-hoc line items that do not have an associated item will not have an item code or tax code passed to Avalara. They will be taxed as the default tax code (personal tangible property). 
