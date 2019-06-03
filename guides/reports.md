@@ -60,7 +60,7 @@ If you would like to change the age ranges please contact [support@invoiced.com]
 
 The **Invoice Summary** report lists all of the invoices in the time period you select. Only high-level information about invoices is included, like the date, total, and balance. On this report invoices are grouped by month.
 
-The *Outstanding* amount shows you the amount that is outstanding for the matched invoices, at the current point in time. The outstanding number does and not reflect the balance at the end of the report date range. The **Reconciliation** report will let you see you historical A/R balances.
+The *Outstanding* amount shows you the amount that is outstanding for the matched invoices, at the current point in time. The outstanding number does and not reflect the balance at the end of the report date range. The **Invoice Summary** report will let you see you historical A/R balances.
 
 [![Invoice Summary Report](../img/report-invoice-summary.png)](../img/report-invoice-summary.png)
 
