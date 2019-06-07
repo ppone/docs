@@ -1,68 +1,77 @@
-#Tax Rates & Tax Rules
+# Taxes
 
-We understand that GST & VAT can be complex, that is why Invoiced created the tax calculation tool. The Tax Rates and Tax Rules settings allow users to manage a customers rate at time of payment that can be applied to any subtotal of an invoice. Invoiced supports both percentages and flat rate tax amounts to be compliant on country tax guidelines. With an easy to use tool, rates and rules can be created within minutes to get your business up and running faster. Lets get started.
+Collecting sales tax can be complex, which is why Invoiced includes a tax calculation tool. The tax settings allow you to control the taxes that are applied to customer invoices. With an easy to use tool, tax rates and rules can be created within minutes to get your business up and running faster. Let's get started.
 
-To access the Tax Rates and Rules, navigate to **Settings** > **Taxes**
+## Concepts
 
- [![Click to add a Tax Rate](../img/tax-rates.png)](../img/tax-rates.png)
+### Tax
 
- To access the Tax Rates and Rules, navigate to **Settings** > **Taxes**
+Sales tax can be applied to invoice subtotals and line items. You can apply either one-off tax amounts or a tax rate (described below). It is recommended that you setup the tax you collect as tax rates, unless the tax calculation happened elsewhere.
 
-Invoiced will allow the user to create both Tax Rates and Tax Rules.
+### Tax Rates
 
-* Tax Rate: A Tax Rate is the specific rate that will need to be applied based off of the conditions of the Tax Rule. For example: If a customer is from the United Arab Emirates, this customer will need the specific tax rate for their country applied. The Tax Rate will also tell a Tax Rule what to apply, if chosen to use Tax Rules. 
+A tax rate describes a type of sales tax that you collect. Generally you will have a different tax rate for each tax agency that you collect sales tax on behalf of. Tax rates can be expressed as a percentage (%) or fixed currency amount.
 
-* Tax Rule: A Tax Rule is what encompasses the Tax Rate created. The Tax Rate tells the Tax Rule how much or what percentage of Tax to apply to the invoice.
+#### Tax Inclusive vs Tax Exclusive
 
-##Creating a Tax Rate 
+The default behavior for calculating tax is the tax exclusive mode. In tax exclusive mode, all prices are treated as not including tax and any tax assessed will be added to the subtotal.
 
-To create a new Tax Rate, simply click New Tax Rate. This will prompt the user to add conditions to the Tax Rate. Simply add a name to describe the Tax Rate, and percent of tax that will be applied to the invoice if the Tax Rule is used. Please note: the ID will auto-fill based off of the name of the New Tax Rate. 
+On the other hand, tax inclusive pricing means that tax has already been priced into the amount billed to the customer. When tax inclusive pricing is used the subtotal will be adjusted down such that the subtotal + tax equal the original amount billed. When rounding happens with tax inclusive pricing, it will always be rounded in favor of the tax agency.
 
-[![Create a Tax Rate](../img/create-tax-rate.png)](../img/create-tax-rate.png)
+### Tax Rules
 
-##Creating a Tax Rule
+Tax rules will automatically apply tax rates to invoices based on your customer's location. We currently support tax rules that are based on the country and/or state. Tax rules will add tax rates based on the customer's shipping address, or if not available, based on the customer's billing address.
 
-As stated, a Tax Rule can be created to further define the scope of Tax Rates. Categories for Tax Rules are based off of the country and/or state at which the customer is purchasing from. This allows the Invoice to easily apply the correct Tax percentage to the customer. 
+## Setup
 
-To create a new Tax Rule, simply click on New Tax Rule. **Please note:** A Tax Rate is needed to create a Tax Rule. 
+### Creating a Tax Rate 
 
-1. Select the Tax Rate to be applied to the Tax Rule.
+1. Go to **Settings** > **Taxes** in the Invoiced dashboard.
 
-2. Select the condition the Tax Rule will apply to:
-    a. *Everyone* : This will allow the Tax Rule to be applied to everyone that generates an invoice
+   [![Tax Rates](../img/tax-rates.png)](../img/tax-rates.png)
 
-    b. *Customers in Specific Country*: This will allow the Tax Rule to be applied to customers in the specific country specified on invoicing.
+2. Click **New Tax Rate**.
 
-    c. *Customers in Specific State/Province*: This will allow the Tax Rule to be applied to customers in a specific state or province specified on invoicing. 
+   You can now enter in the details of your tax rate. The ID will auto-fill based off of the name, or you can supply your own.
 
-[![Create a Tax Rule](../img/create-tax-rule.png)](../img/create-tax-rule.png)
+   [![Create a Tax Rate](../img/create-tax-rate.png)](../img/create-tax-rate.png)
 
-##Using a Tax Rate
+### Creating a Tax Rule
 
-After creating the Tax Rates and Tax Rules, they are now ready to be applied to Invoicing. A rate or rule can be applied anywhere there is a line item or subtotal. Press the +Tax to Add Tax. A list of the Tax Rates created will be shown. Select the correct Tax Rate that is needed to apply Tax to the Invoice.
+If you want to automate when tax rates are applied based on where your customers is located you can then create a tax rule.
 
+1. Go to **Settings** > **Taxes** > **Tax Rules** in the Invoiced dashboard.
+
+   [![Tax Rates](../img/tax-rules.png)](../img/tax-rules.png)
+
+2. Click **New Tax Rule**.
+
+   You can now select a tax rate and the country and/or state to which it applies. You have these options:
+
+       a. *Everyone* : This will apply the tax rate globally to all taxable customers.
+
+       b. *Customers in Specific Country*: This will apply the tax rate to taxable customers in the specified country.
+
+       c. *Customers in Specific State/Province*: This will apply the tax rate to taxable customers in a specific state or province.
+
+   [![Create a Tax Rule](../img/create-tax-rule.png)](../img/create-tax-rule.png)
+
+## Usage
+
+After creating the tax rates and tax rules, they are now ready to be used. If you have setup tax rules then tax will be added automatically to the applicable customers.
+
+If you are setting up a customer, item, or invoice you can also add tax rates and amounts by pressing the **+ Tax** button.
 
 [![Adding Tax](../img/taxing.png)](../img/taxing.png)
 
 [![Choose the Tax Rate](../img/choose-tax.png)](../img/choose-tax.png)
 
-Once selected, the rate will be added to the invoice as a line item and tax will be applied to the Balance Due. 
+Once selected, the rate will be added. If you are creating an invoice the tax will be added to the balance due.
 
-##Applying Custom Tax Rate
+### Adding Custom Tax Amounts
 
-Invoiced also allows for custom Tax Rates to be applied on an invoice. Simply press the +Tax line on the invoice and select Add Custom Tax. This will add a field to the invoice to manually enter a flat amount for taxing. 
+Invoiced also allows for custom tax amounts to be applied on an invoice. Simply press the **+ Tax** button on the invoice and select **Add Custom Tax**. This will add a field to the invoice to manually enter an arbitrary tax amount.
 
-###FAQ:
+### Need a more complicated sales tax setup?
 
-Not finding the answer to your Tax question? Here are some frequently asked questions and solutions to further help guide you. 
-
-
-* *QuickBooks Online User:  The invoice generated by Invoiced is perfect, but when the invoice is being sent to QuickBooks Online, tax is being added on top and leaving the customer with a balance owing. Why is this happening?*
-    * Have you checked the settings in your QuickBooks Online? Are your tax settings: tax exclusive or tax inclusive? In the company settings you can choose the default tax setting for invoices. Go to tools > Company Settings > Advanced > Accounting > Default Tax rate Selection. Please select Inclusive of Tax and save.
-     
-* *Selecting a 0% tax option, but taxes still being applied? *
-    * Since some customers in the same location are going to be taxed different rates, you cannot use the global tax rule settings. Otherwise you will see that the global tax rate continues to be applied to your customer. Instead what you should be creating tax rates and rules for specific countries.  When there is a default tax rule, it is applied to every transaction. 
-
-
-
-
+If you have more challenging sales tax requirements then you should consider our [Avalara integration](/docs/integrations/avalara). It was designed to automate sales tax compliance for companies with nexus in many places or handling more tricky tax scenarios (i.e. U.S. sales tax).
