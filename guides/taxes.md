@@ -1,4 +1,4 @@
-# Taxes
+# Sales Tax
 
 Collecting sales tax can be complex, which is why Invoiced includes a tax calculation tool. The tax settings allow you to control the taxes that are applied to customer invoices. With an easy to use tool, tax rates and rules can be created within minutes to get your business up and running faster. Let's get started.
 

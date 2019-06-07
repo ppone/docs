@@ -117,6 +117,10 @@
           "name": "Reports"
         },
         {
+          "id": "taxes",
+          "name": "Sales Tax"
+        },
+        {
           "id": "sign-up-pages",
           "name": "Sign Up Pages"
         },
@@ -156,10 +160,6 @@
               "name":"Contract Billing"
             }
           ]
-        },
-        {
-          "id": "taxes",
-          "name": "Taxes"
         }
       ]
     },
