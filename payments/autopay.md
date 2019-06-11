@@ -40,7 +40,7 @@ There are multiple ways to securely add payment information to a customer's acco
 
 AutoPay was designed to gracefully handle failed payments. We will automatically retry failed payments according to your retry schedule. If the payment succeeds at any point then the retry schedule will stop. Your customer will also be sent a [Failed AutoPay Attempt](/docs/guides/emails#payments) email. The email will include an **Update Payment Info** button in case the customer's payment information is out of date.
 
-Failed payments will be retried according to the following schedule:
+Failed payments will be retried according to the following schedule by default. You may change the retry schedule in **Settings** > **General** > **AutoPay**:
 
 - 3 days after first payment attempt
 - 5 days after second payment attempt
