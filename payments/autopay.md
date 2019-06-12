@@ -110,6 +110,8 @@ If an invoice has an issue date of today or earlier then payment will be collect
 
 If the invoice has an issue date in the future then payment will not be collected until the invoice issue date.
 
+You can also change the default offset for collecting an AutoPay payment in **Settings** > **General** > **AutoPay** > **AutoPay Payment Date**. This will allow you to increase the time between when the invoice is issued and when payment is collected by some number of days.
+
 ### Can I trigger payment for AutoPay invoices sooner?
 
 Absolutely. If you open the invoice in the dashboard you can trigger payment sooner by clicking **Collect now** on the invoice. This will initiate a collection attempt immediately.
