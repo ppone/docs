@@ -2,6 +2,8 @@
 
 We have teamed up with Avalara to automate sales tax compliance. Our integration with Avalara AvaTax handles tax calculation for you based on the products and services you sell. The integration will add sales tax to invoices, estimates, and credit notes.
 
+![Avalara Certified](../img/avalara-certified.png)
+
 ## Setup
 
 The setup process assumes that you have already established an Avalara account and already configured Avalara for the jurisdictions where your business has nexus.
