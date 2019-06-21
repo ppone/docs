@@ -58,3 +58,9 @@ Setting up Google Analytics:
 3. Click **Save**.
 
 Going forward you will start to see activity in Google Analytics for customer portal traffic.
+
+## Custom CSS and Javascript
+
+You can modify the look and feel of the customer portal by providing your own CSS stylesheet. The stylesheet will be added in addition to the default stylesheet on all customer portal pages. This can be setup in **Settings** > **Customer Portal** > **Custom CSS**.
+
+You also add Javascript to the customer portal in **Settings** > **Customer Portal** > **Custom Javascript**. Please keep in mind that when embedding external scripts or making AJAX calls to external services that there is a content security policy in place to keep customers more secure. If you find that a source is blocked, please contact [support@invoiced.com](mailto:support@invoiced.com) for assistance.
