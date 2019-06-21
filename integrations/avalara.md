@@ -42,15 +42,19 @@ Once the integration is configured, you can start to benefit from instant, accur
 
 ### Invoices
 
-Creating an invoice will produce a sales invoice on Avalara. Modifying or deleting an invoice will produce the corresponding adjustment on Avalara.
+Creating an invoice will produce a sales invoice on Avalara. Modifying an invoice will produce the corresponding adjustment on Avalara, but only if you select the "Calculate Taxes" option when editing the invoice. Deleting an invoice will void the transaction on Avalara.
 
 ### Credit Notes
 
 Creating a credit note will produce a return invoice on Avalara. The amounts on the return invoice will be negative to reverse the sales tax that was originally collected on the credited items.
 
+ Modifying a credit note will produce the corresponding adjustment on Avalara, but only if you select the "Calculate Taxes" option when editing the credit note. Deleting a credit note will void the transaction on Avalara.
+
 ### Estimates
 
 Estimates will create tax as a sales order on Avalara in order to provide you and your customer with an accurate sales tax estimate. However, the sales tax on the estimate will not be filed on a tax return unless that estimate is converted into an invoice.
+
+If you modify an estimate you must select the "Calculate Taxes" option to re-calculate taxes.
 
 ## Limitations
 
