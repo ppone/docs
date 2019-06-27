@@ -93,7 +93,7 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 - Customers on Invoiced are mapped to customers on QuickBooks by the name. Please keep in mind that QuickBooks does not allow multiple customers with the same name, but Invoiced does allow duplicates.
 
-- Any open credits on QuickBooks are applied to the open invoices before importing.
+- Any open credits on QuickBooks are applied to the open invoices before importing.  You can request this to be turned off by emailing support@invoiced.com.
 
 - Modifications to invoices on Invoiced after they are synced will do nothing to the corresponding invoice in QuickBooks.
 
@@ -118,3 +118,13 @@ Every time you download a .qwc file please make sure you are using the associate
 ### Updating the .qwc file
 
 If you are installing a new .qwc file, please make sure that you clear out the old sync first if you are replacing an existing sync.
+
+### Error Messages
+
+1. **Could not start QuickBooks**.  You will run into this error is QuickBooks is not open, and you are run the sync through the web connector.  To remedy you can give the sync the ability to login automatically into QuickBooks, even when QuickBooks is closed.
+
+In QuickBooks go to Edit > Preferences > Integrated Applications and then select properties under the connected integration.  In properties, choose "Allow this application to login automatically."  You will need to do this for the **Invoice Sync** and **Payment Sync**.
+
+    [![QuickBooks Desktop Enable Auto Integration Login](../img/quickbooks-desktop-auto-login-integration.png)](../img/quickbooks-desktop-auto-login-integration.png)
+
+
