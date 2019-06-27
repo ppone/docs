@@ -125,6 +125,6 @@ If you are installing a new .qwc file, please make sure that you clear out the o
 
 In QuickBooks go to Edit > Preferences > Integrated Applications and then select properties under the connected integration.  In properties, choose "Allow this application to login automatically."  You will need to do this for the **Invoice Sync** and **Payment Sync**.
 
-    [![QuickBooks Desktop Enable Auto Integration Login](../img/quickbooks-desktop-auto-login-integration.png)](../img/quickbooks-desktop-auto-login-integration.png)
+  [![QuickBooks Desktop Enable Auto Integration Login](../img/quickbooks-desktop-auto-login-integration.png)](../img/quickbooks-desktop-auto-login-integration.png)
 
 
