@@ -160,6 +160,24 @@
               "name":"Contract Billing"
             }
           ]
+        },
+        {
+          "id": "user-permissions",
+          "name": "User Permissions",
+          "table_of_contents": [
+            {
+              "id":"adding-and-removing-users",
+              "name":"Managing Users"
+            },
+            {
+              "id":"roles",
+              "name":"Roles"
+            },
+            {
+              "id":"customer-restrictions",
+              "name":"Customer Restrictions"
+            }
+          ]
         }
       ]
     },
