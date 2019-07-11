@@ -121,9 +121,11 @@ If you are installing a new .qwc file, please make sure that you clear out the o
 
 ### Error Messages
 
-1. **Could not start QuickBooks**.  You will run into this error is QuickBooks is not open, and you are run the sync through the web connector.  To remedy you can give the sync the ability to login automatically into QuickBooks, even when QuickBooks is closed.
+#### Could not start QuickBooks
 
-In QuickBooks go to Edit > Preferences > Integrated Applications and then select properties under the connected integration.  In properties, choose "Allow this application to login automatically."  You will need to do this for the **Invoice Sync** and **Payment Sync**.
+You will run into this error if QuickBooks is not open, and you are running the sync through the web connector.  The remedy is to give the sync the ability to login automatically into QuickBooks, even when QuickBooks is closed.
+
+In QuickBooks go to **Edit** > **Preferences** > **Integrated Applications** and then click **Properties** under the connected integration.  In the properties screen, choose "Allow this application to login automatically."  You will need to do this for the *Invoice Sync* and *Payment Sync*.
 
   [![QuickBooks Desktop Enable Auto Integration Login](../img/quickbooks-desktop-auto-login-integration.png)](../img/quickbooks-desktop-auto-login-integration.png)
 
