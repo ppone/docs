@@ -38,7 +38,7 @@ You can configure Invoiced to assess late fees on your invoices for you automati
 
 These instructions can be followed to setup late fees on Invoiced for all of your past due invoices:
 
-1. Go to **Settings** > **General**.
+1. Go to **Settings** &rarr; **General**.
 
    [![Late fee settings](../img/late-fees-1.png)](../img/late-fees-1.png)
 

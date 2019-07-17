@@ -26,7 +26,7 @@ Below we will show you how to connect Intacct with Invoiced, step-by-step.
 
 The next step is to set up a web services user for Invoiced on Intacct. It is recommended that you use a dedicated web services user for Invoiced in order to ensure it has the correct permissions. We also recommend against using a non-web services user because any password changes would break the integration.
 
-1. You need to ensure that your company has web services enabled on Intacct in **Company** > **Subscriptions**.
+1. You need to ensure that your company has web services enabled on Intacct in **Company** &rarr; **Subscriptions**.
 
 2. Within the Intacct application, hover over the **Company** tab and click the **+** button next to *Web Services Users*.
 
@@ -69,7 +69,7 @@ The next step is to set up a web services user for Invoiced on Intacct. It is re
 
 ### Connecting Intacct on Invoiced
 
-1. Go to **Settings** > **Integrations** in the Invoiced dashboard.
+1. Go to **Settings** &rarr; **Integrations** in the Invoiced dashboard.
 
    [![Integration Settings](../img/integration-settings.png)](../img/integration-settings.png)
 
@@ -93,7 +93,7 @@ In this section you will learn how to use the Intacct integration.
 
 Auto-sync will run accounting syncs automatically for you on an ongoing basis. Once auto-sync is enabled, accounting syncs will happen approximately once per hour. Here's how you can enable auto-sync:
 
-1. Go to **Settings** > **Accounting Sync**. Click **Configure** on the Intacct integration.
+1. Go to **Settings** &rarr; **Accounting Sync**. Click **Configure** on the Intacct integration.
 
    [![Intacct Accounting Sync](../img/intacct-accounting-sync-connected.png)](../img/intacct-accounting-sync-connected.png)
 
@@ -109,7 +109,7 @@ Auto-sync will run accounting syncs automatically for you on an ongoing basis. O
 
 If you want control over when your books are synced then you can manually trigger accounting syncs. You can run an accounting sync by following these steps:
 
-1. Go to **Settings** > **Accounting Sync**.
+1. Go to **Settings** &rarr; **Accounting Sync**.
 
    [![Intacct Accounting Sync](../img/intacct-accounting-sync-connected.png)](../img/intacct-accounting-sync-connected.png)
 
@@ -191,7 +191,7 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 ## Troubleshooting
 
-When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** > **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
+When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** &rarr; **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
 
 Below we have documented commonly encountered errors and recommended resolutions. If you are still unable to get your books synced then please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
 

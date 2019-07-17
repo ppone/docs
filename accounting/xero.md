@@ -16,7 +16,7 @@ The Xero integration ships with the following capabilities:
 
 ## Setup
 
-1. In order to begin syncing with Xero first go to **Settings** > **Integrations**.  
+1. In order to begin syncing with Xero first go to **Settings** &rarr; **Integrations**.  
 
    [![Integration Settings](../img/integration-settings.png)](../img/integration-settings.png)
 
@@ -56,7 +56,7 @@ Auto-sync will run accounting syncs automatically for you on an ongoing basis. O
 
 Here's how you can enable auto-sync:
 
-1. Go to **Settings** > **Accounting Sync**. Click **Configure** on the Xero integration.
+1. Go to **Settings** &rarr; **Accounting Sync**. Click **Configure** on the Xero integration.
 
    [![Xero Connected](../img/xero-connected.png)](../img/xero-connected.png)
 
@@ -72,7 +72,7 @@ Here's how you can enable auto-sync:
 
 If you want control over when your books are synced then you can manually trigger accounting syncs. You can run an accounting sync by following these steps:
 
-1. Go to **Settings** > **Accounting Sync**.
+1. Go to **Settings** &rarr; **Accounting Sync**.
 
    [![Xero Connected](../img/xero-connected.png)](../img/xero-connected.png)
 
@@ -135,11 +135,11 @@ Instructions:
 
 ### How long will my Xero organization be connected for?
 
-Your Xero organization will be connected until you click disconnect. If you ever find your account prematurely disconnected then you can reconnect any time in **Settings** > **Integrations**.
+Your Xero organization will be connected until you click disconnect. If you ever find your account prematurely disconnected then you can reconnect any time in **Settings** &rarr; **Integrations**.
 
 ### How do I disconnect my Xero organization?
 
-Go to **Settings** > **Integrations** and click on **Configure** below *Xero*. Then you can click **Disconnect**.
+Go to **Settings** &rarr; **Integrations** and click on **Configure** below *Xero*. Then you can click **Disconnect**.
 
 ### Which Xero organization is connected?
 
@@ -201,7 +201,7 @@ If a synced payment is refunded on Invoiced, the refund amount will be deducted 
 
 ## Troubleshooting
 
-When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** > **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
+When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** &rarr; **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
 
 Below we have documented commonly encountered errors and recommended resolutions. If you are still unable to get your books synced then please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
 
@@ -209,10 +209,10 @@ Below we have documented commonly encountered errors and recommended resolutions
 
 > Unauthorized - Invalid authorization credentials.
 
-If you see this error message then our access token to your Xero account has expired. You need to go to **Settings** > **Integrations** in order to reconnect Xero.
+If you see this error message then our access token to your Xero account has expired. You need to go to **Settings** &rarr; **Integrations** in order to reconnect Xero.
 
 ### Organisation is not subscribed to currency
 
 > Organisation is not subscribed to currency XXX
 
-Invoiced supports 150+ currencies out of the box with no extra configuration needed. If you are seeing this error message then you need to tell Xero about each currency you operate with in Settings > General Settings > Currencies.
+Invoiced supports 150+ currencies out of the box with no extra configuration needed. If you are seeing this error message then you need to tell Xero about each currency you operate with in Settings &rarr; General Settings &rarr; Currencies.

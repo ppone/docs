@@ -10,7 +10,7 @@ Invoiced has designed a subscription billing system to offer power and flexibili
 
 ### Plans
 
-A plan describes how much and how frequently your customer will be billed. An example plan might be one for website hosting that is $100 per month. Plans are reusable templates for building subscriptions. You can setup and manage your plans in **Settings** > **Plans**.
+A plan describes how much and how frequently your customer will be billed. An example plan might be one for website hosting that is $100 per month. Plans are reusable templates for building subscriptions. You can setup and manage your plans in **Settings** &rarr; **Plans**.
 
 ### Subscriptions
 
@@ -54,7 +54,7 @@ The subscription quantity acts as a multiplier to the base plan price. If your s
 
 Subscription addons are meant to give you pricing flexibility on top of the base plan amount. Addons save you from creating a large number of plans for every possible combination of products/services that a customer could subscribe to. An addon is an additional plan added onto a subscription, in addition to the primary plan. Each addon is billed as a separate line item on the generated invoices. 
 
-You can setup and manage your plans in **Settings** > **Plans**.
+You can setup and manage your plans in **Settings** &rarr; **Plans**.
 
 
 ### Subscription Invoices
@@ -119,7 +119,7 @@ Wanting to discount some of the subscription payments but not all? You now have 
 
 The subscription billing addon is disabled by default. Follow these steps to enable subscription billing:
 
-1. Go to **Settings** > **General** in the Invoiced dashboard. Towards the bottom of the page you will find a *Subscriptions Addon* toggle.
+1. Go to **Settings** &rarr; **General** in the Invoiced dashboard. Towards the bottom of the page you will find a *Subscriptions Addon* toggle.
 
    [![Enabling Subscriptions Addon](../img/addon-settings.png)](../img/addon-settings.png)
 
@@ -188,7 +188,7 @@ This allows you to change the quantity, add subscription addons, discounts, and 
 
 Once your subscription is running you might want to change when it renews next. The reason might be that the customer wants the subscription to renew on a certain day of the month, maybe the wrong start date was chosen, or else you want to issue invoices sooner.
 
-With the subscription in the dashboard you can click **Actions** > **Change Billing Date** to change when the subscription will renew next.
+With the subscription in the dashboard you can click **Actions** &rarr; **Change Billing Date** to change when the subscription will renew next.
 
 [![Change Subscription Billing Date Step 1](../img/change-billing-date-step1.png)](../img/change-billing-date-step1.png)
 
@@ -198,7 +198,7 @@ The billing date cannot be set in the past. Changing the billing date will not p
 
 ### Canceling a Subscription
 
-Canceling a subscription is simple. With the subscription open in the dashboard you can click **Actions** > **Cancel Subscription**.
+Canceling a subscription is simple. With the subscription open in the dashboard you can click **Actions** &rarr; **Cancel Subscription**.
 
 [![Canceling a Subscription Step 1](../img/cancel-the-subscription.png)](../img/cancel-the-subscription.png)
 
@@ -224,7 +224,7 @@ If auto-renewal is enabled, there is no need for internal intervention of the co
 
 To set-up a contract, simply navigate to:
 
-Subscriptions > Add Subscription 
+Subscriptions &rarr; Add Subscription 
 
 Like the process of creating a traditional subscription, find the customer you wish to add the subscription to then select the subscription plan. To add contract billing terms, expand the *Options* section. 
 

@@ -6,7 +6,7 @@
 
 Setting up PayPal payments is easy! Follow these steps to start accepting PayPal payments in minutes.
 
-1. From the Invoiced dashboard go to **Settings** > **Payments**.
+1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
    [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
 

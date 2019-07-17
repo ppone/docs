@@ -89,7 +89,7 @@ Steps to import Payments:
 
 ### Items
 
-1. Go to **Settings** > **Items**
+1. Go to **Settings** &rarr; **Items**
 
 2. Click **Import**
 
@@ -109,7 +109,7 @@ Steps to import Payments:
 
 ### Plans
 
-1. Go to **Settings** > **Plans**
+1. Go to **Settings** &rarr; **Plans**
 
 2. Click **Import**
 
@@ -130,7 +130,7 @@ Steps to import Payments:
 
 ### Coupons
 
-1. Go to **Settings** > **Coupons**
+1. Go to **Settings** &rarr; **Coupons**
 
 2. Click **Import**
 
@@ -149,7 +149,7 @@ Steps to import Payments:
 
 ### Tax Rates
 
-1. Go to **Settings** > **Tax Rates**
+1. Go to **Settings** &rarr; **Tax Rates**
 
 2. Click **Import**
 

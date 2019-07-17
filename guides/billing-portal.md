@@ -19,7 +19,7 @@ When customers access an invoice via the View Invoice link received in the invoi
 
 ## Usage 
 
-Your customer portal is hosted at yourusername.invoiced.com where yourusername matches your Invoiced username in **Settings** > **Business Profile**. Any customer facing activity happens on this domain, like viewing invoices or paying. Customers can also access the customer portal by going directly to this URL.
+Your customer portal is hosted at yourusername.invoiced.com where yourusername matches your Invoiced username in **Settings** &rarr; **Business Profile**. Any customer facing activity happens on this domain, like viewing invoices or paying. Customers can also access the customer portal by going directly to this URL.
 
 
 
@@ -32,7 +32,7 @@ Customers must be signed in to access the customer portal. We've made signing in
     The email address provided must match a main email address or attached contact for a customer profile in your Invoiced account. We will only send a sign in link to email addresses matching this criteria.
 2. *Single Sign-On*
     Our Single Sign-On (SSO) feature allows you to securely generate URLs to sign customers into the customer portal. This allows you to transparently sign users into the customer portal from your app or website without requiring an additional login step. We only recommend generating a sign in link for users that you have already authenticated through your own login system.
-    SSO links can be generate through the [API](https://invoiced.com/docs/dev/single-sign-on) or through the dashboard by opening a customer profile and clicking *Actions* > *Generate Sign In Link*.
+    SSO links can be generate through the [API](https://invoiced.com/docs/dev/single-sign-on) or through the dashboard by opening a customer profile and clicking *Actions* &rarr; *Generate Sign In Link*.
 3. *Sign up pages*
     We temporarily sign in any customers when they sign up from a sign up page. On the thank you page there is a *Go to My Account* button.
 4. *Manage Subscription links*
@@ -53,7 +53,7 @@ Invoiced will also flag the customers invoice if a comment is left and alert the
 You can include the Google Analytics tracking script on all customer portal and sign up pages. This enables you to track usage and adoption of the customer portal.
 
 Setting up Google Analytics:
-1. Go to **Settings** > **Customer Portal** in the Invoiced application.
+1. Go to **Settings** &rarr; **Customer Portal** in the Invoiced application.
 2. Enter in your Google Analytics tracking ID (i.e. UA-XXXX-Y)
 3. Click **Save**.
 
@@ -61,6 +61,6 @@ Going forward you will start to see activity in Google Analytics for customer po
 
 ## Custom CSS and Javascript
 
-You can modify the look and feel of the customer portal by providing your own CSS stylesheet. The stylesheet will be added in addition to the default stylesheet on all customer portal pages. This can be setup in **Settings** > **Customer Portal** > **Custom CSS**.
+You can modify the look and feel of the customer portal by providing your own CSS stylesheet. The stylesheet will be added in addition to the default stylesheet on all customer portal pages. This can be setup in **Settings** &rarr; **Customer Portal** &rarr; **Custom CSS**.
 
-You also add Javascript to the customer portal in **Settings** > **Customer Portal** > **Custom Javascript**. Please keep in mind that when embedding external scripts or making AJAX calls to external services that there is a content security policy in place to keep customers more secure. If you find that a source is blocked, please contact [support@invoiced.com](mailto:support@invoiced.com) for assistance.
+You also add Javascript to the customer portal in **Settings** &rarr; **Customer Portal** &rarr; **Custom Javascript**. Please keep in mind that when embedding external scripts or making AJAX calls to external services that there is a content security policy in place to keep customers more secure. If you find that a source is blocked, please contact [support@invoiced.com](mailto:support@invoiced.com) for assistance.

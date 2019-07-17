@@ -15,7 +15,7 @@ The USAePay payment gateway on Invoiced supports the following features:
 
 Connecting USAePay is a straightforward process. Follow these steps to start accepting payments through USAePay in minutes. These steps assume you already have a USAePay account.
 
-1. From the Invoiced dashboard go to **Settings** > **Payments**.
+1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
    [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
 

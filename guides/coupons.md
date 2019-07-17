@@ -2,7 +2,7 @@
 
 Using Coupon codes can incentivize customers and build brand loyalty. They can also help learn more about your consumers behavior. Invoiced has built an easy to use coupon tool to create flat rate and percentage based discounts for customers to allow users to apply coupons to invoicing with ease. 
 
-To access Coupons, navigate to **Settings** > **Coupons**
+To access Coupons, navigate to **Settings** &rarr; **Coupons**
 
  [![Click to add a Coupon](../img/coupons.png)](../img/coupons.png)
 
@@ -50,7 +50,7 @@ Just like setting a discount on the entire invoice, Invoiced also allows for cou
 
 An additional feature has been added to coupons that allows the user to apply a duration to discounts. The duration settings is meant to be used for plans that the user would only like to add a discount to X number of charges on that plan. 
 
-To access Coupons, navigate to **Settings** > **Coupons**.
+To access Coupons, navigate to **Settings** &rarr; **Coupons**.
 
 Start by creating a coupon or editing an existing coupon. There is now a drop down to select a duration. 
 

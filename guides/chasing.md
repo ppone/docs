@@ -25,7 +25,7 @@ According to the example above, a customer with a newly issued invoice would rec
 
 One nifty aspect of chasing is that you get to choose when cadences run. For example, you could choose to execute any scheduled activities at 7am every day. Or maybe you want to restrict this to specific days of the weeks or month. Chasing gives you the fine-grained control to make sure you are reaching your customers at optimal times.
 
-Each cadence has its own timing settings that run at the time that you have specified. Any times given are based on your company time zone in **Settings** > **Business Profile**.
+Each cadence has its own timing settings that run at the time that you have specified. Any times given are based on your company time zone in **Settings** &rarr; **Business Profile**.
 
 ### Balance and Age Mechanics
 
@@ -45,7 +45,7 @@ The customer account age is the oldest open invoice or installment. The past due
 
 The first step to using chasing is to setup a cadence. You can build as many cadences as you'd like and assign them to customers based on how you would like them to be followed up.
 
-1. Go to **Settings** > **Chasing** in the Invoiced application. Click **New Cadence.**
+1. Go to **Settings** &rarr; **Chasing** in the Invoiced application. Click **New Cadence.**
 
    [![Chasing Settings](../img/chasing-cadence-settings.png)](../img/chasing-cadence-settings.png)
 
@@ -75,7 +75,7 @@ You can assign cadences individually in the *Collections* tab on the customer pa
 
 [![Assigning Customer Cadence](../img/chasing-assign-cadence.png)](../img/chasing-assign-cadence.png)
 
-You can also bulk assign cadences to customers in **Settings** > **Chasing** > **Actions** > **Enroll Customers**:
+You can also bulk assign cadences to customers in **Settings** &rarr; **Chasing** &rarr; **Actions** &rarr; **Enroll Customers**:
 
 [![Enrolling Customers](../img/chasing-mass-assignment.png)](../img/chasing-mass-assignment.png)
 

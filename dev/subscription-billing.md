@@ -81,7 +81,7 @@ Since our customer does not have payment information yet, they will be sent the 
 
 ### Subscribe the customer to a plan
 
-In this example we are going to bill for charges that happen during our customer's billing cycle, in addition to the base subscription price. The plan we are using was created through the dashboard in **Settings** > **Plans** with the ID `starter`. For example, the plan could be $30/month.
+In this example we are going to bill for charges that happen during our customer's billing cycle, in addition to the base subscription price. The plan we are using was created through the dashboard in **Settings** &rarr; **Plans** with the ID `starter`. For example, the plan could be $30/month.
 
 ```bash
 curl "https://api.invoiced.com/subscriptions" \

@@ -8,7 +8,7 @@ Our SSO feature lets you securely generate URLs to sign customers into your [cus
 
 1. Obtain your SSO key from the dashboard
    
-   You can grab the secret key for generating SSO URLs for your account in **Settings** > **Developers** > **Single Sign-On** within the dashboard.
+   You can grab the secret key for generating SSO URLs for your account in **Settings** &rarr; **Developers** &rarr; **Single Sign-On** within the dashboard.
 
    **WARNING**: Keep your SSO key secret! It should only be used on servers under your control and never exposed in client-side code.
 

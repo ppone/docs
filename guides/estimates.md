@@ -19,7 +19,7 @@ Estimates generally are used at the start of a transaction. Typically an estimat
 
 The estimates addon is disabled by default. Follow these steps to enable estimates:
 
-1. Go to **Settings** > **General** in the Invoiced dashboard. Towards the bottom of the page you will find an *Estimates Addon* toggle.
+1. Go to **Settings** &rarr; **General** in the Invoiced dashboard. Towards the bottom of the page you will find an *Estimates Addon* toggle.
 
    [![Enabling Estimates Addon](../img/addon-settings.png)](../img/addon-settings.png)
 

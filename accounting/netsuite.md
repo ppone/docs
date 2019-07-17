@@ -30,7 +30,7 @@ Coming Soon!
 
 ### Connecting NetSuite on Invoiced
 
-1. Go to **Settings** > **Integrations** in the Invoiced dashboard.
+1. Go to **Settings** &rarr; **Integrations** in the Invoiced dashboard.
 
    [![Integration Settings](../img/integration-settings.png)](../img/integration-settings.png)
 
@@ -54,7 +54,7 @@ In this section you will learn how to use the NetSuite integration.
 
 Auto-sync will run accounting syncs automatically for you on an ongoing basis. Once auto-sync is enabled, accounting syncs will happen approximately once per hour. Here's how you can enable auto-sync:
 
-1. Go to **Settings** > **Accounting Sync**. Click **Configure** on the NetSuite integration.
+1. Go to **Settings** &rarr; **Accounting Sync**. Click **Configure** on the NetSuite integration.
 
    [![NetSuite Accounting Sync](../img/netsuite-accounting-sync-connected.png)](../img/netsuite-accounting-sync-connected.png)
 
@@ -70,7 +70,7 @@ Auto-sync will run accounting syncs automatically for you on an ongoing basis. O
 
 If you want control over when your books are synced then you can manually trigger accounting syncs. You can run an accounting sync by following these steps:
 
-1. Go to **Settings** > **Accounting Sync**.
+1. Go to **Settings** &rarr; **Accounting Sync**.
 
    [![NetSuite Accounting Sync](../img/netsuite-accounting-sync-connected.png)](../img/netsuite-accounting-sync-connected.png)
 
@@ -142,7 +142,7 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 ## Troubleshooting
 
-When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** > **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
+When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** &rarr; **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
 
 Below we have documented commonly encountered errors and recommended resolutions. If you are still unable to get your books synced then please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
 
@@ -150,6 +150,6 @@ Below we have documented commonly encountered errors and recommended resolutions
 
 Your NetSuite account ID is required in order to connect the integration. You can obtain your account ID from NetSuite with these steps:
 
-1. Within the NetSuite application, hover over the **Setup** tab and click **Company** > **Company Information**.
+1. Within the NetSuite application, hover over the **Setup** tab and click **Company** &rarr; **Company Information**.
 
 2. You should see an *Account ID* field. This is the account ID that you will use in the connection steps.

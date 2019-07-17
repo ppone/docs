@@ -18,7 +18,7 @@ The GoCardless integration on Invoiced supports the following features:
 
 Connecting GoCardless is a straightforward process. Follow these steps to start accepting payments through GoCardless in minutes. If you do not already have a GoCardless account then you will be able to create one during the setup process.
 
-1. From the Invoiced dashboard go to **Settings** > **Payments**.
+1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
    [![Payment Settings](../img/payment-settings-eu.png)](../img/payment-settings-eu.png)
 

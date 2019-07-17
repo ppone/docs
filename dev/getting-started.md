@@ -8,7 +8,7 @@ The API was modeled after <a href="https://en.wikipedia.org/wiki/Representationa
 
 The first step is to determine how you want to connect to the API. We offer client libraries in several languages, including <a href="https://github.com/Invoiced/invoiced-ruby">Ruby</a>, <a href="https://github.com/Invoiced/invoiced-php">PHP</a>, <a href="https://github.com/Invoiced/invoiced-python">Python</a>, <a href="https://github.com/Invoiced/invoiced-java">Java</a>, <a href="https://github.com/Invoiced/invoiced-csharp">.NET</a>, and <a href="https://github.com/Invoiced/invoiced-go">Go</a>. If we don't have a client library for your language then you can perform the HTTP requests to Invoiced directly in the language of your choice.
 
-Once you have your client library ready to go the next step is to get an API key. The API uses [Basic Authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) to authenticate requests. All API requests require a valid API key. You can grab an API key by signing in to the dashboard, and then going to **Settings** > **Developers** > **API Keys**. Please remember to keep this API key safe. In the wrong hands it could give unwanted access to your Invoiced account.
+Once you have your client library ready to go the next step is to get an API key. The API uses [Basic Authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) to authenticate requests. All API requests require a valid API key. You can grab an API key by signing in to the dashboard, and then going to **Settings** &rarr; **Developers** &rarr; **API Keys**. Please remember to keep this API key safe. In the wrong hands it could give unwanted access to your Invoiced account.
 
 Next, we are going to walk through a common invoicing workflow.
 
@@ -232,11 +232,11 @@ EmailRequest emailRequest = new EmailRequest();
 Email[] emails = invoice.send(emailRequest);
 ```
 
-The customer will be sent the invoice with a **View Invoice** button using the default email template. You can customize these templates through the dashboard in **Settings** > **Emails**.
+The customer will be sent the invoice with a **View Invoice** button using the default email template. You can customize these templates through the dashboard in **Settings** &rarr; **Emails**.
 
 #### Items
 
-Our Items feature allows you to build a simpler, more robust integration by centralizing pricing information for the products and services that you sell. You must first add items through the dashboard in **Settings** > **Items** or through the Items API. Then you can bill for items by simply referencing them by ID:
+Our Items feature allows you to build a simpler, more robust integration by centralizing pricing information for the products and services that you sell. You must first add items through the dashboard in **Settings** &rarr; **Items** or through the Items API. Then you can bill for items by simply referencing them by ID:
 
 ```bash
 curl "https://api.invoiced.com/invoices" \

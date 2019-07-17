@@ -23,7 +23,7 @@ The AffiniPay integration works with each AffiniPay brand, including:
 
 Connecting AffiniPay is a straightforward process. Follow these steps to start accepting payments through AffiniPay in minutes. These steps assume you already have a AffiniPay account.
 
-1. From the Invoiced dashboard go to **Settings** > **Payments**.
+1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
    [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
 

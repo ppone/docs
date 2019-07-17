@@ -6,7 +6,7 @@ With our Slack integration you can receive real-time notifications when importan
 
 You can follow these instructions in order to set up the Slack integration on Invoiced.
 
-1. Go to **Settings** > **Integrations** in the Invoiced dashboard.
+1. Go to **Settings** &rarr; **Integrations** in the Invoiced dashboard.
 
    [![Integration Settings](../img/integration-settings.png)](../img/integration-settings.png)
 

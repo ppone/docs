@@ -29,7 +29,7 @@ Prerequisites:
 
 ### Building a sign up page
 
-1. Go to **Settings** > **Sign Up Pages**.
+1. Go to **Settings** &rarr; **Sign Up Pages**.
 
    [![Sign Up Page Settings](../img/sign-up-pages-settings.png)](../img/sign-up-pages-settings.png)
 
@@ -97,7 +97,7 @@ You can assign a customer a sign up page. This works well for scenarios like re-
 
  To access this feature:
 
-  **Customer** > **Actions** > **Assign Sign Up Page**
+  **Customer** &rarr; **Actions** &rarr; **Assign Sign Up Page**
 
    [![Sign Up Page by Customer](../img/signup-page-by-customer.png)](../img/signup-page-by-customer.png)
 

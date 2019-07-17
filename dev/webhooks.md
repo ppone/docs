@@ -15,7 +15,7 @@ Example uses of webhooks:
 
 ### Setting up webhooks
 
-It's simple to get started with webhooks. In the dashboard you can go to **Settings** > **Developers** > **Webhooks** to add your endpoint. All you need is a URL (i.e. `https://example.com/invoiced/webhook`) that you want to receive webhooks at.
+It's simple to get started with webhooks. In the dashboard you can go to **Settings** &rarr; **Developers** &rarr; **Webhooks** to add your endpoint. All you need is a URL (i.e. `https://example.com/invoiced/webhook`) that you want to receive webhooks at.
 
 <strong>Testing webhooks?</strong> If you are just testing webhooks and do not want to set up an endpoint within your service yet, then you could use a tool like [ngrok](https://ngrok.com/) to quickly generate a test endpoint that lets you inspect the webhook messages we send.
 
@@ -27,7 +27,7 @@ Once your webhook endpoint has been set up then any supported events that occur 
 
 Webhooks are delivered with an `X-Invoiced-Signature` header that contains an HMAC-SHA256 signature of the request body, using your webhook secret as the signing key. This allows you to verify that webhook events came from Invoiced.
 
-The webhook secret can be obtained in **Settings** > **Developers** > **Webhooks**. On each incoming request you can then generate the HMAC digest of the request body using the webhook secret and compare that to the signature sent from Invoiced. While it is not required that you validate webhooks are properly signed we strongly recommended it.
+The webhook secret can be obtained in **Settings** &rarr; **Developers** &rarr; **Webhooks**. On each incoming request you can then generate the HMAC digest of the request body using the webhook secret and compare that to the signature sent from Invoiced. While it is not required that you validate webhooks are properly signed we strongly recommended it.
 
 #### IP Addresses
 

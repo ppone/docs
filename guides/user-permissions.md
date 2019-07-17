@@ -10,7 +10,7 @@ User permissions only apply to internal users that are accessing the Invoiced da
 
 ### Adding Users
 
-1. Go to **Settings** > **Team** in the Invoiced application.
+1. Go to **Settings** &rarr; **Team** in the Invoiced application.
 
 2. Click **Invite Member**.
 
@@ -24,7 +24,7 @@ User permissions only apply to internal users that are accessing the Invoiced da
 
 If the time comes to remove a user from your Invoiced account this can easily be done by an administrator.
 
-1. Go to **Settings** > **Team** in the Invoiced application.
+1. Go to **Settings** &rarr; **Team** in the Invoiced application.
 
 2. Find the user you want to remove and click **Revoke Access** next to their name.
 
@@ -56,7 +56,7 @@ Customers on the Enterprise edition of Invoiced can create their own roles that 
 
 #### Creating a Custom Role
 
-1. Go to **Settings** > **Team** > **Roles** in the Invoiced application.
+1. Go to **Settings** &rarr; **Team** &rarr; **Roles** in the Invoiced application.
 
 2. Click **New Role**.
 

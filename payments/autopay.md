@@ -40,13 +40,13 @@ There are multiple ways to securely add payment information to a customer's acco
 
 AutoPay was designed to gracefully handle failed payments. We will automatically retry failed payments according to your retry schedule. If the payment succeeds at any point then the retry schedule will stop. Your customer will also be sent a [Failed AutoPay Attempt](/docs/guides/emails#payments) email. The email will include an **Update Payment Info** button in case the customer's payment information is out of date.
 
-Failed payments will be retried according to the following schedule by default. You may change the retry schedule in **Settings** > **General** > **AutoPay**:
+Failed payments will be retried according to the following schedule by default. You may change the retry schedule in **Settings** &rarr; **General** &rarr; **AutoPay**:
 
 - 3 days after first payment attempt
 - 5 days after second payment attempt
 - 7 days after third payment attempt
 
-After all of the retries have been exhausted then the invoice will be marked as past due. Additionally if this was for a subscription invoice you can control what happens to the subscription in **Settings** > **General** > **After Subscription Nonpayment**.
+After all of the retries have been exhausted then the invoice will be marked as past due. Additionally if this was for a subscription invoice you can control what happens to the subscription in **Settings** &rarr; **General** &rarr; **After Subscription Nonpayment**.
 
 ## Usage
 
@@ -56,7 +56,7 @@ Let's walk through a basic scenario where we set up AutoPay for a customer by se
 
 1. Enable a payment method that supports AutoPay
 
-   Go to **Settings** > **Payments** to enable **ACH**, **Direct Debit**, or **Credit Card** payments.
+   Go to **Settings** &rarr; **Payments** to enable **ACH**, **Direct Debit**, or **Credit Card** payments.
 
    [![Enabling ACH, direct debit, or credit card payments](../img/payment-settings.png)](../img/payment-settings.png)
 
@@ -110,7 +110,7 @@ If an invoice has an issue date of today or earlier then payment will be collect
 
 If the invoice has an issue date in the future then payment will not be collected until the invoice issue date.
 
-You can also change the default offset for collecting an AutoPay payment in **Settings** > **General** > **AutoPay** > **AutoPay Payment Date**. This will allow you to increase the time between when the invoice is issued and when payment is collected by some number of days.
+You can also change the default offset for collecting an AutoPay payment in **Settings** &rarr; **General** &rarr; **AutoPay** &rarr; **AutoPay Payment Date**. This will allow you to increase the time between when the invoice is issued and when payment is collected by some number of days.
 
 ### Can I trigger payment for AutoPay invoices sooner?
 

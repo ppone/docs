@@ -24,7 +24,7 @@ We will then only chase invoices that have chasing enabled on the invoice. Once 
 
 First you will need to enable chasing for your account in the settings and set up a schedule.
 
-Go to **Settings** > **Chasing**. Flip the **Allow Chasing** toggle.
+Go to **Settings** &rarr; **Chasing**. Flip the **Allow Chasing** toggle.
 
 [![Invoice Settings Chasing Enable](../img/allow-chasing-new.png)](../img/allow-chasing-new.png)
 
@@ -71,7 +71,7 @@ If the invoice has already been created then you can simply click **Enable** und
 
 #### Enable Chasing by Default
 
-If you want chasing enabled by default when drafting new invoices then you enable the **Chasing** setting in **Settings** > **General** > **Defaults**.
+If you want chasing enabled by default when drafting new invoices then you enable the **Chasing** setting in **Settings** &rarr; **General** &rarr; **Defaults**.
 
 #### Customizing the Chasing Email Templates
 
@@ -94,7 +94,7 @@ In addition to the global chasing schedule, you can also schedule arbitrary foll
 
 Scheduling invoices to be sent into the future only requires that chasing is enabled globally. It does not require you to set up a chasing schedule. Follow these steps in order to schedule a follow up for an invoice:
 
-1. Ensure that **Allow Chasing** is enabled in **Settings** > **Chasing**. You only need to enable this once for your account.
+1. Ensure that **Allow Chasing** is enabled in **Settings** &rarr; **Chasing**. You only need to enable this once for your account.
 
    [![Chasing is enabled globally](../img/turn-chasing-on.png)](../img/turn-chasing-on.png)
 
@@ -102,7 +102,7 @@ Scheduling invoices to be sent into the future only requires that chasing is ena
 
    [![Invoice you want to schedule](../img/scheduling-invoices-2.png)](../img/scheduling-invoices-2.png)
 
-3. Click **Actions** > **Enable Chasing**.
+3. Click **Actions** &rarr; **Enable Chasing**.
 
    [![Enable invoice chasing](../img/scheduling-invoices-3.png)](../img/scheduling-invoices-3.png)
 

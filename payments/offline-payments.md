@@ -6,7 +6,7 @@ Invoiced lets you display instructions to your clients on your invoices for offl
 
 Setting up offline payments is easy! Follow these steps to display your custom payment instructions to customers.
 
-1. From the Invoiced dashboard go to **Settings** > **Payments**.
+1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
    [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
 

@@ -12,7 +12,7 @@ The setup process assumes that you have already established an Avalara account a
 
    [![Obtaining Avalara License Key](../img/avalara-settings.png)](../img/avalara-settings.png)
 
-2. Go to **Settings** > **Integrations** of the Invoiced application. Click **Connect** underneath the *Avalara* integration.
+2. Go to **Settings** &rarr; **Integrations** of the Invoiced application. Click **Connect** underneath the *Avalara* integration.
 
    [![Integration Settings](../img/integration-settings.png)](../img/integration-settings.png)
 
@@ -24,7 +24,7 @@ The setup process assumes that you have already established an Avalara account a
 
    [![Select Avalara Company](../img/select-avalara-company.png)](../img/select-avalara-company.png)
    
-Once you've connected Avalara successfully there are additional settings that you can change to customize the behavior of the integration in **Settings** > **Integrations** > **Configure** (Avalara).
+Once you've connected Avalara successfully there are additional settings that you can change to customize the behavior of the integration in **Settings** &rarr; **Integrations** &rarr; **Configure** (Avalara).
 
 ### Commit Mode
 

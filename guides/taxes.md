@@ -26,7 +26,7 @@ Tax rules will automatically apply tax rates to invoices based on your customer'
 
 ### Creating a Tax Rate 
 
-1. Go to **Settings** > **Taxes** in the Invoiced dashboard.
+1. Go to **Settings** &rarr; **Taxes** in the Invoiced dashboard.
 
    [![Tax Rates](../img/tax-rates.png)](../img/tax-rates.png)
 
@@ -40,7 +40,7 @@ Tax rules will automatically apply tax rates to invoices based on your customer'
 
 If you want to automate when tax rates are applied based on where your customers is located you can then create a tax rule.
 
-1. Go to **Settings** > **Taxes** > **Tax Rules** in the Invoiced dashboard.
+1. Go to **Settings** &rarr; **Taxes** &rarr; **Tax Rules** in the Invoiced dashboard.
 
    [![Tax Rates](../img/tax-rules.png)](../img/tax-rules.png)
 

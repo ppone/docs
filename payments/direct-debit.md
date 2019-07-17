@@ -19,7 +19,7 @@ You must have an account with a payment processor that allows direct debit payme
 
 Setting up direct debit payments is a straightforward process.
 
-1. From the Invoiced dashboard go to **Settings** > **Payments**.
+1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
    [![Payment Settings](../img/payment-settings-eu.png)](../img/payment-settings-eu.png)
 

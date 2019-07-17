@@ -13,7 +13,7 @@ Custom fields have many uses. Here's just a few scenarios where custom fields ca
 
 ### Creating a custom field
 
-You can set up custom fields in **Settings** > **Custom Fields**. Then click on **New Custom Field** to add a custom field.
+You can set up custom fields in **Settings** &rarr; **Custom Fields**. Then click on **New Custom Field** to add a custom field.
 
 [![New Custom Field Step 2](../img/custom-field-create-step-2.png)](../img/custom-field-create-step-2.png)
 

@@ -25,7 +25,7 @@ The QuickBooks Desktop integration works with these versions of QuickBooks (Wind
 
 ## Setup
 
-1. In order to begin syncing with QuickBooks Desktop first go to **Settings** > **Accounting Sync**.
+1. In order to begin syncing with QuickBooks Desktop first go to **Settings** &rarr; **Accounting Sync**.
 
    [![Select your accounting system](../img/accounting-sync-select-system.png)](../img/accounting-sync-select-system.png)
 
@@ -103,7 +103,7 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 ## Troubleshooting
 
-When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** > **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
+When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** &rarr; **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
 
 Below we have documented commonly encountered errors and recommended resolutions. If you are still unable to get your books synced then please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
 
@@ -125,7 +125,7 @@ If you are installing a new .qwc file, please make sure that you clear out the o
 
 You will run into this error if QuickBooks is not open, and you are running the sync through the web connector.  The remedy is to give the sync the ability to login automatically into QuickBooks, even when QuickBooks is closed.
 
-In QuickBooks go to **Edit** > **Preferences** > **Integrated Applications** and then click **Properties** under the connected integration.  In the properties screen, choose "Allow this application to login automatically."  You will need to do this for the *Invoice Sync* and *Payment Sync*.
+In QuickBooks go to **Edit** &rarr; **Preferences** &rarr; **Integrated Applications** and then click **Properties** under the connected integration.  In the properties screen, choose "Allow this application to login automatically."  You will need to do this for the *Invoice Sync* and *Payment Sync*.
 
   [![QuickBooks Desktop Enable Auto Integration Login](../img/quickbooks-desktop-auto-login-integration.png)](../img/quickbooks-desktop-auto-login-integration.png)
 

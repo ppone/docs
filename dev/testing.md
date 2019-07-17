@@ -69,4 +69,4 @@ The sandbox is intented to allow you to build and test without restrictions, how
 
 ### Clearing data
 
-You can clear all the data in your test account in **Settings** > **Developers** with the **Delete all test data** button. This will clear out data such as customers, invoices, and subscriptions while retaining your settings.
+You can clear all the data in your test account in **Settings** &rarr; **Developers** with the **Delete all test data** button. This will clear out data such as customers, invoices, and subscriptions while retaining your settings.

@@ -34,7 +34,7 @@ Our default email templates were written to be professional and clearly communic
 
 The email templates use Mustache for templating awesomeness. Please consult the [Mustache documentation](https://mustache.github.io/mustache.5.html) to learn more. You can use [this tool](http://trymustache.com/) to validate your email templates. The funny-looking values like **{{customer_name}}** are placeholders that get replaced with the correct value, like the client's name, at send time.
 
-In order to customize any of the email templates go to **Settings** > **Emails** in the dashboard. You can edit or create email templates from that page.
+In order to customize any of the email templates go to **Settings** &rarr; **Emails** in the dashboard. You can edit or create email templates from that page.
 
 ## Available Email Templates
 
@@ -86,7 +86,7 @@ An even better solution would be to let us send emails through your own email ac
 
 ### Setting up custom SMTP
 
-1. Go to **Settings** > **Email** > **Delivery Settings** in the Invoiced dashboard. Click **Change** next to the email settings.
+1. Go to **Settings** &rarr; **Email** &rarr; **Delivery Settings** in the Invoiced dashboard. Click **Change** next to the email settings.
 
 2. Select the send email **via custom SMTP gateway** option.
 
@@ -134,7 +134,7 @@ Invoiced can automatically send out new invoices for you. It's as easy as flippi
 
 Here is how you set it up:
 
-1. Go to **Settings** > **Emails** > **Triggers**.
+1. Go to **Settings** &rarr; **Emails** &rarr; **Triggers**.
 
 2. Click **Customize** on the *New Invoice Email*. You can also enable this on the *Payment Plan Onboarding Email*, *Estimate Email*, or *Credit Note Email* to automatically send out payment plans, estimates and credit notes.
 
@@ -163,6 +163,6 @@ The default behavior for sending invoices, credit notes, receipts, and statement
 
 If you wish to change this behavior, you may do so by following these instructions:
 
-1. Click **Edit** on the email template you want to have a PDF attachments in **Settings** > **Emails**.
+1. Click **Edit** on the email template you want to have a PDF attachments in **Settings** &rarr; **Emails**.
 
 2. You can enable or disable the **Attach PDF** option.

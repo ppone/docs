@@ -15,7 +15,7 @@ The Worldpay payment gateway on Invoiced supports the following features:
 
 Connecting Worldpay is a straightforward process. Follow these steps to start accepting payments through Worldpay in minutes. These steps assume you already have a Worldpay account.
 
-1. From the Invoiced dashboard go to **Settings** > **Payments**.
+1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
    [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
 

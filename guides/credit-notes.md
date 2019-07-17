@@ -6,7 +6,7 @@ Issuing credit notes against invoices has never been made easier than with Invoi
 
 The first thing you will want to consider is, when you draft a new invoice, if you wish for it to  automatically apply any credits your customer has on their balance. If you do wish to have it automatically apply, we recommend setting the Apply Credits to New Invoices to on. If not, you can switch this to off. Head to:
 
-**Settings** > **General** > *Apply Credits to New Invoices*
+**Settings** &rarr; **General** &rarr; *Apply Credits to New Invoices*
 
 Once you have set your application of credits setting, you are ready to begin using credits. 
 

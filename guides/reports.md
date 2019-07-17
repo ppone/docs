@@ -43,7 +43,7 @@ The **Reconciliation** report helps you reconcile the Invoiced sub-ledger with y
 
 ## A/R Aging
 
-The **A/R Aging** report gives you a breakdown on the age of your currently outstanding invoices. An invoice's age is based on the number of days it has been outstanding or the number of days past due. You can choose whether to use the date or due date for aging in **Settings** > **General** > **Aging**.
+The **A/R Aging** report gives you a breakdown on the age of your currently outstanding invoices. An invoice's age is based on the number of days it has been outstanding or the number of days past due. You can choose whether to use the date or due date for aging in **Settings** &rarr; **General** &rarr; **Aging**.
 
 Invoices by default are grouped into the following aging categories:
 - 0-7 days old
@@ -52,7 +52,7 @@ Invoices by default are grouped into the following aging categories:
 - 31-60 days old
 - 61+ days old
 
-If you would like to change the aging ranges, you may change it in **Settings** > **General** > **Aging**.
+If you would like to change the aging ranges, you may change it in **Settings** &rarr; **General** &rarr; **Aging**.
 
 [![A/R Aging Report](../img/report-invoice-aging.png)](../img/report-invoice-aging.png)
 

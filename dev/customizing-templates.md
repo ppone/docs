@@ -2,7 +2,7 @@
 
 Invoiced ships with default templates for invoices, statements, and receipts, however, it's possible these templates do not match your business or branding needs. In this guide we will show you how to change the layout and appearance of the default templates.
 
-The underlying templates are HTML and CSS. Both the layout and styling can be customized. The first step is to head over to **Settings** > **Appearance** > **Layout**. Then turn on the switch next to **Use Custom Layout**.
+The underlying templates are HTML and CSS. Both the layout and styling can be customized. The first step is to head over to **Settings** &rarr; **Appearance** &rarr; **Layout**. Then turn on the switch next to **Use Custom Layout**.
 
 [![Customizable Invoice Templates](../img/pdf-template-editor.png)](../img/pdf-template-editor.png)
 

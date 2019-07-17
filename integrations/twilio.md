@@ -10,7 +10,7 @@ We are going to walk you through setting up the Twilio integration. This assumes
 
    [![Obtaining Twilio API Key](../img/twilio-settings.png)](../img/twilio-settings.png)
 
-2. Go to **Settings** > **Integrations** of the Invoiced application. Click **Connect** underneath the *Twilio* integration.
+2. Go to **Settings** &rarr; **Integrations** of the Invoiced application. Click **Connect** underneath the *Twilio* integration.
 
    [![Integration Settings](../img/integration-settings.png)](../img/integration-settings.png)
 
@@ -34,7 +34,7 @@ You can send both account statements and individual invoices through a text mess
 
 1. Open up the invoice in the Invoiced application.
 
-2. Click **Actions** > **Send Invoice**.
+2. Click **Actions** &rarr; **Send Invoice**.
 
    [![Send Document](../img/send-document-choice-text-message.png)](../img/send-document-choice-text-message.png)
 
@@ -54,7 +54,7 @@ You can send both account statements and individual invoices through a text mess
 
 1. Open up the customer's account in the Invoiced application.
 
-2. Click **Actions** > **Generate Statement**.
+2. Click **Actions** &rarr; **Generate Statement**.
 
 3. Enter in the parameters for the statement and click **Send**.
 

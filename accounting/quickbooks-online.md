@@ -16,7 +16,7 @@ The QuickBooks Online integration ships with the following capabilities:
 
 ## Setup
 
-1. In order to begin syncing with QuickBooks Online first go to **Settings** > **Integrations**.  
+1. In order to begin syncing with QuickBooks Online first go to **Settings** &rarr; **Integrations**.  
 
    [![Integration Settings](../img/integration-settings.png)](../img/integration-settings.png)
 
@@ -52,7 +52,7 @@ Auto-sync will run accounting syncs automatically for you on an ongoing basis. O
 
 Here's how you can enable auto-sync:
 
-1. Go to **Settings** > **Accounting Sync**. Click **Configure** on the QuickBooks Online integration.
+1. Go to **Settings** &rarr; **Accounting Sync**. Click **Configure** on the QuickBooks Online integration.
 
    [![QuickBooks Online Connected](../img/qbo-connected.png)](../img/qbo-connected.png)
 
@@ -68,7 +68,7 @@ Here's how you can enable auto-sync:
 
 If you want control over when your books are synced then you can manually trigger accounting syncs. You can run an accounting sync by following these steps:
 
-1. Go to **Settings** > **Accounting Sync**.
+1. Go to **Settings** &rarr; **Accounting Sync**.
 
    [![QuickBooks Online Connected](../img/qbo-connected.png)](../img/qbo-connected.png)
 
@@ -164,7 +164,7 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 ## Troubleshooting
 
-When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** > **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
+When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** &rarr; **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
 
 Below we have documented commonly encountered errors and recommended resolutions. If you are still unable to get your books synced then please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
 
@@ -174,7 +174,7 @@ Below we have documented commonly encountered errors and recommended resolutions
 
 When you see this error message then it means that Invoiced is trying to sync an invoice or payment during a time period that you have already closed. One way you can fix this is by re-opening your books for that time period and running the sync once more. When the sync finishes you can close the books again.
 
-Another solution is to change the date range that Invoiced will sync to QuickBooks. You can tell Invoiced to not sync any invoices before the time period when you closed the books. The sync date range can be set up in the QuickBooks settings at **Settings** > **Integrations** > **Configure** (in the *QuickBooks Online* section).
+Another solution is to change the date range that Invoiced will sync to QuickBooks. You can tell Invoiced to not sync any invoices before the time period when you closed the books. The sync date range can be set up in the QuickBooks settings at **Settings** &rarr; **Integrations** &rarr; **Configure** (in the *QuickBooks Online* section).
 
 ### You can only add or edit one name at a time
 
@@ -186,7 +186,7 @@ Often this error means that an accounting sync was running while someone was wor
 
 > QuickBooks Online could not authenticate.
 
-If you see this error message then our access token to your QuickBooks account has expired. You need to go to **Settings** > **Integrations** in order to reconnect QuickBooks.
+If you see this error message then our access token to your QuickBooks account has expired. You need to go to **Settings** &rarr; **Integrations** in order to reconnect QuickBooks.
 
 ### Subscription period has ended
 

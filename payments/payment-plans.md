@@ -34,7 +34,7 @@ Prerequisites:
 
 After creating an invoice for a customer, you can now add a payment plan to allow for installments. Setting up a payment plan is simply building the installment schedule. Each step in the installment schedule represents the date and amount to be paid. Open the invoice that has the outstanding balance. Here, you will add a payment plan to allow the customer to pay off the balance.
 
-Click *Actions* > *Add Payment Plan*. A new dialog will appear.
+Click *Actions* &rarr; *Add Payment Plan*. A new dialog will appear.
 
    [![Click to add a payment plan](../img/add-payment-plan.png)](../img/add-payment-plan.png)
 

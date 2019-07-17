@@ -31,7 +31,7 @@ It's important to consider that payment info tokens will only work with your Inv
    ```
    <script src="https://js.invoiced.com/v1/"></script>
    ````
-3. Obtain your publishable key from **Settings** > **Developers**.
+3. Obtain your publishable key from **Settings** &rarr; **Developers**.
 
 ## Storing credit card information
 

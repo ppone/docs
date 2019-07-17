@@ -12,7 +12,7 @@ You must have an account with a payment processor that supports one of these [pa
 
 Once you are established with a payment processor, setting up ACH payments is easy! Follow these steps to start accepting ACH payments in minutes.
 
-1. From the Invoiced dashboard go to **Settings** > **Payments**.
+1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
    [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
 
