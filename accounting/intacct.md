@@ -175,11 +175,11 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 - Customers on Invoiced are mapped to customers on Intacct by the customer name.
 
+- Only customers with a status of *Active* and invoices belonging to customers with an *Active* status will be imported into Invoiced.
+
 - Only non-draft invoices on Invoiced that have been updated since the last sync will be synced. On your first sync this means that all non-draft invoices will be synced.
 
 - Any changes to invoices imported from Intacct that are later modified on Invoiced will not be synced to Intacct. Payments processed through Invoiced for imported invoices will still be synced.
-
-- Editing invoices imported from the Intacct Order Entry module, after they have been imported, can cause sync errors and might need to be reconciled by hand.
 
 - When importing bill to contacts instead of customers, the customer on Invoiced will use the information from the bill to contact instead of the Intacct customer. This means the name and details will match the bill to contact, and will result in multiple Invoiced customers for a single Intacct customer. The customer number on Invoiced will be auto-generated and will not match the one on Intacct because there are multiple Invoiced customers that could have the same account number.
 
