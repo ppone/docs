@@ -24,9 +24,54 @@ Below we will show you how to connect NetSuite with Invoiced, step-by-step.
 
 ### Setting Up an OAuth Access Token
 
-The next step is to create an OAuth Access Token for Invoiced on NetSuite.
+The next step is to create an OAuth Access Token for Invoiced on NetSuite. To do that there are few steps you need to follow.
 
-Coming Soon!
+#### Install The Invoiced Suite Bundle
+First we need to install the Invoiced SuiteBundle, which will install a **INVOICED** integration and a **Webservices-Invoiced** role.
+
+1. Go To Customization > SuiteBundler > Search & Install Bundles.
+
+   [![Integration Settings](../img/netsuite-suite-bundle.png)](../img/netsuite-suite-bundle.png)
+
+2. In the keyword box, type in **Invoiced* and choose search.  Select the bundle with id = **265184**.
+ 
+   [![Integration Settings](../img/netsuite-choose-invoiced.png)](../img/netsuite-choose-invoiced.png)
+
+3. Click on install, to install the bundle.
+
+   [![Integration Settings](../img/netsuite-bundle-install.png)](../img/netsuite-bundle-install.png)
+
+#### Assign the Webservices-Invoiced role to a user
+
+You will need to pick a user that will that the access token will be based on, and assign the **Webservices-Invoiced** role to that user.
+
+1. Go to Setup > User/Roles > Manage Users
+
+   [![Integration Settings](../img/netsuite-manage-users.png)](../img/netsuite-manage-users.png)
+
+2.  Pick a user and assign them the **Webservices-Invoiced** role.
+
+   [![Integration Settings](../img/netsuite-user-add-webservices.png)](../img/netsuite-user-add-webservices.png)
+
+#### Create the access token
+
+1. Go to Setup > Users/Roles > Access Tokens > New
+
+   [![Integration Settings](../img/netsuite-create-accesstoken.png)](../img/netsuite-create-accesstoken.png)
+
+2. Select **INVOICED** as the APPLICATAION NAME, the user in the previous step as USER, and **Webservices-Invoiced** as the ROLE.
+
+   [![Integration Settings](../img/netsuite-add-access-token.png)](../img/netsuite-add-access-token.png)
+
+3. Write down or take a screen shot of the **TOKEN ID** and **TOKEN SECRET**, Netsuite will not display the information again.
+
+#### Contact support to get the Consumer Key and Consumer Secret
+
+1. Email support@invoiced.com to get the **CONSUMER KEY** and **CONSUMER SECRET**
+
+#### Recap
+
+At this stage you should have **NETSUITE ACCOUNT ID**, **TOKEN ID**, **TOKEN SECRET**, **CONSUMER KEY**, and **CONSUMER SECRET**, everything you need to connect Netsuite on Invoiced.
 
 ### Connecting NetSuite on Invoiced
 
