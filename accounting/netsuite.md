@@ -59,7 +59,7 @@ You will need to pick a user that will that the access token will be based on, a
 
    [![Integration Settings](../img/netsuite-create-accesstoken.png)](../img/netsuite-create-accesstoken.png)
 
-2. Select **INVOICED** as the APPLICATAION NAME, the user in the previous step as USER, and **Webservices-Invoiced** as the ROLE.
+2. Select **INVOICED** as the APPLICATION NAME, the user in the previous step as USER, and **Webservices-Invoiced** as the ROLE.
 
    [![Integration Settings](../img/netsuite-add-access-token.png)](../img/netsuite-add-access-token.png)
 
