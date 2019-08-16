@@ -17,6 +17,7 @@ You can be notified on Zapier when the following events happen on Invoiced:
 - New Credit Note
 - New Subscription
 - Subscription Canceled
+- New Payment
 
 ## Actions
 
@@ -34,6 +35,9 @@ You can perform the following actions on Invoiced from Zapier:
 You can search for the following records on Invoiced in your Zapier workflows:
 
 - Find or Create Customer
+- Find Invoice
+- Find Estimate
+- Find Credit Note
 
 ## Zap Templates
 
