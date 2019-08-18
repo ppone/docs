@@ -22,60 +22,60 @@ In order to set up the NetSuite integration you first need these pieces of infor
 
 Below we will show you how to connect NetSuite with Invoiced, step-by-step.
 
+### Obtaining Your NetSuite Account ID
+
+1. On NetSuite, go to **Setup** &rarr; **Company** &rarr; **Company Information**.
+
+   [![Integration Settings](../img/netsuite-account-id.png)](../img/netsuite-account-id.png)
+   
+2. Copy-paste your account ID into a text editor.
+
 ### Setting Up an OAuth Access Token
 
 The next step is to create an OAuth Access Token for Invoiced on NetSuite. To do that there are few steps you need to follow.
 
-#### Install The Invoiced Suite Bundle
-First we need to install the Invoiced SuiteBundle, which will install a **INVOICED** integration and a **Webservices-Invoiced** role.
+#### Install The Invoiced SuiteBundle
+First we need to install the Invoiced SuiteBundle, which will install an **INVOICED** integration and a **Webservices-Invoiced** role.
 
-1. Go To Customization > SuiteBundler > Search & Install Bundles.
+1. On NetSuite, go to **Customization** &rarr; **SuiteBundler** &rarr; **Search & Install Bundles**.
 
    [![Integration Settings](../img/netsuite-suite-bundle.png)](../img/netsuite-suite-bundle.png)
 
-2. In the keyword box, type in **Invoiced* and choose search.  Select the bundle with id = **265184**.
+2. In the keyword box, type in *Invoiced* and click **Search**.  Select the bundle with a bundle ID of *265184*.
  
    [![Integration Settings](../img/netsuite-choose-invoiced.png)](../img/netsuite-choose-invoiced.png)
 
-3. Click on install, to install the bundle.
+3. Click **Install** to install the bundle.
 
    [![Integration Settings](../img/netsuite-bundle-install.png)](../img/netsuite-bundle-install.png)
 
 #### Assign the Webservices-Invoiced role to a user
 
-You will need to pick a user that will that the access token will be based on, and assign the **Webservices-Invoiced** role to that user.
+You will need to pick a user that will that the access token will be based on and assign the **Webservices-Invoiced** role to that user.
 
-1. Go to Setup > User/Roles > Manage Users
+1. Go to **Setup** &rarr; **Users/Roles** &rarr; **Manage Users**.
 
    [![Integration Settings](../img/netsuite-manage-users.png)](../img/netsuite-manage-users.png)
 
-2.  Pick a user and assign them the **Webservices-Invoiced** role.
+2.  Select the user you plan to use for the integration and add the **Webservices-Invoiced** role to that user.
 
    [![Integration Settings](../img/netsuite-user-add-webservices.png)](../img/netsuite-user-add-webservices.png)
 
 #### Create the access token
 
-1. Go to Setup > Users/Roles > Access Tokens > New
+1. Go to **Setup** &rarr; **Users/Roles** &rarr; **Access Tokens** &rarr; **New**
 
    [![Integration Settings](../img/netsuite-create-accesstoken.png)](../img/netsuite-create-accesstoken.png)
 
-2. Select **INVOICED** as the APPLICATION NAME, the user in the previous step as USER, and **Webservices-Invoiced** as the ROLE.
+2. Select *INVOICED* as the application name, the user from the previous step as the user, and *Webservices-Invoiced* as the role.
 
    [![Integration Settings](../img/netsuite-add-access-token.png)](../img/netsuite-add-access-token.png)
 
-3. Write down or take a screen shot of the **TOKEN ID** and **TOKEN SECRET**, Netsuite will not display the information again.
-
-#### Contact support to get the Consumer Key and Consumer Secret
-
-1. Email support@invoiced.com to get the **CONSUMER KEY** and **CONSUMER SECRET**
-
-#### Recap
-
-At this stage you should have **NETSUITE ACCOUNT ID**, **TOKEN ID**, **TOKEN SECRET**, **CONSUMER KEY**, and **CONSUMER SECRET**, everything you need to connect Netsuite on Invoiced.
+3. Copy-paste the token ID and token secret values into a text editor. NetSuite will not display this information again.
 
 ### Connecting NetSuite on Invoiced
 
-1. Go to **Settings** &rarr; **Integrations** in the Invoiced dashboard.
+1. On Invoiced, go to **Settings** &rarr; **Integrations** in the Invoiced dashboard.
 
    [![Integration Settings](../img/integration-settings.png)](../img/integration-settings.png)
 
@@ -83,7 +83,7 @@ At this stage you should have **NETSUITE ACCOUNT ID**, **TOKEN ID**, **TOKEN SEC
 
    [![Connect NetSuite](../img/connect-netsuite.png)](../img/connect-netsuite.png)
 
-3. Enter in the NetSuite account ID, consumer secret, consumer key, token, and token secret for the Invoiced integration created earlier.
+3. Enter in the NetSuite account ID, token, and token secret for the Invoiced integration created earlier.
 
 4. Click **Save**. NetSuite is now connected! Next you will want to configure the integration before using it.
 
