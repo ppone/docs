@@ -36,9 +36,9 @@ You can send both account statements and individual invoices through a text mess
 
 2. Click **Actions** &rarr; **Send Invoice**.
 
-   [![Send Document](../img/send-document-choice-text-message.png)](../img/send-document-choice-text-message.png)
+   [![Send Document](../img/send-document-choice.png)](../img/send-document-choice.png)
 
-3. Select the *Text Message* option. Click **Next**.
+3. Click the **Text Message** option.
 
    [![Send Text Message](../img/send-text-message-missing-number.png)](../img/send-text-message-missing-number.png)
 
@@ -58,9 +58,9 @@ You can send both account statements and individual invoices through a text mess
 
 3. Enter in the parameters for the statement and click **Send**.
 
-   [![Send Document](../img/send-document-choice-text-message.png)](../img/send-document-choice-text-message.png)
+   [![Send Document](../img/send-document-choice.png)](../img/send-document-choice.png)
 
-4. Select the *Text Message* option. Click **Next**.
+4. Click the **Text Message** option.
 
    [![Send Text Message](../img/send-text-message-missing-number.png)](../img/send-text-message-missing-number.png)
 
