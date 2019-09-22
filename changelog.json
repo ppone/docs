@@ -1,0 +1,927 @@
+[
+  {
+    "name": "Customer Time to Pay and Payment Statistic Reports",
+    "body": "We have added two new reports to help you better understand customer payment patterns. Head over to the Reports page to try it out!",
+    "date": "2019-09-20"
+  },
+  {
+    "name": "Account Owners and Customer Restrictions",
+    "body": "Customers have a new Owner field to indicate the individual within your company that is responsible for the billing and collection process. While optional, we recommend that you set the owner to make sure collection tasks and notifications are routed to the appropriate person within your company. The owner can be set in the Options tab of the new\/edit customer screen.\n\nIncluded in this update are two customer restriction modes for non-administrator accounts: Restrict by Custom Field and Restrict by Account Ownership. The custom field restriction mode allows you to limit a user to only see customers with a specific custom field value, i.e. restrict the user to a territory, department, or subsidiary. The other restriction mode, restrict by account ownership, allows you to limit a user to only see customers that they own.\n\nIf you want to enable these new restriction settings go to Settings &rarr; Team and add\/edit user. You can also read our new <a href=\"https:\/\/invoiced.com\/docs\/guides\/user-permissions\" target=\"_blank\">user permissions guide<\/a> to learn more.",
+    "date": "2019-07-15"
+  },
+  {
+    "name": "Live Chat Support",
+    "body": "Today we are excited to announce that we now offer live chat support! If you need help with an issue you can now get an answer faster than ever before. You can start a chat with us by clicking on the help icon in the bottom right of the Invoiced dashboard and selecting the \"Live Chat\" option. Live chat is available from 9am - 5pm CST. Our existing support channels will continue to be available as well.",
+    "date": "2019-07-08"
+  },
+  {
+    "name": "QuickBooks Online Integration Update",
+    "body": "We have shipped a major release to our QuickBooks Online integration. The biggest changes are that payment syncing is more reliable, invoices are imported continuously, and invoice updates from QuickBooks are synced. There are many other small improvements to improve the accuracy of the sync. You can review your syncing settings in Settings &rarr; Accounting Sync to take advantage of the new capabilities.",
+    "date": "2019-07-01"
+  },
+  {
+    "name": "CSS and Javascript in the Customer Portal",
+    "body": "Ever wanted to make a style tweak to the customer portal or embed a script? Now you can! Go to Settings &rarr; Customer Portal to add your own stylesheet and Javascript.",
+    "date": "2019-06-21"
+  },
+  {
+    "name": "Custom Roles",
+    "body": "It is now possible to define custom roles in addition to the standard roles (Administrator, Employee, Account Manager, and Read-Only). Each role is assigned a granular set of permissions that dictate what actions a user with that role can take, like sending invoices, issuing refunds, and generating reports. This feature is available now in Settings &rarr; Team &rarr; Roles to customers on the enterprise edition.",
+    "date": "2019-06-20"
+  },
+  {
+    "name": "Payment Limits",
+    "body": "In Settings &rarr; Payments you can set thresholds on your payment methods to restrict the minimum or maximum amount that customers are able to pay using a given payment method in the customer portal. Payment limits can be used with credit card, direct debit, ACH, and PayPal payment methods.",
+    "date": "2019-06-13"
+  },
+  {
+    "name": "New AutoPay Settings",
+    "body": "You can now change the failed payment retry schedule and the number of days after invoice issue when payment should be initiated with AutoPay (the default is 0). These new settings can be found in Settings &rarr; General &rarr; AutoPay. The AutoPay payment date setting can be overriden for individual customers as well.",
+    "date": "2019-06-12"
+  },
+  {
+    "name": "Tax Inclusive Pricing",
+    "body": "With a recent update to our tax calculation system it's now possible to offer tax inclusive pricing to customers. When enabled for a tax rate, any price billed to a customer will be treated as already having tax included. Invoiced will then calculate the appropriate tax amount and reduce the subtotal accordingly. The default tax mode is still tax exclusive pricing.\n\nYou can set up tax inclusive pricing with a new tax rate in Settings &rarr; Taxes or you can read the <a href=\"https:\/\/invoiced.com\/docs\/guides\/taxes\" target=\"_blank\">Sales Tax Guide<\/a> to learn more.",
+    "date": "2019-06-10"
+  },
+  {
+    "name": "New Aging Settings",
+    "body": "You can now change the default aging ranges in Settings &rarr; General &rarr; Aging",
+    "date": "2019-06-10"
+  },
+  {
+    "name": "Avalara Integration",
+    "body": "Over the past couple of months we have been testing a new integration with Avalara to automate sales tax compliance. Today we are pleased to officially release our Avalara Certified integration. When enabled, the integration will automate sales tax calculation on invoices, credit notes, and estimates based on where you have nexus and the types of products and services that you sell.\n\nYou can read through the <a href=\"https:\/\/invoiced.com\/docs\/integrations\/avalara\" target=\"_blank\">Avalara documentation<\/a> to learn more.",
+    "date": "2019-06-07"
+  },
+  {
+    "name": "Change Email Report Recipient",
+    "body": "You can now change the email address that receives the recurring email report in Settings &rarr; Business Profile &rarr; Email Updates. You can provide up to 5 different recipients.",
+    "date": "2019-04-30"
+  },
+  {
+    "name": "Subscription Billing Enhancements",
+    "body": "Over the past month we have rolled out improvements to subscription billing. There is a new, streamlined interface for creating and editing subscriptions. The new subscription interface adds a ship to address field and a description field for the first line item. Also plans now support tiered and volume pricing models.",
+    "date": "2019-04-24"
+  },
+  {
+    "name": "Merging Customers",
+    "body": "The ability to merge two customer accounts is now in beta. You can read about <a href=\"https:\/\/invoiced.com\/docs\/guides\/customers#merging-customers\" target=\"_blank\">how to merge customers here<\/a>.",
+    "date": "2019-03-25"
+  },
+  {
+    "name": "Stitch Integration",
+    "body": "We have a new integration with a cloud ETL system called Stitch that loads Invoiced data into your data warehouse. Data synced includes credit notes, customers, estimates, invoices, payments, and subscriptions. You can learn more about the <a href=\"https:\/\/www.stitchdata.com\/integrations\/invoiced\/\" target=\"_blank\" rel=\"noopener noreferrer\">Stitch integration here<\/a>.",
+    "date": "2019-03-22"
+  },
+  {
+    "name": "Refund Emails",
+    "body": "There is now a standard email template for refunds, that is separate from payment receipts. You can customize this in Settings &rarr; Emails.",
+    "date": "2019-03-21"
+  },
+  {
+    "name": "Google Analytics Tracking",
+    "body": "You can track customer portal usage in Google Analytics by supplying your Google Analytics tracking ID in Settings &rarr; Customer Portal.",
+    "date": "2019-03-15"
+  },
+  {
+    "name": "Installments Export",
+    "body": "You can now export a waterfall of payment plan installments by going to the Invoices page and selecting Export &rarr; CSV (Installments)",
+    "date": "2019-03-15"
+  },
+  {
+    "name": "Catalog Items Renamed",
+    "body": "Catalog Items are now just called Items. Aside from the name change Items work the same as before!",
+    "date": "2019-03-08"
+  },
+  {
+    "name": "Contacts Export",
+    "body": "It's now possible to export a list of customer contacts. If you go to the Customers page there is a new \"Contacts\" option when you click Export.",
+    "date": "2019-03-08"
+  },
+  {
+    "name": "New Languages",
+    "body": "Invoiced has learned to speak new languages! Customers can now be billed in Spanish, French, and German. If you want to enable multi-lingual support please go to Settings &rarr; Appearance and turn on the \"Use Default Translations\" option. You can then set the default customer language in Settings &rarr; Business Profile, or set the language for an individual customer by editing their profile. The customer portal and any generated PDFs will then be translated to the selected language.",
+    "date": "2019-02-26"
+  },
+  {
+    "name": "Account Manager Dashboard",
+    "body": "We now have a dashboard for account managers that makes it easier to focus on the accounts that an account manager owns.",
+    "date": "2019-02-14"
+  },
+  {
+    "name": "Simplified Multi-Currency Setup",
+    "body": "Happy 2019! We are starting off the year with an enhancement to multi-currency. You can now enable or disable multi-currency in Settings &rarr; Business Profile.",
+    "date": "2019-01-16"
+  },
+  {
+    "name": "Smart Chasing",
+    "body": "We are launching the newest version of our chasing feature today: Smart Chasing! What's new from the previous version is that it allows you to chase account balances (instead of individual invoices), supports more types of activities (mail, calls, escalations), allows you to have more than one cadence, and has more robust scheduling and timing controls. There are many other benefits over the old system, these are just a few!\n\nRead the <a href=\"https:\/\/invoiced.com\/docs\/guides\/chasing\" target=\"_blank\">Smart Chasing documentation<\/a> to learn more.\n\nAlready using the previous version? If you were using the original chasing system then you can contact support to be migrated over to Smart Chasing. Smart Chasing is available to customers on Growth and Enterprise plans. If you are on the previous version it will continue to work as expected.",
+    "date": "2018-12-20"
+  },
+  {
+    "name": "Open Item Statements",
+    "body": "You can now generate Open Item statements, which only show unpaid invoices, or optionally, only past due invoices. The previous statement generation is unchanged and still available under the Balance Forward option. You can <a href=\"https:\/\/invoiced.com\/docs\/guides\/account-statements\" target=\"_blank\">read more here<\/a> about the types of statements.",
+    "date": "2018-12-18"
+  },
+  {
+    "name": "Subscription MRR",
+    "body": "Subscriptions now have Monthly Recurring Revenue (MRR) and Recurring Total properties that is visible in the subscriptions list, when viewing individual subscriptions, and in subscription exports.",
+    "date": "2018-12-17"
+  },
+  {
+    "name": "New Reports",
+    "body": "We have two new reports to help out with your collection efforts. The Late Fee report shows you a summary of late fees assessed during a time period. The Communications report shows you messaging and calling activity between you and your customers.",
+    "date": "2018-12-10"
+  },
+  {
+    "name": "Comment File Attachments",
+    "body": "Files can now be attached to comments sent by you or by a customer through the customer portal.",
+    "date": "2018-12-10"
+  },
+  {
+    "name": "Direct Mail",
+    "body": "It is now possible to mail letters through Invoiced with our new Lob.com integration. The <a href=\"https:\/\/invoiced.com\/docs\/integrations\/lob\" target=\"_blank\">Lob documentation<\/a> has more information on how to get started.",
+    "date": "2018-11-16"
+  },
+  {
+    "name": "Email Templates",
+    "body": "We have new enhancements to email templates available. You can now create email templates in addition to the ones included out of the box. When sending emails there is a new \"Apply Template\" button that will allow you to choose from your different email templates. This can be useful for delivering multi-lingual communications, handling different billing scenarios, and providing more relevant communications based on each customer's relationship with you. Just head over to Settings &rarr; Emails to set this up!",
+    "date": "2018-11-15"
+  },
+  {
+    "name": "Credit Holds & Limits",
+    "body": "Our new credit holds feature lets you prevent new sales for late-paying customers and set credit limits to block credit sales beyond your risk threshold. You can read the <a href=\"https:\/\/invoiced.com\/docs\/guides\/credit-holds\" target=\"_blank\">Credit Holds documentation<\/a> to learn more.",
+    "date": "2018-09-27"
+  },
+  {
+    "name": "Send Text Messages",
+    "body": "You can now send invoices and account statements as text messages with our new Twilio integration! You can read the <a href=\"https:\/\/invoiced.com\/docs\/integrations\/twilio\" target=\"_blank\">Twilio documentation<\/a> to learn more.",
+    "date": "2018-09-17"
+  },
+  {
+    "name": "Email Automation",
+    "body": "We have added some new features to help you better automate emails. You can configure these in Settings &rarr; Emails.\n\nInvoices: Added option to automatically send newly issued invoices\n\nPayment Plans: A new payment plan onboarding email template has been added. This can be sent out automatically when there is a new payment plan. You can also turn on a repeat reminder for customers that forget to onboard.\n\nEstimates: New options to automatically send new estimates on issue and a repeat reminder until the estimate is approved, declined, or expired\n\nCredit Notes: Added option to automatically send newly issued credit notes",
+    "date": "2018-07-20"
+  },
+  {
+    "name": "QuickBooks Online and Xero Automatic Invoice Imports",
+    "body": "Invoiced can now import invoices from QuickBooks Online and Xero automatically as they are created in your accounting system. If you want to enable this feature you can go to Settings &rarr; Accounting Sync &rarr; Configure and turn on the \"Import Invoices\" option.",
+    "date": "2018-06-25"
+  },
+  {
+    "name": "Direct Debit Payments",
+    "body": "Our new integration with GoCardless allows any business based in the UK, Europe, Australia, or Sweden to process direct debit payments from customers through Invoiced. GoCardless uses the banking systems in each supported country for fast, low-cost payments. You can head over to Settings &rarr; Payments to start accepting direct debit payments or read the <a href=\"https:\/\/invoiced.com\/docs\/integrations\/gocardless\" target=\"_blank\">GoCardless documentation<\/a> to learn more.",
+    "date": "2018-06-20"
+  },
+  {
+    "name": "New Templating System",
+    "body": "We have just released v2 of our PDF templating system. You can learn more in the <a href=\"https:\/\/invoiced.com\/docs\/dev\/customizing-templates\" target=\"_blank\">developer documentation<\/a>. The new templating system provides more powerful syntax, nifty helper functions, and easier development and troubleshooting.",
+    "date": "2018-06-04"
+  },
+  {
+    "name": "Updated Privacy Policy",
+    "body": "Our <a href=\"https:\/\/invoiced.com\/privacy\" target=\"_blank\">privacy policy<\/a> has been updated to clarify the kind of information we collect, how it gets shared, and what practices we follow to keep your information private and secure.",
+    "date": "2018-06-04"
+  },
+  {
+    "name": "Webhook Improvements",
+    "body": "We have made some improvements to webhooks. Among the list of improvements are the ability to retry individual webhook attempts. Also webhook requests are signed to make it easier to determine if an event came from Invoiced. Our <a href=\"https:\/\/invoiced.com\/docs\/dev\/webhooks\" target=\"_blank\">updated webhook documentation<\/a> has more information on the latest best practices.",
+    "date": "2018-06-04"
+  },
+  {
+    "name": "Plan, Coupon, and Tax Rate Importers",
+    "body": "You can now import plans, coupons, and tax rates from a spreadsheet on the respsective settings screens.",
+    "date": "2018-05-21"
+  },
+  {
+    "name": "Virtual Terminal",
+    "body": "Invoiced has a new feature that makes it easier to accept customer payments over the phone and in-person. With the virtual terminal you can now accept customer payments directly from within the Invoiced application, including credit cards, ACH debits, and saved payment methods. You can process customer payments by selecting the \"Charge\" option from any Receive Payment screen.",
+    "date": "2018-04-30"
+  },
+  {
+    "name": "Invoiced.js",
+    "body": "Attention developers! We have just released a new Javascript library that can be embedded into your website or application to help you collect payment information and store it on Invoiced. We have written a <a href=\"https:\/\/invoiced.com\/docs\/dev\/payment-info\" target=\"_blank\">nifty guide on how it works<\/a>.",
+    "date": "2018-04-17"
+  },
+  {
+    "name": "Contract Billing",
+    "body": "We have made it easier to manage contracts from a billing perspective with our new contract billing feature. With contract billing you can specify on a subscription the length of the contract term, length of subsequent terms, and how you want to handle renewals.\n        \nFor example, you could have a monthly subscription with a year long contract. When the contract ends you can tell Invoiced to ask for your approval before renewing the subscription for another year. Billing will be paused until you tell us to renew the contract or cancel it. We can also auto-renew the contract or stop billing after the initial term.\n\nYou can read more about this in the <a href=\"https:\/\/invoiced.com\/docs\/guides\/subscription-billing#contract-billing\" target=\"_blank\">contract billing documentation<\/a>.",
+    "date": "2018-04-13"
+  },
+  {
+    "name": "QuickBooks Online and Xero 2-Way Payment Syncs",
+    "body": "The payment syncs for QuickBooks Online and Xero are now bi-directional. Any payments applied on QuickBooks or Xero are instantly imported into Invoiced. Please note that you must have Auto-Sync enabled to take advantage of this feature.",
+    "date": "2018-04-12"
+  },
+  {
+    "name": "AutoPay-Only Sign Up Pages",
+    "body": "You can now create sign up pages for the sole purpose of enrolling new customers in AutoPay (and securely capturing payment information). An AutoPay-only sign up page does not require the customer to complete a purchase or sign up for a subscription. You can create AutoPay sign up pages in Settings &rarr; Sign Up Pages.",
+    "date": "2018-03-27"
+  },
+  {
+    "name": "Intacct Order Entry Importer",
+    "body": "We have an exciting update to our Intacct invoice importer that all Intacct users will appreciate. You can now import sales documents from the Order Entry module. The advantage to this over the previous A\/R invoice importer is that your invoices will now include more complete information. Custom transaction definitions are supported as well.",
+    "date": "2018-03-16"
+  },
+  {
+    "name": "Money Formatting",
+    "body": "We have refreshed how Invoiced formats money amounts to make it more consistent across all of our interfaces, in addition to adding some new features. One of the more noticeable changes is that we now always display numbers after the decimal to fix potential alignment issues.\n\nInvoiced can now prefix money amounts by the currency code (i.e. USD) instead of the symbol ($). This is useful if you bill in multiple currencies that have the same dollar symbol. You can turn this on in Settings &rarr; Business Profile &rarr; Localization &rarr; Currency Prefix.\n\nWe also now support sub-cent unit costs by allowing you to specify the decimal precision of unit costs. For example, you might want unit costs to display 4 decimals instead of 2. You can change this in Settings &rarr; General &rarr; Unit Cost Precision.",
+    "date": "2018-02-27"
+  },
+  {
+    "name": "Improved Follow Up Notes",
+    "body": "We have shipped new improvements to follow up notes. You can now record multiple follow up notes per invoice. Follow up notes are attributed to the time and person that recorded the entry.",
+    "date": "2018-02-22"
+  },
+  {
+    "name": "Self-Serve Account Statements",
+    "body": "There is a new \"View Account Statement\" button in the my account page of the billing portal that customers can use to view a current account statement.",
+    "date": "2018-02-16"
+  },
+  {
+    "name": "Using Plans as Subscription Addons",
+    "body": "You can now use plans as subscription addons. Any plans selected as an addon must match the billing cycle of the subscription.",
+    "date": "2018-02-13"
+  },
+  {
+    "name": "Skipping Failed Invoices [Accounting Sync]",
+    "body": "When syncing with your accounting system, running into synchronization issues can happen from time to time. We have a new feature to help get your failed accounting syncs back on track. You can now tell the accounting sync to quit trying to sync a specific invoice, if it has previously failed. This would be useful if you know that an invoice has already been reconciled correctly in your accounting system.\n        \nYou can skip an invoice on future syncs by going to Settings &rarr; Accounting Sync and clicking on \"View Details\" next to the most recent failing sync. Underneath each failing record there is a \"Skip in future syncs\" button that you can click to ignore that invoice in any syncs going forward.",
+    "date": "2018-02-08"
+  },
+  {
+    "name": "Expiring Estimates",
+    "body": "Estimates now have an optional expiration date. When set, the estimate cannot be viewed or approved by the customer after the expiration date.",
+    "date": "2018-02-07"
+  },
+  {
+    "name": "Invoice Aging by Customer Report",
+    "body": "The invoice aging report will now give you a proper aging breakdown by customer account instead of an aggregation across all customer accounts.",
+    "date": "2018-01-03"
+  },
+  {
+    "name": "Ship To Field",
+    "body": "Invoices and estimates have a new ship to address field. The shipping address is displayed in addition to the customer's billing address. Each document can also have a unique shipping address to handle scenarios where orders for the same customer are shipped to different addresses.",
+    "date": "2017-12-26"
+  },
+  {
+    "name": "Non-AutoPay Payment Plans",
+    "body": "Payment plans can now be created without AutoPay. Although we still recommend using AutoPay with payment plans, there are certain scenarios where customers are paying outside of Invoiced that can now be tracked.",
+    "date": "2017-12-04"
+  },
+  {
+    "name": "Tax Rules",
+    "body": "You can now create geographic tax rules in Settings &rarr; Taxes &rarr; Tax Rules. When configured, any customers with a billing address in a taxable state or country will have tax assessed on their invoices automatically. The global tax setting from Settings &rarr; General has been moved into tax rules as well.",
+    "date": "2017-11-27"
+  },
+  {
+    "name": "Zapier Integration",
+    "body": "Today our Zapier integration is going from beta to production-grade! You can learn more in <a href=\"https:\/\/invoiced.com\/blog\/zapier-integration\" target=\"_blank\">this blog post<\/a>. Thank you to everyone that contributed feedback during the beta period!",
+    "date": "2017-11-08"
+  },
+  {
+    "name": "Multi-Invoice Payments",
+    "body": "Customers can now pay off their entire account balance at once through the customer portal when their account has multiple outstanding invoices.",
+    "date": "2017-11-02"
+  },
+  {
+    "name": "Accept Early Payments on Payment Plans",
+    "body": "Customers now have the option to make early payments on a payment plan, through the customer portal, before the next installment is due. Otherwise, Invoiced will follow the payment schedule as you would expect.",
+    "date": "2017-10-31"
+  },
+  {
+    "name": "Editing Payment Plans",
+    "body": "You can now edit payment plans directly instead of resorting to canceling and re-adding the plan. There is a new \"Edit\" button in the Payment Plan section on invoices with attached payment plans.",
+    "date": "2017-10-30"
+  },
+  {
+    "name": "Accounting Sync Improvements",
+    "body": "Over the past month we have released many improvements to the accounting sync feature. Among the improvements include making all of the accounting integrations faster, more resilient to failures, and syncing data at a more granular level. You can also now see more detail about past syncs in Settings &rarr; Accounting Sync, including the invoices that were synced.",
+    "date": "2017-10-23"
+  },
+  {
+    "name": "QuickBooks Online Refund Syncing",
+    "body": "The QuickBooks Online integration will now sync refunds! You can learn more in our recently updated <a href=\"https:\/\/invoiced.com\/docs\/accounting\/quickbooks-online\" target=\"_blank\">QuickBooks Online documentation<\/a>.",
+    "date": "2017-09-26"
+  },
+  {
+    "name": "Automatic Intacct Syncs",
+    "body": "We added a new setting to automate Intacct syncs. If you are using our Intacct integration then simply go to Settings &rarr; Accounting Sync and click Enable Auto-Sync (next to Intacct) to turn on automatic syncing. Set it and forget it while we will keep your books up to date!\n        \n    We have also written <a href=\"https:\/\/invoiced.com\/docs\/accounting\/intacct\" target=\"_blank\">new Intacct documentation<\/a> to explain the nuances of the connection process and accounting sync.",
+    "date": "2017-09-20"
+  },
+  {
+    "name": "Overriding the Proration Date",
+    "body": "When editing subscriptions you can now specify the date when the subscription change took effect, or will take effect. The date you specify will be used when calculating the proration. This is useful if you run into a scenario where you are recording a proration that happened far enough in the past to affect the proration calculations. The default is still to calculate prorations according to the current point in the billing cycle.",
+    "date": "2017-09-15"
+  },
+  {
+    "name": "Apple Pay",
+    "body": "Any business accepting credit card payments through the Stripe payment gateway can now accept Apple Pay! With this update your customers will be able to pay invoices using Apple Pay, assuming they are on a supported device\/browser. The Pay with Apple Pay button will magically appear on the credit card payment form.\n\nThis feature is automatic and does not require any extra setup on your part. Please note that Apple Pay only works for one-off payments at this time.",
+    "date": "2017-08-01"
+  },
+  {
+    "name": "Faster payment retries after updating payment info",
+    "body": "When a customer updates their payment information, Invoiced will now immediately retry payment on any outstanding AutoPay invoices. The previous behavior would wait until the next scheduled collection attempt, which might be days later. If the payment retry fails for any reason we will provide the customer with instant feedback.",
+    "date": "2017-07-21"
+  },
+  {
+    "name": "Intacct Customer and Invoice Imports",
+    "body": "You can now import existing customers and outstanding invoices from Intacct into Invoiced. Simply go to Customers &rarr; Import or Invoices &rarr; Import in order to get started.",
+    "date": "2017-07-05"
+  },
+  {
+    "name": "Estimate Deposits",
+    "body": "Estimates now support collecting up-front deposit payments. When you add a deposit amount to an estimate we will ask your customer for payment when they go to approve the estimate. Since there is not an invoice due at this point the payment will be converted to a credit, which will be used to pay for future invoices on that customer account.\n\nIf you want to collect an up-front deposit then simply click the \"+ Deposit\" button when drafting estimates. You can choose to collect a percentage of the estimate or an arbitrary amount. Invoiced will handle the rest!",
+    "date": "2017-06-12"
+  },
+  {
+    "name": "Invoices Added to Receipt PDFs",
+    "body": "Generated receipt PDFs now include any attached invoices as separate pages.",
+    "date": "2017-05-24"
+  },
+  {
+    "name": "Slack Notifications",
+    "body": "You can now receive activity notifications from Invoiced on Slack. Just head over to Settings &rarr; Notifications to get this set up!",
+    "date": "2017-05-23"
+  },
+  {
+    "name": "Invoice Editor Update",
+    "body": "Our invoice editor has just received a fresh coat of paint. The new version eliminates the hidden options on line items, making the line item description field more apparent. We have also removed the add blank line item button. Instead a blank line will always be present at the bottom of the invoice. This makes it possible to key in line items with zero clicks. Thank you everyone for the feedback that led to these changes!",
+    "date": "2017-05-18"
+  },
+  {
+    "name": "QuickBooks Online and Xero Invoice Imports",
+    "body": "You can now import existing outstanding invoices from QuickBooks Online or Xero into Invoiced in Invoices &rarr; Import.",
+    "date": "2017-05-01"
+  },
+  {
+    "name": "Chasing Improvements",
+    "body": "We have released a number of improvements around chasing. Now you can manually set or modify the date of the next chasing attempt on invoices, instead of always following the global chasing schedule. This can also be used to schedule sending invoices on a future date.",
+    "date": "2017-04-28"
+  },
+  {
+    "name": "Redesigned Client View",
+    "body": "We have a new version of the invoice client view available. This is the screen that customers see when they click \"View Invoice\". The new version is cleaner, more streamlined, and most importantly, includes a more prominent pay button. Since this is a big change we have made the feature opt-in. You can enable the new design in Settings &rarr; General &rarr; Client View V2. We would love to hear your feedback!",
+    "date": "2017-04-06"
+  },
+  {
+    "name": "Faster Reports",
+    "body": "Reports are now rendered within the application instead of requiring you to download a separate document. We have retained the option to download generated reports as a PDF or CSV.",
+    "date": "2017-04-04"
+  },
+  {
+    "name": "Multiple Payment Sources",
+    "body": "Customers can now have multiple payment sources attached.",
+    "date": "2017-03-21"
+  },
+  {
+    "name": "Sign Up Pages for Existing Customers",
+    "body": "You can now assign sign up pages to existing customers. This will allow customers that already exist within Invoiced to purchase a subscription from you via their assigned sign up page. You can assign different sign up pages to each customer, making it possible to offer custom plan mixtures and price points to any customer.\n\nYou can access this feature by opening the customer in the dashboard and clicking Actions &rarr; Assign Sign Up Page. Your customer can then sign up by signing into the billing portal or by visiting their custom sign up page (you can get this on the customer page with Actions &rarr; Sign Up URL).",
+    "date": "2017-03-09"
+  },
+  {
+    "name": "Setup Fee on Sign Up Pages",
+    "body": "Sign up pages now support collecting an upfront charge from customers.",
+    "date": "2017-03-03"
+  },
+  {
+    "name": "Custom Fields on Sign Up Pages",
+    "body": "Sign up pages now support custom fields! You can set this up in Settings &rarr; Sign Up Pages. We have also included the ability for you to change the order of the plans that are presented to your customer.",
+    "date": "2017-03-02"
+  },
+  {
+    "name": "Statement Date Range",
+    "body": "You can now specify a date range when sending account statements.",
+    "date": "2017-02-22"
+  },
+  {
+    "name": "QuickBooks Online and Xero Customer Imports",
+    "body": "You can now import existing customers from QuickBooks Online or Xero into Invoiced in Customers &rarr; Import.",
+    "date": "2017-02-15"
+  },
+  {
+    "name": "Stripe Customer Import",
+    "body": "You can now import existing customers and payment information from Stripe into Invoiced in Customers &rarr; Import.",
+    "date": "2017-02-06"
+  },
+  {
+    "name": "Calendar Billing",
+    "body": "We have added a new renewal mode for subscriptions called Calendar Billing. This feature allows you to specify a day of the week, month, or year when subscriptions should be billed (like the first of the month). We will even prorate a partial month on the first bill.\n\nYou can opt into calendar billing when creating subscriptions by clicking Options and setting the \"Renews on\" option to \"Day of month\". Sign up pages support calendar billing as well with the new \"Renew subscriptions on specific day of month\" option. Just head over to Settings &rarr; Sign Up Pages to set this up.\n\nAnniversary Billing is still the default renewal mode for subscriptions, meaning that for each billing cycle the subscription renews on the same day of the month as when the subscription was started.",
+    "date": "2017-01-25"
+  },
+  {
+    "name": "Bundles",
+    "body": "We are releasing a new feature called Bundles. A bundle is a group of catalog items that are frequently billed together. Once set up, you can swiftly add a group of line items when drafting invoices by clicking + Line Items &rarr; From Bundle.",
+    "date": "2017-01-20"
+  },
+  {
+    "name": "Custom Field Visibility",
+    "body": "Now any custom field can be made invisible to customers, for internal use only, in Settings &rarr; Custom Fields.",
+    "date": "2017-01-19"
+  },
+  {
+    "name": "Upcoming Invoices",
+    "body": "You can now preview the upcoming invoice for customers with subscriptions. The upcoming invoice can be viewed on the customer account page and on the subscription summary page. The upcoming invoice will even show you a preview of the line items. Please remember that this is just a preview and the invoice will not be finalized until the end of the billing cycle.",
+    "date": "2017-01-18"
+  },
+  {
+    "name": "Smarter Prorations",
+    "body": "We have improved how we produce proration line items. Instead of always generating a charge and credit line item for prorations, we are now going to produce a separate proration line item for each subscription component that was added or removed, including the plan, quantity, and addons.\n\nFor example, if your customer added 2 users to the subscription mid-cycle then this would result in a single, prorated charge for 2 users. Even though the line items look different, the proration calculations have not changed.",
+    "date": "2017-01-16"
+  },
+  {
+    "name": "Webhook Logs",
+    "body": "If you are using webhooks then you can now see a log of the requests made to your system for any event by clicking on the \"Details\" link.",
+    "date": "2017-01-14"
+  },
+  {
+    "name": "Accounting Sync Start Date",
+    "body": "You can now specify a start date on the QuickBooks Online and Xero accounting syncs. When enabled this feature will only sync invoices issued on or after the date you have specified. This is perfect for when you have already reconciled the last quarter (or year) and want to avoid ruining your hard work! Head over to Settings &rarr; Accounting Sync to set this up.",
+    "date": "2016-12-22"
+  },
+  {
+    "name": "Automatic Xero Syncs",
+    "body": "We added a new setting to automate Xero syncs. If you are using our Xero integration then simply go to Settings &rarr; Accounting Sync and click Enable (next to Xero) to turn on automatic syncing. Set it and forget it while we will keep your books up to date!",
+    "date": "2016-12-16"
+  },
+  {
+    "name": "ACH Payments on Sign Up Pages",
+    "body": "Sign up pages now support ACH payments! Read <a href=\"https:\/\/invoiced.com\/blog\/sign-up-page-ach\" target=\"_blank\">this blog post<\/a> to learn more. This release includes several other payment-related improvements as well.",
+    "date": "2016-12-13"
+  },
+  {
+    "name": "Chase Newly Issued Invoices",
+    "body": "You can now chase invoices when they are issued. This means that Invoiced can automatically send out new invoices for you. Sound useful? Set this up today in Settings &rarr; Chasing.",
+    "date": "2016-12-05"
+  },
+  {
+    "name": "Subscription Previews",
+    "body": "When adding subscriptions you can now see a preview of the first billing cycles for a clearer picture of when your customer will be billed.",
+    "date": "2016-11-16"
+  },
+  {
+    "name": "Subscription Metrics Report",
+    "body": "There is a new Subscription Metrics report to give subscription businesses more insight into monthly recurring revenue.",
+    "date": "2016-11-04"
+  },
+  {
+    "name": "Two-Factor Authentication",
+    "body": "Two-factor authentication adds an extra layer of security to your Invoiced account by requiring you to enter a verification code from the Authy app on your mobile device each time you login.\n\nTwo-factor authentication ensures that no one (such as an overseas hacker) can access your Invoiced account without physical access to your mobile device.\n\nGo to the My Account page to set up two-factor authentication.",
+    "date": "2016-11-03"
+  },
+  {
+    "name": "Sign Up Page Discounts",
+    "body": "Customers can now enter in coupon codes on sign up pages to receive a discount. This works with any active coupon in your catalog. The customer just enters in the coupon ID to activate the discount. Be sure to not make these too easy to guess! Coupon codes can be turned on for your sign up pages in Settings &rarr; Sign Up Pages",
+    "date": "2016-10-25"
+  },
+  {
+    "name": "Email Template Subjects",
+    "body": "You can now customize the subject line on email templates. Variables are supported on subject lines now too, just like the message body. You can update your email templates in Settings &rarr; Emails",
+    "date": "2016-10-24"
+  },
+  {
+    "name": "Custom SMTP",
+    "body": "You can now send customer emails through your own email server, from your business email address! Learn more in <a href=\"https:\/\/invoiced.com\/blog\/custom-smtp\" target=\"_blank\">this blog post<\/a>.",
+    "date": "2016-10-20"
+  },
+  {
+    "name": "Payment Plans",
+    "body": "With our new payment plans feature you can attach payment schedules to invoices that need to be collected across multiple payments. Invoiced will then help you track the customer's payment progress, and even collect installment payments for you as they become due!\n\nPlease read <a href=\"https:\/\/invoiced.com\/blog\/payment-plans\" target=\"_blank\">this blog post<\/a> to learn more about payment plans.",
+    "date": "2016-10-17"
+  },
+  {
+    "name": "User Permissions",
+    "body": "You can now limit the access that team members have to your Invoiced business account with our new roles and permissions system.\n\nThe roles we support out of the box are: Read-Only, Account Manager, Employee, and Administrator. These roles each come with a different set of permissions. The Account Manager role is unique in that it lets you whitelist the customer accounts that a user can access.\n\nJust head over to Settings &rarr; Team to set this up!",
+    "date": "2016-10-12"
+  },
+  {
+    "name": "AutoPay Scheduling Change",
+    "body": "AutoPay invoices will no longer schedule payment attempts before the invoice date. Previously the initial payment attempt would always be 1-2 hours out, regardless of the invoice date. Now if you issue an AutoPay invoice with a date in the future, then the first payment attempt will not happen before that date. In most cases AutoPay invoices are issued using the current date, and would not be affected by this change.",
+    "date": "2016-10-05"
+  },
+  {
+    "name": "Account Security Panel",
+    "body": "You can now see recent security activity on your Invoiced account. From the My Account page just click on the link near \"Last account activity\" to see recent security events (like password resets), currently active sessions, and the option to sign out of all active sessions for your account at once.",
+    "date": "2016-10-03"
+  },
+  {
+    "name": "Collection Mode -> AutoPay",
+    "body": "We've renamed our automatic collection mode feature to \"AutoPay\". AutoPay behaves exactly the same as its predecessor. We hope the new name helps more succinctly explain what AutoPay does. Also check out our new <a href=\"https:\/\/invoiced.com\/docs\/guides\/autopay\" target=\"_blank\">AutoPay Guide<\/a>.",
+    "date": "2016-09-19"
+  },
+  {
+    "name": "Automatic QuickBooks Online Syncs",
+    "body": "We added a new setting to automate QuickBooks Online syncs. If you are using our QBO integration then simply go to Settings &rarr; Accounting Sync and click Enable (next to QuickBooks Online) to turn on automatic syncing. Set it and forget it while we will keep your books up to date!",
+    "date": "2016-08-25"
+  },
+  {
+    "name": "Allowed Payments for Customers",
+    "body": "You can now specify the payment methods that a given customer account can use to pay. In order to limit the accepted payment methods when creating or editing a customer you can use the new Allowed Payments field in the More Options section.",
+    "date": "2016-08-23"
+  },
+  {
+    "name": "Multi-Currency Support",
+    "body": "We have improved how reporting works for businesses that bill in multiple currencies. When you invoice in multiple currencies you will now be able to view separate dashboards and generate reports for each currency that you work with.",
+    "date": "2016-07-30"
+  },
+  {
+    "name": "Sign Up Pages",
+    "body": "We are launching sign up pages to make it easier to onboard new customers into subscription billing. You can read more in our <a href=\"https:\/\/invoiced.com\/blog\/sign-up-pages\" target=\"_blank\">blog post<\/a>.",
+    "date": "2016-07-27"
+  },
+  {
+    "name": "Subscription Improvements",
+    "body": "A number of improvements to subscription billing have been shipped recently. Among the improvements are better support for trial periods, simpler UI for creating subscriptions, custom fields on subscriptions, and a new Subscriber Count report. You can also choose to have subscriptions canceled automatically after the final automatic payment attempt fails in Settings &rarr; General.",
+    "date": "2016-07-26"
+  },
+  {
+    "name": "Importer Improvements",
+    "body": "The customer and invoice importers now recognize custom fields. All importers now support setting metadata on imported objects when you use column titles with the \"metadata.key\" pattern. Also the invoice importer now supports referencing customers by account # instead of by name.",
+    "date": "2016-07-19"
+  },
+  {
+    "name": "Payment Sources on Receipts",
+    "body": "Receipts now display the payment source used for a given card or ACH payment.",
+    "date": "2016-07-18"
+  },
+  {
+    "name": "Custom Fields",
+    "body": "Invoiced now supports creating custom fields that can store and display arbitray business data on your customer accounts and invoices.\n\nYou can learn more in the <a href=\"https:\/\/invoiced.com\/docs\/guides\/custom-fields\" target=\"_blank\">Custom Fields Guide<\/a> or else head over to Settings &rarr; Custom Fields to try it out.",
+    "date": "2016-07-14"
+  },
+  {
+    "name": "Xero Integration",
+    "body": "We are releasing our Xero integration in beta! Now you can easily sync customers, invoices, and payments with your books on Xero.\n\nYou can learn more in this <a href=\"https:\/\/invoiced.com\/blog\/xero-integration\" target=\"_blank\">blog post<\/a> or else head over to Settings &rarr; Accounting Sync to try it out.",
+    "date": "2016-06-22"
+  },
+  {
+    "name": "Expiring Cards Report",
+    "body": "There is a new Expiring Cards report that lists customers with a credit card at risk of expiring or that has already expired.",
+    "date": "2016-06-21"
+  },
+  {
+    "name": "Zapier Integration",
+    "body": "Our Zapier integration is now in beta! Contact us if you want to use Invoiced on Zapier or learn more in <a href=\"https:\/\/invoiced.com\/blog\/zapier-beta\" target=\"_blank\">this blog post<\/a>.",
+    "date": "2016-06-08"
+  },
+  {
+    "name": "Subscription Cancellations",
+    "body": "When canceling subscriptions you can now choose to cancel the subscription immediately or at the end of the current billing period.",
+    "date": "2016-06-06"
+  },
+  {
+    "name": "Credit Balances",
+    "body": "Our credit system recently had its internals rewritten. The major highlight is that we now maintain a credit balance history for each customer account. Although the workflow to issue and spend credits has not changed, this update brings several improvements:\n\n- Credit reporting gives more accurate insights (especially when looking at the past)\n- Filtering customers that have a credit balance (or not)\n- Customer exports include the current credit balance\n- Credit balance history (click the credit balance on the customer account page)\n- Block overspending of credit balances when modifying credit transactions in the past\n- Statements include a credit balance history (as needed)",
+    "date": "2016-05-31"
+  },
+  {
+    "name": "Contact Addresses",
+    "body": "Customer contacts can now store physical addresses. This is useful when a customer has more than one address. An example of this in practice would be storing a shipping address on a customer that might differ from the billing address. In order to use this feature simply use the new \"Address\" section when adding a new contact or updating an existing one.",
+    "date": "2016-05-18"
+  },
+  {
+    "name": "Activity Log",
+    "body": "We are releasing new improvements to our event system along with a new Activity Log page. Our event system records any time an interesting billing event happens within your account. For example, we record events when you issue an invoice or a customer sends a payment. In this update we have made event messages more specific, such as \"invoice was marked paid\" instead of a generic \"invoiced was updated\".\n\nThe new Activity Log lets you view all of the billing events that happened within your account. This page aggregates all of the events within your account for customers, invoices, payments, and more. It is also possible to filter events by the originating source and type. You can get to the Activity Log by going to the Dashboard page and clicking View All underneath Recent Activity.",
+    "date": "2016-05-09"
+  },
+  {
+    "name": "Credit Summary Report",
+    "body": "A new report is available, called Credit Summary, to give you insight into customer credits.",
+    "date": "2016-05-03"
+  },
+  {
+    "name": "Export Filters",
+    "body": "Exports now use any active filters you set while browsing data in your Invoiced account. As an example, if you are viewing past due invoices you can click the export button to download just those matching invoices. Export filters work with customers, invoices, and payments. This should make it easier to extract and analyze data within Invoiced.",
+    "date": "2016-04-29"
+  },
+  {
+    "name": "Payment Exports",
+    "body": "In tandem with our new customer export feature, payments are getting the same treatment. Just click the Export button on the Payments page (near the Record Payment and Import buttons) to download a detailed payment history as a CSV file.\n\nAlso as part of this release we have added a new Payment Summary report (replaces Payments Received) to give you more insight into the payments side of your billing.",
+    "date": "2016-04-23"
+  },
+  {
+    "name": "Customer Exports",
+    "body": "Exporting your customers just got better. The exports are now CSV only and include more fields than before. You can try it out by going to the Customers page and clicking the Export button on the right (near the New Customer and Import buttons).\n\nPreviously customer exports were handled by the Customer Summary report. We are phasing out that report in favor of this newer method.",
+    "date": "2016-04-21"
+  },
+  {
+    "name": "Better Customer Account View",
+    "body": "Customer accounts in the dashboard have a fresh new look! The account page was redesigned to provide a more holistic view of a customer's account with you. We would love to hear any feedback on this change.",
+    "date": "2016-04-06"
+  },
+  {
+    "name": "Sales by Item Report",
+    "body": "A new report has been added to help you dig deeper into your sales. The Sales by Item report will give you a breakdown of sales by type and catalog item. You can access this report by selecting the Sales by Item report in the Reports section.",
+    "date": "2016-03-31"
+  },
+  {
+    "name": "Non-Taxable and Non-Discountable Line Items",
+    "body": "You can now exclude a line item from percent taxes or discounts. All line items are still taxable and discountable by default. You can turn either of these off by expanding the options for your line item and unchecking \"Discountable\" or \"Taxable\". We will display a label on invoices next to line items that are not subject to taxes or discounts.",
+    "date": "2016-03-30"
+  },
+  {
+    "name": "Per Customer Pricing",
+    "body": "We are updating our pricing to per customer, instead of per invoice, and increased the limits for our current pricing tiers. You can learn more in this <a href=\"https:\/\/invoiced.com\/blog\/per-customer-pricing\/\" target=\"_blank\">blog post<\/a>.",
+    "date": "2016-03-28"
+  },
+  {
+    "name": "New Invoice Report Options",
+    "body": "More customization for invoice reports is now available. You can now change the invoice columns displayed on these reports, hide the invoice detail lines, and change the invoice grouping.",
+    "date": "2016-03-18"
+  },
+  {
+    "name": "QuickBooks Online Integration",
+    "body": "We are pleased to ship our QuickBooks Online integration in beta! Now you can easily sync customers, invoices, and payments with your books.\n\nYou can learn more in this <a href=\"https:\/\/invoiced.com\/blog\/quickbooks-online-integration\" target=\"_blank\">blog post<\/a> or else head over to Settings &rarr; Accounting Sync to try it out.",
+    "date": "2016-03-15"
+  },
+  {
+    "name": "Subscription Renews Soon Email",
+    "body": "We are launching a new email that automatically sends reminders to your customers before their subscription is set to renew. You can turn on renewal reminders in Settings &rarr; Emails &rarr; Subscription Renews Soon Email. There you can set the number of days before a subscription is set to renew that you want us to send out reminders.\n\nWe have also disabled the subscription confirmation and cancellation emails by default as they were unexpected by many users. You can turn these emails back on in Settings &rarr; Emails.",
+    "date": "2016-02-29"
+  },
+  {
+    "name": "Customer Tax Rates",
+    "body": "We now support adding tax rates to customers. When you raise an invoice against a customer with tax rates we will automatically apply their tax rate(s) to the invoice, all with no extra effort on your part.\n\nYou can set up tax rates when creating or editing customers by clicking More Options &rarr; + Tax (on the Taxes line).",
+    "date": "2016-02-26"
+  },
+  {
+    "name": "Better Payment Recording and Rollup Receipts",
+    "body": "Over the last week we have improved the process for recording offline payments, like checks and wire transfers. Previously you had to know an invoice number to record a payment. Now you can select a customer, enter the payment amount, and we will help you split that payment across the currently outstanding invoices for that customer. We will also detect any overpayment and give you the option to credit or refund the amount overpaid. Furthermore, if the customer has any available credits we will give you the option to record a payment from the credits instead.\n\nApplying a single payment to multiple invoices in the past would produce separate receipts, but no more! Whenever you apply a payment to multiple invoices we will merge those transactions into a single receipt. Now you can present your customer with a single receipt for the actual payment amount that includes all of the invoices, credits, and refunds stemming from that payment.",
+    "date": "2016-02-22"
+  },
+  {
+    "name": "Billing Portal Update",
+    "body": "Your billing portal has a new look! We have redesigned the My Account page that customers see after signing into your billing portal.\n\n<img src=\"https:\/\/invoiced.com\/docs\/img\/billing-portal-my-account.png\" class=\"img-responsive\" \/>\n\nOn the My Account page your customers can update their billing details, manage payment info, see outstanding (and past) invoices, download past receipts, and manage active subscriptions.\n\nPreviously this functionality was split across multiple pages. The result is a much more streamlined experience for your customer. The <a href=\"https:\/\/invoiced.com\/docs\/guides\/billing-portal\" target=\"_blank\">billing portal guide<\/a> has more detail on this feature.\n\nWe are also adding the ability for you to generate billing portal sign in links for customers from the dashboard. A sign in link lets a customer jump directly into the billing portal without going through the process of verifying their email address. Of course, you should be careful who you hand these out to. This feature might be useful for customers having trouble signing in, or else to preview what a customer will see once signed in.\n\nYou can generate sign in links by opening a customer profile in the dashboard and clicking Actions &rarr; Generate Sign In Link.",
+    "date": "2016-02-15"
+  },
+  {
+    "name": "Invoice Tags",
+    "body": "We now support tagging invoices. A tag is just a label that has some meaning to you, like \"west_coast_sales\" or \"2016_product_line\". You can add tags when drafting an invoice by clicking Options and using the new \"Tags\" field.\n\nYou can now filter invoices by tag on the Invoices page and on reports. Tagging can be useful for a variety of reasons: better organizing your invoices, tracking revenue by department, and more.",
+    "date": "2016-02-08"
+  },
+  {
+    "name": "Editable Renewal Dates",
+    "body": "Subscription renewal dates can now be edited by opening the subscription, hovering over the renewal date, and clicking the edit icon.",
+    "date": "2016-02-04"
+  },
+  {
+    "name": "Better Subscription Onboarding",
+    "body": "Creating subscriptions and onboarding customers has just gotten much easier. In addition to improving the interface for adding subscriptions, we are also releasing a new subscription onboarding flow for your customers on automatic collections.\n\nWe now let you send an onboarding request when subscribing a customer that has automatic collections enabled without a connected payment source. The request will ask your customer to subscribe by securely connecting a payment source, like a credit card or bank account.\n\nOur <a href=\"https:\/\/invoiced.com\/docs\/guides\/subscription-billing#creating-a-subscription\" target=\"_blank\">subscription billing guide<\/a> documents how this works in more detail.",
+    "date": "2016-02-02"
+  },
+  {
+    "name": "ACH Payments",
+    "body": "We are launching ACH payments in beta! You can learn more in this <a href=\"https:\/\/invoiced.com\/blog\/ach-payments\" target=\"_blank\">blog post<\/a>.",
+    "date": "2016-01-25"
+  },
+  {
+    "name": "Webhooks",
+    "body": "We are releasing an exciting new feature in beta today that developers are sure to love: webhooks!\n\nWhat\u2019s a webhook? A webhook is a callback that notifies your backoffice systems whenever important events happen within Invoiced, like an invoice being paid or a subscription becoming past due. There are many potential uses for webhooks like recording an entry in the books after receiving a payment or updating your membership system when a subscription renews. You can learn more in our new <a href=\"https:\/\/invoiced.com\/docs\/dev\/webhooks\" target=\"_blank\">Webhooks Guide<\/a>.\n\nHave a wonderful holiday season!",
+    "date": "2015-12-30"
+  },
+  {
+    "name": "Export Invoices to CSV",
+    "body": "Invoices can now be exported to CSV. You can export invoices individually by opening the invoice in the dashboard and clicking Actions &rarr; Download Invoice as CSV.\n\nYou can also export a batch of invoices to CSV by going to the Invoices &rarr; Batch Download page. Previously we only supported downloading a combined PDF for batches of invoices. The process has not changed, but now you can select CSV output instead.\n\nBoth of these additions make it easy to back up or manipulate invoice data inside of spreadsheet tools like Microsoft Excel.",
+    "date": "2015-12-01"
+  },
+  {
+    "name": "Subscriptions View",
+    "body": "We have replaced the Recurring Billing tab with Subscriptions. This makes it easier to see at a glance which customers are subscribed to a recurring plan and any upcoming renewals. Adding subscriptions has gotten easier too now that recurring plans can be created from the Add Subscription dialog. If you want to manage the recurring plans you offer that has been moved to Settings &rarr; Plans.",
+    "date": "2015-11-05"
+  },
+  {
+    "name": "Subscription Prorations",
+    "body": "We now support prorations on subscriptions. Changing either the plan, quantity, or addons while editing a subscription will cause a \"Prorate\" checkbox to appear. If you choose to prorate then your customer will receive credit for the unused time on the current plan and a charge for the time left on the new plan, according to the time remaining in the current billing cycle. An invoice or credit will be issued depending on whether the change was an upgrade or a downgrade.",
+    "date": "2015-10-15"
+  },
+  {
+    "name": "Improved Pricing",
+    "body": "Today we are updating our pricing to make Invoiced more affordable. You can read the full story in this <a href='https:\/\/invoiced.com\/blog\/improved-pricing-fall-2015' target='_blank'>blog post<\/a>. The summary is that our current plans got a bump in invoices, the Growth plan now supports unlimited users, and additional invoices cost 50 cents for any overages in a calendar month.",
+    "date": "2015-10-14"
+  },
+  {
+    "name": "Subscription Addons",
+    "body": "Subscriptions just got a bit more flexible. You can now add stored items, discounts, and taxes to a subscription as addons to the base price. It is perfect for billing additional recurring products and services that were upsold to the customer. There are new + Addon, + Discounts, and + Taxes buttons when adding or editing subscriptions. We hope you find this addition helpful, and we appreciate any feedback on it.",
+    "date": "2015-10-13"
+  },
+  {
+    "name": "Payment Statistics",
+    "body": "We added a nifty feature that gives you more insight into how long it takes to get paid. You can now see for each payment method you accept or each payment term you bill with just how long it takes to get paid. You can also see which customers pay the quickest, and the slowest. Simply click on \"Time to Pay\" in the dashboard to open these statistics.",
+    "date": "2015-10-12"
+  },
+  {
+    "name": "Download Invoices from Us",
+    "body": "You can now download invoices for your Invoiced subscription from the dashboard. Just head over to Settings &rarr; <a href=\"\/settings\/billing\">Billing<\/a> and click \"Download Invoice\" next to any invoice.",
+    "date": "2015-10-08"
+  },
+  {
+    "name": "A\/R Overview Report",
+    "body": "A new A\/R Overview report is available that gives you top-line numbers for a given time period, including the total invoiced and received, any bad debt, and the total number of invoices issued. The report is great for evaluating how the collections function of your business is performing.",
+    "date": "2015-10-03"
+  },
+  {
+    "name": "Changes to Sending",
+    "body": "We have made some small but important changes to sending on Invoiced. We are using more sane defaults and adding additional customization to the email templates.\n\nInvoice emails now by default include a button to the invoice's client view in your billing portal. We made this decision because there are many advantages to the client view over sending PDFs, like view tracking, file attachments, commenting, and payments. Another issue we are correcting is before it was possible to send an invoice email without a client view button or a PDF attachment. This is obviously a terrible situation because your client just received a totally useless email. Instead we now automatically append a client view button to your message if one is not already present AND a PDF was not attached.\n\nIf you prefer attaching PDFs instead then we have added an option on each email template to send PDFs instead of a client view button. Previously you had to make this choice for every email you send. Now you only have to make this choice once for each email template in Settings &rarr; <a href='\/settings\/emails'>Emails<\/a> &rarr; {template} &rarr; Customize. You can change the text on the client view buttons here also (if you want something different than \"View Invoice\").\n\nAlso, we believe that gratitude is important. If you feel the same way then we have just the feature for you! We can automatically send your client a thank you every time an invoice gets paid. Just head over to Settings &rarr; <a href='\/settings\/emails'>Emails<\/a> &rarr; Thank You Email &rarr; Customize in order to turn this feature on.",
+    "date": "2015-09-22"
+  },
+  {
+    "name": "Passwordless Billing Portal",
+    "body": "We are making a change to the billing portal that should make your customers' lives easier (and yours by extension). The billing portal is going passwordless!\n\nI know it sounds crazy but here's how it works. When a customer goes to your billing portal (yourusername.invoiced.com) they enter their email address to request a sign in link. If it matches one of your customer profiles we will send them a secure sign in link that expires within an hour. Clicking the sign in button will take your client directly to their account where they can see all of their invoices, submit payments, and manage their billing information just like before. We also sign customers in when they are viewing an invoice, but only temporarily.\n\nSecurity has not been sacrificed compared to the old login system because there was already a forgot password process where customers could receive a reset password link by entering their email address.\n\nGoing passwordless should be entirely transparent to your customers. It does not change nor break the existing workflow for paying invoices in any way. We simply no longer ask customers if they want to sign up for an account during the process. If a customer has already signed up for an account they will still be able to sign in with the same email address sans the password.\n\nWe made this change because the previous sign in feature required your customer to remember yet another password, and signing up for an account was unnecessarily cumbersome. This new approach makes the billing portal more white-labeled so your customers can focus more on paying you.",
+    "date": "2015-09-16"
+  },
+  {
+    "name": "Expected Payment Dates",
+    "body": "A new feature is out that allows you or your client to set an expected payment date for an invoice. The payment page of the billing portal has been overhauled to allow clients to notify you when they expect a payment to arrive (offline methods supported only). The idea is to make it easy to notify you when a check has been mailed.\n\nYou can also set an expected payment date from the dashboard by opening the invoice and clicking \"Set Payment Date\" underneath the invoice balance. We plan to follow up on this feature with further improvements to the billing portal. Stay tuned!",
+    "date": "2015-09-04"
+  },
+  {
+    "name": "Invoice Attachments",
+    "body": "We now support attaching files to invoices (and estimates). There's a new button to attach files when drafting invoices at the bottom of the page. We will display links to download attachments alongside your invoice in the client view. You can read more on our <a href='https:\/\/invoiced.com\/blog\/invoice-attachments' target='_blank'>attachments blog post<\/a>.",
+    "date": "2015-08-12"
+  },
+  {
+    "name": "New and Improved Importer Tool",
+    "body": "We are launching some major improvements to our importer tool. The importer lets you import customers, invoices, payments, and stored items into Invoiced. Next time you need to import data you can read <a href='https:\/\/support.invoiced.com\/knowledge_base\/topics\/importer-tool' target='_blank'>this article<\/a> to get the updated instructions.",
+    "date": "2015-08-06"
+  },
+  {
+    "name": "Failed Email Delivery Notifications",
+    "body": "We've always recorded in the dashboard when we could not deliver an email to a customer on your behalf. However, due to the nature of email sometimes we cannot know that an email was unable to be delivered until hours later, which makes it difficult to notice if you are not looking for it.\n\nA new notification is available that alerts you when an email attempt fails so you can take action immediately. We hope this makes sending on Invoiced more transparent. Like any other notification you can disable this in the <a href='\/settings\/notifications'>Notification Settings<\/a>.",
+    "date": "2015-08-04"
+  },
+  {
+    "name": "Custom Discounts, Taxes, and Shipping",
+    "body": "It's now possible to enter custom amounts for discounts, taxes, and shipping without creating a rate. For example, this would be used if you have an arbitrary tax amount that you need to add to your invoice, but do not want to reuse on future invoices.\n\n        We've made a few other subtle improvements around invoicing. Creating a new customer from the invoice page is more streamlined. Just start typing a name and we will give you a choice to add that name as a new customer. Also, there are improved dialogs for adding stored items and applying discount, tax, and shipping rates.",
+    "date": "2015-07-28"
+  },
+  {
+    "name": "Annual Pricing",
+    "body": "Due to popular demand we are now allowing you to pay for Invoiced on a yearly basis instead of just month-to-month. The best part is that when you pay annually we give you 2 months free every year!\n\nIf you want to pay annually then just head over to the <a href='\/settings\/billing'>Billing<\/a> page to switch to a yearly plan.",
+    "date": "2015-07-17"
+  },
+  {
+    "name": "Billing Engine v2",
+    "body": "Today we're launching some exciting improvements to the underlying billing engine on Invoiced! These improvements shouldn't impact your current workflow, but instead open up some new billing possibilities for your business. Here is what's new:\n\n- Automatic collection mode on customers allows invoices to be automatically charged when your customer has a payment source attached (credit card only for now). This new feature is being made available to everyone.\n\n- Your customer's payment source can be managed through the dashboard or in the billing portal via the Billing Profile page\n\n- Default payment terms can be set for a customer in manual collection mode\n\n- Recurring billing is now quicker and easier to set up\n\n- New email templates for subscription confirmation and cancellations are available\n\n- Logos have been optimized for retina screens. Just upload a higher resolution version (at least 400 pixels) in <a href='\/settings\/business'>Settings<\/a> to take advantage of this.\n\nYou can read more about <a href=' https:\/\/invoiced.com\/blog\/billing-engine-v2'>these updates on our blog<\/a>.",
+    "date": "2015-07-07"
+  },
+  {
+    "name": "Save Invoices as Drafts",
+    "body": "Invoices can now be saved as drafts. While in draft an invoice is not added to your customer's balance, nor is it accessible by your customer. When you are ready to post the invoice to your customer's account then you can issue it from the invoice summary screen by clicking Issue Invoice or the edit screen by clicking Save and Issue.",
+    "date": "2015-06-02"
+  },
+  {
+    "name": "Organized Invoices",
+    "body": "The Invoices screen has been cleaned up and better organized. It's easier to switch between invoices at various stages in the pipeline with the added tabs on the right. You can also see at a glance how many invoices you have in draft, outstanding, and past due.",
+    "date": "2015-05-27"
+  },
+  {
+    "name": "Invoice Aging Report",
+    "body": "A new report has been added: Invoice Aging. It gives you a breakdown on the aging (# days outstanding) of your unpaid invoices.",
+    "date": "2015-05-12"
+  },
+  {
+    "name": "Credits and Overpayments",
+    "body": "Today we're releasing some much needed improvements. We now support adding credits to a customer's balance. Simply open your customer's profile and click 'Add Credits' underneath their balance. Credits can be used like any other payment by selecting Balance as the method when recording a payment.\n\nIn addition, we are improving how we handle overpayments. Previously overpayments fell into a black hole (metaphorically speaking) because we did not communicate them to you well. Handling overpayments is very important because they are not reflected in your customers' balances.\n\nWith this release any overpaid invoices will now be labeled as 'Overpaid'. When you open an overpaid invoice there will be buttons to 'Convert into a credit' and 'Issue a refund'. In order to help you identify these overpaid invoices you can now filter invoices with an overpaid status in the Invoices section.\n\nFurthermore, if you want to streamline credits there are new 'Always Credit Overpayments' and 'Apply Credits to New Invoices' settings in Settings &rarr; Business &rarr; <a href='\/settings\/business'>Profile<\/a> under Credits. You can read more about <a href='https:\/\/support.invoiced.com\/knowledge_base\/topics\/overpayments' target='_blank'>overpayments<\/a> and <a href='https:\/\/support.invoiced.com\/knowledge_base\/topics\/credits' target='_blank'>credits<\/a> in the knowledge base.\n\n* Just to clarify, this release does not change how we calculate customer balances or how payments are applied. It simply gives you more flexibility when billing clients.",
+    "date": "2015-05-11"
+  },
+  {
+    "name": "Send Statements",
+    "body": "Statements can now be sent to your client. Simply open your client's profile, click More, and then Send Statement.",
+    "date": "2015-05-05"
+  },
+  {
+    "name": "Commenting",
+    "body": "Invoices and estimates now support comments! This makes it easy for your client to ask a question or communicate a billing issue. Your client can leave you a comment from the new Comments section in the client view for invoices and estimates. As the merchant you can access comments and reply through the dashboard in the new Comments tab on invoices and estimates. Enjoy!",
+    "date": "2015-05-04"
+  },
+  {
+    "name": "Split Payments Across Multiple Invoices",
+    "body": "It's now easier to split a single payment, like a check, across multiple invoices. In the Record Payment screen there is a new Split Payment checkbox. Checking it will allow you to enter the amount of the payment you received and we will help you split it up amongst several invoices. When you click Save we will create a separate payment for each invoice you selected.",
+    "date": "2015-04-25"
+  },
+  {
+    "name": "Bad Debt Report",
+    "body": "A new report has been added: Bad Debt. It shows invoices that are closed but not paid in full.",
+    "date": "2015-04-20"
+  },
+  {
+    "name": "Invoice Chasing",
+    "body": "We have overhauled the late payment reminders feature because the scheduling was too inflexible and often caused unwanted reminders to be sent. Our new invoice chasing feature supersedes late payment reminders and has been turned off by default for all accounts.\n\nYou can opt-in to chasing and set up your chasing schedule in Settings &rarr; <a href='\/settings\/chasing'>Chasing<\/a>. You must also enable chasing on a per-invoice basis on the invoice details screen by clicking Enable next to 'Chase'. In that same space you can see when the invoice is scheduled to be chased next. The <a href='https:\/\/support.invoiced.com\/knowledge_base\/topics\/invoice-chasing' target='_blank'>chasing KB article<\/a> explains it in more detail.",
+    "date": "2015-04-20"
+  },
+  {
+    "name": "Recurring Billing",
+    "body": "Last week we released a major update to recurring billing for the Startup and Growth plans. This means it's now possible to automatically charge client credit cards each billing cycle for subscriptions. You can read more about it on <a href='https:\/\/invoiced.com\/blog\/recurring-billing' target='_blank'>this blog post<\/a>.\n\nAlongside this update we are releasing some new UI improvements to subscriptions. Subscriptions now have a dedicated details page, complete with history. Any time you click on a subscription you will be taken here instead of the plan page. Subscriptions also now show up in the search results.\n\nWe're still looking to improve recurring billing and make it easier to use. Any feedback is greatly appreciated.",
+    "date": "2015-04-13"
+  },
+  {
+    "name": "Estimate Payment Terms",
+    "body": "Estimates now have an optional Payment Terms field like invoices.",
+    "date": "2015-04-06"
+  },
+  {
+    "name": "Themes and Templates",
+    "body": "When we initially launched Invoice Templates the world was a simpler place. Over time Invoice Templates came to be used for many things, and not just invoices, but also estimates and receipts. Today we are fixing this confusion by breaking Invoice Templates up into Themes and Templates.\n\nThemes control the appearance of estimates, invoices, and receipts. You can easily change field titles and even directly modify the HTML\/CSS if you are so inclined.\n\nTemplates act like a shortcut for estimates and invoices. You can set up a currency, payment terms, line items, rates, notes, and terms with a Template once for later reuse. Next time you are drafting a new estimate or invoice there will be an Apply Template button at the top right you can click to fill in your new Template. Templates now support line items so we think they will be much more useful.\n\nYou can go to Settings &rarr; <a href='\/settings\/themes'>Appearance<\/a> and Settings &rarr; <a href='\/settings\/templates'>Templates<\/a> to set these up.",
+    "date": "2015-04-06"
+  },
+  {
+    "name": "Close Estimates and Invoices",
+    "body": "We now let you close an estimate or invoice. Once closed, the estimate or invoice cannot be modified. We now automatically close estimates once they are approved and invoices once they are paid. If you close an unapproved estimate we will mark it as 'declined'. Also, closed invoices will stop being chased.\n\nYou can close estimates and invoices manually by opening it in the dashboard and going to Actions &rarr; Close Invoice. Once closed you can reopen it in the with Actions &rarr; Reopen Invoice.",
+    "date": "2015-03-20"
+  },
+  {
+    "name": "Charge Refunds",
+    "body": "It's now possible to refund charges from Stripe to your clients. You can find a 'Refund' button in the top right of the payment page. You may refund either the full amount on the charge or a partial amount. Please keep in mind that refunding a charge will affect the associated invoice's balance.",
+    "date": "2015-03-19"
+  },
+  {
+    "name": "Send Client Account Invites",
+    "body": "A new feature we are releasing today allows you to send invitations to your clients to create an Invoiced Client Account.\n\nWhen creating new contacts there is a \"Send Invite\" toggle you can click that will send out an invitation once you click Save. For existing contacts you can use the Actions &rarr; \"Send Invite\" button. You can find this in the Contacts section of your client's profile.",
+    "date": "2015-03-06"
+  },
+  {
+    "name": "Gmail Actions for Estimate and Invoice Emails",
+    "body": "We are always looking for better ways to get estimates and invoices into your client\u2019s hands. Now your clients will see a quick action from within Gmail to quickly open up an estimate or invoice. We hope this helps keep your client from missing out on important billing communications.\n\n<img src='https:\/\/invoiced.com\/blog\/img\/gmail-schema-actions.png' class='img-responsive' alt='Gmail schema actions'\/>",
+    "date": "2015-03-04"
+  },
+  {
+    "name": "Payment Terms on Subscriptions",
+    "body": "Subscriptions now support payment terms just like invoices, in addition to the \"Due In\" property. Whenever a recurring invoice is generated from a subscription it will now inherit its payment terms. You can set up subscription payment terms in the \"Add Subscription\" dialog.",
+    "date": "2015-02-23"
+  },
+  {
+    "name": "Easier Stored Items",
+    "body": "We have revamped the Stored Items feature. When creating an invoice or estimate there is a new \"+ Stored Item\" button next to the new line item button. This will open a dialog where you can easily select the stored items you want to add to your line items. The previous autocomplete for stored items has been removed in favor of this dialog.",
+    "date": "2015-02-20"
+  },
+  {
+    "name": "Improvements to Plans",
+    "body": "Today we are cleaning up some past mistakes from the recurring billing feature, Plans. A Plan used to just be an invoice with some special properties. Over time we have realized this is not very helpful so today we have dramatically simplified plans.\n\nBefore we did not let you change any aspect of a plan once it had subscribers. It was a silly limitation that is now gone. Please note that you still cannot change the amount of a plan with active subscribers nor delete it.\n\nYour existing plans have been migrated and should work the same. However, we highly recommend that you verify the details of your plans are still accurate in the Plans section. Please let us know if you find any issues.",
+    "date": "2015-02-16"
+  },
+  {
+    "name": "Payment Terms on Invoices",
+    "body": "Happy Monday everyone! Just wanted to let you know that invoices support a new field called Payment Terms. This field allows you to succinctly communicate to your client when an invoice is expected to be paid. Example terms include \"Due on Receipt\", \"NET 14\" (due in 14 days), or \"NET 30\" (due in 30 days). You are free to use any value you want here. And, as an added bonus the app will calculate the due date for you when you use NET D or Due on Receipt terms.\n\nYou can change the default payment terms in Settings &rarr; <a href='\/settings\/templates'>Templates<\/a> &rarr; Edit &rarr; Default Values.",
+    "date": "2015-02-02"
+  },
+  {
+    "name": "Improved Templates, Streamlined Client View, and Disabled Payment Methods",
+    "body": "We have released an improved template for estimates, invoices, and receipts. In addition to looking nicer the new template is more space-efficient. The client view has also been streamlined to make it even easier for your clients to pay. Any customized templates are now fully rendered in the client view instead of the stock template.\n\nIf you have any offline payment methods turned on then they have been moved from the invoice client view to the payment screen. Your clients can see how to pay you simply by clicking the Pay Now button from the bottom of the invoice client view.\n\nAnd lastly, a new Disabled Payment Methods setting is available when creating or editing invoices underneath Options. You could use this for example if you did not want to accept credit card payments for a large invoice.",
+    "date": "2015-01-28"
+  },
+  {
+    "name": "New Estimate Workflow with Approvals",
+    "body": "Estimates are also receiving some of the recent workflow improvements we made. This includes a redesigned estimate page that guides you through drafting the estimate all the way to getting it approved.\n\nWe also added a new approval feature for your clients to easily sign off on estimates. An estimate can be approved by your clients when they click View Estimate to go to the client view. There is a new Approve button in the client view where they may enter their initials to sign off. As soon as they approve we will notify you.",
+    "date": "2015-01-21"
+  },
+  {
+    "name": "Email Notifications",
+    "body": "When important events happen on your Invoiced account we will now notify you over email as they happen. We notify you when:\n- a client views an estimate\n- a client views an invoice\n- a client pays online\n- a client attempt to pay online fails\n\nIf you wish to turn off notifications for any of these events, you can do so in <a href='\/settings\/notifications'>Settings<\/a>.",
+    "date": "2015-01-20"
+  },
+  {
+    "name": "Better Invoice Workflow",
+    "body": "We recently rolled out some changes to the invoice page. The goal is to better guide you through the process of drafting an invoice to getting paid. We would love your feedback on this new feature.",
+    "date": "2015-01-19"
+  },
+  {
+    "name": "Improved Search and View Tracking",
+    "body": "Over the past week we have rolled out 2 new features. The first is an improved search bar. Search for anything and you will now get more accurate results an order of magnitude faster.\n\nSecond, view tracking tells you when a client views an invoice or estimate. This works when your client clicks the View Invoice or View Estimate buttons from an email. Once an unpaid invoice or estimate has been viewed it will have a Viewed status and the view event will be recorded in the History tab.",
+    "date": "2015-01-10"
+  },
+  {
+    "name": "Default Due Dates",
+    "body": "A new feature is available today that will let you specify when new invoices are due. This makes implementing payment terms like NET 14 and NET 30 a breeze.\n\nYou can set up your how many days invoices are due in by going to the <a href='\/settings\/templates'>Templates Settings<\/a>. Just click Edit, go to the Default Values tab, and change the Due In field. We highly recommend this setting as not specifying a due date on your invoices can delay payment.",
+    "date": "2015-01-05"
+  },
+  {
+    "name": "Improved Client Page",
+    "body": "We have added more detail to the client pages. You will now see recent estimates, invoices, and payments when viewing clients.\n\nThis update also allows you to look up estimates, invoices, and payments for a specific client. You can access this feature by clicking the Filter button when searching estimates, invoices, and payments.",
+    "date": "2015-01-04"
+  },
+  {
+    "name": "Quantity and Billing Cycles for Subscriptions",
+    "body": "Subscriptions now support a quantity for those clients with multiple subscriptions to the same plan. If you want to bill a client for a fixed duration you can now specify the number of billing cycles. This is great for setting up payment plans. You can use these new features when subscribing a client to a plan.\n\nSee you next year!",
+    "date": "2014-12-31"
+  },
+  {
+    "name": "Contacts, Multiple Email Recipients, and Titles for Estimates and Invoices",
+    "body": "It's Christmas time so we have some new features to share with you!\n\nThe first feature we are releasing is Contacts. Now you can save multiple contacts on your clients (name and email address). This is really helpful when you need to interact with multiple people within a company.\n\nSending emails has also been simplified. When sending you simply check the names of the people you want as recipients. Now it's possible to send to more than one person at once. When we send automated emails we send to all of the contacts marked as <strong>Primary<\/strong>.\n\nEstimates and invoices now support custom titles. We hope this helps you better organize your estimates and invoices and find what you are looking for faster. Titles are for internal use only and will not be seen by your clients.\n\nThe Invoiced team wishes you happy holidays!",
+    "date": "2014-12-24"
+  },
+  {
+    "name": "Failed Email Delivery Handling",
+    "body": "Reliable email delivery is essential for Invoiced. Today we are launching several improvements to email delivery, mostly around failed attempts.\n\nWhenever an email cannot be delivered we now give you a more detailed explanation why. If an automated email fails to be delivered, like a late payment reminder, we now create a failed delivery event in the dashboard so you can take action.",
+    "date": "2014-12-16"
+  },
+  {
+    "name": "Email Changes",
+    "body": "We have made a few changes related to emails. First, estimate and invoice emails no longer contain a PDF attachment by default. When sending emails there is a new Attach to PDF checkbox that is only on by default for Thank You and Payment Receipt emails.\n\nSecond, we added a dedicated Late Payment Reminder email template. Previously we used the Invoice template for this. If you already set up an Invoice email template then we used that to populate the reminder template. Please check out the <a href='\/settings\/emails'>Email Settings<\/a> to see what's new.",
+    "date": "2014-12-09"
+  },
+  {
+    "name": "Invoiced API in Beta",
+    "body": "Today we are kicking off the <a href=\"https:\/\/invoiced.com\/docs\/api\/\" target=\"_blank\">Invoiced Developer Program<\/a>! Our REST API is now in beta. Check it out to start building your own custom integrations or Invoiced-powered apps.",
+    "date": "2014-12-04"
+  }
+]
