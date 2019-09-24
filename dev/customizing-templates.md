@@ -1,12 +1,22 @@
 # Customizing Templates
 
-Invoiced ships with default templates for invoices, statements, and receipts, however, it's possible these templates do not match your business or branding needs. In this guide we will show you how to change the layout and appearance of the default templates.
-
-The underlying templates are HTML and CSS. Both the layout and styling can be customized. The first step is to head over to **Settings** &rarr; **Appearance** &rarr; **Layout**. Then turn on the switch next to **Use Custom Layout**.
-
-[![Customizable Invoice Templates](../img/pdf-template-editor.png)](../img/pdf-template-editor.png)
+Invoiced ships with multiple default templates for invoices, statements, and receipts, however, it's possible these templates do not match your business or branding needs. In this guide we will show you how to change the layout and appearance of the default templates.
 
 <p class="alert alert-info">This document describes v2 of our templating system. If you are using the legacy Mustache templating then you can find the <a href="/docs/dev/customizing-templates-legacy">docs here</a>. Please contact support@invoiced.com if you would like to be moved to the new templating system.</p>
+
+## Creating Custom Templates
+
+The underlying templates are HTML and CSS. Both the layout and styling can be customized. The first step is to head over to **Settings** &rarr; **Appearance** &rarr; **Custom Templates**. Then select the template type you want to create under **New Template**. You can also edit or duplicate an existing custom template from the list on the same screen.
+
+[![Custom Template list page](../img/pdf-template-list.png)](../img/pdf-template-list.png)
+
+Within each template, it is possible to adjust margins and create custom headers and footers. Template bodies, headers and footers are separate HTML/CSS file pairs.
+
+[![Custom Template editor page](../img/pdf-template-editor.png)](../img/pdf-template-editor.png)
+
+Once a custom template for a certain document type is created, it can be selected for use from the corresponding drop-down menu in **Settings** &rarr; **Appearance** &rarr; **Design**.
+
+[![Custom Template selection page](../img/pdf-template-selector.png)](../img/pdf-template-selector.png)
 
 ## Syntax
 
