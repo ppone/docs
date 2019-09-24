@@ -1,5 +1,10 @@
 [
   {
+    "name": "Feature Request Board",
+    "body": "We love hearing customer feedback! In order to better facilitate this we have a new feature requests board where you can submit feedback, see features requested by other customers, and upvote feature requests. <a href='https://invoiced.featureupvote.com' target='_blank'>Click here</a> to see the feature request board.",
+    "date": "2019-09-24"
+  },
+  {
     "name": "Customer Time to Pay and Payment Statistic Reports",
     "body": "We have added two new reports to help you better understand customer payment patterns. Head over to the Reports page to try it out!",
     "date": "2019-09-20"
