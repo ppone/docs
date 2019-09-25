@@ -1,5 +1,10 @@
 [
   {
+    "name": "Put Subscriptions on Pause",
+    "body": "A new or existing subscription can now be paused. When paused, a subscription will not generate any invoices. When resumed you will have the option to start the subscription on the date where you left off or schedule a different start date.",
+    "date": "2019-09-25"
+  },
+  {
     "name": "Feature Requests",
     "body": "We love hearing customer feedback! In order to better facilitate this we have a new feature requests board where you can submit feedback, see features requested by other customers, and upvote feature requests. <a href='https://feedback.invoiced.com/' target='_blank'>Click here</a> to see the feature requests board.",
     "date": "2019-09-24"
