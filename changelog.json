@@ -1,7 +1,7 @@
 [
   {
     "name": "Put Subscriptions on Pause",
-    "body": "A new or existing subscription can now be paused. When paused, a subscription will not generate any invoices. When resumed you will have the option to start the subscription on the date where you left off or schedule a different start date.",
+    "body": "Running subscriptions can now be paused. When paused, a subscription will not generate any invoices. When resumed you will have the option to start the subscription on the date where you left off or schedule a different start date. On the subscription detail screen click Actions &rarr; Pause Subscription to pause a subscription.",
     "date": "2019-09-25"
   },
   {
