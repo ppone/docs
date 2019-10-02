@@ -1,5 +1,10 @@
 [
   {
+    "name": "Invoiced Payments",
+    "body": "Today we have a major update to share! We are launching a new payment processing service called Invoiced Payments.\n\nWith Invoiced Payments you can accept credit card, debit card, and ACH payments without the need of a third-party gateway. We offer transparent, competitive rates with no setup fees or monthly costs. You only pay per successful transaction. This new service is seamlessly integrated into Invoiced. Within minutes you can sign up and begin accepting payments.\n\nInvoiced Payments is initially available to businesses in the U.S. and Canada. If you would like to sign up for Invoiced Payments, or simply learn more, you can head over to Settings &rarr; Payments.",
+    "date": "2019-10-02"
+  },
+  {
     "name": "Put Subscriptions on Pause",
     "body": "Running subscriptions can now be paused. When paused, a subscription will not generate any invoices. When resumed you will have the option to start the subscription on the date where you left off or schedule a different start date. On the subscription detail screen click Actions &rarr; Pause Subscription to pause a subscription.",
     "date": "2019-09-25"
