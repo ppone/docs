@@ -1,5 +1,10 @@
 [
   {
+    "name": "Billing in Arrears",
+    "body": "Our subscription billing system now allows for billing in arrears, meaning an invoice is generated at the end of the billing cycle. Previously it was only possible to bill in advance. You can use the billing in arrears option when creating a subscription. Stay tuned for more subscription billing improvements!",
+    "date": "2019-10-08"
+  },
+  {
     "name": "Invoiced Payments",
     "body": "Today we have a major update to share! We are launching a new payment processing service called Invoiced Payments.\n\nWith Invoiced Payments you can accept credit card, debit card, and ACH payments without the need of a third-party gateway. We offer transparent, competitive rates with no setup fees or monthly costs. You only pay per successful transaction. This new service is seamlessly integrated into Invoiced. Within minutes you can sign up and begin accepting payments.\n\nInvoiced Payments is initially available to businesses in the U.S. and Canada. If you would like to sign up for Invoiced Payments, or simply learn more, you can head over to Settings &rarr; Payments.",
     "date": "2019-10-02"
