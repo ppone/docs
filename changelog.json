@@ -1,5 +1,10 @@
 [
   {
+    "name": "Voiding Transactions",
+    "body": "You can now void an open invoice, credit note, or estimate. Unlike deletions, voiding a document maintains a record in the system for better auditability. Similar to a deletion, voiding a document is permanent, voided documents cannot be viewed by customers, and payments cannot be applied because money is no longer owed.",
+    "date": "2019-10-14"
+  },
+  {
     "name": "Billing in Arrears",
     "body": "Our subscription billing system now allows for billing in arrears, meaning an invoice is generated at the end of the billing cycle. Previously it was only possible to bill in advance. You can use the billing in arrears option when creating a subscription. Stay tuned for more subscription billing improvements!",
     "date": "2019-10-08"
