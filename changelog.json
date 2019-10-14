@@ -1,5 +1,10 @@
 [
   {
+    "name": "Bill to Parent",
+    "body": "There is a new customer setting called Bill To Parent. When enabled the parent customer's details will be presented on the invoice in the Bill To location.",
+    "date": "2019-10-14"
+  },
+  {
     "name": "Voiding Transactions",
     "body": "You can now void an open invoice, credit note, or estimate. Unlike deletions, voiding a document maintains a record in the system for better auditability. Similar to a deletion, voiding a document is permanent, voided documents cannot be viewed by customers, and payments cannot be applied because money is no longer owed.",
     "date": "2019-10-14"
