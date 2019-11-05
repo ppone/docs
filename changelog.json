@@ -1,5 +1,10 @@
 [
   {
+    "name": "Advance Billing",
+    "body": "This new subscription billing feature can generate invoices ahead of the billing period to ensure timely payment. Previously with bill in advance the invoice would be generated at the start of the billing period. You can now use the days in advance option when creating a subscription to issue invoices N days before the billing period begins.",
+    "date": "2019-11-05"
+  },
+  {
     "name": "New Look!",
     "body": "Invoiced is sporting a new look! We have released a major improvement to the design foundation of our application. In the process we also improved a few key areas like the dashboard and customer report to provide more relevant information, such as making billing KPIs and action items front and center. Let us know what you think!",
     "date": "2019-10-21"
