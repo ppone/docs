@@ -48,7 +48,7 @@ In this section you will learn how to use the QuickBooks Online integration.
 
 ### Enabling Auto-Sync
 
-Auto-sync will run accounting syncs automatically for you on an ongoing basis. Once auto-sync is enabled, accounting syncs will happen approximately once per hour. If you enable invoice and payment importing, those will happen in near real-time as those invoices and payments are created on QuickBooks.
+Auto-sync will run accounting syncs automatically for you on an ongoing basis. Once auto-sync is enabled, accounting syncs will happen once per day. If you enable invoice and payment importing, those will happen in near real-time as those invoices and payments are created on QuickBooks.
 
 Here's how you can enable auto-sync:
 

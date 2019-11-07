@@ -97,7 +97,7 @@ In this section you will learn how to use the NetSuite integration.
 
 ### Enabling Auto-Sync
 
-Auto-sync will run accounting syncs automatically for you on an ongoing basis. Once auto-sync is enabled, accounting syncs will happen approximately once per hour. Here's how you can enable auto-sync:
+Auto-sync will run accounting syncs automatically for you on an ongoing basis. Once auto-sync is enabled, accounting syncs will happen once per day. Here's how you can enable auto-sync:
 
 1. Go to **Settings** &rarr; **Accounting Sync**. Click **Configure** on the NetSuite integration.
 
