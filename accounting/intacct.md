@@ -93,7 +93,7 @@ The Invoiced Customization Package can be installed on Intacct
    
    *If you are using an Invoiced sandbox account download [this package](https://invoiced-static.s3.us-east-2.amazonaws.com/intacct/invoiced_sandbox.xml) instead.*
 
-2. The Invoiced package will install custom fields on the `Sales Invoice` and `Sales Credit Memo` transaction definitions by default. If you are using different transaction definitions you can modify the downloaded XML to replace the values within the `<documentType></documentType>` tags with a comma-separated list of transaction definition names you want to bring into Invoiced.
+2. The Invoiced package will install custom fields on the `Sales Invoice` and `Sales Credit Memo` transaction definitions by default. If you are using different transaction definitions you can modify the downloaded XML to change or add `<documentType></documentType>` tags to change the data brought into Invoiced.
 
 3. Install the Invoiced package on Intacct in the **Customization Services** section.
 
