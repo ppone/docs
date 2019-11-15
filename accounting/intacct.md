@@ -83,29 +83,17 @@ The next step is to set up a web services user for Invoiced on Intacct. It is re
 
    [![Intacct Integration Settings](../img/intacct-integration-settings.png)](../img/intacct-integration-settings.png)
 
-5. You can customize the integration, including the account mapping into your general ledger and enabling automatic reconciliation. You can optionally enter in location ID and/or department ID dimensions if you want to tag the line items on Intacct that are created by the Invoiced sync with these dimensions. If you are importing invoices from Intacct then the dimension settings are irrelevant. Click **Save** to finish setting up the Intacct integration.
+5. You can customize the integration, including the account mapping into your general ledger and enabling automatic reconciliation. You can optionally enter in location ID and/or department ID dimensions if you want to tag the line items on Intacct that are created by the Invoiced sync with these dimensions. If you are importing invoices from Intacct then the dimension settings are irrelevant.
+
+6. Click **Save & Download Customization** to save your settings and download the customization package needed in the next step.
 
 ### Install the Invoiced Customization Package
 
-The Invoiced Customization Package can be installed on Intacct
+The Invoiced Customization Package generated in the previous step can be installed on Intacct to add new custom fields needed by the integration and instantly import transactions from Intacct.
 
-1. Download the [Invoiced Customization Package here](https://invoiced-static.s3.us-east-2.amazonaws.com/intacct/invoiced.xml).
-   
-   *If you are using an Invoiced sandbox account download [this package](https://invoiced-static.s3.us-east-2.amazonaws.com/intacct/invoiced_sandbox.xml) instead.*
-
-2. The Invoiced package will install custom fields on the `Sales Invoice` and `Sales Credit Memo` transaction definitions by default. If you are using different transaction definitions you can modify the downloaded XML to change or add `<documentType></documentType>` tags to change the data brought into Invoiced.
-
-3. Install the Invoiced package on Intacct in the **Customization Services** section.
+1. Find the `invoiced.xml` file generated in the previous section. This file is tied to your Invoiced account. Do not share it with anyone! Install the Invoiced package on Intacct in the **Customization Services** section.
 
    [![Intacct Customization Package Install](../img/intacct-customization-package-install.png)](../img/intacct-customization-package-install.png)
-
-4. Generate a new API key on Invoiced in **Settings** &rarr; **Developers**.
-
-   [![Generate Invoiced API key](../img/intacct-create-api-key.png)](../img/intacct-create-api-key.png)
-
-5. Go to the edit company details screen on Intacct. Enter the API key into the **Invoiced API Key** field and save.
-
-   [![Enter API key into Intacct](../img/intacct-save-api-key.png)](../img/intacct-save-api-key.png)     
 
 ## Usage
 
