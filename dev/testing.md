@@ -18,22 +18,28 @@ When using the test gateway you can use the payment information below to simulat
 
 #### Credit Card
 
-Brand            | Number                 
----------------- | ---------------------- 
-Visa             | `4242 4242 4242 4242` 
-Visa             | `4111 1111 1111 1111`  
-MasterCard       | `5454 5454 5454 5454`
-American Express | `3782 822463 10005` 
-Discover         | `6011 1111 1111 1117`
-Diners Club      | `3056 9309 0259 04`
-JCB              | `3530 1113 3330 0000`
-UnionPay         | `6200 0000 0000 0005`
+Brand                | Number                
+-------------------- | ----------------------
+Visa                 | `4242 4242 4242 4242`
+Visa                 | `4111 1111 1111 1111`
+Visa (debit)         | `4000 0566 5566 5556`
+MasterCard           | `5454 5454 5454 5454`
+MasterCard           | `2223 0031 2200 3222`
+MasterCard (debit)   | `5200 8282 8282 8210`
+MasterCard (prepaid) | `5105 1051 0510 5100`
+American Express     | `3782 822463 10005`
+Discover             | `6011 1111 1111 1117`
+Diners Club          | `3056 9300 0902 0004`
+Diners Club          | `3056 9309 0259 04`
+JCB                  | `3530 1113 3330 0000`
+UnionPay             | `6200 0000 0000 0005`
 
 #### Credit Card Failures
 
 Brand            | Number                 | Description
 ---------------- | ---------------------- | -------------
 Visa             | `4000 0000 0000 0069`  | Declined charge
+Visa             | `4000 0000 0000 0127`  | Vaulting or charging will fail
 
 #### ACH
 
@@ -43,12 +49,18 @@ Account Number   | Routing Number
 ---------------- | ----------------------
 `123456789`      | `110000000`
 
+#### Deposit Verification Amounts
+
+If you are testing the micro-deposit verification flow you can use `$0.35` and `$0.45` as the amounts. Any other amounts will fail.
+
 #### ACH Failures
 
 Account Number   | Routing Number         | Description
 ---------------- | ---------------------- | -------------
 `123123456`      | `123123123`            | Declined charge
-`123123893`      | `123123123`            | Pending charge
+`123123893`      | `123123123`            | Pending charge, will succeed
+`000222222227`   | `123123123`            | Pending charge, will fail
+`000111111116`   | `123123123`            | Vaulting or charging will fail
 
 #### SEPA
 
