@@ -412,6 +412,10 @@
           "name": "NMI"
         },
         {
+          "id": "salesforce",
+          "name": "Salesforce"
+        },
+        {
           "id": "slack",
           "name": "Slack"
         },

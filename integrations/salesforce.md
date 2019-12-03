@@ -1,0 +1,66 @@
+# Salesforce Integration
+
+The Invoiced for Salesforce app adds accounts receivable automation capabilities to Salesforce. Installing the native Salesforce app allows you to sync Invoiced billing data with Salesforce.
+
+[![Invoiced Salesforce Integration](../img/salesforce-integration.png)](../img/salesforce-integration.png)
+
+## Capabilities
+
+The Salesforce integration can synchronize the following data with Invoiced. Since most of these are not standard Salesforce objects, our app will install the custom objects and custom fields needed to give you these new capabilities. 
+- Accounts (Customers)
+- Contacts
+- Invoices
+- Credit Notes
+- Estimates
+- Subscriptions
+- Payments
+- Payment Methods (Credit Cards and Bank Accounts)
+- Notes
+- Emails
+
+## Setup
+
+The package can be installed in any Salesforce org, including Developer and Sandbox editions
+
+1. [Install the package here](https://na85.lightning.force.com/packagingSetupUI/ipLanding.app?apvId=04t1U000007Y0sW)
+
+   Note: If you are installing into a sandbox organization you must replace the initial portion of the URL with https://test.salesforce.com
+
+2. Now you need to add your Invoiced API key to the package. Go to the Invoiced application from the Salesforce app launcher. Click on the **Settings** page at the top of the screen. Click on the **Connection** tab.
+
+3. Obtain an API key from the Invoiced dashboard. You can do this in **Settings** &rarr; **Developers** &rarr; **New API Key**.
+
+   [![Salesforce API Key](../img/salesforce-api-key.png)](../img/salesforce-api-key.png)
+
+4. Enter in the secret of the API key that you just created into the API Key field on Salesforce. If you are connecting to an Invoiced sandbox account then check the *Use Invoiced Sandbox* option.
+
+   If you have an Invoiced multi-entity setup then check the *Enable Multi-Entity Support* checkbox.
+
+   [![Salesforce Connection Setup](../img/salesforce-connection-setup.png)](../img/salesforce-connection-setup.png)
+
+5. Click **Save Settings** to enable the Salesforce integration.
+
+6. Click on the **Sync** tab.
+
+   [![Salesforce Connection Setup](../img/salesforce-sync-settings.png)](../img/salesforce-sync-settings.png)
+
+7. Check the syncs you want to enable and click **Save Settings**. Then click **Enable Syncing** at the top of the screen.
+
+   [![Salesforce Enable Sync](../img/salesforce-enable-sync.png)](../img/salesforce-enable-sync.png)
+
+8. Add customizations to Account Layout to add fields you wish to see:
+   - Account Balance
+   - Create on Invoiced
+   - Billing Email
+   - Invoiced Entity
+
+9. Add related lists to Account Layout you wish to see:
+   - Invoices
+   - Estimates
+   - Credit Notes
+   - Payments
+   - Subscriptions
+   - Credit Cards
+   - Bank Accounts
+
+10. Now you will start to see data syncing between the two systems.
