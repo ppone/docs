@@ -22,9 +22,11 @@ The Salesforce integration can synchronize the following data with Invoiced. Sin
 
 The package can be installed in any Salesforce org, including Developer and Sandbox editions
 
-1. [Install the package here](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007Y0sb)
+1. [Install the package here](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007Y0t0)
 
    Note: If you are installing into a sandbox organization you must replace the initial portion of the URL with https://test.salesforce.com
+
+   [![Salesforce App Install](../img/salesforce-app-install.png)](../img/salesforce-app-install.png)
 
 2. Obtain an API key from the Invoiced dashboard. You can do this in **Settings** &rarr; **Developers** &rarr; **New API Key**.
 
