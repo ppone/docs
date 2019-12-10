@@ -1,5 +1,10 @@
 [
   {
+    "name": "Salesforce Integration",
+    "body": "We are releasing a major new version of our Salesforce integration today that runs natively on Salesforce. The new integration syncs customers, contacts, invoices, notes, emails, payments, and more with Salesforce.\n\nYou can read the <a href='https://invoiced.com/docs/integrations/salesforce' target='_blank'>Salesforce integration documentation</a> to learn more about the capabilities and also for instructions to setup the integration.",
+    "date": "2019-12-10"
+  },
+  {
     "name": "Advance Billing",
     "body": "This new subscription billing feature can generate invoices ahead of the billing period to ensure timely payment. Previously with bill in advance the invoice would be generated at the start of the billing period. You can now use the days in advance option when creating a subscription to issue invoices N days before the billing period begins.",
     "date": "2019-11-05"
