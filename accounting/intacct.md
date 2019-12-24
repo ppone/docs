@@ -97,39 +97,11 @@ The Invoiced Customization Package generated in the previous step can be install
 
 ## Usage
 
-In this section you will learn how to use the Intacct integration.
+Once the integration is configured and the customization package is installed, new transactions will begin to sync with Intacct automatically. If you wish to import existing customers or invoices please continue reading.
 
-### Enabling Auto-Sync
+### Import Existing Invoices
 
-Auto-sync will run accounting syncs automatically for you on an ongoing basis. Once auto-sync is enabled, accounting syncs will happen once per day. Here's how you can enable auto-sync:
-
-1. Go to **Settings** &rarr; **Accounting Sync**. Click **Configure** on the Intacct integration.
-
-   [![Intacct Accounting Sync](../img/intacct-accounting-sync-connected.png)](../img/intacct-accounting-sync-connected.png)
-
-2. Enable the *Reconcile to Intacct* option.
-
-   [![Intacct Integration Settings Enable Auto-Sync](../img/intacct-integration-settings-enable-auto-sync.png)](../img/intacct-integration-settings-enable-auto-sync.png)
-
-3. Click **Save**. You can periodically check back here to see when the next sync run is scheduled or see past activity in the *Recent Syncs* table.
-
-   [![Intacct Auto-Sync Enabled](../img/intacct-auto-sync-enabled.png)](../img/intacct-auto-sync-enabled.png)
-
-### Running Syncs Manually
-
-If you want control over when your books are synced then you can manually trigger accounting syncs. You can run an accounting sync by following these steps:
-
-1. Go to **Settings** &rarr; **Accounting Sync**.
-
-   [![Intacct Accounting Sync](../img/intacct-accounting-sync-connected.png)](../img/intacct-accounting-sync-connected.png)
-
-2. Click **Sync Now** underneath *Intacct* any time you want to run an accounting sync. When the job is finished you will see it in the *Recent Syncs* table.
-
-   [![Intacct Accounting Sync](../img/intacct-accounting-sync.png)](../img/intacct-accounting-sync.png)
-
-### Manual Invoice Imports
-
-You can import outstanding invoices from the Intacct Order Entry module using our Intacct invoice importer.
+You can import outstanding invoices from the Intacct Order Entry module using our Intacct invoice importer. This is useful after setting up the integration to pull in invoices that were created before the integration was installed.
 
 Instructions:
 
@@ -153,9 +125,9 @@ Instructions:
 
    [![Intacct Invoice Import Finished](../img/intacct-invoice-importer-finished.png)](../img/intacct-invoice-importer-finished.png)
 
-### Manual Customer Imports
+### Import Entire Customer List
 
-You can import customers from Intacct into Invoiced as a one-time import. Why might you use this? The accounting sync will only import customers that have invoices, whereas a manual import will bring in your entire A/R customer list.
+You can import your entire customer list from Intacct into Invoiced as a one-time import. Why might you use this? The sync process will only import customers that have invoices, whereas a customer import will bring in your entire A/R customer list.
 
 Instructions:
 
@@ -201,9 +173,9 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 ## Troubleshooting
 
-When a sync fails you will be able to see the error message in the *Recent Syncs* section in **Settings** &rarr; **Accounting Sync**. Normally the error message will include the invoice # that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end.
+When a record fails to sync you will be able to see the error message in the *Reconciliation Errors* section in **Settings** &rarr; **Accounting Sync**. Normally the error message will include the record identifier that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end. Once that is resolved you can either ignore or retry the record.
 
-Below we have documented commonly encountered errors and recommended resolutions. If you are still unable to get your books synced then please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
+Below we have documented commonly encountered errors and recommended resolutions. If you are still unable to get your data synced then please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
 
 ### Finding Your Intacct Company ID
 
@@ -240,9 +212,3 @@ Change the Payments Summary frequency to either Daily or Monthly. To do so, comp
 ### DL02000001 error
 
 When an import fails with a `DL02000001` error code then that means the importer was trying to retrieve a field that did not exist on an Intacct object. This could happen if you have modified an object definition to remove or modify a standard field that our importer requests, or if you have configured the importer to pull in a custom field that does not exist on Intacct.
-
-### Imported Intacct invoice no longer exists
-
-> Intacct invoice with recordno = XXX, does not exist even though it was imported
-
-When you see this error message then that means the original A/R invoice that was imported to Invoiced has been deleted on Intacct. In order to continue syncing payments please make sure not to remove imported invoices on Intacct. If the invoice no longer exists on Intacct then you can skip the invoice in future syncs and reconcile any payments received for the invoice by hand.
