@@ -93,7 +93,7 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 - Customers on Invoiced are mapped to customers on QuickBooks by the name. Please keep in mind that QuickBooks does not allow multiple customers with the same name, but Invoiced does allow duplicates.
 
-- Any open credits on QuickBooks are applied to the open invoices before importing.  You can request this to be turned off by emailing support@invoiced.com.
+- Open invoices for active customers will be imported into Invoiced. Invoices that are closed or belong to inactive customers will not be imported.
 
 - Modifications to invoices on Invoiced after they are synced will do nothing to the corresponding invoice in QuickBooks.
 
