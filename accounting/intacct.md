@@ -63,7 +63,7 @@ The next step is to set up a web services user for Invoiced on Intacct. It is re
 
 2. In the Web Services authorizations section, click the + icon above the top-right corner of the table.
 
-3. Enter in *invoiced* as the **Sender ID**. Click **Save**.
+3. Enter in *Invoiced* as the **Sender ID**. *Please note the sender id is case sensitive and starts with a capital I*. Click **Save**.
 
    [![Intacct Web Services Authorization](../img/intacct-web-services-authorization.png)](../img/intacct-web-services-authorization.png)
 
