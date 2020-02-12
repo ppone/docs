@@ -35,3 +35,31 @@ Like customers, internal Invoiced users have the ability to apply a payment to a
 ## AutoPay
 
 Credit card payments work with [AutoPay](/docs/payments/autopay) when your customer has a saved card on file.
+
+## Convenience Fees
+
+Credit card payments support charging customers a convenience fee when they pay with a debit or credit card. A convenience fee is a % markup added to the final transaction amount. You may charge up to 4% convenience fees.
+
+### Where convenience fees are applied
+When enabled, convenience fees add a % fee to the total payment amount of any credit or debit card charge. Convenience fees are not applied towards outstanding balances.
+- Payments in the customer portal, including invoice payments, estimate deposits, and sign up pages
+- AutoPay payments
+- Payments made through Virtual Terminal
+
+### Setup
+
+Convenience fees can be setup with the following instructions:
+
+1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
+
+2. Click **Configure** on the *Credit Card* payment method.
+
+3. In the **Convenience Fee** field enter the % you wish to charge, up to 4%.
+
+  [![Convenience Fee Setup](../img/convenience-fee-setup.png)](../img/convenience-fee-setup.png)
+
+4. Click **Save** to go live with convenience fees.
+
+When a customer makes a payment with a credit or debit card they will see a warning on the payment page about the convenience fee.
+
+[![Credit Card Convenience Fee](/docs/img/credit-card-convenience-fee.png)](/docs/img/credit-card-convenience-fee.png)

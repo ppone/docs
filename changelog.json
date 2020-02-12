@@ -1,5 +1,10 @@
 [
   {
+    "name": "Convenience Fees",
+    "body": "Convenience Fees, a much requested feature is now available! With convenience fees you can charge a % markup to customers paying with debit or credit card. See the <a href='https://invoiced.com/docs/payments/card#convenience-fees' target='_blank'>Convenience Fee documentation</a> to learn more.",
+    "date": "2020-02-12"
+  },
+  {
     "name": "Salesforce Integration",
     "body": "We are releasing a major new version of our Salesforce integration today that runs natively on Salesforce. The new integration syncs customers, contacts, invoices, notes, emails, payments, and more with Salesforce.\n\nYou can read the <a href='https://invoiced.com/docs/integrations/salesforce' target='_blank'>Salesforce integration documentation</a> to learn more about the capabilities and also for instructions to setup the integration.",
     "date": "2019-12-10"
