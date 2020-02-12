@@ -1,20 +1,20 @@
-# Single Sign-On
+# Magic Links
 
-With Single Sign-On (SSO) customers can seamlessly sign into your customer portal from your app or website.
+With Magic Links customers can seamlessly sign into your customer portal from your app or website.
 
-Our SSO feature lets you securely generate URLs to sign customers into your [customer portal](/docs/guides/billing-portal). This is perfect for redirecting users already authenticated within your app or service into your customer portal without the need for them to sign in once more.
+Magic Links are a secure passwordless authentication mechanism that lets you securely generate URLs to sign customers into your [customer portal](/docs/guides/billing-portal). This is perfect for redirecting users already authenticated within your app or service into your customer portal without the need for them to sign in once more.
 
-## Generating SSO URLs
+## Generating Magic Links
 
-1. Obtain your SSO key from the dashboard
+1. Obtain your Magic Link key from the dashboard
    
-   You can grab the secret key for generating SSO URLs for your account in **Settings** &rarr; **Developers** &rarr; **Single Sign-On** within the dashboard.
+   You can grab the secret key for generating Magic Links for your account in **Settings** &rarr; **Developers** &rarr; **Magic Links** within the dashboard.
 
-   **WARNING**: Keep your SSO key secret! It should only be used on servers under your control and never exposed in client-side code.
+   **WARNING**: Keep your Magic Link key secret! It should only be used on servers under your control and never exposed in client-side code.
 
-2. Generate an SSO token
+2. Generate a sign in token
 
-   Using your SSO key you can generate [JWT tokens](https://jwt.io) from your backend that tell us which customer to sign in.
+   Using your Magic Link key you can generate [JWT tokens](https://jwt.io) from your backend that tell us which customer to sign in.
   
    Choose your language:
    
@@ -26,7 +26,7 @@ Our SSO feature lets you securely generate URLs to sign customers into your [cus
 
    ```ruby
    require "invoiced"
-   client = Invoiced::Client.new("{YOUR_API_KEY}", false, "{YOUR_SSO_KEY}")
+   client = Invoiced::Client.new("{YOUR_API_KEY}", false, "{YOUR_MAGIC_LINK_KEY}")
    
    customerId = 1234
    ttl = 3600 # 1 hour
@@ -36,7 +36,7 @@ Our SSO feature lets you securely generate URLs to sign customers into your [cus
    
    ```php
    use Invoiced\Client;
-   $invoiced = new Client("{YOUR_API_KEY}", false, "{YOUR_SSO_KEY}");
+   $invoiced = new Client("{YOUR_API_KEY}", false, "{YOUR_MAGIC_LINK_KEY}");
    
    $customerId = 1234;
    $ttl = 3600; // 1 hour
@@ -46,20 +46,20 @@ Our SSO feature lets you securely generate URLs to sign customers into your [cus
    
    ```java
    import com.invoiced.util.SingleSignOn;
-   SingleSignOn sso = new SingleSignOn("{YOUR_SSO_KEY}");
+   SingleSignOn magicLink = new SingleSignOn("{YOUR_MAGIC_LINK_KEY}");
    
    int customerId = 1234;
    int ttl = 3600; // 1 hour
-   token = sso.generateToken(customerId, ttl);
+   token = magicLink.generateToken(customerId, ttl);
    ```
 
-3. Build the SSO URL
+3. Build the URL
 
-   Now you can plug your freshly generated token into an SSO URL (replace `yourcompany` with your Invoiced username):
+   Now you can plug your freshly generated token into a sign in URL (replace `yourcompany` with your Invoiced username):
 
    `https://{yourcompany}.invoiced.com/login/{generated_token}`
 
-   You can now link your freshly generated SSO URL from your website or else redirect users here.
+   You can now link your freshly generated URL from your website or else redirect users here.
 
    ```ruby
    url = "https://yourcompany.invoiced.com/login/#{token}"
@@ -73,11 +73,11 @@ Our SSO feature lets you securely generate URLs to sign customers into your [cus
    String url = "https://yourcompany.invoiced.com/login/" + token
    ```
    
-## Generating SSO tokens without a client library
+## Generating Magic Links without a client library
 
-If you are using a language not supported with an official Invoiced client library then you can still generate single sign-on URLs. The steps to generate a JWT token will vary by language, however, there are many open source libraries that make it a simple process.
+If you are using a language not supported with an official Invoiced client library then you can still generate Magic Links. The steps to generate a JWT token will vary by language, however, there are many open source libraries that make it a simple process.
 
-Any JWT tokens you generate should be signed using the `HS256` algorithm with your SSO key. The token should have the following parameters for the header:
+Any JWT tokens you generate should be signed using the `HS256` algorithm with your Magic Link key. The token should have the following parameters for the header:
 
 ```bash
 {
@@ -108,12 +108,12 @@ We recommend taking a look at [jwt.io](https://jwt.io) to verify that tokens you
 
 ### Example
 
-Here is an example showing how to generate an SSO URL in Ruby with the `jwt` gem (as opposed to using the invoiced-ruby library):
+Here is an example showing how to generate a Magic Link in Ruby with the `jwt` gem (as opposed to using the invoiced-ruby library):
 
 ```
 require 'jwt'
 
-sso_key = '{sso_key_from_dashboard}'
+magic_link_key = '{magic_link_key_from_dashboard}'
 
 exp = Time.now + 86400 # link expires in 1 day
 
@@ -123,7 +123,7 @@ payload = {
 :exp => exp.to_i
 }
 
-token = JWT.encode payload, sso_key, 'HS256'
+token = JWT.encode payload, magic_link_key, 'HS256'
 
 # eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEyMzQsImlzcyI6IlJ1YnkgQmFja2VuZCIsImV4cCI6MTQ1NTY1MjIxMH0.7kClQ2UAVEZ7xYus7ZHGRePnzDG5mBrcgIo6rZuo-Dw
 puts token

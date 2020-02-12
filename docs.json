@@ -471,6 +471,10 @@
           "name": "File Attachments"
         },
         {
+          "id": "single-sign-on",
+          "name": "Magic Links"
+        },
+        {
           "id": "metered-billing",
           "name": "Metered Billing"
         },
@@ -495,10 +499,6 @@
               "name": "Gateway Tokenization"
             }
           ]
-        },
-        {
-          "id": "single-sign-on",
-          "name": "Single Sign-On"
         },
         {
           "id": "subscription-billing",
