@@ -45,9 +45,9 @@ Visa             | `4000 0000 0000 0127`  | Vaulting or charging will fail
 
 Any valid account and routing number will produce a successful charge.
 
-Account Number   | Routing Number        
+Routing Number   | Account Number        
 ---------------- | ----------------------
-`123456789`      | `110000000`
+`110000000`      | `123456789`
 
 #### Deposit Verification Amounts
 
@@ -55,12 +55,12 @@ If you are testing the micro-deposit verification flow you can use `$0.35` and `
 
 #### ACH Failures
 
-Account Number   | Routing Number         | Description
+Routing Number   | Account Number         | Description
 ---------------- | ---------------------- | -------------
-`123123456`      | `123123123`            | Declined charge
-`123123893`      | `123123123`            | Pending charge, will succeed
-`000222222227`   | `123123123`            | Pending charge, will fail
-`000111111116`   | `123123123`            | Vaulting or charging will fail
+`123123123`      | `123123456`            | Declined charge
+`123123123`      | `123123893`            | Pending charge, will succeed
+`123123123`      | `000222222227`         | Pending charge, will fail
+`123123123`      | `000111111116`         | Vaulting or charging will fail
 
 #### SEPA
 
