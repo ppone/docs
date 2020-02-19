@@ -6,7 +6,7 @@ Payment plans allow your customers to agree to make installment payments to you 
 
 A payment plan can be understood as an extension of the invoice due date. Typically an invoice has payment terms, such as NET 7. For example: An invoice billed on October 1 has a full balance due on October 8. Rigid due dates are not helpful in scenarios where you do not want to collect the full balance at once. This is where payment plans can help.
 
-A payment plan describes a multi-step schedule for collecting payments on an invoice. When coupled with the [AutoPay](/docs/payments/autopay) feature, the payment plan will completely automate the collection of payment for an invoice according to the payment schedule that you and your customer agree on. This ensures that you are always paid on time and saves your customer the hassle of remembering when to pay installment payments.
+A payment plan describes a multi-step schedule for collecting payments on an invoice. When coupled with the [AutoPay](/resources/docs/payments/autopay) feature, the payment plan will completely automate the collection of payment for an invoice according to the payment schedule that you and your customer agree on. This ensures that you are always paid on time and saves your customer the hassle of remembering when to pay installment payments.
 
 Consider this example:
 
@@ -27,7 +27,7 @@ Payment plans differ from subscription billing in that neither the time between 
 ## Usage
 
 Prerequisites:
-- Your account must support [AutoPay](/docs/payments/autopay).
+- Your account must support [AutoPay](/resources/docs/payments/autopay).
 - You have [created an invoice](/docs) with an outstanding balance.
 
 ### Creating a payment plan
@@ -104,7 +104,7 @@ Payment plan installments will be collected on the day the installment is due. G
 
 ### How are failed payments handled?
 
-Just like any other [failed AutoPay attempt](/docs/payments/autopay#failed-payments), we will contact the customer for you with the reason the payment failed and the option to update their payment information. We will also schedule retries according to your payment retry schedule. The installment will not be marked as paid until the amount is collected successfully.
+Just like any other [failed AutoPay attempt](/resources/docs/payments/autopay#failed-payments), we will contact the customer for you with the reason the payment failed and the option to update their payment information. We will also schedule retries according to your payment retry schedule. The installment will not be marked as paid until the amount is collected successfully.
 
 ### How can customers see the current balance?
 

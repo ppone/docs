@@ -39,7 +39,7 @@ The customer account age is the oldest open invoice or installment. The past due
 
 ## Setup
 
-<p class="alert alert-info">This document describes the latest version, Smart Chasing. If you are using the legacy chasing feature then you can find the <a href="/docs/guides/chasing-legacy">docs here</a>. Please contact support@invoiced.com if you would like to be upgraded to Smart Chasing.</p>
+<p class="alert alert-info">This document describes the latest version, Smart Chasing. If you are using the legacy chasing feature then you can find the <a href="/resources/guides/chasing-legacy">docs here</a>. Please contact support@invoiced.com if you would like to be upgraded to Smart Chasing.</p>
 
 ### Building cadences
 
@@ -111,11 +111,11 @@ These variables are available for use in your email templates:
 
 ### Send a letter
 
-The letter action will mail an Open Item statement to your customer via our [Lob integration](/docs/integrations/lob). In order to use this feature you must have a Lob account connected.
+The letter action will mail an Open Item statement to your customer via our [Lob integration](/resources/docs/integrations/lob). In order to use this feature you must have a Lob account connected.
 
 ### Send a text message
 
-The text message action will send a text message to the customer's text-message enabled phone number on file (must be added as a contact to the customer). In order to use this feature you must have a [Twilio account connected](/docs/integrations/twilio).
+The text message action will send a text message to the customer's text-message enabled phone number on file (must be added as a contact to the customer). In order to use this feature you must have a [Twilio account connected](/resources/docs/integrations/twilio).
 
 ### Phone calls
 

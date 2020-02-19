@@ -2,7 +2,7 @@
 
 With Magic Links customers can seamlessly sign into your customer portal from your app or website.
 
-Magic Links are a secure passwordless authentication mechanism that lets you securely generate URLs to sign customers into your [customer portal](/docs/guides/billing-portal). This is perfect for redirecting users already authenticated within your app or service into your customer portal without the need for them to sign in once more.
+Magic Links are a secure passwordless authentication mechanism that lets you securely generate URLs to sign customers into your [customer portal](/resources/guides/billing-portal). This is perfect for redirecting users already authenticated within your app or service into your customer portal without the need for them to sign in once more.
 
 ## Generating Magic Links
 

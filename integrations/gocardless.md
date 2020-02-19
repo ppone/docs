@@ -13,7 +13,7 @@ The GoCardless integration on Invoiced supports the following features:
 - PAD (Canada)
 - ACH (U.S.)
 - Vaulting payment information
-- [AutoPay](/docs/payments/autopay)
+- [AutoPay](/resources/docs/payments/autopay)
 
 ## Setup
 

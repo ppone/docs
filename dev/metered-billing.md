@@ -34,7 +34,7 @@ We are going to walk you through a basic metered billing workflow using the Invo
 
 ### Create a customer
 
-In order to bill our customer, we must first create an account for them on Invoiced. For this example we are going to invoice our customer with **NET 7** payment terms each billing cycle. You could just as easily use [AutoPay](/docs/payments/autopay), which will charge your customer's payment source automatically when invoices are issued on the account.
+In order to bill our customer, we must first create an account for them on Invoiced. For this example we are going to invoice our customer with **NET 7** payment terms each billing cycle. You could just as easily use [AutoPay](/resources/docs/payments/autopay), which will charge your customer's payment source automatically when invoices are issued on the account.
 
 ```bash
 curl "https://api.invoiced.com/customers" \
@@ -138,7 +138,7 @@ subscription.create();
 
 Let's pretend during the billing cycle our customer used engineering hours that we want to bill for. Instead of issuing a separate invoice we can just add it to their next subscription invoice.
 
-We are going to use an item that was set up in **Settings** &rarr; **Items** with the ID `engineer_hours`. The item already has the price set, however, you can also bill for one-off line items, just like with invoices. The [Line Item Object](/docs/api/#line-item-object) shows all of the attributes that we support for creating line items.
+We are going to use an item that was set up in **Settings** &rarr; **Items** with the ID `engineer_hours`. The item already has the price set, however, you can also bill for one-off line items, just like with invoices. The [Line Item Object](/resources/docs/api/#line-item-object) shows all of the attributes that we support for creating line items.
 
 ```bash
 curl "https://api.invoiced.com/customers/{CUSTOMER_ID}/line_items" \
@@ -211,4 +211,4 @@ A new invoice using your customer's pending line items will be generated on the 
 
 ## What's next?
 
-We have gone through a basic metered billing workflow. Of course, business is not always that simple. The [Metered Billing](/docs/api/#metered-billing) section of the API reference details all of the metered billing endpoints available to you.
+We have gone through a basic metered billing workflow. Of course, business is not always that simple. The [Metered Billing](/resources/docs/api/#metered-billing) section of the API reference details all of the metered billing endpoints available to you.

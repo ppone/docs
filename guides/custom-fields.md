@@ -70,4 +70,4 @@ The resulting report will look like this:
 
 ### Importing
 
-Custom field values can be set when [importing](/docs/guides/importing) customers and invoices.
+Custom field values can be set when [importing](/resources/guides/importing) customers and invoices.

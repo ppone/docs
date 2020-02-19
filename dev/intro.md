@@ -26,7 +26,7 @@ Next, we are going to walk through a common invoicing workflow.
 
 Customers are at the core of everything on Invoiced. Customers represent a billable entity from your perspective, whether this is a person, organization, or account. You must create a customer first before you can invoice or accept payments.
 
-Every customer has an [AutoPay](/docs/payments/autopay) option. When enabled this will charge your customer's connected payment source each billing cycle. When AutoPay is off (the default) we will instead issue an invoice that your customer can pay using any of the payment methods you accept.
+Every customer has an [AutoPay](/resources/docs/payments/autopay) option. When enabled this will charge your customer's connected payment source each billing cycle. When AutoPay is off (the default) we will instead issue an invoice that your customer can pay using any of the payment methods you accept.
 
 ```bash
 curl "https://api.invoiced.com/customers" \
@@ -389,4 +389,4 @@ This will record a payment for the invoice we created earlier and mark it as pai
 
 ### What's next?
 
-The [API docs](/docs/api) explain all of the resources and endpoints available to you. Our other development guides might be useful as well. If you run into any questions or need help with some code then please don't hesitate to contact us. We would love to hear from you.
+The [API docs](/resources/docs/api) explain all of the resources and endpoints available to you. Our other development guides might be useful as well. If you run into any questions or need help with some code then please don't hesitate to contact us. We would love to hear from you.

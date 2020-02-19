@@ -16,11 +16,11 @@ AutoPay allows you to securely collect and charge payment info for customers. In
 
 There are multiple ways to securely add payment information to a customer's account.
 
-1. [Sign Up Pages](/docs/guides/sign-up-pages)
+1. [Sign Up Pages](/resources/guides/sign-up-pages)
 
    New customers that sign up for a subscription through sign up pages will have AutoPay enabled and a stored payment method.
 
-2. [Customer Portal](/docs/guides/billing-portal)
+2. [Customer Portal](/resources/guides/billing-portal)
 
    Existing customers can sign into your customer portal and click **Add Payment Method**.
 
@@ -32,13 +32,13 @@ There are multiple ways to securely add payment information to a customer's acco
    
    This is useful if you have a customer in person or are accepting orders over the phone.
 
-5. [Payments API](/docs/dev/payment-info)
+5. [Payments API](/resources/docs/dev/payment-info)
    
    With invoiced.js you can securely collect and store payment information from customers directly from your website using your own forms and interface.
 
 ### Failed Payments
 
-AutoPay was designed to gracefully handle failed payments. We will automatically retry failed payments according to your retry schedule. If the payment succeeds at any point then the retry schedule will stop. Your customer will also be sent a [Failed AutoPay Attempt](/docs/guides/emails#payments) email. The email will include an **Update Payment Info** button in case the customer's payment information is out of date.
+AutoPay was designed to gracefully handle failed payments. We will automatically retry failed payments according to your retry schedule. If the payment succeeds at any point then the retry schedule will stop. Your customer will also be sent a [Failed AutoPay Attempt](/resources/guides/emails#payments) email. The email will include an **Update Payment Info** button in case the customer's payment information is out of date.
 
 Failed payments will be retried according to the following schedule by default. You may change the retry schedule in **Settings** &rarr; **General** &rarr; **AutoPay**:
 
@@ -132,4 +132,4 @@ Invoiced can send these emails with AutoPay:
 
    Notifies customer when an AutoPay payment attempt fails. Includes a button for the customer to update their payment information.
 
-You can learn more about these emails in the [Emails Guide](/docs/guides/emails#payments).
+You can learn more about these emails in the [Emails Guide](/resources/guides/emails#payments).

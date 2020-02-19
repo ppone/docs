@@ -1,6 +1,6 @@
 # Subscription Billing
 
-In this guide we are going to show you how to programmatically setup [subscription billing](/docs/guides/subscription-billing) through the Invoiced API.
+In this guide we are going to show you how to programmatically setup [subscription billing](/resources/guides/subscription-billing) through the Invoiced API.
 
 ## Quickstart Guide
 
@@ -18,7 +18,7 @@ In this example we are going to walk you through setting up a basic subscription
 
 ### Create a customer
 
-In order to bill our customer, we must first create an account for them on Invoiced. For this example we are going to use [AutoPay](/docs/payments/autopay), which will charge your customer's payment source automatically when invoices are issued on the account, including each billing cycle when the subscription renews.
+In order to bill our customer, we must first create an account for them on Invoiced. For this example we are going to use [AutoPay](/resources/docs/payments/autopay), which will charge your customer's payment source automatically when invoices are issued on the account, including each billing cycle when the subscription renews.
 
 ```bash
 curl "https://api.invoiced.com/customers" \
@@ -122,7 +122,7 @@ subscription.create();
 
 ## Subscriptions with Addons
 
-Subscription addons allow you to bill for multiple line items in the same billing cycle. Addons can represent a fixed recurring cost on top of the base price, such as extra user seats or more capacity than the base plan includes. Or addons can represent a usage-based component that is added to the base price, where the amount varies each month depending on usage (see [metered billing](/docs/dev/metered-billing) for more information). Underneath the hood an addon is just another plan added to a subscription. In this example we are using a plan with the ID `ipad-license` that is $20/month.
+Subscription addons allow you to bill for multiple line items in the same billing cycle. Addons can represent a fixed recurring cost on top of the base price, such as extra user seats or more capacity than the base plan includes. Or addons can represent a usage-based component that is added to the base price, where the amount varies each month depending on usage (see [metered billing](/resources/docs/dev/metered-billing) for more information). Underneath the hood an addon is just another plan added to a subscription. In this example we are using a plan with the ID `ipad-license` that is $20/month.
 
 ```bash
 curl "https://api.invoiced.com/subscriptions" \
@@ -354,4 +354,4 @@ subscription.save();
 
 ## What's next?
 
-We have gone through several subscription billing workflows. Of course, business is not always that simple. The [Subscription Billing](/docs/api/#subscription-billing) section of the API reference details all of the subscription billing endpoints available to you.
+We have gone through several subscription billing workflows. Of course, business is not always that simple. The [Subscription Billing](/resources/docs/api/#subscription-billing) section of the API reference details all of the subscription billing endpoints available to you.

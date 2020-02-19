@@ -56,7 +56,7 @@ A hash containing these properties:
 
 ### Customer Object
 
-A hash containing the same properties as the [Customer object](/docs/api/#customer-object) in the API.
+A hash containing the same properties as the [Customer object](/resources/docs/api/#customer-object) in the API.
 
 ### Invoice Object
 

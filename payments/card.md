@@ -34,7 +34,7 @@ Like customers, internal Invoiced users have the ability to apply a payment to a
 
 ## AutoPay
 
-Credit card payments work with [AutoPay](/docs/payments/autopay) when your customer has a saved card on file.
+Credit card payments work with [AutoPay](/resources/docs/payments/autopay) when your customer has a saved card on file.
 
 ## Convenience Fees
 

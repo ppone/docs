@@ -2,7 +2,7 @@
 
 Webhooks are HTTP callbacks that notify your systems when important events happen within your Invoiced account.
 
-Invoiced creates events whenever something notable happens on your account, such as an invoice being created or a payment being received. Webhooks allow your integration to be notified asynchronously when an event occurs. The notification is an HTTP POST call that we make to the webhook URL(s) that you set up. You can find a full list of [supported events](/docs/api#event-types) in the API reference.
+Invoiced creates events whenever something notable happens on your account, such as an invoice being created or a payment being received. Webhooks allow your integration to be notified asynchronously when an event occurs. The notification is an HTTP POST call that we make to the webhook URL(s) that you set up. You can find a full list of [supported events](/resources/docs/api#event-types) in the API reference.
 
 Example uses of webhooks:
 
@@ -21,7 +21,7 @@ It's simple to get started with webhooks. In the dashboard you can go to **Setti
 
 ### Receiving a webhook
 
-Once your webhook endpoint has been set up then any supported events that occur will trigger an HTTP POST call to your endpoint. The request body will be a JSON-encoded string of the event. The event object will also contain the original object that triggered the event, such as an invoice or a transaction. You can see the Event object structure in the [API reference](/docs/api#event-object).
+Once your webhook endpoint has been set up then any supported events that occur will trigger an HTTP POST call to your endpoint. The request body will be a JSON-encoded string of the event. The event object will also contain the original object that triggered the event, such as an invoice or a transaction. You can see the Event object structure in the [API reference](/resources/docs/api#event-object).
 
 ### Validating a webhook
 
@@ -65,4 +65,4 @@ We try our best to deliver webhooks immediately after an event has been created,
 
 It's possible that the same event could be sent more than once. It's strongly advised to make your webhook idempotent. This means that your webhook can safely receive the same event multiple times without affecting the outcome. An easy way to accomplish this is to track the IDs of events that you process in order to ignore duplicate calls.
 
-If you want to catch up on any missed events or implement a backup mechanism in case a webhook is not delivered then you can use our [Events API](https://invoiced.com/docs/api/#list-all-events) to retrieve recent activity. The events you retrieve will be identical to the payloads sent in webhooks.
+If you want to catch up on any missed events or implement a backup mechanism in case a webhook is not delivered then you can use our [Events API](https://invoiced.com/resources/docs/api/#list-all-events) to retrieve recent activity. The events you retrieve will be identical to the payloads sent in webhooks.

@@ -74,4 +74,4 @@ Invoiced also allows for custom tax amounts to be applied on an invoice. Simply 
 
 ### Need a more complicated sales tax setup?
 
-If you have more challenging sales tax requirements then you should consider our [Avalara integration](/docs/integrations/avalara). It was designed to automate sales tax compliance for companies with nexus in many places or handling more tricky tax scenarios (i.e. U.S. sales tax).
+If you have more challenging sales tax requirements then you should consider our [Avalara integration](/resources/docs/integrations/avalara). It was designed to automate sales tax compliance for companies with nexus in many places or handling more tricky tax scenarios (i.e. U.S. sales tax).

@@ -6,10 +6,10 @@ This document details how to connect the [CyberSource](https://cybersource.com) 
 
 The CyberSource payment gateway on Invoiced supports the following features:
 
-- [Credit card payments](/docs/payments/card)
-- [ACH payments](/docs/payments/ach) (U.S. only)
+- [Credit card payments](/resources/docs/payments/card)
+- [ACH payments](/resources/docs/payments/ach) (U.S. only)
 - Vaulting payment information (credit card and ACH)
-- [AutoPay](/docs/payments/autopay)
+- [AutoPay](/resources/docs/payments/autopay)
 
 ## Setup
 

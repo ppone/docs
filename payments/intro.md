@@ -11,11 +11,11 @@ Another way that customers can pay is with their credit balance, which keeps tra
 Unlike online payments, offline payments must be recorded on Invoiced once received. Our cash application tool will help you apply the payment to outstanding invoices for the customer.
 
 Available payment methods:
-- [ACH](/docs/payments/ach)
-- [Direct Debit](/docs/payments/direct-debit)
-- [Credit Card](/docs/payments/card)
-- [PayPal](/docs/payments/paypal)
-- [AutoPay](/docs/payments/autopay)
-- [Payment Plans](/docs/payments/payment-plans)
-- [Cash Receipts](/docs/payments/offline-payments)
-- [Credit Balances](/docs/payments/credits)
+- [ACH](/resources/docs/payments/ach)
+- [Direct Debit](/resources/docs/payments/direct-debit)
+- [Credit Card](/resources/docs/payments/card)
+- [PayPal](/resources/docs/payments/paypal)
+- [AutoPay](/resources/docs/payments/autopay)
+- [Payment Plans](/resources/docs/payments/payment-plans)
+- [Cash Receipts](/resources/docs/payments/offline-payments)
+- [Credit Balances](/resources/docs/payments/credits)

@@ -63,7 +63,7 @@ A subscription will generate an invoice each billing cycle for the amount owed i
 
 #### AutoPay
 
-Since subscriptions are a generate invoice monthly, that means [AutoPay](https://invoiced.com/docs/payments/autopay) customers are fully supported with subscription billing. AutoPay will automatically charge your customer's payment method for any invoices issued against their account, including subscription invoices.
+Since subscriptions are a generate invoice monthly, that means [AutoPay](https://invoiced.com/resources/docs/payments/autopay) customers are fully supported with subscription billing. AutoPay will automatically charge your customer's payment method for any invoices issued against their account, including subscription invoices.
 
 If a customer with AutoPay enabled is subscribed to a plan, but does not have payment information on file yet, then we will send them the first invoice automatically. Upon paying the invoice, we will capture the customer's payment information for use on future invoices.
 

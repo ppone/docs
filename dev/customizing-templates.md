@@ -2,7 +2,7 @@
 
 Invoiced ships with multiple default templates for invoices, statements, and receipts, however, it's possible these templates do not match your business or branding needs. In this guide we will show you how to change the layout and appearance of the default templates.
 
-<p class="alert alert-info">This document describes v2 of our templating system. If you are using the legacy Mustache templating then you can find the <a href="/docs/dev/customizing-templates-legacy">docs here</a>. Please contact support@invoiced.com if you would like to be moved to the new templating system.</p>
+<p class="alert alert-info">This document describes v2 of our templating system. If you are using the legacy Mustache templating then you can find the <a href="/resources/docs/dev/customizing-templates-legacy">docs here</a>. Please contact support@invoiced.com if you would like to be moved to the new templating system.</p>
 
 ## Creating Custom Templates
 

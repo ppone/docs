@@ -4,17 +4,17 @@ Invoiced supports the most popular payment gateways out of the box.
 
 We support these payment gateways: (click any gateway for documentation)
 
-- [AffiniPay](/docs/integrations/affinipay)
-- [Authorize.Net](/docs/integrations/authorizenet)
-- [BluePay](/docs/integrations/bluepay)
-- [Braintree](/docs/integrations/braintree)
-- [CyberSource](/docs/integrations/cybersource)
-- [GoCardless](/docs/integrations/gocardless)
-- [Intuit QuickBooks Payments](/docs/integrations/intuit-payments)
-- [NMI](/docs/integrations/nmi)
-- [Stripe](/docs/integrations/stripe)
-- [USAePay](/docs/integrations/usaepay)
-- [Worldpay](/docs/integrations/worldpay)
+- [AffiniPay](/resources/docs/integrations/affinipay)
+- [Authorize.Net](/resources/docs/integrations/authorizenet)
+- [BluePay](/resources/docs/integrations/bluepay)
+- [Braintree](/resources/docs/integrations/braintree)
+- [CyberSource](/resources/docs/integrations/cybersource)
+- [GoCardless](/resources/docs/integrations/gocardless)
+- [Intuit QuickBooks Payments](/resources/docs/integrations/intuit-payments)
+- [NMI](/resources/docs/integrations/nmi)
+- [Stripe](/resources/docs/integrations/stripe)
+- [USAePay](/resources/docs/integrations/usaepay)
+- [Worldpay](/resources/docs/integrations/worldpay)
 
 ## Need a payment processor?
 

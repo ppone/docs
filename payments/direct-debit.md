@@ -9,11 +9,11 @@
 - PAD (Canada)
 - ACH (US)
 
-Please note, if you are looking for the U.S. equivalent of direct debit then please take a look at our [ACH documentation](/docs/payments/ach).
+Please note, if you are looking for the U.S. equivalent of direct debit then please take a look at our [ACH documentation](/resources/docs/payments/ach).
 
 ## Prerequisites
 
-You must have an account with a payment processor that allows direct debit payment processing. We recommend [GoCardless](/docs/integrations/gocardless) for direct debit payments.
+You must have an account with a payment processor that allows direct debit payment processing. We recommend [GoCardless](/resources/docs/integrations/gocardless) for direct debit payments.
 
 ## Setup
 
@@ -23,7 +23,7 @@ Setting up direct debit payments is a straightforward process.
 
    [![Payment Settings](/docs/img/payment-settings-eu.png)](/docs/img/payment-settings-eu.png)
 
-2. Click **Setup** on the *Direct Debit* payment method. Continue following the instructions to configure your payment gateway. For example, if you are using GoCardless then you can see the [setup process here](/docs/integrations/gocardless#setup).
+2. Click **Setup** on the *Direct Debit* payment method. Continue following the instructions to configure your payment gateway. For example, if you are using GoCardless then you can see the [setup process here](/resources/docs/integrations/gocardless#setup).
 
 ## Client Workflow
 
@@ -41,8 +41,8 @@ Subsequent payments from the same customer will not require the customer to go c
 
 ## AutoPay
 
-Direct debit payments work with [AutoPay](/docs/payments/autopay) when your customer completes a direct debit mandate.
+Direct debit payments work with [AutoPay](/resources/docs/payments/autopay) when your customer completes a direct debit mandate.
 
 ## Learn More
 
-If you want to learn more about setting up the GoCardless integration for direct debit payments then please head over to our [GoCardless documentation](/docs/integrations/gocardless).
+If you want to learn more about setting up the GoCardless integration for direct debit payments then please head over to our [GoCardless documentation](/resources/docs/integrations/gocardless).

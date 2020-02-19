@@ -6,9 +6,9 @@ This document details how to connect the [Braintree](https://braintreepayments.c
 
 The Braintree payment gateway on Invoiced supports the following features:
 
-- [Credit card payments](/docs/payments/card)
+- [Credit card payments](/resources/docs/payments/card)
 - Vaulting payment information
-- [AutoPay](/docs/payments/autopay)
+- [AutoPay](/resources/docs/payments/autopay)
 
 ## Setup
 
