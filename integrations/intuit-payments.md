@@ -17,23 +17,23 @@ Connecting Intuit QuickBooks Payments is a straightforward process. Follow these
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
+   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
 
 2. Click **Setup** on the payment method you want to accept.
 
-   [![Credit Card Payments Setup](../img/credit-card-payment-setup.png)](../img/credit-card-payment-setup.png)
+   [![Credit Card Payments Setup](/docs/img/credit-card-payment-setup.png)](/docs/img/credit-card-payment-setup.png)
 
 3. Select **Intuit Payments** as the payment gateway.
 
-   [![Intuit Payments Payments Setup](../img/intuit-payments-setup.png)](../img/intuit-payments-setup.png)
+   [![Intuit Payments Payments Setup](/docs/img/intuit-payments-setup.png)](/docs/img/intuit-payments-setup.png)
 
 4. Click **Connect to QuickBooks**. 
 
-   [![Intuit Payments Connection](../img/intuit-payments-connect.png)](../img/intuit-payments-connect.png)
+   [![Intuit Payments Connection](/docs/img/intuit-payments-connect.png)](/docs/img/intuit-payments-connect.png)
 
 5. Click **Authorize** to connect Invoiced. You should see that credit card and ACH payments are enabled.
 
-   [![Intuit Payments Payments Enabled](../img/intuit-payments-enabled.png)](../img/intuit-payments-enabled.png)
+   [![Intuit Payments Payments Enabled](/docs/img/intuit-payments-enabled.png)](/docs/img/intuit-payments-enabled.png)
 
 ## Client Workflow
 

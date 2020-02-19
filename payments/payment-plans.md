@@ -36,13 +36,13 @@ After creating an invoice for a customer, you can now add a payment plan to allo
 
 Click *Actions* &rarr; *Add Payment Plan*. A new dialog will appear.
 
-   [![Click to add a payment plan](../img/add-payment-plan.png)](../img/add-payment-plan.png)
+   [![Click to add a payment plan](/docs/img/add-payment-plan.png)](/docs/img/add-payment-plan.png)
 
 Invoiced has a clever payment plan calculator that handles most common scheduling scenarios. Just input your constraints and it will calculate the installment schedule for you.
 
 
 
-   [![Create a new payment plan](../img/add-payment-plan-1.png)](../img/add-payment-plan-1.png)
+   [![Create a new payment plan](/docs/img/add-payment-plan-1.png)](/docs/img/add-payment-plan-1.png)
 
 
 *Fixed Installment Amount*: This section allows you to enter a fixed amount you would like the customer to pay each payment. You will also need to add a Fixed Stop Date or a Fixed time between installments to calculate this.
@@ -56,11 +56,11 @@ Once you are finished adding your installments then you can save the payment pla
 
 If your payment plan is not uniform, or needs further customization then you can switch the schedule to **Custom**. This will give you fine-grained control over the installment schedule.
 
-   [![Build a custom payment plan](../img/payment-plan-custom.png)](../img/payment-plan-custom.png)
+   [![Build a custom payment plan](/docs/img/payment-plan-custom.png)](/docs/img/payment-plan-custom.png)
 
    If your customer already has payment information on file then there's nothing left to do. AutoPay will be enabled on the invoice and payment will be collected according to your newly created schedule.
 
-   [![Payment plan started](../img/payment-plan-enabled.png)](../img/payment-plan-enabled.png)
+   [![Payment plan started](/docs/img/payment-plan-enabled.png)](/docs/img/payment-plan-enabled.png)
 
 
 If your customer does not have payment information on file yet, please read the next section to learn how to finish enrolling the customer in the payment plan.
@@ -69,7 +69,7 @@ If your customer does not have payment information on file yet, please read the 
 
 Customers that do not have payment information on file must approve the payment plan and enter in their payment information before installments can be collected. They can do this by viewing the invoice online.
 
-   [![Payment plan pending approval](../img/confirming-payment-plan.png)](../img/confirming-payment-plan.png)
+   [![Payment plan pending approval](/docs/img/confirming-payment-plan.png)](/docs/img/confirming-payment-plan.png)
 
 
 1. Send the invoice with the payment plan to your customer.
@@ -80,7 +80,7 @@ Customers that do not have payment information on file must approve the payment 
 
 4. Instead of the normal payment screen the customer will see the payment plan. After reviewing the payment plan they will click *Approve*.
 
-   [![Payment plan email](../img/payment-plan-approval.png)](../img/payment-plan-approval.png)
+   [![Payment plan email](/docs/img/payment-plan-approval.png)](/docs/img/payment-plan-approval.png)
 
 5. Finally, they will need to add payment information to pay for the payment plan.
 

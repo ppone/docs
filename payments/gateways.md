@@ -32,7 +32,7 @@ When you switch payment gateways in **Settings** &rarr; **Payments**, any new pa
 
 In order to continue billing and charging your customers without interruption we will continue to use the old payment gateway for any payment information that was stored there prior to the transition. When your customer enters in new payment information then it will be stored on the new payment gateway. You can see which payment gateway a card or bank account is stored on by going to the customer summary page on Invoiced and clicking on the payment method.
 
-[![Stored Card on File](../img/stored-card.png)](../img/stored-card.png)
+[![Stored Card on File](/docs/img/stored-card.png)](/docs/img/stored-card.png)
 
 ### Migrating stored payment information
 

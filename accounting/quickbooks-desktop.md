@@ -11,7 +11,7 @@ The QuickBooks Desktop integration ships with the following capabilities:
 - Reconciling payments received on Invoiced to QuickBooks Desktop
 - Syncing payments recorded on QuickBooks Desktop to Invoiced
 
-[![QuickBooks Desktop Data Flow](../img/qbd-object-mapping.png)](../img/qbd-object-mapping.png)
+[![QuickBooks Desktop Data Flow](/docs/img/qbd-object-mapping.png)](/docs/img/qbd-object-mapping.png)
 
 ## Supported QuickBooks Versions
 
@@ -27,25 +27,25 @@ The QuickBooks Desktop integration works with these versions of QuickBooks (Wind
 
 1. In order to begin syncing with QuickBooks Desktop first go to **Settings** &rarr; **Accounting Sync**.
 
-   [![Select your accounting system](../img/accounting-sync-select-system.png)](../img/accounting-sync-select-system.png)
+   [![Select your accounting system](/docs/img/accounting-sync-select-system.png)](/docs/img/accounting-sync-select-system.png)
 
 2. Click on **Select** within the *QuickBooks Desktop* square.
 
-   [![QuickBooks Desktop selected](../img/quickbooks-desktop-selected.png)](../img/quickbooks-desktop-selected.png)
+   [![QuickBooks Desktop selected](/docs/img/quickbooks-desktop-selected.png)](/docs/img/quickbooks-desktop-selected.png)
 
 3. Click on **Setup** to begin the setup process for QuickBooks Desktop.
 
-   [![QuickBooks Desktop Setup](../img/generate-qwc-configuration.png)](../img/generate-qwc-configuration.png)
+   [![QuickBooks Desktop Setup](/docs/img/generate-qwc-configuration.png)](/docs/img/generate-qwc-configuration.png)
 
 4. Install [QuickBooks Web Connector](https://marketplace.intuit.com/webconnector/) on the computer where QuickBooks is installed, if you have not already.
 
 5. Click **Generate QWC configuration**.
 
-   [![QuickBooks Desktop Generated Configuration](../img/generated-qwc-config.png)](../img/generated-qwc-config.png)
+   [![QuickBooks Desktop Generated Configuration](/docs/img/generated-qwc-config.png)](/docs/img/generated-qwc-config.png)
 
 6. Download the `invoice.qwc` and `payment.qwc` files and open the each file in QuickBooks Web Connector.
 
-  [![QuickBooks Desktop Enable Sync](../img/qb-desktop-enable-sync.png)](../img/qb-desktop-enable-sync.png)
+  [![QuickBooks Desktop Enable Sync](/docs/img/qb-desktop-enable-sync.png)](/docs/img/qb-desktop-enable-sync.png)
 
 7. Enter in the generated password for each sync you enable. Make sure you do this before closing the configuration screen on Invoiced because the password is irretrievable once you click **Done**.
 
@@ -65,7 +65,7 @@ These are the steps to run an invoice sync. This will pull in any outstanding in
 
 4. When the sync has completed you should see your invoices on Invoiced.
 
-   [![QuickBooks Desktop Successful Invoice Sync](../img/qb-desktop-successful-invoice-sync.png)](../img/qb-desktop-successful-invoice-sync.png)
+   [![QuickBooks Desktop Successful Invoice Sync](/docs/img/qb-desktop-successful-invoice-sync.png)](/docs/img/qb-desktop-successful-invoice-sync.png)
 
 ### Syncing payments
 
@@ -79,13 +79,13 @@ These are the steps to run an invoice sync. This will push any payments received
 
 4. When the sync has completed you should see your payments on QuickBooks.
 
-   [![QuickBooks Desktop Successful Payment Sync](../img/qb-desktop-successful-payment-sync.png)](../img/qb-desktop-successful-payment-sync.png)
+   [![QuickBooks Desktop Successful Payment Sync](/docs/img/qb-desktop-successful-payment-sync.png)](/docs/img/qb-desktop-successful-payment-sync.png)
 
 ### Turning on automatic syncing
 
 You can tell QuickBooks Web Connector to run syncs automatically by turning on the **Auto-Run** setting and specifying how often you want the sync to run in the **Every_Min** box.
 
-   [![QuickBooks Desktop Auto Run](../img/qb-desktop-enable-auto-run.png)](../img/qb-desktop-enable-auto-run.png) 
+   [![QuickBooks Desktop Auto Run](/docs/img/qb-desktop-enable-auto-run.png)](/docs/img/qb-desktop-enable-auto-run.png) 
 
 ## Edge Cases
 
@@ -127,6 +127,6 @@ You will run into this error if QuickBooks is not open, and you are running the 
 
 In QuickBooks go to **Edit** &rarr; **Preferences** &rarr; **Integrated Applications** and then click **Properties** under the connected integration.  In the properties screen, choose "Allow this application to login automatically."  You will need to do this for the *Invoice Sync* and *Payment Sync*.
 
-  [![QuickBooks Desktop Enable Auto Integration Login](../img/quickbooks-desktop-auto-login-integration.png)](../img/quickbooks-desktop-auto-login-integration.png)
+  [![QuickBooks Desktop Enable Auto Integration Login](/docs/img/quickbooks-desktop-auto-login-integration.png)](/docs/img/quickbooks-desktop-auto-login-integration.png)
 
 

@@ -20,23 +20,23 @@ Connecting Stripe is a straightforward process. Follow these steps to start acce
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
+   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
 
 2. Click **Setup** on the payment method you want to accept.
 
-   [![Credit Card Payments Setup](../img/credit-card-payment-setup.png)](../img/credit-card-payment-setup.png)
+   [![Credit Card Payments Setup](/docs/img/credit-card-payment-setup.png)](/docs/img/credit-card-payment-setup.png)
 
 3. Select **Stripe** as the payment gateway.
 
-   [![Stripe Payments Setup](../img/stripe-setup.png)](../img/stripe-setup.png)
+   [![Stripe Payments Setup](/docs/img/stripe-setup.png)](/docs/img/stripe-setup.png)
 
 4. Click **Connect With Stripe**. You will be taken to Stripe's website where you can sign into your Stripe account and grant Invoiced access.
 
-   [![Stripe Connect Page](../img/stripe-connect.png)](../img/stripe-connect.png)
+   [![Stripe Connect Page](/docs/img/stripe-connect.png)](/docs/img/stripe-connect.png)
 
 5. After you've connected your Stripe account then the payment method you selected should be enabled.
 
-   [![Credit Card Payments Enabled](../img/stripe-credit-card-payments-enabled.png)](../img/stripe-credit-card-payments-enabled.png)
+   [![Credit Card Payments Enabled](/docs/img/stripe-credit-card-payments-enabled.png)](/docs/img/stripe-credit-card-payments-enabled.png)
 
 6. If you are accepting ACH payments then you also need to accept the [Stripe ACH Terms of Service](https://stripe.com/docs/ach).
 
@@ -54,7 +54,7 @@ Paying with credit or debit card is fairly straightforward for customers. They s
 
 When a customer decides to pay with ACH they must first connect a bank account and verify it. The verification process depends on where they bank.
 
-[![Stripe ACH Verification](../img/stripe-add-bank-account.png)](../img/stripe-add-bank-account.png)
+[![Stripe ACH Verification](/docs/img/stripe-add-bank-account.png)](/docs/img/stripe-add-bank-account.png)
 
 **NOTE: Your Stripe account might have a dollar limit for individual ACH transactions, i.e. customers cannot submit payments greater than $2,000. We recommend checking with Stripe support to confirm if there are any ACH limits for your account and if it needs to be raised to accommodate the size of your transactions. This should be done before you allow customers to pay with ACH.**
 
@@ -62,15 +62,15 @@ When a customer decides to pay with ACH they must first connect a bank account a
 
 We support instant verification for select banks, like Chase and Wells Fargo. Instant verification works by asking your customer to securely sign into their online banking account to prove access. Once they sign in they will be able to select the account they want to pay with, all without ever having to enter a bank account and routing number.
 
-[![Stripe Instant ACH Verification](../img/stripe-ach-instant-verification.png)](../img/stripe-ach-instant-verification.png)
+[![Stripe Instant ACH Verification](/docs/img/stripe-ach-instant-verification.png)](/docs/img/stripe-ach-instant-verification.png)
 
 #### Manual Verification
 
 All other bank accounts that do not support instant verification will require manual verification, also known as micro-deposit verification. The manual verification process makes two small, random deposits to your customer's bank account. We will then ask your customer to confirm the deposit amounts to prove ownership of the account. It generally takes 2 business days for the deposits to appear on the customer's bank statement.
 
-[![Stripe Manual ACH Verification](../img/stripe-ach-manual-verification.png)](../img/stripe-ach-manual-verification.png)
+[![Stripe Manual ACH Verification](/docs/img/stripe-ach-manual-verification.png)](/docs/img/stripe-ach-manual-verification.png)
 
-[![Stripe Manual ACH Verification Micro-Deposit](../img/stripe-ach-manual-verification-2.png)](../img/stripe-ach-manual-verification-2.png)
+[![Stripe Manual ACH Verification Micro-Deposit](/docs/img/stripe-ach-manual-verification-2.png)](/docs/img/stripe-ach-manual-verification-2.png)
 
 #### Paying with ACH
 
@@ -80,7 +80,7 @@ New ACH payments will have a pending status. ACH payments generally take 3-5 bus
 
 Subsequent payments will not require the customer to go through the verification process again.
 
-[![Stripe ACH Payment](../img/stripe-ach-pay-invoice.png)](../img/stripe-ach-pay-invoice.png)
+[![Stripe ACH Payment](/docs/img/stripe-ach-pay-invoice.png)](/docs/img/stripe-ach-pay-invoice.png)
 
 ## Withdrawing Money
 
@@ -100,21 +100,21 @@ In this section we will show you how to import customers and payment information
 
 1. Go to the **Customers** page and click on the **Import** button in the top-right.
 
-   [![Customer Importer](../img/customer-importer.png)](../img/customer-importer.png)
+   [![Customer Importer](/docs/img/customer-importer.png)](/docs/img/customer-importer.png)
 
 2. Click on **Stripe**.
 
-   [![Stripe Customer Importer](../img/stripe-customer-importer.png)](../img/stripe-customer-importer.png)
+   [![Stripe Customer Importer](/docs/img/stripe-customer-importer.png)](/docs/img/stripe-customer-importer.png)
 
 3. Click **Start** to begin the import.
 
-   [![Stripe Customer Importer Pending](../img/stripe-customer-importer-pending.png)](../img/stripe-customer-importer-pending.png)
+   [![Stripe Customer Importer Pending](/docs/img/stripe-customer-importer-pending.png)](/docs/img/stripe-customer-importer-pending.png)
 
 4. The import will begin. You can go elsewhere while you wait. If there is a large # of customers being imported then this could take several minutes.
 
 5. Invoiced will send you an email when the import is done. When the import is finished all of your imported customers should be visible in the **Customers** page.
 
-   [![Stripe Customer Finished](../img/stripe-customer-importer-finished.png)](../img/stripe-customer-importer-finished.png)
+   [![Stripe Customer Finished](/docs/img/stripe-customer-importer-finished.png)](/docs/img/stripe-customer-importer-finished.png)
 
 ## Support
 

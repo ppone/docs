@@ -17,23 +17,23 @@ Connecting USAePay is a straightforward process. Follow these steps to start acc
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
+   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
 
 2. Click **Setup** on the payment method you want to accept.
 
-   [![Credit Card Payments Setup](../img/credit-card-payment-setup.png)](../img/credit-card-payment-setup.png)
+   [![Credit Card Payments Setup](/docs/img/credit-card-payment-setup.png)](/docs/img/credit-card-payment-setup.png)
 
 3. Select **USAePay** as the payment gateway.
 
-   [![USAePay Payments Setup](../img/usaepay-setup.png)](../img/usaepay-setup.png)
+   [![USAePay Payments Setup](/docs/img/usaepay-setup.png)](/docs/img/usaepay-setup.png)
 
 4. Click **Connect to USAePay**.
 
-   [![USAePay Settings Page](../img/usaepay-connect.png)](../img/usaepay-connect.png)
+   [![USAePay Settings Page](/docs/img/usaepay-connect.png)](/docs/img/usaepay-connect.png)
 
 5. Enter in your USAePay **Merchant Key** and **Merchant PIN** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
 
-   [![USAePay Payments Enabled](../img/usaepay-enabled.png)](../img/usaepay-enabled.png)
+   [![USAePay Payments Enabled](/docs/img/usaepay-enabled.png)](/docs/img/usaepay-enabled.png)
 
 ## Client Workflow
 

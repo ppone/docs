@@ -21,15 +21,15 @@ Connecting GoCardless is a straightforward process. Follow these steps to start 
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](../img/payment-settings-eu.png)](../img/payment-settings-eu.png)
+   [![Payment Settings](/docs/img/payment-settings-eu.png)](/docs/img/payment-settings-eu.png)
 
 2. Click **Setup** on the *Direct Debit* payment method. Then click **Connect With GoCardless**. You will be taken to GoCardless' website where you can sign into your GoCardless account and grant Invoiced access.
 
-   [![GoCardless Connect Page](../img/gocardless-connect.png)](../img/gocardless-connect.png)
+   [![GoCardless Connect Page](/docs/img/gocardless-connect.png)](/docs/img/gocardless-connect.png)
 
 5. If you are signing up for a GoCardless account for the first time then you will need to provide additional information about your business to activate your account. After you've connected and verified your GoCardless account then the direct debit payment method will be enabled. You are ready to begin accepting payments.
 
-   [![Direct Debit Payments Enabled](../img/gocardless-direct-debit-payments-enabled.png)](../img/gocardless-direct-debit-payments-enabled.png)
+   [![Direct Debit Payments Enabled](/docs/img/gocardless-direct-debit-payments-enabled.png)](/docs/img/gocardless-direct-debit-payments-enabled.png)
 
 ## Client Workflow
 
@@ -43,7 +43,7 @@ Paying with direct debit has been made as straightforward as possible for custom
 
 Once the direct debit mandate has been completed then your customer can now use their bank account to pay any invoice from you by returning to the invoice payment page and selecting their bank account as the payment method.
 
-[![GoCardless Direct Debit Payment](../img/pay-invoice-direct-debit-2.png)](../img/pay-invoice-direct-debit-2.png)
+[![GoCardless Direct Debit Payment](/docs/img/pay-invoice-direct-debit-2.png)](/docs/img/pay-invoice-direct-debit-2.png)
 
 New direct debit payments will have a pending status. Direct debit payments generally take 4-5 business days to complete. Once the transaction succeeds or fails we will update the invoice and send the customer a receipt. In the event of a failure we will create an event in the dashboard.
 

@@ -17,23 +17,23 @@ Connecting BluePay is a straightforward process. Follow these steps to start acc
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
+   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
 
 2. Click **Setup** on the payment method you want to accept.
 
-   [![Credit Card Payments Setup](../img/credit-card-payment-setup.png)](../img/credit-card-payment-setup.png)
+   [![Credit Card Payments Setup](/docs/img/credit-card-payment-setup.png)](/docs/img/credit-card-payment-setup.png)
 
 3. Select **BluePay** as the payment gateway.
 
-   [![BluePay Payments Setup](../img/bluepay-setup.png)](../img/bluepay-setup.png)
+   [![BluePay Payments Setup](/docs/img/bluepay-setup.png)](/docs/img/bluepay-setup.png)
 
 4. Click **Connect to BluePay**.
 
-   [![BluePay Settings Page](../img/bluepay-connect.png)](../img/bluepay-connect.png)
+   [![BluePay Settings Page](/docs/img/bluepay-connect.png)](/docs/img/bluepay-connect.png)
 
 5. Enter in your BluePay **Account ID** and **API Secret** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
 
-   [![BluePay Payments Enabled](../img/bluepay-enabled.png)](../img/bluepay-enabled.png)
+   [![BluePay Payments Enabled](/docs/img/bluepay-enabled.png)](/docs/img/bluepay-enabled.png)
 
 ## Client Workflow
 

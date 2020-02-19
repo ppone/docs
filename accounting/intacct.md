@@ -12,7 +12,7 @@ The Intacct integration ships with the following capabilities:
 - Reconciling payments received on Invoiced to Intacct
 - Syncing payments recorded on Intacct to Invoiced
 
-[![Intacct Data Flow](../img/intacct-object-mapping.png)](../img/intacct-object-mapping.png)
+[![Intacct Data Flow](/docs/img/intacct-object-mapping.png)](/docs/img/intacct-object-mapping.png)
 
 ## Setup
 
@@ -41,15 +41,15 @@ The next step is to set up a web services user for Invoiced on Intacct. It is re
    - Keep password until admin resets it: check this box
    - Restrict user access to web services only: check this box
    
-   [![Intacct Web Services User Setup](../img/intacct-web-services-user.png)](../img/intacct-web-services-user.png)
+   [![Intacct Web Services User Setup](/docs/img/intacct-web-services-user.png)](/docs/img/intacct-web-services-user.png)
 
 4. Next you need to configure permissions for the Invoiced user. On the subscriptions page check the **Accounts Receivable**, **General Ledger**, and **Order Entry** modules.
 
-   [![Intacct Subscriptions Setup](../img/intacct-web-services-user-subscriptions.png)](../img/intacct-web-services-user-subscriptions.png)
+   [![Intacct Subscriptions Setup](/docs/img/intacct-web-services-user-subscriptions.png)](/docs/img/intacct-web-services-user-subscriptions.png)
 
 5. Click on the **Permissions** button next to the Accounts Receivable module. Select the **All** radio in the top right. Click **Save**.
 
-   [![Intacct Permissions Setup](../img/intacct-web-services-user-permissions.png)](../img/intacct-web-services-user-permissions.png)
+   [![Intacct Permissions Setup](/docs/img/intacct-web-services-user-permissions.png)](/docs/img/intacct-web-services-user-permissions.png)
 
 6. Click on the **Permissions** button next to the General Ledger module. Select the **Read only** radio in the top right. Click **Save**.
 
@@ -65,23 +65,23 @@ The next step is to set up a web services user for Invoiced on Intacct. It is re
 
 3. Enter in *Invoiced* as the **Sender ID**. *Please note the sender id is case sensitive and starts with a capital I*. Click **Save**.
 
-   [![Intacct Web Services Authorization](../img/intacct-web-services-authorization.png)](../img/intacct-web-services-authorization.png)
+   [![Intacct Web Services Authorization](/docs/img/intacct-web-services-authorization.png)](/docs/img/intacct-web-services-authorization.png)
 
 ### Connecting Intacct on Invoiced
 
 1. Go to **Settings** &rarr; **Integrations** in the Invoiced dashboard.
 
-   [![Integration Settings](../img/integration-settings.png)](../img/integration-settings.png)
+   [![Integration Settings](/docs/img/integration-settings.png)](/docs/img/integration-settings.png)
 
 2. Click on **Connect** on the Intacct integration.
 
-   [![Connect Intacct](../img/connect-intacct.png)](../img/connect-intacct.png)
+   [![Connect Intacct](/docs/img/connect-intacct.png)](/docs/img/connect-intacct.png)
 
 3. Enter in the Intacct company ID, username, and password for your Invoiced web services user created earlier. If you are using a shared multi-entity account then you can also enter in the entity ID you would like the connection to use.
 
 4. Click **Save**. Intacct is now connected! Next you will want to configure the integration before using it.
 
-   [![Intacct Integration Settings](../img/intacct-integration-settings.png)](../img/intacct-integration-settings.png)
+   [![Intacct Integration Settings](/docs/img/intacct-integration-settings.png)](/docs/img/intacct-integration-settings.png)
 
 5. You can customize the integration, including the account mapping into your general ledger and enabling automatic reconciliation. You can optionally enter in location ID and/or department ID dimensions if you want to tag the line items on Intacct that are created by the Invoiced sync with these dimensions. If you are importing invoices from Intacct then the dimension settings are irrelevant.
 
@@ -93,7 +93,7 @@ The Invoiced Customization Package generated in the previous step can be install
 
 1. Find the `invoiced.xml` file generated in the previous section. This file is tied to your Invoiced account. Do not share it with anyone! Install the Invoiced package on Intacct in the **Customization Services** section.
 
-   [![Intacct Customization Package Install](../img/intacct-customization-package-install.png)](../img/intacct-customization-package-install.png)
+   [![Intacct Customization Package Install](/docs/img/intacct-customization-package-install.png)](/docs/img/intacct-customization-package-install.png)
 
 ## Usage
 
@@ -107,23 +107,23 @@ Instructions:
 
 1. Go to the **Invoices** tab in the Invoiced dashboard. Click on the **Import** button in the top-right.
 
-   [![Invoices Page](../img/invoices-header.png)](../img/invoices-header.png)
+   [![Invoices Page](/docs/img/invoices-header.png)](/docs/img/invoices-header.png)
 
 2. Select **Intacct**.
 
-   [![Invoice Importer](../img/invoice-importer.png)](../img/invoice-importer.png)
+   [![Invoice Importer](/docs/img/invoice-importer.png)](/docs/img/invoice-importer.png)
 
 3. Select the sales document type you would like to import, and when ready, click **Start**.
 
-   [![Start Intacct Invoice Import](../img/intacct-invoice-importer-options.png)](../img/intacct-invoice-importer-options.png)
+   [![Start Intacct Invoice Import](/docs/img/intacct-invoice-importer-options.png)](/docs/img/intacct-invoice-importer-options.png)
 
 4. The importer will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
 
-   [![Intacct Invoice Import Started](../img/intacct-invoice-importer-pending.png)](../img/intacct-invoice-importer-pending.png)
+   [![Intacct Invoice Import Started](/docs/img/intacct-invoice-importer-pending.png)](/docs/img/intacct-invoice-importer-pending.png)
 
 5. Once the import is finished you will see the newly imported invoices on the **Invoices** page.
 
-   [![Intacct Invoice Import Finished](../img/intacct-invoice-importer-finished.png)](../img/intacct-invoice-importer-finished.png)
+   [![Intacct Invoice Import Finished](/docs/img/intacct-invoice-importer-finished.png)](/docs/img/intacct-invoice-importer-finished.png)
 
 ### Import Entire Customer List
 
@@ -133,23 +133,23 @@ Instructions:
 
 1. Go to the **Customers** tab in the Invoiced dashboard. Click on the **Import** button in the top-right.
 
-   [![Customers Page](../img/customers-header.png)](../img/customers-header.png)
+   [![Customers Page](/docs/img/customers-header.png)](/docs/img/customers-header.png)
 
 2. Select **Intacct**.
 
-   [![Customer Importer](../img/customer-importer.png)](../img/customer-importer.png)
+   [![Customer Importer](/docs/img/customer-importer.png)](/docs/img/customer-importer.png)
 
 3. Click **Start**.
 
-   [![Start Intacct Customer Import](../img/intacct-customer-importer.png)](../img/intacct-customer-importer.png)
+   [![Start Intacct Customer Import](/docs/img/intacct-customer-importer.png)](/docs/img/intacct-customer-importer.png)
 
 4. The importer will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
 
-   [![Intacct Customer Import Started](../img/intacct-customer-importer-pending.png)](../img/intacct-customer-importer-pending.png)
+   [![Intacct Customer Import Started](/docs/img/intacct-customer-importer-pending.png)](/docs/img/intacct-customer-importer-pending.png)
 
 5. Once the import is finished you will see the newly imported invoices on the **Customers** page.
 
-   [![Intacct Customer Import Finished](../img/intacct-customer-importer-finished.png)](../img/intacct-customer-importer-finished.png)
+   [![Intacct Customer Import Finished](/docs/img/intacct-customer-importer-finished.png)](/docs/img/intacct-customer-importer-finished.png)
 
 ## Edge Cases
 

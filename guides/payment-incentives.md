@@ -12,21 +12,21 @@ Invoiced can handle two different kinds of early payment discounts. The first ki
 
 Early payment discount terms can be used by adding `X% Y NET D` payment terms to your invoice. The system will calculate and add the discount to the invoice for you. If the customer views and pays the invoice by the early discount deadline then they will only owe the discounted amount. If a customer pays after the discount expiration date then they will be asked to pay the full amount.
 
-[![Early Payment Discount Terms](../img/early-payment-discount-terms.png)](../img/early-payment-discount-terms.png)
+[![Early Payment Discount Terms](/docs/img/early-payment-discount-terms.png)](/docs/img/early-payment-discount-terms.png)
 
 ### Using expiring discounts
 
 When you have added a discount to an invoice you have the option to set an expiration date.
 
-[![Adding a discount](../img/expiring-discount-1.png)](../img/expiring-discount-1.png)
+[![Adding a discount](/docs/img/expiring-discount-1.png)](/docs/img/expiring-discount-1.png)
 
 After you have added a discount then you can click on the clock icon to convert it into an expiring discount.
 
-[![Setting the expiration date](../img/expiring-discount-2.png)](../img/expiring-discount-2.png)
+[![Setting the expiration date](/docs/img/expiring-discount-2.png)](/docs/img/expiring-discount-2.png)
 
 Once you enter in the expiration date your discount will look like this:
 
-[![Adding a discount](../img/expiring-discount-3.png)](../img/expiring-discount-3.png)
+[![Adding a discount](/docs/img/expiring-discount-3.png)](/docs/img/expiring-discount-3.png)
 
 ## Late Fees
 
@@ -40,15 +40,15 @@ These instructions can be followed to setup late fees on Invoiced for all of you
 
 1. Go to **Settings** &rarr; **General**.
 
-   [![Late fee settings](../img/late-fees-1.png)](../img/late-fees-1.png)
+   [![Late fee settings](/docs/img/late-fees-1.png)](/docs/img/late-fees-1.png)
 
 2. Click **Change** on the *Late Fees* section.
 
-   [![Configuring late fees](../img/late-fees-2.png)](../img/late-fees-2.png)
+   [![Configuring late fees](/docs/img/late-fees-2.png)](/docs/img/late-fees-2.png)
 
 3. Turn on late fees and enter in the parameters on your late fees. The grace period will assess a late fee X days after the invoice is past due. You can assess a percent or flat amount for a late fee. The recurring setting will allow you to assess the same late fee repeatedly every Y days. Click **Save** when you are done.
 
-   [![Late fees enabled](../img/late-fees-3.png)](../img/late-fees-3.png)
+   [![Late fees enabled](/docs/img/late-fees-3.png)](/docs/img/late-fees-3.png)
 
 ### Using late fees
 
@@ -56,4 +56,4 @@ Late fees will be assessed on your past due invoices automatically as they age b
 
 If you have a recurring percentage late fee, the calculation used is compounding. A flat amount late fee will be non-compounding because it is not a percentage. 
 
-[![Invoice with a late fee](../img/invoice-with-late-fee.png)](../img/invoice-with-late-fee.png)
+[![Invoice with a late fee](/docs/img/invoice-with-late-fee.png)](/docs/img/invoice-with-late-fee.png)

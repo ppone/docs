@@ -9,11 +9,11 @@ When an account has a credit hold, new invoices cannot be created for that custo
 Here is how to setup a credit hold:
 1. Open the customer's account in the Invoiced dashboard. Click **Edit**.
    
-   [![View Customer Account](../img/credit-limit-view-customer.png)](../img/credit-limit-view-customer.png)
+   [![View Customer Account](/docs/img/credit-limit-view-customer.png)](/docs/img/credit-limit-view-customer.png)
 
 2. In the *More Options* section, toggle on the **Credit Hold** option.
 
-   [![Add Credit Hold](../img/add-credit-hold.png)](../img/add-credit-hold.png)
+   [![Add Credit Hold](/docs/img/add-credit-hold.png)](/docs/img/add-credit-hold.png)
 
 3. Click **Save** to finalize the credit hold.
 
@@ -31,7 +31,7 @@ Here is how to setup a credit limit:
 
 2. In the *More Options* section, check the **Has credit limit** option and enter in the credit limit.
 
-   [![Add Credit Limit](../img/add-credit-limit.png)](../img/add-credit-limit.png)
+   [![Add Credit Limit](/docs/img/add-credit-limit.png)](/docs/img/add-credit-limit.png)
 
 3. Click **Save** to finalize the credit limit.
 

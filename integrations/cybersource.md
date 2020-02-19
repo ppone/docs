@@ -17,23 +17,23 @@ Connecting CyberSource is a straightforward process. Follow these steps to start
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
+   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
 
 2. Click **Setup** on the payment method you want to accept.
 
-   [![Credit Card Payments Setup](../img/credit-card-payment-setup.png)](../img/credit-card-payment-setup.png)
+   [![Credit Card Payments Setup](/docs/img/credit-card-payment-setup.png)](/docs/img/credit-card-payment-setup.png)
 
 3. Select **CyberSource** as the payment gateway.
 
-   [![CyberSource Payments Setup](../img/cybersource-setup.png)](../img/cybersource-setup.png)
+   [![CyberSource Payments Setup](/docs/img/cybersource-setup.png)](/docs/img/cybersource-setup.png)
 
 4. Click **Connect to CyberSource**.
 
-   [![CyberSource Settings Page](../img/cybersource-connect.png)](../img/cybersource-connect.png)
+   [![CyberSource Settings Page](/docs/img/cybersource-connect.png)](/docs/img/cybersource-connect.png)
 
 5. Enter in your CyberSource **Merchant ID** and **Transaction Key** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
 
-   [![CyberSource Payments Enabled](../img/cybersource-enabled.png)](../img/cybersource-enabled.png)
+   [![CyberSource Payments Enabled](/docs/img/cybersource-enabled.png)](/docs/img/cybersource-enabled.png)
 
 ## Client Workflow
 

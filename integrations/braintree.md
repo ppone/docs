@@ -16,23 +16,23 @@ Connecting Braintree is a straightforward process. Follow these steps to start a
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
+   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
 
 2. Click **Setup** on the *Credit Card* payment method.
 
-   [![Credit Card Payments Setup](../img/credit-card-payment-setup.png)](../img/credit-card-payment-setup.png)
+   [![Credit Card Payments Setup](/docs/img/credit-card-payment-setup.png)](/docs/img/credit-card-payment-setup.png)
 
 3. Select **Braintree** as the payment gateway.
 
-   [![Braintree Payments Setup](../img/braintree-setup.png)](../img/braintree-setup.png)
+   [![Braintree Payments Setup](/docs/img/braintree-setup.png)](/docs/img/braintree-setup.png)
 
 4. Click **Connect to Braintree**.
 
-   [![Braintree Settings Page](../img/braintree-connect.png)](../img/braintree-connect.png)
+   [![Braintree Settings Page](/docs/img/braintree-connect.png)](/docs/img/braintree-connect.png)
 
 5. Enter in your Braintree **Merchant ID**, **Merchant Account ID**, **Public Key**, and **Private Key** and click **Save**. Then click **Enable** and the credit card payments should be enabled.
 
-   [![Braintree Payments Enabled](../img/braintree-enabled.png)](../img/braintree-enabled.png)
+   [![Braintree Payments Enabled](/docs/img/braintree-enabled.png)](/docs/img/braintree-enabled.png)
 
 ## Client Workflow
 

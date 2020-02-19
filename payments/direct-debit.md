@@ -21,7 +21,7 @@ Setting up direct debit payments is a straightforward process.
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](../img/payment-settings-eu.png)](../img/payment-settings-eu.png)
+   [![Payment Settings](/docs/img/payment-settings-eu.png)](/docs/img/payment-settings-eu.png)
 
 2. Click **Setup** on the *Direct Debit* payment method. Continue following the instructions to configure your payment gateway. For example, if you are using GoCardless then you can see the [setup process here](/docs/integrations/gocardless#setup).
 
@@ -33,7 +33,7 @@ Paying with direct debit has been made as straightforward as possible for custom
 
 Once the direct debit mandate has been completed then your customer can now use their bank account to pay any invoice from you by returning to the invoice payment page and selecting their bank account as the payment method.
 
-[![GoCardless Direct Debit Payment](../img/pay-invoice-direct-debit-2.png)](../img/pay-invoice-direct-debit-2.png)
+[![GoCardless Direct Debit Payment](/docs/img/pay-invoice-direct-debit-2.png)](/docs/img/pay-invoice-direct-debit-2.png)
 
 New direct debit payments will have a pending status. Direct debit payments generally take 4-5 business days to complete. Once the transaction succeeds or fails we will update the invoice and send the customer a receipt. In the event of a failure we will create an event in the dashboard.
 

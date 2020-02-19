@@ -4,7 +4,7 @@ Zapier allows you to easily build and automate workflows between Invoiced and mo
 
 You can install the [Invoiced Zapier integration here](https://zapier.com/zapbook/invoiced).
 
-[![Zapier Integration](../img/zapier-integration.png)](../img/zapier-integration.png)
+[![Zapier Integration](/docs/img/zapier-integration.png)](/docs/img/zapier-integration.png)
 
 ## Triggers
 

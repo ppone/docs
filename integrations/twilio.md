@@ -8,21 +8,21 @@ We are going to walk you through setting up the Twilio integration. This assumes
 
 1. Get your Twilio SID and Auth Token from the Twilio dashboard. 
 
-   [![Obtaining Twilio API Key](../img/twilio-settings.png)](../img/twilio-settings.png)
+   [![Obtaining Twilio API Key](/docs/img/twilio-settings.png)](/docs/img/twilio-settings.png)
 
 2. Go to **Settings** &rarr; **Integrations** of the Invoiced application. Click **Connect** underneath the *Twilio* integration.
 
-   [![Integration Settings](../img/integration-settings.png)](../img/integration-settings.png)
+   [![Integration Settings](/docs/img/integration-settings.png)](/docs/img/integration-settings.png)
 
 3. Enter in your Twilio SID and Auth Token. Click **Save**.
 
-   [![Connect Twilio](../img/connect-twilio.png)](../img/connect-twilio.png)
+   [![Connect Twilio](/docs/img/connect-twilio.png)](/docs/img/connect-twilio.png)
 
 4. Click on **Configure** underneath the *Twilio* integration.
 
 5. Select a phone number in your account that you'd like to send text messages from. If you don't have one yet then click **Buy a new number**.
 
-   [![Configure Twilio Integration](../img/configure-twilio-integration.png)](../img/configure-twilio-integration.png)
+   [![Configure Twilio Integration](/docs/img/configure-twilio-integration.png)](/docs/img/configure-twilio-integration.png)
 
 6. Click **Save** to enable the integration. You are now ready to start sending text messages!
 
@@ -36,19 +36,19 @@ You can send both account statements and individual invoices through a text mess
 
 2. Click **Actions** &rarr; **Send Invoice**.
 
-   [![Send Document](../img/send-document-choice.png)](../img/send-document-choice.png)
+   [![Send Document](/docs/img/send-document-choice.png)](/docs/img/send-document-choice.png)
 
 3. Click the **Text Message** option.
 
-   [![Send Text Message](../img/send-text-message-missing-number.png)](../img/send-text-message-missing-number.png)
+   [![Send Text Message](/docs/img/send-text-message-missing-number.png)](/docs/img/send-text-message-missing-number.png)
 
 4. Add a mobile phone contact to your customer's account by clicking **Add Contact**. At a minimum you need to add a name, phone number, and check the *Can receive text messages* options.
 
-   [![Add Contact](../img/send-text-message-add-contact.png)](../img/send-text-message-add-contact.png)
+   [![Add Contact](/docs/img/send-text-message-add-contact.png)](/docs/img/send-text-message-add-contact.png)
 
 5. Enter in your message, and remember to keep it short! Then click **Send**.
 
-   [![Finish Sending Text Message](../img/send-text-message-invoice.png)](../img/send-text-message-invoice.png)
+   [![Finish Sending Text Message](/docs/img/send-text-message-invoice.png)](/docs/img/send-text-message-invoice.png)
 
 ### Sending an account statement
 
@@ -58,19 +58,19 @@ You can send both account statements and individual invoices through a text mess
 
 3. Enter in the parameters for the statement and click **Send**.
 
-   [![Send Document](../img/send-document-choice.png)](../img/send-document-choice.png)
+   [![Send Document](/docs/img/send-document-choice.png)](/docs/img/send-document-choice.png)
 
 4. Click the **Text Message** option.
 
-   [![Send Text Message](../img/send-text-message-missing-number.png)](../img/send-text-message-missing-number.png)
+   [![Send Text Message](/docs/img/send-text-message-missing-number.png)](/docs/img/send-text-message-missing-number.png)
 
 5. Add a mobile phone contact to your customer's account by clicking **Add Contact**. At a minimum you need to add a name, phone number, and check the *Can receive text messages* options.
 
-   [![Add Contact](../img/send-text-message-add-contact.png)](../img/send-text-message-add-contact.png)
+   [![Add Contact](/docs/img/send-text-message-add-contact.png)](/docs/img/send-text-message-add-contact.png)
 
 6. Enter in your message, and remember to keep it short! Then click **Send**.
 
-   [![Finish Sending Text Message](../img/send-text-message-invoice.png)](../img/send-text-message-invoice.png)
+   [![Finish Sending Text Message](/docs/img/send-text-message-invoice.png)](/docs/img/send-text-message-invoice.png)
 
 ## Limitations
 

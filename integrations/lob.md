@@ -8,15 +8,15 @@ We are going to walk you through setting up the Lob integration. This assumes yo
 
 1. Get your Lob API key from the Lob dashboard. This will be the *Secret API Key* for the *Live Environment*.
 
-   [![Obtaining Lob API Key](../img/lob-settings.png)](../img/lob-settings.png)
+   [![Obtaining Lob API Key](/docs/img/lob-settings.png)](/docs/img/lob-settings.png)
 
 2. Go to **Settings** &rarr; **Integrations** of the Invoiced application. Click **Connect** underneath the *Lob* integration.
 
-   [![Integration Settings](../img/integration-settings.png)](../img/integration-settings.png)
+   [![Integration Settings](/docs/img/integration-settings.png)](/docs/img/integration-settings.png)
 
 3. Enter in your Lob API key. Click **Save** to enable the integration. You are now ready to start sending letters!
 
-   [![Connect Lob](../img/connect-lob.png)](../img/connect-lob.png)
+   [![Connect Lob](/docs/img/connect-lob.png)](/docs/img/connect-lob.png)
 
 ## Sending a letter
 
@@ -28,11 +28,11 @@ You can send both account statements and individual invoices through a letter. I
 
 2. Click **Actions** &rarr; **Send Invoice**.
 
-   [![Send Document](../img/send-document-choice.png)](../img/send-document-choice.png)
+   [![Send Document](/docs/img/send-document-choice.png)](/docs/img/send-document-choice.png)
 
 3. Select the *Letter* option. Make sure the recipient's address looks right and click **Send**.
 
-   [![Send Letter](../img/send-letter.png)](../img/send-letter.png)
+   [![Send Letter](/docs/img/send-letter.png)](/docs/img/send-letter.png)
 
 ### Sending an account statement
 
@@ -42,11 +42,11 @@ You can send both account statements and individual invoices through a letter. I
 
 3. Enter in the parameters for the statement and click **Send**.
 
-   [![Send Document](../img/send-document-choice.png)](../img/send-document-choice.png)
+   [![Send Document](/docs/img/send-document-choice.png)](/docs/img/send-document-choice.png)
 
 4. Select the *Letter* option. Make sure the recipient's address looks right and click **Send**.
 
-   [![Finish Sending Letter](../img/send-letter.png)](../img/send-letter.png)
+   [![Finish Sending Letter](/docs/img/send-letter.png)](/docs/img/send-letter.png)
 
 ## Limitations
 

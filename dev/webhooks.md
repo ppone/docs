@@ -53,7 +53,7 @@ If a webhook attempt fails then we will reattempt the webhook every 1 hour for u
 
 Within the Invoiced application you can click on the **Details** button underneath any event. You will see all of the webhook attempts and a summary of each response we received.
 
-[![Webhook Attempts](../img/event-details-webhooks.png)](../img/event-details-webhooks.png)
+[![Webhook Attempts](/docs/img/event-details-webhooks.png)](/docs/img/event-details-webhooks.png)
 
 #### Retrying webhooks
 

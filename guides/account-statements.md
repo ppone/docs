@@ -13,16 +13,16 @@ A Balance Forward statement shows all of the invoice, payment, and credit note a
 
 Here is an example Balance Forward statement.
 
-[![Balance Forward Statement](../img/statement-example-balance-forward.png)](../img/statement-example-balance-forward.png)
+[![Balance Forward Statement](/docs/img/statement-example-balance-forward.png)](/docs/img/statement-example-balance-forward.png)
 
 Here is how you generate a Balance Forward statement:
 1. Open the customer's account in the Invoiced dashboard. Click **Actions** &rarr; **Generate Statement**.
 
-   [![View Customer Account](../img/statement-view-customer.png)](../img/statement-view-customer.png)
+   [![View Customer Account](/docs/img/statement-view-customer.png)](/docs/img/statement-view-customer.png)
 
 2. Select **Balance Forward** and choose the date range the statement should cover.
 
-   [![Build Balance Forward Statement](../img/statement-build-balance-forward.png)](../img/statement-build-balance-forward.png)
+   [![Build Balance Forward Statement](/docs/img/statement-build-balance-forward.png)](/docs/img/statement-build-balance-forward.png)
 
 3. Click **Download** to get a printable version of the statement or **Send** to deliver it to your customer via email, letter, or text message.
 
@@ -32,15 +32,15 @@ An Open Item statement shows all of the unpaid invoices for a customer account. 
 
 Here is an example Open Item statement.
 
-[![Open Item Statement](../img/statement-example-open-item.png)](../img/statement-example-open-item.png)
+[![Open Item Statement](/docs/img/statement-example-open-item.png)](/docs/img/statement-example-open-item.png)
 
 Here is how you generate an Open Item statement:
 1. Open the customer's account in the Invoiced dashboard. Click **Actions** &rarr; **Generate Statement**.
 
-   [![View Customer Account](../img/statement-view-customer.png)](../img/statement-view-customer.png)
+   [![View Customer Account](/docs/img/statement-view-customer.png)](/docs/img/statement-view-customer.png)
 
 2. Select **Open Item** and choose the date range the statement should cover.
 
-   [![Build Open Item Statement](../img/statement-build-open-item.png)](../img/statement-build-open-item.png)
+   [![Build Open Item Statement](/docs/img/statement-build-open-item.png)](/docs/img/statement-build-open-item.png)
 
 3. Click **Download** to get a printable version of the statement or **Send** to deliver it to your customer via email, letter, or text message.

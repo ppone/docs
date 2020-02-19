@@ -4,15 +4,15 @@ Using Coupon codes can incentivize customers and build brand loyalty. They can a
 
 To access Coupons, navigate to **Settings** &rarr; **Coupons**
 
- [![Click to add a Coupon](../img/coupons.png)](../img/coupons.png)
+ [![Click to add a Coupon](/docs/img/coupons.png)](/docs/img/coupons.png)
 
 ##Creating a Coupon
 
 To create a new Coupon, simply click New Coupon. This will prompt the user to add conditions for the coupon. Here, apply a name for the coupon and the amount. Please note: the amount can be a flat rate, in which a currency is needed, or it can be a percentage of the total. The ID will be auto generated based on the name of the coupon being created.
 
- [![Click to add a Flat Rate Coupon](../img/coupon-flat.png)](../img/coupon-flat.png)
+ [![Click to add a Flat Rate Coupon](/docs/img/coupon-flat.png)](/docs/img/coupon-flat.png)
 
- [![Click to add a Percent Off Coupon](../img/coupon-percent.png)](../img/coupon-percent.png)
+ [![Click to add a Percent Off Coupon](/docs/img/coupon-percent.png)](/docs/img/coupon-percent.png)
 
 After creating the coupon, it is now ready to be applied to an Invoice. 
 
@@ -20,9 +20,9 @@ After creating the coupon, it is now ready to be applied to an Invoice.
 
 After creating the Coupon, it is now ready to be applied to Invoicing. A coupon can be applied anywhere there is a line item or subtotal. Press the +Discount to Add the coupon code. A list of the Coupons created will be shown. Select the correct Coupon that is needed to apply discount to the Invoice.
 
-[![Adding a Discount](../img/discount.png)](../img/discount.png)
+[![Adding a Discount](/docs/img/discount.png)](/docs/img/discount.png)
 
-[![Adding a Discount Line](../img/discount-1.png)](../img/discount-1.png)
+[![Adding a Discount Line](/docs/img/discount-1.png)](/docs/img/discount-1.png)
 
 Once selected, the Coupon will be added to the invoice as a line item and discount will be applied to the Balance Due. 
 
@@ -34,17 +34,17 @@ Setting expiration dates on discount codes can be done directly on the Invoice f
 
 Once the invoice is set and a discount is ready to be applied, choose the discount option under the SubTotal section on the invoice. Here, you will apply the discount percentage or rate to be taken off the invoice. Once the discount has been applied, click the clock icon next to discount rate. 
 
-[![Set an Expiration Date](../img/set-expiration.png)](../img/set-expiration.png)
+[![Set an Expiration Date](/docs/img/set-expiration.png)](/docs/img/set-expiration.png)
 
 This will allow the discount to be expired on a specific date. This setting defaults to Never. Select the date on the calendar and press save. Once the date is saved, the expiration date will show on the invoice. 
 
-[![Set an Expiration](../img/set-expiration-1.png)](../img/set-expiration-1.png)
+[![Set an Expiration](/docs/img/set-expiration-1.png)](/docs/img/set-expiration-1.png)
 
 ##Place Discount on Line Item
 
 Just like setting a discount on the entire invoice, Invoiced also allows for coupons to be placed on each line item of the invoice. As each item is added to the invoice, there is a settings section located to the right side of the lined item. In the setting section, a user can add a Line Discount or remove the lined item from adding the discount placed in the subtotal. 
 
-[![Add Discounts Per Line Item](../img/discounts-added-per-line.png)](../img/discounts-added-per-line.png)
+[![Add Discounts Per Line Item](/docs/img/discounts-added-per-line.png)](/docs/img/discounts-added-per-line.png)
 
 ##Apply Coupon Duration
 
@@ -60,7 +60,7 @@ Start by creating a coupon or editing an existing coupon. There is now a drop do
 
 When choosing fixed duration, a box to enter number of cycles to use the discount on. There, enter X number of cycles of the plan. 
 
-[![Add a Discount Duration](../img/apply-duration.png)](../img/apply-duration.png)
+[![Add a Discount Duration](/docs/img/apply-duration.png)](/docs/img/apply-duration.png)
 
 Still have questions regarding coupons? Contact Invoiced support : support@invoiced.com.
 

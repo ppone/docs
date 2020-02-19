@@ -17,23 +17,23 @@ Connecting Worldpay is a straightforward process. Follow these steps to start ac
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
+   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
 
 2. Click **Setup** on the payment method you want to accept.
 
-   [![Credit Card Payments Setup](../img/credit-card-payment-setup.png)](../img/credit-card-payment-setup.png)
+   [![Credit Card Payments Setup](/docs/img/credit-card-payment-setup.png)](/docs/img/credit-card-payment-setup.png)
 
 3. Select **Worldpay** as the payment gateway.
 
-   [![Worldpay Payments Setup](../img/worldpay-setup.png)](../img/worldpay-setup.png)
+   [![Worldpay Payments Setup](/docs/img/worldpay-setup.png)](/docs/img/worldpay-setup.png)
 
 4. Click **Connect to Worldpay**.
 
-   [![Worldpay Settings Page](../img/worldpay-connect.png)](../img/worldpay-connect.png)
+   [![Worldpay Settings Page](/docs/img/worldpay-connect.png)](/docs/img/worldpay-connect.png)
 
 5. Enter in your Worldpay **Account ID**, **Sub ID**, and **Merchant PIN** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
 
-   [![Worldpay Payments Enabled](../img/worldpay-enabled.png)](../img/worldpay-enabled.png)
+   [![Worldpay Payments Enabled](/docs/img/worldpay-enabled.png)](/docs/img/worldpay-enabled.png)
 
 ## Client Workflow
 

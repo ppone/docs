@@ -12,11 +12,11 @@ Once you are established with a payment processor, setting up credit card paymen
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
+   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
 
 2. Click **Setup** on the *Credit Card* payment method.
 
-  [![Credit Card Payments Setup](../img/credit-card-payment-setup.png)](../img/credit-card-payment-setup.png)
+  [![Credit Card Payments Setup](/docs/img/credit-card-payment-setup.png)](/docs/img/credit-card-payment-setup.png)
 
 3. Select your payment gateway and follow the on-screen instructions to connect your payment gateway.
 
@@ -56,7 +56,7 @@ Convenience fees can be setup with the following instructions:
 
 3. In the **Convenience Fee** field enter the % you wish to charge, up to 4%.
 
-  [![Convenience Fee Setup](../img/convenience-fee-setup.png)](../img/convenience-fee-setup.png)
+  [![Convenience Fee Setup](/docs/img/convenience-fee-setup.png)](/docs/img/convenience-fee-setup.png)
 
 4. Click **Save** to go live with convenience fees.
 

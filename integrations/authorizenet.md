@@ -17,25 +17,25 @@ Connecting Authorize.Net is a straightforward process. Follow these steps to sta
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
+   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
 
 2. Click **Setup** on the payment method you want to accept.
 
-   [![Credit Card Payments Setup](../img/credit-card-payment-setup.png)](../img/credit-card-payment-setup.png)
+   [![Credit Card Payments Setup](/docs/img/credit-card-payment-setup.png)](/docs/img/credit-card-payment-setup.png)
 
 3. Select **Authorize.Net** as the payment gateway.
 
-   [![Authorize.Net Payments Setup](../img/authorizenet-setup.png)](../img/authorizenet-setup.png)
+   [![Authorize.Net Payments Setup](/docs/img/authorizenet-setup.png)](/docs/img/authorizenet-setup.png)
 
 4. Click **Connect to Authorize.Net**.
 
-   [![Authorize.Net Settings Page](../img/authorizenet-connect.png)](../img/authorizenet-connect.png)
+   [![Authorize.Net Settings Page](/docs/img/authorizenet-connect.png)](/docs/img/authorizenet-connect.png)
 
 5. Enter in your Authorize.Net **API Login ID** and **Transaction Key**. You can find your API credentials from the Authorize.Net Merchant Interface by following [these instructions](https://support.authorize.net/s/article/How-do-I-obtain-my-API-Login-ID-and-Transaction-Key).
 
 6. Click **Save**. Then click **Enable** and the payment method you selected should be enabled.
 
-   [![Authorize.Net Payments Enabled](../img/authorizenet-enabled.png)](../img/authorizenet-enabled.png)
+   [![Authorize.Net Payments Enabled](/docs/img/authorizenet-enabled.png)](/docs/img/authorizenet-enabled.png)
 
 ## Client Workflow
 

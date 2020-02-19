@@ -14,11 +14,11 @@ Once you are established with a payment processor, setting up ACH payments is ea
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](../img/payment-settings.png)](../img/payment-settings.png)
+   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
 
 2. Click **Setup** on the *ACH* payment method.
 
-  [![ACH Setup](../img/ach-setup.png)](../img/ach-setup.png)
+  [![ACH Setup](/docs/img/ach-setup.png)](/docs/img/ach-setup.png)
 
 3. Select your payment gateway and follow the on-screen instructions to connect your payment gateway.
 

@@ -16,7 +16,7 @@ User permissions only apply to internal users that are accessing the Invoiced da
 
 3. Enter in the basic details of the person you would like to invite.
 
-   [![Inviting a Member](../img/invite-member.png)](../img/invite-member.png)
+   [![Inviting a Member](/docs/img/invite-member.png)](/docs/img/invite-member.png)
 
 4. Select a [role](#roles) for the user and any [customer restrictions](#customer-restrictions).
 
@@ -38,7 +38,7 @@ If a user belongs to more than 1 company, they can easily switch between those v
 
 2. Click on the company you want to switch to.
 
-   [![Switch to a different company](../img/company-switcher.png)](../img/company-switcher.png)
+   [![Switch to a different company](/docs/img/company-switcher.png)](/docs/img/company-switcher.png)
 
 ## Roles
 
@@ -62,7 +62,7 @@ Customers on the Enterprise edition of Invoiced can create their own roles that 
 
 3. Give your role a name and choose the permissions available to that role.
 
-   [![Creating a Role](../img/create-role.png)](../img/create-role.png)
+   [![Creating a Role](/docs/img/create-role.png)](/docs/img/create-role.png)
 
 4. Click **Save**. You can now assign this role to users!
 
@@ -86,4 +86,4 @@ When you use this setting you can restrict a user to a list of values for up to 
 
 In this example a user has access to all customers that have a **Territory** value of *North* or *East*.
 
-[![Adding Custom Field Restrictions](../img/custom-field-restrictions.png)](../img/custom-field-restrictions.png)
+[![Adding Custom Field Restrictions](/docs/img/custom-field-restrictions.png)](/docs/img/custom-field-restrictions.png)

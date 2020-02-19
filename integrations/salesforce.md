@@ -2,7 +2,7 @@
 
 The Invoiced for Salesforce app adds accounts receivable automation capabilities to Salesforce. Installing the native Salesforce app allows you to sync Invoiced billing data with Salesforce.
 
-[![Invoiced Salesforce Integration](../img/salesforce-integration.png)](../img/salesforce-integration.png)
+[![Invoiced Salesforce Integration](/docs/img/salesforce-integration.png)](/docs/img/salesforce-integration.png)
 
 ## Capabilities
 
@@ -26,15 +26,15 @@ The package can be installed in any Salesforce org, including Developer and Sand
 
    Note: If you are installing into a sandbox organization you must replace the initial portion of the URL with https://test.salesforce.com
 
-   [![Salesforce App Install](../img/salesforce-app-install.png)](../img/salesforce-app-install.png)
+   [![Salesforce App Install](/docs/img/salesforce-app-install.png)](/docs/img/salesforce-app-install.png)
 
 2. Obtain an API key from the Invoiced dashboard. You can do this in **Settings** &rarr; **Developers** &rarr; **New API Key**.
 
-   [![Salesforce API Key](../img/salesforce-api-key.png)](../img/salesforce-api-key.png)
+   [![Salesforce API Key](/docs/img/salesforce-api-key.png)](/docs/img/salesforce-api-key.png)
 
 3. Now you need to add your Invoiced API key to the package. Go to the Invoiced application from the Salesforce app launcher. Click on the **Settings** page at the top of the screen. Click on the **Connection** tab.
 
-   [![Salesforce Connection Setup](../img/salesforce-connection-setup.png)](../img/salesforce-connection-setup.png)
+   [![Salesforce Connection Setup](/docs/img/salesforce-connection-setup.png)](/docs/img/salesforce-connection-setup.png)
 
 4. Enter in the secret of the API key that you just created into the API Key field on Salesforce. If you are connecting to an Invoiced sandbox account then check the *Use Invoiced Sandbox* option.
 
@@ -44,11 +44,11 @@ The package can be installed in any Salesforce org, including Developer and Sand
 
 6. Click on the **Sync** tab. Check the syncs you want to enable and click **Save Settings**.
 
-   [![Salesforce Connection Setup](../img/salesforce-sync-settings.png)](../img/salesforce-sync-settings.png)
+   [![Salesforce Connection Setup](/docs/img/salesforce-sync-settings.png)](/docs/img/salesforce-sync-settings.png)
 
 7. Then click **Enable Syncing** at the top of the screen.
 
-   [![Salesforce Enable Sync](../img/salesforce-enable-sync.png)](../img/salesforce-enable-sync.png)
+   [![Salesforce Enable Sync](/docs/img/salesforce-enable-sync.png)](/docs/img/salesforce-enable-sync.png)
 
 8. Add customizations to Account Layout to add fields you wish to see:
    - Account Balance

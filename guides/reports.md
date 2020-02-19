@@ -25,7 +25,7 @@ We currently target two file formats with reporting: **PDF** or **CSV** (comma-s
 
 The **A/R Overview** report gives you an overview of your accounts receivable activity over a time range. The report shows the aggregate amount invoiced, collected, and considered bad debt during the time period you selected. It will also produce standard collection metrics, like Days Sales Outstanding and Collections Efficiency. The report does not include detail on any of these activities. Instead, you can use one of the reports below to dig into the numbers.
 
-[![A/R Overview Report](../img/report-a-r-overview.png)](../img/report-a-r-overview.png)
+[![A/R Overview Report](/docs/img/report-a-r-overview.png)](/docs/img/report-a-r-overview.png)
 
 ## Communications
 
@@ -33,13 +33,13 @@ The **Communications** report shows you messaging and calling activity from your
 
 The *Invoiced* user shows you activities performed automatically by the system as part of a chasing cadence or by an API caller.
 
-[![Communications Report](../img/report-communications.png)](../img/report-communications.png)
+[![Communications Report](/docs/img/report-communications.png)](/docs/img/report-communications.png)
 
 ## Reconciliation
 
 The **Reconciliation** report helps you reconcile the Invoiced sub-ledger with your general ledger. It will show you the A/R balance at the beginning and end of the report time range. The report also has a summary of activity within the date range, including invoices generated, payments received, and adjustments.
 
-[![Reconciliation Report](../img/report-reconciliation.png)](../img/report-reconciliation.png)
+[![Reconciliation Report](/docs/img/report-reconciliation.png)](/docs/img/report-reconciliation.png)
 
 ## A/R Aging
 
@@ -54,7 +54,7 @@ Invoices by default are grouped into the following aging categories:
 
 If you would like to change the aging ranges, you may change it in **Settings** &rarr; **General** &rarr; **Aging**.
 
-[![A/R Aging Report](../img/report-invoice-aging.png)](../img/report-invoice-aging.png)
+[![A/R Aging Report](/docs/img/report-invoice-aging.png)](/docs/img/report-invoice-aging.png)
 
 ## Invoice Summary
 
@@ -62,37 +62,37 @@ The **Invoice Summary** report lists all of the invoices in the time period you 
 
 The *Outstanding* amount shows you the amount that is outstanding for the matched invoices, at the current point in time. The outstanding number does and not reflect the balance at the end of the report date range. The **Invoice Summary** report will let you see you historical A/R balances.
 
-[![Invoice Summary Report](../img/report-invoice-summary.png)](../img/report-invoice-summary.png)
+[![Invoice Summary Report](/docs/img/report-invoice-summary.png)](/docs/img/report-invoice-summary.png)
 
 ## Bad Debt
 
 The **Bad Debt** report lists all of the invoices classified as bad debt within a time period. An invoice is considered bad debt if it was closed before it was paid in full.
 
-[![Bad Debt Report](../img/report-bad-debt.png)](../img/report-bad-debt.png)
+[![Bad Debt Report](/docs/img/report-bad-debt.png)](/docs/img/report-bad-debt.png)
 
 ## Late Fees
 
 The **Late Fees** report shows you the late fees assessed and collected over a time range.
 
-[![Late Fees Report](../img/report-late-fees.png)](../img/report-late-fees.png)
+[![Late Fees Report](/docs/img/report-late-fees.png)](/docs/img/report-late-fees.png)
 
 ## Payment Summary
 
 The **Payment Summary** report analyzes the payments that were received in a time period. In addition to aggregate payment amounts, you will also be able to see payment activity broken down by month and by payment method.
 
-[![Payment Summary Report](../img/report-payment-summary.png)](../img/report-payment-summary.png)
+[![Payment Summary Report](/docs/img/report-payment-summary.png)](/docs/img/report-payment-summary.png)
 
 ## Credit Summary
 
 The **Credit Summary** report helps you understand the credit balances of your customers. You can filter this report by date range to see the credits issued, spent (applied to invoices), and outstanding for any time period.
 
-[![Credit Summary Report](../img/report-credit-summary.png)](../img/report-credit-summary.png)
+[![Credit Summary Report](/docs/img/report-credit-summary.png)](/docs/img/report-credit-summary.png)
 
 ## Expiring Cards
 
 The **Expiring Cards** report shows customers with cards that are at risk of expiring in the near future, or cards that have already expired.
 
-[![Expiring Cards Report](../img/report-expiring-cards.png)](../img/report-expiring-cards.png)
+[![Expiring Cards Report](/docs/img/report-expiring-cards.png)](/docs/img/report-expiring-cards.png)
 
 ## Tax Summary
 
@@ -100,7 +100,7 @@ The **Tax Summary** report shows a breakdown of tax billed or tax collected duri
 
 With the **Tax Date** option you can tell Invoiced when to recognize tax. You can choose between when it was billed (**Invoice Date**) or when it was collected (**Payment Date**). The method you choose might depend on how you account for taxes or the rules in your tax jurisdiction.
 
-[![Tax Summary Report](../img/report-tax-summary.png)](../img/report-tax-summary.png)
+[![Tax Summary Report](/docs/img/report-tax-summary.png)](/docs/img/report-tax-summary.png)
 
 ## Sales by Item
 
@@ -108,19 +108,19 @@ The **Sales by Item** report gives you a breakdown of your sales, including what
 
 *Please note that any line items that do not have an item associated will be grouped together.*
 
-[![Sales by Item Report](../img/report-sales-by-item.png)](../img/report-sales-by-item.png)
+[![Sales by Item Report](/docs/img/report-sales-by-item.png)](/docs/img/report-sales-by-item.png)
 
 ## Subscription Metrics
 
 The **Subscription Metrics** report gives you high-level metrics on your subscription billing, including MRR and ARPU.
 
-[![Subscription Metrics Report](../img/report-subscription-metrics.png)](../img/report-subscription-metrics.png)
+[![Subscription Metrics Report](/docs/img/report-subscription-metrics.png)](/docs/img/report-subscription-metrics.png)
 
 ## Subscription Activity
 
 The **Subscription Activity** report gives you a shows how many subscriptions have been added and canceled over a given time period.
 
-[![Subscription Activity Report](../img/report-subscription-activity.png)](../img/report-subscription-activity.png)
+[![Subscription Activity Report](/docs/img/report-subscription-activity.png)](/docs/img/report-subscription-activity.png)
 
 <hr/>
 

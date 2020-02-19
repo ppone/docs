@@ -121,11 +121,11 @@ The subscription billing addon is disabled by default. Follow these steps to ena
 
 1. Go to **Settings** &rarr; **General** in the Invoiced dashboard. Towards the bottom of the page you will find a *Subscriptions Addon* toggle.
 
-   [![Enabling Subscriptions Addon](../img/addon-settings.png)](../img/addon-settings.png)
+   [![Enabling Subscriptions Addon](/docs/img/addon-settings.png)](/docs/img/addon-settings.png)
 
 2. Click on the toggle next to *Subscriptions Addon*.
 
-   [![Subscriptions Addon Enabled](../img/subscriptions-enabled.png)](../img/subscriptions-enabled.png)
+   [![Subscriptions Addon Enabled](/docs/img/subscriptions-enabled.png)](/docs/img/subscriptions-enabled.png)
 
 ### Creating a Subscription
 
@@ -134,42 +134,42 @@ The following example is based off of a subscription invoice with a NET 14 terms
 Subscriptions are created and accessed in the Subscriptions tab. To begin creating a subscription, you can click the + sign next to the subscription tab or access the Add Subscription button in the Subscriptions tab. 
 
 
-   [![Create Subscription Page](../img/create-subscription.png)](../img/create-subscription.png)
+   [![Create Subscription Page](/docs/img/create-subscription.png)](/docs/img/create-subscription.png)
 
 A dialogue box will now show to select or add a customer. If the customer does not exist, you will add the customers name and Invoiced will create the customer. 
 
-   [![Create Customer](../img/create-customer.png)](../img/create-customer.png)
+   [![Create Customer](/docs/img/create-customer.png)](/docs/img/create-customer.png)
 
 This will allow you to enter the customers contact information, select AutoPay (if applicable), payment terms,  and options for payment methods. This example will use NET 14. Click create when finished.
 
-   [![Net 14](../img/net-14.png)](../img/net-14.png)
+   [![Net 14](/docs/img/net-14.png)](/docs/img/net-14.png)
 
 Once the customer is saved, it is time to create a plan. Click +New Plan to create a new plan. 
 
-   [![New Plan](../img/new-plans.png)](../img/new-plans.png)
+   [![New Plan](/docs/img/new-plans.png)](/docs/img/new-plans.png)
 
 Let's say we want to create a plan called *Basic* for *$39/month*. The *ID* field is a unique identifier used to reference your plan through the API. The ID is automatically generated for you, but you are free to rename this to match your own internal SKU or naming scheme. Click save when completed. 
 
-   [![New Recurring Plan](../img/create-new-plan.png)](../img/create-new-plan.png)
+   [![New Recurring Plan](/docs/img/create-new-plan.png)](/docs/img/create-new-plan.png)
 
 The last step is to customize the duration of the subscription and if you wish to have any addons. To reveal these options, click the *Options *drop down*. 
 
-   [![New Recurring Plan Options](../img/options.png)](../img/options.png)
+   [![New Recurring Plan Options](/docs/img/options.png)](/docs/img/options.png)
 
 In this example, we want to start the subscription now. If you wish to start the subscription at a later date or offer a free trial period then you can uncheck the *Starting now *option to select a start date. We are going to leave the *Duration* as Until canceled. The subscription will renew until canceled by you or the customer. The *Quantity* can be left as 1, unless the customer is purchasing multiple quantities of the base price. Let's try adding an addon by clicking *+ Addon*. In our example we are selecting an 1 on 1 session addon and setting the quantity to 4.
 
 
-   [![New Subscription with Add ons](../img/add-on.png)](../img/add-on.png)
+   [![New Subscription with Add ons](/docs/img/add-on.png)](/docs/img/add-on.png)
 
 For the *Renew On* setting we are going to leave it as Start date anniversary. This will renew the subscription each billing cycle on the same day of the month as the start date, which is today in this example. If you selected Day of month instead then this would bill your customer on a specific day of the month you choose, like the first of the month. The first bill would be prorated for the time remaining until the next billing cycle. Future renewals will be on the date you've specified.
 
 At the bottom of the screen you can see the calculated recurring total. If you click the *Preview* button you can even see a preview of the upcoming billing cycles. Once the subscription looks right you can now click *Create*.
 
-   [![New Subscription Options Summary](../img/summary.png)](../img/summary.png)
+   [![New Subscription Options Summary](/docs/img/summary.png)](/docs/img/summary.png)
 
 You will now see that your newly created subscription is active. The invoice for the first billing cycle has already been generated.
 
-   [![New Subscription Overview](../img/subscription-overview.png)](../img/subscription-overview.png)
+   [![New Subscription Overview](/docs/img/subscription-overview.png)](/docs/img/subscription-overview.png)
 
 
 ### Editing a Subscription
@@ -179,7 +179,7 @@ What happens when your customer falls in love with your service and wants to pur
 You can edit a subscription by opening the subscription in the dashboard and clicking the *Edit* button in the top right corner.
 
 
-[![Edit Subscription with Prorations](../img/edit-a-subscription.png)](../img/edit-a-subscription.png)
+[![Edit Subscription with Prorations](/docs/img/edit-a-subscription.png)](/docs/img/edit-a-subscription.png)
 
 This allows you to change the quantity, add subscription addons, discounts, and taxes.
 
@@ -190,21 +190,21 @@ Once your subscription is running you might want to change when it renews next. 
 
 With the subscription in the dashboard you can click **Actions** &rarr; **Change Billing Date** to change when the subscription will renew next.
 
-[![Change Subscription Billing Date Step 1](../img/change-billing-date-step1.png)](../img/change-billing-date-step1.png)
+[![Change Subscription Billing Date Step 1](/docs/img/change-billing-date-step1.png)](/docs/img/change-billing-date-step1.png)
 
 The billing date cannot be set in the past. Changing the billing date will not produce any prorations.
 
-[![Change Subscription Billing Date Step 2](../img/change-billing-date-step2.png)](../img/change-billing-date-step2.png)
+[![Change Subscription Billing Date Step 2](/docs/img/change-billing-date-step2.png)](/docs/img/change-billing-date-step2.png)
 
 ### Canceling a Subscription
 
 Canceling a subscription is simple. With the subscription open in the dashboard you can click **Actions** &rarr; **Cancel Subscription**.
 
-[![Canceling a Subscription Step 1](../img/cancel-the-subscription.png)](../img/cancel-the-subscription.png)
+[![Canceling a Subscription Step 1](/docs/img/cancel-the-subscription.png)](/docs/img/cancel-the-subscription.png)
 
 You can choose whether you want the subscription to be canceled immediately or at the end of the billing period.
 
-[![Canceling a Subscription Step 2](../img/canceling-the-subscription.png)](../img/canceling-the-subscription.png)
+[![Canceling a Subscription Step 2](/docs/img/canceling-the-subscription.png)](/docs/img/canceling-the-subscription.png)
 
 When a customer cancels a subscription in the customer portal, the subscription will end at the end of the billing cycle. This also means that the cancellation will not trigger a credit to the customers account. This is because the subscription is pre-paid at the beginning of the billing cycle. 
 
@@ -230,7 +230,7 @@ Like the process of creating a traditional subscription, find the customer you w
 
 Select how long the initial term of the contract will be.
 
-[![Creating a Contract](../img/creating-a-contract.gif)](../img/creating-a-contract.gif)
+[![Creating a Contract](/docs/img/creating-a-contract.gif)](/docs/img/creating-a-contract.gif)
 
 Next, select whether the contract will :
 
@@ -246,11 +246,11 @@ Once you select the process of the contract ending, continue the traditional set
 
 When a contract is up for renewal, the renewal process is done by the internal Invoiced user, not the customer. It is up to the business and the customer to work on the renewal terms of the contract. 
 
-[![Approving a Contract Renewal](../img/contract-pending-approval.png)](../img/contract-pending-approval.png)
+[![Approving a Contract Renewal](/docs/img/contract-pending-approval.png)](/docs/img/contract-pending-approval.png)
 
 You can filter your subscriptions by upcoming renewal in your Subscriptions section under the filter : Pending Renewal. 
 
-[![Approving a Contract Renewal Reporting](../img/contracts-pending-approval-report.png)](../img/contracts-pending-approval-report.png)
+[![Approving a Contract Renewal Reporting](/docs/img/contracts-pending-approval-report.png)](/docs/img/contracts-pending-approval-report.png)
 
 ### Canceling Contract Billing
  

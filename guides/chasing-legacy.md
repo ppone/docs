@@ -26,19 +26,19 @@ First you will need to enable chasing for your account in the settings and set u
 
 Go to **Settings** &rarr; **Chasing**. Flip the **Allow Chasing** toggle.
 
-[![Invoice Settings Chasing Enable](../img/allow-chasing-new.png)](../img/allow-chasing-new.png)
+[![Invoice Settings Chasing Enable](/docs/img/allow-chasing-new.png)](/docs/img/allow-chasing-new.png)
 
 Now we are ready to set the chasing schedule in order to instruct Invoiced exactly when to send reminders. Click on **+ Step** to add your first and subsequent steps to the chasing schedule.
 
-[![Invoice Settings Chasing Enable](../img/add-chasing-schedule.png)](../img/add-chasing-schedule.png)
+[![Invoice Settings Chasing Enable](/docs/img/add-chasing-schedule.png)](/docs/img/add-chasing-schedule.png)
 
 You can remove existing steps or add new ones easily. We will automatically sort the schedule for you.
 
-[![Adding Chasing Steps](../img/chasing-schedue-editor.png)](../img/chasing-schedue-editor.png)
+[![Adding Chasing Steps](/docs/img/chasing-schedue-editor.png)](/docs/img/chasing-schedue-editor.png)
 
 When finished click **Save**. Chasing is now enabled for your account. All that's left is to enable chasing on the invoices you want chased.
 
-[![Completed Chasing Schedule](../img/finished-chasing-schedule.png)](../img/finished-chasing-schedule.png)
+[![Completed Chasing Schedule](/docs/img/finished-chasing-schedule.png)](/docs/img/finished-chasing-schedule.png)
 
 ### Additional Chasing Support
 
@@ -50,15 +50,15 @@ When creating a chasing schedule, you can also select a method to initiate a res
 
 Invoices flagged will be considered an invoice that "Needs Attention". Invoices that need attention will be marked on the invoices outstanding page with an attention icon. 
 
-[![Invoice Settings Chasing Enable](../img/needs-attention.png)](../img/needs-attention.png)
+[![Invoice Settings Chasing Enable](/docs/img/needs-attention.png)](/docs/img/needs-attention.png)
 
 You can also filter your invoices by invoices that need attention with the needs attention filter.
 
-[![Invoice Attention Filter](../img/attention-filter.png)](../img/attention-filter.png)
+[![Invoice Attention Filter](/docs/img/attention-filter.png)](/docs/img/attention-filter.png)
 
 When accessing the invoice, the action item will be placed on the invoice and can be marked as "resolved" to remove the action item.
 
-[![Resolve Attention](../img/mark-as-resolved.png)](../img/mark-as-resolved.png)
+[![Resolve Attention](/docs/img/mark-as-resolved.png)](/docs/img/mark-as-resolved.png)
 
 
 ### Chasing Invoices
@@ -96,27 +96,27 @@ Scheduling invoices to be sent into the future only requires that chasing is ena
 
 1. Ensure that **Allow Chasing** is enabled in **Settings** &rarr; **Chasing**. You only need to enable this once for your account.
 
-   [![Chasing is enabled globally](../img/turn-chasing-on.png)](../img/turn-chasing-on.png)
+   [![Chasing is enabled globally](/docs/img/turn-chasing-on.png)](/docs/img/turn-chasing-on.png)
 
 2. Open the invoice that you want Invoiced to follow up on.
 
-   [![Invoice you want to schedule](../img/scheduling-invoices-2.png)](../img/scheduling-invoices-2.png)
+   [![Invoice you want to schedule](/docs/img/scheduling-invoices-2.png)](/docs/img/scheduling-invoices-2.png)
 
 3. Click **Actions** &rarr; **Enable Chasing**.
 
-   [![Enable invoice chasing](../img/scheduling-invoices-3.png)](../img/scheduling-invoices-3.png)
+   [![Enable invoice chasing](/docs/img/scheduling-invoices-3.png)](/docs/img/scheduling-invoices-3.png)
 
 4. In the *Invoice Details* section you should see that chasing is enabled. If you have a chasing schedule then *Next Follow Up* might be set to a date already. If not, then it will say *Not scheduled*.
 
-   [![No follow ups scheduled](../img/scheduling-invoices-4.png)](../img/scheduling-invoices-4.png)
+   [![No follow ups scheduled](/docs/img/scheduling-invoices-4.png)](/docs/img/scheduling-invoices-4.png)
 
 5. Click on **Schedule** below *Next Follow Up* (or **Modify** if there is already a scheduled follow up).
 
-   [![Scheduling an automatic follow up](../img/scheduling-invoices-5.png)](../img/scheduling-invoices-5.png)
+   [![Scheduling an automatic follow up](/docs/img/scheduling-invoices-5.png)](/docs/img/scheduling-invoices-5.png)
 
 6. Enter in the date you want Invoiced to follow up on the invoice and click **Save**. Your follow up is scheduled. Invoiced will follow up on the date you've selected and no further action is needed.
 
-   [![Invoice follow up is now scheduled](../img/scheduling-invoices-6.png)](../img/scheduling-invoices-6.png)
+   [![Invoice follow up is now scheduled](/docs/img/scheduling-invoices-6.png)](/docs/img/scheduling-invoices-6.png)
 
 ## Examples
 
