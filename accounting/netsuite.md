@@ -22,7 +22,7 @@ In order to set up the NetSuite integration you first need these pieces of infor
 Below we will show you how to connect NetSuite with Invoiced, step-by-step.
 
 ### Install The Invoiced SuiteBundle
-First we need to install the Invoiced SuiteBundle, which will install an **INVOICED** integration and a **Webservices-Invoiced** role.
+First we need to install the Invoiced SuiteBundle, which will install an **Invoiced** integration and an **Invoiced Integration** role.
 
 1. On NetSuite, go to **Customization** &rarr; **SuiteBundler** &rarr; **Search & Install Bundles**.
 
@@ -50,15 +50,15 @@ First we need to install the Invoiced SuiteBundle, which will install an **INVOI
 
 The next step is to create an OAuth Access Token for Invoiced on NetSuite. To do that there are few steps you need to follow.
 
-#### Assign the Webservices-Invoiced role to a user
+#### Assign the Invoiced Integration role to a user
 
-You will need to pick a user that will that the access token will be based on and assign the **Webservices-Invoiced** role to that user.
+You will need to pick a user that will that the access token will be based on and assign the **Invoiced Integration** role to that user.
 
 1. Go to **Setup** &rarr; **Users/Roles** &rarr; **Manage Users**.
 
    [![Integration Settings](/docs/img/netsuite-manage-users.png)](/docs/img/netsuite-manage-users.png)
 
-2.  Select the user you plan to use for the integration and add the **Webservices-Invoiced** role to that user.
+2.  Select the user you plan to use for the integration and add the **Invoiced Integration** role to that user.
 
    [![Integration Settings](/docs/img/netsuite-user-add-webservices.png)](/docs/img/netsuite-user-add-webservices.png)
 
@@ -68,7 +68,7 @@ You will need to pick a user that will that the access token will be based on an
 
    [![Integration Settings](/docs/img/netsuite-create-accesstoken.png)](/docs/img/netsuite-create-accesstoken.png)
 
-2. Select *INVOICED* as the application name, the user from the previous step as the user, and *Webservices-Invoiced* as the role.
+2. Select *Invoiced* as the application name, the user from the previous step as the user, and *Invoiced Integration* as the role.
 
    [![Integration Settings](/docs/img/netsuite-add-access-token.png)](/docs/img/netsuite-add-access-token.png)
 
