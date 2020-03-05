@@ -68,7 +68,7 @@ In order to customize any of the email templates go to **Settings** &rarr; **Ema
 
 **Sign Up Confirmation** - Sent to confirm a customer has been signed up to a subscription. Includes a **Manage Subscription** button. *Turned off by default.*
 
-**Renews Soon** - Sent to notify a customer their subscription renews soon. You specify how many days in advance of a subscription renewal to send these notices. Includes a **Manage Subscription** button. *Turned off by default.*
+**Billed Soon** - Sent to notify a customer their subscription will be billed soon. You specify how many days in advance of the next bill date to send these notices. Includes a **Manage Subscription** button. *Turned off by default.*
 
 **Cancellation** - Sent to confirm a customer's subscription has been canceled. *Turned off by default.*
 
