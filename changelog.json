@@ -1,5 +1,10 @@
 [
   {
+    "name": "Handoff Accounts to a Debt Collector",
+    "body": "Invoiced and CollBox have teamed up to make it easy to send past due invoices to vetted collection agencies with just a few clicks. In addition to being automatic, easy and effective, it's low risk because you only pay if debt collection is successful.\n\nYou can <a href='https://help.collbox.co/getting-started-with-invoiced-and-collbox' target='_blank'>learn more here</a> if you want to get started. Only available to U.S. businesses.",
+    "date": "2020-03-05"
+  },
+  {
     "name": "Convenience Fees",
     "body": "Convenience Fees, a much requested feature is now available! With convenience fees you can charge a % markup to customers paying with debit or credit card. See the <a href='https://invoiced.com/resources/docs/payments/card#convenience-fees' target='_blank'>Convenience Fee documentation</a> to learn more.",
     "date": "2020-02-12"
