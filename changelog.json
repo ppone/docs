@@ -1,5 +1,10 @@
 [
   {
+    "name": "Real-time Intacct Integration",
+    "body": "We have a major update to the Intacct integration available today The new integration has many noteworthy features, including real-time updates without the need to use the import tool, improved error handling and retries, granular behavior settings, enhanced multi-entity support, flexible payment mapping, posting credit notes to Intacct, and much more.\n\nThe new integration has been in beta since last year. You can read the <a href='https://invoiced.com/resources/docs/accounting/intacct' target='_blank'>Intacct integration documentation</a> to learn more. If you are an existing user of the Intacct integration then you will need to contact Invoiced Support if you wish to upgrade.",
+    "date": "2020-03-05"
+  },
+  {
     "name": "Handoff Accounts to a Debt Collector",
     "body": "Invoiced and CollBox have teamed up to make it easy to send past due invoices to vetted collection agencies with just a few clicks. In addition to being automatic, easy and effective, it's low risk because you only pay if debt collection is successful.\n\nYou can <a href='https://help.collbox.co/getting-started-with-invoiced-and-collbox' target='_blank'>learn more here</a> if you want to get started. Only available to U.S. businesses.",
     "date": "2020-03-05"

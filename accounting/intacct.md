@@ -6,11 +6,10 @@ Invoiced integrates with Sage Intacct out of the box, a best-in-class cloud ERP.
 
 The Intacct integration ships with the following capabilities:
 
-- Importing outstanding invoices from Intacct
-- Importing customers from Intacct
-- Writing invoices generated on Invoiced to Intacct
+- Reading customers, open invoices, and payments from Intacct
 - Reconciling payments received on Invoiced to Intacct
-- Syncing payments recorded on Intacct to Invoiced
+- Writing invoices generated on Invoiced to Intacct
+- Most data flows happen in real-time
 
 [![Intacct Data Flow](/docs/img/intacct-object-mapping.png)](/docs/img/intacct-object-mapping.png)
 
@@ -83,7 +82,7 @@ The next step is to set up a web services user for Invoiced on Intacct. It is re
 
    [![Intacct Integration Settings](/docs/img/intacct-integration-settings.png)](/docs/img/intacct-integration-settings.png)
 
-5. You can customize the integration, including the account mapping into your general ledger and enabling automatic reconciliation. You can optionally enter in location ID and/or department ID dimensions if you want to tag the line items on Intacct that are created by the Invoiced sync with these dimensions. If you are importing invoices from Intacct then the dimension settings are irrelevant.
+5. You can customize the integration, including the data you want to sync to/from Intacct, account mappings, and other integration behaviors.
 
 6. Click **Save & Download Customization** to save your settings and download the customization package needed in the next step.
 
@@ -101,7 +100,7 @@ Once the integration is configured and the customization package is installed, n
 
 ### Import Existing Invoices
 
-You can import outstanding invoices from the Intacct Order Entry module using our Intacct invoice importer. This is useful after setting up the integration to pull in invoices that were created before the integration was installed.
+You can import outstanding invoices from the Intacct Order Entry module using our Intacct invoice import tool. This is useful after setting up the integration to pull in invoices that were created before the integration was installed.
 
 Instructions:
 
@@ -111,13 +110,13 @@ Instructions:
 
 2. Select **Intacct**.
 
-   [![Invoice Importer](/docs/img/invoice-importer.png)](/docs/img/invoice-importer.png)
+   [![Invoice Import Tool](/docs/img/invoice-importer.png)](/docs/img/invoice-importer.png)
 
 3. Select the sales document type you would like to import, and when ready, click **Start**.
 
    [![Start Intacct Invoice Import](/docs/img/intacct-invoice-importer-options.png)](/docs/img/intacct-invoice-importer-options.png)
 
-4. The importer will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
+4. The import tool will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
 
    [![Intacct Invoice Import Started](/docs/img/intacct-invoice-importer-pending.png)](/docs/img/intacct-invoice-importer-pending.png)
 
@@ -127,7 +126,7 @@ Instructions:
 
 ### Import Entire Customer List
 
-You can import your entire customer list from Intacct into Invoiced as a one-time import. Why might you use this? The sync process will only import customers that have invoices, whereas a customer import will bring in your entire A/R customer list.
+You can import your entire customer list from Intacct into Invoiced as a one-time import. Why might you use this? The integration will only import customers that have new invoices, whereas a customer import will bring in your entire A/R customer list.
 
 Instructions:
 
@@ -137,13 +136,13 @@ Instructions:
 
 2. Select **Intacct**.
 
-   [![Customer Importer](/docs/img/customer-importer.png)](/docs/img/customer-importer.png)
+   [![Customer Import Tool](/docs/img/customer-importer.png)](/docs/img/customer-importer.png)
 
 3. Click **Start**.
 
    [![Start Intacct Customer Import](/docs/img/intacct-customer-importer.png)](/docs/img/intacct-customer-importer.png)
 
-4. The importer will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
+4. The import tool will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
 
    [![Intacct Customer Import Started](/docs/img/intacct-customer-importer-pending.png)](/docs/img/intacct-customer-importer-pending.png)
 
@@ -155,27 +154,27 @@ Instructions:
 
 Here we have documented all of the limitations, nuances, and edge cases to be aware of when using the Intacct integration.
 
-- Customers on Invoiced are mapped to customers on Intacct by the customer name.
+- Customers on Invoiced are mapped to customers on Intacct by the customer name and/or account #.
 
 - Only customers with a status of *Active* and invoices belonging to customers with an *Active* status will be imported into Invoiced.
 
-- Only non-draft invoices on Invoiced that have been updated since the last sync will be synced. On your first sync this means that all non-draft invoices will be synced.
+- Only non-draft invoices on Invoiced will be posted to Intacct. Currently updates to invoices are not posted to Intacct, unless the invoice was voided.
 
-- Any changes to invoices imported from Intacct that are later modified on Invoiced will not be synced to Intacct. Payments processed through Invoiced for imported invoices will still be synced.
+- Any modifications to invoices on Invoiced that originated from Intacct will not be posted to Intacct.
 
 - When importing bill to contacts instead of customers, the customer on Invoiced will use the information from the bill to contact instead of the Intacct customer. This means the name and details will match the bill to contact, and will result in multiple Invoiced customers for a single Intacct customer. The customer number on Invoiced will be auto-generated and will not match the one on Intacct because there are multiple Invoiced customers that could have the same account number.
 
-- If a credit is applied to an invoice in Invoiced to pay the entire invoice, the credit information will not be synced to Intacct.
+- Partial refunds are not supported by the integration and must be reconciled manually.
 
-- Applying a credit note to an invoice in Intacct to pay the entire invoice will not sync the credit payment to Invoiced.
-
-- Applying a partial credit to an invoice in Intacct will sync as a partial payment to the invoice on Invoiced as other. Applying a partial credit in Intacct will sync to the invoice in Invoiced as a partial credit applied.
+- A/R adjustments posted to Intacct and applied to an invoice will not be picked up by our integration and will require a manual reconciliation on Invoiced using a credit note.
 
 ## Troubleshooting
 
 When a record fails to sync you will be able to see the error message in the *Reconciliation Errors* section in **Settings** &rarr; **Accounting Sync**. Normally the error message will include the record identifier that failed and a detailed reason why it could not be synced. Oftentimes there is a manual action required on your end. Once that is resolved you can either ignore or retry the record.
 
 Below we have documented commonly encountered errors and recommended resolutions. If you are still unable to get your data synced then please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
+
+[![Intacct Reconciliation Errors](/docs/img/intacct-reconciliation-errors.png)](/docs/img/intacct-reconciliation-errors.png)
 
 ### Finding Your Intacct Company ID
 
@@ -207,7 +206,7 @@ Change the Payments Summary frequency to either Daily or Monthly. To do so, comp
 2. Click Configure Accounts Receivable
 3. Scroll down to Summary Frequency in the Accounting Settings section
 4. Change the Payments field to either Daily or Monthly and Save the changes
-5. Retry the sync
+5. Retry the record
 
 ### DL02000001 error
 
