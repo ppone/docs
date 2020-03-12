@@ -211,3 +211,9 @@ Change the Payments Summary frequency to either Daily or Monthly. To do so, comp
 ### DL02000001 error
 
 When an import fails with a `DL02000001` error code then that means the importer was trying to retrieve a field that did not exist on an Intacct object. This could happen if you have modified an object definition to remove or modify a standard field that our importer requests, or if you have configured the importer to pull in a custom field that does not exist on Intacct.
+
+### Undeposited funds error with multi-currency
+
+> You cannot make payment for foreign currency invoice for payment method "XXX" using Undeposited Fund Account.
+
+If you are in a multi-currency environment then you might see a `BL02000051` error code. You can only post a payment to an undeposited funds account if the payment is in your base currency. When you see this error the solution is to use a bank account (instead of an undeposited funds G/L account) for that currency/payment method combination in order for the payment to post to Intacct.
