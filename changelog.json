@@ -1,5 +1,10 @@
 [
   {
+    "name": "Periodic Summary Emails",
+    "body": "Any Invoiced user can now subscribe to a periodic summary email on a daily, weekly, or monthly basis. Each user can configure this in their notification settings. When enabled, Invoiced will send an A/R summary, including open action items, KPIs, aging report, recent activity, and high-risk accounts. The email will follow the subscriber's permissions and customer restrictions.",
+    "date": "2020-03-27"
+  },
+  {
     "name": "Real-time Intacct Integration",
     "body": "We have a major update to the Intacct integration available today that is moving out of beta. The new integration has many noteworthy features, including real-time updates without the need to use the import tool, improved error handling and retries, more granular settings, enhanced multi-entity support, flexible payment mapping, posting credit notes to Intacct, and much more.\n\nYou can read the <a href='https://invoiced.com/resources/docs/accounting/intacct' target='_blank'>Intacct integration documentation</a> to learn more. If you are an existing user of the Intacct integration then you will need to contact Invoiced Support if you wish to upgrade.",
     "date": "2020-03-10"
