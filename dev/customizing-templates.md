@@ -83,6 +83,7 @@ Functions are called to generate content. Functions are called by their name fol
 Available functions: (click to learn more)
 - [`cycle`](https://twig.symfony.com/doc/2.x/functions/cycle.html)
 - [`date`](https://twig.symfony.com/doc/2.x/functions/date.html)
+- [`dump`](https://twig.symfony.com/doc/2.x/functions/dump.html)
 - `dump_scope` - Dumps all of the variables available within the template in a readable format.
 
    Example: `{{ dump_scope() }}`
