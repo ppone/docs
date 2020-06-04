@@ -150,11 +150,29 @@ Instructions:
 
    [![Intacct Customer Import Finished](/docs/img/intacct-customer-importer-finished.png)](/docs/img/intacct-customer-importer-finished.png)
 
+### Dimension Mapping
+
+If you are using a workflow that involves posting invoices to Intacct that are created on Invoiced, then we have the ability to map line item level fields and dimensions that you might require in order to do a full accounting. When a line item on Invoiced has a custom field with any of these IDs then they will be mapped to the corresponding field on Intacct. This allows you to more granularly control the data sent to Intacct and take advantage of dimensions.
+
+Metadata ID           | Intacct Field
+----------------------|--------------------
+`intacct_glaccountno` | GL Account Number
+`intacct_allocation`  | Allocation ID
+`intacct_location`    | Location ID
+`intacct_department`  | Department ID
+`intacct_project`     | Project ID
+`intacct_vendor`      | Vendor ID
+`intacct_employee`    | Employee ID
+`intacct_item`        | Item ID
+`intacct_class`       | Class ID
+`intacct_contract`    | Contract ID
+`intacct_warehouse`   | Warehouse ID
+
 ## Edge Cases
 
 Here we have documented all of the limitations, nuances, and edge cases to be aware of when using the Intacct integration.
 
-- Customers on Invoiced are mapped to customers on Intacct by the customer name and/or account #.
+- Customers on Invoiced are mapped to customers on Intacct by the customer name and/or account number.
 
 - Only customers with a status of *Active* and invoices belonging to customers with an *Active* status will be imported into Invoiced.
 
