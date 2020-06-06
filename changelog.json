@@ -1,5 +1,15 @@
 [
   {
+    "name": "Standalone Credit Notes",
+    "body": "It is now possible to create credit notes without an invoice. This can be done from the Credit Notes page, the spreadsheet import tool, or in the API. You now have more control over how a credit note is applied, such as applying a credit note to more than one invoice.",
+    "date": "2020-06-05"
+  },
+  {
+    "name": "QuickBooks Desktop Integration Update",
+    "body": "We have released an update to our QuickBooks Desktop integration that is faster, easier to use, and more accurate. The integration now syncs credit memos. We've consolidated the invoice and payment syncs into a single sync.",
+    "date": "2020-06-05"
+  },
+  {
     "name": "Customer AutoPay Disablement",
     "body": "Now when disabling AutoPay for a customer, any open AutoPay invoices belonging to that customer will also have AutoPay disabled.",
     "date": "2020-04-30"
