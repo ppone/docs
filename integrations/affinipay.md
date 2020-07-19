@@ -6,10 +6,17 @@ This document details how to connect the [AffiniPay](https://affinipay.com) paym
 
 The AffiniPay payment gateway on Invoiced supports the following features:
 
-- [Credit card payments](/resources/docs/payments/card)
-- [ACH payments](/resources/docs/payments/ach) (U.S. only)
-- Vaulting payment information (credit card and ACH)
-- [AutoPay](/resources/docs/payments/autopay)
+Capability | Supported
+-----------|------------
+[Credit card payments](/resources/docs/payments/card) | &#10003;
+[ACH payments](/resources/docs/payments/ach) | &#10003;
+Vaulting cards | &#10003;
+Vaulting bank accounts | &#10003;
+[AutoPay](/resources/docs/payments/autopay) | &#10003;
+Level 3 Processing | &mdash;
+Apple Pay | &mdash;
+Multi-currency | USD and CAD only
+Refunds | &#10003;
 
 ## Supported Gateways
 
@@ -25,31 +32,17 @@ Connecting AffiniPay is a straightforward process. Follow these steps to start a
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
-
 2. Click **Setup** on the payment method you want to accept.
-
-   [![Credit Card Payments Setup](/docs/img/credit-card-payment-setup.png)](/docs/img/credit-card-payment-setup.png)
 
 3. Select **AffiniPay**, **CPACharge**, or **LawPay** as the payment gateway. We will select LawPay in this example.
 
-   [![LawPay Payments Setup](/docs/img/lawpay-setup.png)](/docs/img/lawpay-setup.png)
-
 4. Click **Connect to LawPay**. You will be taken to a screen to sign into your LawPay account, if you are not already signed in. Enter in your LawPay username and password and click **Sign In**.
-
-   [![LawPay Login Page](/docs/img/lawpay-connect.png)](/docs/img/lawpay-connect.png)
 
 5. You then need to authorize the Invoiced application by clicking  **Authorize**.
 
-   [![LawPay Authorize Page](/docs/img/lawpay-authorize.png)](/docs/img/lawpay-authorize.png)
-
 6. Your LawPay account is now connected and the payment method is enabled.
 
-   [![LawPay Payments Enabled](/docs/img/lawpay-enabled.png)](/docs/img/lawpay-enabled.png)
-
 7. You might need to change the default AffiniPay account that will be used to receive payments. We will select the operating account by default, however, you may wish to receive payments in a different account.
-
-   [![LawPay Change Default Account](/docs/img/lawpay-change-default-account.png)](/docs/img/lawpay-change-default-account.png)
 
 ## Using Multiple Accounts (Trust or Operating)
 
@@ -58,8 +51,6 @@ We support working with multiple merchant accounts on LawPay for the purpose of 
 1. Go to the new invoice screen.
 
 2. Click **Options** in the top right. You should see a *Merchant Account* option if you have multiple LawPay accounts. Select the account where payment should go for this invoice.
-
-   [![LawPay Trust Accounting](/docs/img/lawpay-trust-accounting.png)](/docs/img/lawpay-trust-accounting.png)
 
 4. Finish creating your invoice as normal.
 

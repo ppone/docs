@@ -6,9 +6,16 @@ This document details how to connect the [Braintree](https://braintreepayments.c
 
 The Braintree payment gateway on Invoiced supports the following features:
 
-- [Credit card payments](/resources/docs/payments/card)
-- Vaulting payment information
-- [AutoPay](/resources/docs/payments/autopay)
+Capability | Supported
+-----------|------------
+[Credit card payments](/resources/docs/payments/card) | &#10003;
+[ACH payments](/resources/docs/payments/ach) | &mdash;
+Vaulting cards | &#10003;
+[AutoPay](/resources/docs/payments/autopay) | &#10003;
+Level 3 Processing | &mdash;
+Apple Pay | &mdash;
+Multi-currency | &#10003;
+Refunds | &#10003;
 
 ## Setup
 
@@ -16,23 +23,13 @@ Connecting Braintree is a straightforward process. Follow these steps to start a
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
-
 2. Click **Setup** on the *Credit Card* payment method.
-
-   [![Credit Card Payments Setup](/docs/img/credit-card-payment-setup.png)](/docs/img/credit-card-payment-setup.png)
 
 3. Select **Braintree** as the payment gateway.
 
-   [![Braintree Payments Setup](/docs/img/braintree-setup.png)](/docs/img/braintree-setup.png)
-
 4. Click **Connect to Braintree**.
 
-   [![Braintree Settings Page](/docs/img/braintree-connect.png)](/docs/img/braintree-connect.png)
-
 5. Enter in your Braintree **Merchant ID**, **Merchant Account ID**, **Public Key**, and **Private Key** and click **Save**. Then click **Enable** and the credit card payments should be enabled.
-
-   [![Braintree Payments Enabled](/docs/img/braintree-enabled.png)](/docs/img/braintree-enabled.png)
 
 ## Client Workflow
 

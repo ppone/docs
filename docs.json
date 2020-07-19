@@ -392,6 +392,10 @@
           "name": "Braintree"
         },
         {
+          "id": "cardknox",
+          "name": "Cardknox"
+        },
+        {
           "id": "cybersource",
           "name": "CyberSource"
         },
@@ -408,8 +412,16 @@
           "name": "Lob"
         },
         {
+          "id": "moneris",
+          "name": "Moneris"
+        },
+        {
           "id": "nmi",
           "name": "NMI"
+        },
+        {
+          "id": "paypal-payflow-pro",
+          "name": "PayPal Payflow Pro"
         },
         {
           "id": "salesforce",

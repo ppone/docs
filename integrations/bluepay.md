@@ -6,10 +6,17 @@ This document details how to connect the [BluePay](https://bluepay.com) payment 
 
 The BluePay payment gateway on Invoiced supports the following features:
 
-- [Credit card payments](/resources/docs/payments/card)
-- [ACH payments](/resources/docs/payments/ach) (U.S. only)
-- Vaulting payment information (credit card and ACH)
-- [AutoPay](/resources/docs/payments/autopay)
+Capability | Supported
+-----------|------------
+[Credit card payments](/resources/docs/payments/card) | &#10003;
+[ACH payments](/resources/docs/payments/ach) | &#10003;
+Vaulting cards | &#10003;
+Vaulting bank accounts | &#10003;
+[AutoPay](/resources/docs/payments/autopay) | &#10003;
+Level 3 Processing | &mdash;
+Apple Pay | &mdash;
+Multi-currency | USD and CAD only
+Refunds | &#10003;
 
 ## Setup
 
@@ -17,23 +24,13 @@ Connecting BluePay is a straightforward process. Follow these steps to start acc
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
-
 2. Click **Setup** on the payment method you want to accept.
-
-   [![Credit Card Payments Setup](/docs/img/credit-card-payment-setup.png)](/docs/img/credit-card-payment-setup.png)
 
 3. Select **BluePay** as the payment gateway.
 
-   [![BluePay Payments Setup](/docs/img/bluepay-setup.png)](/docs/img/bluepay-setup.png)
-
 4. Click **Connect to BluePay**.
 
-   [![BluePay Settings Page](/docs/img/bluepay-connect.png)](/docs/img/bluepay-connect.png)
-
 5. Enter in your BluePay **Account ID** and **API Secret** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
-
-   [![BluePay Payments Enabled](/docs/img/bluepay-enabled.png)](/docs/img/bluepay-enabled.png)
 
 ## Client Workflow
 

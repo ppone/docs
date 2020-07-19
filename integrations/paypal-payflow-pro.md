@@ -1,10 +1,10 @@
-# USAePay Integration
+# PayPal Payflow Pro Integration
 
-This document details how to connect the [USAePay](https://usaepay.com) payment gateway to accept payments and how our integration works.
+This document details how to connect the [PayPal Payflow Pro](https://www.paypal.com/us/webapps/mpp/payflow-payment-gateway) payment gateway to accept payments and how our integration works.
 
 ## Capabilities
 
-The USAePay payment gateway on Invoiced supports the following features:
+The PayPal Payflow Pro payment gateway on Invoiced supports the following features:
 
 Capability | Supported
 -----------|------------
@@ -13,24 +13,24 @@ Capability | Supported
 Vaulting cards | &#10003;
 Vaulting bank accounts | &#10003;
 [AutoPay](/resources/docs/payments/autopay) | &#10003;
-Level 3 Processing | &mdash;
+Level 3 Processing | &#10003;
 Apple Pay | &mdash;
 Multi-currency | &#10003;
 Refunds | &#10003;
 
 ## Setup
 
-Connecting USAePay is a straightforward process. Follow these steps to start accepting payments through USAePay in minutes. These steps assume you already have a USAePay account.
+Connecting PayPal Payflow Pro is a straightforward process. Follow these steps to start accepting payments through PayPal Payflow Pro in minutes. These steps assume you already have a PayPal Payflow Pro account.
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
 2. Click **Setup** on the payment method you want to accept.
 
-3. Select **USAePay** as the payment gateway.
+3. Select **PayPal Payflow Pro** as the payment gateway.
 
-4. Click **Connect to USAePay**.
+4. Click **Connect to PayPal Payflow Pro**.
 
-5. Enter in your USAePay **Merchant Key** and **Merchant PIN** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
+5. Enter in your PayPal Payflow Pro **Partner**, **Merchant Login**, **User**, and **Password** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
 
 ## Client Workflow
 
@@ -45,3 +45,7 @@ Paying with credit or debit card is fairly straightforward for customers. They s
 Customers can pay with ACH just as easily as with credit cards. The key difference is that ACH payments will take several business days to clear. When customers are on a payment form they will select ACH as the payment information and then enter in their bank account and routing number.
 
 [![Pay Invoice with ACH](/docs/img/pay-invoice-ach.png)](/docs/img/pay-invoice-ach.png)
+
+## Support
+
+Need help with your PayPal Payflow Pro account? You can get help through your PayPal account representative.

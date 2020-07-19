@@ -6,10 +6,17 @@ This document details how to connect the [NMI](https://nmi.com) (aka Network Mer
 
 The NMI payment gateway on Invoiced supports the following features:
 
-- [Credit card payments](/resources/docs/payments/card)
-- [ACH payments](/resources/docs/payments/ach) (U.S. only)
-- Vaulting payment information (credit card and ACH)
-- [AutoPay](/resources/docs/payments/autopay)
+Capability | Supported
+-----------|------------
+[Credit card payments](/resources/docs/payments/card) | &#10003;
+[ACH payments](/resources/docs/payments/ach) | &#10003;
+Vaulting cards | &#10003;
+Vaulting bank accounts | &#10003;
+[AutoPay](/resources/docs/payments/autopay) | &#10003;
+Level 3 Processing | &mdash;
+Apple Pay | &mdash;
+Multi-currency | USD only
+Refunds | &#10003;
 
 ## Setup
 
@@ -17,23 +24,13 @@ Connecting NMI is a straightforward process. Follow these steps to start accepti
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
-
 2. Click **Setup** on the payment method you want to accept.
-
-   [![Credit Card Payments Setup](/docs/img/credit-card-payment-setup.png)](/docs/img/credit-card-payment-setup.png)
 
 3. Select **NMI** as the payment gateway.
 
-   [![NMI Payments Setup](/docs/img/nmi-setup.png)](/docs/img/nmi-setup.png)
-
 4. Click **Connect to NMI**.
 
-   [![NMI Settings Page](/docs/img/nmi-connect.png)](/docs/img/nmi-connect.png)
-
 5. Enter in your NMI **Username** / **Password** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
-
-   [![NMI Payments Enabled](/docs/img/nmi-enabled.png)](/docs/img/nmi-enabled.png)
 
 ## Client Workflow
 

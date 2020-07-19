@@ -6,13 +6,17 @@ This document details how to connect the [Stripe](https://stripe.com) payment ga
 
 The Stripe payment gateway on Invoiced supports the following features:
 
-- [Credit card payments](/resources/docs/payments/card)
-- [ACH payments](/resources/docs/payments/ach) (U.S. only)
-- Vaulting payment information (credit card and ACH)
-- [AutoPay](/resources/docs/payments/autopay)
-- Apple Pay (one-off payments only)
-- 3-D Secure (one-off payments only)
-- Importing customers and payment info from Stripe
+Capability | Supported
+-----------|------------
+[Credit card payments](/resources/docs/payments/card) | &#10003;
+[ACH payments](/resources/docs/payments/ach) | &#10003;
+Vaulting cards | &#10003;
+Vaulting bank accounts | &#10003;
+[AutoPay](/resources/docs/payments/autopay) | &#10003;
+Level 3 Processing | &mdash;
+Apple Pay | &#10003;
+Multi-currency | &#10003;
+Refunds | &#10003;
 
 ## Setup
 
@@ -20,23 +24,13 @@ Connecting Stripe is a straightforward process. Follow these steps to start acce
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
-
 2. Click **Setup** on the payment method you want to accept.
-
-   [![Credit Card Payments Setup](/docs/img/credit-card-payment-setup.png)](/docs/img/credit-card-payment-setup.png)
 
 3. Select **Stripe** as the payment gateway.
 
-   [![Stripe Payments Setup](/docs/img/stripe-setup.png)](/docs/img/stripe-setup.png)
-
 4. Click **Connect With Stripe**. You will be taken to Stripe's website where you can sign into your Stripe account and grant Invoiced access.
 
-   [![Stripe Connect Page](/docs/img/stripe-connect.png)](/docs/img/stripe-connect.png)
-
 5. After you've connected your Stripe account then the payment method you selected should be enabled.
-
-   [![Credit Card Payments Enabled](/docs/img/stripe-credit-card-payments-enabled.png)](/docs/img/stripe-credit-card-payments-enabled.png)
 
 6. If you are accepting ACH payments then you also need to accept the [Stripe ACH Terms of Service](https://stripe.com/docs/ach).
 

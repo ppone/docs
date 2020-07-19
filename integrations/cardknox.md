@@ -1,10 +1,10 @@
-# USAePay Integration
+# Cardknox Integration
 
-This document details how to connect the [USAePay](https://usaepay.com) payment gateway to accept payments and how our integration works.
+This document details how to connect the [Cardknox](https://cardknox.com) payment gateway to accept payments and how our integration works.
 
 ## Capabilities
 
-The USAePay payment gateway on Invoiced supports the following features:
+The Cardknox payment gateway on Invoiced supports the following features:
 
 Capability | Supported
 -----------|------------
@@ -20,17 +20,17 @@ Refunds | &#10003;
 
 ## Setup
 
-Connecting USAePay is a straightforward process. Follow these steps to start accepting payments through USAePay in minutes. These steps assume you already have a USAePay account.
+Connecting Cardknox is a straightforward process. Follow these steps to start accepting payments through Cardknox in minutes. These steps assume you already have a Cardknox account.
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
 2. Click **Setup** on the payment method you want to accept.
 
-3. Select **USAePay** as the payment gateway.
+3. Select **Cardknox** as the payment gateway.
 
-4. Click **Connect to USAePay**.
+4. Click **Connect to Cardknox**.
 
-5. Enter in your USAePay **Merchant Key** and **Merchant PIN** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
+5. Enter in your Cardknox **Key** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
 
 ## Client Workflow
 
@@ -45,3 +45,7 @@ Paying with credit or debit card is fairly straightforward for customers. They s
 Customers can pay with ACH just as easily as with credit cards. The key difference is that ACH payments will take several business days to clear. When customers are on a payment form they will select ACH as the payment information and then enter in their bank account and routing number.
 
 [![Pay Invoice with ACH](/docs/img/pay-invoice-ach.png)](/docs/img/pay-invoice-ach.png)
+
+## Support
+
+Need help with your Cardknox account? You can get help through your Cardknox account representative.

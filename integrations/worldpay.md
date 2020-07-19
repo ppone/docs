@@ -6,10 +6,17 @@ This document details how to connect the [Worldpay](https://worldpay.com) paymen
 
 The Worldpay payment gateway on Invoiced supports the following features:
 
-- [Credit card payments](/resources/docs/payments/card)
-- [ACH payments](/resources/docs/payments/ach) (U.S. only)
-- Vaulting payment information (credit card and ACH)
-- [AutoPay](/resources/docs/payments/autopay)
+Capability | Supported
+-----------|------------
+[Credit card payments](/resources/docs/payments/card) | &#10003;
+[ACH payments](/resources/docs/payments/ach) | &#10003;
+Vaulting cards | &#10003;
+Vaulting bank accounts | &#10003;
+[AutoPay](/resources/docs/payments/autopay) | &#10003;
+Level 3 Processing | &#10003;
+Apple Pay | &mdash;
+Multi-currency | &mdash;
+Refunds | &#10003;
 
 ## Setup
 
@@ -17,23 +24,13 @@ Connecting Worldpay is a straightforward process. Follow these steps to start ac
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
-
 2. Click **Setup** on the payment method you want to accept.
-
-   [![Credit Card Payments Setup](/docs/img/credit-card-payment-setup.png)](/docs/img/credit-card-payment-setup.png)
 
 3. Select **Worldpay** as the payment gateway.
 
-   [![Worldpay Payments Setup](/docs/img/worldpay-setup.png)](/docs/img/worldpay-setup.png)
-
 4. Click **Connect to Worldpay**.
 
-   [![Worldpay Settings Page](/docs/img/worldpay-connect.png)](/docs/img/worldpay-connect.png)
-
 5. Enter in your Worldpay **Account ID**, **Sub ID**, and **Merchant PIN** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
-
-   [![Worldpay Payments Enabled](/docs/img/worldpay-enabled.png)](/docs/img/worldpay-enabled.png)
 
 ## Client Workflow
 

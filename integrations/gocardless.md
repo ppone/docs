@@ -6,14 +6,21 @@ This document details how to connect [GoCardless](https://gocardless.com) to Inv
 
 The GoCardless integration on Invoiced supports the following features:
 
-- Bacs debits (UK)
-- SEPA debits (EU)
-- BECS debits (Australia and New Zealand)
-- Autogiro debits (Sweden)
-- PAD (Canada)
-- ACH (U.S.)
-- Vaulting payment information
-- [AutoPay](/resources/docs/payments/autopay)
+Capability | Country | Supported
+-----------|---------|-------------
+[ACH payments](/resources/docs/payments/ach) | U.S. | &#10003;
+PAD | Canada | &#10003;
+Bacs debits | UK | &#10003;
+SEPA debits | EU | &#10003;
+BECS debits | Australia | &#10003;
+PaymentsNZ | New Zealand | &#10003;
+Autogiro | Sweden | &#10003;
+Betalingsservice | Denmark | &#10003;
+Vaulting bank accounts | | &#10003;
+[AutoPay](/resources/docs/payments/autopay) | | &#10003;
+Multi-currency | | &#10003;
+Refunds | | &#10003;
+Borderless payments | | &#10003;
 
 ## Setup
 
@@ -21,15 +28,9 @@ Connecting GoCardless is a straightforward process. Follow these steps to start 
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](/docs/img/payment-settings-eu.png)](/docs/img/payment-settings-eu.png)
-
 2. Click **Setup** on the *Direct Debit* payment method. Then click **Connect With GoCardless**. You will be taken to GoCardless' website where you can sign into your GoCardless account and grant Invoiced access.
 
-   [![GoCardless Connect Page](/docs/img/gocardless-connect.png)](/docs/img/gocardless-connect.png)
-
-5. If you are signing up for a GoCardless account for the first time then you will need to provide additional information about your business to activate your account. After you've connected and verified your GoCardless account then the direct debit payment method will be enabled. You are ready to begin accepting payments.
-
-   [![Direct Debit Payments Enabled](/docs/img/gocardless-direct-debit-payments-enabled.png)](/docs/img/gocardless-direct-debit-payments-enabled.png)
+3. If you are signing up for a GoCardless account for the first time then you will need to provide additional information about your business to activate your account. After you've connected and verified your GoCardless account then the direct debit payment method will be enabled. You are ready to begin accepting payments.
 
 ## Client Workflow
 

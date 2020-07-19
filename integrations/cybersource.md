@@ -6,6 +6,18 @@ This document details how to connect the [CyberSource](https://cybersource.com) 
 
 The CyberSource payment gateway on Invoiced supports the following features:
 
+Capability | Supported
+-----------|------------
+[Credit card payments](/resources/docs/payments/card) | &#10003;
+[ACH payments](/resources/docs/payments/ach) | &#10003;
+Vaulting cards | &#10003;
+Vaulting bank accounts | &#10003;
+[AutoPay](/resources/docs/payments/autopay) | &#10003;
+Level 3 Processing | &mdash;
+Apple Pay | &mdash;
+Multi-currency | &#10003;
+Refunds | &#10003;
+
 - [Credit card payments](/resources/docs/payments/card)
 - [ACH payments](/resources/docs/payments/ach) (U.S. only)
 - Vaulting payment information (credit card and ACH)
@@ -17,23 +29,13 @@ Connecting CyberSource is a straightforward process. Follow these steps to start
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
-
 2. Click **Setup** on the payment method you want to accept.
-
-   [![Credit Card Payments Setup](/docs/img/credit-card-payment-setup.png)](/docs/img/credit-card-payment-setup.png)
 
 3. Select **CyberSource** as the payment gateway.
 
-   [![CyberSource Payments Setup](/docs/img/cybersource-setup.png)](/docs/img/cybersource-setup.png)
-
 4. Click **Connect to CyberSource**.
 
-   [![CyberSource Settings Page](/docs/img/cybersource-connect.png)](/docs/img/cybersource-connect.png)
-
 5. Enter in your CyberSource **Merchant ID** and **Transaction Key** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
-
-   [![CyberSource Payments Enabled](/docs/img/cybersource-enabled.png)](/docs/img/cybersource-enabled.png)
 
 ## Client Workflow
 
