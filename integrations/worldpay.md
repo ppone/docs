@@ -15,7 +15,7 @@ Vaulting bank accounts | &#10003;
 [AutoPay](/resources/docs/payments/autopay) | &#10003;
 Level 3 Processing | &#10003;
 Apple Pay | &mdash;
-Multi-currency | &mdash;
+Multi-currency | USD only
 Refunds | &#10003;
 
 ## Setup
