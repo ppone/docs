@@ -86,11 +86,7 @@ You will need to pick a user that will that the access token will be based on an
 
 3. Enter in the NetSuite account ID, token, and token secret for the Invoiced integration created earlier.
 
-4. Click **Save**. NetSuite is now connected! Next you will want to configure the integration before using it.
-
-   [![NetSuite Integration Settings](/docs/img/netsuite-integration-settings.png)](/docs/img/netsuite-integration-settings.png)
-
-5. After you customize the integration, click **Save** to finish setting up the NetSuite integration.
+4. Click **Save**. NetSuite is now connected!
 
 ## Usage
 
