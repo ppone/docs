@@ -21,8 +21,6 @@ Setting up direct debit payments is a straightforward process.
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](/docs/img/payment-settings-eu.png)](/docs/img/payment-settings-eu.png)
-
 2. Click **Setup** on the *Direct Debit* payment method. Continue following the instructions to configure your payment gateway. For example, if you are using GoCardless then you can see the [setup process here](/resources/docs/integrations/gocardless#setup).
 
 ## Client Workflow

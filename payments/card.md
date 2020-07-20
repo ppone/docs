@@ -12,11 +12,7 @@ Once you are established with a payment processor, setting up credit card paymen
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
-
 2. Click **Setup** on the *Credit Card* payment method.
-
-  [![Credit Card Payments Setup](/docs/img/credit-card-payment-setup.png)](/docs/img/credit-card-payment-setup.png)
 
 3. Select your payment gateway and follow the on-screen instructions to connect your payment gateway.
 
@@ -29,8 +25,6 @@ Paying with credit or debit card is fairly straightforward for customers. When a
 ## Virtual Terminal
 
 Like customers, internal Invoiced users have the ability to apply a payment to an account with a credit card payment on an invoice. Whether a customer has saved a credit card payment method on file or has provided the user with the information, easily access the virtual terminal for payments by navigating to the invoice and selecting receive payment -> charge. From there, you can select the saved credit card or enter a new card for use.
-
-[![Pay Invoice with credit card](/docs/img/card-terminal-payment.gif)](/card-terminal-payment.gif)
 
 ## AutoPay
 
@@ -55,8 +49,6 @@ Convenience fees can be setup with the following instructions:
 2. Click **Configure** on the *Credit Card* payment method.
 
 3. In the **Convenience Fee** field enter the % you wish to charge, up to 4%.
-
-  [![Convenience Fee Setup](/docs/img/convenience-fee-setup.png)](/docs/img/convenience-fee-setup.png)
 
 4. Click **Save** to go live with convenience fees.
 

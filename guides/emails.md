@@ -90,11 +90,7 @@ An even better solution would be to let us send emails through your own email ac
 
 2. Select the send email **via custom SMTP gateway** option.
 
-   [![Custom SMTP Setup](/docs/img/setup-custom-smtp.png)](/docs/img/setup-custom-smtp.png)
-
 3. Enter in your SMTP credentials and click **Test Connection** to verify they are correct.
-
-   [![Custom SMTP Setup Step 2](/docs/img/setup-custom-smtp-2.png)](/docs/img/setup-custom-smtp-2.png)
 
 4. Click **Save** to save these changes.
 

@@ -8,8 +8,6 @@ Invoiced ships with multiple default templates for invoices, statements, and rec
 
 The underlying templates are HTML and CSS. Both the layout and styling can be customized. The first step is to head over to **Settings** &rarr; **Appearance** &rarr; **Custom Templates**. Then select the template type you want to create under **New Template**. You can also edit or duplicate an existing custom template from the list on the same screen.
 
-[![Custom Template list page](/docs/img/pdf-template-list.png)](/docs/img/pdf-template-list.png)
-
 Within each template, it is possible to adjust margins and create custom headers and footers. Template bodies, headers and footers are separate HTML/CSS file pairs.
 
 [![Custom Template editor page](/docs/img/pdf-template-editor.png)](/docs/img/pdf-template-editor.png)

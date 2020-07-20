@@ -21,11 +21,7 @@ The estimates addon is disabled by default. Follow these steps to enable estimat
 
 1. Go to **Settings** &rarr; **General** in the Invoiced dashboard. Towards the bottom of the page you will find an *Estimates Addon* toggle.
 
-   [![Enabling Estimates Addon](/docs/img/addon-settings.png)](/docs/img/addon-settings.png)
-
 2. Click on the toggle next to *Estimates Addon*.
-
-   [![Estimates Addon Enabled](/docs/img/estimates-enabled.png)](/docs/img/estimates-enabled.png)
 
 Your dashboard should grow a new *Estimates* tab. You are now ready to start creating estimates.
 
@@ -35,49 +31,27 @@ Creating and sending estimates are nearly identical to the invoicing workflow. F
 
 1. Click on the **Estimates** tab in the dashboard. Then click **New Estimate**.
 
-   [![New Estimate](/docs/img/new-estimate-1.png)](/docs/img/new-estimate-1.png)
-
 2. Select or create a customer from the dropdown at the top of the screen.
-
-   [![Select Customer](/docs/img/new-estimate-2.png)](/docs/img/new-estimate-2.png)
 
 3. Fill in the line items and any other details for your estimate.
 
-   [![Fill In Estimate](/docs/img/new-estimate-3.png)](/docs/img/new-estimate-3.png)
-
 4. Click **Save and Issue**.
-
-   [![Issue Estimate](/docs/img/send-estimate-1.png)](/docs/img/send-estimate-1.png)
 
 5. You will be asked if you want to send the estimate. Click **Yes**.
 
-   [![Send Estimate](/docs/img/send-estimate-2.png)](/docs/img/send-estimate-2.png)
-
 6. Click **Send** in order to send off the estimate to your customer.
-
-   [![Finished Estimate](/docs/img/issued-estimate.png)](/docs/img/issued-estimate.png)
 
 ### Client Workflow - Approving Estimates
 
 When your client receives the email from Invoiced they should see a **View Estimate** button in that email.
 
-[![Estimate Email](/docs/img/estimate-email.png)](/docs/img/estimate-email.png)
-
 Clicking on the view button will take them to the client view where they can see all of the estimate information.
-
-[![Estimate Client View](/docs/img/estimate-client-view.png)](/docs/img/estimate-client-view.png)
 
 If everything looks right, your client will then click on the **Approve** button.
 
-[![Estimate Approval Form](/docs/img/estimate-approval-form.png)](/docs/img/estimate-approval-form.png)
-
 Your client will be taken to another page where they can agree to your terms, if present, and approve the estimate. Before your client can approve the estimate they will be required to enter in their initials. These initials along with the IP address / timestamp will be recorded on Invoiced.
 
-[![Initialing Estimate](/docs/img/approving-estimate.png)](/docs/img/approving-estimate.png)
-
 The estimate is now approved. You should receive a notification about this. Once the project or order is complete you can then proceed with invoicing the client (see below).
-
-[![Approved Estimate](/docs/img/approved-estimate.png)](/docs/img/approved-estimate.png)
 
 ## Estimate Deposits
 
@@ -91,15 +65,9 @@ Asking for a deposit payment on an estimate is fairly easy. It is just one extra
 
 1. Open up the new estimate screen and follow the instructions above. Fill in your estimate as you would normally.
 
-   [![New Estimate](/docs/img/estimate-deposit-1.png)](/docs/img/estimate-deposit-1.png)
-
 2. Click on the **+ Deposit** button in the top-right.
 
-   [![Adding Estimate Deposit](/docs/img/estimate-deposit-2.png)](/docs/img/estimate-deposit-2.png)
-
 3. You will be asked to enter in the amount of the deposit. You can enter in a fixed amount or percentage.
-
-   [![Added Estimate Deposit](/docs/img/estimate-deposit-3.png)](/docs/img/estimate-deposit-3.png)
    
 4. You can now save the estimate and send it to your customer.
 
@@ -107,15 +75,9 @@ Asking for a deposit payment on an estimate is fairly easy. It is just one extra
 
 When your customer views the estimate they will see a *$X deposit payment required* at the top of the screen. They would then click the **Approve** button.
 
-[![Estimate Client View with Deposit](/docs/img/estimate-client-view-deposit.png)](/docs/img/estimate-client-view-deposit.png)
-
 On the approval page your customer will enter in their payment information, agree to your terms, and initial for approval.
 
-[![Estimate Deposit Approval Form](/docs/img/estimate-approval-form-deposit.png)](/docs/img/estimate-approval-form-deposit.png)
-
 When the customer clicks **Approve**, Invoiced will process the payment and credit the customer's account.
-
-[![Customer Account After Deposit Payment](/docs/img/customer-account-deposit.png)](/docs/img/customer-account-deposit.png)
 
 ## Converting Estimates to Invoices
 
@@ -123,8 +85,4 @@ Whenever you are finished with the job or project on an estimate, you can quickl
 
 1. Open the estimate in the dashboard.
 
-   [![Approved Estimate Ready for Invoicing](/docs/img/approved-estimate-invoicing.png)](/docs/img/approved-estimate-invoicing.png)
-
 2. Click **Convert to Invoice**. You will be taken to the invoice screen. The details from the estimate should be filled into the invoice. If you want to change any details on the invoice, for example if there were extra costs that need to be added to the bill, then simply click the **Edit** button in the top-right to modify the invoice.
-
-   [![Invoice Generated from Estimate](/docs/img/invoice-from-estimate.png)](/docs/img/invoice-from-estimate.png)

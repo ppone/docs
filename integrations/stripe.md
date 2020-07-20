@@ -94,21 +94,13 @@ In this section we will show you how to import customers and payment information
 
 1. Go to the **Customers** page and click on the **Import** button in the top-right.
 
-   [![Customer Importer](/docs/img/customer-importer.png)](/docs/img/customer-importer.png)
-
 2. Click on **Stripe**.
 
-   [![Stripe Customer Importer](/docs/img/stripe-customer-importer.png)](/docs/img/stripe-customer-importer.png)
-
 3. Click **Start** to begin the import.
-
-   [![Stripe Customer Importer Pending](/docs/img/stripe-customer-importer-pending.png)](/docs/img/stripe-customer-importer-pending.png)
 
 4. The import will begin. You can go elsewhere while you wait. If there is a large # of customers being imported then this could take several minutes.
 
 5. Invoiced will send you an email when the import is done. When the import is finished all of your imported customers should be visible in the **Customers** page.
-
-   [![Stripe Customer Finished](/docs/img/stripe-customer-importer-finished.png)](/docs/img/stripe-customer-importer-finished.png)
 
 ## Support
 

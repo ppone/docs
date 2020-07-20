@@ -18,19 +18,11 @@ The Xero integration ships with the following capabilities:
 
 1. In order to begin syncing with Xero first go to **Settings** &rarr; **Integrations**.  
 
-   [![Integration Settings](/docs/img/integration-settings.png)](/docs/img/integration-settings.png)
-
 2. Click on **Connect to Xero**. You will be redirected to Xero. You will need to sign in to Xero, if you are not already signed in.
-
-   [![Xero Login](/docs/img/xero-screen-3.png)](/docs/img/xero-screen-3.png)
 
 3. Next you will be prompted to authorize Invoiced access to your Xero organization.  Click on **Authorize**.
 
-   [![Xero Authorize](/docs/img/xero-screen-4.png)](/docs/img/xero-screen-4.png)
-
 4. You will be redirected back to Invoiced. Xero is now connected! Now you can configure the accounting sync in order to tell Invoiced how to map the data into your general ledger.
-
-   [![Xero Settings](/docs/img/xero-settings.png)](/docs/img/xero-settings.png)
 
 5. Change the account mapping and other settings. Click **Save**.
 
@@ -58,15 +50,9 @@ Here's how you can enable auto-sync:
 
 1. Go to **Settings** &rarr; **Accounting Sync**. Click **Configure** on the Xero integration.
 
-   [![Xero Connected](/docs/img/xero-connected.png)](/docs/img/xero-connected.png)
-
 2. Enable the *Reconcile to Xero* option.
 
-   [![Xero Settings Enable Auto-Sync](/docs/img/xero-settings-enable-auto-sync.png)](/docs/img/xero-settings-enable-auto-sync.png)
-
 3. Click **Save**. You can periodically check back here to see when the next sync run is scheduled or see past activity in the *Recent Syncs* table.
-
-   [![Xero Auto-Sync Enabled](/docs/img/xero-auto-sync-enabled.png)](/docs/img/xero-auto-sync-enabled.png)
 
 ### Running Syncs Manually
 
@@ -74,11 +60,7 @@ If you want control over when your books are synced then you can manually trigge
 
 1. Go to **Settings** &rarr; **Accounting Sync**.
 
-   [![Xero Connected](/docs/img/xero-connected.png)](/docs/img/xero-connected.png)
-
 2. Click **Sync Now** underneath *Xero* any time you want to run an accounting sync. When the job is finished you will see it in the *Recent Syncs* table.
-
-   [![Xero Invoice Sync](/docs/img/xero-invoice-sync.png)](/docs/img/xero-invoice-sync.png)
 
 ### Manual Invoice Imports
 
@@ -87,23 +69,13 @@ Instructions:
 
 1. Go to the **Invoices** tab in the Invoiced dashboard. Click on the **Import** button in the top-right.
 
-   [![Invoices Page](/docs/img/invoices-header.png)](/docs/img/invoices-header.png)
-
 2. Select **Xero**.
-
-   [![Invoice Importer](/docs/img/invoice-importer.png)](/docs/img/invoice-importer.png)
 
 3. Click **Start**.
 
-   [![Start Xero Invoice Import](/docs/img/xero-invoice-importer.png)](/docs/img/xero-invoice-importer.png)
-
 4. The importer will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
 
-   [![Xero Invoice Import Started](/docs/img/xero-invoice-importer-pending.png)](/docs/img/xero-invoice-importer-pending.png)
-
 5. Once the import is finished you will see the newly imported invoices on the **Invoices** page.
-
-   [![Xero Invoice Import Finished](/docs/img/xero-invoice-importer-finished.png)](/docs/img/xero-invoice-importer-finished.png)
 
 ### Manual Customer Imports
 
@@ -113,23 +85,13 @@ Instructions:
 
 1. Go to the **Customers** tab in the Invoiced dashboard. Click on the **Import** button in the top-right.
 
-   [![Customers Page](/docs/img/customers-header.png)](/docs/img/customers-header.png)
-
 2. Select **Xero**.
-
-   [![Customer Importer](/docs/img/customer-importer.png)](/docs/img/customer-importer.png)
 
 3. Click **Start**.
 
-   [![Start Xero Customer Import](/docs/img/xero-customer-importer.png)](/docs/img/xero-customer-importer.png)
-
 4. The importer will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
 
-   [![Xero Customer Import Started](/docs/img/xero-customer-importer-pending.png)](/docs/img/xero-customer-importer-pending.png)
-
 5. Once the import is finished you will see the newly imported invoices on the **Customers** page.
-
-   [![Xero Customer Import Finished](/docs/img/xero-customer-importer-finished.png)](/docs/img/xero-customer-importer-finished.png)
 
 ## FAQs
 

@@ -28,21 +28,15 @@ Tax rules will automatically apply tax rates to invoices based on your customer'
 
 1. Go to **Settings** &rarr; **Taxes** in the Invoiced dashboard.
 
-   [![Tax Rates](/docs/img/tax-rates.png)](/docs/img/tax-rates.png)
-
 2. Click **New Tax Rate**.
 
    You can now enter in the details of your tax rate. The ID will auto-fill based off of the name, or you can supply your own.
-
-   [![Create a Tax Rate](/docs/img/create-tax-rate.png)](/docs/img/create-tax-rate.png)
 
 ### Creating a Tax Rule
 
 If you want to automate when tax rates are applied based on where your customers is located you can then create a tax rule.
 
 1. Go to **Settings** &rarr; **Taxes** &rarr; **Tax Rules** in the Invoiced dashboard.
-
-   [![Tax Rates](/docs/img/tax-rules.png)](/docs/img/tax-rules.png)
 
 2. Click **New Tax Rule**.
 
@@ -54,17 +48,11 @@ If you want to automate when tax rates are applied based on where your customers
 
        c. *Customers in Specific State/Province*: This will apply the tax rate to taxable customers in a specific state or province.
 
-   [![Create a Tax Rule](/docs/img/create-tax-rule.png)](/docs/img/create-tax-rule.png)
-
 ## Usage
 
 After creating the tax rates and tax rules, they are now ready to be used. If you have setup tax rules then tax will be added automatically to the applicable customers.
 
 If you are setting up a customer, item, or invoice you can also add tax rates and amounts by pressing the **+ Tax** button.
-
-[![Adding Tax](/docs/img/taxing.png)](/docs/img/taxing.png)
-
-[![Choose the Tax Rate](/docs/img/choose-tax.png)](/docs/img/choose-tax.png)
 
 Once selected, the rate will be added. If you are creating an invoice the tax will be added to the balance due.
 

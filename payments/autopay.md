@@ -58,13 +58,9 @@ Let's walk through a basic scenario where we set up AutoPay for a customer by se
 
    Go to **Settings** &rarr; **Payments** to enable **ACH**, **Direct Debit**, or **Credit Card** payments.
 
-   [![Enabling ACH, direct debit, or credit card payments](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
-
 2. Turn on AutoPay for your customer
 
    Now we are going to create a new customer account. If you are creating a new customer then turn on the **AutoPay** switch.
-
-   [![Creating an AutoPay customer](/docs/img/new-autopay-customer.png)](/docs/img/new-autopay-customer.png)
 
    We are going to leave the *Payment Info* section empty because we are going to collect their payment information by sending an invoice.
 
@@ -74,25 +70,15 @@ Let's walk through a basic scenario where we set up AutoPay for a customer by se
 
    Let's create and issue an invoice against the customer's account.
    
-   [![Creating an AutoPay invoice](/docs/img/new-autopay-invoice.png)](/docs/img/new-autopay-invoice.png)
-
    Next send the invoice to your customer.
-
-   [![Sending an AutoPay invoice](/docs/img/send-autopay-invoice.png)](/docs/img/send-autopay-invoice.png)
 
 4. Customer pays to store payment information
 
    The customer will be able to view the invoice like usual. They will then click **Pay**.
 
-   [![Viewing an AutoPay invoice](/docs/img/view-autopay-invoice.png)](/docs/img/view-autopay-invoice.png)
-
    When they click **Pay** the customer will be able to select one of the payment methods you have enabled that supports AutoPay.
 
-   [![Selecting an AutoPay payment method](/docs/img/autopay-payment-choice.png)](/docs/img/autopay-payment-choice.png)
-
    Then while paying the invoice we will store your customer's payment information for use on future AutoPay invoices.
-
-   [![Paying an AutoPay invoice](/docs/img/autopay-payment-screen.png)](/docs/img/autopay-payment-screen.png)
 
 ### Updating payment information
 

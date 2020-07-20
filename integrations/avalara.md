@@ -14,16 +14,10 @@ The setup process assumes that you have already established an Avalara account a
 
 2. Go to **Settings** &rarr; **Integrations** of the Invoiced application. Click **Connect** underneath the *Avalara* integration.
 
-   [![Integration Settings](/docs/img/integration-settings.png)](/docs/img/integration-settings.png)
-
 3. Enter in your Avalara account ID and license key. Click **Validate** to connect to Avalara.
 
-   [![Connect Avalara](/docs/img/connect-avalara.png)](/docs/img/connect-avalara.png)
-   
 4. Next, select the company code within Avalara that you would like to report sales tax into.
 
-   [![Select Avalara Company](/docs/img/select-avalara-company.png)](/docs/img/select-avalara-company.png)
-   
 Once you've connected Avalara successfully there are additional settings that you can change to customize the behavior of the integration in **Settings** &rarr; **Integrations** &rarr; **Configure** (Avalara).
 
 ### Commit Mode

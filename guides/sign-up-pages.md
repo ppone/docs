@@ -31,20 +31,11 @@ Prerequisites:
 
 1. Go to **Settings** &rarr; **Sign Up Pages**.
 
-   [![Sign Up Page Settings](/docs/img/sign-up-pages-settings.png)](/docs/img/sign-up-pages-settings.png)
-
 2. Click **New Sign Up Page**.
-
-   [![Creating a new Sign Up Page](/docs/img/sign-up-pages-empty.png)](/docs/img/sign-up-pages-empty.png)
 
 3. Give your page a name and select all of the plans that should be available to customers signing up from this page. There are other options available, like asking for a billing or shipping address.
 
-   [![Building a Sign Up Page](/docs/img/sign-up-pages-new.png)](/docs/img/sign-up-pages-new.png)
-
  Note: You can now enable AutoPay only directly on the sign up page. Simply select the AutoPay only option on the creation of the sign up page. 
-
-    [![Building a Sign Up Page](/docs/img/auto-pays.png)](/docs/img/auto-pays.png)
-
 
 Invoiced also provides other useful options when setting up sign up pages for your customers:
 
@@ -72,18 +63,12 @@ You can choose to add any of these options to customize the sign up process.
 
 4. Click **Save**.
 
-   [![Created Sign Up Page](/docs/img/sign-up-pages-created.png)](/docs/img/sign-up-pages-created.png)
-
 5. Now that your page is created it will be hosted at a unique URL within your customer portal. You can click the **View** button next to your new page to open the URL in a new tab.
 
-   [![Sign Up Page](/docs/img/sign-up-page.png)](/docs/img/sign-up-page.png)
-
 ### Selling addons on sign up pages
-You can provide an add on option for the customer to choose from on the sign up page. An addon can be a one time charge or an additional subscription option. The subscription option must match the original subscription plan interval selected. 
+You can provide an addon option for the customer to choose from on the sign up page. An addon can be a one time charge or an additional subscription option. The subscription option must match the original subscription plan interval selected. 
 
-   [![Add Ons](/docs/img/addons.png)](/docs/img/addons.png)
-
-You can allow the customer to specify a quantity of the add on and also note if it is a required option. 
+You can allow the customer to specify a quantity of the addon and also note if it is a required option. 
 
 ### Signing up customers
 
@@ -98,9 +83,6 @@ You can assign a customer a sign up page. This works well for scenarios like re-
  To access this feature:
 
   **Customer** &rarr; **Actions** &rarr; **Assign Sign Up Page**
-
-   [![Sign Up Page by Customer](/docs/img/signup-page-by-customer.png)](/docs/img/signup-page-by-customer.png)
-
 
 ### Custom thank you pages
 

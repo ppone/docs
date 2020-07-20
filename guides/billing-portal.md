@@ -10,12 +10,7 @@ The customer portal is a self-serve website where your customers can go to handl
 
 [![Customer Portal My Account](/docs/img/billing-portal.png)](/docs/img/billing-portal.png)
 
-*Pay an Invoice*
-
 When customers access an invoice via the View Invoice link received in the invoice email, the customer will be taken directly to the invoice to be paid. The customer will have the option to view the invoice and access the main customer portal screen when on an selected invoice. 
-
-[![Pay an Invoice](/docs/img/pay-invoice.gif)](/docs/img/pay-invoice.gif)
-
 
 ## Usage 
 
@@ -42,11 +37,7 @@ Customers must be signed in to access the customer portal. We've made signing in
 
 Customers can provide feedback on their invoices in the customer portal by adding a comment to the invoices. This allows customers to ask questions regarding the information on the invoice as well as resolve any billing issues that might arise. 
 
-[![Adding a Comment](/docs/img/leave-a-comment.gif)](/docs/img/leave-a-comment.gif)
-
 Invoiced will also flag the customers invoice if a comment is left and alert the users on the Account profile. This gives the business an easy way to filter out invoices that need attention. Once a response is left on the comment, the invoice can be marked as resolved to remove from the needs attention filter.
-
-[![Flagging Invoices](/docs/img/flag-an-invoice.gif)](/docs/img/flag-an-invoice.gif)
 
 ## Google Analytics Tracking
 

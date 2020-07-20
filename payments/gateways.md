@@ -35,8 +35,6 @@ When you switch payment gateways in **Settings** &rarr; **Payments**, any new pa
 
 In order to continue billing and charging your customers without interruption we will continue to use the old payment gateway for any payment information that was stored there prior to the transition. When your customer enters in new payment information then it will be stored on the new payment gateway. You can see which payment gateway a card or bank account is stored on by going to the customer summary page on Invoiced and clicking on the payment method.
 
-[![Stored Card on File](/docs/img/stored-card.png)](/docs/img/stored-card.png)
-
 ### Migrating stored payment information
 
 In some cases payment information can be migrated from your old payment gateway to your new gateway. The two payment gateways providers, old and new, will have to broker the transfer of stored payment information for PCI compliance reasons. You would only need to do this if you have payment information on file with the old gateway that you would like to charge through your new gateway. It is not a requirement to move payment information when switching to a new gateway on Invoiced.

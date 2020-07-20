@@ -30,9 +30,7 @@ Now go to the Invoiced application:
 
 4. Copy over the Issuer URL into the **Identity Provider Identifier or Issuer URL** field.
 
-5. Copy over the Signle Sign-On URL into the **Identity Provider Single Sign-On URL** field.
-
-[![SSO Settings](/docs/img/sso-settings.png)](/docs/img/sso-settings.png)
+5. Copy over the Single Sign-On URL into the **Identity Provider Single Sign-On URL** field.
 
 ## Usage
 

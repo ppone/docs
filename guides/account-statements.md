@@ -18,11 +18,7 @@ Here is an example Balance Forward statement.
 Here is how you generate a Balance Forward statement:
 1. Open the customer's account in the Invoiced dashboard. Click **Actions** &rarr; **Generate Statement**.
 
-   [![View Customer Account](/docs/img/statement-view-customer.png)](/docs/img/statement-view-customer.png)
-
 2. Select **Balance Forward** and choose the date range the statement should cover.
-
-   [![Build Balance Forward Statement](/docs/img/statement-build-balance-forward.png)](/docs/img/statement-build-balance-forward.png)
 
 3. Click **Download** to get a printable version of the statement or **Send** to deliver it to your customer via email, letter, or text message.
 
@@ -37,10 +33,6 @@ Here is an example Open Item statement.
 Here is how you generate an Open Item statement:
 1. Open the customer's account in the Invoiced dashboard. Click **Actions** &rarr; **Generate Statement**.
 
-   [![View Customer Account](/docs/img/statement-view-customer.png)](/docs/img/statement-view-customer.png)
-
 2. Select **Open Item** and choose the date range the statement should cover.
-
-   [![Build Open Item Statement](/docs/img/statement-build-open-item.png)](/docs/img/statement-build-open-item.png)
 
 3. Click **Download** to get a printable version of the statement or **Send** to deliver it to your customer via email, letter, or text message.

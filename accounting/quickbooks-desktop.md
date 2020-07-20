@@ -27,27 +27,17 @@ The QuickBooks Desktop integration works with these versions of QuickBooks (Wind
 
 1. In order to begin syncing with QuickBooks Desktop first go to **Settings** &rarr; **Accounting Sync**.
 
-   [![Select your accounting system](/docs/img/accounting-sync-select-system.png)](/docs/img/accounting-sync-select-system.png)
-
 2. Click on **Select** within the *QuickBooks Desktop* square.
 
-   [![QuickBooks Desktop selected](/docs/img/quickbooks-desktop-selected.png)](/docs/img/quickbooks-desktop-selected.png)
-
 3. Click on **Setup** to begin the setup process for QuickBooks Desktop.
-
-   [![QuickBooks Desktop Setup](/docs/img/generate-qwc-configuration.png)](/docs/img/generate-qwc-configuration.png)
 
 4. Install [QuickBooks Web Connector](https://marketplace.intuit.com/webconnector/) on the computer where QuickBooks is installed, if you have not already.
 
 5. Click **Generate QWC configuration**.
 
-   [![QuickBooks Desktop Generated Configuration](/docs/img/generated-qwc-config.png)](/docs/img/generated-qwc-config.png)
+6. Download the `invoiced.qwc` file and open it in QuickBooks Web Connector.
 
-6. Download the `invoice.qwc` and `payment.qwc` files and open the each file in QuickBooks Web Connector.
-
-  [![QuickBooks Desktop Enable Sync](/docs/img/qb-desktop-enable-sync.png)](/docs/img/qb-desktop-enable-sync.png)
-
-7. Enter in the generated password for each sync you enable. Make sure you do this before closing the configuration screen on Invoiced because the password is irretrievable once you click **Done**.
+7. Enter in the generated password. Make sure you do this before closing the configuration screen on Invoiced because the password is irretrievable once you click **Done**.
 
 ## Usage
 

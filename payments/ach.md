@@ -14,11 +14,7 @@ Once you are established with a payment processor, setting up ACH payments is ea
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
-
 2. Click **Setup** on the *ACH* payment method.
-
-  [![ACH Setup](/docs/img/ach-setup.png)](/docs/img/ach-setup.png)
 
 3. Select your payment gateway and follow the on-screen instructions to connect your payment gateway.
 
@@ -31,8 +27,6 @@ Customers can select the **ACH** payment method from payment forms. Most payment
 ## Virtual Terminal
 
 Like customers, internal Invoiced users have the ability to apply a payment to an account with an ACH payment method on an invoice. Whether a customer has saved an ACH payment method on file or has provided the user with the information, easily access the virtual terminal for payments by navigating to the invoice and selecting receive payment -> charge. From there, you can select the saved ACH payment method or enter a new ACH method.
-
-[![Pay Invoice with ACH](/docs/img/ach-terminal-payment.gif)](/ach-terminal-payment.gif)
 
 ## AutoPay
 

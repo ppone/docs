@@ -18,8 +18,6 @@ The QuickBooks Online integration ships with the following capabilities:
 
 1. In order to begin syncing with QuickBooks Online first go to **Settings** &rarr; **Integrations**.  
 
-   [![Integration Settings](/docs/img/integration-settings.png)](/docs/img/integration-settings.png)
-
 2. Click on **Connect to QuickBooks**. You will be redirected to QuickBooks. You will need to sign in to QuickBooks, if you are not already signed in.
 
    [![QuickBooks Online Login](/docs/img/qbo-login.png)](/docs/img/qbo-login.png)
@@ -29,8 +27,6 @@ The QuickBooks Online integration ships with the following capabilities:
    [![QuickBooks Online Authorize](/docs/img/qbo-connect-authorize.png)](/docs/img/qbo-connect-authorize.png)
 
 4. You will be redirected back to Invoiced. QuickBooks Online is now connected! Now you can configure the accounting sync in order to tell Invoiced how to map the data into your general ledger.
-
-   [![QuickBooks Online Settings](/docs/img/qbo-settings.png)](/docs/img/qbo-settings.png)
 
 5. Change the account mapping and other settings. Click **Save**.
 
@@ -54,15 +50,9 @@ Here's how you can enable auto-sync:
 
 1. Go to **Settings** &rarr; **Accounting Sync**. Click **Configure** on the QuickBooks Online integration.
 
-   [![QuickBooks Online Connected](/docs/img/qbo-connected.png)](/docs/img/qbo-connected.png)
-
 2. Enable the *Reconcile to QuickBooks* option.
 
-   [![QuickBooks Online Enable Auto-Sync](/docs/img/qbo-integration-settings-enable-auto-sync.png)](/docs/img/qbo-integration-settings-enable-auto-sync.png)
-
 3. Click **Save**. You can periodically check back here to see when the next sync run is scheduled or see past activity in the *Recent Syncs* table.
-
-   [![QuickBooks Online Auto-Sync Enabled](/docs/img/qbo-auto-sync-enabled.png)](/docs/img/qbo-auto-sync-enabled.png)
 
 ### Running Syncs Manually
 
@@ -70,11 +60,7 @@ If you want control over when your books are synced then you can manually trigge
 
 1. Go to **Settings** &rarr; **Accounting Sync**.
 
-   [![QuickBooks Online Connected](/docs/img/qbo-connected.png)](/docs/img/qbo-connected.png)
-
 2. Click **Sync Now** underneath *QuickBooks Online* any time you want to run an accounting sync. When the job is finished you will see it in the *Recent Syncs* table.
-
-   [![QuickBooks Online Invoice Sync](/docs/img/quickbooks-online-invoice-sync.png)](/docs/img/quickbooks-online-invoice-sync.png)
 
 ### Manual Invoice Imports
 
@@ -84,23 +70,13 @@ Instructions:
 
 1. Go to the **Invoices** tab in the Invoiced dashboard. Click on the **Import** button in the top-right.
 
-   [![Invoices Page](/docs/img/invoices-header.png)](/docs/img/invoices-header.png)
-
 2. Select **QuickBooks**.
-
-   [![Invoice Importer](/docs/img/invoice-importer.png)](/docs/img/invoice-importer.png)
 
 3. Click **Start**.
 
-   [![Start QuickBooks Invoice Import](/docs/img/qbo-invoice-importer.png)](/docs/img/qbo-invoice-importer.png)
-
 4. The importer will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
 
-   [![QuickBooks Invoice Import Started](/docs/img/qbo-invoice-importer-pending.png)](/docs/img/qbo-invoice-importer-pending.png)
-
 5. Once the import is finished you will see the newly imported invoices on the **Invoices** page.
-
-   [![QuickBooks Invoice Import Finished](/docs/img/qbo-invoice-importer-finished.png)](/docs/img/qbo-invoice-importer-finished.png)
 
 ### Manual Customer Imports
 
@@ -110,23 +86,13 @@ Instructions:
 
 1. Go to the **Customers** tab in the Invoiced dashboard. Click on the **Import** button in the top-right.
 
-   [![Customers Page](/docs/img/customers-header.png)](/docs/img/customers-header.png)
-
 2. Select **QuickBooks**.
-
-   [![Customer Importer](/docs/img/customer-importer.png)](/docs/img/customer-importer.png)
 
 3. Click **Start**.
 
-   [![Start QuickBooks Customer Import](/docs/img/qbo-customer-importer.png)](/docs/img/qbo-customer-importer.png)
-
 4. The importer will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
 
-   [![QuickBooks Customer Import Started](/docs/img/qbo-customer-importer-pending.png)](/docs/img/qbo-customer-importer-pending.png)
-
 5. Once the import is finished you will see the newly imported invoices on the **Customers** page.
-
-   [![QuickBooks Customer Import Finished](/docs/img/qbo-customer-importer-finished.png)](/docs/img/qbo-customer-importer-finished.png)
 
 ## Edge Cases
 

@@ -8,15 +8,9 @@ Setting up offline payments is easy! Follow these steps to display your custom p
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-   [![Payment Settings](/docs/img/payment-settings.png)](/docs/img/payment-settings.png)
-
 2. Click **Setup** on the *Payment Instructions* payment method.
 
-  [![Payment Instructions Setup](/docs/img/offline-payments-setup.png)](/docs/img/offline-payments-setup.png)
-
 3. Click on the toggle for each payment method you want to accept, like Check or Wire Transfer. Then enter in your payment instructions for that payment method.
-
-  [![Check Payment Instructions](/docs/img/offline-payments-setup-2.png)](/docs/img/offline-payments-setup-2.png)
 
 4. Click **Save** to enable offline payments.
 
@@ -30,8 +24,6 @@ When your client selects any of your offline payment methods we will show them y
 
 Once you receive the payment you will need to record the payment through the dashboard in order to mark the invoice as paid. You can do this by accessing the Invoice and proceeding to the **Payments** section, clicking **Receive Payment**, fill in the form, and finally click Create. 
 
-[![Record Invoice Payment](/docs/img/receiving-payment.gif)](/docs/img/receiving-payment.gif)
-
 When you apply a payment to an outstanding invoice. You will see a couple of different options on the **Receive Payment** Screen:
 
 **Cash Receipt:** The record when a cash payment has been allocated for the sale of a product. This can be cash, check, wire transfer, etc. 
@@ -40,9 +32,6 @@ When you apply a payment to an outstanding invoice. You will see a couple of dif
 Voilà, the invoice is now marked as paid.
 
 **Want to pay multiple invoices for a customer?** Access the customer’s profile and press the addition icon in the top right corner of the page. Choose Receive Payment. Here, you will select the payment type, and the amount you wish to apply. Then, you will be able to select the outstanding invoices for the customer. 
-
-[![Record Multiple Invoice Payments](/docs/img/receive-multiple.gif)](/docs/img/receive-multiple.gif)
-
 
 ## Handling Overpayments
 
