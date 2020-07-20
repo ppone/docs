@@ -39,7 +39,7 @@ The customer account age is the oldest open invoice or installment. The past due
 
 ## Setup
 
-<p class="alert alert-info">This document describes the latest version, Smart Chasing. If you are using the legacy chasing feature then you can find the <a href="/resources/guides/chasing-legacy">docs here</a>. Please contact support@invoiced.com if you would like to be upgraded to Smart Chasing.</p>
+<p class="alert alert-info">This document describes the latest version, Smart Chasing. If you are using the legacy chasing feature then you can find the <a href="/resources/docs/guides/chasing-legacy">docs here</a>. Please contact support@invoiced.com if you would like to be upgraded to Smart Chasing.</p>
 
 ### Building cadences
 

@@ -49,7 +49,6 @@ Invoiced has a great feature if you wish to have the email sent at the time the 
 
 You can learn more about the [chasing process here](/resources/docs/guides/chasing).
 
-
 ## Getting paid 
 
 When your customer clicks the *View Invoice* button in the invoice email, they will be taken to the invoice in the customer portal. The customer portal is where customer's can view and pay invoices, in addition to having access to their past billing history. Another nifty feature is that once your customer views an invoice we will send you a notification to let you know they have seen it. Note: Notifications can be turned on and off in your **Settings** &rarr; **Notifications** section. 
@@ -62,7 +61,7 @@ Once your customer pays online, the payment will be recorded automatically in th
 
 What's next? 
 
-This tutorial has shown you what a simple invoicing workflow looks like with Invoiced. We recommend checking out our other guides to learn how to solve more complex billing workflows and set up automation for tedious billing tasks. There are guides for [subscription billing](/resources/guides/subscription-billing), [chasing](/resources/guides/chasing), [payments](/resources/docs/payments), and more.
+This tutorial has shown you what a simple invoicing workflow looks like with Invoiced. We recommend checking out our other guides to learn how to solve more complex billing workflows and set up automation for tedious billing tasks. There are guides for [subscription billing](/resources/docs/guides/subscription-billing), [chasing](/resources/docs/guides/chasing), [payments](/resources/docs/payments), and more.
 
 
 

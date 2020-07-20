@@ -1,6 +1,6 @@
 # Subscription Billing
 
-In this guide we are going to show you how to programmatically setup [subscription billing](/resources/guides/subscription-billing) through the Invoiced API.
+In this guide we are going to show you how to programmatically setup [subscription billing](/resources/docs/guides/subscription-billing) through the Invoiced API.
 
 ## Quickstart Guide
 
