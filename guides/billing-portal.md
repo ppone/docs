@@ -16,7 +16,12 @@ When customers access an invoice via the View Invoice link received in the invoi
 
 Your customer portal is hosted at yourusername.invoiced.com where yourusername matches your Invoiced username in **Settings** &rarr; **Business Profile**. Any customer facing activity happens on this domain, like viewing invoices or paying. Customers can also access the customer portal by going directly to this URL.
 
+### System Requirements
 
+We strive to make the customer portal work with as many web browsers as possible, although a recently updated web browser is recommended. In order to access the full functionality, the visitor's browser must be configured with:
+* Javascript enabled
+* Cookies enabled
+* TLS v1.2 or above
 
 ## Signing In 
 
