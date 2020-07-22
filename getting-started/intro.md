@@ -13,7 +13,7 @@ If you look at the left sidebar, you will see a table of contents to our product
 
 ## Registering for Invoiced
 
-First, lets start with an account! If you have not done so already, you need to [sign up](https://invoiced.com/signup) for an Invoiced account. We offer a free trial with no credit card or obligations required. During the sign up process we will ask you a few questions about your business to properly configure Invoiced. 
+First, lets start with an account! If you have not done so already, you need to [sign up](https://www.invoiced.com/signup) for an Invoiced account. We offer a free trial with no credit card or obligations required. During the sign up process we will ask you a few questions about your business to properly configure Invoiced. 
 
 ## Invoiced Dashboard
 

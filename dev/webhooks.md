@@ -63,4 +63,4 @@ We try our best to deliver webhooks immediately after an event has been created,
 
 It's possible that the same event could be sent more than once. It's strongly advised to make your webhook idempotent. This means that your webhook can safely receive the same event multiple times without affecting the outcome. An easy way to accomplish this is to track the IDs of events that you process in order to ignore duplicate calls.
 
-If you want to catch up on any missed events or implement a backup mechanism in case a webhook is not delivered then you can use our [Events API](https://invoiced.com/resources/docs/api/#list-all-events) to retrieve recent activity. The events you retrieve will be identical to the payloads sent in webhooks.
+If you want to catch up on any missed events or implement a backup mechanism in case a webhook is not delivered then you can use our [Events API](https://www.invoiced.com/resources/docs/api/#list-all-events) to retrieve recent activity. The events you retrieve will be identical to the payloads sent in webhooks.

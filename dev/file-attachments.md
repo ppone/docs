@@ -27,7 +27,7 @@ Next we are going to tell Invoiced about your file.
 ```bash
 curl "https://api.invoiced.com/files" \
   -u {API_KEY}: \
-  -d url="https://invoiced.com/img/logo-invoice.png" \
+  -d url="https://www.invoiced.com/img/logo-invoice.png" \
   -d name="logo-invoice.png" \  # filename
   -d size=6936 \                # size in bytes
   -d type="image/png"           # MIME type
@@ -38,7 +38,7 @@ require "invoiced"
 invoiced = Invoiced::Client.new("{YOUR_API_KEY}")
 
 file = invoiced.File.create(
-  :url => "https://invoiced.com/img/logo-invoice.png",
+  :url => "https://www.invoiced.com/img/logo-invoice.png",
   :name => "logo-invoice.png",  # filename
   :size => 6936,                # size in bytes
   :type => "image/png"          # MIME type
@@ -49,7 +49,7 @@ file = invoiced.File.create(
 $invoiced = new Invoiced\Client("{YOUR_API_KEY}");
 
 $file = $invoiced->File->create([
-  'url' => "https://invoiced.com/img/logo-invoice.png",
+  'url' => "https://www.invoiced.com/img/logo-invoice.png",
   'name' => "logo-invoice.png", // filename
   'size' => 6936,               // size in bytes
   'type' => "image/png"         // MIME type
@@ -61,7 +61,7 @@ import invoiced
 client = invoiced.Client("{YOUR_API_KEY}")
 
 file = client.File.create(
-  url="https://invoiced.com/img/logo-invoice.png",
+  url="https://www.invoiced.com/img/logo-invoice.png",
   name="logo-invoice.png",  # filename
   size=6936,                # size in bytes
   type="image/png"          # MIME type
@@ -75,7 +75,7 @@ import com.invoiced.entity.File;
 Connection invoiced = new Connection("{YOUR_API_KEY}", false);
 
 File file = invoiced.newFile();
-file.url = "https://invoiced.com/img/logo-invoice.png";
+file.url = "https://www.invoiced.com/img/logo-invoice.png";
 file.size = 6936;
 file.name = "logo-invoice.png";
 file.type = "image/png";
@@ -170,7 +170,7 @@ The call will produce a response like this:
       "name": "logo-invoice.png",
       "size": 6936,
       "type": "image/png",
-      "url": "https://invoiced.com/img/logo-invoice.png",
+      "url": "https://www.invoiced.com/img/logo-invoice.png",
       "created_at": 1464625855
     },
     "created_at": 1464625855
@@ -188,7 +188,7 @@ The call will produce a response like this:
       "name": "logo-invoice.png",
       "size": 6936,
       "type": "image/png",
-      "url": "https://invoiced.com/img/logo-invoice.png",
+      "url": "https://www.invoiced.com/img/logo-invoice.png",
       "created_at": 1464625855
     },
     "created_at": 1464625855
@@ -206,7 +206,7 @@ The call will produce a response like this:
       "name": "logo-invoice.png",
       "size": 6936,
       "type": "image/png",
-      "url": "https://invoiced.com/img/logo-invoice.png",
+      "url": "https://www.invoiced.com/img/logo-invoice.png",
       "created_at": 1464625855
     },
     "created_at": 1464625855
@@ -224,7 +224,7 @@ The call will produce a response like this:
       "name": "logo-invoice.png",
       "size": 6936,
       "type": "image/png",
-      "url": "https://invoiced.com/img/logo-invoice.png",
+      "url": "https://www.invoiced.com/img/logo-invoice.png",
       "created_at": 1464625855
     },
     "created_at": 1464625855
@@ -243,7 +243,7 @@ The call will produce a response like this:
       "name": "logo-invoice.png",
       "size": 6936,
       "type": "image/png",
-      "url": "https://invoiced.com/img/logo-invoice.png",
+      "url": "https://www.invoiced.com/img/logo-invoice.png",
       "created_at": 1464625854
     },
     "created_at": 1464625855

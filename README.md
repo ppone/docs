@@ -1,7 +1,7 @@
 Invoiced Docs
 =============
 
-Viewable at [invoiced.com/docs](https://invoiced.com/docs)
+Viewable at [invoiced.com/docs](https://www.invoiced.com/docs)
 
 ## Contributing
 

@@ -6,7 +6,7 @@ With AutoPay you can automatically collect payment from customers when an invoic
 
 AutoPay allows you to securely collect and charge payment info for customers. In order to use AutoPay you must follow these simple requirements:
 
-1. Subscribe to an Invoiced [plan that supports AutoPay](https://invoiced.com/pricing). There are no limits to the number of AutoPay customers or invoices you can create.
+1. Subscribe to an Invoiced [plan that supports AutoPay](https://www.invoiced.com/pricing). There are no limits to the number of AutoPay customers or invoices you can create.
 
 2. Have at least one payment method enabled that supports AutoPay. Currently AutoPay works with **ACH**, **direct debit**, and **credit card** payments.
 

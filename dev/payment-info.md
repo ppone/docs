@@ -130,7 +130,7 @@ customer.payment_source = token;
 customer.create();
 ```
 
-Or if this is an existing customer then you can make a similar call to update the customer (assuming you have already [retrieved the customer](https://invoiced.com/resources/docs/api/#retrieve-a-customer)):
+Or if this is an existing customer then you can make a similar call to update the customer (assuming you have already [retrieved the customer](https://www.invoiced.com/resources/docs/api/#retrieve-a-customer)):
 
 ```bash
 curl "https://api.invoiced.com/customers/CUSTOMER_ID" \
@@ -259,7 +259,7 @@ customer.payment_source = token;
 customer.create();
 ```
 
-Or if this is an existing customer then you can make a similar call to update the customer (assuming you have already [retrieved the customer](https://invoiced.com/resources/docs/api/#retrieve-a-customer)):
+Or if this is an existing customer then you can make a similar call to update the customer (assuming you have already [retrieved the customer](https://www.invoiced.com/resources/docs/api/#retrieve-a-customer)):
 
 ```bash
 curl "https://api.invoiced.com/customers/CUSTOMER_ID" \
@@ -369,7 +369,7 @@ customer.payment_source = token;
 customer.create();
 ```
 
-Or if this is an existing customer then you can make a similar call to update the customer (assuming you have already [retrieved the customer](https://invoiced.com/resources/docs/api/#retrieve-a-customer)):
+Or if this is an existing customer then you can make a similar call to update the customer (assuming you have already [retrieved the customer](https://www.invoiced.com/resources/docs/api/#retrieve-a-customer)):
 
 ```bash
 curl "https://api.invoiced.com/customers/CUSTOMER_ID" \

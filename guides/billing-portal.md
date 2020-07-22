@@ -32,7 +32,7 @@ Customers must be signed in to access the customer portal. We've made signing in
     The email address provided must match a main email address or attached contact for a customer profile in your Invoiced account. We will only send a sign in link to email addresses matching this criteria.
 2. *Magic Links*
     Magic Links allow you to securely generate URLs to sign customers into the customer portal. This allows you to transparently sign users into the customer portal from your app or website without requiring an additional login step. We only recommend generating a sign in link for users that you have already authenticated through your own login system.
-    Magic Links can be generate through the [API](https://invoiced.com/resources/docs/dev/single-sign-on) or through the dashboard by opening a customer profile and clicking *Actions* &rarr; *Generate Sign In Link*.
+    Magic Links can be generate through the [API](https://www.invoiced.com/resources/docs/dev/single-sign-on) or through the dashboard by opening a customer profile and clicking *Actions* &rarr; *Generate Sign In Link*.
 3. *Sign up pages*
     We temporarily sign in any customers when they sign up from a sign up page. On the thank you page there is a *Go to My Account* button.
 4. *Manage Subscription links*

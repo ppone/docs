@@ -63,7 +63,7 @@ A subscription will generate an invoice each billing cycle for the amount owed i
 
 #### AutoPay
 
-Since subscriptions are a generate invoice monthly, that means [AutoPay](https://invoiced.com/resources/docs/payments/autopay) customers are fully supported with subscription billing. AutoPay will automatically charge your customer's payment method for any invoices issued against their account, including subscription invoices.
+Since subscriptions are a generate invoice monthly, that means [AutoPay](https://www.invoiced.com/resources/docs/payments/autopay) customers are fully supported with subscription billing. AutoPay will automatically charge your customer's payment method for any invoices issued against their account, including subscription invoices.
 
 If a customer with AutoPay enabled is subscribed to a plan, but does not have payment information on file yet, then we will send them the first invoice automatically. Upon paying the invoice, we will capture the customer's payment information for use on future invoices.
 
@@ -73,7 +73,7 @@ When AutoPay is not enabled, then the customer will receive an invoice each bill
 
 Payment terms succinctly tell the customer when an invoice is due. For example, NET 7 means that payment is due within 7 days of the invoice whereas NET 30 means payment is due in 30 days. 
 
-You can read more about the different kinds of payment terms in this [blog post](https://invoiced.com/blog/how-to-get-paid-faster-on-your-invoice-part-i).
+You can read more about the different kinds of payment terms in this [blog post](https://www.invoiced.com/blog/how-to-get-paid-faster-on-your-invoice-part-i).
 
 
 #### Pending Line Items

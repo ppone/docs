@@ -21,7 +21,7 @@ We support these payment gateways: (click any gateway for documentation)
 
 ## Need a payment processor?
 
-We can help you get connected with one of our supported payment processors. Our [payment gateway selector](https://invoiced.com/gateways) can help you find a payment gateway based on your country.
+We can help you get connected with one of our supported payment processors. Our [payment gateway selector](https://www.invoiced.com/gateways) can help you find a payment gateway based on your country.
 
 ## Questions?
 

@@ -21,7 +21,7 @@
   },
   {
     "name": "Real-time Intacct Integration",
-    "body": "We have a major update to the Intacct integration available today that is moving out of beta. The new integration has many noteworthy features, including real-time updates without the need to use the import tool, improved error handling and retries, more granular settings, enhanced multi-entity support, flexible payment mapping, posting credit notes to Intacct, and much more.\n\nYou can read the <a href='https://invoiced.com/resources/docs/accounting/intacct' target='_blank'>Intacct integration documentation</a> to learn more. If you are an existing user of the Intacct integration then you will need to contact Invoiced Support if you wish to upgrade.",
+    "body": "We have a major update to the Intacct integration available today that is moving out of beta. The new integration has many noteworthy features, including real-time updates without the need to use the import tool, improved error handling and retries, more granular settings, enhanced multi-entity support, flexible payment mapping, posting credit notes to Intacct, and much more.\n\nYou can read the <a href='https://www.invoiced.com/resources/docs/accounting/intacct' target='_blank'>Intacct integration documentation</a> to learn more. If you are an existing user of the Intacct integration then you will need to contact Invoiced Support if you wish to upgrade.",
     "date": "2020-03-10"
   },
   {
@@ -31,12 +31,12 @@
   },
   {
     "name": "Convenience Fees",
-    "body": "Convenience Fees, a much requested feature is now available! With convenience fees you can charge a % markup to customers paying with debit or credit card. See the <a href='https://invoiced.com/resources/docs/payments/card#convenience-fees' target='_blank'>Convenience Fee documentation</a> to learn more.",
+    "body": "Convenience Fees, a much requested feature is now available! With convenience fees you can charge a % markup to customers paying with debit or credit card. See the <a href='https://www.invoiced.com/resources/docs/payments/card#convenience-fees' target='_blank'>Convenience Fee documentation</a> to learn more.",
     "date": "2020-02-12"
   },
   {
     "name": "Salesforce Integration",
-    "body": "We are releasing a major new version of our Salesforce integration today that runs natively on Salesforce. The new integration syncs customers, contacts, invoices, notes, emails, payments, and more with Salesforce.\n\nYou can read the <a href='https://invoiced.com/resources/docs/integrations/salesforce' target='_blank'>Salesforce integration documentation</a> to learn more about the capabilities and also for instructions to setup the integration.",
+    "body": "We are releasing a major new version of our Salesforce integration today that runs natively on Salesforce. The new integration syncs customers, contacts, invoices, notes, emails, payments, and more with Salesforce.\n\nYou can read the <a href='https://www.invoiced.com/resources/docs/integrations/salesforce' target='_blank'>Salesforce integration documentation</a> to learn more about the capabilities and also for instructions to setup the integration.",
     "date": "2019-12-10"
   },
   {
@@ -86,7 +86,7 @@
   },
   {
     "name": "Account Owners and Customer Restrictions",
-    "body": "Customers have a new Owner field to indicate the individual within your company that is responsible for the billing and collection process. While optional, we recommend that you set the owner to make sure collection tasks and notifications are routed to the appropriate person within your company. The owner can be set in the Options tab of the new\/edit customer screen.\n\nIncluded in this update are two customer restriction modes for non-administrator accounts: Restrict by Custom Field and Restrict by Account Ownership. The custom field restriction mode allows you to limit a user to only see customers with a specific custom field value, i.e. restrict the user to a territory, department, or subsidiary. The other restriction mode, restrict by account ownership, allows you to limit a user to only see customers that they own.\n\nIf you want to enable these new restriction settings go to Settings &rarr; Team and add\/edit user. You can also read our new <a href=\"https:\/\/invoiced.com\/docs\/guides\/user-permissions\" target=\"_blank\">user permissions guide<\/a> to learn more.",
+    "body": "Customers have a new Owner field to indicate the individual within your company that is responsible for the billing and collection process. While optional, we recommend that you set the owner to make sure collection tasks and notifications are routed to the appropriate person within your company. The owner can be set in the Options tab of the new\/edit customer screen.\n\nIncluded in this update are two customer restriction modes for non-administrator accounts: Restrict by Custom Field and Restrict by Account Ownership. The custom field restriction mode allows you to limit a user to only see customers with a specific custom field value, i.e. restrict the user to a territory, department, or subsidiary. The other restriction mode, restrict by account ownership, allows you to limit a user to only see customers that they own.\n\nIf you want to enable these new restriction settings go to Settings &rarr; Team and add\/edit user. You can also read our new <a href=\"https:\/\/www.invoiced.com\/docs\/guides\/user-permissions\" target=\"_blank\">user permissions guide<\/a> to learn more.",
     "date": "2019-07-15"
   },
   {
@@ -121,7 +121,7 @@
   },
   {
     "name": "Tax Inclusive Pricing",
-    "body": "With a recent update to our tax calculation system it's now possible to offer tax inclusive pricing to customers. When enabled for a tax rate, any price billed to a customer will be treated as already having tax included. Invoiced will then calculate the appropriate tax amount and reduce the subtotal accordingly. The default tax mode is still tax exclusive pricing.\n\nYou can set up tax inclusive pricing with a new tax rate in Settings &rarr; Taxes or you can read the <a href=\"https:\/\/invoiced.com\/docs\/guides\/taxes\" target=\"_blank\">Sales Tax Guide<\/a> to learn more.",
+    "body": "With a recent update to our tax calculation system it's now possible to offer tax inclusive pricing to customers. When enabled for a tax rate, any price billed to a customer will be treated as already having tax included. Invoiced will then calculate the appropriate tax amount and reduce the subtotal accordingly. The default tax mode is still tax exclusive pricing.\n\nYou can set up tax inclusive pricing with a new tax rate in Settings &rarr; Taxes or you can read the <a href=\"https:\/\/www.invoiced.com\/docs\/guides\/taxes\" target=\"_blank\">Sales Tax Guide<\/a> to learn more.",
     "date": "2019-06-10"
   },
   {
@@ -131,7 +131,7 @@
   },
   {
     "name": "Avalara Integration",
-    "body": "Over the past couple of months we have been testing a new integration with Avalara to automate sales tax compliance. Today we are pleased to officially release our Avalara Certified integration. When enabled, the integration will automate sales tax calculation on invoices, credit notes, and estimates based on where you have nexus and the types of products and services that you sell.\n\nYou can read through the <a href=\"https:\/\/invoiced.com\/docs\/integrations\/avalara\" target=\"_blank\">Avalara documentation<\/a> to learn more.",
+    "body": "Over the past couple of months we have been testing a new integration with Avalara to automate sales tax compliance. Today we are pleased to officially release our Avalara Certified integration. When enabled, the integration will automate sales tax calculation on invoices, credit notes, and estimates based on where you have nexus and the types of products and services that you sell.\n\nYou can read through the <a href=\"https:\/\/www.invoiced.com\/docs\/integrations\/avalara\" target=\"_blank\">Avalara documentation<\/a> to learn more.",
     "date": "2019-06-07"
   },
   {
@@ -146,7 +146,7 @@
   },
   {
     "name": "Merging Customers",
-    "body": "The ability to merge two customer accounts is now in beta. You can read about <a href=\"https:\/\/invoiced.com\/docs\/guides\/customers#merging-customers\" target=\"_blank\">how to merge customers here<\/a>.",
+    "body": "The ability to merge two customer accounts is now in beta. You can read about <a href=\"https:\/\/www.invoiced.com\/docs\/guides\/customers#merging-customers\" target=\"_blank\">how to merge customers here<\/a>.",
     "date": "2019-03-25"
   },
   {
@@ -196,12 +196,12 @@
   },
   {
     "name": "Smart Chasing",
-    "body": "We are launching the newest version of our chasing feature today: Smart Chasing! What's new from the previous version is that it allows you to chase account balances (instead of individual invoices), supports more types of activities (mail, calls, escalations), allows you to have more than one cadence, and has more robust scheduling and timing controls. There are many other benefits over the old system, these are just a few!\n\nRead the <a href=\"https:\/\/invoiced.com\/docs\/guides\/chasing\" target=\"_blank\">Smart Chasing documentation<\/a> to learn more.\n\nAlready using the previous version? If you were using the original chasing system then you can contact support to be migrated over to Smart Chasing. Smart Chasing is available to customers on Growth and Enterprise plans. If you are on the previous version it will continue to work as expected.",
+    "body": "We are launching the newest version of our chasing feature today: Smart Chasing! What's new from the previous version is that it allows you to chase account balances (instead of individual invoices), supports more types of activities (mail, calls, escalations), allows you to have more than one cadence, and has more robust scheduling and timing controls. There are many other benefits over the old system, these are just a few!\n\nRead the <a href=\"https:\/\/www.invoiced.com\/docs\/guides\/chasing\" target=\"_blank\">Smart Chasing documentation<\/a> to learn more.\n\nAlready using the previous version? If you were using the original chasing system then you can contact support to be migrated over to Smart Chasing. Smart Chasing is available to customers on Growth and Enterprise plans. If you are on the previous version it will continue to work as expected.",
     "date": "2018-12-20"
   },
   {
     "name": "Open Item Statements",
-    "body": "You can now generate Open Item statements, which only show unpaid invoices, or optionally, only past due invoices. The previous statement generation is unchanged and still available under the Balance Forward option. You can <a href=\"https:\/\/invoiced.com\/docs\/guides\/account-statements\" target=\"_blank\">read more here<\/a> about the types of statements.",
+    "body": "You can now generate Open Item statements, which only show unpaid invoices, or optionally, only past due invoices. The previous statement generation is unchanged and still available under the Balance Forward option. You can <a href=\"https:\/\/www.invoiced.com\/docs\/guides\/account-statements\" target=\"_blank\">read more here<\/a> about the types of statements.",
     "date": "2018-12-18"
   },
   {
@@ -221,7 +221,7 @@
   },
   {
     "name": "Direct Mail",
-    "body": "It is now possible to mail letters through Invoiced with our new Lob.com integration. The <a href=\"https:\/\/invoiced.com\/docs\/integrations\/lob\" target=\"_blank\">Lob documentation<\/a> has more information on how to get started.",
+    "body": "It is now possible to mail letters through Invoiced with our new Lob.com integration. The <a href=\"https:\/\/www.invoiced.com\/docs\/integrations\/lob\" target=\"_blank\">Lob documentation<\/a> has more information on how to get started.",
     "date": "2018-11-16"
   },
   {
@@ -231,12 +231,12 @@
   },
   {
     "name": "Credit Holds & Limits",
-    "body": "Our new credit holds feature lets you prevent new sales for late-paying customers and set credit limits to block credit sales beyond your risk threshold. You can read the <a href=\"https:\/\/invoiced.com\/docs\/guides\/credit-holds\" target=\"_blank\">Credit Holds documentation<\/a> to learn more.",
+    "body": "Our new credit holds feature lets you prevent new sales for late-paying customers and set credit limits to block credit sales beyond your risk threshold. You can read the <a href=\"https:\/\/www.invoiced.com\/docs\/guides\/credit-holds\" target=\"_blank\">Credit Holds documentation<\/a> to learn more.",
     "date": "2018-09-27"
   },
   {
     "name": "Send Text Messages",
-    "body": "You can now send invoices and account statements as text messages with our new Twilio integration! You can read the <a href=\"https:\/\/invoiced.com\/docs\/integrations\/twilio\" target=\"_blank\">Twilio documentation<\/a> to learn more.",
+    "body": "You can now send invoices and account statements as text messages with our new Twilio integration! You can read the <a href=\"https:\/\/www.invoiced.com\/docs\/integrations\/twilio\" target=\"_blank\">Twilio documentation<\/a> to learn more.",
     "date": "2018-09-17"
   },
   {
@@ -251,22 +251,22 @@
   },
   {
     "name": "Direct Debit Payments",
-    "body": "Our new integration with GoCardless allows any business based in the UK, Europe, Australia, or Sweden to process direct debit payments from customers through Invoiced. GoCardless uses the banking systems in each supported country for fast, low-cost payments. You can head over to Settings &rarr; Payments to start accepting direct debit payments or read the <a href=\"https:\/\/invoiced.com\/docs\/integrations\/gocardless\" target=\"_blank\">GoCardless documentation<\/a> to learn more.",
+    "body": "Our new integration with GoCardless allows any business based in the UK, Europe, Australia, or Sweden to process direct debit payments from customers through Invoiced. GoCardless uses the banking systems in each supported country for fast, low-cost payments. You can head over to Settings &rarr; Payments to start accepting direct debit payments or read the <a href=\"https:\/\/www.invoiced.com\/docs\/integrations\/gocardless\" target=\"_blank\">GoCardless documentation<\/a> to learn more.",
     "date": "2018-06-20"
   },
   {
     "name": "New Templating System",
-    "body": "We have just released v2 of our PDF templating system. You can learn more in the <a href=\"https:\/\/invoiced.com\/docs\/dev\/customizing-templates\" target=\"_blank\">developer documentation<\/a>. The new templating system provides more powerful syntax, nifty helper functions, and easier development and troubleshooting.",
+    "body": "We have just released v2 of our PDF templating system. You can learn more in the <a href=\"https:\/\/www.invoiced.com\/docs\/dev\/customizing-templates\" target=\"_blank\">developer documentation<\/a>. The new templating system provides more powerful syntax, nifty helper functions, and easier development and troubleshooting.",
     "date": "2018-06-04"
   },
   {
     "name": "Updated Privacy Policy",
-    "body": "Our <a href=\"https:\/\/invoiced.com\/privacy\" target=\"_blank\">privacy policy<\/a> has been updated to clarify the kind of information we collect, how it gets shared, and what practices we follow to keep your information private and secure.",
+    "body": "Our <a href=\"https:\/\/www.invoiced.com\/privacy\" target=\"_blank\">privacy policy<\/a> has been updated to clarify the kind of information we collect, how it gets shared, and what practices we follow to keep your information private and secure.",
     "date": "2018-06-04"
   },
   {
     "name": "Webhook Improvements",
-    "body": "We have made some improvements to webhooks. Among the list of improvements are the ability to retry individual webhook attempts. Also webhook requests are signed to make it easier to determine if an event came from Invoiced. Our <a href=\"https:\/\/invoiced.com\/docs\/dev\/webhooks\" target=\"_blank\">updated webhook documentation<\/a> has more information on the latest best practices.",
+    "body": "We have made some improvements to webhooks. Among the list of improvements are the ability to retry individual webhook attempts. Also webhook requests are signed to make it easier to determine if an event came from Invoiced. Our <a href=\"https:\/\/www.invoiced.com\/docs\/dev\/webhooks\" target=\"_blank\">updated webhook documentation<\/a> has more information on the latest best practices.",
     "date": "2018-06-04"
   },
   {
@@ -281,12 +281,12 @@
   },
   {
     "name": "Invoiced.js",
-    "body": "Attention developers! We have just released a new Javascript library that can be embedded into your website or application to help you collect payment information and store it on Invoiced. We have written a <a href=\"https:\/\/invoiced.com\/docs\/dev\/payment-info\" target=\"_blank\">nifty guide on how it works<\/a>.",
+    "body": "Attention developers! We have just released a new Javascript library that can be embedded into your website or application to help you collect payment information and store it on Invoiced. We have written a <a href=\"https:\/\/www.invoiced.com\/docs\/dev\/payment-info\" target=\"_blank\">nifty guide on how it works<\/a>.",
     "date": "2018-04-17"
   },
   {
     "name": "Contract Billing",
-    "body": "We have made it easier to manage contracts from a billing perspective with our new contract billing feature. With contract billing you can specify on a subscription the length of the contract term, length of subsequent terms, and how you want to handle renewals.\n        \nFor example, you could have a monthly subscription with a year long contract. When the contract ends you can tell Invoiced to ask for your approval before renewing the subscription for another year. Billing will be paused until you tell us to renew the contract or cancel it. We can also auto-renew the contract or stop billing after the initial term.\n\nYou can read more about this in the <a href=\"https:\/\/invoiced.com\/docs\/guides\/subscription-billing#contract-billing\" target=\"_blank\">contract billing documentation<\/a>.",
+    "body": "We have made it easier to manage contracts from a billing perspective with our new contract billing feature. With contract billing you can specify on a subscription the length of the contract term, length of subsequent terms, and how you want to handle renewals.\n        \nFor example, you could have a monthly subscription with a year long contract. When the contract ends you can tell Invoiced to ask for your approval before renewing the subscription for another year. Billing will be paused until you tell us to renew the contract or cancel it. We can also auto-renew the contract or stop billing after the initial term.\n\nYou can read more about this in the <a href=\"https:\/\/www.invoiced.com\/docs\/guides\/subscription-billing#contract-billing\" target=\"_blank\">contract billing documentation<\/a>.",
     "date": "2018-04-13"
   },
   {
@@ -356,7 +356,7 @@
   },
   {
     "name": "Zapier Integration",
-    "body": "Today our Zapier integration is going from beta to production-grade! You can learn more in <a href=\"https:\/\/invoiced.com\/blog\/zapier-integration\" target=\"_blank\">this blog post<\/a>. Thank you to everyone that contributed feedback during the beta period!",
+    "body": "Today our Zapier integration is going from beta to production-grade! You can learn more in <a href=\"https:\/\/www.invoiced.com\/blog\/zapier-integration\" target=\"_blank\">this blog post<\/a>. Thank you to everyone that contributed feedback during the beta period!",
     "date": "2017-11-08"
   },
   {
@@ -381,12 +381,12 @@
   },
   {
     "name": "QuickBooks Online Refund Syncing",
-    "body": "The QuickBooks Online integration will now sync refunds! You can learn more in our recently updated <a href=\"https:\/\/invoiced.com\/docs\/accounting\/quickbooks-online\" target=\"_blank\">QuickBooks Online documentation<\/a>.",
+    "body": "The QuickBooks Online integration will now sync refunds! You can learn more in our recently updated <a href=\"https:\/\/www.invoiced.com\/docs\/accounting\/quickbooks-online\" target=\"_blank\">QuickBooks Online documentation<\/a>.",
     "date": "2017-09-26"
   },
   {
     "name": "Automatic Intacct Syncs",
-    "body": "We added a new setting to automate Intacct syncs. If you are using our Intacct integration then simply go to Settings &rarr; Accounting Sync and click Enable Auto-Sync (next to Intacct) to turn on automatic syncing. Set it and forget it while we will keep your books up to date!\n        \n    We have also written <a href=\"https:\/\/invoiced.com\/docs\/accounting\/intacct\" target=\"_blank\">new Intacct documentation<\/a> to explain the nuances of the connection process and accounting sync.",
+    "body": "We added a new setting to automate Intacct syncs. If you are using our Intacct integration then simply go to Settings &rarr; Accounting Sync and click Enable Auto-Sync (next to Intacct) to turn on automatic syncing. Set it and forget it while we will keep your books up to date!\n        \n    We have also written <a href=\"https:\/\/www.invoiced.com\/docs\/accounting\/intacct\" target=\"_blank\">new Intacct documentation<\/a> to explain the nuances of the connection process and accounting sync.",
     "date": "2017-09-20"
   },
   {
@@ -526,7 +526,7 @@
   },
   {
     "name": "ACH Payments on Sign Up Pages",
-    "body": "Sign up pages now support ACH payments! Read <a href=\"https:\/\/invoiced.com\/blog\/sign-up-page-ach\" target=\"_blank\">this blog post<\/a> to learn more. This release includes several other payment-related improvements as well.",
+    "body": "Sign up pages now support ACH payments! Read <a href=\"https:\/\/www.invoiced.com\/blog\/sign-up-page-ach\" target=\"_blank\">this blog post<\/a> to learn more. This release includes several other payment-related improvements as well.",
     "date": "2016-12-13"
   },
   {
@@ -561,12 +561,12 @@
   },
   {
     "name": "Custom SMTP",
-    "body": "You can now send customer emails through your own email server, from your business email address! Learn more in <a href=\"https:\/\/invoiced.com\/blog\/custom-smtp\" target=\"_blank\">this blog post<\/a>.",
+    "body": "You can now send customer emails through your own email server, from your business email address! Learn more in <a href=\"https:\/\/www.invoiced.com\/blog\/custom-smtp\" target=\"_blank\">this blog post<\/a>.",
     "date": "2016-10-20"
   },
   {
     "name": "Payment Plans",
-    "body": "With our new payment plans feature you can attach payment schedules to invoices that need to be collected across multiple payments. Invoiced will then help you track the customer's payment progress, and even collect installment payments for you as they become due!\n\nPlease read <a href=\"https:\/\/invoiced.com\/blog\/payment-plans\" target=\"_blank\">this blog post<\/a> to learn more about payment plans.",
+    "body": "With our new payment plans feature you can attach payment schedules to invoices that need to be collected across multiple payments. Invoiced will then help you track the customer's payment progress, and even collect installment payments for you as they become due!\n\nPlease read <a href=\"https:\/\/www.invoiced.com\/blog\/payment-plans\" target=\"_blank\">this blog post<\/a> to learn more about payment plans.",
     "date": "2016-10-17"
   },
   {
@@ -586,7 +586,7 @@
   },
   {
     "name": "Collection Mode -> AutoPay",
-    "body": "We've renamed our automatic collection mode feature to \"AutoPay\". AutoPay behaves exactly the same as its predecessor. We hope the new name helps more succinctly explain what AutoPay does. Also check out our new <a href=\"https:\/\/invoiced.com\/docs\/guides\/autopay\" target=\"_blank\">AutoPay Guide<\/a>.",
+    "body": "We've renamed our automatic collection mode feature to \"AutoPay\". AutoPay behaves exactly the same as its predecessor. We hope the new name helps more succinctly explain what AutoPay does. Also check out our new <a href=\"https:\/\/www.invoiced.com\/docs\/guides\/autopay\" target=\"_blank\">AutoPay Guide<\/a>.",
     "date": "2016-09-19"
   },
   {
@@ -606,7 +606,7 @@
   },
   {
     "name": "Sign Up Pages",
-    "body": "We are launching sign up pages to make it easier to onboard new customers into subscription billing. You can read more in our <a href=\"https:\/\/invoiced.com\/blog\/sign-up-pages\" target=\"_blank\">blog post<\/a>.",
+    "body": "We are launching sign up pages to make it easier to onboard new customers into subscription billing. You can read more in our <a href=\"https:\/\/www.invoiced.com\/blog\/sign-up-pages\" target=\"_blank\">blog post<\/a>.",
     "date": "2016-07-27"
   },
   {
@@ -626,12 +626,12 @@
   },
   {
     "name": "Custom Fields",
-    "body": "Invoiced now supports creating custom fields that can store and display arbitray business data on your customer accounts and invoices.\n\nYou can learn more in the <a href=\"https:\/\/invoiced.com\/docs\/guides\/custom-fields\" target=\"_blank\">Custom Fields Guide<\/a> or else head over to Settings &rarr; Custom Fields to try it out.",
+    "body": "Invoiced now supports creating custom fields that can store and display arbitray business data on your customer accounts and invoices.\n\nYou can learn more in the <a href=\"https:\/\/www.invoiced.com\/docs\/guides\/custom-fields\" target=\"_blank\">Custom Fields Guide<\/a> or else head over to Settings &rarr; Custom Fields to try it out.",
     "date": "2016-07-14"
   },
   {
     "name": "Xero Integration",
-    "body": "We are releasing our Xero integration in beta! Now you can easily sync customers, invoices, and payments with your books on Xero.\n\nYou can learn more in this <a href=\"https:\/\/invoiced.com\/blog\/xero-integration\" target=\"_blank\">blog post<\/a> or else head over to Settings &rarr; Accounting Sync to try it out.",
+    "body": "We are releasing our Xero integration in beta! Now you can easily sync customers, invoices, and payments with your books on Xero.\n\nYou can learn more in this <a href=\"https:\/\/www.invoiced.com\/blog\/xero-integration\" target=\"_blank\">blog post<\/a> or else head over to Settings &rarr; Accounting Sync to try it out.",
     "date": "2016-06-22"
   },
   {
@@ -641,7 +641,7 @@
   },
   {
     "name": "Zapier Integration",
-    "body": "Our Zapier integration is now in beta! Contact us if you want to use Invoiced on Zapier or learn more in <a href=\"https:\/\/invoiced.com\/blog\/zapier-beta\" target=\"_blank\">this blog post<\/a>.",
+    "body": "Our Zapier integration is now in beta! Contact us if you want to use Invoiced on Zapier or learn more in <a href=\"https:\/\/www.invoiced.com\/blog\/zapier-beta\" target=\"_blank\">this blog post<\/a>.",
     "date": "2016-06-08"
   },
   {
@@ -701,7 +701,7 @@
   },
   {
     "name": "Per Customer Pricing",
-    "body": "We are updating our pricing to per customer, instead of per invoice, and increased the limits for our current pricing tiers. You can learn more in this <a href=\"https:\/\/invoiced.com\/blog\/per-customer-pricing\/\" target=\"_blank\">blog post<\/a>.",
+    "body": "We are updating our pricing to per customer, instead of per invoice, and increased the limits for our current pricing tiers. You can learn more in this <a href=\"https:\/\/www.invoiced.com\/blog\/per-customer-pricing\/\" target=\"_blank\">blog post<\/a>.",
     "date": "2016-03-28"
   },
   {
@@ -711,7 +711,7 @@
   },
   {
     "name": "QuickBooks Online Integration",
-    "body": "We are pleased to ship our QuickBooks Online integration in beta! Now you can easily sync customers, invoices, and payments with your books.\n\nYou can learn more in this <a href=\"https:\/\/invoiced.com\/blog\/quickbooks-online-integration\" target=\"_blank\">blog post<\/a> or else head over to Settings &rarr; Accounting Sync to try it out.",
+    "body": "We are pleased to ship our QuickBooks Online integration in beta! Now you can easily sync customers, invoices, and payments with your books.\n\nYou can learn more in this <a href=\"https:\/\/www.invoiced.com\/blog\/quickbooks-online-integration\" target=\"_blank\">blog post<\/a> or else head over to Settings &rarr; Accounting Sync to try it out.",
     "date": "2016-03-15"
   },
   {
@@ -731,7 +731,7 @@
   },
   {
     "name": "Billing Portal Update",
-    "body": "Your billing portal has a new look! We have redesigned the My Account page that customers see after signing into your billing portal.\n\n<img src=\"https:\/\/invoiced.com\/docs\/img\/billing-portal-my-account.png\" class=\"img-responsive\" \/>\n\nOn the My Account page your customers can update their billing details, manage payment info, see outstanding (and past) invoices, download past receipts, and manage active subscriptions.\n\nPreviously this functionality was split across multiple pages. The result is a much more streamlined experience for your customer. The <a href=\"https:\/\/invoiced.com\/docs\/guides\/billing-portal\" target=\"_blank\">billing portal guide<\/a> has more detail on this feature.\n\nWe are also adding the ability for you to generate billing portal sign in links for customers from the dashboard. A sign in link lets a customer jump directly into the billing portal without going through the process of verifying their email address. Of course, you should be careful who you hand these out to. This feature might be useful for customers having trouble signing in, or else to preview what a customer will see once signed in.\n\nYou can generate sign in links by opening a customer profile in the dashboard and clicking Actions &rarr; Generate Sign In Link.",
+    "body": "Your billing portal has a new look! We have redesigned the My Account page that customers see after signing into your billing portal.\n\n<img src=\"https:\/\/www.invoiced.com\/docs\/img\/billing-portal-my-account.png\" class=\"img-responsive\" \/>\n\nOn the My Account page your customers can update their billing details, manage payment info, see outstanding (and past) invoices, download past receipts, and manage active subscriptions.\n\nPreviously this functionality was split across multiple pages. The result is a much more streamlined experience for your customer. The <a href=\"https:\/\/www.invoiced.com\/docs\/guides\/billing-portal\" target=\"_blank\">billing portal guide<\/a> has more detail on this feature.\n\nWe are also adding the ability for you to generate billing portal sign in links for customers from the dashboard. A sign in link lets a customer jump directly into the billing portal without going through the process of verifying their email address. Of course, you should be careful who you hand these out to. This feature might be useful for customers having trouble signing in, or else to preview what a customer will see once signed in.\n\nYou can generate sign in links by opening a customer profile in the dashboard and clicking Actions &rarr; Generate Sign In Link.",
     "date": "2016-02-15"
   },
   {
@@ -746,17 +746,17 @@
   },
   {
     "name": "Better Subscription Onboarding",
-    "body": "Creating subscriptions and onboarding customers has just gotten much easier. In addition to improving the interface for adding subscriptions, we are also releasing a new subscription onboarding flow for your customers on automatic collections.\n\nWe now let you send an onboarding request when subscribing a customer that has automatic collections enabled without a connected payment source. The request will ask your customer to subscribe by securely connecting a payment source, like a credit card or bank account.\n\nOur <a href=\"https:\/\/invoiced.com\/docs\/guides\/subscription-billing#creating-a-subscription\" target=\"_blank\">subscription billing guide<\/a> documents how this works in more detail.",
+    "body": "Creating subscriptions and onboarding customers has just gotten much easier. In addition to improving the interface for adding subscriptions, we are also releasing a new subscription onboarding flow for your customers on automatic collections.\n\nWe now let you send an onboarding request when subscribing a customer that has automatic collections enabled without a connected payment source. The request will ask your customer to subscribe by securely connecting a payment source, like a credit card or bank account.\n\nOur <a href=\"https:\/\/www.invoiced.com\/docs\/guides\/subscription-billing#creating-a-subscription\" target=\"_blank\">subscription billing guide<\/a> documents how this works in more detail.",
     "date": "2016-02-02"
   },
   {
     "name": "ACH Payments",
-    "body": "We are launching ACH payments in beta! You can learn more in this <a href=\"https:\/\/invoiced.com\/blog\/ach-payments\" target=\"_blank\">blog post<\/a>.",
+    "body": "We are launching ACH payments in beta! You can learn more in this <a href=\"https:\/\/www.invoiced.com\/blog\/ach-payments\" target=\"_blank\">blog post<\/a>.",
     "date": "2016-01-25"
   },
   {
     "name": "Webhooks",
-    "body": "We are releasing an exciting new feature in beta today that developers are sure to love: webhooks!\n\nWhat\u2019s a webhook? A webhook is a callback that notifies your backoffice systems whenever important events happen within Invoiced, like an invoice being paid or a subscription becoming past due. There are many potential uses for webhooks like recording an entry in the books after receiving a payment or updating your membership system when a subscription renews. You can learn more in our new <a href=\"https:\/\/invoiced.com\/docs\/dev\/webhooks\" target=\"_blank\">Webhooks Guide<\/a>.\n\nHave a wonderful holiday season!",
+    "body": "We are releasing an exciting new feature in beta today that developers are sure to love: webhooks!\n\nWhat\u2019s a webhook? A webhook is a callback that notifies your backoffice systems whenever important events happen within Invoiced, like an invoice being paid or a subscription becoming past due. There are many potential uses for webhooks like recording an entry in the books after receiving a payment or updating your membership system when a subscription renews. You can learn more in our new <a href=\"https:\/\/www.invoiced.com\/docs\/dev\/webhooks\" target=\"_blank\">Webhooks Guide<\/a>.\n\nHave a wonderful holiday season!",
     "date": "2015-12-30"
   },
   {
@@ -776,7 +776,7 @@
   },
   {
     "name": "Improved Pricing",
-    "body": "Today we are updating our pricing to make Invoiced more affordable. You can read the full story in this <a href='https:\/\/invoiced.com\/blog\/improved-pricing-fall-2015' target='_blank'>blog post<\/a>. The summary is that our current plans got a bump in invoices, the Growth plan now supports unlimited users, and additional invoices cost 50 cents for any overages in a calendar month.",
+    "body": "Today we are updating our pricing to make Invoiced more affordable. You can read the full story in this <a href='https:\/\/www.invoiced.com\/blog\/improved-pricing-fall-2015' target='_blank'>blog post<\/a>. The summary is that our current plans got a bump in invoices, the Growth plan now supports unlimited users, and additional invoices cost 50 cents for any overages in a calendar month.",
     "date": "2015-10-14"
   },
   {
@@ -816,7 +816,7 @@
   },
   {
     "name": "Invoice Attachments",
-    "body": "We now support attaching files to invoices (and estimates). There's a new button to attach files when drafting invoices at the bottom of the page. We will display links to download attachments alongside your invoice in the client view. You can read more on our <a href='https:\/\/invoiced.com\/blog\/invoice-attachments' target='_blank'>attachments blog post<\/a>.",
+    "body": "We now support attaching files to invoices (and estimates). There's a new button to attach files when drafting invoices at the bottom of the page. We will display links to download attachments alongside your invoice in the client view. You can read more on our <a href='https:\/\/www.invoiced.com\/blog\/invoice-attachments' target='_blank'>attachments blog post<\/a>.",
     "date": "2015-08-12"
   },
   {
@@ -841,7 +841,7 @@
   },
   {
     "name": "Billing Engine v2",
-    "body": "Today we're launching some exciting improvements to the underlying billing engine on Invoiced! These improvements shouldn't impact your current workflow, but instead open up some new billing possibilities for your business. Here is what's new:\n\n- Automatic collection mode on customers allows invoices to be automatically charged when your customer has a payment source attached (credit card only for now). This new feature is being made available to everyone.\n\n- Your customer's payment source can be managed through the dashboard or in the billing portal via the Billing Profile page\n\n- Default payment terms can be set for a customer in manual collection mode\n\n- Recurring billing is now quicker and easier to set up\n\n- New email templates for subscription confirmation and cancellations are available\n\n- Logos have been optimized for retina screens. Just upload a higher resolution version (at least 400 pixels) in <a href='\/settings\/business'>Settings<\/a> to take advantage of this.\n\nYou can read more about <a href=' https:\/\/invoiced.com\/blog\/billing-engine-v2'>these updates on our blog<\/a>.",
+    "body": "Today we're launching some exciting improvements to the underlying billing engine on Invoiced! These improvements shouldn't impact your current workflow, but instead open up some new billing possibilities for your business. Here is what's new:\n\n- Automatic collection mode on customers allows invoices to be automatically charged when your customer has a payment source attached (credit card only for now). This new feature is being made available to everyone.\n\n- Your customer's payment source can be managed through the dashboard or in the billing portal via the Billing Profile page\n\n- Default payment terms can be set for a customer in manual collection mode\n\n- Recurring billing is now quicker and easier to set up\n\n- New email templates for subscription confirmation and cancellations are available\n\n- Logos have been optimized for retina screens. Just upload a higher resolution version (at least 400 pixels) in <a href='\/settings\/business'>Settings<\/a> to take advantage of this.\n\nYou can read more about <a href=' https:\/\/www.invoiced.com\/blog\/billing-engine-v2'>these updates on our blog<\/a>.",
     "date": "2015-07-07"
   },
   {
@@ -891,7 +891,7 @@
   },
   {
     "name": "Recurring Billing",
-    "body": "Last week we released a major update to recurring billing for the Startup and Growth plans. This means it's now possible to automatically charge client credit cards each billing cycle for subscriptions. You can read more about it on <a href='https:\/\/invoiced.com\/blog\/recurring-billing' target='_blank'>this blog post<\/a>.\n\nAlongside this update we are releasing some new UI improvements to subscriptions. Subscriptions now have a dedicated details page, complete with history. Any time you click on a subscription you will be taken here instead of the plan page. Subscriptions also now show up in the search results.\n\nWe're still looking to improve recurring billing and make it easier to use. Any feedback is greatly appreciated.",
+    "body": "Last week we released a major update to recurring billing for the Startup and Growth plans. This means it's now possible to automatically charge client credit cards each billing cycle for subscriptions. You can read more about it on <a href='https:\/\/www.invoiced.com\/blog\/recurring-billing' target='_blank'>this blog post<\/a>.\n\nAlongside this update we are releasing some new UI improvements to subscriptions. Subscriptions now have a dedicated details page, complete with history. Any time you click on a subscription you will be taken here instead of the plan page. Subscriptions also now show up in the search results.\n\nWe're still looking to improve recurring billing and make it easier to use. Any feedback is greatly appreciated.",
     "date": "2015-04-13"
   },
   {
@@ -921,7 +921,7 @@
   },
   {
     "name": "Gmail Actions for Estimate and Invoice Emails",
-    "body": "We are always looking for better ways to get estimates and invoices into your client\u2019s hands. Now your clients will see a quick action from within Gmail to quickly open up an estimate or invoice. We hope this helps keep your client from missing out on important billing communications.\n\n<img src='https:\/\/invoiced.com\/blog\/img\/gmail-schema-actions.png' class='img-responsive' alt='Gmail schema actions'\/>",
+    "body": "We are always looking for better ways to get estimates and invoices into your client\u2019s hands. Now your clients will see a quick action from within Gmail to quickly open up an estimate or invoice. We hope this helps keep your client from missing out on important billing communications.\n\n<img src='https:\/\/www.invoiced.com\/blog\/img\/gmail-schema-actions.png' class='img-responsive' alt='Gmail schema actions'\/>",
     "date": "2015-03-04"
   },
   {
@@ -1001,7 +1001,7 @@
   },
   {
     "name": "Invoiced API in Beta",
-    "body": "Today we are kicking off the <a href=\"https:\/\/invoiced.com\/docs\/api\/\" target=\"_blank\">Invoiced Developer Program<\/a>! Our REST API is now in beta. Check it out to start building your own custom integrations or Invoiced-powered apps.",
+    "body": "Today we are kicking off the <a href=\"https:\/\/www.invoiced.com\/docs\/api\/\" target=\"_blank\">Invoiced Developer Program<\/a>! Our REST API is now in beta. Check it out to start building your own custom integrations or Invoiced-powered apps.",
     "date": "2014-12-04"
   }
 ]
