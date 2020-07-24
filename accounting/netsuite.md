@@ -78,8 +78,6 @@ You will need to pick a user that will that the access token will be based on an
 
 1. On Invoiced, go to **Settings** &rarr; **Integrations** in the Invoiced dashboard.
 
-   [![Integration Settings](/docs/img/integration-settings.png)](/docs/img/integration-settings.png)
-
 2. Click on **Connect** on the NetSuite integration.
 
    [![Connect NetSuite](/docs/img/connect-netsuite.png)](/docs/img/connect-netsuite.png)

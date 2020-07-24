@@ -70,8 +70,6 @@ The next step is to set up a web services user for Invoiced on Intacct. It is re
 
 1. Go to **Settings** &rarr; **Integrations** in the Invoiced dashboard.
 
-   [![Integration Settings](/docs/img/integration-settings.png)](/docs/img/integration-settings.png)
-
 2. Click on **Connect** on the Intacct integration.
 
    [![Connect Intacct](/docs/img/connect-intacct.png)](/docs/img/connect-intacct.png)
