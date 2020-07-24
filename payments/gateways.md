@@ -1,10 +1,9 @@
 # Payment Gateways
 
-Invoiced supports the most popular payment gateways out of the box.
-
-We support these payment gateways: (click any gateway for documentation)
+Invoiced supports the most popular payment gateways out of the box. Gateways that we support include:
 
 - [AffiniPay](/resources/docs/integrations/affinipay)
+- [American Express](/resources/docs/integrations/amex)
 - [Authorize.Net](/resources/docs/integrations/authorizenet)
 - [BluePay](/resources/docs/integrations/bluepay)
 - [Braintree](/resources/docs/integrations/braintree)
@@ -21,11 +20,7 @@ We support these payment gateways: (click any gateway for documentation)
 
 ## Need a payment processor?
 
-We can help you get connected with one of our supported payment processors. Our [payment gateway selector](https://www.invoiced.com/gateways) can help you find a payment gateway based on your country.
-
-## Questions?
-
-If you do not know which payment gateway to use then please contact your payment processor for help. If you do not see your gateway listed then please contact us at [support@invoiced.com](mailto:support@invoiced.com) to discuss getting it added.
+In addition to supporting a variety of payment gateways, Invoiced offers its own payment processing service called Invoiced Payments. With quick onboarding and setup, you can easily start accepting credit card and ACH payments on Invoiced. You can [learn more about Invoiced Payments here](https://www.invoiced.com/payments).
 
 ## Switching payment gateways
 

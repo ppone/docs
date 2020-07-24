@@ -376,6 +376,10 @@
           "name": "AffiniPay"
         },
         {
+          "id": "amex",
+          "name": "American Express"
+        },
+        {
           "id": "avalara",
           "name": "Avalara"
         },
