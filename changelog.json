@@ -1,5 +1,15 @@
 [
   {
+    "name": "Line Item Custom Fields",
+    "body": "Line item custom fields that are marked as customer visible will now appear on PDFs and in the customer portal. This works with invoices, estimates, and credit notes.",
+    "date": "2020-07-24"
+  },
+  {
+    "name": "Installment Aging",
+    "body": "A new report titled \"Installment Aging\" will allow you to see the aging of your installments. Similar to the A/R Aging report you will see aging based on installment dates and balances.",
+    "date": "2020-07-23"
+  },
+  {
     "name": "Standalone Credit Notes",
     "body": "It is now possible to create credit notes without an invoice. This can be done from the Credit Notes page, the spreadsheet import tool, or in the API. You now have more control over how a credit note is applied, such as applying a credit note to more than one invoice.",
     "date": "2020-06-05"
