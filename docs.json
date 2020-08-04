@@ -400,6 +400,11 @@
           "name": "Cardknox"
         },
         {
+          "id": "chartmogul",
+          "name": "ChartMogul",
+          "hidden": true
+        },
+        {
           "id": "cybersource",
           "name": "CyberSource"
         },
