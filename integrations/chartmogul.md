@@ -7,6 +7,7 @@ Add subscription analytics to Invoiced with the ChartMogul integration. ChartMog
 The ChartMogul integration will sync your billing data with ChartMogul on an ongoing basis. The integration syncs the following data:
 * Customers
 * Customer metadata
+* Plans
 * Invoices (recurring and one-off)
 * Credit notes
 * Payments
@@ -31,3 +32,7 @@ After the initial sync, the integration will send data to ChartMogul about once 
 * The integration does not sync refunds or failed payments.
 
 * Only invoices paid in full will be marked as paid on ChartMogul. Partial payments are not supported by ChartMogul.
+
+* Updates to invoices are not synced to ChartMogul. If you need to modify an invoice and wish to see it reflected in ChartMogul then you must delete it on ChartMogul first, or perform the edit on ChartMogul also.
+
+* If you wish to change the billing interval of an existing plan then you must create a new plan with a new ID. Otherwise, the plan will continue to exist on ChartMogul with the old billing interval.
