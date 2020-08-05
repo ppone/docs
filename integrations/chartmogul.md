@@ -2,6 +2,8 @@
 
 Add subscription analytics to Invoiced with the ChartMogul integration. ChartMogul is the world's first subscription data platform that provides valuable insights into your billing data.
 
+[![Invoiced-ChartMogul Integration](/docs/img/chartmogul.png)](/docs/img/chartmogul.png)
+
 ## How It Works
 
 The ChartMogul integration will sync your billing data with ChartMogul on an ongoing basis. The integration syncs the following data:
