@@ -401,8 +401,7 @@
         },
         {
           "id": "chartmogul",
-          "name": "ChartMogul",
-          "hidden": true
+          "name": "ChartMogul"
         },
         {
           "id": "cybersource",
