@@ -1,5 +1,10 @@
 [
   {
+    "name": "ChartMogul Integration",
+    "body": "A new ChartMogul integration is available on Invoiced to provide subscription analytics and revenue recognition capabilities. It is intended for use with the Invoiced subscription billing system and will sync all of your billing data with ChartMogul.\n\nYou can read the <a href='https://www.invoiced.com/resources/docs/integrations/chartmogul' target='_blank'>ChartMogul integration documentation</a> to learn more about the integration.",
+    "date": "2020-08-05"
+  },
+  {
     "name": "Line Item Custom Fields",
     "body": "Line item custom fields that are marked as customer visible will now appear on PDFs and in the customer portal. This works with invoices, estimates, and credit notes.",
     "date": "2020-07-24"
