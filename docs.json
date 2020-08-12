@@ -373,11 +373,13 @@
       "docs": [
         {
           "id": "affinipay",
-          "name": "AffiniPay"
+          "name": "AffiniPay",
+          "hidden": true
         },
         {
           "id": "amex",
-          "name": "American Express"
+          "name": "American Express",
+          "hidden": true
         },
         {
           "id": "avalara",
@@ -385,19 +387,23 @@
         },
         {
           "id": "authorizenet",
-          "name": "Authorize.Net"
+          "name": "Authorize.Net",
+          "hidden": true
         },
         {
           "id": "bluepay",
-          "name": "BluePay"
+          "name": "BluePay",
+          "hidden": true
         },
         {
           "id": "braintree",
-          "name": "Braintree"
+          "name": "Braintree",
+          "hidden": true
         },
         {
           "id": "cardknox",
-          "name": "Cardknox"
+          "name": "Cardknox",
+          "hidden": true
         },
         {
           "id": "chartmogul",
@@ -405,15 +411,18 @@
         },
         {
           "id": "cybersource",
-          "name": "CyberSource"
+          "name": "CyberSource",
+          "hidden": true
         },
         {
           "id": "gocardless",
-          "name": "GoCardless"
+          "name": "GoCardless",
+          "hidden": true
         },
         {
           "id": "intuit-payments",
-          "name": "Intuit Payments"
+          "name": "Intuit Payments",
+          "hidden": true
         },
         {
           "id": "lob",
@@ -421,15 +430,18 @@
         },
         {
           "id": "moneris",
-          "name": "Moneris"
+          "name": "Moneris",
+          "hidden": true
         },
         {
           "id": "nmi",
-          "name": "NMI"
+          "name": "NMI",
+          "hidden": true
         },
         {
           "id": "paypal-payflow-pro",
-          "name": "PayPal Payflow Pro"
+          "name": "PayPal Payflow Pro",
+          "hidden": true
         },
         {
           "id": "salesforce",
@@ -445,7 +457,8 @@
         },
         {
           "id": "stripe",
-          "name": "Stripe"
+          "name": "Stripe",
+          "hidden": true
         },
         {
           "id": "twilio",
@@ -453,11 +466,13 @@
         },
         {
           "id": "usaepay",
-          "name": "USAePay"
+          "name": "USAePay",
+          "hidden": true
         },
         {
           "id": "worldpay",
-          "name": "Worldpay"
+          "name": "Worldpay",
+          "hidden": true
         },
         {
           "id": "zapier",
