@@ -7,7 +7,7 @@ Invoiced integrates with QuickBooks Desktop out of the box to extend the billing
 The QuickBooks Desktop integration ships with the following capabilities:
 
 - Importing outstanding invoices from QuickBooks Desktop
-- Importing customers from QuickBooks Desktop (when billed)
+- Importing customers from QuickBooks Desktop
 - Reconciling payments received on Invoiced to QuickBooks Desktop
 - Syncing payments recorded on QuickBooks Desktop to Invoiced
 
@@ -90,6 +90,8 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 - Only payments processed through Invoiced are sent to QuickBooks. Offline payments recorded on Invoiced are not synced to QuickBooks. Any payments applied to invoices on QuickBooks are synced to Invoiced.
 
 - Refunds are not currently synced. Any refunds initiated through Invoiced must be reconciled by hand.
+
+- If you are using jobs, the default behavior is that transactions will roll up to the top-level customer on Invoiced. If you wish to have separate customers for each job then please contact Invoiced Support to enable that functionality for your account.
 
 ## Troubleshooting
 

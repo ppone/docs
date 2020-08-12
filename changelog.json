@@ -1,5 +1,10 @@
 [
   {
+    "name": "QuickBooks Desktop Integration Update",
+    "body": "Another major QuickBooks Desktop integration update has been released. This update adds full customer list syncing, contact syncing, better support for jobs, and sharing more payment details between Invoiced and QuickBooks (such as payment method and payment gateway).",
+    "date": "2020-08-12"
+  },
+  {
     "name": "ChartMogul Integration",
     "body": "A new ChartMogul integration is available on Invoiced to provide subscription analytics and revenue recognition capabilities. It is intended for use with the Invoiced subscription billing system and will sync all of your billing data with ChartMogul.\n\nYou can read the <a href='https://www.invoiced.com/resources/docs/integrations/chartmogul' target='_blank'>ChartMogul integration documentation</a> to learn more about the integration.",
     "date": "2020-08-05"
