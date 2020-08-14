@@ -184,7 +184,7 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 - Partial refunds are not supported by the integration and must be reconciled manually.
 
-- A/R adjustments posted to Intacct and applied to an invoice will not be picked up by our integration and will require a manual reconciliation on Invoiced using a credit note.
+- A/R Adjustments applied to an invoice will not be picked up by our integration in real-time due to technical limitations. Applications of A/R Adjustments are synced once per day.
 
 ## Troubleshooting
 

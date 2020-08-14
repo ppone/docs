@@ -1,5 +1,10 @@
 [
   {
+    "name": "Intacct A/R Adjustments",
+    "body": "We now support reading A/R Adjustments from Intacct as credit notes. A new Smart Event is available to read A/R Adjustments in real-time. You can enable this in the Intacct integration settings and then generate a new customization package. Also, a new credit note import tool has been added for bringing in existing credit notes.",
+    "date": "2020-08-14"
+  },
+  {
     "name": "QuickBooks Desktop Integration Update",
     "body": "Another major QuickBooks Desktop integration update has been released. This update adds full customer list syncing, contact syncing, better support for jobs, and sharing more payment details between Invoiced and QuickBooks (such as payment method and payment gateway).",
     "date": "2020-08-12"
