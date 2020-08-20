@@ -4,7 +4,6 @@ Welcome to invoicing on Invoiced. We're going to walk you through using Invoiced
 
 If you look at the left sidebar, you will see a table of contents to our product documentation. The product documentation is broken down into sub-topics:
 
-- **Start Here**: Walk through sending your first invoice and getting data into Invoiced
 - **Guides**: Step-by-step guides on different key features in Invoiced
 - **Billing**: Bill customers using metered or subscription billing models
 - **Payments**: See how to accept and manage customer payments
