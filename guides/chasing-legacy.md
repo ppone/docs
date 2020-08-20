@@ -1,4 +1,4 @@
-# Chasing Guide
+# Chasing (legacy)
 
 <p class="alert alert-warning">This document is for our legacy chasing system. If you are using the legacy system and want to move to the new chasing system then please contact support@invoiced.com.</p>
 

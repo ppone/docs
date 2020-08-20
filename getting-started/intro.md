@@ -6,9 +6,10 @@ If you look at the left sidebar, you will see a table of contents to our product
 
 - **Start Here**: Walk through sending your first invoice and getting data into Invoiced
 - **Guides**: Step-by-step guides on different key features in Invoiced
+- **Billing**: Bill customers using metered or subscription billing models
 - **Payments**: See how to accept and manage customer payments
-- **Accounting Sync**: Working with an accounting software, we've got you covered
-- **Integrations**: Learn about the external systems we work with
+- **Accounting Sync**: Seamlessly sync data between your accounting system and Invoiced
+- **Integrations**: Learn about the other systems Invoiced integrates with
 - **Developing**: All the information you need to build on top of Invoiced
 
 ## Registering for Invoiced
@@ -35,3 +36,12 @@ Your browser must be configured with:
 * Cookies enabled
 * Local storage enabled
 * TLS v1.2 or above
+
+## What's Next?
+
+Depending on how you intend to use Invoiced, here are a few great places to start:
+- [Sync data from your accounting system](/resources/docs/accounting)
+- [Import data from a spreadsheet](/resources/docs/guides/importing-data)
+- [Issue new invoices](/resources/docs/billing/invoices)
+- [Set up subscription billing](/resources/docs/billing/subscription-billing)
+- [Enable payment processing](/resources/docs/payments)

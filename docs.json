@@ -7,13 +7,49 @@
         {
           "id": "intro",
           "name": "Welcome!"
+        }
+      ]
+    },
+    {
+      "id": "guides",
+      "name": "Guides",
+      "docs": [
+        {
+          "id": "account-statements",
+          "name": "Account Statements",
+          "table_of_contents": [
+            {
+              "id":"balance-forward",
+              "name":"Balance Forward"
+            },
+            {
+              "id":"open-item",
+              "name":"Open Item"
+            }
+          ]
         },
         {
-          "id": "invoices",
-          "name": "Create an Invoice"
+          "id": "custom-fields",
+          "name": "Custom Fields"
         },
         {
-          "id": "importing",
+          "id": "billing-portal",
+          "name": "Customer Portal"
+        },
+        {
+          "id": "customers",
+          "name": "Customers"
+        },
+        {
+          "id": "emails",
+          "name": "Emails"
+        },
+        {
+          "id": "estimates",
+          "name": "Estimates"
+        },
+        {
+          "id": "importing-data",
           "name": "Importing Data",
           "table_of_contents": [
             {
@@ -45,58 +81,6 @@
               "name": "Tax Rates"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "guides",
-      "name": "Guides",
-      "docs": [
-        {
-          "id": "account-statements",
-          "name": "Account Statements",
-          "table_of_contents": [
-            {
-              "id":"balance-forward",
-              "name":"Balance Forward"
-            },
-            {
-              "id":"open-item",
-              "name":"Open Item"
-            }
-          ]
-        },
-        {
-          "id": "coupons",
-          "name": "Coupons"
-        },
-        {
-          "id": "credit-holds",
-          "name": "Credit Holds"
-        },
-        {
-          "id": "credit-notes",
-          "name": "Credit Notes"
-        },
-        {
-          "id": "custom-fields",
-          "name": "Custom Fields"
-        },
-        {
-          "id": "billing-portal",
-          "name": "Customer Portal"
-        },
-        {
-          "id": "customers",
-          "name": "Customers"
-        },
-        {
-          "id": "emails",
-          "name": "Emails"
-        },
-        {
-          "id": "estimates",
-          "name": "Estimates"
         },
         {
           "id": "payment-incentives",
@@ -115,14 +99,6 @@
         {
           "id": "reports",
           "name": "Reports"
-        },
-        {
-          "id": "taxes",
-          "name": "Sales Tax"
-        },
-        {
-          "id": "sign-up-pages",
-          "name": "Sign Up Pages"
         },
         {
           "id": "chasing-legacy",
@@ -152,16 +128,6 @@
           ]
         },
         {
-          "id": "subscription-billing",
-          "name": "Subscription Billing",
-          "table_of_contents": [
-            {
-              "id":"contract-billing",
-              "name":"Contract Billing"
-            }
-          ]
-        },
-        {
           "id": "user-permissions",
           "name": "User Permissions",
           "table_of_contents": [
@@ -176,6 +142,46 @@
             {
               "id":"customer-restrictions",
               "name":"Customer Restrictions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "billing",
+      "name": "Billing",
+      "docs": [
+        {
+          "id": "coupons",
+          "name": "Coupons"
+        },
+        {
+          "id": "credit-holds",
+          "name": "Credit Holds"
+        },
+        {
+          "id": "credit-notes",
+          "name": "Credit Notes"
+        },
+        {
+          "id": "invoices",
+          "name": "Invoices"
+        },
+        {
+          "id": "taxes",
+          "name": "Sales Tax"
+        },
+        {
+          "id": "sign-up-pages",
+          "name": "Sign Up Pages"
+        },
+        {
+          "id": "subscription-billing",
+          "name": "Subscription Billing",
+          "table_of_contents": [
+            {
+              "id":"contract-billing",
+              "name":"Contract Billing"
             }
           ]
         }

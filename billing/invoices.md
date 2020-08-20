@@ -1,6 +1,6 @@
-# Creating Your First Invoice
+# Invoices
 
-Creating an invoice is a fairly simple process. After all, it's the main thing that Invoiced was designed to do. Once you are logged into Invoiced you can click **Invoices** &rarr; **New Invoice**.
+Invoiced supports issuing new invoices directly through Invoiced, instead of through your accounting system or a customer's subscription. Creating an invoice is a fairly simple process. Once you are logged into Invoiced you can click **Invoices** &rarr; **New Invoice**.
 
 Now you are inside of the invoice editor. The most important aspect of creating an invoice is to select the customer you wish to send the invoice to. Let's select the customer that we are invoicing. Click the dropdown where it says Find or create client and start typing your customer's name. If you have not created any customers, the customer will not exist yet, so you will need to click Add My First Customer as a new client. A new dialog will appear where you can enter your customer's information. You can refer to the Customers documentation to find the step by step setup of the customer contact information. 
 
@@ -61,7 +61,7 @@ Once your customer pays online, the payment will be recorded automatically in th
 
 What's next? 
 
-This tutorial has shown you what a simple invoicing workflow looks like with Invoiced. We recommend checking out our other guides to learn how to solve more complex billing workflows and set up automation for tedious billing tasks. There are guides for [subscription billing](/resources/docs/guides/subscription-billing), [chasing](/resources/docs/guides/chasing), [payments](/resources/docs/payments), and more.
+This tutorial has shown you what a simple invoicing workflow looks like with Invoiced. We recommend checking out our other guides to learn how to solve more complex billing workflows and set up automation for tedious billing tasks. There are guides for [subscription billing](/resources/docs/billing/subscription-billing), [chasing](/resources/docs/guides/chasing), [payments](/resources/docs/payments), and more.
 
 
 

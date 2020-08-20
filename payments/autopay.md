@@ -16,7 +16,7 @@ AutoPay allows you to securely collect and charge payment info for customers. In
 
 There are multiple ways to securely add payment information to a customer's account.
 
-1. [Sign Up Pages](/resources/docs/guides/sign-up-pages)
+1. [Sign Up Pages](/resources/docs/billing/sign-up-pages)
 
    New customers that sign up for a subscription through sign up pages will have AutoPay enabled and a stored payment method.
 

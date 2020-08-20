@@ -1,4 +1,4 @@
-# Subscription Billing Guide
+# Subscription Billing
 
 Subscriptions allow businesses to automate the billing for customers on a recurring basis. With subscription billing on Invoiced, you can charge customers automatically each billing cycle, or issue an invoice that can be paid with payment methods accepted on the account.
 
