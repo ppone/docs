@@ -415,6 +415,10 @@
           "hidden": true
         },
         {
+          "id": "earth-class-mail",
+          "name": "Earth Class Mail"
+        },
+        {
           "id": "gocardless",
           "name": "GoCardless",
           "hidden": true
