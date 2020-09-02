@@ -2,7 +2,7 @@
 
 The Invoiced for Salesforce app adds accounts receivable automation capabilities to Salesforce. Installing the native Salesforce app allows you to sync Invoiced billing data with Salesforce.
 
-[![Invoiced Salesforce Integration](docs/blob/master/img/salesforce-integration.png)](docs/blob/master/img/salesforce-integration.png)
+[![Invoiced Salesforce Integration](docs/blob/master/img/salesforce-integration.png)]
 
 ## Capabilities
 
