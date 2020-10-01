@@ -34,6 +34,6 @@ Now go to the Invoiced application:
 
 ## Usage
 
-Once SSO is properly configured, users can click the **Login with SSO** button on the login screen or [go here](https://dashboard.invoiced.com/login/sso). The user will be required to enter in their email address. Assuming there is a match the user will then be signed in through their identity provider.
+Once SSO is properly configured, users can click the **Login with SSO** button on the login screen or [go here](https://app.invoiced.com/login/sso). The user will be required to enter in their email address. Assuming there is a match the user will then be signed in through their identity provider.
 
 [![SSO Login Screen](/docs/img/login-with-sso.png)](/docs/img/login-with-sso.png)
