@@ -26,9 +26,9 @@ Connecting NMI is a straightforward process. Follow these steps to start accepti
 
 2. Click **Setup** on the payment method you want to accept.
 
-3. Select **NMI** as the payment gateway.
+3. Click **Connect Payment Gateway**.
 
-4. Click **Connect to NMI**.
+4. Select **NMI** as the payment gateway.
 
 5. Enter in your NMI **Username** / **Password** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
 

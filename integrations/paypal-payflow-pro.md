@@ -26,9 +26,9 @@ Connecting PayPal Payflow Pro is a straightforward process. Follow these steps t
 
 2. Click **Setup** on the payment method you want to accept.
 
-3. Select **PayPal Payflow Pro** as the payment gateway.
+3. Click **Connect Payment Gateway**.
 
-4. Click **Connect to PayPal Payflow Pro**.
+4. Select **PayPal Payflow Pro** as the payment gateway.
 
 5. Enter in your PayPal Payflow Pro **Partner**, **Merchant Login**, **User**, and **Password** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
 

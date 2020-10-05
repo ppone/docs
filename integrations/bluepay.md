@@ -26,9 +26,9 @@ Connecting BluePay is a straightforward process. Follow these steps to start acc
 
 2. Click **Setup** on the payment method you want to accept.
 
-3. Select **BluePay** as the payment gateway.
+3. Click **Connect Payment Gateway**.
 
-4. Click **Connect to BluePay**.
+4. Select **BluePay** as the payment gateway.
 
 5. Enter in your BluePay **Account ID** and **API Secret** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
 

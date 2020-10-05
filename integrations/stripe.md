@@ -26,13 +26,15 @@ Connecting Stripe is a straightforward process. Follow these steps to start acce
 
 2. Click **Setup** on the payment method you want to accept.
 
-3. Select **Stripe** as the payment gateway.
+3. Click **Connect Payment Gateway**.
 
-4. Click **Connect With Stripe**. You will be taken to Stripe's website where you can sign into your Stripe account and grant Invoiced access.
+4. Select **Stripe** as the payment gateway.
 
-5. After you've connected your Stripe account then the payment method you selected should be enabled.
+5. Click **Connect With Stripe**. You will be taken to Stripe's website where you can sign into your Stripe account and grant Invoiced access.
 
-6. If you are accepting ACH payments then you also need to accept the [Stripe ACH Terms of Service](https://stripe.com/docs/ach).
+6. After you've connected your Stripe account then the payment method you selected should be enabled.
+
+7. If you are accepting ACH payments then you also need to accept the [Stripe ACH Terms of Service](https://stripe.com/docs/ach).
 
    *Please make sure you are first signed into your Stripe account in order to accept the ToS.*
 

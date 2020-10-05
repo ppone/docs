@@ -25,9 +25,9 @@ Connecting Braintree is a straightforward process. Follow these steps to start a
 
 2. Click **Setup** on the *Credit Card* payment method.
 
-3. Select **Braintree** as the payment gateway.
+3. Click **Connect Payment Gateway**.
 
-4. Click **Connect to Braintree**.
+4. Select **Braintree** as the payment gateway.
 
 5. Enter in your Braintree **Merchant ID**, **Merchant Account ID**, **Public Key**, and **Private Key** and click **Save**. Then click **Enable** and the credit card payments should be enabled.
 

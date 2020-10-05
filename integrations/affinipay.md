@@ -32,17 +32,19 @@ Connecting AffiniPay is a straightforward process. Follow these steps to start a
 
 1. From the Invoiced dashboard go to **Settings** &rarr; **Payments**.
 
-2. Click **Setup** on the payment method you want to accept.
+2. Click **Setup** on the payment method you want to accept
 
-3. Select **AffiniPay**, **CPACharge**, or **LawPay** as the payment gateway. We will select LawPay in this example.
+3. Click **Connect Payment Gateway**.
 
-4. Click **Connect to LawPay**. You will be taken to a screen to sign into your LawPay account, if you are not already signed in. Enter in your LawPay username and password and click **Sign In**.
+4. Select **AffiniPay**, **CPACharge**, or **LawPay** as the payment gateway. We will select LawPay in this example.
 
-5. You then need to authorize the Invoiced application by clicking  **Authorize**.
+5. Click **Connect to LawPay**. You will be taken to a screen to sign into your LawPay account, if you are not already signed in. Enter in your LawPay username and password and click **Sign In**.
 
-6. Your LawPay account is now connected and the payment method is enabled.
+6. You then need to authorize the Invoiced application by clicking  **Authorize**.
 
-7. You might need to change the default AffiniPay account that will be used to receive payments. We will select the operating account by default, however, you may wish to receive payments in a different account.
+7. Your LawPay account is now connected and the payment method is enabled.
+
+8. You might need to change the default AffiniPay account that will be used to receive payments. We will select the operating account by default, however, you may wish to receive payments in a different account.
 
 ## Using Multiple Accounts (Trust or Operating)
 

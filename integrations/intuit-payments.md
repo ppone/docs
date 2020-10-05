@@ -26,11 +26,13 @@ Connecting Intuit QuickBooks Payments is a straightforward process. Follow these
 
 2. Click **Setup** on the payment method you want to accept.
 
-3. Select **Intuit Payments** as the payment gateway.
+3. Click **Connect Payment Gateway**.
 
-4. Click **Connect to QuickBooks**. 
+4. Select **Intuit Payments** as the payment gateway.
 
-5. Click **Authorize** to connect Invoiced. You should see that credit card and ACH payments are enabled.
+5. Click **Connect to QuickBooks**. 
+
+6. Click **Authorize** to connect Invoiced. You should see that credit card and ACH payments are enabled.
 
 ## Client Workflow
 

@@ -26,9 +26,9 @@ Connecting American Express is a straightforward process. Follow these steps to 
 
 2. Click **Setup** on the payment method you want to accept.
 
-3. Select **American Express** as the payment gateway.
+3. Click **Connect Payment Gateway**.
 
-4. Click **Connect to American Express**.
+4. Select **American Express** as the payment gateway.
 
 5. Enter in your American Express **Merchant ID**, **API Password**, and **Domain**. If you do not know your processing domain then you should leave it as the default.
 

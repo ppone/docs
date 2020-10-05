@@ -26,9 +26,9 @@ Connecting Authorize.Net is a straightforward process. Follow these steps to sta
 
 2. Click **Setup** on the payment method you want to accept.
 
-3. Select **Authorize.Net** as the payment gateway.
+3. Click **Connect Payment Gateway**.
 
-4. Click **Connect to Authorize.Net**.
+4. Select **Authorize.Net** as the payment gateway.
 
 5. Enter in your Authorize.Net **API Login ID** and **Transaction Key**. You can find your API credentials from the Authorize.Net Merchant Interface by following [these instructions](https://support.authorize.net/s/article/How-do-I-obtain-my-API-Login-ID-and-Transaction-Key).
 

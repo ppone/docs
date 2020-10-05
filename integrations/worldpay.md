@@ -26,9 +26,9 @@ Connecting Worldpay is a straightforward process. Follow these steps to start ac
 
 2. Click **Setup** on the payment method you want to accept.
 
-3. Select **Worldpay** as the payment gateway.
+3. Click **Connect Payment Gateway**.
 
-4. Click **Connect to Worldpay**.
+4. Select **Worldpay** as the payment gateway.
 
 5. Enter in your Worldpay **Account ID**, **Sub ID**, and **Merchant PIN** and click **Save**. Then click **Enable** and the payment method you selected should be enabled.
 
