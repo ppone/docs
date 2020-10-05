@@ -1,5 +1,10 @@
 [
   {
+    "name": "Payment Gateway Settings",
+    "body": "A new Payment Gateways tab was added to Settings > Payments in order to better manage the payment gateways you have connected. It is now possible to modify an existing gateway configuration, for example, if you need to update an API key.",
+    "date": "2020-10-05"
+  },
+  {
     "name": "Intacct A/R Adjustments",
     "body": "We now support reading A/R Adjustments from Intacct as credit notes. A new Smart Event is available to read A/R Adjustments in real-time. You can enable this in the Intacct integration settings and then generate a new customization package. Also, a new credit note import tool has been added for bringing in existing credit notes.",
     "date": "2020-08-14"
