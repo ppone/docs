@@ -6,10 +6,9 @@ Invoiced integrates with NetSuite out of the box, a cloud-based ERP system. This
 
 The NetSuite integration ships with the following capabilities:
 
-- Importing outstanding invoices from NetSuite
-- Importing customers from NetSuite
-- Reconciling payments received on Invoiced to NetSuite
-- Syncing payments recorded on NetSuite to Invoiced
+- Reading customers, open invoices, credit notes, and payments from NetSuite
+- Writing payments received on Invoiced to NetSuite
+- Data flows happen in real-time
 
 [![NetSuite Data Flow](/docs/img/netsuite-object-mapping.png)](/docs/img/netsuite-object-mapping.png)
 
@@ -88,59 +87,7 @@ You will need to pick a user that will that the access token will be based on an
 
 ## Usage
 
-Once the integration is configured and the bundle is installed, new transactions will begin to sync with NetSuite automatically. If you wish to import existing customers or invoices please continue reading.
-
-### Import Existing Invoices
-
-You can import outstanding invoices from NetSuite using the invoice importer. This is useful after setting up the integration to pull in invoices that were created before the integration was installed.
-
-Instructions:
-
-1. Go to the **Invoices** tab in the Invoiced dashboard. Click on the **Import** button in the top-right.
-
-   [![Invoices Page](/docs/img/invoices-header.png)](/docs/img/invoices-header.png)
-
-2. Select **NetSuite**.
-
-   [![Invoice Importer](/docs/img/invoice-importer.png)](/docs/img/invoice-importer.png)
-
-3. When ready to import, click **Start**.
-
-   [![Start NetSuite Invoice Import](/docs/img/netsuite-invoice-importer-options.png)](/docs/img/netsuite-invoice-importer-options.png)
-
-4. The importer will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
-
-   [![NetSuite Invoice Import Started](/docs/img/netsuite-invoice-importer-pending.png)](/docs/img/netsuite-invoice-importer-pending.png)
-
-5. Once the import is finished you will see the newly imported invoices on the **Invoices** page.
-
-   [![NetSuite Invoice Import Finished](/docs/img/netsuite-invoice-importer-finished.png)](/docs/img/netsuite-invoice-importer-finished.png)
-
-### Import Entire Customer List
-
-You can import customers from NetSuite into Invoiced as a one-time import. Why might you use this? The sync process will only import customers that have invoices, whereas a manual import will bring in your entire A/R customer list.
-
-Instructions:
-
-1. Go to the **Customers** tab in the Invoiced dashboard. Click on the **Import** button in the top-right.
-
-   [![Customers Page](/docs/img/customers-header.png)](/docs/img/customers-header.png)
-
-2. Select **NetSuite**.
-
-   [![Customer Importer](/docs/img/customer-importer.png)](/docs/img/customer-importer.png)
-
-3. Click **Start**.
-
-   [![Start NetSuite Customer Import](/docs/img/netsuite-customer-importer.png)](/docs/img/netsuite-customer-importer.png)
-
-4. The importer will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
-
-   [![NetSuite Customer Import Started](/docs/img/netsuite-customer-importer-pending.png)](/docs/img/netsuite-customer-importer-pending.png)
-
-5. Once the import is finished you will see the newly imported invoices on the **Customers** page.
-
-   [![NetSuite Customer Import Finished](/docs/img/netsuite-customer-importer-finished.png)](/docs/img/netsuite-customer-importer-finished.png)
+Once the bundle is installed and fully configured, new transactions will sync with NetSuite automatically. The integration does not sync data created prior to the bundle being installed and fully configured.
 
 ## Edge Cases
 

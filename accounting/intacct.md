@@ -6,7 +6,7 @@ Invoiced integrates with Sage Intacct out of the box, a best-in-class cloud ERP.
 
 The Intacct integration ships with the following capabilities:
 
-- Reading customers, open invoices, and payments from Intacct
+- Reading customers, open invoices, adjustments, and payments from Intacct
 - Reconciling payments received on Invoiced to Intacct
 - Writing invoices generated on Invoiced to Intacct
 - Most data flows happen in real-time
@@ -86,7 +86,7 @@ The next step is to set up a web services user for Invoiced on Intacct. It is re
 
 ### Install the Invoiced Customization Package
 
-The Invoiced Customization Package generated in the previous step can be installed on Intacct to add new custom fields needed by the integration and instantly import transactions from Intacct.
+The Invoiced Customization Package generated in the previous step should be installed on Intacct to add new custom fields and Smart Events needed by the integration.
 
 1. Find the `invoiced.xml` file generated in the previous section. This file is tied to your Invoiced account. Do not share it with anyone! Install the Invoiced package on Intacct in the **Customization Services** section.
 
@@ -94,59 +94,7 @@ The Invoiced Customization Package generated in the previous step can be install
 
 ## Usage
 
-Once the integration is configured and the customization package is installed, new transactions will begin to sync with Intacct automatically. If you wish to import existing customers or invoices please continue reading.
-
-### Import Existing Invoices
-
-You can import outstanding invoices from the Intacct Order Entry module using our Intacct invoice import tool. This is useful after setting up the integration to pull in invoices that were created before the integration was installed.
-
-Instructions:
-
-1. Go to the **Invoices** tab in the Invoiced dashboard. Click on the **Import** button in the top-right.
-
-   [![Invoices Page](/docs/img/invoices-header.png)](/docs/img/invoices-header.png)
-
-2. Select **Intacct**.
-
-   [![Invoice Import Tool](/docs/img/invoice-importer.png)](/docs/img/invoice-importer.png)
-
-3. Select the sales document type you would like to import, and when ready, click **Start**.
-
-   [![Start Intacct Invoice Import](/docs/img/intacct-invoice-importer-options.png)](/docs/img/intacct-invoice-importer-options.png)
-
-4. The import tool will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
-
-   [![Intacct Invoice Import Started](/docs/img/intacct-invoice-importer-pending.png)](/docs/img/intacct-invoice-importer-pending.png)
-
-5. Once the import is finished you will see the newly imported invoices on the **Invoices** page.
-
-   [![Intacct Invoice Import Finished](/docs/img/intacct-invoice-importer-finished.png)](/docs/img/intacct-invoice-importer-finished.png)
-
-### Import Entire Customer List
-
-You can import your entire customer list from Intacct into Invoiced as a one-time import. Why might you use this? The integration will only import customers that have new invoices, whereas a customer import will bring in your entire A/R customer list.
-
-Instructions:
-
-1. Go to the **Customers** tab in the Invoiced dashboard. Click on the **Import** button in the top-right.
-
-   [![Customers Page](/docs/img/customers-header.png)](/docs/img/customers-header.png)
-
-2. Select **Intacct**.
-
-   [![Customer Import Tool](/docs/img/customer-importer.png)](/docs/img/customer-importer.png)
-
-3. Click **Start**.
-
-   [![Start Intacct Customer Import](/docs/img/intacct-customer-importer.png)](/docs/img/intacct-customer-importer.png)
-
-4. The import tool will begin working. You are free to leave the page once the import starts. If you leave you will get an email afterwards with the result.
-
-   [![Intacct Customer Import Started](/docs/img/intacct-customer-importer-pending.png)](/docs/img/intacct-customer-importer-pending.png)
-
-5. Once the import is finished you will see the newly imported invoices on the **Customers** page.
-
-   [![Intacct Customer Import Finished](/docs/img/intacct-customer-importer-finished.png)](/docs/img/intacct-customer-importer-finished.png)
+Once the integration is fully configured, new transactions will sync with Invoiced automatically. The integration does not sync data created prior to the integration being installed.
 
 ### Dimension Mapping
 
@@ -180,7 +128,7 @@ Here we have documented all of the limitations, nuances, and edge cases to be aw
 
 - Any modifications to invoices on Invoiced that originated from Intacct will not be posted to Intacct.
 
-- When importing bill to contacts instead of customers, the customer on Invoiced will use the information from the bill to contact instead of the Intacct customer. This means the name and details will match the bill to contact, and will result in multiple Invoiced customers for a single Intacct customer. The customer number on Invoiced will be auto-generated and will not match the one on Intacct because there are multiple Invoiced customers that could have the same account number.
+- When using bill to contacts as the customer source instead of customers, the customer name and details on Invoiced will match the bill to contact. This will result in multiple Invoiced customers for a single Intacct customer if there is more than one bill to contact used for that customer. The customer number on Invoiced will be auto-generated and will not match the one on Intacct because there are multiple Invoiced customers that could have the same account number.
 
 - Partial refunds are not supported by the integration and must be reconciled manually.
 
@@ -228,7 +176,7 @@ Change the Payments Summary frequency to either Daily or Monthly. To do so, comp
 
 ### DL02000001 error
 
-When an import fails with a `DL02000001` error code then that means the importer was trying to retrieve a field that did not exist on an Intacct object. This could happen if you have modified an object definition to remove or modify a standard field that our importer requests, or if you have configured the importer to pull in a custom field that does not exist on Intacct.
+When a `DL02000001` error code is encountered then that means the integration attempted to retrieve a field that did not exist on an Intacct object. This could happen if you have modified an object definition to remove or modify a standard field that our integration requests, or if you have configured the integration to pull in a custom field that does not exist on Intacct.
 
 ### Undeposited funds error with multi-currency
 
