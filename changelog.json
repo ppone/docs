@@ -1,7 +1,7 @@
 [
   {
     "name": "Payment Gateway Settings",
-    "body": "A new Payment Gateways tab was added to Settings > Payments in order to better manage the payment gateways you have connected. It is now possible to modify an existing gateway configuration, for example, if you need to update an API key.",
+    "body": "A new Payment Gateways tab was added to Settings &rarr; Payments in order to better manage the payment gateways you have connected. It is now possible to modify an existing gateway configuration, for example, if you need to update an API key.",
     "date": "2020-10-05"
   },
   {
