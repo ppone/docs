@@ -169,3 +169,5 @@ Steps to import Payments:
 ### Rolling back imports
 
 Did your import not turn out the way you expected? Not a problem! You can rollback any import with the click of a button provided it happened within the last 3 days. Simply open the import in the dashboard and click the red **Rollback Import** button.
+
+There is a limit on the size of imports that can be rolled back. If your import has more than a few thousand records then you might not be able to rollback. The exact limit depends on the complexity of your records (i.e. number of line items).
