@@ -13,11 +13,11 @@ Custom fields have many uses. Here's just a few scenarios where custom fields ca
 
 ### Creating a custom field
 
-You can set up custom fields in **Settings** &rarr; **Custom Fields** &rarr; **New Custom Field** to add a custom field.
+You can add a new custom field by going to **Settings** &rarr; **Custom Fields** &rarr; **New Custom Field**.
 
 #### Supported Object Types
 
-These object types support adding custom fields:
+These object types support custom fields:
 - Credit Note
 - Customer
 - Estimate
@@ -38,9 +38,17 @@ These object types support adding custom fields:
 
 ### Using custom fields
 
-Now when you are creating a new customer account or drafting an invoice you will see your newly created custom field as an option when creating a customer account or drafting a new invoice.
+Once you have created a custom field you can begin using it immediately. When creating or editing data (i.e. customers and invoices) in the application you will see form elements for the custom fields you have added.
 
-And that's all it takes to setup and deploy custom fields. Any non-empty, customer-visible custom field will be displayed on the invoice presented to your customer. If the custom field is empty on the invoice then it will inherit its value from the customer account (when that has been set).
+If you have enabled customer visibility on your custom field, then customers will see it in the customer portal and on documents. Not every object supports displaying custom field values to a customer. This feature is primarily reserved for custom fields on customers, invoices and line items.  Any non-empty, customer-visible custom field will be displayed on the invoice presented to your customer. If the custom field is empty on the invoice then it will inherit its value from the customer account.
+
+These object types can display a custom field to customers when enabled:
+- Customer
+- Invoice
+- Estimate
+- Credit Note
+- Line Item
+- Subscription
 
 [![Custom Field Invoice](/docs/img/custom-field-invoice.png)](/docs/img/custom-field-invoice.png)
 
