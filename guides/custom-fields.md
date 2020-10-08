@@ -19,10 +19,24 @@ It's as simple as entering in the name of your custom field and clicking **Save*
 
 #### Limitations
 
-- The custom field ID must be unique and cannot be changed later.
-- Only 10 custom fields can be created.
+- The custom field ID must be unique per object type and cannot be changed later.
+- Only 10 custom fields can be created per object type.
 - Custom field titles are limited to **40 characters**.
 - Values set on customer accounts and invoices are limited to **255 characters**.
+
+#### Supported Object Types
+
+These object types support adding custom fields:
+- Credit Note
+- Customer
+- Estimate
+- Invoice
+- Item
+- Line Item
+- Payment
+- Plan
+- Subscription
+- Transaction
 
 ### Using custom fields
 
