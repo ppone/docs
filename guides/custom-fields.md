@@ -13,16 +13,7 @@ Custom fields have many uses. Here's just a few scenarios where custom fields ca
 
 ### Creating a custom field
 
-You can set up custom fields in **Settings** &rarr; **Custom Fields**. Then click on **New Custom Field** to add a custom field.
-
-It's as simple as entering in the name of your custom field and clicking **Save**. This step only needs to be done once for each custom field your business uses.
-
-#### Limitations
-
-- The custom field ID must be unique per object type and cannot be changed later.
-- Only 10 custom fields can be created per object type.
-- Custom field titles are limited to **40 characters**.
-- Values set on customer accounts and invoices are limited to **255 characters**.
+You can set up custom fields in **Settings** &rarr; **Custom Fields** &rarr; **New Custom Field** to add a custom field.
 
 #### Supported Object Types
 
@@ -37,6 +28,13 @@ These object types support adding custom fields:
 - Plan
 - Subscription
 - Transaction
+
+#### Limitations
+
+- The custom field ID must be unique per object type and cannot be changed later.
+- Only 10 custom fields can be created per object type.
+- Custom field titles are limited to **40 characters**.
+- Values set on customer accounts and invoices are limited to **255 characters**.
 
 ### Using custom fields
 
