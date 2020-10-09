@@ -30,13 +30,23 @@ The QuickBooks Online integration ships with the following capabilities:
 
 5. Change the account mapping and other settings. Click **Save**.
 
-#### Account Mapping
+### Account Mapping
 
 Invoiced will create the following accounts in your G/L if you do not specify an account:
 
 - "Invoiced Account" - income account for new Products/Services created on QuickBooks from Invoiced line items
 - "Invoiced Discount" - income account for discounts
 - "Imported Invoiced Tax Code" - tax code for taxes received on Invoiced
+
+#### Income Account Mapping
+
+The *Income Account* for any line item in QuickBooks Online is derived from the associated Product or Service on QuickBooks. Our integration will match the Product or Service on QuickBooks based on the line item name.
+
+When creating an invoice, if a Product or Service with a matching name cannot be found on QuickBooks, then our integration will create a new Product or Service. The name of the Product or Service will be the line item name. The *Income Account* for the newly created Product or Service will be the default income account you have selected in the integration settings.
+
+You can change the *Income Account* for any line item in the **Products and Services** page on QuickBooks. This will work for any Product or Service, regardless of whether it was created by the Invoiced integration. If you find that a line item created by the Invoiced integration does not have the correct *Income Account* then it can still be changed through the **Products and Services** page.
+
+Please consult the QuickBooks documentation for more details on how to configure Products and Services.
 
 ## Usage
 
