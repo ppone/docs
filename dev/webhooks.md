@@ -51,7 +51,7 @@ If a webhook attempt fails then we will reattempt the webhook every 1 hour for u
 
 #### Troubleshooting webhooks
 
-Within the Invoiced application you can click on the **Details** button underneath any event. You will see all of the webhook attempts and a summary of each response we received.
+We keep a log of recent webhook attempts that is useful for troubleshooting webhook issues. The webhook logs can be accessed in **Settings** &rarr; **Developers** &rarr; **Webhook Logs** of the Invoiced application. You can also see webhook attempts for specific events by clicking the **Details** button underneath any event.
 
 #### Retrying webhooks
 
