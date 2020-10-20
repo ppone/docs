@@ -1,5 +1,10 @@
 [
   {
+    "name": "Advance Payments",
+    "body": "You can now process payments in advance of an invoice being created. If there are no open invoices when processing a payment on the Receive Payment screen then the payment amount will be added to the customer's credit balance. The customer portal still allows customers to pay open invoices only.",
+    "date": "2020-10-20"
+  },
+  {
     "name": "Webhook Logs",
     "body": "We've added a log of recent webhook attempts across your entire account that can be viewed in Settings > Developers > Webhook Logs.",
     "date": "2020-10-16"
