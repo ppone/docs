@@ -439,6 +439,11 @@
           "name": "Lob"
         },
         {
+          "id": "merchant-e-solutions",
+          "name": "Merchant e-Solutions",
+          "hidden": true
+        },
+        {
           "id": "moneris",
           "name": "Moneris",
           "hidden": true

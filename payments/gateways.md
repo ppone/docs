@@ -11,6 +11,7 @@ Invoiced supports the most popular payment gateways out of the box. Gateways tha
 - [CyberSource](/resources/docs/integrations/cybersource)
 - [GoCardless](/resources/docs/integrations/gocardless)
 - [Intuit QuickBooks Payments](/resources/docs/integrations/intuit-payments)
+- [Merchant e-Solutions](/resources/docs/integrations/merchant-e-solutions)
 - [Moneris](/resources/docs/integrations/moneris)
 - [NMI](/resources/docs/integrations/nmi)
 - [PayPal Payflow Pro](/resources/docs/integrations/paypal-payflow-pro)
