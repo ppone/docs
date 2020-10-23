@@ -36,6 +36,12 @@ Other Requirements:
 - 1 GHz+ processor
 - 300MB of disk space
 
+### Security
+
+Since ERP Connect is often running in privileged environments we have taken special care to design a secure system. In order to function, ERP Connect only needs to be able to communicate with api.invoiced.com. It uses the Invoiced API to upload and download data from Invoiced. ERP Connect does not require opening any ports in your firewall or hosting a public-facing service because the application only makes outgoing API calls to Invoiced. This design makes it easier to operate ERP Connect behind a corporate firewall.
+
+All communication with Invoiced is encrypted over a TLS 1.2+ connection. You can learn more about the security measures taken on our [security page](https://www.invoiced.com/product/security).
+
 ## Usage
 
 In order to use ERP Connect you must first have an Invoiced account. Once you have an Invoiced account and ERP Connect installed then you are ready to begin using the application.
