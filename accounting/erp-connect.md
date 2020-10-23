@@ -42,7 +42,7 @@ Other Requirements:
 
 Since ERP Connect is often running in privileged environments we have taken special care to design a secure system. In order to function, ERP Connect only needs to be able to communicate with api.invoiced.com. It uses the Invoiced API to upload and download data from Invoiced. ERP Connect does not require opening any ports in your firewall or hosting a public-facing service because the application only makes outgoing API calls to Invoiced. This design makes it easier to operate ERP Connect behind a corporate firewall.
 
-All communication with Invoiced is encrypted over a TLS 1.2+ connection. You can learn more about the security measures taken on our [security page](https://www.invoiced.com/product/security).
+All communication with Invoiced is encrypted over a TLS 1.2+ connection. Once installed, the application will periodically check for updates and automatically upgrade to the latest version. You can learn more about the security measures taken at Invoiced on our [security page](https://www.invoiced.com/product/security).
 
 ## Usage
 
