@@ -13,16 +13,18 @@ Data sources for ingesting data:
 - Invoice file attachments (any file type)
 - Invoice PDFs
 
-File formats for outputting data:
+File formats for outputting data from Invoiced:
 - CSV
+- XLS
+- XLSX
 
 ## Installation
 
 1. [Download ERP Connect here](https://invoiced.com/download) for your operating system.
 
-2. Open the downloaded installer on the computer you intend to keep ERP Connect running. Please keep mind of the minimum system requirements below.
+2. Windows: Open the setup.exe file you downloaded and the installer will guide you through the installation process.
 
-3. The installer will guide you through the installation process.
+   Mac OS: Drag the downloaded file into your **Applications** folder.
 
 ### System Requirements
 
