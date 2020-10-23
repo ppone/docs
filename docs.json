@@ -242,6 +242,24 @@
           "name": "Introduction"
         },
         {
+          "id": "erp-connect",
+          "name": "ERP Connect",
+          "table_of_contents": [
+            {
+              "id": "overview",
+              "name": "Overview"
+            },
+            {
+              "id": "installation",
+              "name": "Installation"
+            },
+            {
+              "id": "usage",
+              "name": "Usage"
+            }
+          ]
+        },
+        {
           "id": "netsuite",
           "name": "NetSuite",
           "table_of_contents": [
