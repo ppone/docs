@@ -55,6 +55,10 @@ Setting up Google Analytics:
 
 Going forward you will start to see activity in Google Analytics for customer portal traffic.
 
+## Custom Domain
+
+You can use your own domain name in the customer portal (i.e. billing.mycompany.com) instead of using the invoiced.com subdomain. Custom domains can be setup in **Settings** &rarr; **Customer Portal** &rarr; **Setup Custom Domain**. The only requirement is that you can create a CNAME DNS record to `custom.invoiced.com` for your domain name.
+
 ## Custom CSS and Javascript
 
 You can modify the look and feel of the customer portal by providing your own CSS stylesheet. The stylesheet will be added in addition to the default stylesheet on all customer portal pages. This can be setup in **Settings** &rarr; **Customer Portal** &rarr; **Custom CSS**.
