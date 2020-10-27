@@ -1,5 +1,10 @@
 [
   {
+    "name": "ERP Connect",
+    "body": "We have developed a new tool called ERP Connect that allows you to securely integrate on-premise ERP systems with Invoiced with no coding required. ERP Connect is available for download to all Invoiced users on Mac OS and Windows platforms. You can <a href='http://invoiced.com/resources/docs/accounting/erp-connect' target='_blank'>learn more about ERP Connect here</a>.",
+    "date": "2020-10-27"
+  },
+  {
     "name": "Custom Domains",
     "body": "It is now easier than ever to setup a custom domain for your customer portal in Settings &rarr; Customer Portal &rarr; Setup Custom Domain. This feature is available on the Advanced plan and up.",
     "date": "2020-10-23"
