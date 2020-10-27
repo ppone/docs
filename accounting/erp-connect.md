@@ -48,6 +48,8 @@ All communication with Invoiced is encrypted over a TLS 1.2+ connection. Once in
 
 In order to use ERP Connect you must first have an Invoiced account. Once you have an Invoiced account and ERP Connect installed then you are ready to begin using the application.
 
+[![ERP Connect Application](/docs/img/erp-connect-app.png)](/docs/img/erp-connect-app.png)
+
 ### Creating a Mapping
 
 The key concept in ERP Connect is a mapping. Mappings describe a data flow between Invoiced and a third party system.
