@@ -20,7 +20,7 @@ One of the major highlights of the system is that Invoiced keeps track of credit
 
 ### Paying with Credits
 
-Once you have added credits to your customer's account then you are now able to use them. By default we will automatically apply credits to new invoices you issue for that customer.
+Once you have added credits to your customer's account then you are now able to use them. By default, Invoiced will automatically apply credits to new invoices you issue for that customer.
 
 If you have the **Apply Credits to New Invoices** setting turned off or want to credit an existing invoice then you can follow these steps:
 
@@ -30,7 +30,7 @@ Steps to use credits:
 
 2. Select the customer that wants to use the credits (if not already selected).
 
-3. We will load any available credits for that customer. Click the **Pay using credits** link.
+3. Invoiced will load any available credits for that customer. If the customer has a credit balance then you can click the **Apply Credits** link.
 
 4. Select an invoice to apply the credits to (if one is not already selected).
 
