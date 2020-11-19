@@ -11,6 +11,7 @@ The QuickBooks Online integration ships with the following capabilities:
 - Writing invoices generated on Invoiced to QuickBooks Online
 - Reconciling payments received on Invoiced to QuickBooks Online
 - Syncing payments recorded on QuickBooks Online to Invoiced
+- Most data flows happen in real-time
 
 [![QuickBooks Online Data Flow](/docs/img/qbo-object-mapping.png)](/docs/img/qbo-object-mapping.png)
 
@@ -38,6 +39,21 @@ Invoiced will create the following accounts in your G/L if you do not specify an
 - "Invoiced Discount" - income account for discounts
 - "Imported Invoiced Tax Code" - tax code for taxes received on Invoiced
 
+## Usage
+
+In this section you will learn how to use the QuickBooks Online integration.
+
+### Field Mapping
+
+We support setting several optional fields on QuickBooks Online that do not have a standard Invoiced field. This can be useful if you are first creating invoices on Invoiced and posting to QuickBooks Online.
+ 
+The mappings happen automatically when a record on Invoiced has a custom field with a specific ID that corresponds to a specific field on QuickBooks Online. This gives you granular control of the data sent to QuickBooks Online.
+
+Object Type | Invoiced Custom Field ID    | QuickBooks Field
+------------|-----------------------------|------------------
+Invoice     | `qbo_location`              | Location
+Line Item   | `qbo_class`                 | Class
+
 #### Income Account Mapping
 
 The *Income Account* for any line item in QuickBooks Online is derived from the associated Product or Service on QuickBooks. Our integration will match the Product or Service on QuickBooks based on the line item name.
@@ -47,10 +63,6 @@ When creating an invoice, if a Product or Service with a matching name cannot be
 You can change the *Income Account* for any line item in the **Products and Services** page on QuickBooks. This will work for any Product or Service, regardless of whether it was created by the Invoiced integration. If you find that a line item created by the Invoiced integration does not have the correct *Income Account* then it can still be changed through the **Products and Services** page.
 
 Please consult the QuickBooks documentation for more details on how to configure Products and Services.
-
-## Usage
-
-In this section you will learn how to use the QuickBooks Online integration.
 
 ### Enabling Auto-Sync
 
