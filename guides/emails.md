@@ -123,6 +123,9 @@ Below is a list of IP addresses that outgoing emails will come from. This can be
 - `13.59.179.192`
 - `3.19.95.157`
 - `3.19.101.198`
+- `3.209.119.167`
+- `3.214.206.190`
+- `34.195.191.40`
 
 ## Automatically sending new invoices
 
