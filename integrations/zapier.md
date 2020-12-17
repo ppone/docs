@@ -10,25 +10,33 @@ You can install the [Invoiced Zapier integration here](https://zapier.com/zapboo
 
 You can be notified on Zapier when the following events happen on Invoiced:
 
+- New Contact
+- New Credit Note
 - New Customer
+- New Estimate
 - New Invoice
 - Invoice Paid in Full
-- New Estimate
-- New Credit Note
+- New Note
+- New Payment
 - New Subscription
 - Subscription Canceled
-- New Payment
+- New Task
 
 ## Actions
 
 You can perform the following actions on Invoiced from Zapier:
 
-- Create Customer
-- Create Invoice
-- Create Estimate
+- Create Contact
+- Create Credit Balance Adjustment
 - Create Credit Note
+- Create Customer
+- Update Customer
+- Create Estimate
+- Create Invoice
+- Create Note
 - Create Pending Line Item
 - Create Subscription
+- Create Task
 
 ## Searches
 
