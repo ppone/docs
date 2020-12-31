@@ -101,6 +101,11 @@ When a sync fails you can check the SuiteScript logs in NetSuite.
 
 If you are still unable to get your data synced then please contact [support@invoiced.com](mailto:support@invoiced.com) for further assistance.
 
+## Reseting sync mappings in Netsuite
+
+You can do a mass update on the invoiced_id in Netsuite to reset the id's.  This is useful if you cleared the sandbox.
+
+
 ### Finding Your NetSuite Account ID
 
 Your NetSuite account ID is required in order to connect the integration. You can obtain your account ID from NetSuite with these steps:
